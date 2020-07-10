@@ -1,0 +1,52 @@
+#VS project files
+*.lastcodeanalysissucceeded
+*.ilk
+*.tlog
+*.lastbuildstate
+*.sarif
+*.xml
+*.vcxproj
+*.csproj
+*.filters
+*.user
+*.idb
+*.pdb
+*.FileListAbsolute.txt
+*.cache
+*.json
+*.targets
+*.props
+*.ini
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.out
+*.app
+OSRSSim.AssemblyInfo.cs

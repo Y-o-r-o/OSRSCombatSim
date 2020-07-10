@@ -1,0 +1,43 @@
+﻿<Window x:Class="OSRSComSim.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OSRSComSim"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:viewmodels ="clr-namespace:OSRSComSim.ViewModels"
+        xmlns:views ="clr-namespace:OSRSComSim.Views"
+        
+        mc:Ignorable="d"
+        Title="Bones OSRS" Height="720" Width="1280"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Icon="./Resources/OSRSBone.ico">
+
+
+    <Window.DataContext>
+        <viewmodels:MainWindowViewModel/>
+    </Window.DataContext>
+
+
+    <Canvas  x:Name ="Main" Background="Gray">
+        <Border  Canvas.Left="304" Canvas.Top="70" Width="300" Height="35">
+            <TextBlock x:Name="Fighter1" TextWrapping="Wrap" Text="{Binding Fighter1Name}" FontSize="25" VerticalAlignment="Stretch" HorizontalAlignment="Center"/>
+        </Border>
+        <Border  Canvas.Left="670" Canvas.Top="70" Width="300" Height="35">
+            <TextBlock x:Name="Fighter2" TextWrapping="Wrap" Text="{Binding Fighter2Name}" FontSize="25" VerticalAlignment="Stretch" HorizontalAlignment="Center"/>
+        </Border>
+
+        <Button x:Name ="Button_Load_1" Content="Load player 1" Height="40" Width="180" HorizontalAlignment="Center" FontSize="20" Canvas.Left="363" Canvas.Top="30" Margin="0" Click="Button_Load_1_Click"/>
+        <Button x:Name ="Button_Load_2" Content="Load player 2" Height="40" Width="180" HorizontalAlignment="Center" FontSize="20" Canvas.Left="733" Canvas.Top="30" Margin="0" Click="Button_Load_2_Click"/>
+        <Button x:Name ="Button_Fight" Content="Fight" Height="40" Width="90" HorizontalAlignment="Center" FontSize="20" Canvas.Left="593" Canvas.Top="642" Margin="0" Click="Button_Fight_Click"/>
+
+
+        <ScrollViewer ScrollViewer.HorizontalScrollBarVisibility="Disabled" Canvas.Top="106" Height="512" Width="1274">
+            <Label x:Name="FightLog" Background="White" Content="{Binding FightLog}"/>
+        </ScrollViewer>
+
+        <ContentControl x:Name="show_content" Width="1275" Height="690" Loaded="Load_Screen_loaded" Content="{Binding ViewContent}"/>
+    </Canvas>
+
+</Window>

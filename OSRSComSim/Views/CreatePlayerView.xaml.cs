@@ -82,19 +82,12 @@ namespace OSRSComSim.Views
 
         private void BtnReset_Click(object sender, RoutedEventArgs e)
         {
-            view_model.HPLvl = 10;
-            view_model.DefLvl = 1;
-            view_model.StrLvl = 1;
-            view_model.AtkLvl = 1;
+            view_model.resetPlayerStats();
         }
 
         private void BtnRandom_Click(object sender, RoutedEventArgs e)
         {
-            Random rnd = new Random();
-            view_model.HPLvl = rnd.Next(10, 100);
-            view_model.DefLvl = rnd.Next(1, 100);
-            view_model.StrLvl = rnd.Next(1, 100);
-            view_model.AtkLvl = rnd.Next(1, 100);
+            view_model.setRandomPlayerStats();
         }
 
         private void EnterNameBox_GotFocus(object sender, RoutedEventArgs e)
@@ -105,21 +98,7 @@ namespace OSRSComSim.Views
 
         private void CaptureName_Btn_Click(object sender, RoutedEventArgs e)
         {
-            if (!Data_store.CheckIfPlayerExists(EnterNameBox.Text))
-            {
-                view_model.Name = EnterNameBox.Text;
-                if (view_model.Name == "No_name")
-                {
-                    EnterNameBox.Text = "Name length must be between 6 and 20.";
-                    EnterNameBox.FontSize = 15;
-                }
-                else CreatePlayerTab.SelectedIndex = 1;
-            }
-            else
-            {
-                EnterNameBox.Text = "This name already exists";
-                EnterNameBox.FontSize = 15;
-            }
+            view_model.setPlayerName(EnterNameBox.Text);
         }
 
         private void CreateButton_Click(object sender, RoutedEventArgs e)

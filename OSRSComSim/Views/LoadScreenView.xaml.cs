@@ -61,7 +61,6 @@ namespace OSRSComSim.Views
         private void button_select_Click(object sender, RoutedEventArgs e)
         {
             view_model.loadSelectedFighter(SelectedPlayer.Text);
-            view_model.Back_to_main_screen();
         }
     }
 }

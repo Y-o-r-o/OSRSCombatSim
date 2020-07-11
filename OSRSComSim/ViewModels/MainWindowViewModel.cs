@@ -14,6 +14,7 @@ namespace OSRSComSim.ViewModels
 
         private Players _fighter1;
         private Players _fighter2;
+        private string _fight_log;
 
         private string _fighter1name;
         private string _fighter2name;
@@ -68,6 +69,15 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("Fighter1");
             }
         }
+        public string FightLog
+        {
+            get { return _fight_log; }
+            set
+            {
+                _fight_log = value;
+                OnPropertyChanged("FightLog");
+            }
+        }
 
 
 
@@ -88,46 +98,32 @@ namespace OSRSComSim.ViewModels
         {
             ViewContent = null;
         }
-
-
-
-
-
-        //exp
-
-        private string _fight_log;
-
-        public string FightLog
-        {
-            get { return _fight_log; }
-            set
-            {
-                _fight_log = value;
-                OnPropertyChanged("FightLog");
-            }
-        }
-
         public void StartFight()
         {
-
-            while (true)
-            {
-                if (GetAttackResult(_fighter1,_fighter2) == "Game Over")
+            if (!(Fighter1Name == "No player selected" && Fighter2Name == "No player selected"))
+                while (true)
                 {
-                    FightLog += "\nGame Over\n";
-                    break;
-                }
-                FightLog += "\n" + _fighter1.name + " HP" + _fighter1.hp_lvl + ", " + _fighter2.name + " HP" + _fighter2.hp_lvl + "\n";
+                    if (GetAttackResult(_fighter1, _fighter2) == "Game Over")
+                    {
+                        FightLog += "\nGame Over\n";
+                        break;
+                    }
+                    FightLog += "\n" + _fighter1.name + " HP" + _fighter1.hp_lvl + ", " + _fighter2.name + " HP" + _fighter2.hp_lvl + "\n";
 
-                if (GetAttackResult(_fighter2, _fighter1) == "Game Over")
-                {
-                    FightLog += "\nGame Over\n";
-                    break;
-                }
-                FightLog += "\n" + _fighter1.name + " HP" + _fighter1.hp_lvl + ", " + _fighter2.name + " HP" + _fighter2.hp_lvl + "\n";
+                    if (GetAttackResult(_fighter2, _fighter1) == "Game Over")
+                    {
+                        FightLog += "\nGame Over\n";
+                        break;
+                    }
+                    FightLog += "\n" + _fighter1.name + " HP" + _fighter1.hp_lvl + ", " + _fighter2.name + " HP" + _fighter2.hp_lvl + "\n";
 
-            }
+                }
+            else FightLog = "You need select two players to fight!";
         }
+
+
+
+
 
         private string GetAttackResult(Players attacker, Players deffender)
         {
@@ -143,6 +139,7 @@ namespace OSRSComSim.ViewModels
             }
             else return "Fight Again";
         }
+
 
     }
 }

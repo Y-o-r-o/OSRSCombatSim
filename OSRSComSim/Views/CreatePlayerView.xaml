@@ -34,7 +34,7 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-            <TabControl Grid.ColumnSpan="4" Grid.RowSpan="2" x:Name="CreatePlayerTab" Background="#FF988763" BorderThickness="0">
+        <TabControl Grid.ColumnSpan="4" Grid.RowSpan="2" x:Name="CreatePlayerTab" Background="#FF988763" BorderThickness="0" SelectedIndex="{Binding SelectedIndex}">
 
             <TabControl.Resources>
                 <Style TargetType="TextBlock">
@@ -67,6 +67,7 @@
 
                     <Button Margin="299.667,0,0.333,0" Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="1" Content="OK" Click="CaptureName_Btn_Click"/>
 
+                    <TextBlock Grid.Row="3" Grid.Column="1" FontSize="12" Text="{Binding SetNameQuotes}"/>
                 </Grid>
             </TabItem>
 

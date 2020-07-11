@@ -17,13 +17,11 @@ namespace OSRSComSim.ViewModels
         private int _strlvl = 1;
         private int _atklvl = 1;
 
+        private string _setnamequotes;
+        private int _selected_index;
+
         private LoadScreenViewModel _loadscreenviewmodel;
 
-        public CreatePlayerViewModel(LoadScreenViewModel loadscreenviewmodel)
-        {
-            _loadscreenviewmodel = loadscreenviewmodel;
-        }
-        
         public string Name 
         {
             get { return _name; }
@@ -34,7 +32,6 @@ namespace OSRSComSim.ViewModels
                 else _name = value;
             }
         }
-
         public int HPLvl
         {
             get { return _hplvl; }
@@ -82,8 +79,82 @@ namespace OSRSComSim.ViewModels
             }
         }
 
+        public string SetNameQuotes 
+        { 
+            get
+            {
+                return _setnamequotes;
+            }
+            set 
+            {
+                _setnamequotes = value;
+                OnPropertyChanged("SetNameQuotes");
+            }
+
+        }
+        public int SelectedIndex
+        { 
+         get
+            {
+                return _selected_index;
+            }
+        set
+            {
+                if(value >= 0 && value < 4)
+                {
+                    _selected_index = value;
+                }
+                OnPropertyChanged("SelectedIndex");
+            }
+        }
+
+        public CreatePlayerViewModel(LoadScreenViewModel loadscreenviewmodel)
+        {
+            _loadscreenviewmodel = loadscreenviewmodel;
+            _setnamequotes = "Enter player name here.";
+            _selected_index = 0;
+        }
+        
 
 
+        public void resetPlayerStats()
+        {
+            HPLvl = 10;
+            DefLvl = 1;
+            StrLvl = 1;
+            AtkLvl = 1;
+        }
+        public void setRandomPlayerStats()
+        {
+            Random rnd = new Random();
+            HPLvl = rnd.Next(10, 100);
+            DefLvl = rnd.Next(1, 100);
+            StrLvl = rnd.Next(1, 100);
+            AtkLvl = rnd.Next(1, 100);
+        }
+        public void setPlayerName(string boxtext)
+        {
+
+            if (!HasNoSpecialChars(boxtext))
+            {
+                SetNameQuotes = "Dont use special chars.";
+            }
+            else if (Data_store.CheckIfPlayerExists(boxtext))
+            {
+                SetNameQuotes = "Player with this name already exists.";
+            }
+            else if (boxtext.Length > 20 || boxtext.Length < 6)
+            {
+                SetNameQuotes = "Player name length must bet betwee 6 and 20.";
+            }
+            else 
+            {
+                Name = boxtext;
+                SetNameQuotes = "Name set!";
+                SelectedIndex = 1;
+            }
+
+        }
 
         public void backToLoadScreen()
         {
@@ -105,6 +176,10 @@ namespace OSRSComSim.ViewModels
                 _loadscreenviewmodel.Load_players();
                 _loadscreenviewmodel.stopView();
             }
+        }
+        public bool HasNoSpecialChars(string yourString)
+        {
+            return !yourString.Any(ch => !Char.IsLetterOrDigit(ch));
         }
 
 

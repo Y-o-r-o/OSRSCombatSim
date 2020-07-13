@@ -18,7 +18,7 @@
         </Style>
     </UserControl.Resources>
 
-    <Canvas x:Name="LoadScreeenCanvas" Background="Gray">
+    <Canvas x:Name="LoadScreeenCanvas" Background="DarkKhaki">
         <Border  Canvas.Left="572" Canvas.Top="36" Width="300">
             <TextBlock x:Name="SelectedPlayer" TextWrapping="Wrap" Text="{Binding SelectedPlayer}" FontSize="35" VerticalAlignment="Stretch" HorizontalAlignment="Center" Canvas.Left="572" Canvas.Top="36"/>
         </Border>

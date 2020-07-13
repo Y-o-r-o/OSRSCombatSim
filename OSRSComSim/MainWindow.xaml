@@ -20,7 +20,7 @@
     </Window.DataContext>
 
 
-    <Canvas  x:Name ="Main" Background="Gray">
+    <Canvas  x:Name ="Main" Background="DarkKhaki">
         <Border  Canvas.Left="304" Canvas.Top="70" Width="300" Height="35">
             <TextBlock x:Name="Fighter1" TextWrapping="Wrap" Text="{Binding Fighter1Name}" FontSize="25" VerticalAlignment="Stretch" HorizontalAlignment="Center"/>
         </Border>

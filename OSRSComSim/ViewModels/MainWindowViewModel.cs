@@ -4,29 +4,37 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace OSRSComSim.ViewModels
 {
     public class MainWindowViewModel : ObservableObject
     {
+        private Thread th_fight;
+        private bool thread_is_started;
+
         private object _viewcontent;
 
         private Players _fighter1;
         private Players _fighter2;
+
         private string _fight_log;
 
+        private int _health_taken1;
+        private int _health_taken2;
         private string _fighter1name;
         private string _fighter2name;
 
-        public string Fighter1Name 
+
+        public string Fighter1Name
         {
             get { return _fighter1name; }
-            set 
+            set
             {
                 _fighter1name = value;
                 OnPropertyChanged("Fighter1Name");
-            } 
+            }
         }
         public string Fighter2Name
         {
@@ -37,13 +45,53 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("Fighter2Name");
             }
         }
+        public int HealthTaken1
+        {
+            get
+            {
+                return _health_taken1;
+            }
+            set
+            {
+                if (value >= 0)
+                {
+                    if (value >= 100)
+                    {
+                        _health_taken1 = 100;
+                    }
+                    else _health_taken1 = value;
+                    OnPropertyChanged("HealthTaken1");
+                }
+
+            }
+        }
+        public int HealthTaken2
+        {
+            get
+            {
+                return _health_taken2;
+            }
+            set
+            {
+                if (value >= 0)
+                {
+                    if (value >= 100)
+                    {
+                        _health_taken2 = 100;
+                    }
+                    else _health_taken2 = value;
+                    OnPropertyChanged("HealthTaken2");
+                }
+
+            }
+        }
         public object ViewContent
         {
             get
             {
                 return _viewcontent;
             }
-            set 
+            set
             {
                 _viewcontent = value;
                 OnPropertyChanged("ViewContent");
@@ -85,12 +133,16 @@ namespace OSRSComSim.ViewModels
         {
             _fighter1name = "No player selected";
             _fighter2name = "No player selected";
-            _fight_log = "Waiting to fight....";
+            _fight_log = "....";
+            _health_taken1 = 0;
+            _health_taken2 = 0;
+            thread_is_started = false;
         }
 
 
         public void viewLoadScreen(string fighter_num)
         {
+            reset();
             ViewContent = new LoadScreenView(this, fighter_num);
         }
 
@@ -100,46 +152,38 @@ namespace OSRSComSim.ViewModels
         }
         public void StartFight()
         {
-            if (!(Fighter1Name == "No player selected" && Fighter2Name == "No player selected"))
-                while (true)
-                {
-                    if (GetAttackResult(_fighter1, _fighter2) == "Game Over")
-                    {
-                        FightLog += "\nGame Over\n";
-                        break;
-                    }
-                    FightLog += "\n" + _fighter1.name + " HP" + _fighter1.hp_lvl + ", " + _fighter2.name + " HP" + _fighter2.hp_lvl + "\n";
-
-                    if (GetAttackResult(_fighter2, _fighter1) == "Game Over")
-                    {
-                        FightLog += "\nGame Over\n";
-                        break;
-                    }
-                    FightLog += "\n" + _fighter1.name + " HP" + _fighter1.hp_lvl + ", " + _fighter2.name + " HP" + _fighter2.hp_lvl + "\n";
-
-                }
-            else FightLog = "You need select two players to fight!";
+            reset();
+            th_fight = new Thread(new ThreadStart(Fight));
+            th_fight.Start();
+            thread_is_started = true;
         }
 
 
 
-
-
-        private string GetAttackResult(Players attacker, Players deffender)
+        public void Fight()
         {
-            int fig_1_atk_amt = attacker.combat.Attack(deffender.combat.def_roll);
-
-            deffender.hp_lvl = deffender.hp_lvl - fig_1_atk_amt;
-
-            if (deffender.hp_lvl <= 0)
+            while (true)
             {
-                FightLog += "\n" + deffender.name + " has Died and " + attacker.name + " is Victorious\n";
-
-                return "Game Over";
+                int atk_f1 = Fighter1.combat.Attack(Fighter2.combat.def_roll);
+                int atk_f2 = Fighter2.combat.Attack(Fighter1.combat.def_roll);
+                Thread.Sleep(10);
+                HealthTaken2 += (int)Math.Round(((double)atk_f1 / Fighter2.hp_lvl) * 100);
+                Thread.Sleep(10);
+                HealthTaken1 += (int)Math.Round(((double)atk_f2 / Fighter1.hp_lvl) * 100);
+                if (HealthTaken2 == 100 || HealthTaken1 == 100) break;
             }
-            else return "Fight Again";
+            thread_is_started = false;
         }
 
-
+        public void reset()
+        {
+            if (thread_is_started)
+            {
+                th_fight.Abort();
+                thread_is_started = false;
+            }
+            HealthTaken1 = 0;
+            HealthTaken2 = 0;
+        }
     }
 }

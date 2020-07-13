@@ -165,13 +165,13 @@ namespace OSRSComSim.ViewModels
             if (_name != "No_name")
             {
                 Players player = new Players
-                {
-                    name = _name,
-                    hp_lvl = _hplvl,
-                    def_lvl = _deflvl,
-                    str_lvl = _strlvl,
-                    atk_lvl = _atklvl
-                };
+                (
+                    name: _name,
+                    hp_lvl: _hplvl,
+                    def_lvl: _deflvl,
+                    str_lvl: _strlvl,
+                    atk_lvl: _atklvl
+                );
                 Data_store.SavePlayer(player);
                 _loadscreenviewmodel.Load_players();
                 _loadscreenviewmodel.stopView();

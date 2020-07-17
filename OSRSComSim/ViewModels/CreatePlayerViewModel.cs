@@ -182,12 +182,5 @@ namespace OSRSComSim.ViewModels
             return !yourString.Any(ch => !Char.IsLetterOrDigit(ch));
         }
 
-
-
-
-
-
-
-
     }
 }

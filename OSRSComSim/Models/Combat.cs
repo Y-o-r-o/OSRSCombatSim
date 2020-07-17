@@ -23,24 +23,24 @@ namespace OSRSComSim.Models
         private static Random rnd = new Random();
 
 
-        public int Attack(int deffender_def_roll)
+        public string Attack(int deffender_def_roll)
         {
             if (deffender_def_roll > atk_roll)
             {
                 if (atk_roll > rnd.Next(0, 2 * deffender_def_roll + 2))
                 {
 
-                    return rnd.Next((int)Math.Round((double)atk_max / 5), atk_max + 1);
+                    return rnd.Next((int)Math.Round((double)atk_max / 5), atk_max + 1).ToString();
                 }
-                else return 0;
+                else return "def";
             }
             else
             {
                 if ((2 * atk_roll + 2) - deffender_def_roll > rnd.Next(0, 2 * atk_roll + 2))
                 {
-                    return rnd.Next((int)Math.Round((double)atk_max / 5), atk_max + 1);
+                    return rnd.Next((int)Math.Round((double)atk_max / 5), atk_max + 1).ToString();
                 }
-                else return 0;
+                else return "def";
             }
         }
 

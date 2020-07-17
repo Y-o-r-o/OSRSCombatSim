@@ -19,32 +19,57 @@ namespace OSRSComSim.ViewModels
         private Players _fighter1;
         private Players _fighter2;
 
-        private string _fight_log;
-
         private int _health_taken1;
         private int _health_taken2;
-        private string _fighter1name;
-        private string _fighter2name;
 
+        private string _lastatkstat1color;
+        private string _lastatkstat2color;
 
-        public string Fighter1Name
+        private string _lastatkstat1context;
+        private string _lastatkstat2context;
+
+        public string LastAtkStat1Color 
         {
-            get { return _fighter1name; }
-            set
+            get 
+            { return _lastatkstat1color; }
+            set 
             {
-                _fighter1name = value;
-                OnPropertyChanged("Fighter1Name");
+                _lastatkstat1color = value;
+                OnPropertyChanged("LastAtkStat1Color");
             }
         }
-        public string Fighter2Name
+        public string LastAtkStat2Color
         {
-            get { return _fighter2name; }
+            get
+            { return _lastatkstat2color; }
             set
             {
-                _fighter2name = value;
-                OnPropertyChanged("Fighter2Name");
+                _lastatkstat2color = value;
+                OnPropertyChanged("LastAtkStat2Color");
             }
         }
+        
+        public string LastAtkStat1Context
+        {
+            get
+            { return _lastatkstat1context; }
+            set
+            {
+                _lastatkstat1context = value;
+                OnPropertyChanged("LastAtkStat1Context");
+            }
+        }
+        public string LastAtkStat2Context
+        {
+            get
+            { return _lastatkstat2context; }
+            set
+            {
+                _lastatkstat2context = value;
+                OnPropertyChanged("LastAtkStat2Context");
+            }
+        }
+        
         public int HealthTaken1
         {
             get
@@ -85,6 +110,7 @@ namespace OSRSComSim.ViewModels
 
             }
         }
+        
         public object ViewContent
         {
             get
@@ -97,13 +123,13 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("ViewContent");
             }
         }
+      
         public Players Fighter1
         {
             get { return _fighter1; }
             set
             {
                 _fighter1 = value;
-                Fighter1Name = ((Players)value).name;
                 OnPropertyChanged("Fighter1");
             }
         }
@@ -113,29 +139,19 @@ namespace OSRSComSim.ViewModels
             set
             {
                 _fighter2 = value;
-                Fighter2Name = ((Players)value).name;
-                OnPropertyChanged("Fighter1");
+                OnPropertyChanged("Fighter2");
             }
         }
-        public string FightLog
-        {
-            get { return _fight_log; }
-            set
-            {
-                _fight_log = value;
-                OnPropertyChanged("FightLog");
-            }
-        }
-
 
 
         public MainWindowViewModel()
         {
-            _fighter1name = "No player selected";
-            _fighter2name = "No player selected";
-            _fight_log = "....";
             _health_taken1 = 0;
             _health_taken2 = 0;
+            LastAtkStat1Color = "Transparent";
+            LastAtkStat2Color = "Transparent";
+            LastAtkStat1Context = "";
+            LastAtkStat2Context = "";
             thread_is_started = false;
         }
 
@@ -162,14 +178,50 @@ namespace OSRSComSim.ViewModels
 
         public void Fight()
         {
+            string atk_f1;
+            string atk_f2;
             while (true)
-            {
-                int atk_f1 = Fighter1.combat.Attack(Fighter2.combat.def_roll);
-                int atk_f2 = Fighter2.combat.Attack(Fighter1.combat.def_roll);
-                Thread.Sleep(10);
-                HealthTaken2 += (int)Math.Round(((double)atk_f1 / Fighter2.hp_lvl) * 100);
-                Thread.Sleep(10);
-                HealthTaken1 += (int)Math.Round(((double)atk_f2 / Fighter1.hp_lvl) * 100);
+            {   
+                
+                atk_f1 = Fighter1.combat.Attack(Fighter2.combat.def_roll);
+                atk_f2 = Fighter2.combat.Attack(Fighter1.combat.def_roll);
+                
+                
+                if (atk_f1 != "def")
+                {
+                    LastAtkStat2Color = "Red";
+                    LastAtkStat2Context = atk_f1.ToString();
+
+                    HealthTaken2 += (int)Math.Round((double.Parse(atk_f1) / Fighter2.hp_lvl) * 100);
+                }
+                else
+                {
+                    LastAtkStat2Color = "Blue";
+                    LastAtkStat2Context = "0";
+                }
+                Thread.Sleep(1000);
+                LastAtkStat2Color = "Transparent";
+                LastAtkStat2Context = "";
+                Thread.Sleep(1400);
+                
+                
+                if (atk_f2 != "def")
+                {
+                    LastAtkStat1Color = "Red";
+                    LastAtkStat1Context = atk_f2.ToString();
+                    HealthTaken1 += (int)Math.Round((double.Parse(atk_f2) / Fighter1.hp_lvl) * 100);
+                }
+                else
+                {
+                    LastAtkStat1Color = "Blue";
+                    LastAtkStat1Context = "0";
+                }
+                Thread.Sleep(1000);
+                LastAtkStat1Color = "Transparent";
+                LastAtkStat1Context = "";
+                Thread.Sleep(1400);
+
+
                 if (HealthTaken2 == 100 || HealthTaken1 == 100) break;
             }
             thread_is_started = false;
@@ -182,6 +234,10 @@ namespace OSRSComSim.ViewModels
                 th_fight.Abort();
                 thread_is_started = false;
             }
+            LastAtkStat1Color = "Transparent";
+            LastAtkStat1Context = "";
+            LastAtkStat2Color = "Transparent";
+            LastAtkStat2Context = "";
             HealthTaken1 = 0;
             HealthTaken2 = 0;
         }

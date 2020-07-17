@@ -33,8 +33,6 @@ namespace OSRSComSim.Views
 
         }
 
-
-
         private void Btn_create_new_Click(object sender, RoutedEventArgs e)
         {
             view_model.viewCreatePlayer();
@@ -43,7 +41,6 @@ namespace OSRSComSim.Views
         {
             view_model.Back_to_main_screen();
         }
-
         private void Edit_btn_Click(object sender, RoutedEventArgs e)
         {
 
@@ -52,12 +49,10 @@ namespace OSRSComSim.Views
         {
             view_model.delete_player((sender as Button).Tag as string);
         }
-
         private void PlayerBorder_Click(object sender, MouseButtonEventArgs e)
         {
             view_model.SelectedPlayer = ((Border)sender).Tag.ToString();
         }
-
         private void button_select_Click(object sender, RoutedEventArgs e)
         {
             view_model.loadSelectedFighter(SelectedPlayer.Text);

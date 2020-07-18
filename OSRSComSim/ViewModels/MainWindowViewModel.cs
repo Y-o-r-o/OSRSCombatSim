@@ -109,7 +109,7 @@ namespace OSRSComSim.ViewModels
                 deffender.LastAtkStatColor = "Transparent";
                 deffender.LastAtkStatContext = "";
                 Thread.Sleep(1400);
-                if (attacker.HealthTaken == 100 || deffender.HealthTaken == 100) break;
+                if (attacker.HealthTaken >= 100 || deffender.HealthTaken >= 100) break;
             }
             thread_is_started = false;
         }

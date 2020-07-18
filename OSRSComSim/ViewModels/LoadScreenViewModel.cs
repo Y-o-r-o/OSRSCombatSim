@@ -22,17 +22,17 @@ namespace OSRSComSim.ViewModels
 {
    public class LoadScreenViewModel: ObservableObject
     {
-        private string _fighter_num;
+        private string                          _fighter_num;
 
-        public object               _viewcontent;
+        public object                           _viewcontent;
         
-        private MainWindowViewModel _mainwindowVM;
-        private string              _selected_player;
+        private MainWindowViewModel             _mainwindowVM;
+        private string                          _selected_player;
 
-        private ObservableCollection<Players> _player_list;
+        private ObservableCollection<Players>   _player_list;
 
 
-        public ObservableCollection<Players> PlayerList 
+        public ObservableCollection<Players>    PlayerList 
         {
             get
             {
@@ -44,7 +44,7 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("PlayerList");
             }
         }
-        public object ViewContent
+        public object                           ViewContent
         {
             get
             {
@@ -56,7 +56,7 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("ViewContent");
             }
         }
-        public string SelectedPlayer
+        public string                           SelectedPlayer
         {
             get 
             {
@@ -134,11 +134,10 @@ namespace OSRSComSim.ViewModels
         private Players getPlayer(string fighter_name) {
             foreach(Players player in PlayerList)
             {
-                if (player.name == fighter_name)
+                if (player.Name == fighter_name)
                 {
                     return player;
                 }
-
             }
             return null;
         }

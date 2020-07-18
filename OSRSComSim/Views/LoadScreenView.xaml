@@ -18,7 +18,7 @@
         </Style>
     </UserControl.Resources>
 
-    <Canvas x:Name="LoadScreeenCanvas" Background="DarkKhaki">
+    <Canvas x:Name="LoadScreeenCanvas" Background="#FFA59175">
         <Border  Canvas.Left="572" Canvas.Top="36" Width="300">
             <TextBlock x:Name="SelectedPlayer" TextWrapping="Wrap" Text="{Binding SelectedPlayer}" FontSize="35" VerticalAlignment="Stretch" HorizontalAlignment="Center" Canvas.Left="572" Canvas.Top="36"/>
         </Border>
@@ -32,19 +32,19 @@
         <Button x:Name="btn_create_new" Content="Create new" Canvas.Left="40" Margin="0" Canvas.Top="36" Width="252" Height="50" FontSize="30" Click="Btn_create_new_Click"/>
         <Button x:Name="btn_import_new" Content="Import new" Canvas.Left="290" Margin="0" Canvas.Top="36" Width="252" Height="50" FontSize="30"/>
 
-        <ListBox ItemsSource="{Binding PlayerList}" x:Name="players_viewer" Background="#FF5B5B25" Height="480" Canvas.Left="40" Canvas.Top="90" Width="500" >
+        <ListBox ItemsSource="{Binding PlayerList}" x:Name="players_viewer" Background="#FF443B26" Height="480" Canvas.Left="40" Canvas.Top="90" Width="500" >
             <ListBox.ItemTemplate>
                 <DataTemplate>
-                    <Border MouseLeftButtonUp="PlayerBorder_Click" Tag="{Binding name}">
+                    <Border MouseLeftButtonUp="PlayerBorder_Click" Tag="{Binding Name}">
                         <StackPanel Orientation="Horizontal" Background="#FF808000" Width="485" VerticalAlignment="Center">
 
-                            <TextBlock Text="{Binding name}" HorizontalAlignment="Left" VerticalAlignment="Center" Width="380" FontSize="30" Foreground="#FFFFD800" Margin="10,0,0,0"/>
+                            <TextBlock Text="{Binding Name}" HorizontalAlignment="Left" VerticalAlignment="Center" Width="380" FontSize="30" Foreground="#FFFFD800" Margin="10,0,0,0"/>
 
-                            <Button Background="Transparent" BorderBrush="Transparent" Height="45" Width="45" Tag="{Binding name}" Click="Edit_btn_Click">
+                            <Button Background="Transparent" BorderBrush="Transparent" Height="45" Width="45" Tag="{Binding Name}" Click="Edit_btn_Click">
                                 <Image Source="../Resources/edit_player.png"/>
                             </Button>
 
-                            <Button Background="Transparent" BorderBrush="Transparent" Height="45" Width="45" Tag="{Binding name}" Click="Delete_btn_Click">
+                            <Button Background="Transparent" BorderBrush="Transparent" Height="45" Width="45" Tag="{Binding Name}" Click="Delete_btn_Click">
                                 <Image Source="../Resources/delete_player.png"/>
                             </Button>
 
@@ -55,7 +55,7 @@
         </ListBox>
 
 
-        <TabControl Height="534" Width="304" Canvas.Left="900" Canvas.Top="36">
+        <TabControl  Background="#FF443B26" Height="534" Width="304" Canvas.Left="900" Canvas.Top="36">
             <TabItem Header="Combat" Height="50" Width="50">
                 <Grid Background="#FFE5E5E5"/>
             </TabItem>

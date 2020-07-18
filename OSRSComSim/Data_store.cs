@@ -54,7 +54,7 @@ namespace OSRSComSim
 
         public static void SavePlayer(Players player)
         {
-            using (Stream fs = new FileStream(path + "SavedPlayer_" + player.name + ".xml",
+            using (Stream fs = new FileStream(path + "SavedPlayer_" + player.Name + ".xml",
                 FileMode.Create, FileAccess.Write, FileShare.None))
             {
                 serializer.Serialize(fs, player);

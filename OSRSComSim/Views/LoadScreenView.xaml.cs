@@ -43,7 +43,8 @@ namespace OSRSComSim.Views
         }
         private void Edit_btn_Click(object sender, RoutedEventArgs e)
         {
-
+            view_model.getPlayer(((Button)sender).Tag.ToString());
+            view_model.viewrEditPlayer();
         }
         private void Delete_btn_Click(object sender, RoutedEventArgs e)
         {
@@ -51,7 +52,7 @@ namespace OSRSComSim.Views
         }
         private void PlayerBorder_Click(object sender, MouseButtonEventArgs e)
         {
-            view_model.SelectedPlayer = ((Border)sender).Tag.ToString();
+            view_model.getPlayer(((Border)sender).Tag.ToString());
         }
         private void button_select_Click(object sender, RoutedEventArgs e)
         {

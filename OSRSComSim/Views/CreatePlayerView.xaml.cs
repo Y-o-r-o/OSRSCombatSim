@@ -20,10 +20,10 @@ namespace OSRSComSim.Views
     public partial class CreatePlayerView : UserControl
     {
         CreatePlayerViewModel view_model;
-        public CreatePlayerView(LoadScreenViewModel loadscreenVM)
+        public CreatePlayerView(LoadScreenViewModel loadscreenVM, string name = "No_name", int hplvl = 10, int deflvl = 1, int strlvl = 1, int atklvl = 1)
         {
             InitializeComponent();
-            DataContext = new CreatePlayerViewModel(loadscreenVM);
+            DataContext = new CreatePlayerViewModel(loadscreenVM, name, hplvl, deflvl, strlvl, atklvl);
          }
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)

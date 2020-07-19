@@ -63,7 +63,7 @@
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
 
-                    <TextBox x:Name="EnterNameBox" Text="Enter player name" TextAlignment="Center" FontSize="30"  Margin="75,0,0.333,0" Grid.Row="2" Grid.ColumnSpan="2" GotFocus="EnterNameBox_GotFocus"/>
+                    <TextBox x:Name="EnterNameBox" Text="{Binding Name}" TextAlignment="Center" FontSize="30"  Margin="75,0,0.333,0" Grid.Row="2" Grid.ColumnSpan="2" GotFocus="EnterNameBox_GotFocus"/>
 
                     <Button Margin="299.667,0,0.333,0" Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="1" Content="OK" Click="CaptureName_Btn_Click"/>
 

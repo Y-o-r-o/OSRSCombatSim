@@ -12,7 +12,9 @@
         Title="Bones OSRS" Height="720" Width="1280"
         WindowStartupLocation="CenterScreen"
         ResizeMode="NoResize"
-        Icon="./Resources/OSRSBone.ico">
+        Icon="./Resources/OSRSBone.ico"
+        
+        >
 
 
     <Window.DataContext>

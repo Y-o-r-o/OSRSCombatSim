@@ -27,7 +27,7 @@ namespace OSRSComSim.ViewModels
         public object                           _viewcontent;
         
         private MainWindowViewModel             _mainwindowVM;
-        private string                          _selected_player;
+        private Players                         _selected_player;
 
         private ObservableCollection<Players>   _player_list;
 
@@ -56,7 +56,7 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("ViewContent");
             }
         }
-        public string                           SelectedPlayer
+        public Players                          SelectedPlayer
         {
             get 
             {
@@ -74,7 +74,7 @@ namespace OSRSComSim.ViewModels
         {
             _mainwindowVM = mainWindowVM;
             _player_list = new ObservableCollection<Players>();
-            _selected_player = "No player selected.";
+            _selected_player = new Players();
             _fighter_num = fighter_num;
             Load_players();
         }
@@ -88,6 +88,10 @@ namespace OSRSComSim.ViewModels
         {
             ViewContent = new CreatePlayerView(this);
         }
+        public void viewrEditPlayer()
+        {
+            ViewContent = new CreatePlayerView(this, SelectedPlayer.Name, SelectedPlayer.Hp_lvl, SelectedPlayer.Def_lvl, SelectedPlayer.Str_lvl, SelectedPlayer.Atk_lvl);
+        }
         public void stopView()
         {
             ViewContent = null;
@@ -99,16 +103,15 @@ namespace OSRSComSim.ViewModels
         public void delete_player(string name) {
             Data_store.DeletePlayer(name);
             Load_players();
-            SelectedPlayer = "No player selected.";
+            SelectedPlayer = new Players();
         }
         public void loadSelectedFighter(string fighter_num)
         {
-            if (HasNoSpecialChars(SelectedPlayer))
+            if (HasNoSpecialChars(SelectedPlayer.Name))
             {
                 loadFighter(fighter_num);
                 Back_to_main_screen();
             }
-            else SelectedPlayer = "No player selected!";
         }
 
         public bool HasNoSpecialChars(string yourString)
@@ -116,16 +119,14 @@ namespace OSRSComSim.ViewModels
             return !yourString.Any(ch => !Char.IsLetterOrDigit(ch));
         }
 
-
-        private Players getPlayer(string fighter_num) {
+        public void getPlayer(string fighter_num) {
             foreach(Players player in PlayerList)
             {
                 if (player.Name == fighter_num)
                 {
-                    return player;
+                    SelectedPlayer = player;
                 }
             }
-            return null;
         }
         public void Load_players()
         {
@@ -137,11 +138,11 @@ namespace OSRSComSim.ViewModels
         {
             if (_fighter_num == "fighter 1")
             {
-                _mainwindowVM.Battle.Fighter1.Player = getPlayer(fighter_num);
+                _mainwindowVM.Battle.Fighter1.Player = SelectedPlayer;
             }
             else if (_fighter_num == "fighter 2")
             {
-                _mainwindowVM.Battle.Fighter2.Player = getPlayer(fighter_num);
+                _mainwindowVM.Battle.Fighter2.Player = SelectedPlayer;
             }
         }
     }

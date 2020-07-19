@@ -11,11 +11,11 @@ namespace OSRSComSim.ViewModels
 {
     class CreatePlayerViewModel: ObservableObject
     {
-        private string _name = "No_name";
-        private int _hplvl = 10;
-        private int _deflvl = 1;
-        private int _strlvl = 1;
-        private int _atklvl = 1;
+        private string _name;
+        private int _hplvl;
+        private int _deflvl;
+        private int _strlvl;
+        private int _atklvl;
 
         private string _setnamequotes;
         private int _selected_index;
@@ -108,14 +108,24 @@ namespace OSRSComSim.ViewModels
             }
         }
 
-        public CreatePlayerViewModel(LoadScreenViewModel loadscreenviewmodel)
+        public CreatePlayerViewModel(LoadScreenViewModel loadscreenviewmodel, string name = "No_name", int hplvl = 10, int deflvl = 1, int strlvl = 1, int atklvl = 1)
         {
             _loadscreenviewmodel = loadscreenviewmodel;
+            
+            Name = name;
+            HPLvl = hplvl;
+            DefLvl = deflvl;
+            StrLvl = strlvl;
+            AtkLvl = atklvl;
+
+            setupCreatePlayerVM();
+        }
+        
+        public void setupCreatePlayerVM()
+        {
             _setnamequotes = "Enter player name here.";
             _selected_index = 0;
         }
-        
-
 
         public void resetPlayerStats()
         {
@@ -162,7 +172,7 @@ namespace OSRSComSim.ViewModels
         }
         public void Create()
         {
-            if (_name != "No_name")
+            if (_name != "Default character")
             {
                 Players player = new Players
                 (
@@ -172,8 +182,10 @@ namespace OSRSComSim.ViewModels
                     str_lvl: _strlvl,
                     atk_lvl: _atklvl
                 );
+                Data_store.DeletePlayer(player.Name);
                 Data_store.SavePlayer(player);
                 _loadscreenviewmodel.Load_players();
+                _loadscreenviewmodel.SelectedPlayer = player;
                 _loadscreenviewmodel.stopView();
             }
         }

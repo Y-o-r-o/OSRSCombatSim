@@ -14,7 +14,6 @@ namespace OSRSComSim.ViewModels
     {
         private bool thread_is_started;
 
-
         private Thread th1;
         private Thread th2;
 
@@ -28,26 +27,31 @@ namespace OSRSComSim.ViewModels
             thread_is_started = false;
         }
 
-        public void StartFight()
+        public void start_stopFight()
         {
-            Reset();
-            th2 = FighterStartFight(Fighter2, Fighter1);
-            Thread.Sleep(1000);
-            th1 = FighterStartFight(Fighter1, Fighter2);
-            thread_is_started = true;
+            if (thread_is_started || !playersIsNotDead()) Reset();
+            else
+            {
+
+                th1 = FighterStartFight(Fighter1, Fighter2);
+
+                th2 = FighterStartFight(Fighter2, Fighter1, 1000);
+                thread_is_started = true;
+            }
         }
 
-        private Thread FighterStartFight(FighterViewModel attacker, FighterViewModel deffender)
+        private Thread FighterStartFight(FighterViewModel attacker, FighterViewModel deffender, int sleep = 0)
         {
-            var t = new Thread(() => Fight(attacker, deffender));
+            var t = new Thread(() => Fight(attacker, deffender, sleep));
             t.Start();
             return t;
         }
 
-        private void Fight(FighterViewModel attacker, FighterViewModel deffender)
+        private void Fight(FighterViewModel attacker, FighterViewModel deffender, int sleep)
         {
+            Thread.Sleep(sleep);
             string attack_res = "";
-            while (!(attacker.isDead() || deffender.isDead()))
+            while (playersIsNotDead())
             {
                 attack_res = attacker.getAttackRessult(deffender);
                 deffender.takeDamage(attack_res);
@@ -57,6 +61,10 @@ namespace OSRSComSim.ViewModels
             thread_is_started = false;
         }
 
+        private bool playersIsNotDead()
+        {
+            return !(Fighter1.isDead() || Fighter2.isDead());
+        }
 
         public void Reset()
         {

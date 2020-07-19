@@ -17,9 +17,6 @@ namespace OSRSComSim.Models
         public int Atk_lvl { get; set; }
 
 
-
-
-
         public Combat combat = new Combat();
         public Players() : this("No_name", 10, 1, 1, 1) { }
         public Players(string name = "No_name", int hp_lvl = 10, int def_lvl = 1, int str_lvl = 1, int atk_lvl = 1)

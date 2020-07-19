@@ -14,9 +14,9 @@ namespace OSRSComSim.ViewModels
 
 
         private object _viewcontent;
-
+        private string _buttonfightcontent;
+         
         public BattleViewModel Battle { get; set; }
-
         public object ViewContent
         {
             get
@@ -29,10 +29,32 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("ViewContent");
             }
         }
-      
+        public string ButtonFightContent
+        {
+            get { return _buttonfightcontent; }
+            set
+            {
+                _buttonfightcontent = value;
+                OnPropertyChanged("ButtonFightContent");
+            }
+        
+        }
+
         public MainWindowViewModel()
         {
             Battle = new BattleViewModel();
+            setupMainWindowViewModel();
+        }
+
+        public void setupMainWindowViewModel()
+        {
+            _buttonfightcontent = "Fight";
+        }
+
+        public void changeButtonFightContext()
+        {
+            if (ButtonFightContent == "Fight") ButtonFightContent = "Reset";
+            else if (ButtonFightContent == "Reset") ButtonFightContent = "Fight";
         }
 
         public void viewLoadScreen(string fighter_num)

@@ -61,6 +61,13 @@ namespace OSRSComSim.ViewModels
         public FighterViewModel()
         {
             Player = new Players();
+            setupFighter();
+        }
+
+        private void setupFighter()
+        {
+            LastAtkStatColor = "Transparent";
+            LastAtkStatContext = "";
         }
 
         public string getAttackRessult(FighterViewModel deffender)
@@ -72,9 +79,9 @@ namespace OSRSComSim.ViewModels
         {
             if (attack_res != "def")
             {
+                HealthTaken += (int)Math.Round((double.Parse(attack_res) / Player.Hp_lvl) * 100);
                 LastAtkStatColor = "Red";
                 LastAtkStatContext = attack_res.ToString();
-                HealthTaken += (int)Math.Round((double.Parse(attack_res) / Player.Hp_lvl) * 100);
             }
             else
             {

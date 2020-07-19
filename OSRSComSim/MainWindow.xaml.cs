@@ -48,7 +48,7 @@ namespace OSRSComSim
 
         private void Button_Fight_Click(object sender, RoutedEventArgs e)
         {
-            view_model.StartFight();
+            view_model.Battle.StartFight();
         }
     }
 }

@@ -70,8 +70,6 @@ namespace OSRSComSim.ViewModels
         }
 
 
-
-
         public LoadScreenViewModel(MainWindowViewModel mainWindowVM, string fighter_num)
         {
             _mainwindowVM = mainWindowVM;
@@ -80,11 +78,6 @@ namespace OSRSComSim.ViewModels
             _fighter_num = fighter_num;
             Load_players();
         }
-
-
-
-
-
 
 
         public void Back_to_main_screen()
@@ -108,18 +101,11 @@ namespace OSRSComSim.ViewModels
             Load_players();
             SelectedPlayer = "No player selected.";
         }
-        public void loadSelectedFighter(string fighter_name)
+        public void loadSelectedFighter(string fighter_num)
         {
             if (HasNoSpecialChars(SelectedPlayer))
             {
-                if (_fighter_num == "fighter 1")
-                {
-                    _mainwindowVM.Fighter1 = getPlayer(fighter_name);
-                }
-                else if (_fighter_num == "fighter 2")
-                {
-                    _mainwindowVM.Fighter2 = getPlayer(fighter_name);
-                }
+                loadFighter(fighter_num);
                 Back_to_main_screen();
             }
             else SelectedPlayer = "No player selected!";
@@ -131,10 +117,10 @@ namespace OSRSComSim.ViewModels
         }
 
 
-        private Players getPlayer(string fighter_name) {
+        private Players getPlayer(string fighter_num) {
             foreach(Players player in PlayerList)
             {
-                if (player.Name == fighter_name)
+                if (player.Name == fighter_num)
                 {
                     return player;
                 }
@@ -147,6 +133,16 @@ namespace OSRSComSim.ViewModels
             Data_store.LoadPlayers(PlayerList);
             PlayerList = PlayerList;
         }
-
+        private void loadFighter(string fighter_num)
+        {
+            if (_fighter_num == "fighter 1")
+            {
+                _mainwindowVM.Battle.Fighter1.Player = getPlayer(fighter_num);
+            }
+            else if (_fighter_num == "fighter 2")
+            {
+                _mainwindowVM.Battle.Fighter2.Player = getPlayer(fighter_num);
+            }
+        }
     }
 }

@@ -8,9 +8,6 @@ namespace OSRSComSim.Models
 {
     public class Players: ObservableObject
     {
-        private int _health_taken;
-        private string _last_atk_stat_context;
-        private string _last_atk_stat_color;
 
 
         public string Name { get; set; }
@@ -19,37 +16,7 @@ namespace OSRSComSim.Models
         public int Str_lvl { get; set; }
         public int Atk_lvl { get; set; }
 
-        public string LastAtkStatColor
-        {
-            get { return _last_atk_stat_color; }
-            set
-            {
-                _last_atk_stat_color = value;
 
-                OnPropertyChanged("LastAtkStatColor");
-            }
-        }
-
-        public string LastAtkStatContext 
-        {
-            get { return _last_atk_stat_context; }
-            set
-            {
-                _last_atk_stat_context = value;
-
-                OnPropertyChanged("LastAtkStatContext");
-            }
-        }
-
-        public int HealthTaken { 
-            get { return _health_taken; }
-            set 
-            {
-                _health_taken = value;
-
-                OnPropertyChanged("HealthTaken");
-            } 
-        }
 
 
 
@@ -62,20 +29,11 @@ namespace OSRSComSim.Models
             this.Hp_lvl = hp_lvl;
             this.Str_lvl = str_lvl;
             this.Atk_lvl = atk_lvl;
-            
-            this._health_taken = 0;
-        
+                    
             combat.set_combat(str_lvl, atk_lvl, def_lvl);
         }
 
-        public void Reset ()
-        {
-            HealthTaken = 0;
-            LastAtkStatColor = "Transparent";
-            LastAtkStatContext = "";
-
-        }
-
+       
 
 
 

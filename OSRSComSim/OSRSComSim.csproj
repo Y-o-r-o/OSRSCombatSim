@@ -59,7 +59,9 @@
     <Compile Include="Models\Combat.cs" />
     <Compile Include="Models\Players.cs" />
     <Compile Include="ObservableObject.cs" />
+    <Compile Include="ViewModels\BattleViewModel.cs" />
     <Compile Include="ViewModels\CreatePlayerViewModel.cs" />
+    <Compile Include="ViewModels\FighterViewModel.cs" />
     <Compile Include="ViewModels\LoadScreenViewModel.cs" />
     <Compile Include="ViewModels\MainWindowViewModel.cs" />
     <Compile Include="Views\CreatePlayerView.xaml.cs">

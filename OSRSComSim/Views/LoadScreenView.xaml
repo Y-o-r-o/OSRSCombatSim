@@ -17,28 +17,48 @@
         </Style>
     </UserControl.Resources>
 
-    <Canvas x:Name="LoadScreeenCanvas" Background="#FFA59175">
-        <Border  Canvas.Left="572" Canvas.Top="36" Width="300">
+    <Grid x:Name="LoadScreeenCanvas" Background="#FFA59175">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="190"/>
+            <ColumnDefinition Width="190"/>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="380"/>
+            <ColumnDefinition Width="50"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="495"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        
+        
+        <Border Grid.Column="4" Grid.ColumnSpan="2" Grid.Row="1" Width="300">
             <TextBlock x:Name="SelectedPlayer" TextWrapping="Wrap" Text="{Binding SelectedPlayer.Name}" FontSize="35" VerticalAlignment="Stretch" HorizontalAlignment="Center" Canvas.Left="572" Canvas.Top="36"/>
         </Border>
 
-        <Image Source="../Resources/default_avatar.png" Height="487" Width="254" Canvas.Left="597" Canvas.Top="83"/>
+        <Image Grid.Column="4" Grid.ColumnSpan="2" Grid.Row="2" Source="../Resources/default_avatar.png" Height="487" Width="254" Canvas.Left="597" Canvas.Top="83"/>
 
-        <Button x:Name="button_select" Content="Select" Canvas.Left="540" Canvas.Top="620" Width="180" Height="50" FontSize="40"  Margin="0" Click="button_select_Click"/>
-        <Button x:Name="button_cancel" Content="Cancel" Canvas.Left="720" Canvas.Top="620" Width="180" Height="50" Margin="0" FontSize="40" Click="button_cancel_Click"/>
-
-
-        <Button x:Name="btn_create_new" Content="Create new" Canvas.Left="40" Margin="0" Canvas.Top="36" Width="252" Height="50" FontSize="30" Click="Btn_create_new_Click"/>
-        <Button x:Name="btn_import_new" Content="Import new" Canvas.Left="290" Margin="0" Canvas.Top="36" Width="252" Height="50" FontSize="30"/>
+        <Button Grid.Column="4" Grid.Row="3" Grid.RowSpan="2" x:Name="button_select" Content="Select" FontSize="40" Height="50" Click="button_select_Click"/>
+        <Button Grid.Column="5" Grid.Row="3" Grid.RowSpan="2" x:Name="button_cancel" Content="Cancel" FontSize="40" Height="50" Click="button_cancel_Click"/>
 
 
-        <ListBox ItemsSource="{Binding PlayerList}" x:Name="players_viewer" Background="#FF443B26" Height="480" Canvas.Left="40" Canvas.Top="90" Width="500" >
+        <Button Grid.Column="1" Grid.Row="1" x:Name="btn_create_new" Content="Create new" FontSize="30" Click="Btn_create_new_Click"/>
+        <Button Grid.Column="2" Grid.Row="1" x:Name="btn_import_new" Content="Import new" FontSize="30"/>
+
+
+        <ListBox Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="2"  ItemsSource="{Binding PlayerList}" x:Name="players_viewer" Background="#FF443B26">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <Border MouseLeftButtonUp="PlayerBorder_Click" Tag="{Binding Name}">
-                        <StackPanel Orientation="Horizontal" Background="#FF808000" Width="485" VerticalAlignment="Center">
+                        <StackPanel Orientation="Horizontal" Background="#FF808000" VerticalAlignment="Center">
 
-                            <TextBlock Text="{Binding Name}" HorizontalAlignment="Left" VerticalAlignment="Center" Width="380" FontSize="30" Foreground="#FFFFD800" Margin="10,0,0,0"/>
+                            <TextBlock Text="{Binding Name}" HorizontalAlignment="Left" VerticalAlignment="Center" Width="265" FontSize="30" Foreground="#FFFFD800" Margin="10,0,0,0"/>
 
                             <Button Background="Transparent" BorderBrush="Transparent" Height="45" Width="45" Tag="{Binding Name}" Click="Edit_btn_Click">
                                 <Image Source="../Resources/edit_player.png"/>
@@ -55,11 +75,11 @@
         </ListBox>
 
 
-        <TabControl Background="#FF443B26" Height="534" Width="304" Canvas.Left="900" Canvas.Top="36">
-            <TabItem Header="Combat" Height="50" Width="50">
+        <TabControl Grid.Column="7" Grid.Row="1" Grid.RowSpan="2" Background="#FF443B26">
+            <TabItem Header="Combat" Height="60" Width="63">
                 <Grid Background="#FFE5E5E5"/>
             </TabItem>
-            <TabItem Header="Skills" Height="50" Width="50">
+            <TabItem Header="Skills" Height="60" Width="63">
                 <Grid x:Name="PlayerSkills" Background="LightYellow">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="80"/>
@@ -96,24 +116,24 @@
                     
                 </Grid>
             </TabItem>
-            <TabItem Header="Inventory" Height="50" Width="50">
+            <TabItem Header="Inventory" Height="60" Width="63">
                 <Grid Background="#FFE5E5E5" />
             </TabItem>
-            <TabItem Header="Equipment" Height="50" Width="50">
+            <TabItem Header="Equipment" Height="60" Width="63">
                 <Grid Background="#FFE5E5E5"/>
             </TabItem>
-            <TabItem Header="Prayer" Height="50" Width="50">
+            <TabItem Header="Prayer" Height="60" Width="62">
                 <Grid Background="#FFE5E5E5"/>
             </TabItem>
-            <TabItem Header="Magic" Height="50" Width="50">
+            <TabItem Header="Magic" Height="60" Width="62">
                 <Grid Background="#FFE5E5E5"/>
             </TabItem>
         </TabControl>
 
         
-        <ContentControl x:Name="show_create_player" Height="690" Width="1275" Content="{Binding ViewContent}"/>
+        <ContentControl Grid.ColumnSpan="10" Grid.RowSpan="10" x:Name="show_create_player" Margin="0,0,0,5" Height="690" Width="1275" Content="{Binding ViewContent}"/>
 
 
-    </Canvas>
+    </Grid>
 
 </UserControl>

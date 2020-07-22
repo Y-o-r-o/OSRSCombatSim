@@ -51,8 +51,8 @@
             <TextBlock x:Name="Fighter2" TextWrapping="Wrap" Text="{Binding Battle.Fighter2.Player.Name}" FontSize="25" VerticalAlignment="Stretch" HorizontalAlignment="Center"/>
         </Border>
 
-        <Button Grid.Column="1" Grid.ColumnSpan="3" x:Name ="Button_Load_1" Content="Load player 1" Height="40" Width="180" HorizontalAlignment="Center" FontSize="20" Click="Button_Load_1_Click"/>
-        <Button Grid.Column="3" Grid.ColumnSpan="3" x:Name ="Button_Load_2" Content="Load player 2" Height="40" Width="180" HorizontalAlignment="Center" FontSize="20" Click="Button_Load_2_Click"/>
+        <Button Grid.Column="1" Grid.ColumnSpan="3" x:Name ="Button_Load_1" Content="PLAYER SELECT" Height="40" Width="180" HorizontalAlignment="Center" FontSize="20" Click="Button_Load_1_Click"/>
+        <Button Grid.Column="3" Grid.ColumnSpan="3" x:Name ="Button_Load_2" Content="PLAYER SELECT" Height="40" Width="180" HorizontalAlignment="Center" FontSize="20" Click="Button_Load_2_Click"/>
         <Button Grid.Column="3" Grid.Row="4" x:Name ="Button_Fight" Content="{Binding Battle.ButtonFightContent}" Height="40" Width="90" HorizontalAlignment="Center" FontSize="20" Click="Button_Fight_Click"/>
 
 

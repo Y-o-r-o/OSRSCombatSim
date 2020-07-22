@@ -10,33 +10,59 @@ namespace OSRSComSim.ViewModels
 {
 
 
-    public class BattleViewModel
+    public class BattleViewModel: ObservableObject
     {
-        private bool thread_is_started;
+        private bool _thread_is_started;
+
+        private string _buttonfightcontent;
 
         private Thread th1;
         private Thread th2;
 
         public FighterViewModel Fighter1 { get; set; }
         public FighterViewModel Fighter2 { get; set; }
+        public bool ThreadIsStarted
+        {
+            get
+            {
+                return _thread_is_started;
+            }
+            set 
+            {
+                _thread_is_started = value;
+                if (value == false) ButtonFightContent = "Fight";
+                else ButtonFightContent = "Reset";
+            }
+        }
+        public string ButtonFightContent
+        {
+            get { return _buttonfightcontent; }
+            set
+            {
+                _buttonfightcontent = value;
+                OnPropertyChanged("ButtonFightContent");
+            }
+
+        }
 
         public BattleViewModel()
         {
             Fighter1 = new FighterViewModel();
             Fighter2 = new FighterViewModel();
-            thread_is_started = false;
+            _buttonfightcontent = "Fight";//
+            ThreadIsStarted = false;
         }
 
         public void start_stopFight()
         {
-            if (thread_is_started || !playersIsNotDead()) Reset();
+            if (ThreadIsStarted || !playersIsNotDead()) Reset();
             else
             {
 
                 th1 = FighterStartFight(Fighter1, Fighter2);
-
                 th2 = FighterStartFight(Fighter2, Fighter1, 1000);
-                thread_is_started = true;
+
+                ThreadIsStarted = true;
             }
         }
 
@@ -58,7 +84,7 @@ namespace OSRSComSim.ViewModels
                 
                 Thread.Sleep(1400); //atk speed - 1000;
             }
-            thread_is_started = false;
+            ThreadIsStarted = false;
         }
 
         private bool playersIsNotDead()
@@ -68,15 +94,20 @@ namespace OSRSComSim.ViewModels
 
         public void Reset()
         {
-            if (thread_is_started)
+            if (ThreadIsStarted)
             {
                 th1.Abort();
                 th2.Abort();
-                thread_is_started = false;
+                ThreadIsStarted = false;
             }
             Fighter1.Reset();
             Fighter2.Reset();
+            changeButtonFightContent("Fight");
         }
 
+        public void changeButtonFightContent(String content)
+        {
+            ButtonFightContent = content;
+        }
     }
 }

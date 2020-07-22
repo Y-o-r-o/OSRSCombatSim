@@ -13,7 +13,6 @@ namespace OSRSComSim.ViewModels
     public class BattleViewModel: ObservableObject
     {
         private bool _thread_is_started;
-
         private string _buttonfightcontent;
 
         private Thread th1;
@@ -102,12 +101,6 @@ namespace OSRSComSim.ViewModels
             }
             Fighter1.Reset();
             Fighter2.Reset();
-            changeButtonFightContent("Fight");
-        }
-
-        public void changeButtonFightContent(String content)
-        {
-            ButtonFightContent = content;
         }
     }
 }

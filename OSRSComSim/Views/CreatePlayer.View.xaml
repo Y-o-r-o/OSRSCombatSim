@@ -48,7 +48,7 @@
 
 
             <TabItem Header="Appearance" FontSize="20" Background="LightYellow" Height="70" Width="70">
-
+            
                 <Grid HorizontalAlignment="Center" Width="500">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="*"/>
@@ -132,6 +132,8 @@
 
         </TabControl>
 
+        
+        
         <Button x:Name="CreateButton" Grid.Column="1" Content="Create" FontSize="14" Height="60" Width="60" Click="CreateButton_Click"/>
         <Button x:Name="CancelButton" Grid.Column="2" Content="Cancel"  FontSize="14" Height="60" Width="60" Click="CancelButton_Click"/>
     </Grid>

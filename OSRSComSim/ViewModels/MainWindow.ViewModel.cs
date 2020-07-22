@@ -60,6 +60,7 @@ namespace OSRSComSim.ViewModels
         public void viewLoadScreen(string fighter_num)
         {
             Battle.Reset();
+
             ViewContent = new LoadScreenView(this, fighter_num);
         }
 

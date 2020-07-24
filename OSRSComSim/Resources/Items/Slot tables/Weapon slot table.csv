@@ -1,0 +1,645 @@
+Strength, Magic Damage,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0%,0,0.453
+3rd age axe, Members,-2,38,32,0,0,0,1,0,0,0,42,0,0%,0,1.36
+3rd age druidic staff, Members,7,-1,25,10,0,2,3,1,10,0,32,0,0%,6,2
+3rd age longsword, Members,0,72,60,0,0,0,3,2,0,0,75,0,0%,0,1
+3rd age pickaxe, Members,38,-2,32,0,0,0,1,0,0,0,42,0,0%,0,2.4
+3rd age wand, Members,0,0,0,20,0,0,0,0,20,0,0,0,0%,0,3.175
+A jester stick, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.721
+Abyssal dagger#(p), Members,75,40,-4,1,0,0,0,0,1,0,75,0,0%,0,0.453
+Abyssal dagger#(p+), Members,75,40,-4,1,0,0,0,0,1,0,75,0,0%,0,0.453
+Abyssal dagger#(p++), Members,75,40,-4,1,0,0,0,0,1,0,75,0,0%,0,0.453
+Abyssal dagger#(unp), Members,75,40,-4,1,0,0,0,0,1,0,75,0,0%,0,0.453
+Abyssal tentacle, Members,0,90,0,0,0,0,0,0,0,0,86,0,0%,0,0.453
+Abyssal whip, Members,0,82,0,0,0,0,0,0,0,0,82,0,0%,0,0.453
+Adamant axe, Free-to-play,-2,17,15,0,0,0,1,0,0,0,19,0,0%,0,1.587
+Adamant battleaxe, Free-to-play,-2,31,26,0,0,0,0,0,0,-1,41,0,0%,0,3.175
+Adamant cane, Members,13,-2,25,0,0,0,0,0,0,0,23,0,0%,3,1.814
+Adamant crossbow, Members,0,0,0,0,78,0,0,0,0,0,0,0,0%,0,6
+Adamant dagger#(p), Members,15,8,-4,1,0,0,0,0,1,0,14,0,0%,0,0.51
+Adamant dagger#(p+), Members,15,8,-4,1,0,0,0,0,1,0,14,0,0%,0,0.51
+Adamant dagger#(p++), Members,15,8,-4,1,0,0,0,0,1,0,14,0,0%,0,0.51
+Adamant dagger#(unp), Free-to-play,15,8,-4,1,0,0,0,0,1,0,14,0,0%,0,0.51
+Adamant dart#(p), Members,0,0,0,0,11,0,0,0,0,0,0,10,0%,0,0
+Adamant dart#(p+), Members,0,0,0,0,11,0,0,0,0,0,0,10,0%,0,0
+Adamant dart#(p++), Members,0,0,0,0,11,0,0,0,0,0,0,10,0%,0,0
+Adamant dart#(unp), Members,0,0,0,0,11,0,0,0,0,0,0,10,0%,0,0
+Adamant hasta#Karambwan_poison, Members,24,24,24,0,0,-6,-7,-5,0,-6,28,0,0%,0,2.721
+Adamant hasta#Poison, Members,24,24,24,0,0,-6,-7,-5,0,-6,28,0,0%,0,2.721
+Adamant hasta#Poison+, Members,24,24,24,0,0,-6,-7,-5,0,-6,28,0,0%,0,2.721
+Adamant hasta#Poison++, Members,24,24,24,0,0,-6,-7,-5,0,-6,28,0,0%,0,2.721
+Adamant hasta#Unpoisoned, Members,24,24,24,0,0,-6,-7,-5,0,-6,28,0,0%,0,2.721
+Adamant knife#(p), Members,0,0,0,0,15,0,0,0,0,0,0,14,0%,0,0
+Adamant knife#(p+), Members,0,0,0,0,15,0,0,0,0,0,0,14,0%,0,0
+Adamant knife#(p++), Members,0,0,0,0,15,0,0,0,0,0,0,14,0%,0,0
+Adamant knife#(unp), Members,0,0,0,0,15,0,0,0,0,0,0,14,0%,0,0
+Adamant longsword, Free-to-play,20,29,-2,0,0,0,3,2,0,0,31,0,0%,0,2.041
+Adamant mace, Free-to-play,13,-2,25,0,0,0,0,0,0,0,23,0,0%,3,2.041
+Adamant pickaxe, Free-to-play,17,-2,15,0,0,0,1,0,0,0,19,0,0%,0,2.721
+Adamant scimitar, Free-to-play,6,29,-2,0,0,0,1,0,0,0,28,0,0%,0,2.041
+Adamant sword, Free-to-play,23,18,-2,0,0,0,2,1,0,0,24,0,0%,0,2.041
+Adamant thrownaxe, Members,0,0,0,0,17,0,0,0,0,0,0,23,0%,0,0
+Adamant warhammer, Free-to-play,-4,-4,33,-4,0,0,0,0,0,0,31,0,0%,0,2.041
+Ahrim's staff#(broken), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267
+Ahrim's staff#100, Members,12,-1,65,15,0,3,5,2,15,0,68,0,5%,0,2.267
+Ahrim's staff#25, Members,12,-1,65,15,0,3,5,2,15,0,68,0,5%,0,2.267
+Ahrim's staff#50, Members,12,-1,65,15,0,3,5,2,15,0,68,0,5%,0,2.267
+Ahrim's staff#75, Members,12,-1,65,15,0,3,5,2,15,0,68,0,5%,0,2.267
+Ahrim's staff#Undamaged, Members,12,-1,65,15,0,3,5,2,15,0,68,0,5%,0,2.267
+Air battlestaff, Members,7,-1,28,10,0,2,3,1,10,0,35,0,0%,0,2.267
+Ale of the gods, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.06
+Ancient crozier, Members,7,-1,25,10,0,2,3,1,10,0,32,0,0%,6,0.005
+Ancient gorilla greegree, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.085
+Ancient mace, Members,10,-2,16,0,0,0,0,0,0,0,14,0,0%,3,1.814
+Ancient staff, Members,10,-1,40,15,0,2,3,1,15,0,50,0,0%,-1,2.267
+Anger battleaxe, Members,2,2,2,0,0,0,0,0,0,-1,0,0,0%,0,2.721
+Anger mace, Members,2,2,2,0,0,0,0,0,0,0,0,0,0%,1,1.814
+Anger sword, Members,2,2,2,0,0,0,2,1,0,0,0,0,0%,0,1.814
+Apprentice wand, Members,0,0,0,10,0,0,0,0,10,0,0,0,0%,0,0.255
+Arceuus banner, Members,12,12,12,0,0,1,1,0,0,0,12,0,0%,0,2.267
+Arclight, Members,10,38,0,0,0,0,3,2,2,0,8,0,0%,0,1.814
+Armadyl crossbow, Members,0,0,0,0,100,0,0,0,0,0,0,0,0%,1,6
+Armadyl crozier, Members,7,-1,25,10,0,2,3,1,10,0,32,0,0%,6,2
+Assorted flowers, Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0%,0,0.028
+Axe handle#Dragon, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.1
+Axe handle#Standard, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.1
+Bandos crozier, Members,7,-1,25,10,0,2,3,1,10,0,32,0,0%,6,2
+Banner (Arrav), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267
+Banner (Asgarnia), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267
+Banner (Dorgeshuun), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267
+Banner (Dragon), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267
+Banner (Fairy), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267
+Banner (Guthix), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267
+Banner (HAM), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267
+Banner (Horse), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267
+Banner (Jogre), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267
+Banner (Kandarin), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267
+Banner (Misthalin), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267
+Banner (Money), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267
+Banner (Saradomin), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267
+Banner (Skull), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267
+Banner (Varrock), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267
+Banner (Zamorak), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267
+Barb-tail harpoon, Members,9,4,-4,0,0,0,0,0,0,0,6,0,0%,0,1.36
+Battlestaff, Members,7,-1,25,10,0,2,3,1,10,0,32,0,0%,0,2.267
+Beach boxing gloves#Pink, Free-to-play,0,0,1,0,0,0,1,1,0,0,0,0,0%,0,0.453
+Beach boxing gloves#Yellow, Free-to-play,0,0,1,0,0,0,1,1,0,0,0,0,0%,0,0.453
+Bearded gorilla greegree, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.085
+Beer glass (Forgettable Tale...), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.001
+Beginner wand, Members,0,0,0,5,0,0,0,0,5,0,0,0,0%,0,0.283
+Birthday balloons, Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0%,0,0
+Black axe, Free-to-play,-2,10,8,0,0,0,1,0,0,0,12,0,0%,0,1.36
+Black battleaxe, Free-to-play,-2,20,15,0,0,0,0,0,0,-1,24,0,0%,0,2.721
+Black cane, Members,8,-2,16,0,0,0,0,0,0,0,13,0,0%,2,1.814
+Black chinchompa, Members,0,0,0,0,80,0,0,0,0,0,0,30,0%,0,0
+Black dagger#(p), Members,10,5,-4,1,0,0,0,0,1,0,7,0,0%,0,0.453
+Black dagger#(p+), Members,10,5,-4,1,0,0,0,0,1,0,7,0,0%,0,0.453
+Black dagger#(p++), Members,10,5,-4,1,0,0,0,0,1,0,7,0,0%,0,0.453
+Black dagger#(unp), Free-to-play,10,5,-4,1,0,0,0,0,1,0,7,0,0%,0,0.453
+Black dart#(p), Members,0,0,0,0,7,0,0,0,0,0,0,6,0%,0,0
+Black dart#(p+), Members,0,0,0,0,7,0,0,0,0,0,0,6,0%,0,0
+Black dart#(p++), Members,0,0,0,0,7,0,0,0,0,0,0,6,0%,0,0
+Black dart#(unp), Members,0,0,0,0,7,0,0,0,0,0,0,6,0%,0,0
+Black flowers, Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0%,0,0.028
+Black knife#(p), Members,0,0,0,0,10,0,0,0,0,0,0,8,0%,0,0
+Black knife#(p+), Members,0,0,0,0,10,0,0,0,0,0,0,8,0%,0,0
+Black knife#(p++), Members,0,0,0,0,10,0,0,0,0,0,0,8,0%,0,0
+Black knife#(unp), Members,0,0,0,0,10,0,0,0,0,0,0,8,0%,0,0
+Black longsword, Free-to-play,13,18,-2,0,0,0,3,2,0,0,16,0,0%,0,1.814
+Black mace, Free-to-play,8,-2,16,0,0,0,0,0,0,0,13,0,0%,2,1.814
+Black pickaxe, Free-to-play,10,-2,8,0,0,0,1,0,0,0,11,0,0%,0,0.01
+Black scimitar, Free-to-play,4,19,-2,0,0,0,1,0,0,0,14,0,0%,0,1.814
+Black sword, Free-to-play,14,10,-2,0,0,0,2,1,0,0,12,0,0%,0,1.814
+Black warhammer, Free-to-play,-4,-4,22,-4,0,0,0,0,0,0,19,0,0%,0,1.814
+Blade of saeldor (c), Members,55,94,0,0,0,0,0,0,0,0,89,0,0%,0,1.814
+Blade of saeldor#Charged, Members,55,94,0,0,0,0,0,0,0,0,89,0,0%,0,1.814
+Blade of saeldor#Inactive, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,1.814
+Blessed axe, Members,-2,12,10,0,0,0,1,0,0,0,13,0,0%,2,1.162
+Blisterwood flail, Members,30,44,68,8,0,4,4,2,8,0,46,0,0%,5,0.001
+Blisterwood sickle, Members,30,38,0,0,0,1,2,2,2,2,32,0,0%,5,1.587
+Blue flowers, Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0%,0,0.028
+Blurite crossbow, Members,0,0,0,0,30,0,0,0,0,0,0,0,0%,0,4
+Blurite sword, Free-to-play,9,14,-2,0,0,0,3,2,0,0,10,0,0%,0,1.814
+Bone club, Members,-4,-4,16,-4,0,0,0,0,0,0,15,0,0%,0,0.907
+Bone dagger#(p), Members,5,3,-4,1,0,0,0,0,1,0,4,0,0%,0,0.453
+Bone dagger#(p+), Members,5,3,-4,1,0,0,0,0,1,0,4,0,0%,0,0.453
+Bone dagger#(p++), Members,5,3,-4,1,0,0,0,0,1,0,4,0,0%,0,0.453
+Bone dagger#(unp), Members,5,3,-4,1,0,0,0,0,1,0,4,0,0%,0,0.453
+Bone spear, Members,11,11,11,0,0,1,1,0,0,0,13,0,0%,0,1.36
+Boxing gloves#Blue, Members,0,0,0,0,0,0,1,2,0,0,0,0,0%,0,0.453
+Boxing gloves#Red, Members,0,0,0,0,0,0,1,2,0,0,0,0,0%,0,0.453
+Brine sabre, Members,7,47,-2,0,0,0,0,0,0,0,46,0,0%,0,1.814
+Broken axe (adamant), Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.907
+Broken axe (black), Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.907
+Broken axe (bronze), Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.907
+Broken axe (dragon), Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.907
+Broken axe (iron), Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.907
+Broken axe (mithril), Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.907
+Broken axe (rune), Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.907
+Broken axe (steel), Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.907
+Broken pickaxe (adamant), Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,1.814
+Broken pickaxe (black), Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,1.814
+Broken pickaxe (bronze), Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,1.814
+Broken pickaxe (dragon), Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,1.814
+Broken pickaxe (iron), Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,1.814
+Broken pickaxe (mithril), Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,1.814
+Broken pickaxe (rune), Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,1.814
+Broken pickaxe (steel), Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,1.814
+Bronze axe, Free-to-play,-2,4,2,0,0,0,1,0,0,0,5,0,0%,0,1.36
+Bronze battleaxe, Free-to-play,-2,6,3,0,0,0,0,0,0,-1,9,0,0%,0,2.721
+Bronze crossbow, Members,0,0,0,0,18,0,0,0,0,0,0,0,0%,0,4
+Bronze dagger#(p), Members,4,2,-4,1,0,0,0,0,1,0,3,0,0%,0,0.453
+Bronze dagger#(p+), Members,4,2,-4,1,0,0,0,0,1,0,3,0,0%,0,0.453
+Bronze dagger#(p++), Members,4,2,-4,1,0,0,0,0,1,0,3,0,0%,0,0.453
+Bronze dagger#(unp), Free-to-play,4,2,-4,1,0,0,0,0,1,0,3,0,0%,0,0.453
+Bronze dart#(p), Members,0,0,0,0,3,0,0,0,0,0,0,1,0%,0,0
+Bronze dart#(p+), Members,0,0,0,0,3,0,0,0,0,0,0,1,0%,0,0
+Bronze dart#(p++), Members,0,0,0,0,3,0,0,0,0,0,0,1,0%,0,0
+Bronze dart#(unp), Members,0,0,0,0,3,0,0,0,0,0,0,1,0%,0,0
+Bronze fist flag, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267
+Bronze hasta#Karambwan_poison, Members,5,5,5,0,0,-1,-1,-1,0,-1,6,0,0%,0,2.267
+Bronze hasta#Poison, Members,5,5,5,0,0,-1,-1,-1,0,-1,6,0,0%,0,2.267
+Bronze hasta#Poison+, Members,5,5,5,0,0,-1,-1,-1,0,-1,6,0,0%,0,2.267
+Bronze hasta#Poison++, Members,5,5,5,0,0,-1,-1,-1,0,-1,6,0,0%,0,2.267
+Bronze hasta#Unpoisoned, Members,5,5,5,0,0,-1,-1,-1,0,-1,6,0,0%,0,2.267
+Bronze knife#(p), Members,0,0,0,0,4,0,0,0,0,0,0,3,0%,0,0
+Bronze knife#(p+), Members,0,0,0,0,4,0,0,0,0,0,0,3,0%,0,0
+Bronze knife#(p++), Members,0,0,0,0,4,0,0,0,0,0,0,3,0%,0,0
+Bronze knife#(unp), Members,0,0,0,0,4,0,0,0,0,0,0,3,0%,0,0
+Bronze longsword, Free-to-play,4,5,-2,0,0,0,3,2,0,0,7,0,0%,0,1.814
+Bronze mace, Free-to-play,1,-2,6,0,0,0,0,0,0,0,5,0,0%,1,1.814
+Bronze pickaxe, Free-to-play,4,-2,2,0,0,0,1,0,0,0,5,0,0%,0,2.267
+Bronze scimitar, Free-to-play,1,7,-2,0,0,0,1,0,0,0,6,0,0%,0,1.814
+Bronze sword, Free-to-play,4,3,-2,0,0,0,2,1,0,0,5,0,0%,0,1.814
+Bronze thrownaxe, Members,0,0,0,0,4,0,0,0,0,0,0,5,0%,0,0
+Bronze warhammer, Free-to-play,-4,-4,10,-4,0,0,0,0,0,0,8,0,0%,0,1.814
+Bruma torch, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.003
+Bryophyta's staff#Charged, Members,10,-1,40,15,0,2,3,1,15,0,50,0,0%,0,1.5
+Bryophyta's staff#Uncharged, Members,10,-1,40,15,0,2,3,1,15,0,50,0,0%,0,1.5
+Butterfly net, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.226
+Candy cane, Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0%,0,0.453
+Carrot sword, Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0%,0,0.453
+Cattleprod, Members,4,2,-4,1,0,0,0,0,1,0,3,0,0%,0,0.453
+Chaotic handegg, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.25
+Chinchompa, Members,0,0,0,0,45,0,0,0,0,0,0,0,0%,0,0
+Cleaver, Members,7,45,-2,0,0,0,1,0,0,0,44,0,0%,0,1.814
+Clueless scroll, Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0%,0,1
+Cormorant's glove#Bird, Members,0,0,0,0,0,0,1,1,0,0,0,0,0%,0,1.814
+Cormorant's glove#No_bird, Members,0,0,0,0,0,0,1,1,0,0,0,0,0%,0,0.907
+Corrupted axe, Members,4,4,4,0,0,0,0,0,0,0,5,0,0%,0,0.907
+Corrupted harpoon, Members,4,4,4,0,0,0,0,0,0,0,5,0,0%,0,0.907
+Corrupted pickaxe, Members,4,4,4,0,0,0,0,0,0,0,5,0,0%,0,1.36
+Corrupted sceptre, Members,8,10,16,0,0,0,0,0,0,0,20,0,0%,0,0.003
+Crier bell, Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0%,0,0.453
+Crossbow, Free-to-play,0,0,0,0,6,0,0,0,0,0,0,0,0%,0,8
+Crystal axe (The Gauntlet), Members,4,4,4,0,0,0,0,0,0,0,5,0,0%,0,0.907
+Crystal axe#Active, Members,-2,38,32,0,0,0,1,0,0,0,42,0,0%,0,0.907
+Crystal axe#Inactive, Members,-2,38,32,0,0,0,1,0,0,0,42,0,0%,0,0.907
+Crystal grail, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.001
+Crystal harpoon (The Gauntlet), Members,4,4,4,0,0,0,0,0,0,0,5,0,0%,0,0.907
+Crystal harpoon#Active, Members,38,32,0,0,0,0,1,0,0,0,42,0,0%,0,0.907
+Crystal harpoon#Inactive, Members,38,32,0,0,0,0,1,0,0,0,42,0,0%,0,0.907
+Crystal pickaxe (The Gauntlet), Members,4,4,4,0,0,0,0,0,0,0,5,0,0%,0,1.36
+Crystal pickaxe#Active, Members,38,-2,32,0,0,0,1,0,0,0,42,0,0%,0,1.36
+Crystal pickaxe#Inactive, Members,38,-2,32,0,0,0,1,0,0,0,42,0,0%,0,1.36
+Crystal sceptre, Members,8,10,16,0,0,0,0,0,0,0,20,0,0%,0,0.003
+Cursed goblin hammer, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267
+Cursed goblin staff, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267
+Cutthroat flag, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267
+Dark dagger, Members,5,3,-4,1,0,0,0,0,1,0,0,0,0%,0,0.453
+Darklight, Members,10,16,-2,0,0,0,3,2,2,0,13,0,0%,0,1.814
+Dawnbringer, Members,0,0,0,25,0,2,3,1,15,0,0,0,0%,0,1.5
+Decorative sword (gold)#Broken, Members,20,29,-2,0,0,0,3,2,0,0,31,0,0%,0,1.587
+Decorative sword (gold)#Locked, Free-to-play,20,29,-2,0,0,0,3,2,0,0,31,0,0%,0,1.587
+Decorative sword (gold)#Normal, Free-to-play,20,29,-2,0,0,0,3,2,0,0,31,0,0%,0,1.587
+Decorative sword (red), Free-to-play,13,18,-2,0,0,0,3,2,0,0,16,0,0%,0,1.587
+Decorative sword (white), Free-to-play,15,20,-2,0,0,0,3,2,0,0,22,0,0%,0,1.587
+Dorgeshuun crossbow, Members,0,0,0,0,42,0,0,0,0,0,0,0,0%,0,2.267
+Dragon axe, Members,-2,38,32,0,0,0,1,0,0,0,42,0,0%,0,1.36
+Dragon battleaxe, Members,-2,70,65,0,0,0,0,0,0,-1,85,0,0%,0,2.721
+Dragon cane, Members,42,-2,60,0,0,0,0,0,0,0,55,0,0%,5,1.814
+Dragon crossbow, Members,0,0,0,0,94,0,0,0,0,0,0,0,0%,0,6
+Dragon dagger#(p), Members,40,25,-4,1,0,0,0,0,1,0,40,0,0%,0,0.453
+Dragon dagger#(p+), Members,40,25,-4,1,0,0,0,0,1,0,40,0,0%,0,0.453
+Dragon dagger#(p++), Members,40,25,-4,1,0,0,0,0,1,0,40,0,0%,0,0.453
+Dragon dagger#(unp), Members,40,25,-4,1,0,0,0,0,1,0,40,0,0%,0,0.453
+Dragon dart#(p), Members,0,0,0,0,18,0,0,0,0,0,0,20,0%,0,0
+Dragon dart#(p+), Members,0,0,0,0,18,0,0,0,0,0,0,20,0%,0,0
+Dragon dart#(p++), Members,0,0,0,0,18,0,0,0,0,0,0,20,0%,0,0
+Dragon dart#(unp), Members,0,0,0,0,18,0,0,0,0,0,0,20,0%,0,0
+Dragon harpoon, Members,38,32,0,0,0,0,1,0,0,0,42,0,0%,0,2.267
+Dragon hasta#Karambwan_poison, Members,55,55,55,0,0,-15,-15,-12,0,-15,60,0,0%,0,2.267
+Dragon hasta#Poison, Members,55,55,55,0,0,-15,-15,-12,0,-15,60,0,0%,0,2.267
+Dragon hasta#Poison+, Members,55,55,55,0,0,-15,-15,-12,0,-15,60,0,0%,0,2.267
+Dragon hasta#Poison++, Members,55,55,55,0,0,-15,-15,-12,0,-15,60,0,0%,0,2.267
+Dragon hasta#Unpoisoned, Members,55,55,55,0,0,-15,-15,-12,0,-15,60,0,0%,0,2.267
+Dragon hunter crossbow, Members,0,0,0,0,95,0,0,0,0,0,0,0,0%,0,7
+Dragon hunter lance, Members,85,65,65,0,0,0,0,0,0,0,70,0,0%,0,3
+Dragon knife#(p), Members,0,0,0,0,28,0,0,0,0,0,0,30,0%,0,0
+Dragon knife#(p+), Members,0,0,0,0,28,0,0,0,0,0,0,30,0%,0,0
+Dragon knife#(p++), Members,0,0,0,0,28,0,0,0,0,0,0,30,0%,0,0
+Dragon knife#(unp), Members,0,0,0,0,28,0,0,0,0,0,0,30,0%,0,0
+Dragon longsword, Members,58,69,-2,0,0,0,3,2,0,0,71,0,0%,0,1.814
+Dragon mace, Members,40,-2,60,0,0,0,0,0,0,0,55,0,0%,5,1.814
+Dragon pickaxe, Members,38,-2,32,0,0,0,1,0,0,0,42,0,0%,0,2.4
+Dragon pickaxe (upgraded), Members,38,-2,32,0,0,0,1,0,0,0,42,0,0%,0,2.4
+Dragon pickaxe(or), Members,38,-2,32,0,0,0,1,0,0,0,42,0,0%,0,2.4
+Dragon scimitar, Members,8,67,-2,0,0,0,1,0,0,0,66,0,0%,0,1.814
+Dragon scimitar (or), Members,8,67,-2,0,0,0,1,0,0,0,66,0,0%,0,1.814
+Dragon sword, Members,65,55,-2,0,0,0,2,1,0,0,63,0,0%,0,1.814
+Dragon thrownaxe, Members,0,0,0,0,36,0,0,0,0,0,0,47,0%,0,0
+Dragon warhammer, Members,-4,-4,95,-4,0,0,0,0,0,0,85,0,0%,0,2
+Dramen staff, Members,-1,-1,10,10,0,2,3,1,10,0,10,0,0%,0,1.814
+Dust battlestaff, Members,7,-1,28,10,0,2,3,1,10,0,35,0,0%,0,2.267
+Earth battlestaff, Members,7,-1,28,10,0,2,3,1,10,0,35,0,0%,0,2.267
+Easter basket, Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0%,0,0.1
+Easter blaster, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0
+Eek, Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0%,0,0.07
+Egg whisk, Members,5,3,-4,1,0,0,0,0,1,0,4,0,0%,0,0.453
+Eldritch nightmare staff, Members,0,0,0,16,0,0,0,0,14,0,0,0,15%,0,1.6
+Emerald sickle (b), Members,0,0,0,0,0,0,1,1,1,1,2,0,0%,5,1.587
+Empty blaster, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0
+Enchanted emerald sickle (b), Members,0,0,0,0,0,0,1,1,1,1,3,0,0%,5,1.587
+Enchanted lyre#(1), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,1.814
+Enchanted lyre#(2), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,1.814
+Enchanted lyre#(3), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,1.814
+Enchanted lyre#(4), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,1.814
+Enchanted lyre#(5), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,1.814
+Enchanted lyre#Uncharged, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,1.814
+Enchanted lyre(i), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,1.814
+Enchanted ruby sickle (b), Members,0,0,0,0,0,0,1,1,1,1,6,0,0%,5,1.587
+Excalibur, Members,20,29,-2,0,0,0,3,2,1,0,25,0,0%,0,2.267
+Falconer's glove#No_Falcon, Members,0,0,0,0,0,0,1,1,0,0,0,0,0%,0,0.907
+Falconer's glove#With_Falcon, Members,0,0,0,0,0,0,1,1,0,0,0,0,0%,0,1.814
+Fine mesh net, Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0%,0,0
+Fire battlestaff, Members,7,-1,28,10,0,2,3,1,10,0,35,0,0%,0,2.267
+Fox (Recruitment Drive), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,5
+Fremennik blade, Members,6,29,-2,0,0,0,1,0,0,0,28,0,0%,0,1.814
+Frozen abyssal whip, Members,0,82,0,0,0,0,0,0,0,0,82,0,0%,0,0.453
+Frying pan, Members,-4,-4,25,-4,0,0,0,0,0,0,20,0,0%,0,1.587
+Ghost buster 500#Black, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.003
+Ghost buster 500#Blue, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.003
+Ghost buster 500#Empty, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.003
+Ghost buster 500#Green, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.003
+Ghost buster 500#Red, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.003
+Ghost buster 500#White, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.003
+Ghost buster 500#Yellow, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0
+Ghrazi rapier, Members,94,55,0,0,0,0,0,0,0,0,89,0,0%,0,1.814
+Gilded axe, Free-to-play,-2,26,24,0,0,0,1,0,0,0,29,0,0%,0,1.36
+Gilded hasta, Members,36,36,36,0,0,-10,-10,-9,0,-10,42,0,0%,0,2.267
+Gilded pickaxe, Free-to-play,26,-2,24,0,0,0,1,0,0,0,29,0,0%,0,2.267
+Gilded scimitar, Free-to-play,7,45,-2,0,0,0,1,0,0,0,44,0,0%,0,1.814
+Glowing dagger, Members,5,3,-4,1,0,0,0,0,1,0,0,0,0%,0,0.453
+Gnomeball, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.5
+Golden tench, Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0%,0,0.028
+Gorilla greegree, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.085
+Granite hammer, Members,0,0,57,-3,-1,0,0,0,0,0,56,0,0%,0,5
+Granite longsword, Members,56,65,-2,0,0,0,3,2,0,0,62,0,0%,0,2.721
+Green banner, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267
+Guilded smile flag, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267
+Guthix crozier, Members,7,-1,25,10,0,2,3,1,10,0,32,0,0%,6,2
+Guthix staff, Members,-1,-1,6,6,0,2,3,1,6,0,2,0,0%,0,2.267
+Hallowed hammer, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.02
+Ham joint, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2
+Hand fan, Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0%,0,0.02
+Harmonised nightmare staff, Members,0,0,0,16,0,0,0,0,14,0,0,0,15%,0,1.6
+Harry's cutlass, Members,3,14,0,-5,0,4,4,4,0,0,22,0,0%,0,1.814
+Heat-proof vessel, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,4
+Holy handegg, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.25
+Holy water, Members,0,0,0,0,6,0,0,0,0,0,0,12,0%,0,0
+Hosidius banner, Members,12,12,12,0,0,1,1,0,0,0,12,0,0%,0,2.267
+Hunters' crossbow, Members,0,0,0,0,55,0,0,0,0,0,0,0,0%,0,5
+Hunting knife, Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0%,0,0.453
+Iban's staff (u), Members,10,-1,40,10,0,2,3,1,10,0,50,0,0%,0,2.267
+Iban's staff#Broken, Members,10,-1,40,10,0,2,3,1,10,0,50,0,0%,0,1.814
+Iban's staff#Regular, Members,10,-1,40,10,0,2,3,1,10,0,50,0,0%,0,2.267
+Imbued tephra, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0
+Incomplete blaster, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0
+Infernal axe#Charged, Members,-2,38,32,0,0,0,1,0,0,0,42,0,0%,0,1.814
+Infernal axe#Uncharged, Members,-2,38,32,0,0,0,1,0,0,0,42,0,0%,0,1.814
+Infernal harpoon#Charged, Members,38,32,0,0,0,0,1,0,0,0,42,0,0%,0,2.267
+Infernal harpoon#Uncharged, Members,38,32,0,0,0,0,1,0,0,0,42,0,0%,0,2.267
+Infernal pickaxe#Charged, Members,38,-2,32,0,0,0,1,0,0,0,42,0,0%,0,2.4
+Infernal pickaxe#Uncharged, Members,38,-2,32,0,0,0,1,0,0,0,42,0,0%,0,2.4
+Inquisitor's mace, Members,52,-4,95,0,0,0,0,0,0,0,89,0,0%,2,1.814
+Iron axe, Free-to-play,-2,5,3,0,0,0,1,0,0,0,7,0,0%,0,1.36
+Iron battleaxe, Free-to-play,-2,8,5,0,0,0,0,0,0,-1,13,0,0%,0,2.721
+Iron crossbow, Members,0,0,0,0,42,0,0,0,0,0,0,0,0%,0,4
+Iron dagger#(p), Members,5,3,-4,1,0,0,0,0,1,0,4,0,0%,0,0.453
+Iron dagger#(p+), Members,5,3,-4,1,0,0,0,0,1,0,4,0,0%,0,0.453
+Iron dagger#(p++), Members,5,3,-4,1,0,0,0,0,1,0,4,0,0%,0,0.453
+Iron dagger#(unp), Free-to-play,5,3,-4,1,0,0,0,0,1,0,4,0,0%,0,0.453
+Iron dart#(p), Members,0,0,0,0,4,0,0,0,0,0,0,3,0%,0,0
+Iron dart#(p+), Members,0,0,0,0,4,0,0,0,0,0,0,3,0%,0,0
+Iron dart#(p++), Members,0,0,0,0,4,0,0,0,0,0,0,3,0%,0,0
+Iron dart#(unp), Members,0,0,0,0,4,0,0,0,0,0,0,3,0%,0,0
+Iron hasta#Karambwan_poison, Members,8,8,8,0,0,-2,-2,-2,0,-2,10,0,0%,0,2.267
+Iron hasta#Poison, Members,8,8,8,0,0,-2,-2,-2,0,-2,10,0,0%,0,2.267
+Iron hasta#Poison+, Members,8,8,8,0,0,-2,-2,-2,0,-2,10,0,0%,0,2.267
+Iron hasta#Poison++, Members,8,8,8,0,0,-2,-2,-2,0,-2,10,0,0%,0,2.267
+Iron hasta#Unpoisoned, Members,8,8,8,0,0,-2,-2,-2,0,-2,10,0,0%,0,2.267
+Iron knife#(p), Members,0,0,0,0,5,0,0,0,0,0,0,4,0%,0,0
+Iron knife#(p+), Members,0,0,0,0,5,0,0,0,0,0,0,4,0%,0,0
+Iron knife#(p++), Members,0,0,0,0,5,0,0,0,0,0,0,4,0%,0,0
+Iron knife#(unp), Members,0,0,0,0,5,0,0,0,0,0,0,4,0%,0,0
+Iron longsword, Free-to-play,6,8,-2,0,0,0,3,2,0,0,10,0,0%,0,1.814
+Iron mace, Free-to-play,4,-2,9,0,0,0,0,0,0,0,7,0,0%,1,1.814
+Iron pickaxe#Nightmare_Zone, Members,5,-2,3,0,0,0,1,0,0,0,7,0,0%,0,2.267
+Iron pickaxe#Regular, Free-to-play,5,-2,3,0,0,0,1,0,0,0,7,0,0%,0,2.267
+Iron scimitar, Free-to-play,2,10,-2,0,0,0,1,0,0,0,9,0,0%,0,1.814
+Iron sickle, Members,0,0,0,0,0,0,1,1,1,1,1,0,0%,0,1.587
+Iron sword, Free-to-play,6,4,-2,0,0,0,2,1,0,0,7,0,0%,0,1.814
+Iron thrownaxe, Members,0,0,0,0,5,0,0,0,0,0,0,7,0%,0,0
+Iron warhammer, Free-to-play,-4,-4,11,-4,0,0,0,0,0,0,9,0,0%,0,1.814
+Ivandis flail, Members,24,38,62,8,0,4,4,2,8,0,42,0,0%,5,0.001
+Jade machete, Members,0,11,-2,0,0,0,1,1,0,0,6,0,0%,0,1.36
+Karamjan monkey greegree, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.085
+Keris#Poison, Members,40,20,-10,2,0,0,0,0,2,0,30,0,0%,2,0.453
+Keris#Poison+, Members,40,20,-10,2,0,0,0,0,2,0,30,0,0%,2,0.453
+Keris#Poison++, Members,40,20,-10,2,0,0,0,0,2,0,30,0,0%,2,0.453
+Keris#Unpoisoned, Members,40,20,-10,2,0,0,0,0,2,0,30,0,0%,2,0.453
+Killer's knife, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.453
+Kitchen knife, Members,25,12,-4,1,0,0,0,0,1,0,24,0,0%,0,0.453
+Kodai wand, Members,0,0,0,28,0,0,3,3,20,0,0,0,15%,0,0.198
+Kruk monkey greegree, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.085
+Lava battlestaff, Members,7,-1,28,10,0,2,3,1,10,0,35,0,0%,0,2.267
+Lava battlestaff (or), Members,7,-1,28,10,0,2,3,1,10,0,35,0,0%,0,2.267
+Leaf-bladed battleaxe, Members,-2,72,72,0,0,0,0,0,0,-1,92,0,0%,0,2.721
+Leaf-bladed sword, Members,67,62,0,0,0,0,0,0,0,0,50,0,0%,0,1.814
+Lovakengj banner, Members,12,12,12,0,0,1,1,0,0,0,12,0,0%,0,2.267
+Lucky cutlass, Members,5,20,0,-5,0,6,6,6,0,0,25,0,0%,0,1.814
+Lucky shot flag, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267
+Lunar staff, Members,3,2,16,13,0,2,3,2,13,1,15,0,0%,3,2.267
+Lunar staff - pt1, Members,-1,-1,10,10,0,2,3,1,10,0,10,0,0%,0,1.814
+Lunar staff - pt2, Members,-1,-1,10,10,0,2,3,1,10,0,10,0,0%,0,1.814
+Lunar staff - pt3, Members,-1,-1,10,10,0,2,3,1,10,0,10,0,0%,0,1.814
+Lyre, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,1.814
+Machete, Members,0,6,-2,0,0,0,0,0,0,0,5,0,0%,0,1.36
+Magic butterfly net, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.226
+Magic secateurs#Nightmare_Zone, Members,7,9,-5,1,0,0,1,0,1,0,1,0,0%,0,0.453
+Magic secateurs#Regular, Members,7,9,-5,1,0,0,1,0,1,0,1,0,0%,0,0.453
+Magic staff, Free-to-play,2,-1,10,10,0,2,3,1,10,0,7,0,0%,0,2.267
+Maple blackjack, Members,0,0,0,0,0,0,0,0,0,0,20,0,0%,0,1.814
+Maple blackjack(d), Members,0,0,0,0,0,0,0,24,0,0,20,0,0%,0,1.814
+Maple blackjack(o), Members,0,0,24,0,0,0,0,0,0,0,20,0,0%,0,1.814
+Master wand, Members,0,0,0,20,0,0,0,0,20,0,0,0,0%,0,0.198
+Meat tenderiser, Members,-4,-4,53,-4,0,0,0,0,0,0,48,0,0%,0,1.814
+Mist battlestaff, Members,7,-1,28,10,0,2,3,1,10,0,35,0,0%,0,2.267
+Mith crossbow, Members,0,0,0,0,66,0,0,0,0,0,0,0,0%,0,5
+Mithril axe, Free-to-play,-2,12,10,0,0,0,1,0,0,0,13,0,0%,0,1.133
+Mithril battleaxe, Free-to-play,-2,22,17,0,0,0,0,0,0,-1,29,0,0%,0,2.267
+Mithril dagger#(p), Members,11,5,-4,1,0,0,0,0,1,0,10,0,0%,0,0.396
+Mithril dagger#(p+), Members,11,5,-4,1,0,0,0,0,1,0,10,0,0%,0,0.396
+Mithril dagger#(p++), Members,11,5,-4,1,0,0,0,0,1,0,10,0,0%,0,0.396
+Mithril dagger#(unp), Free-to-play,11,5,-4,1,0,0,0,0,1,0,10,0,0%,0,0.396
+Mithril dart#(p), Members,0,0,0,0,8,0,0,0,0,0,0,7,0%,0,0
+Mithril dart#(p+), Members,0,0,0,0,8,0,0,0,0,0,0,7,0%,0,0
+Mithril dart#(p++), Members,0,0,0,0,8,0,0,0,0,0,0,7,0%,0,0
+Mithril dart#(unp), Members,0,0,0,0,8,0,0,0,0,0,0,7,0%,0,0
+Mithril hasta#Karambwan_poison, Members,17,17,17,0,0,-5,-5,-4,0,-5,18,0,0%,0,1.814
+Mithril hasta#Poison, Members,17,17,17,0,0,-5,-5,-4,0,-5,18,0,0%,0,1.814
+Mithril hasta#Poison+, Members,17,17,17,0,0,-5,-5,-4,0,-5,18,0,0%,0,1.814
+Mithril hasta#Poison++, Members,17,17,17,0,0,-5,-5,-4,0,-5,18,0,0%,0,1.814
+Mithril hasta#Unpoisoned, Members,17,17,17,0,0,-5,-5,-4,0,-5,18,0,0%,0,1.814
+Mithril knife#(p), Members,0,0,0,0,11,0,0,0,0,0,0,10,0%,0,0
+Mithril knife#(p+), Members,0,0,0,0,11,0,0,0,0,0,0,10,0%,0,0
+Mithril knife#(p++), Members,0,0,0,0,11,0,0,0,0,0,0,10,0%,0,0
+Mithril knife#(unp), Members,0,0,0,0,11,0,0,0,0,0,0,10,0%,0,0
+Mithril longsword, Free-to-play,15,20,-2,0,0,0,3,2,0,0,22,0,0%,0,1.587
+Mithril mace, Free-to-play,11,-2,18,0,0,0,0,0,0,0,16,0,0%,3,1.587
+Mithril pickaxe#Nightmare_Zone, Members,12,-2,10,0,0,0,1,0,0,0,13,0,0%,0,2.267
+Mithril pickaxe#Regular, Free-to-play,12,-2,10,0,0,0,1,0,0,0,13,0,0%,0,1.814
+Mithril scimitar, Free-to-play,5,21,-2,0,0,0,1,0,0,0,20,0,0%,0,1.587
+Mithril sword, Free-to-play,16,11,-2,0,0,0,2,1,0,0,17,0,0%,0,1.587
+Mithril thrownaxe, Members,0,0,0,0,12,0,0,0,0,0,0,16,0%,0,0
+Mithril warhammer, Free-to-play,-4,-4,25,-4,0,0,0,0,0,0,20,0,0%,0,1.587
+Mixed flowers, Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0%,0,0.028
+Monkey talisman, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.085
+Morrigan's javelin, Members,0,0,0,0,105,0,0,0,0,0,0,145,0%,0,0
+Mouse toy, Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0%,0,0.1
+Mud battlestaff, Members,7,-1,28,10,0,2,3,1,10,0,35,0,0%,0,2.267
+Mud pie, Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0%,0,0.001
+Mystic air staff, Members,10,-1,40,10,0,2,3,1,10,0,50,0,0%,0,2.267
+Mystic dust staff, Members,10,-1,40,10,0,2,3,1,10,0,50,0,0%,0,2.267
+Mystic earth staff, Members,10,-1,40,10,0,2,3,1,10,0,50,0,0%,0,2.267
+Mystic fire staff, Members,10,-1,40,10,0,2,3,1,10,0,50,0,0%,0,2.267
+Mystic lava staff, Members,10,-1,40,10,0,2,3,1,10,0,50,0,0%,0,2.267
+Mystic lava staff (or), Members,10,-1,40,10,0,2,3,1,10,0,50,0,0%,0,2.267
+Mystic mist staff, Members,10,-1,40,10,0,2,3,1,10,0,50,0,0%,0,2.267
+Mystic mud staff, Members,10,-1,40,10,0,2,3,1,10,0,50,0,0%,0,2.267
+Mystic smoke staff, Members,10,-1,40,10,0,2,3,1,10,0,50,0,0%,0,2.267
+Mystic steam staff, Members,7,-1,40,10,0,2,3,1,10,0,50,0,0%,0,2.267
+Mystic steam staff (or), Members,7,-1,40,10,0,2,3,1,10,0,50,0,0%,0,2.267
+Mystic water staff, Members,10,-1,40,10,0,2,3,1,10,0,50,0,0%,0,2.267
+Nightmare staff, Members,0,0,0,16,0,0,0,0,14,0,0,0,15%,0,1.5
+Ninja monkey greegree (medium), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.085
+Ninja monkey greegree (small), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.085
+Noose wand, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,1.814
+Oak blackjack, Members,0,0,0,0,0,0,0,0,0,0,2,0,0%,0,1.814
+Oak blackjack(d), Members,0,0,0,0,0,0,0,4,0,0,4,0,0%,0,1.814
+Oak blackjack(o), Members,0,0,4,0,0,0,0,0,0,0,4,0,0%,0,1.814
+Oily pearl fishing rod, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.481
+Opal machete, Members,0,8,-2,0,0,0,1,1,0,0,4,0,0%,0,1.36
+Orange flowers, Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0%,0,0.028
+Peaceful handegg, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.25
+Pearl barbarian rod, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.453
+Pearl fishing rod, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.453
+Pearl fly fishing rod, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.453
+Phasmatys flag, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267
+Phoenix crossbow, Free-to-play,0,0,0,0,6,0,0,0,0,0,0,0,0%,0,3.628
+Pickaxe handle, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.1
+Piscarilius banner, Members,12,12,12,0,0,1,1,0,0,0,12,0,0%,0,2.267
+Poisoned dagger(p), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.453
+Poisoned dart(p), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0
+Prop sword, Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0%,0,0.453
+Pugel, Members,0,0,0,0,0,0,1,2,0,0,0,0,0%,0,1.36
+Purple flowers, Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0%,0,0.028
+Rapier, Members,45,7,-2,0,0,0,1,0,0,0,44,0,0%,0,1.814
+Rat pole#Empty, Members,0,-1,7,4,0,2,3,1,4,0,3,0,0%,0,2.267
+Rat pole#Five_rats, Members,0,-1,7,4,0,2,3,1,4,0,3,0,0%,0,2.267
+Rat pole#Four_rats, Members,0,-1,7,4,0,2,3,1,4,0,3,0,0%,0,2.267
+Rat pole#One_rat, Members,0,-1,7,4,0,2,3,1,4,0,3,0,0%,0,2.267
+Rat pole#Six_rats, Members,0,-1,7,4,0,2,3,1,4,0,3,0,0%,0,2.267
+Rat pole#Three_rats, Members,0,-1,7,4,0,2,3,1,4,0,3,0,0%,0,2.267
+Rat pole#Two_rats, Members,0,-1,7,4,0,2,3,1,4,0,3,0,0%,0,2.267
+Red chinchompa, Members,0,0,0,0,70,0,0,0,0,0,0,15,0%,0,0
+Red flowers, Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0%,0,0.028
+Red topaz machete, Members,0,16,-2,0,0,0,1,1,0,1,10,0,0%,0,1.36
+Rod of ivandis#(1), Members,0,-1,7,4,0,2,3,1,4,0,3,0,0%,0,0.001
+Rod of ivandis#(10), Members,0,-1,7,4,0,2,3,1,4,0,3,0,0%,0,0.001
+Rod of ivandis#(2), Members,0,-1,7,4,0,2,3,1,4,0,3,0,0%,0,0.001
+Rod of ivandis#(3), Members,0,-1,7,4,0,2,3,1,4,0,3,0,0%,0,0.001
+Rod of ivandis#(4), Members,0,-1,7,4,0,2,3,1,4,0,3,0,0%,0,0.001
+Rod of ivandis#(5), Members,0,-1,7,4,0,2,3,1,4,0,3,0,0%,0,0.001
+Rod of ivandis#(6), Members,0,-1,7,4,0,2,3,1,4,0,3,0,0%,0,0.001
+Rod of ivandis#(7), Members,0,-1,7,4,0,2,3,1,4,0,3,0,0%,0,0.001
+Rod of ivandis#(8), Members,0,-1,7,4,0,2,3,1,4,0,3,0,0%,0,0.001
+Rod of ivandis#(9), Members,0,-1,7,4,0,2,3,1,4,0,3,0,0%,0,0.001
+Rolling pin, Members,20,-2,39,0,0,0,0,0,0,0,36,0,0%,4,1.814
+Royal sceptre, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,4.535
+Rubber chicken, Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0%,0,0.453
+Ruby sickle (b), Members,0,0,0,0,0,0,1,1,1,1,4,0,0%,5,1.587
+Rune axe, Free-to-play,-2,26,24,0,0,0,1,0,0,0,29,0,0%,0,1.36
+Rune battleaxe, Free-to-play,-2,48,43,0,0,0,0,0,0,-1,64,0,0%,0,2.721
+Rune cane, Members,20,-2,39,0,0,0,0,0,0,0,36,0,0%,4,1.814
+Rune crossbow, Members,0,0,0,0,90,0,0,0,0,0,0,0,0%,0,6
+Rune dagger#(p), Members,25,12,-4,1,0,0,0,0,1,0,24,0,0%,0,0.453
+Rune dagger#(p+), Members,25,12,-4,1,0,0,0,0,1,0,24,0,0%,0,0.453
+Rune dagger#(p++), Members,25,12,-4,1,0,0,0,0,1,0,24,0,0%,0,0.453
+Rune dagger#(unp), Free-to-play,25,12,-4,1,0,0,0,0,1,0,24,0,0%,0,0.453
+Rune dart#(p), Members,0,0,0,0,15,0,0,0,0,0,0,14,0%,0,0
+Rune dart#(p+), Members,0,0,0,0,15,0,0,0,0,0,0,14,0%,0,0
+Rune dart#(p++), Members,0,0,0,0,15,0,0,0,0,0,0,14,0%,0,0
+Rune dart#(unp), Members,0,0,0,0,15,0,0,0,0,0,0,14,0%,0,0
+Rune hasta#Karambwan_poison, Members,36,36,36,0,0,-10,-10,-9,0,-10,42,0,0%,0,2.267
+Rune hasta#Poison, Members,36,36,36,0,0,-10,-10,-9,0,-10,42,0,0%,0,2.267
+Rune hasta#Poison+, Members,36,36,36,0,0,-10,-10,-9,0,-10,42,0,0%,0,2.267
+Rune hasta#Poison++, Members,36,36,36,0,0,-10,-10,-9,0,-10,42,0,0%,0,2.267
+Rune hasta#Unpoisoned, Members,36,36,36,0,0,-10,-10,-9,0,-10,42,0,0%,0,2.267
+Rune knife#(p), Members,0,0,0,0,25,0,0,0,0,0,0,24,0%,0,0
+Rune knife#(p+), Members,0,0,0,0,25,0,0,0,0,0,0,24,0%,0,0
+Rune knife#(p++), Members,0,0,0,0,25,0,0,0,0,0,0,24,0%,0,0
+Rune knife#(unp), Members,0,0,0,0,25,0,0,0,0,0,0,24,0%,0,0
+Rune longsword, Free-to-play,38,47,-2,0,0,0,3,2,0,0,49,0,0%,0,1.814
+Rune mace, Free-to-play,20,-2,39,0,0,0,0,0,0,0,36,0,0%,4,1.814
+Rune pickaxe#Nightmare_Zone, Members,26,-2,24,0,0,0,1,0,0,0,29,0,0%,0,2.267
+Rune pickaxe#Regular, Free-to-play,26,-2,24,0,0,0,1,0,0,0,29,0,0%,0,2.267
+Rune scimitar, Free-to-play,7,45,-2,0,0,0,1,0,0,0,44,0,0%,0,1.814
+Rune scimitar (guthix), Free-to-play,7,45,-2,0,0,0,1,0,0,0,44,0,0%,0,1.814
+Rune scimitar (saradomin), Free-to-play,7,45,-2,0,0,0,1,0,0,0,44,0,0%,0,1.814
+Rune scimitar (zamorak), Free-to-play,7,45,-2,0,0,0,1,0,0,0,44,0,0%,0,1.814
+Rune sword, Free-to-play,38,26,-2,0,0,0,2,1,0,0,39,0,0%,0,1.814
+Rune thrownaxe, Members,0,0,0,0,26,0,0,0,0,0,0,36,0%,0,0
+Rune warhammer, Free-to-play,-4,-4,53,-4,0,0,0,0,0,0,48,0,0%,0,1.814
+Sanguinesti staff#Charged, Members,0,0,0,25,-4,2,3,1,15,0,0,0,0%,0,1.5
+Sanguinesti staff#Uncharged, Members,0,0,0,25,-4,2,3,1,15,0,0,0,0%,0,1.5
+Sarachnis cudgel, Members,30,0,70,0,0,0,0,0,0,0,70,0,0%,0,0.453
+Saradomin banner, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267
+Saradomin crozier, Members,7,-1,25,10,0,2,3,1,10,0,32,0,0%,6,2
+Saradomin staff, Members,-1,-1,6,6,0,2,3,1,6,0,2,0,0%,0,2.267
+Severed leg, Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0%,0,1.8
+Shayzien banner, Members,12,12,12,0,0,1,1,0,0,0,12,0,0%,0,2.267
+Silver sickle, Members,0,0,0,0,0,0,1,1,1,1,1,0,0%,0,1.587
+Silver sickle (b), Members,0,0,0,0,0,0,1,1,1,1,1,0,0%,5,1.587
+Silverlight#Dyed, Members,9,14,-2,0,0,0,3,2,1,0,12,0,0%,0,1.814
+Silverlight#Normal, Free-to-play,9,14,-2,0,0,0,3,2,1,0,12,0,0%,0,1.814
+Skewer, Members,20,29,-2,0,0,0,3,2,0,0,31,0,0%,0,2.041
+Skull sceptre, Free-to-play,0,-1,7,4,0,2,3,1,4,0,3,0,0%,0,1.814
+Skull sceptre (i), Free-to-play,0,-1,7,4,0,2,3,1,4,0,3,0,0%,0,1.814
+Slayer's staff, Members,7,-1,25,12,0,2,3,1,10,0,35,0,0%,0,1.814
+Slayer's staff (e), Members,7,-1,25,12,0,2,3,1,10,0,35,0,0%,0,1.95
+Smoke battlestaff, Members,7,-1,28,10,0,2,3,1,10,0,35,0,0%,0,2.267
+Snowball, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0
+Spork, Members,11,8,-2,0,0,0,2,1,0,0,12,0,0%,0,1.814
+Staff, Free-to-play,0,-1,7,4,0,2,3,1,4,0,3,0,0%,0,1.814
+Staff of air, Free-to-play,0,-1,7,10,0,2,3,1,10,0,3,0,0%,0,2.267
+Staff of balance, Members,55,70,0,17,0,0,3,3,17,0,72,0,15%,0,1.5
+Staff of bob the cat, Members,2,-1,10,10,0,2,3,1,10,0,7,0,0%,0,2
+Staff of earth, Free-to-play,1,-1,9,10,0,2,3,1,10,0,5,0,0%,0,2.267
+Staff of fire, Free-to-play,3,-1,9,10,0,2,3,1,10,0,6,0,0%,0,2.267
+Staff of light, Members,55,70,0,17,0,0,3,3,17,0,72,0,15%,0,1.5
+Staff of the dead, Members,55,70,0,17,0,0,3,3,17,0,72,0,15%,0,1.5
+Staff of water, Free-to-play,0,-1,7,10,0,2,3,1,10,0,3,0,0%,0,2.267
+Stale baguette, Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0%,0,2.267
+Statius's warhammer, Members,-4,-4,123,0,0,0,0,0,0,0,114,0,0%,0,1.814
+Steam battlestaff, Members,7,-1,28,10,0,2,3,1,10,0,35,0,0%,0,2.267
+Steam battlestaff (or), Members,7,-1,28,10,0,2,3,1,10,0,35,0,0%,0,2.267
+Steel axe, Free-to-play,-2,8,6,0,0,0,1,0,0,0,9,0,0%,0,1.36
+Steel battleaxe, Free-to-play,-2,16,11,0,0,0,0,0,0,-1,20,0,0%,0,2.721
+Steel crossbow, Members,0,0,0,0,54,0,0,0,0,0,0,0,0%,0,5
+Steel dagger#(p), Members,8,4,-4,1,0,0,0,0,1,0,7,0,0%,0,0.453
+Steel dagger#(p+), Members,8,4,-4,1,0,0,0,0,1,0,7,0,0%,0,0.453
+Steel dagger#(p++), Members,8,4,-4,1,0,0,0,0,1,0,7,0,0%,0,0.453
+Steel dagger#(unp), Free-to-play,8,4,-4,1,0,0,0,0,1,0,7,0,0%,0,0.453
+Steel dart#(p), Members,0,0,0,0,5,0,0,0,0,0,0,4,0%,0,0
+Steel dart#(p+), Members,0,0,0,0,5,0,0,0,0,0,0,4,0%,0,0
+Steel dart#(p++), Members,0,0,0,0,5,0,0,0,0,0,0,4,0%,0,0
+Steel dart#(unp), Members,0,0,0,0,5,0,0,0,0,0,0,4,0%,0,0
+Steel hasta#Karambwan_poison, Members,12,12,12,0,0,-3,-3,-3,0,-3,12,0,0%,0,2.267
+Steel hasta#Poison, Members,12,12,12,0,0,-3,-3,-3,0,-3,12,0,0%,0,2.267
+Steel hasta#Poison+, Members,12,12,12,0,0,-3,-3,-3,0,-3,12,0,0%,0,2.267
+Steel hasta#Poison++, Members,12,12,12,0,0,-3,-3,-3,0,-3,12,0,0%,0,2.267
+Steel hasta#Unpoisoned, Members,12,12,12,0,0,-3,-3,-3,0,-3,12,0,0%,0,2.267
+Steel knife#(p), Members,0,0,0,0,8,0,0,0,0,0,0,7,0%,0,0
+Steel knife#(p+), Members,0,0,0,0,8,0,0,0,0,0,0,7,0%,0,0
+Steel knife#(p++), Members,0,0,0,0,8,0,0,0,0,0,0,7,0%,0,0
+Steel knife#(unp), Members,0,0,0,0,8,0,0,0,0,0,0,7,0%,0,0
+Steel longsword, Free-to-play,9,14,-2,0,0,0,3,2,0,0,16,0,0%,0,1.814
+Steel mace, Free-to-play,7,-2,13,0,0,0,0,0,0,0,11,0,0%,2,1.814
+Steel pickaxe, Free-to-play,8,-2,6,0,0,0,1,0,0,0,9,0,0%,0,2.267
+Steel scimitar, Free-to-play,3,15,-2,0,0,0,1,0,0,0,14,0,0%,0,1.814
+Steel sword, Free-to-play,11,8,-2,0,0,0,2,1,0,0,12,0,0%,0,1.814
+Steel thrownaxe, Members,0,0,0,0,8,0,0,0,0,0,0,11,0%,0,0
+Steel warhammer, Free-to-play,-4,-4,18,-4,0,0,0,0,0,0,16,0,0%,0,1.814
+Stick (unobtainable item), Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.907
+Swift blade, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,1.814
+Teacher wand, Members,0,0,0,15,0,0,0,0,15,0,0,0,0%,0,0.226
+Thammaron's sceptre#Charged, Members,0,0,0,20,0,0,0,0,20,0,0,0,0%,0,0.198
+Thammaron's sceptre#Uncharged, Members,0,0,0,20,0,0,0,0,20,0,0,0,0%,0,0.198
+Toktz-xil-ak, Members,47,38,-2,0,0,2,3,0,0,0,49,0,0%,0,1.814
+Toktz-xil-ek, Members,16,48,0,0,0,0,0,0,0,0,39,0,0%,0,0.453
+Toktz-xil-ul, Members,0,0,0,0,69,0,0,0,0,0,0,49,0%,0,0
+Toxic staff of the dead#Charged, Members,55,70,0,25,0,0,3,3,17,0,72,0,15%,0,1.5
+Toxic staff of the dead#Uncharged, Members,55,70,0,17,0,0,3,3,17,0,72,0,15%,0,1.5
+Training sword, Free-to-play,4,3,-2,0,0,0,2,1,0,0,5,0,0%,0,1.814
+Treasure flag, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267
+Trident of the seas (e)#Charged, Members,0,0,0,15,0,2,3,1,15,0,0,0,0%,0,1.814
+Trident of the seas (e)#Uncharged, Members,0,0,0,15,0,2,3,1,15,0,0,0,0%,0,1.814
+Trident of the seas#Charged, Members,0,0,0,15,0,2,3,1,15,0,0,0,0%,0,1.814
+Trident of the seas#Partially_charged, Members,0,0,0,15,0,2,3,1,15,0,0,0,0%,0,1.814
+Trident of the seas#Uncharged, Members,0,0,0,15,0,2,3,1,15,0,0,0,0%,0,1.814
+Trident of the swamp (e)#Charged, Members,0,0,0,25,0,2,3,1,15,0,0,0,0%,0,1.814
+Trident of the swamp (e)#Uncharged, Members,0,0,0,25,0,2,3,1,15,0,0,0,0%,0,1.814
+Trident of the swamp#Charged, Members,0,0,0,25,0,2,3,1,15,0,0,0,0%,0,1.814
+Trident of the swamp#Uncharged, Members,0,0,0,25,0,2,3,1,15,0,0,0,0%,0,1.814
+Trollweiss, Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0%,0,0.028
+Twisted banner, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267
+Twisted cane, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,1.814
+Tzhaar-ket-em, Members,-4,-4,62,0,0,0,0,0,0,0,56,0,0%,0,1.814
+Undead chicken (item), Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0%,0,0.453
+Vesta's blighted longsword#Active, Members,106,121,-2,0,0,1,4,3,0,0,118,0,0%,0,1.814
+Vesta's blighted longsword#Inactive, Members,106,121,-2,0,0,1,4,3,0,0,118,0,0%,0,1.814
+Vesta's longsword, Members,106,121,-2,0,0,1,4,3,0,0,118,0,0%,0,1.814
+Viggora's chainmace#Charged, Members,53,-2,67,0,0,0,1,0,0,0,66,0,0%,2,2
+Viggora's chainmace#Uncharged, Members,53,-2,67,0,0,0,1,0,0,0,66,0,0%,2,2
+Void knight mace#Broken, Members,22,0,41,8,0,2,2,2,2,2,38,0,0%,6,1.814
+Void knight mace#Locked, Members,22,0,41,8,0,2,2,2,2,2,38,0,0%,6,1.814
+Void knight mace#Normal, Members,22,0,41,8,0,2,2,2,2,2,38,0,0%,6,1.814
+Volatile nightmare staff, Members,0,0,0,16,0,0,0,0,14,0,0,0,15%,0,1.6
+Volcanic abyssal whip, Members,0,82,0,0,0,0,0,0,0,0,82,0,0%,0,0.453
+Water battlestaff, Members,10,-1,28,10,0,2,3,1,10,0,35,0,0%,0,2.267
+Western banner 1, Members,12,12,12,0,0,1,1,0,0,0,12,0,0%,0,2.267
+Western banner 2, Members,15,15,15,0,0,1,1,0,0,0,16,0,0%,0,2.267
+Western banner 3, Members,17,17,17,0,0,1,1,0,0,0,18,0,0%,0,2.267
+Western banner 4, Members,24,24,24,0,0,1,1,0,0,0,28,0,0%,0,2.267
+White battleaxe, Members,-2,20,15,0,0,0,0,0,0,-1,24,0,0%,1,2.721
+White dagger#(p), Members,10,5,-4,1,0,0,0,0,1,0,7,0,0%,1,0.453
+White dagger#(p+), Members,10,5,-4,1,0,0,0,0,1,0,7,0,0%,1,0.453
+White dagger#(p++), Members,10,5,-4,1,0,0,0,0,1,0,7,0,0%,1,0.453
+White dagger#(unp), Members,10,5,-4,1,0,0,0,0,1,0,7,0,0%,1,0.453
+White flowers, Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0%,0,0.028
+White longsword, Members,13,18,-2,0,0,0,3,2,0,0,16,0,0%,1,1.814
+White mace, Members,8,-2,16,0,0,0,0,0,0,0,13,0,0%,3,1.814
+White magic staff, Members,2,-1,10,10,0,2,3,1,10,0,7,0,0%,1,2.267
+White scimitar, Members,4,19,-2,0,0,0,1,0,0,0,14,0,0%,1,1.814
+White sword, Members,14,10,-2,0,0,0,2,1,0,0,12,0,0%,1,1.814
+White warhammer, Members,-4,-4,22,-4,0,0,0,0,0,0,19,0,0%,1,1.814
+Wilderness sword 1, Members,6,4,-2,0,0,0,2,1,0,0,7,0,0%,0,1.814
+Wilderness sword 2, Members,11,8,-2,0,0,0,2,1,0,0,12,0,0%,0,1.814
+Wilderness sword 3, Members,16,11,-2,0,0,0,2,1,0,0,17,0,0%,0,1.814
+Wilderness sword 4, Members,23,18,-2,0,0,0,2,1,0,0,24,0,0%,0,1.814
+Willow blackjack, Members,0,0,0,0,0,0,0,0,0,0,8,0,0%,0,1.814
+Willow blackjack(d), Members,0,0,0,0,0,0,0,8,0,0,8,0,0%,0,1.814
+Willow blackjack(o), Members,0,0,8,0,0,0,0,0,0,0,8,0,0%,0,1.814
+Wolfbane, Members,11,5,-4,1,0,0,0,0,1,0,10,0,0%,5,0.453
+Wooden spoon, Members,4,5,-2,0,0,0,3,2,0,0,7,0,0%,0,0.453
+Wooden sword, Members,4,3,-2,0,0,0,2,1,0,0,5,0,0%,0,1.814
+Yellow flowers, Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0%,0,0.028
+Zamorak banner, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267
+Zamorak crozier, Members,7,-1,25,10,0,2,3,1,10,0,32,0,0%,6,2
+Zamorak staff, Members,-1,-1,6,6,0,2,3,1,6,0,2,0,0%,0,2.267
+Zamorakian hasta, Members,85,65,65,0,0,13,13,12,0,13,75,0,0%,2,3
+Zaros mjolnir, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267
+Zombie head (Treasure Trails), Members,-4,-4,10,-4,0,0,0,0,0,0,8,0,0%,0,1.814
+Zombie monkey greegree (big), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.085
+Zombie monkey greegree (small), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.085
+Zuriel's staff, Members,13,-1,65,18,0,5,7,4,18,0,72,0,10%,0,2.267

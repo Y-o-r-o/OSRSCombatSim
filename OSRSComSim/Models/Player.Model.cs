@@ -23,6 +23,7 @@ namespace OSRSComSim.Models
         }
         public Skills PlayerSkills { get; set; } 
         
+
         public Combat combat = new Combat();
 
 
@@ -42,9 +43,6 @@ namespace OSRSComSim.Models
         { 
             combat.set_combat(PlayerSkills.Str_lvl, PlayerSkills.Atk_lvl, PlayerSkills.Def_lvl);
         }
-
-
-
 
     }
 }

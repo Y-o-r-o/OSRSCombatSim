@@ -69,6 +69,7 @@
     </ApplicationDefinition>
     <Compile Include="Data_store.cs" />
     <Compile Include="Models\Combat.Model.cs" />
+    <Compile Include="Models\Equipment.Model.cs" />
     <Compile Include="Models\Player.Model.cs" />
     <Compile Include="Models\Skills.Model.cs" />
     <Compile Include="ObservableObject.cs" />
@@ -141,5 +142,6 @@
   <ItemGroup>
     <Resource Include="Resources\default_avatar.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

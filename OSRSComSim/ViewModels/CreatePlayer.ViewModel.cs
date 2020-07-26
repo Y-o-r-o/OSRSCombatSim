@@ -12,22 +12,13 @@ namespace OSRSComSim.ViewModels
     class CreatePlayerViewModel: ObservableObject
     {
         private string _name;
-        private Skills _playerskills;
 
         private string _setnamequotes;
         private int _selected_index;
 
         private LoadScreenViewModel _loadscreenviewmodel;
 
-        public Skills PlayerSkills 
-        { 
-            get { return _playerskills; }
-            set
-            {
-                _playerskills = value;
-                OnPropertyChanged("PlayerSkills");
-            }
-        }
+        public Skills PlayerSkills { get; set; }
         public string Name
         {
             get { return _name; }

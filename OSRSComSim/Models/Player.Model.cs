@@ -21,19 +21,19 @@ namespace OSRSComSim.Models
                 OnPropertyChanged("Name");
             }
         }
-        public Stats PlayerStats { get; set; } 
+        public Skills PlayerStats { get; set; } 
         
         public Combat combat = new Combat();
 
 
         public Player() : this("Default character", null) { }
-        public Player(string name = "Default character", Stats player_stats = null)
+        public Player(string name = "Default character", Skills player_skills = null)
         {
             this.Name = name;
 
-            if (player_stats != null)
-                PlayerStats = player_stats;
-            else PlayerStats = new Stats();
+            if (player_skills != null)
+                PlayerStats = player_skills;
+            else PlayerStats = new Skills();
 
             setupPlayer();
         }

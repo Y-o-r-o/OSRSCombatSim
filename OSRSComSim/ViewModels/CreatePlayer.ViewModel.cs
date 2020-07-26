@@ -12,17 +12,13 @@ namespace OSRSComSim.ViewModels
     class CreatePlayerViewModel: ObservableObject
     {
         private string _name;
-        private int _hplvl;
-        private int _deflvl;
-        private int _strlvl;
-        private int _atklvl;
 
         private string _setnamequotes;
         private int _selected_index;
 
         private LoadScreenViewModel _loadscreenviewmodel;
 
-        public Stats PlayerStats { get; set; }
+        public Skills PlayerSkills { get; set; }
         public string Name
         {
             get { return _name; }
@@ -62,35 +58,36 @@ namespace OSRSComSim.ViewModels
             }
         }
 
-        public CreatePlayerViewModel(LoadScreenViewModel loadscreenviewmodel, string name = "No_name", Stats player_stats = null)
+        public CreatePlayerViewModel(LoadScreenViewModel loadscreenviewmodel, string name = "No_name", Skills player_Skills = null)
         {
             _loadscreenviewmodel = loadscreenviewmodel;
             
             Name = name;
-            if (player_stats != null)
-                PlayerStats = player_stats;
-            else PlayerStats = new Stats();
+            if (player_Skills != null)
+                PlayerSkills = player_Skills;
+            else PlayerSkills = new Skills();
 
             setupCreatePlayerVM();
         }
         
-        public void setupCreatePlayerVM()
+        private void setupCreatePlayerVM()
         {
             _setnamequotes = "Enter player name here.";
             _selected_index = 0;
         }
 
-        public void resetPlayerStats()
+
+        public void resetPlayerSkills()
         {
-            PlayerStats = new Stats();
+            PlayerSkills = new Skills();
         }
-        public void setRandomPlayerStats()
+        public void setRandomPlayerSkills()
         {
             Random rnd = new Random();
-            PlayerStats.Hp_lvl = rnd.Next(10, 100);
-            PlayerStats.Def_lvl = rnd.Next(1, 100);
-            PlayerStats.Str_lvl = rnd.Next(1, 100);
-            PlayerStats.Atk_lvl = rnd.Next(1, 100);
+            PlayerSkills.Hp_lvl = rnd.Next(10, 100);
+            PlayerSkills.Def_lvl = rnd.Next(1, 100);
+            PlayerSkills.Str_lvl = rnd.Next(1, 100);
+            PlayerSkills.Atk_lvl = rnd.Next(1, 100);
         }
         public void setPlayerName(string boxtext)
         {
@@ -127,7 +124,7 @@ namespace OSRSComSim.ViewModels
                 Player player = new Player
                 (
                     name: _name,
-                    player_stats: PlayerStats
+                    player_skills: PlayerSkills
                 );
                 Data_store.DeletePlayer(player.Name);
                 Data_store.SavePlayer(player);
@@ -136,7 +133,7 @@ namespace OSRSComSim.ViewModels
                 _loadscreenviewmodel.stopView();
             }
         }
-        public bool HasNoSpecialChars(string yourString)
+        private bool HasNoSpecialChars(string yourString)
         {
             return !yourString.Any(ch => !Char.IsLetterOrDigit(ch));
         }

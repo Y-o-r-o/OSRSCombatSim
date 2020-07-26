@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OSRSComSim.Models
 {
-    public class Stats: ObservableObject
+    public class Skills: ObservableObject
     {
         private int _hplvl;
         private int _deflvl;
@@ -54,8 +54,8 @@ namespace OSRSComSim.Models
             }
         }
 
-        public Stats() : this(10, 1, 1, 1) { }
-        public Stats(int hp_lvl = 10, int def_lvl = 1, int str_lvl = 1, int atk_lvl = 1)
+        public Skills() : this(10, 1, 1, 1) { }
+        public Skills(int hp_lvl = 10, int def_lvl = 1, int str_lvl = 1, int atk_lvl = 1)
         {
             this.Def_lvl = def_lvl;
             this.Hp_lvl = hp_lvl;

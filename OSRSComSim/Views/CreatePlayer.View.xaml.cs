@@ -21,10 +21,10 @@ namespace OSRSComSim.Views
     public partial class CreatePlayerView : UserControl
     {
         CreatePlayerViewModel view_model;
-        public CreatePlayerView(LoadScreenViewModel loadscreenVM, string name = "No_name", Stats player_stats = null)
+        public CreatePlayerView(LoadScreenViewModel loadscreenVM, string name = "No_name", Skills player_skills = null)
         {
             InitializeComponent();
-            DataContext = new CreatePlayerViewModel(loadscreenVM, name, player_stats);
+            DataContext = new CreatePlayerViewModel(loadscreenVM, name, player_skills);
          }
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
@@ -39,16 +39,16 @@ namespace OSRSComSim.Views
             switch (MinusBnt.Name)
             {
                 case "MinusHP":
-                    view_model.PlayerStats.Hp_lvl--;
+                    view_model.PlayerSkills.Hp_lvl--;
                     break;
                 case "MinusDef":
-                    view_model.PlayerStats.Def_lvl--;
+                    view_model.PlayerSkills.Def_lvl--;
                     break;
                 case "MinusStr":
-                    view_model.PlayerStats.Str_lvl--;
+                    view_model.PlayerSkills.Str_lvl--;
                     break;
                 case "MinusAtk":
-                    view_model.PlayerStats.Atk_lvl--;
+                    view_model.PlayerSkills.Atk_lvl--;
                     break;
                 default:
                     //throw ex
@@ -64,16 +64,16 @@ namespace OSRSComSim.Views
             switch (PlusBnt.Name)
             {
                 case "PlusHP":
-                    view_model.PlayerStats.Hp_lvl++;
+                    view_model.PlayerSkills.Hp_lvl++;
                     break;
                 case "PlusDef":
-                    view_model.PlayerStats.Def_lvl++;
+                    view_model.PlayerSkills.Def_lvl++;
                     break;
                 case "PlusStr":
-                    view_model.PlayerStats.Str_lvl++;
+                    view_model.PlayerSkills.Str_lvl++;
                     break;
                 case "PlusAtk":
-                    view_model.PlayerStats.Atk_lvl++;
+                    view_model.PlayerSkills.Atk_lvl++;
                     break;
                 default:
                     //throw ex
@@ -83,12 +83,12 @@ namespace OSRSComSim.Views
 
         private void BtnReset_Click(object sender, RoutedEventArgs e)
         {
-            view_model.resetPlayerStats();
+            view_model.resetPlayerSkills();
         }
 
         private void BtnRandom_Click(object sender, RoutedEventArgs e)
         {
-            view_model.setRandomPlayerStats();
+            view_model.setRandomPlayerSkills();
         }
 
         private void EnterNameBox_GotFocus(object sender, RoutedEventArgs e)

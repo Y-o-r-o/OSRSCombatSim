@@ -22,7 +22,8 @@ namespace OSRSComSim.ViewModels
 
         private LoadScreenViewModel _loadscreenviewmodel;
 
-        public string Name 
+        public Stats PlayerStats { get; set; }
+        public string Name
         {
             get { return _name; }
             set
@@ -32,53 +33,6 @@ namespace OSRSComSim.ViewModels
                 else _name = value;
             }
         }
-        public int HPLvl
-        {
-            get { return _hplvl; }
-            set
-            {
-                if (value < 10) _hplvl = 10;
-                else if (value > 99) _hplvl = 99;
-                else _hplvl = value;
-                OnPropertyChanged("HpLvl");
-                
-            }
-        }
-        public int DefLvl 
-        {
-            get { return _deflvl; }
-            set
-            {
-                if (value < 1) _deflvl = 1;
-                else if (value > 99) _deflvl = 99;
-                else _deflvl = value;
-                OnPropertyChanged("DefLvl");
-            }
-        }
-        public int StrLvl 
-        {
-            get { return _strlvl; }
-            set
-            {
-                if (value < 1) _strlvl = 1;
-                else if (value > 99) _strlvl = 99;
-                else _strlvl = value;
-                OnPropertyChanged("StrLvl");
-
-            }
-        }
-        public int AtkLvl {
-            get { return _atklvl; }
-            set
-            {
-                if (value < 1) _atklvl = 1;
-                else if (value > 99) _atklvl = 99;
-                else _atklvl = value;
-                OnPropertyChanged("AtkLvl");
-
-            }
-        }
-
         public string SetNameQuotes 
         { 
             get
@@ -108,15 +62,14 @@ namespace OSRSComSim.ViewModels
             }
         }
 
-        public CreatePlayerViewModel(LoadScreenViewModel loadscreenviewmodel, string name = "No_name", int hplvl = 10, int deflvl = 1, int strlvl = 1, int atklvl = 1)
+        public CreatePlayerViewModel(LoadScreenViewModel loadscreenviewmodel, string name = "No_name", Stats player_stats = null)
         {
             _loadscreenviewmodel = loadscreenviewmodel;
             
             Name = name;
-            HPLvl = hplvl;
-            DefLvl = deflvl;
-            StrLvl = strlvl;
-            AtkLvl = atklvl;
+            if (player_stats != null)
+                PlayerStats = player_stats;
+            else PlayerStats = new Stats();
 
             setupCreatePlayerVM();
         }
@@ -129,18 +82,15 @@ namespace OSRSComSim.ViewModels
 
         public void resetPlayerStats()
         {
-            HPLvl = 10;
-            DefLvl = 1;
-            StrLvl = 1;
-            AtkLvl = 1;
+            PlayerStats = new Stats();
         }
         public void setRandomPlayerStats()
         {
             Random rnd = new Random();
-            HPLvl = rnd.Next(10, 100);
-            DefLvl = rnd.Next(1, 100);
-            StrLvl = rnd.Next(1, 100);
-            AtkLvl = rnd.Next(1, 100);
+            PlayerStats.Hp_lvl = rnd.Next(10, 100);
+            PlayerStats.Def_lvl = rnd.Next(1, 100);
+            PlayerStats.Str_lvl = rnd.Next(1, 100);
+            PlayerStats.Atk_lvl = rnd.Next(1, 100);
         }
         public void setPlayerName(string boxtext)
         {
@@ -177,10 +127,7 @@ namespace OSRSComSim.ViewModels
                 Player player = new Player
                 (
                     name: _name,
-                    hp_lvl: _hplvl,
-                    def_lvl: _deflvl,
-                    str_lvl: _strlvl,
-                    atk_lvl: _atklvl
+                    player_stats: PlayerStats
                 );
                 Data_store.DeletePlayer(player.Name);
                 Data_store.SavePlayer(player);

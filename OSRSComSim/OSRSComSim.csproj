@@ -70,6 +70,7 @@
     <Compile Include="Data_store.cs" />
     <Compile Include="Models\Combat.Model.cs" />
     <Compile Include="Models\Player.Model.cs" />
+    <Compile Include="Models\Stats.Model.cs" />
     <Compile Include="ObservableObject.cs" />
     <Compile Include="ViewModels\Battle.ViewModel.cs" />
     <Compile Include="ViewModels\CreatePlayer.ViewModel.cs" />

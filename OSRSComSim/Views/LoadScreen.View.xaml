@@ -96,22 +96,22 @@
 
                     <StackPanel Grid.Row="0" x:Name="HeartPointsPanel" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0">
                         <TextBlock Text="Health level:" Width="200"/>
-                        <TextBlock TextAlignment="Center" Text="{Binding SelectedPlayer.Hp_lvl}" Width="50"/>
+                        <TextBlock TextAlignment="Center" Text="{Binding SelectedPlayer.PlayerStats.Hp_lvl}" Width="50"/>
                     </StackPanel>
 
                     <StackPanel Grid.Row="2" x:Name="DeffencePanel" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0">
                         <TextBlock Text="Deffence level:" Width="200"/>
-                        <TextBlock TextAlignment="Center" Text="{Binding SelectedPlayer.Def_lvl}" Width="50"/>
+                        <TextBlock TextAlignment="Center" Text="{Binding SelectedPlayer.PlayerStats.Def_lvl}" Width="50"/>
                     </StackPanel>
 
                     <StackPanel Grid.Row="4" x:Name="StrengthPanel" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0">
                         <TextBlock Text="Strength level:" Width="200"/>
-                        <TextBlock TextAlignment="Center" Text="{Binding SelectedPlayer.Str_lvl}" Width="50"/>
+                        <TextBlock TextAlignment="Center" Text="{Binding SelectedPlayer.PlayerStats.Str_lvl}" Width="50"/>
                     </StackPanel>
 
                     <StackPanel Grid.Row="6" x:Name="AttackPanel" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0">
                         <TextBlock Text="Attack level:" Width="200"/>
-                        <TextBlock TextAlignment="Center" Text="{Binding SelectedPlayer.Atk_lvl}" Width="50"/>
+                        <TextBlock TextAlignment="Center" Text="{Binding SelectedPlayer.PlayerStats.Atk_lvl}" Width="50"/>
                     </StackPanel>
                     
                 </Grid>

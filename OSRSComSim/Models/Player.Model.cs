@@ -9,10 +9,7 @@ namespace OSRSComSim.Models
     public class Player: ObservableObject
     {
         private string _name;
-        private int _hplvl;
-        private int _deflvl;
-        private int _strlvl;
-        private int _atklvl;
+
 
         public string Name 
         {
@@ -24,62 +21,27 @@ namespace OSRSComSim.Models
                 OnPropertyChanged("Name");
             }
         }
-        public int Hp_lvl
-        {
-            get
-            { return _hplvl; }
-            set
-            {
-                _hplvl = value;
-                OnPropertyChanged("Hp_lvl");
-            }
-        }
-        public int Def_lvl
-        {
-            get
-            { return _deflvl; }
-            set
-            {
-                _deflvl = value;
-                OnPropertyChanged("Def_lvl");
-            }
-        }
-        public int Str_lvl
-        {
-            get
-            { return _strlvl; }
-            set
-            {
-                _strlvl = value;
-                OnPropertyChanged("Str_lvl");
-            }
-        }
-        public int Atk_lvl
-        {
-            get
-            { return _atklvl; }
-            set
-            {
-                _atklvl = value;
-                OnPropertyChanged("Atk_lvl");
-            }
-        }
-
-
+        public Stats PlayerStats { get; set; } 
+        
         public Combat combat = new Combat();
-        public Player() : this("Default character", 10, 1, 1, 1) { }
-        public Player(string name = "Default character", int hp_lvl = 10, int def_lvl = 1, int str_lvl = 1, int atk_lvl = 1)
+
+
+        public Player() : this("Default character", null) { }
+        public Player(string name = "Default character", Stats player_stats = null)
         {
             this.Name = name;
-            this.Def_lvl = def_lvl;
-            this.Hp_lvl = hp_lvl;
-            this.Str_lvl = str_lvl;
-            this.Atk_lvl = atk_lvl;
-                    
-            combat.set_combat(str_lvl, atk_lvl, def_lvl);
+
+            if (player_stats != null)
+                PlayerStats = player_stats;
+            else PlayerStats = new Stats();
+
+            setupPlayer();
         }
 
-       
+        private void setupPlayer()
+        { 
+            combat.set_combat(PlayerStats.Str_lvl, PlayerStats.Atk_lvl, PlayerStats.Def_lvl);
+        }
 
 
 

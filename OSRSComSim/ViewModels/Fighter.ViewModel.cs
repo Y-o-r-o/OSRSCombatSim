@@ -79,7 +79,7 @@ namespace OSRSComSim.ViewModels
         {
             if (attack_res != "def")
             {
-                HealthTaken += (int)Math.Round((double.Parse(attack_res) / Player.Hp_lvl) * 100);
+                HealthTaken += (int)Math.Round((double.Parse(attack_res) / Player.PlayerStats.Hp_lvl) * 100);
                 LastAtkStatColor = "Red";
                 LastAtkStatContext = attack_res.ToString();
             }

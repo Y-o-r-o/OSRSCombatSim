@@ -1,4 +1,5 @@
-﻿using OSRSComSim.ViewModels;
+﻿using OSRSComSim.Models;
+using OSRSComSim.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,10 +21,10 @@ namespace OSRSComSim.Views
     public partial class CreatePlayerView : UserControl
     {
         CreatePlayerViewModel view_model;
-        public CreatePlayerView(LoadScreenViewModel loadscreenVM, string name = "No_name", int hplvl = 10, int deflvl = 1, int strlvl = 1, int atklvl = 1)
+        public CreatePlayerView(LoadScreenViewModel loadscreenVM, string name = "No_name", Stats player_stats = null)
         {
             InitializeComponent();
-            DataContext = new CreatePlayerViewModel(loadscreenVM, name, hplvl, deflvl, strlvl, atklvl);
+            DataContext = new CreatePlayerViewModel(loadscreenVM, name, player_stats);
          }
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
@@ -38,16 +39,16 @@ namespace OSRSComSim.Views
             switch (MinusBnt.Name)
             {
                 case "MinusHP":
-                    view_model.HPLvl--;
+                    view_model.PlayerStats.Hp_lvl--;
                     break;
                 case "MinusDef":
-                    view_model.DefLvl--;
+                    view_model.PlayerStats.Def_lvl--;
                     break;
                 case "MinusStr":
-                    view_model.StrLvl--;
+                    view_model.PlayerStats.Str_lvl--;
                     break;
                 case "MinusAtk":
-                    view_model.AtkLvl--;
+                    view_model.PlayerStats.Atk_lvl--;
                     break;
                 default:
                     //throw ex
@@ -63,16 +64,16 @@ namespace OSRSComSim.Views
             switch (PlusBnt.Name)
             {
                 case "PlusHP":
-                    view_model.HPLvl++;
+                    view_model.PlayerStats.Hp_lvl++;
                     break;
                 case "PlusDef":
-                    view_model.DefLvl++;
+                    view_model.PlayerStats.Def_lvl++;
                     break;
                 case "PlusStr":
-                    view_model.StrLvl++;
+                    view_model.PlayerStats.Str_lvl++;
                     break;
                 case "PlusAtk":
-                    view_model.AtkLvl++;
+                    view_model.PlayerStats.Atk_lvl++;
                     break;
                 default:
                     //throw ex

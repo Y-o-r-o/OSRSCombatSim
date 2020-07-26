@@ -174,7 +174,7 @@ namespace OSRSComSim.ViewModels
         {
             if (_name != "Default character")
             {
-                Players player = new Players
+                Player player = new Player
                 (
                     name: _name,
                     hp_lvl: _hplvl,

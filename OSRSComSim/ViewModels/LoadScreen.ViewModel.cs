@@ -27,12 +27,12 @@ namespace OSRSComSim.ViewModels
         public object                           _viewcontent;
         
         private MainWindowViewModel             _mainwindowVM;
-        private Players                         _selected_player;
+        private Player                         _selected_player;
 
-        private ObservableCollection<Players>   _player_list;
+        private ObservableCollection<Player>   _player_list;
 
 
-        public ObservableCollection<Players>    PlayerList 
+        public ObservableCollection<Player>    PlayerList 
         {
             get
             {
@@ -56,7 +56,7 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("ViewContent");
             }
         }
-        public Players                          SelectedPlayer
+        public Player                          SelectedPlayer
         {
             get 
             {
@@ -73,8 +73,8 @@ namespace OSRSComSim.ViewModels
         public LoadScreenViewModel(MainWindowViewModel mainWindowVM, string fighter_num)
         {
             _mainwindowVM = mainWindowVM;
-            _player_list = new ObservableCollection<Players>();
-            _selected_player = new Players();
+            _player_list = new ObservableCollection<Player>();
+            _selected_player = new Player();
             _fighter_num = fighter_num;
             Load_players();
         }
@@ -103,7 +103,7 @@ namespace OSRSComSim.ViewModels
         public void delete_player(string name) {
             Data_store.DeletePlayer(name);
             Load_players();
-            SelectedPlayer = new Players();
+            SelectedPlayer = new Player();
         }
         public void loadSelectedFighter(string fighter_num)
         {
@@ -120,7 +120,7 @@ namespace OSRSComSim.ViewModels
         }
 
         public void getPlayer(string fighter_num) {
-            foreach(Players player in PlayerList)
+            foreach(Player player in PlayerList)
             {
                 if (player.Name == fighter_num)
                 {

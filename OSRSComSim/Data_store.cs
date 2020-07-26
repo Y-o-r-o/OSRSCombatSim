@@ -18,7 +18,7 @@ namespace OSRSComSim
         static Data_store()
         {
             CreatePath();
-            serializer = new XmlSerializer(typeof(Players));
+            serializer = new XmlSerializer(typeof(Player));
         }
 
 
@@ -29,14 +29,14 @@ namespace OSRSComSim
             System.IO.Directory.CreateDirectory(path);
         }
 
-        public static void LoadPlayers(ObservableCollection<Players> players)
+        public static void LoadPlayers(ObservableCollection<Player> players)
         {
             DirectoryInfo dir = new DirectoryInfo(path);
             foreach (var file in dir.GetFiles("SavedPlayer_*.xml"))
             {
                 using (FileStream fs = File.OpenRead(file.FullName))
                 {
-                    players.Add((Players)serializer.Deserialize(fs));
+                    players.Add((Player)serializer.Deserialize(fs));
                     fs.Close();
                 }
             }
@@ -52,7 +52,7 @@ namespace OSRSComSim
 
 
 
-        public static void SavePlayer(Players player)
+        public static void SavePlayer(Player player)
         {
             using (Stream fs = new FileStream(path + "SavedPlayer_" + player.Name + ".xml",
                 FileMode.Create, FileAccess.Write, FileShare.None))

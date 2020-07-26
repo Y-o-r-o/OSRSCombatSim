@@ -6,7 +6,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 namespace OSRSComSim.Models
 {
-    public class Players: ObservableObject
+    public class Player: ObservableObject
     {
         private string _name;
         private int _hplvl;
@@ -67,8 +67,8 @@ namespace OSRSComSim.Models
 
 
         public Combat combat = new Combat();
-        public Players() : this("Default character", 10, 1, 1, 1) { }
-        public Players(string name = "Default character", int hp_lvl = 10, int def_lvl = 1, int str_lvl = 1, int atk_lvl = 1)
+        public Player() : this("Default character", 10, 1, 1, 1) { }
+        public Player(string name = "Default character", int hp_lvl = 10, int def_lvl = 1, int str_lvl = 1, int atk_lvl = 1)
         {
             this.Name = name;
             this.Def_lvl = def_lvl;

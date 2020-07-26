@@ -16,9 +16,9 @@ namespace OSRSComSim.ViewModels
         private string _last_atk_stat_context;
         private string _last_atk_stat_color;
 
-        private Players _player;
+        private Player _player;
 
-        public Players Player
+        public Player Player
         {
             get { return _player; }
             set
@@ -60,7 +60,7 @@ namespace OSRSComSim.ViewModels
 
         public FighterViewModel()
         {
-            Player = new Players();
+            Player = new Player();
             setupFighter();
         }
 

@@ -18,3 +18,12 @@ D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\CreatePlayer.View.g.cs
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\LoadScreen.View.g.cs
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\CreatePlayer.View.baml
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\LoadScreen.View.baml
+D:\Projects\OSRSComSim\OSRSComSim\bin\Debug\CsvHelper.dll
+D:\Projects\OSRSComSim\OSRSComSim\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Projects\OSRSComSim\OSRSComSim\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Projects\OSRSComSim\OSRSComSim\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Projects\OSRSComSim\OSRSComSim\bin\Debug\CsvHelper.xml
+D:\Projects\OSRSComSim\OSRSComSim\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Projects\OSRSComSim\OSRSComSim\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Projects\OSRSComSim\OSRSComSim\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\OSRSComSim.csproj.CopyComplete

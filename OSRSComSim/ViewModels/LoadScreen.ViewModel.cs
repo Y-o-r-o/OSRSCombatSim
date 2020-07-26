@@ -90,7 +90,7 @@ namespace OSRSComSim.ViewModels
         }
         public void viewrEditPlayer()
         {
-            ViewContent = new CreatePlayerView(this, SelectedPlayer.Name, SelectedPlayer.PlayerStats);
+            ViewContent = new CreatePlayerView(this, SelectedPlayer.Name, SelectedPlayer.PlayerSkills);
         }
         public void stopView()
         {

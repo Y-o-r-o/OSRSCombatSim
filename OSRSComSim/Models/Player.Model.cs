@@ -21,7 +21,7 @@ namespace OSRSComSim.Models
                 OnPropertyChanged("Name");
             }
         }
-        public Skills PlayerStats { get; set; } 
+        public Skills PlayerSkills { get; set; } 
         
         public Combat combat = new Combat();
 
@@ -32,15 +32,15 @@ namespace OSRSComSim.Models
             this.Name = name;
 
             if (player_skills != null)
-                PlayerStats = player_skills;
-            else PlayerStats = new Skills();
+                PlayerSkills = player_skills;
+            else PlayerSkills = new Skills();
 
             setupPlayer();
         }
 
         private void setupPlayer()
         { 
-            combat.set_combat(PlayerStats.Str_lvl, PlayerStats.Atk_lvl, PlayerStats.Def_lvl);
+            combat.set_combat(PlayerSkills.Str_lvl, PlayerSkills.Atk_lvl, PlayerSkills.Def_lvl);
         }
 
 

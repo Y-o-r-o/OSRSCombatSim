@@ -2,6 +2,7 @@
 using OSRSComSim.ViewModels;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,6 +29,15 @@ namespace OSRSComSim.Views
             InitializeComponent();
             DataContext = new EquipmentSlotsViewModel(player_equiped);
             view_model = DataContext as EquipmentSlotsViewModel;
+        }
+
+        private void Slot_Clicked(object sender, RoutedEventArgs e)
+        {
+            view_model.SelectedSlotTable = ((Button)sender).Tag.ToString();
+        }
+
+        private void equipment_Click(object sender, RoutedEventArgs e)
+        {
 
         }
     }

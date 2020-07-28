@@ -39,7 +39,24 @@ namespace OSRSComSim.Models
             Feet = new Equipment();
             Hands = new Equipment();
             Ring = new Equipment();
+            setupEquipmentDefautSlotImg();
         }
+
+        private void setupEquipmentDefautSlotImg()
+        {
+            Head.Png = "../Resources/App/Equipment/Head_slot.png";
+            Neck.Png = "../Resources/App/Equipment/Neck_slot.png";
+            Cape.Png = "../Resources/App/Equipment/Cape_slot.png";
+            Ammo.Png = "../Resources/App/Equipment/Ammo_slot.png";
+            Sword.Png = "../Resources/App/Equipment/Weapon_slot.png";
+            Body.Png = "../Resources/App/Equipment/Body_slot.png";
+            Shield.Png = "../Resources/App/Equipment/Shield_slot.png";
+            Legs.Png = "../Resources/App/Equipment/Legs_slot.png";
+            Feet.Png = "../Resources/App/Equipment/Feet_slot.png";
+            Hands.Png = "../Resources/App/Equipment/Hands_slot.png";
+            Ring.Png = "../Resources/App/Equipment/Ring_slot.png";
+        }
+
 
         public int getTotalStabAtk()
         {

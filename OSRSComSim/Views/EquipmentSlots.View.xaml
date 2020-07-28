@@ -85,14 +85,13 @@
 
         <Label Content=""/>
 
-        <ListView Grid.Row="12" Grid.ColumnSpan="7" Grid.Column="1" x:Name="ListViewEquipments" Background="Beige" ItemsSource="{Binding Path=ReadCSV}">
-            <ListView.View>
-                <GridView ColumnHeaderContainerStyle="{StaticResource myHeaderStyle}">
-                    <GridViewColumn DisplayMemberBinding="{Binding}" ButtonBase.Click="equipment_Click"/>
-                </GridView>
-            </ListView.View>
-        </ListView>
-
+        <ListBox Grid.Row="12" Grid.ColumnSpan="7" Grid.Column="1" x:Name="ListViewEquipments" Background="Beige" ItemsSource="{Binding Path=ReadCSV}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Label MouseLeftButtonUp="equipment_Click" Content="{Binding}"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
         <TextBox x:Name="EnterEqpNameBox" Text="{Binding Name}" Background="Beige" TextAlignment="Left" FontSize="20"  Grid.Row="13" Grid.Column="1" Grid.ColumnSpan="7"/>
 
     </Grid>

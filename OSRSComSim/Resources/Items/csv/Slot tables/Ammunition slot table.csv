@@ -1,193 +1,194 @@
-Adamant arrow#(p), Members,0,0,0,0,0,0,0,0,0,0,0,31,0%,0,0
-Adamant arrow#(p+), Members,0,0,0,0,0,0,0,0,0,0,0,31,0%,0,0
-Adamant arrow#(p++), Members,0,0,0,0,0,0,0,0,0,0,0,31,0%,0,0
-Adamant arrow#(unp), Free-to-play,0,0,0,0,0,0,0,0,0,0,0,31,0%,0,0
-Adamant bolts#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,100,0%,0,0
-Adamant bolts#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,100,0%,0,0
-Adamant bolts#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,100,0%,0,0
-Adamant bolts#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,100,0%,0,0
-Adamant brutal, Members,0,0,0,0,0,0,0,0,0,0,0,45,0%,0,0
-Adamant fire arrow#Lit, Members,0,0,0,0,0,0,0,0,0,0,0,31,0%,0,0
-Adamant fire arrow#Unlit, Members,0,0,0,0,0,0,0,0,0,0,0,31,0%,0,0
-Adamant javelin#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,107,0%,0,0
-Adamant javelin#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,107,0%,0,0
-Adamant javelin#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,107,0%,0,0
-Adamant javelin#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,107,0%,0,0
-Amethyst arrow#(p), Members,0,0,0,0,0,0,0,0,0,0,0,55,0%,0,0
-Amethyst arrow#(p+), Members,0,0,0,0,0,0,0,0,0,0,0,55,0%,0,0
-Amethyst arrow#(p++), Members,0,0,0,0,0,0,0,0,0,0,0,55,0%,0,0
-Amethyst arrow#(unp), Members,0,0,0,0,0,0,0,0,0,0,0,55,0%,0,0
-Amethyst broad bolts, Members,0,0,0,0,0,0,0,0,0,0,0,115,0%,0,0
-Amethyst fire arrow#Lit, Members,0,0,0,0,0,0,0,0,0,0,0,55,0%,0,0
-Amethyst fire arrow#Unlit, Members,0,0,0,0,0,0,0,0,0,0,0,55,0%,0,0
-Amethyst javelin#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,135,0%,0,0
-Amethyst javelin#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,135,0%,0,0
-Amethyst javelin#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,135,0%,0,0
-Amethyst javelin#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,135,0%,0,0
-Ancient blessing, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,1,0.51
-Barbed arrow, Members,0,0,0,0,46,0,0,0,0,0,0,125,0%,0,0
-Barbed bolts, Members,0,0,0,0,0,0,0,0,0,0,0,12,0%,0,0
-Black brutal, Members,0,0,0,0,0,0,0,0,0,0,0,22,0%,0,0
-Blunt arrow, Members,0,0,0,0,46,0,0,0,0,0,0,125,0%,0,0
-Blurite bolts#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,28,0%,0,0
-Blurite bolts#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,28,0%,0,0
-Blurite bolts#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,28,0%,0,0
-Blurite bolts#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,28,0%,0,0
-Bolt rack, Members,0,0,0,0,0,0,0,0,0,0,0,55,0%,0,0
-Bone bolts, Members,0,0,0,0,0,0,0,0,0,0,0,49,0%,0,0
-Broad arrows, Members,0,0,0,0,0,0,0,0,0,0,0,28,0%,0,0
-Broad bolts, Members,0,0,0,0,0,0,0,0,0,0,0,100,0%,0,0
-Bronze arrow#(p), Members,0,0,0,0,0,0,0,0,0,0,0,7,0%,0,0
-Bronze arrow#(p+), Members,0,0,0,0,0,0,0,0,0,0,0,7,0%,0,0
-Bronze arrow#(p++), Members,0,0,0,0,0,0,0,0,0,0,0,7,0%,0,0
-Bronze arrow#(unp), Free-to-play,0,0,0,0,0,0,0,0,0,0,0,7,0%,0,0
-Bronze bolts#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,10,0%,0,0
-Bronze bolts#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,10,0%,0,0
-Bronze bolts#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,10,0%,0,0
-Bronze bolts#Unpoisoned, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,10,0%,0,0
-Bronze brutal, Members,0,0,0,0,0,0,0,0,0,0,0,11,0%,0,0
-Bronze fire arrow#Lit, Members,0,0,0,0,0,0,0,0,0,0,0,7,0%,0,0
-Bronze fire arrow#Unlit, Members,0,0,0,0,0,0,0,0,0,0,0,7,0%,0,0
-Bronze javelin#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,25,0%,0,0
-Bronze javelin#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,25,0%,0,0
-Bronze javelin#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,25,0%,0,0
-Bronze javelin#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,25,0%,0,0
-Bullet arrow, Members,0,0,0,0,46,0,0,0,0,0,0,125,0%,0,0
-Diamond bolts, Members,0,0,0,0,0,0,0,0,0,0,0,105,0%,0,0
-Diamond bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,105,0%,0,0
-Diamond dragon bolts, Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0
-Diamond dragon bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0
-Dragon arrow#(p), Members,0,0,0,0,0,0,0,0,0,0,0,60,0%,0,0
-Dragon arrow#(p+), Members,0,0,0,0,0,0,0,0,0,0,0,60,0%,0,0
-Dragon arrow#(p++), Members,0,0,0,0,0,0,0,0,0,0,0,60,0%,0,0
-Dragon arrow#(unp), Members,0,0,0,0,0,0,0,0,0,0,0,60,0%,0,0
-Dragon bolts#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0
-Dragon bolts#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0
-Dragon bolts#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0
-Dragon bolts#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0
-Dragon fire arrow#Lit, Members,0,0,0,0,0,0,0,0,0,0,0,60,0%,0,0
-Dragon fire arrow#Unlit, Members,0,0,0,0,0,0,0,0,0,0,0,60,0%,0,0
-Dragon javelin#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,150,0%,0,0
-Dragon javelin#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,150,0%,0,0
-Dragon javelin#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,150,0%,0,0
-Dragon javelin#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,150,0%,0,0
-Dragonstone bolts, Members,0,0,0,0,0,0,0,0,0,0,0,117,0%,0,0
-Dragonstone bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,117,0%,0,0
-Dragonstone dragon bolts, Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0
-Dragonstone dragon bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0
-Emerald bolts, Members,0,0,0,0,0,0,0,0,0,0,0,85,0%,0,0
-Emerald bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,85,0%,0,0
-Emerald dragon bolts, Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0
-Emerald dragon bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0
-Field arrow, Members,0,0,0,0,46,0,0,0,0,0,0,125,0%,0,0
-Guam tar, Members,0,0,0,0,0,0,0,0,0,0,0,16,0%,0,0
-Harralander tar, Members,0,0,0,0,0,0,0,0,0,0,0,49,0%,0,0
-Holy blessing, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,1,0.51
-Honourable blessing, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,1,0.51
-Ice arrows, Members,0,0,0,0,0,0,0,0,0,0,0,16,0%,0,0
-Iron arrow#(p), Members,0,0,0,0,0,0,0,0,0,0,0,10,0%,0,0
-Iron arrow#(p+), Members,0,0,0,0,0,0,0,0,0,0,0,10,0%,0,0
-Iron arrow#(p++), Members,0,0,0,0,0,0,0,0,0,0,0,10,0%,0,0
-Iron arrow#(unp), Free-to-play,0,0,0,0,0,0,0,0,0,0,0,10,0%,0,0
-Iron bolts#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,46,0%,0,0
-Iron bolts#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,46,0%,0,0
-Iron bolts#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,46,0%,0,0
-Iron bolts#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,46,0%,0,0
-Iron brutal, Members,0,0,0,0,0,0,0,0,0,0,0,13,0%,0,0
-Iron fire arrow#Lit, Members,0,0,0,0,0,0,0,0,0,0,0,10,0%,0,0
-Iron fire arrow#Unlit, Members,0,0,0,0,0,0,0,0,0,0,0,10,0%,0,0
-Iron javelin#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,42,0%,0,0
-Iron javelin#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,42,0%,0,0
-Iron javelin#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,42,0%,0,0
-Iron javelin#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,42,0%,0,0
-Jade bolts, Members,0,0,0,0,0,0,0,0,0,0,0,30,0%,0,0
-Jade bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,30,0%,0,0
-Jade dragon bolts, Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0
-Jade dragon bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0
-Kebbit bolts, Members,0,0,0,0,0,0,0,0,0,0,0,28,0%,0,0
-Long kebbit bolts, Members,0,0,0,0,0,0,0,0,0,0,0,38,0%,0,0
-Marrentill tar, Members,0,0,0,0,0,0,0,0,0,0,0,22,0%,0,0
-Mith grapple, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.001
-Mithril arrow#(p), Members,0,0,0,0,0,0,0,0,0,0,0,22,0%,0,0
-Mithril arrow#(p+), Members,0,0,0,0,0,0,0,0,0,0,0,22,0%,0,0
-Mithril arrow#(p++), Members,0,0,0,0,0,0,0,0,0,0,0,22,0%,0,0
-Mithril arrow#(unp), Free-to-play,0,0,0,0,0,0,0,0,0,0,0,22,0%,0,0
-Mithril bolts#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,82,0%,0,0
-Mithril bolts#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,82,0%,0,0
-Mithril bolts#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,82,0%,0,0
-Mithril bolts#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,82,0%,0,0
-Mithril brutal, Members,0,0,0,0,0,0,0,0,0,0,0,34,0%,0,0
-Mithril fire arrow#Lit, Members,0,0,0,0,0,0,0,0,0,0,0,22,0%,0,0
-Mithril fire arrow#Unlit, Members,0,0,0,0,0,0,0,0,0,0,0,22,0%,0,0
-Mithril javelin#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,85,0%,0,0
-Mithril javelin#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,85,0%,0,0
-Mithril javelin#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,85,0%,0,0
-Mithril javelin#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,85,0%,0,0
-Ogre arrow, Members,0,0,0,0,0,0,0,0,0,0,0,22,0%,0,0
-Onyx bolts, Members,0,0,0,0,0,0,0,0,0,0,0,120,0%,0,0
-Onyx bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,120,0%,0,0
-Onyx dragon bolts, Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0
-Onyx dragon bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0
-Opal bolts, Members,0,0,0,0,0,0,0,0,0,0,0,14,0%,0,0
-Opal bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,14,0%,0,0
-Opal dragon bolts, Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0
-Opal dragon bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0
-Peaceful blessing, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,1,0.51
-Pearl bolts, Members,0,0,0,0,0,0,0,0,0,0,0,48,0%,0,0
-Pearl bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,48,0%,0,0
-Pearl dragon bolts, Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0
-Pearl dragon bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0
-Rada's blessing 1, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.453
-Rada's blessing 2, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,1,0.453
-Rada's blessing 3, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,1,0.453
-Rada's blessing 4, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,2,0.453
-Ruby bolts, Members,0,0,0,0,0,0,0,0,0,0,0,103,0%,0,0
-Ruby bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,103,0%,0,0
-Ruby dragon bolts, Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0
-Ruby dragon bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0
-Rune arrow#(p), Members,0,0,0,0,0,0,0,0,0,0,0,49,0%,0,0
-Rune arrow#(p+), Members,0,0,0,0,0,0,0,0,0,0,0,49,0%,0,0
-Rune arrow#(p++), Members,0,0,0,0,0,0,0,0,0,0,0,49,0%,0,0
-Rune arrow#(unp), Members,0,0,0,0,0,0,0,0,0,0,0,49,0%,0,0
-Rune brutal, Members,0,0,0,0,0,0,0,0,0,0,0,60,0%,0,0
-Rune fire arrow#Lit, Members,0,0,0,0,0,0,0,0,0,0,0,49,0%,0,0
-Rune fire arrow#Unlit, Members,0,0,0,0,0,0,0,0,0,0,0,49,0%,0,0
-Rune javelin#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,124,0%,0,0
-Rune javelin#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,124,0%,0,0
-Rune javelin#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,124,0%,0,0
-Rune javelin#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,124,0%,0,0
-Runite bolts#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,115,0%,0,0
-Runite bolts#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,115,0%,0,0
-Runite bolts#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,115,0%,0,0
-Runite bolts#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,115,0%,0,0
-Sapphire bolts, Members,0,0,0,0,0,0,0,0,0,0,0,83,0%,0,0
-Sapphire bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,83,0%,0,0
-Sapphire dragon bolts, Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0
-Sapphire dragon bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0
-Silver bolts#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,36,0%,0,0
-Silver bolts#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,36,0%,0,0
-Silver bolts#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,36,0%,0,0
-Silver bolts#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,36,0%,0,0
-Steel arrow#(p), Members,0,0,0,0,0,0,0,0,0,0,0,16,0%,0,0
-Steel arrow#(p+), Members,0,0,0,0,0,0,0,0,0,0,0,16,0%,0,0
-Steel arrow#(p++), Members,0,0,0,0,0,0,0,0,0,0,0,16,0%,0,0
-Steel arrow#(unp), Free-to-play,0,0,0,0,0,0,0,0,0,0,0,16,0%,0,0
-Steel bolts#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,64,0%,0,0
-Steel bolts#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,64,0%,0,0
-Steel bolts#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,64,0%,0,0
-Steel bolts#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,64,0%,0,0
-Steel brutal, Members,0,0,0,0,0,0,0,0,0,0,0,19,0%,0,0
-Steel fire arrow#Lit, Members,0,0,0,0,0,0,0,0,0,0,0,16,0%,0,0
-Steel fire arrow#Unlit, Members,0,0,0,0,0,0,0,0,0,0,0,16,0%,0,0
-Steel javelin#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,64,0%,0,0
-Steel javelin#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,64,0%,0,0
-Steel javelin#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,64,0%,0,0
-Steel javelin#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,64,0%,0,0
-Tarromin tar, Members,0,0,0,0,0,0,0,0,0,0,0,31,0%,0,0
-Topaz bolts, Members,0,0,0,0,0,0,0,0,0,0,0,66,0%,0,0
-Topaz bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,66,0%,0,0
-Topaz dragon bolts, Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0
-Topaz dragon bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0
-Training arrows, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,7,0%,0,0
-Unholy blessing, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,1,0.51
-War blessing, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,1,0.51
+Name,Member,StabAtk,SlashAtk,CrushAtk,MagicAtk,RangedAtk,StabDef,SlashDef,CrushDef,MagicDef,RangedDef,MeleStr,RangedStr,MagicStr,Prayer,Weigth,Speed
+Adamant arrow#(p), Members,0,0,0,0,0,0,0,0,0,0,0,31,0%,0,0,0
+Adamant arrow#(p+), Members,0,0,0,0,0,0,0,0,0,0,0,31,0%,0,0,0
+Adamant arrow#(p++), Members,0,0,0,0,0,0,0,0,0,0,0,31,0%,0,0,0
+Adamant arrow#(unp), Free-to-play,0,0,0,0,0,0,0,0,0,0,0,31,0%,0,0,0
+Adamant bolts#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,100,0%,0,0,0
+Adamant bolts#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,100,0%,0,0,0
+Adamant bolts#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,100,0%,0,0,0
+Adamant bolts#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,100,0%,0,0,0
+Adamant brutal, Members,0,0,0,0,0,0,0,0,0,0,0,45,0%,0,0,0
+Adamant fire arrow#Lit, Members,0,0,0,0,0,0,0,0,0,0,0,31,0%,0,0,0
+Adamant fire arrow#Unlit, Members,0,0,0,0,0,0,0,0,0,0,0,31,0%,0,0,0
+Adamant javelin#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,107,0%,0,0,0
+Adamant javelin#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,107,0%,0,0,0
+Adamant javelin#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,107,0%,0,0,0
+Adamant javelin#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,107,0%,0,0,0
+Amethyst arrow#(p), Members,0,0,0,0,0,0,0,0,0,0,0,55,0%,0,0,0
+Amethyst arrow#(p+), Members,0,0,0,0,0,0,0,0,0,0,0,55,0%,0,0,0
+Amethyst arrow#(p++), Members,0,0,0,0,0,0,0,0,0,0,0,55,0%,0,0,0
+Amethyst arrow#(unp), Members,0,0,0,0,0,0,0,0,0,0,0,55,0%,0,0,0
+Amethyst broad bolts, Members,0,0,0,0,0,0,0,0,0,0,0,115,0%,0,0,0
+Amethyst fire arrow#Lit, Members,0,0,0,0,0,0,0,0,0,0,0,55,0%,0,0,0
+Amethyst fire arrow#Unlit, Members,0,0,0,0,0,0,0,0,0,0,0,55,0%,0,0,0
+Amethyst javelin#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,135,0%,0,0,0
+Amethyst javelin#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,135,0%,0,0,0
+Amethyst javelin#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,135,0%,0,0,0
+Amethyst javelin#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,135,0%,0,0,0
+Ancient blessing, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,1,0.51,0
+Barbed arrow, Members,0,0,0,0,46,0,0,0,0,0,0,125,0%,0,0,0
+Barbed bolts, Members,0,0,0,0,0,0,0,0,0,0,0,12,0%,0,0,0
+Black brutal, Members,0,0,0,0,0,0,0,0,0,0,0,22,0%,0,0,0
+Blunt arrow, Members,0,0,0,0,46,0,0,0,0,0,0,125,0%,0,0,0
+Blurite bolts#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,28,0%,0,0,0
+Blurite bolts#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,28,0%,0,0,0
+Blurite bolts#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,28,0%,0,0,0
+Blurite bolts#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,28,0%,0,0,0
+Bolt rack, Members,0,0,0,0,0,0,0,0,0,0,0,55,0%,0,0,0
+Bone bolts, Members,0,0,0,0,0,0,0,0,0,0,0,49,0%,0,0,0
+Broad arrows, Members,0,0,0,0,0,0,0,0,0,0,0,28,0%,0,0,0
+Broad bolts, Members,0,0,0,0,0,0,0,0,0,0,0,100,0%,0,0,0
+Bronze arrow#(p), Members,0,0,0,0,0,0,0,0,0,0,0,7,0%,0,0,0
+Bronze arrow#(p+), Members,0,0,0,0,0,0,0,0,0,0,0,7,0%,0,0,0
+Bronze arrow#(p++), Members,0,0,0,0,0,0,0,0,0,0,0,7,0%,0,0,0
+Bronze arrow#(unp), Free-to-play,0,0,0,0,0,0,0,0,0,0,0,7,0%,0,0,0
+Bronze bolts#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,10,0%,0,0,0
+Bronze bolts#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,10,0%,0,0,0
+Bronze bolts#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,10,0%,0,0,0
+Bronze bolts#Unpoisoned, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,10,0%,0,0,0
+Bronze brutal, Members,0,0,0,0,0,0,0,0,0,0,0,11,0%,0,0,0
+Bronze fire arrow#Lit, Members,0,0,0,0,0,0,0,0,0,0,0,7,0%,0,0,0
+Bronze fire arrow#Unlit, Members,0,0,0,0,0,0,0,0,0,0,0,7,0%,0,0,0
+Bronze javelin#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,25,0%,0,0,0
+Bronze javelin#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,25,0%,0,0,0
+Bronze javelin#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,25,0%,0,0,0
+Bronze javelin#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,25,0%,0,0,0
+Bullet arrow, Members,0,0,0,0,46,0,0,0,0,0,0,125,0%,0,0,0
+Diamond bolts, Members,0,0,0,0,0,0,0,0,0,0,0,105,0%,0,0,0
+Diamond bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,105,0%,0,0,0
+Diamond dragon bolts, Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0,0
+Diamond dragon bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0,0
+Dragon arrow#(p), Members,0,0,0,0,0,0,0,0,0,0,0,60,0%,0,0,0
+Dragon arrow#(p+), Members,0,0,0,0,0,0,0,0,0,0,0,60,0%,0,0,0
+Dragon arrow#(p++), Members,0,0,0,0,0,0,0,0,0,0,0,60,0%,0,0,0
+Dragon arrow#(unp), Members,0,0,0,0,0,0,0,0,0,0,0,60,0%,0,0,0
+Dragon bolts#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0,0
+Dragon bolts#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0,0
+Dragon bolts#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0,0
+Dragon bolts#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0,0
+Dragon fire arrow#Lit, Members,0,0,0,0,0,0,0,0,0,0,0,60,0%,0,0,0
+Dragon fire arrow#Unlit, Members,0,0,0,0,0,0,0,0,0,0,0,60,0%,0,0,0
+Dragon javelin#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,150,0%,0,0,0
+Dragon javelin#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,150,0%,0,0,0
+Dragon javelin#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,150,0%,0,0,0
+Dragon javelin#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,150,0%,0,0,0
+Dragonstone bolts, Members,0,0,0,0,0,0,0,0,0,0,0,117,0%,0,0,0
+Dragonstone bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,117,0%,0,0,0
+Dragonstone dragon bolts, Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0,0
+Dragonstone dragon bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0,0
+Emerald bolts, Members,0,0,0,0,0,0,0,0,0,0,0,85,0%,0,0,0
+Emerald bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,85,0%,0,0,0
+Emerald dragon bolts, Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0,0
+Emerald dragon bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0,0
+Field arrow, Members,0,0,0,0,46,0,0,0,0,0,0,125,0%,0,0,0
+Guam tar, Members,0,0,0,0,0,0,0,0,0,0,0,16,0%,0,0,0
+Harralander tar, Members,0,0,0,0,0,0,0,0,0,0,0,49,0%,0,0,0
+Holy blessing, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,1,0.51,0
+Honourable blessing, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,1,0.51,0
+Ice arrows, Members,0,0,0,0,0,0,0,0,0,0,0,16,0%,0,0,0
+Iron arrow#(p), Members,0,0,0,0,0,0,0,0,0,0,0,10,0%,0,0,0
+Iron arrow#(p+), Members,0,0,0,0,0,0,0,0,0,0,0,10,0%,0,0,0
+Iron arrow#(p++), Members,0,0,0,0,0,0,0,0,0,0,0,10,0%,0,0,0
+Iron arrow#(unp), Free-to-play,0,0,0,0,0,0,0,0,0,0,0,10,0%,0,0,0
+Iron bolts#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,46,0%,0,0,0
+Iron bolts#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,46,0%,0,0,0
+Iron bolts#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,46,0%,0,0,0
+Iron bolts#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,46,0%,0,0,0
+Iron brutal, Members,0,0,0,0,0,0,0,0,0,0,0,13,0%,0,0,0
+Iron fire arrow#Lit, Members,0,0,0,0,0,0,0,0,0,0,0,10,0%,0,0,0
+Iron fire arrow#Unlit, Members,0,0,0,0,0,0,0,0,0,0,0,10,0%,0,0,0
+Iron javelin#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,42,0%,0,0,0
+Iron javelin#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,42,0%,0,0,0
+Iron javelin#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,42,0%,0,0,0
+Iron javelin#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,42,0%,0,0,0
+Jade bolts, Members,0,0,0,0,0,0,0,0,0,0,0,30,0%,0,0,0
+Jade bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,30,0%,0,0,0
+Jade dragon bolts, Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0,0
+Jade dragon bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0,0
+Kebbit bolts, Members,0,0,0,0,0,0,0,0,0,0,0,28,0%,0,0,0
+Long kebbit bolts, Members,0,0,0,0,0,0,0,0,0,0,0,38,0%,0,0,0
+Marrentill tar, Members,0,0,0,0,0,0,0,0,0,0,0,22,0%,0,0,0
+Mith grapple, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.001,0
+Mithril arrow#(p), Members,0,0,0,0,0,0,0,0,0,0,0,22,0%,0,0,0
+Mithril arrow#(p+), Members,0,0,0,0,0,0,0,0,0,0,0,22,0%,0,0,0
+Mithril arrow#(p++), Members,0,0,0,0,0,0,0,0,0,0,0,22,0%,0,0,0
+Mithril arrow#(unp), Free-to-play,0,0,0,0,0,0,0,0,0,0,0,22,0%,0,0,0
+Mithril bolts#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,82,0%,0,0,0
+Mithril bolts#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,82,0%,0,0,0
+Mithril bolts#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,82,0%,0,0,0
+Mithril bolts#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,82,0%,0,0,0
+Mithril brutal, Members,0,0,0,0,0,0,0,0,0,0,0,34,0%,0,0,0
+Mithril fire arrow#Lit, Members,0,0,0,0,0,0,0,0,0,0,0,22,0%,0,0,0
+Mithril fire arrow#Unlit, Members,0,0,0,0,0,0,0,0,0,0,0,22,0%,0,0,0
+Mithril javelin#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,85,0%,0,0,0
+Mithril javelin#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,85,0%,0,0,0
+Mithril javelin#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,85,0%,0,0,0
+Mithril javelin#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,85,0%,0,0,0
+Ogre arrow, Members,0,0,0,0,0,0,0,0,0,0,0,22,0%,0,0,0
+Onyx bolts, Members,0,0,0,0,0,0,0,0,0,0,0,120,0%,0,0,0
+Onyx bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,120,0%,0,0,0
+Onyx dragon bolts, Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0,0
+Onyx dragon bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0,0
+Opal bolts, Members,0,0,0,0,0,0,0,0,0,0,0,14,0%,0,0,0
+Opal bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,14,0%,0,0,0
+Opal dragon bolts, Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0,0
+Opal dragon bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0,0
+Peaceful blessing, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,1,0.51,0
+Pearl bolts, Members,0,0,0,0,0,0,0,0,0,0,0,48,0%,0,0,0
+Pearl bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,48,0%,0,0,0
+Pearl dragon bolts, Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0,0
+Pearl dragon bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0,0
+Rada's blessing 1, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.453,0
+Rada's blessing 2, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,1,0.453,0
+Rada's blessing 3, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,1,0.453,0
+Rada's blessing 4, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,2,0.453,0
+Ruby bolts, Members,0,0,0,0,0,0,0,0,0,0,0,103,0%,0,0,0
+Ruby bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,103,0%,0,0,0
+Ruby dragon bolts, Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0,0
+Ruby dragon bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0,0
+Rune arrow#(p), Members,0,0,0,0,0,0,0,0,0,0,0,49,0%,0,0,0
+Rune arrow#(p+), Members,0,0,0,0,0,0,0,0,0,0,0,49,0%,0,0,0
+Rune arrow#(p++), Members,0,0,0,0,0,0,0,0,0,0,0,49,0%,0,0,0
+Rune arrow#(unp), Members,0,0,0,0,0,0,0,0,0,0,0,49,0%,0,0,0
+Rune brutal, Members,0,0,0,0,0,0,0,0,0,0,0,60,0%,0,0,0
+Rune fire arrow#Lit, Members,0,0,0,0,0,0,0,0,0,0,0,49,0%,0,0,0
+Rune fire arrow#Unlit, Members,0,0,0,0,0,0,0,0,0,0,0,49,0%,0,0,0
+Rune javelin#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,124,0%,0,0,0
+Rune javelin#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,124,0%,0,0,0
+Rune javelin#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,124,0%,0,0,0
+Rune javelin#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,124,0%,0,0,0
+Runite bolts#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,115,0%,0,0,0
+Runite bolts#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,115,0%,0,0,0
+Runite bolts#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,115,0%,0,0,0
+Runite bolts#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,115,0%,0,0,0
+Sapphire bolts, Members,0,0,0,0,0,0,0,0,0,0,0,83,0%,0,0,0
+Sapphire bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,83,0%,0,0,0
+Sapphire dragon bolts, Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0,0
+Sapphire dragon bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0,0
+Silver bolts#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,36,0%,0,0,0
+Silver bolts#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,36,0%,0,0,0
+Silver bolts#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,36,0%,0,0,0
+Silver bolts#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,36,0%,0,0,0
+Steel arrow#(p), Members,0,0,0,0,0,0,0,0,0,0,0,16,0%,0,0,0
+Steel arrow#(p+), Members,0,0,0,0,0,0,0,0,0,0,0,16,0%,0,0,0
+Steel arrow#(p++), Members,0,0,0,0,0,0,0,0,0,0,0,16,0%,0,0,0
+Steel arrow#(unp), Free-to-play,0,0,0,0,0,0,0,0,0,0,0,16,0%,0,0,0
+Steel bolts#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,64,0%,0,0,0
+Steel bolts#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,64,0%,0,0,0
+Steel bolts#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,64,0%,0,0,0
+Steel bolts#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,64,0%,0,0,0
+Steel brutal, Members,0,0,0,0,0,0,0,0,0,0,0,19,0%,0,0,0
+Steel fire arrow#Lit, Members,0,0,0,0,0,0,0,0,0,0,0,16,0%,0,0,0
+Steel fire arrow#Unlit, Members,0,0,0,0,0,0,0,0,0,0,0,16,0%,0,0,0
+Steel javelin#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,64,0%,0,0,0
+Steel javelin#Poison+, Members,0,0,0,0,0,0,0,0,0,0,0,64,0%,0,0,0
+Steel javelin#Poison++, Members,0,0,0,0,0,0,0,0,0,0,0,64,0%,0,0,0
+Steel javelin#Unpoisoned, Members,0,0,0,0,0,0,0,0,0,0,0,64,0%,0,0,0
+Tarromin tar, Members,0,0,0,0,0,0,0,0,0,0,0,31,0%,0,0,0
+Topaz bolts, Members,0,0,0,0,0,0,0,0,0,0,0,66,0%,0,0,0
+Topaz bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,66,0%,0,0,0
+Topaz dragon bolts, Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0,0
+Topaz dragon bolts (e), Members,0,0,0,0,0,0,0,0,0,0,0,122,0%,0,0,0
+Training arrows, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,7,0%,0,0,0
+Unholy blessing, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,1,0.51,0
+War blessing, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,1,0.51,0

@@ -1,4 +1,5 @@
 ﻿using OSRSComSim.Models;
+using OSRSComSim.Views;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -11,37 +12,14 @@ namespace OSRSComSim.ViewModels
 {
     class CreatePlayerViewModel: ObservableObject
     {
-        private string _name;
-
-        private string _setnamequotes;
         private int _selected_index;
+        private EquipmentSlotsView _equipmentslotsview;
+        private SkillsView _skillsview;
+        private AppearanceView _appearanceview;
 
+        public Player _player { get; set; }
         private LoadScreenViewModel _loadscreenviewmodel;
 
-        public Skills PlayerSkills { get; set; }
-        public string Name
-        {
-            get { return _name; }
-            set
-            {
-                if (value.Length > 20) _name = "No_name";
-                else if (value.Length < 6) _name = "No_name";
-                else _name = value;
-            }
-        }
-        public string SetNameQuotes 
-        { 
-            get
-            {
-                return _setnamequotes;
-            }
-            set 
-            {
-                _setnamequotes = value;
-                OnPropertyChanged("SetNameQuotes");
-            }
-
-        }
         public int SelectedIndex
         { 
          get
@@ -58,59 +36,68 @@ namespace OSRSComSim.ViewModels
             }
         }
 
-        public CreatePlayerViewModel(LoadScreenViewModel loadscreenviewmodel, string name = "No_name", Skills player_Skills = null)
+        public AppearanceView appearanceView
+        {
+            get
+            {
+                return _appearanceview;
+            }
+            set
+            {
+                _appearanceview = value;
+                OnPropertyChanged("appearanceView");
+            }
+        }
+        public EquipmentSlotsView equipmentSlotsView
+        {
+            get
+            {
+                return _equipmentslotsview;
+            }
+            set
+            {
+                _equipmentslotsview = value;
+                OnPropertyChanged("equipmentSlotsView");
+            }
+        }
+        public SkillsView skillsView
+        {
+            get
+            {
+                return _skillsview;
+            }
+            set
+            {
+                _skillsview = value;
+                OnPropertyChanged("skillsView");
+            }
+        }
+
+        public CreatePlayerViewModel(LoadScreenViewModel loadscreenviewmodel, Player player = null)
         {
             _loadscreenviewmodel = loadscreenviewmodel;
-            
-            Name = name;
-            if (player_Skills != null)
-                PlayerSkills = player_Skills;
-            else PlayerSkills = new Skills();
 
+            if (player != null)
+                _player = player;
+            else _player = new Player();
+
+            appearanceView = new AppearanceView(_player);
+            skillsView = new SkillsView(_player.PlayerSkills);
+
+           
+            equipmentSlotsView = new EquipmentSlotsView(_player.PlayerEquipment);
+            
             setupCreatePlayerVM();
         }
         
         private void setupCreatePlayerVM()
         {
-            _setnamequotes = "Enter player name here.";
             _selected_index = 0;
         }
 
-
-        public void resetPlayerSkills()
+        private void setValues()
         {
-            PlayerSkills = new Skills();
-        }
-        public void setRandomPlayerSkills()
-        {
-            Random rnd = new Random();
-            PlayerSkills.Hp_lvl = rnd.Next(10, 100);
-            PlayerSkills.Def_lvl = rnd.Next(1, 100);
-            PlayerSkills.Str_lvl = rnd.Next(1, 100);
-            PlayerSkills.Atk_lvl = rnd.Next(1, 100);
-        }
-        public void setPlayerName(string boxtext)
-        {
-
-            if (!HasNoSpecialChars(boxtext))
-            {
-                SetNameQuotes = "Dont use special chars.";
-            }
-            else if (Data_store.CheckIfPlayerExists(boxtext))
-            {
-                SetNameQuotes = "Player with this name already exists.";
-            }
-            else if (boxtext.Length > 20 || boxtext.Length < 6)
-            {
-                SetNameQuotes = "Player name length must bet betwee 6 and 20.";
-            }
-            else 
-            {
-                Name = boxtext;
-                SetNameQuotes = "Name set!";
-                SelectedIndex = 1;
-            }
-
+            //_player.Name = appearanceView.view_model.Name
         }
 
         public void backToLoadScreen()
@@ -119,24 +106,17 @@ namespace OSRSComSim.ViewModels
         }
         public void Create()
         {
-            if (_name != "Default character")
+
+            if (_player.Name != "Default character")
             {
-                Player player = new Player
-                (
-                    name: _name,
-                    player_skills: PlayerSkills
-                );
-                Data_store.DeletePlayer(player.Name);
-                Data_store.SavePlayer(player);
+                Data_store.DeletePlayer(_player.Name);
+                Data_store.SavePlayer(_player);
                 _loadscreenviewmodel.Load_players();
-                _loadscreenviewmodel.SelectedPlayer = player;
+                _loadscreenviewmodel.SelectedPlayer = _player;
                 _loadscreenviewmodel.stopView();
             }
         }
-        private bool HasNoSpecialChars(string yourString)
-        {
-            return !yourString.Any(ch => !Char.IsLetterOrDigit(ch));
-        }
+
 
     }
 }

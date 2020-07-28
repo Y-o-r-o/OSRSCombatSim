@@ -21,10 +21,10 @@ namespace OSRSComSim.Views
     public partial class CreatePlayerView : UserControl
     {
         CreatePlayerViewModel view_model;
-        public CreatePlayerView(LoadScreenViewModel loadscreenVM, string name = "No_name", Skills player_skills = null)
+        public CreatePlayerView(LoadScreenViewModel loadscreenVM, Player player = null)
         {
             InitializeComponent();
-            DataContext = new CreatePlayerViewModel(loadscreenVM, name, player_skills);
+            DataContext = new CreatePlayerViewModel(loadscreenVM, player);
          }
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
@@ -32,75 +32,9 @@ namespace OSRSComSim.Views
             view_model = (CreatePlayerViewModel)DataContext;
         }
 
-        private void MinusBtn_Click(object sender, RoutedEventArgs e)
-        {
-            Button MinusBnt = (Button)sender;
 
-            switch (MinusBnt.Name)
-            {
-                case "MinusHP":
-                    view_model.PlayerSkills.Hp_lvl--;
-                    break;
-                case "MinusDef":
-                    view_model.PlayerSkills.Def_lvl--;
-                    break;
-                case "MinusStr":
-                    view_model.PlayerSkills.Str_lvl--;
-                    break;
-                case "MinusAtk":
-                    view_model.PlayerSkills.Atk_lvl--;
-                    break;
-                default:
-                    //throw ex
-                    break;
-            }
 
-        }
 
-        private void PlusBtn_Click(object sender, RoutedEventArgs e)
-        {
-            Button PlusBnt = (Button)sender;
-
-            switch (PlusBnt.Name)
-            {
-                case "PlusHP":
-                    view_model.PlayerSkills.Hp_lvl++;
-                    break;
-                case "PlusDef":
-                    view_model.PlayerSkills.Def_lvl++;
-                    break;
-                case "PlusStr":
-                    view_model.PlayerSkills.Str_lvl++;
-                    break;
-                case "PlusAtk":
-                    view_model.PlayerSkills.Atk_lvl++;
-                    break;
-                default:
-                    //throw ex
-                    break;
-            }
-        }
-
-        private void BtnReset_Click(object sender, RoutedEventArgs e)
-        {
-            view_model.resetPlayerSkills();
-        }
-
-        private void BtnRandom_Click(object sender, RoutedEventArgs e)
-        {
-            view_model.setRandomPlayerSkills();
-        }
-
-        private void EnterNameBox_GotFocus(object sender, RoutedEventArgs e)
-        {
-            EnterNameBox.Text = "";
-            EnterNameBox.FontSize = 30;
-        }
-
-        private void CaptureName_Btn_Click(object sender, RoutedEventArgs e)
-        {
-            view_model.setPlayerName(EnterNameBox.Text);
-        }
 
         private void CreateButton_Click(object sender, RoutedEventArgs e)
         {

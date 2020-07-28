@@ -21,21 +21,24 @@ namespace OSRSComSim.Models
                 OnPropertyChanged("Name");
             }
         }
-        public Skills PlayerSkills { get; set; } 
-        
+        public Skills PlayerSkills { get; set; }
+        public Equiped PlayerEquipment { get; set; }
+        public Equiped PlayerEuipment { get; set; }
 
         public Combat combat = new Combat();
 
 
-        public Player() : this("Default character", null) { }
-        public Player(string name = "Default character", Skills player_skills = null)
+        public Player() : this("Default character", null,null) { }
+        public Player(string name = "Default character", Skills player_skills = null, Equiped player_equipment = null)
         {
             this.Name = name;
 
             if (player_skills != null)
                 PlayerSkills = player_skills;
             else PlayerSkills = new Skills();
-
+            if (player_equipment != null)
+                PlayerEquipment = player_equipment;
+            else PlayerEquipment = new Equiped();
             setupPlayer();
         }
 

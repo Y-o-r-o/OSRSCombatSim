@@ -39,10 +39,10 @@
         
         
         <Border Grid.Column="4" Grid.ColumnSpan="2" Grid.Row="1" Width="300">
-            <TextBlock x:Name="SelectedPlayer" TextWrapping="Wrap" Text="{Binding SelectedPlayer.Name}" FontSize="35" VerticalAlignment="Stretch" HorizontalAlignment="Center" Canvas.Left="572" Canvas.Top="36"/>
+            <TextBlock x:Name="SelectedPlayer" TextWrapping="Wrap" Text="{Binding SelectedPlayer.Name}" FontSize="35" VerticalAlignment="Stretch" HorizontalAlignment="Center"/>
         </Border>
 
-        <Image Grid.Column="4" Grid.ColumnSpan="2" Grid.Row="2" Source="../Resources/default_avatar.png" Height="487" Width="254" Canvas.Left="597" Canvas.Top="83"/>
+        <Image Grid.Column="4" Grid.ColumnSpan="2" Grid.Row="2" Source="../Resources/default_avatar.png" Height="487" Width="254"/>
 
         <Button Grid.Column="4" Grid.Row="3" Grid.RowSpan="2" x:Name="button_select" Content="Select" FontSize="40" Height="50" Click="button_select_Click"/>
         <Button Grid.Column="5" Grid.Row="3" Grid.RowSpan="2" x:Name="button_cancel" Content="Cancel" FontSize="40" Height="50" Click="button_cancel_Click"/>

@@ -34,7 +34,7 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <TabControl Grid.ColumnSpan="4" Grid.RowSpan="2" x:Name="CreatePlayerTab" Background="#FFA59175" BorderThickness="0" SelectedIndex="{Binding SelectedIndex}">
+        <TabControl Grid.ColumnSpan="4" Grid.RowSpan="2" x:Name="CreatePlayerTab" Background="#FFA58F75" BorderThickness="0" SelectedIndex="{Binding SelectedIndex}">
 
             <TabControl.Resources>
                 <Style TargetType="TextBlock">
@@ -48,78 +48,11 @@
 
 
             <TabItem Header="Appearance" FontSize="20" Background="LightYellow" Height="70" Width="70">
-            
-                <Grid HorizontalAlignment="Center" Width="500">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="50"/>
-                        <RowDefinition Height="50"/>
-                        <RowDefinition Height="*"/>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="300"/>
-                        <ColumnDefinition Width="50"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-
-                    <TextBox x:Name="EnterNameBox" Text="{Binding Name}" TextAlignment="Center" FontSize="30"  Margin="75,0,0.333,0" Grid.Row="2" Grid.ColumnSpan="2" GotFocus="EnterNameBox_GotFocus"/>
-
-                    <Button Margin="299.667,0,0.333,0" Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="1" Content="OK" Click="CaptureName_Btn_Click"/>
-
-                    <TextBlock Grid.Row="3" Grid.Column="1" FontSize="12" Text="{Binding SetNameQuotes}"/>
-                </Grid>
+                <ContentControl x:Name="show_player_appearance" Margin="0,0,0,5" Content="{Binding appearanceView}"/>
             </TabItem>
 
             <TabItem Header="Skills" FontSize="20" Background="LightYellow" Height="70" Width="70">
-                <Grid x:Name="PlayerSkills" Background="LightYellow">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="80"/>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="80"/>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="80"/>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="80"/>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="80"/>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="50"/>
-                    </Grid.RowDefinitions>
-
-                    <StackPanel Grid.Row="0" x:Name="HeartPointsPanel" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0">
-                        <Button x:Name="MinusHP" Content="lowericon" Margin="0,0,10,0" Click="MinusBtn_Click"/>
-                        <TextBlock x:Name="HealthLvl" Text="Health level:" Width="200"/>
-                        <TextBlock x:Name="HPLvl" TextAlignment="Center" Text="{Binding PlayerSkills.Hp_lvl}" Width="50"/>
-                        <Button x:Name="PlusHP" Content="uppericon" Margin="10,0,0,0" Click="PlusBtn_Click"/>
-                    </StackPanel>
-
-                    <StackPanel Grid.Row="2" x:Name="DeffencePanel" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0">
-                        <Button x:Name="MinusDef" Content="lowericon" Margin="0,0,10,0" Click="MinusBtn_Click"/>
-                        <TextBlock x:Name="DeffenceLvl" Text="Deffence level:" Width="200"/>
-                        <TextBlock x:Name="DefLvl" TextAlignment="Center" Text="{Binding PlayerSkills.Def_lvl}" Width="50"/>
-                        <Button x:Name="PlusDef" Content="uppericon" Margin="10,0,0,0" Click="PlusBtn_Click"/>
-                    </StackPanel>
-
-                    <StackPanel Grid.Row="4" x:Name="StrengthPanel" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0">
-                        <Button x:Name="MinusStr" Content="lowericon" Margin="0,0,10,0" Click="MinusBtn_Click"/>
-                        <TextBlock x:Name="StrengthLvl" Text="Strength level:" Width="200"/>
-                        <TextBlock x:Name="StrLvl" TextAlignment="Center" Text="{Binding PlayerSkills.Str_lvl}" Width="50"/>
-                        <Button x:Name="PlusStr" Content="uppericon" Margin="10,0,0,0" Click="PlusBtn_Click"/>
-                    </StackPanel>
-
-                    <StackPanel Grid.Row="6" x:Name="AttackPanel" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0">
-                        <Button x:Name="MinusAtk" Content="lowericon" Margin="0,0,10,0" Click="MinusBtn_Click"/>
-                        <TextBlock x:Name="Attacklvl" Text="Attack level:" Width="200"/>
-                        <TextBlock x:Name="AtkLvl" TextAlignment="Center" Text="{Binding PlayerSkills.Atk_lvl}" Width="50"/>
-                        <Button x:Name="PlusAtk" Content="uppericon" Margin="10,0,0,0" Click="PlusBtn_Click"/>
-                    </StackPanel>
-                    <StackPanel Grid.Row="10" Orientation="Horizontal" HorizontalAlignment="Center">
-                        <Button x:Name="BtnRandom" VerticalAlignment="Center" Content="Random" FontSize="20" Height="36" Width="150" Click="BtnRandom_Click"/>
-                        <Button x:Name="BtnReset" VerticalAlignment="Center" Content="Reset" FontSize="20" Height="36" Width="150" Click="BtnReset_Click"/>
-                    </StackPanel>
-
-                </Grid>
+                <ContentControl x:Name="show_player_skills" Margin="0,0,0,5" Content="{Binding skillsView}"/>
             </TabItem>
 
             <TabItem Header="Inventory" FontSize="20" Background="LightYellow" Height="70" Width="70">
@@ -127,13 +60,13 @@
             </TabItem>
 
             <TabItem Header="Equipment" FontSize="20" Background="LightYellow" Height="70" Width="70">
-                <Grid Background="#FFE5E5E5"/>
+                    <ContentControl x:Name="show_eqp_slots" Margin="0,0,0,5" Content="{Binding equipmentSlotsView}"/>
             </TabItem>
 
         </TabControl>
 
-        
-        
+
+
         <Button x:Name="CreateButton" Grid.Column="1" Content="Create" FontSize="14" Height="60" Width="60" Click="CreateButton_Click"/>
         <Button x:Name="CancelButton" Grid.Column="2" Content="Cancel"  FontSize="14" Height="60" Width="60" Click="CancelButton_Click"/>
     </Grid>

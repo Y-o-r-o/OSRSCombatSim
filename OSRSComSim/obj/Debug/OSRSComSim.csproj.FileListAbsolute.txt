@@ -13,7 +13,6 @@ D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\OSRSComSim.csproj.GenerateResource.c
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\OSRSComSim.csproj.CoreCompileInputs.cache
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\OSRSComSim.exe
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\OSRSComSim.pdb
-D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\OSRSComSim.csprojAssemblyReference.cache
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\CreatePlayer.View.g.cs
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\LoadScreen.View.g.cs
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\CreatePlayer.View.baml
@@ -27,3 +26,10 @@ D:\Projects\OSRSComSim\OSRSComSim\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 D:\Projects\OSRSComSim\OSRSComSim\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\Projects\OSRSComSim\OSRSComSim\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\OSRSComSim.csproj.CopyComplete
+D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\OSRSComSim.csprojAssemblyReference.cache
+D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\EquipmentSlots.View.g.cs
+D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\EquipmentSlots.View.baml
+D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\Appearance.View.g.cs
+D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\Skills.View.g.cs
+D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\Appearance.View.baml
+D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\Skills.View.baml

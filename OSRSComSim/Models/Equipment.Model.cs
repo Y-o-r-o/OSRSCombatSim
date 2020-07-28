@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace OSRSComSim.Models
 {
-    class Equipment: ObservableObject
+    public class Equipment: ObservableObject
     {
-        //png ...
+        private string _png = "../Resources/App/Equipment/Slot.png";
         //lvl ...
 
         public string  Name { get; set; } = "";
@@ -27,9 +27,18 @@ namespace OSRSComSim.Models
         public int     RangedStr{ get; set; } = 0;
         public int     MagicStr { get; set; } = 0;
         public int     Prayer   { get; set; } = 0;
-        public double Weigth { get; set; } = 0;
-
-        Equipment()
+        public double   Weigth  { get; set; } = 0;
+        public int      Speed   { get; set; } = 0;
+        public string Png
+        {
+            get { return _png; }
+            set
+            {
+                _png = value;
+                OnPropertyChanged("Png");
+            }
+        }
+        public Equipment()
         {
             
         }

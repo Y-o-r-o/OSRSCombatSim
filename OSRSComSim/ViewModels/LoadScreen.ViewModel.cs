@@ -44,13 +44,13 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("PlayerList");
             }
         }
-        public object                           ViewContent
+        public object ViewContent
         {
             get
             {
                 return _viewcontent;
             }
-            set
+            private set
             {
                 _viewcontent = value;
                 OnPropertyChanged("ViewContent");
@@ -90,7 +90,7 @@ namespace OSRSComSim.ViewModels
         }
         public void viewrEditPlayer()
         {
-            ViewContent = new CreatePlayerView(this, SelectedPlayer.Name, SelectedPlayer.PlayerSkills);
+            ViewContent = new CreatePlayerView(this, SelectedPlayer);
         }
         public void stopView()
         {

@@ -5,15 +5,26 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Navigation;
 
 namespace OSRSComSim.ViewModels
 {
     public class EquipmentSlotsViewModel:ObservableObject
     {
+        private bool _show_select;
         private Equiped _player_equiped;
-        private string _selected_slot_table = "";
-        private string[] _selected_slot_table_lines;
+        private SelectEquipmentView _select_equipment;
+        private string _equipment_info = "";
 
+        public SelectEquipmentView selectEquipment 
+        {
+            get { return _select_equipment; }
+            set{
+                _select_equipment = value;
+                setEquipmentInfo();
+                OnPropertyChanged("selectEquipment");
+            }
+        }
         public Equiped PlayerEquiped
         {
             get{ return _player_equiped; }
@@ -23,117 +34,111 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("PlayerEquiped");
             }
         }
-        public string SelectedSlotTable
+        public string EquipmentInfo
         {
-            get { return _selected_slot_table; }
-            set
+            get { return _equipment_info; }
+            set 
             {
-                _selected_slot_table = value;
-                OnPropertyChanged("SelectedSlotTable");
-                OnPropertyChanged("ReadCSV");
+                _equipment_info = value;
+                OnPropertyChanged("EquipmentInfo");
             }
         }
-        public IEnumerable<string> ReadCSV
-        {
-            get
-            {
-                if (SelectedSlotTable == "")
-                    return null;
-                else
-                {
-                    string[] lines = File.ReadAllLines("../../Resources/Items/csv/Slot tables/" + _selected_slot_table + " slot table.csv");
-                    lines = lines.Skip(1).ToArray();
-                    prepareTempEquipmentsData(lines);
-                    
-                    return lines.Select(line =>
-                    {
-                        string[] data = line.Split(',');
-                        return data[0];
-                    });
-                }
-            }
-        }
+        public Position PositionEquipmentInfo { get; set; }
 
-
-    
-        public EquipmentSlotsViewModel(Equiped player_equiped = null)
+        public EquipmentSlotsViewModel(Equiped player_equiped = null, bool show_select = false)
         {
+
             if (player_equiped != null)
             {
                 PlayerEquiped = player_equiped;
             }
             else PlayerEquiped = new Equiped();
+            selectEquipment = null;
+            _show_select = show_select;
+            setEqpInfoPos();
+            setEquipmentInfo();
         }
 
-
-
-
-        public void mountEquipment(string equipment_name)
+        public void viewSelectEquipment(string selected_slot_table)
         {
-            string eqp = getEquipmentData(equipment_name);
+            if(_show_select)
+                selectEquipment = new SelectEquipmentView(PlayerEquiped,selected_slot_table);
+        }
+        public void stopSelectEquipment()
+        {
+            selectEquipment = null;
+            setEquipmentInfo();
+        }
 
-            if (!eqp.Equals(""))
+        public void setEquipmentInfo()
+        {
+            string Info = "";
+            Info = "SlashAtk "  + PlayerEquiped.getTotalSlashAtk() + "\n";
+            Info += "StabAtk "  + PlayerEquiped.getTotalStabAtk() + "\n";
+            Info += "CrushAtk " + PlayerEquiped.getTotalCrushAtk() + "\n";
+            Info += "MagicAtk " + PlayerEquiped.getTotalMagicAtk() + "\n";
+            Info += "RangedAtk "+ PlayerEquiped.getTotalRangedAtk() + "\n";
+            Info += "SlashDef " + PlayerEquiped.getTotalSlashDef() + "\n";
+            Info += "StabDef "  + PlayerEquiped.getTotalStabDef() + "\n";
+            Info += "CrushDef " + PlayerEquiped.getTotalCrushDef() + "\n";
+            Info += "MagicDef " + PlayerEquiped.getTotalMagicDef() + "\n";
+            Info += "RangedDef "+ PlayerEquiped.getTotalRangedDef() + "\n";
+            Info += "MeleStr "  + PlayerEquiped.getTotalMeleStr() + "\n";
+            Info += "MagicStr " + PlayerEquiped.getTotalMagicStr() + "\n";
+            Info += "RangedStr "+ PlayerEquiped.getTotalRangedStr() + "\n";
+            Info += "Prayer "   + PlayerEquiped.getTotalPrayer() + "\n";
+            Info += "Weigth "   + PlayerEquiped.getTotalWeigth() + "\n";
+            EquipmentInfo = Info;
+        }
+
+        private void setEqpInfoPos()
+        {
+            if (_show_select)
             {
-                switch (_selected_slot_table)
-                {
-                    case "Head":
-                        PlayerEquiped.Head.setData(eqp, _selected_slot_table);
-                        break;
-                    case "Neck":
-                        PlayerEquiped.Neck.setData(eqp, _selected_slot_table);
-                        break;
-                    case "Cape":
-                        PlayerEquiped.Cape.setData(eqp, _selected_slot_table);
-                        break;
-                    case "Ammo":
-                        PlayerEquiped.Ammo.setData(eqp, _selected_slot_table);
-                        break;
-                    case "Weapon":
-                        PlayerEquiped.Weapon.setData(eqp, _selected_slot_table);
-                        break;
-                    case "Body":
-                        PlayerEquiped.Body.setData(eqp, _selected_slot_table);
-                        break;
-                    case "Shield":
-                        PlayerEquiped.Shield.setData(eqp, _selected_slot_table);
-                        break;
-                    case "Legs":
-                        PlayerEquiped.Legs.setData(eqp, _selected_slot_table);
-                        break;
-                    case "Feet":
-                        PlayerEquiped.Feet.setData(eqp, _selected_slot_table);
-                        break;
-                    case "Hands":
-                        PlayerEquiped.Hands.setData(eqp, _selected_slot_table);
-                        break;
-                    case "Ring":
-                        PlayerEquiped.Ring.setData(eqp, _selected_slot_table);
-                        break;
-                }
+                PositionEquipmentInfo = new Position
+                    (
+                        gridcol: 8,
+                        gridro: 1,
+                        colspan: 1,
+                        rospan: 7,
+                        W: 300,
+                        H: 400
+                    );
+            }
+            else
+            {
+                PositionEquipmentInfo = new Position
+                (
+                    gridcol: 1,
+                    gridro: 11,
+                    colspan: 7,
+                    rospan: 1,
+                    W: 500,
+                    H: 100
+                );
             }
         }
-        
-
-
-
-
-
-
-
-        private string getEquipmentData(string equipment_name)
-        {
-            foreach (string eqp in _selected_slot_table_lines)
-            {
-                if (eqp.Contains(equipment_name))
-                    return eqp;
-            }
-            return "";
-        }
-
-        private void prepareTempEquipmentsData(string[] selected_slot_table_lines)
-        {
-            _selected_slot_table_lines = selected_slot_table_lines;
-        }
-        
     }
+
+
+    public struct Position
+    {
+        public int gridColumn { get; set; }
+        public int gridRow { get; set; }
+        public int columnSpan { get; set; }
+        public int rowSpan { get; set; }
+        public int Heigth { get; set; }
+        public int Width { get; set; }
+
+        public Position(int gridcol, int gridro, int colspan, int rospan, int H, int W)
+        {
+            gridColumn = gridcol;
+            gridRow = gridro;
+            columnSpan = colspan;
+            rowSpan = rospan;
+            Heigth = H;
+            Width = W;             
+        }
+    }
+
 }

@@ -23,22 +23,25 @@ namespace OSRSComSim.Views
     /// </summary>
     public partial class EquipmentSlotsView : UserControl
     {
+
         public EquipmentSlotsViewModel view_model;
-        public EquipmentSlotsView(Equiped player_equiped = null)
+
+        public EquipmentSlotsView(Equiped player_equiped = null, bool show_select = false)
         {
             InitializeComponent();
-            DataContext = new EquipmentSlotsViewModel(player_equiped);
+            DataContext = new EquipmentSlotsViewModel(player_equiped, show_select);
             view_model = DataContext as EquipmentSlotsViewModel;
         }
 
         private void Slot_Clicked(object sender, RoutedEventArgs e)
         {
-            view_model.SelectedSlotTable = ((Button)sender).Tag.ToString();
+            view_model.viewSelectEquipment(((Button)sender).Tag.ToString());
         }
 
-        private void equipment_Click(object sender, RoutedEventArgs e)
+
+        private void show_equipment_select_mouse_leave(object sender, object e)
         {
-            view_model.mountEquipment(((Label)sender).Content.ToString());
+            view_model.stopSelectEquipment();
         }
     }
 }

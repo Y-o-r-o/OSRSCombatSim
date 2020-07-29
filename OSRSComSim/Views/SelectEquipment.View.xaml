@@ -1,0 +1,30 @@
+﻿<UserControl x:Class="OSRSComSim.ViewModels.SelectEquipmentView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:OSRSComSim.ViewModels"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="450"
+>
+        <Grid x:Name="select">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+
+        <Label Content="" Grid.Row="0" FontSize="10" Background="Beige"/>
+        
+            <ListBox Grid.Row="1" x:Name="ListViewEquipments" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch" Background="Beige" ItemsSource="{Binding Path=ReadCSV}">
+            <ListBox.ItemTemplate>
+                <DataTemplate >
+                    <Label MouseLeftButtonUp="equipment_Click" VerticalAlignment="Center" FontSize="13" Content="{Binding}" Margin="0,-1,0,-1"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <TextBox x:Name="EnterEqpNameBox" Text="{Binding Name}" Background="Beige" TextAlignment="Left" FontSize="20"  Grid.Row="2"/>
+
+    </Grid>
+</UserControl>

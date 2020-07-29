@@ -33,3 +33,5 @@ D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\Appearance.View.g.cs
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\Skills.View.g.cs
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\Appearance.View.baml
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\Skills.View.baml
+D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\SelectEquipment.View.g.cs
+D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\SelectEquipment.View.baml

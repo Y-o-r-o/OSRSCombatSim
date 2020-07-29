@@ -85,7 +85,7 @@ namespace OSRSComSim.ViewModels
             skillsView = new SkillsView(_player.PlayerSkills);
 
            
-            equipmentSlotsView = new EquipmentSlotsView(_player.PlayerEquipment);
+            equipmentSlotsView = new EquipmentSlotsView(_player.PlayerEquipment, true);
             
             setupCreatePlayerVM();
         }
@@ -94,12 +94,6 @@ namespace OSRSComSim.ViewModels
         {
             _selected_index = 0;
         }
-
-        private void setValues()
-        {
-            //_player.Name = appearanceView.view_model.Name
-        }
-
         public void backToLoadScreen()
         {
             _loadscreenviewmodel.stopView();

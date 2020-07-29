@@ -119,8 +119,8 @@
             <TabItem Header="Inventory" Height="60" Width="63">
                 <Grid Background="#FFE5E5E5" />
             </TabItem>
-            <TabItem Header="Equipment" Height="60" Width="63">
-                <Grid Background="#FFE5E5E5"/>
+            <TabItem Header="Equipment" Height="60" Width="63" Margin="-10,-10,-10,-10">
+                <ContentControl x:Name="show_eqp_slots" Margin="0,0,0,5" Content="{Binding equipmentSlotsView}"/>
             </TabItem>
             <TabItem Header="Prayer" Height="60" Width="62">
                 <Grid Background="#FFE5E5E5"/>

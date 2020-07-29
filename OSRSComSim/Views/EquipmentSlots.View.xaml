@@ -5,13 +5,13 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:OSRSComSim.Views"
              mc:Ignorable="d" 
-                          d:DesignHeight="800" d:DesignWidth="350">
+                          d:DesignHeight="500" d:DesignWidth="700">
     <UserControl.Resources>
         <Style x:Key="myHeaderStyle" TargetType="{x:Type GridViewColumnHeader}">
             <Setter Property="Visibility" Value="Collapsed" />
         </Style>
     </UserControl.Resources>
-    <Grid>
+    <Grid HorizontalAlignment="Left" >
         <Grid.Resources>
             <Style TargetType="Button">
                 <Setter Property="Background" Value="Transparent"/>
@@ -28,7 +28,7 @@
             <ColumnDefinition Width="10"/>
             <ColumnDefinition Width="60"/>
             <ColumnDefinition Width="60"/>
-            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="20"/>
@@ -42,9 +42,7 @@
             <RowDefinition Height="10"/>
             <RowDefinition Height="60"/>
             <RowDefinition Height="10"/>
-            <RowDefinition Height="35"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="30"/>
             <RowDefinition Height="10"/>
 
         </Grid.RowDefinitions>
@@ -83,17 +81,16 @@
             <Image Source="{Binding PlayerEquiped.Ring.Png}"/>
         </Button>
 
-        <Label Content="{Binding PlayerEquiped.Weapon.Png}" Grid.Row="11" Grid.ColumnSpan="7" Grid.Column="1" FontSize="10" Background="Beige"/>
+        <ContentControl Grid.Row="11" Grid.Column="1" Grid.ColumnSpan="7" x:Name="show_equipment_select" Content="{Binding selectEquipment}" MouseLeave="show_equipment_select_mouse_leave"/>
 
-        <ListBox Grid.Row="12" Grid.ColumnSpan="7" Grid.Column="1" x:Name="ListViewEquipments" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch" Background="Beige" ItemsSource="{Binding Path=ReadCSV}">
-            <ListBox.ItemTemplate>
-                <DataTemplate >
-                    <Label MouseLeftButtonUp="equipment_Click" VerticalAlignment="Center" FontSize="13" Content="{Binding}" Margin="0,-1,0,-1"/>
-                </DataTemplate>
-            </ListBox.ItemTemplate>
-        </ListBox>
-        
-        <TextBox x:Name="EnterEqpNameBox" Text="{Binding Name}" Background="Beige" TextAlignment="Left" FontSize="20"  Grid.Row="13" Grid.Column="1" Grid.ColumnSpan="7"/>
-
+        <TextBlock x:Name="EquipmentInfo" Grid.Column="{Binding PositionEquipmentInfo.gridColumn}"
+            Grid.Row="{Binding PositionEquipmentInfo.gridRow}"
+            Grid.RowSpan="{Binding PositionEquipmentInfo.rowSpan}"
+            Grid.ColumnSpan="{Binding PositionEquipmentInfo.columnSpan}" 
+            FontSize="10"
+            Text="{Binding EquipmentInfo}" 
+            Width="{Binding PositionEquipmentInfo.Width}" 
+             Height="{Binding PositionEquipmentInfo.Heigth}"
+        />
     </Grid>
 </UserControl>

@@ -81,6 +81,10 @@
     <Compile Include="ViewModels\Fighter.ViewModel.cs" />
     <Compile Include="ViewModels\LoadScreen.ViewModel.cs" />
     <Compile Include="ViewModels\MainWindow.ViewModel.cs" />
+    <Compile Include="ViewModels\SelectEquipment.ViewModel.cs" />
+    <Compile Include="Views\SelectEquipment.View.xaml.cs">
+      <DependentUpon>SelectEquipment.View.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Appearance.View.xaml.cs">
       <DependentUpon>Appearance.View.xaml</DependentUpon>
     </Compile>
@@ -108,6 +112,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Views\SelectEquipment.View.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\Appearance.View.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

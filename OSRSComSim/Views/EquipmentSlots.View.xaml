@@ -5,92 +5,93 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:OSRSComSim.Views"
              mc:Ignorable="d" 
-                          d:DesignHeight="500" d:DesignWidth="700">
+                          d:DesignHeight="500" d:DesignWidth="600">
     <UserControl.Resources>
         <Style x:Key="myHeaderStyle" TargetType="{x:Type GridViewColumnHeader}">
             <Setter Property="Visibility" Value="Collapsed" />
         </Style>
     </UserControl.Resources>
-    <Grid HorizontalAlignment="Left" >
-        <Grid.Resources>
-            <Style TargetType="Button">
-                <Setter Property="Background" Value="Transparent"/>
-                <Setter Property="BorderBrush" Value="Transparent"/>
-                <Setter Property="Width" Value="60"/>
-            </Style>
-        </Grid.Resources>
+    
+    <Grid HorizontalAlignment="Left">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="10"/>
-            <ColumnDefinition Width="60"/>
-            <ColumnDefinition Width="60"/>
-            <ColumnDefinition Width="10"/>
-            <ColumnDefinition Width="60"/>
-            <ColumnDefinition Width="10"/>
-            <ColumnDefinition Width="60"/>
-            <ColumnDefinition Width="60"/>
             <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="150"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="20"/>
-            <RowDefinition Height="60"/>
-            <RowDefinition Height="10"/>
-            <RowDefinition Height="60"/>
-            <RowDefinition Height="10"/>
-            <RowDefinition Height="60"/>
-            <RowDefinition Height="10"/>
-            <RowDefinition Height="60"/>
-            <RowDefinition Height="10"/>
-            <RowDefinition Height="60"/>
-            <RowDefinition Height="10"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="10"/>
-
+            <RowDefinition Height="200"/>
         </Grid.RowDefinitions>
+        <Viewbox Stretch="Uniform" StretchDirection="Both" MinHeight="200" MinWidth="200" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <Grid HorizontalAlignment="Left">
+            <Grid.Resources>
+                    <Style TargetType="Button">
+                        <Setter Property="Background" Value="Transparent"/>
+                        <Setter Property="BorderBrush" Value="Transparent"/>
+                        <Setter Property="Width" Value="60"/>
+                    </Style>
+                </Grid.Resources>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="60"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="10"/>
 
-        <Button Grid.Column="4" Grid.Row="1" Tag="Head" Click="Slot_Clicked">
-            <Image Source="{Binding PlayerEquiped.Head.Png}"/>
-        </Button>
-        <Button Grid.Column="4" Grid.Row="3" Tag="Neck" Click="Slot_Clicked">
-            <Image Source="{Binding PlayerEquiped.Neck.Png}"/>
-        </Button>
-        <Button Grid.Column="4" Grid.Row="5" Tag="Body" Click="Slot_Clicked">
-            <Image Source="{Binding PlayerEquiped.Body.Png}"/>
-        </Button>
-        <Button Grid.Column="4" Grid.Row="7" Tag="Legs" Click="Slot_Clicked">
-            <Image Source="{Binding PlayerEquiped.Legs.Png}"/>
-        </Button>
-        <Button Grid.Column="4" Grid.Row="9" Tag="Feet" Click="Slot_Clicked">
-            <Image Source="{Binding PlayerEquiped.Feet.Png}"/>
-        </Button>
-        <Button Grid.Column="2" Grid.Row="3" Tag="Cape" Click="Slot_Clicked">
-            <Image Source="{Binding PlayerEquiped.Cape.Png}"/>
-        </Button>
-        <Button Grid.Column="6" Grid.Row="3" Tag="Ammo" Click="Slot_Clicked">
-            <Image Source="{Binding PlayerEquiped.Ammo.Png}"/>
-        </Button>
-        <Button Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="5" Tag="Weapon" Click="Slot_Clicked">
-            <Image Source="{Binding PlayerEquiped.Weapon.Png}"/>
-        </Button>
-        <Button Grid.Column="6" Grid.ColumnSpan="2" Grid.Row="5" Tag="Shield" Click="Slot_Clicked">
-            <Image Source="{Binding PlayerEquiped.Shield.Png}"/>
-        </Button>
-        <Button Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="9" Tag="Hands" Click="Slot_Clicked">
-            <Image Source="{Binding PlayerEquiped.Hands.Png}"/>
-        </Button>
-        <Button Grid.Column="6" Grid.ColumnSpan="2" Grid.Row="9" Tag="Ring" Click="Slot_Clicked">
-            <Image Source="{Binding PlayerEquiped.Ring.Png}"/>
-        </Button>
 
-        <ContentControl Grid.Row="11" Grid.Column="1" Grid.ColumnSpan="7" x:Name="show_equipment_select" Content="{Binding selectEquipment}" MouseLeave="show_equipment_select_mouse_leave"/>
+                </Grid.RowDefinitions>
 
-        <TextBlock x:Name="EquipmentInfo" Grid.Column="{Binding PositionEquipmentInfo.gridColumn}"
-            Grid.Row="{Binding PositionEquipmentInfo.gridRow}"
-            Grid.RowSpan="{Binding PositionEquipmentInfo.rowSpan}"
-            Grid.ColumnSpan="{Binding PositionEquipmentInfo.columnSpan}" 
-            FontSize="10"
-            Text="{Binding EquipmentInfo}" 
-            Width="{Binding PositionEquipmentInfo.Width}" 
-             Height="{Binding PositionEquipmentInfo.Heigth}"
-        />
+                <Button Grid.Column="4" Grid.Row="1" Tag="Head" Click="Slot_Clicked">
+                    <Image Source="{Binding PlayerEquiped.Head.Png}"/>
+                </Button>
+                <Button Grid.Column="4" Grid.Row="3" Tag="Neck" Click="Slot_Clicked">
+                    <Image Source="{Binding PlayerEquiped.Neck.Png}"/>
+                </Button>
+                <Button Grid.Column="4" Grid.Row="5" Tag="Body" Click="Slot_Clicked">
+                    <Image Source="{Binding PlayerEquiped.Body.Png}"/>
+                </Button>
+                <Button Grid.Column="4" Grid.Row="7" Tag="Legs" Click="Slot_Clicked">
+                    <Image Source="{Binding PlayerEquiped.Legs.Png}"/>
+                </Button>
+                <Button Grid.Column="4" Grid.Row="9" Tag="Feet" Click="Slot_Clicked">
+                    <Image Source="{Binding PlayerEquiped.Feet.Png}"/>
+                </Button>
+                <Button Grid.Column="2" Grid.Row="3" Tag="Cape" Click="Slot_Clicked">
+                    <Image Source="{Binding PlayerEquiped.Cape.Png}"/>
+                </Button>
+                <Button Grid.Column="6" Grid.Row="3" Tag="Ammo" Click="Slot_Clicked">
+                    <Image Source="{Binding PlayerEquiped.Ammo.Png}"/>
+                </Button>
+                <Button Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="5" Tag="Weapon" Click="Slot_Clicked">
+                    <Image Source="{Binding PlayerEquiped.Weapon.Png}"/>
+                </Button>
+                <Button Grid.Column="6" Grid.ColumnSpan="2" Grid.Row="5" Tag="Shield" Click="Slot_Clicked">
+                    <Image Source="{Binding PlayerEquiped.Shield.Png}"/>
+                </Button>
+                <Button Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="9" Tag="Hands" Click="Slot_Clicked">
+                    <Image Source="{Binding PlayerEquiped.Hands.Png}"/>
+                </Button>
+                <Button Grid.Column="6" Grid.ColumnSpan="2" Grid.Row="9" Tag="Ring" Click="Slot_Clicked">
+                    <Image Source="{Binding PlayerEquiped.Ring.Png}"/>
+                </Button>
+            </Grid>
+        </Viewbox>
+                <ContentControl Grid.Row="1" Grid.Column="0" x:Name="show_equipment_select" Content="{Binding selectEquipment}" MouseLeave="show_equipment_select_mouse_leave" Margin="10,0,10,20"/>
+                <TextBlock x:Name="EquipmentInfo" Grid.Column="1" Grid.Row="0" Text="{Binding EquipmentInfo}"/>
     </Grid>
 </UserControl>

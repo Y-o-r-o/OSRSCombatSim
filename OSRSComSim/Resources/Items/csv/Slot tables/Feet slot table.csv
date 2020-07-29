@@ -1,138 +1,138 @@
 Name,Member,StabAtk,SlashAtk,CrushAtk,MagicAtk,RangedAtk,StabDef,SlashDef,CrushDef,MagicDef,RangedDef,MeleStr,RangedStr,MagicStr,Prayer,Weigth,Speed
-Adamant boots, Members,0,0,0,-3,-1,10,11,12,0,0,1,0,0%,0,1.36,0
-Ancient d'hide boots, Members,0,0,0,-10,7,4,4,4,4,4,0,0,0%,1,1.4,0
-Angler boots, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,1,0
-Ankou socks, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.5,0
-Antisanta boots, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.4,0
-Armadyl d'hide boots, Members,0,0,0,-10,7,4,4,4,4,4,0,0,0%,1,1.4,0
-Bandos boots, Members,0,0,0,-5,-3,17,18,19,0,15,0,0,0%,1,6,0
-Bandos d'hide boots, Members,0,0,0,-10,7,4,4,4,4,4,0,0,0%,1,1.4,0
-Bear feet, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.2,0
-Black boots, Members,0,0,0,-3,-1,7,8,9,0,0,0,0,0%,0,1.36,0
-Blue boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0%,0,0.34,0
-Boots of brimstone, Members,3,0,0,3,5,10,10,10,5,5,0,0,0%,0,3.175,0
-Boots of darkness, Members,0,0,0,3,0,0,0,0,3,0,0,0,0%,0,0.453,0
-Boots of lightness, Members,0,0,0,0,0,1,1,1,0,0,0,0,0%,0, ,0
-Boots of stone, Members,0,0,0,0,0,1,1,1,0,0,0,0,0%,0,3.175,0
-Bronze boots, Members,0,0,0,-3,-1,1,2,3,0,0,0,0,0%,0,1.36,0
-Builder's boots, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.45,0
-Bunny feet, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.1,0
-Chicken feet, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.25,0
-Citizen shoes, Members,0,0,0,0,0,0,2,2,0,0,0,0,0%,0,0.907,0
-Climbing boots, Members,0,0,0,0,0,0,2,2,0,0,2,0,0%,0,0.34,0
-Climbing boots (g), Members,0,0,0,0,0,0,2,2,0,0,2,0,0%,0,0.34,0
-Clown shoes, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.1,0
-Clue hunter boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0%,0,0.7,0
-Cow shoes, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,1,0
-Cream boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0%,0,0.34,0
-Dark tuxedo shoes, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.5,0
-Demon feet, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.2,0
-Desert boots, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.226,0
-Devout boots, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,5,0.5,0
-Dragon boots, Members,0,0,0,-3,-1,16,17,18,0,0,4,0,0%,0,1,0
-Dragon boots (g), Members,0,0,0,-3,-1,16,17,18,0,0,4,0,0%,0,1,0
-Dragonstone boots, Members,0,0,0,-3,-1,12,13,14,0,0,2,0,0%,0,1.36,0
-Elven boots, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,4.535,0
-Eternal boots, Members,0,0,0,8,0,5,5,5,8,5,0,0,0%,0,1.814,0
-Evil chicken feet, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.25,0
-Fancy boots, Free-to-play,0,0,0,-3,-1,1,2,3,0,0,0,0,0%,0,0.01,0
-Farmer's boots#Female, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.907,0
-Farmer's boots#Male, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.907,0
-Fighting boots, Free-to-play,0,0,0,-3,-1,1,2,3,0,0,0,0,0%,0,0.01,0
-Flippers, Members,-2,-2,-2,0,0,0,1,1,0,0,0,0,0%,0,0.34,0
-Fremennik boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0%,0,0.34,0
-Fremennik sea boots 1, Members,0,0,0,-3,-1,2,3,4,0,0,0,0,0%,0,0.4,0
-Fremennik sea boots 2, Members,0,0,0,-3,-1,5,6,7,0,0,0,0,0%,0,0.4,0
-Fremennik sea boots 3, Members,0,0,0,-3,-1,7,8,9,0,0,0,0,0%,0,0.4,0
-Fremennik sea boots 4, Members,0,0,0,1,1,10,11,12,0,0,1,0,0%,0,0.4,0
-Frog slippers, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.2,0
-Frog-leather boots, Members,0,0,0,-8,2,1,1,1,0,1,0,0,0%,0,1,0
-Gardening boots, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.34,0
-Ghostly boots, Members,0,0,0,2,0,0,0,0,2,0,0,0,0%,0,0.001,0
-Gilded boots, Members,0,0,0,-3,-1,12,13,14,0,0,2,0,0%,0,1.36,0
-Graceful boots#Agility_Arena, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0, ,0
-Graceful boots#Arceuus, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0, ,0
-Graceful boots#Hallowed_Sepulchre, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0, ,0
-Graceful boots#Hosidius, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0, ,0
-Graceful boots#Kourend, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0, ,0
-Graceful boots#Lovakengj, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0, ,0
-Graceful boots#Piscarilius, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0, ,0
-Graceful boots#Regular, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0, ,0
-Graceful boots#Shayzien, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0, ,0
-Granite boots, Members,0,0,0,-3,-1,15,16,17,0,8,3,0,0%,0,2.721,0
-Gravedigger boots, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2,0
-Green boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0%,0,0.34,0
-Grey boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0%,0,0.34,0
-Guardian boots, Members,0,0,0,-3,-1,32,32,32,-3,24,3,0,0%,2,7,0
-Guthix d'hide boots, Members,0,0,0,-10,7,4,4,4,4,4,0,0,0%,1,1.4,0
-Ham boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0%,0,0.34,0
-Holy sandals, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,3,0.5,0
-Infinity boots, Members,0,0,0,5,0,0,0,0,5,0,0,0,0%,0,0.453,0
-Insulated boots, Members,0,0,0,0,0,1,1,0,0,1,0,0,0%,0,1.36,0
-Iron boots, Members,0,0,0,-3,-1,2,3,4,0,0,0,0,0%,0,1.36,0
-Leather boots, Free-to-play,0,0,0,0,0,0,1,1,0,0,0,0,0%,0,0.34,0
-Light tuxedo shoes, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.5,0
-Lumberjack boots, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.907,0
-Lunar boots, Members,0,0,0,2,-1,1,2,2,2,0,0,0,0%,0,0.907,0
-Mime boots, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.34,0
-Mithril boots, Members,0,0,0,-3,-1,8,9,10,0,0,0,0,0%,0,1.36,0
-Mole slippers, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.2,0
-Moonclan boots, Members,0,0,0,2,-5,2,2,2,2,-5,0,0,0%,0,0.907,0
-Mourner boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0%,0,1.36,0
-Mummy's feet, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.5,0
-Mystic boots, Members,0,0,0,3,0,0,0,0,3,0,0,0,0%,0,0.453,0
-Mystic boots (dark), Members,0,0,0,3,0,0,0,0,3,0,0,0,0%,0,0.453,0
-Mystic boots (dusk), Members,0,0,0,3,0,0,0,0,3,0,0,0,0%,0,0.453,0
-Mystic boots (light), Members,0,0,0,3,0,0,0,0,3,0,0,0,0%,0,0.453,0
-Ornate boots, Free-to-play,0,0,0,0,0,0,1,1,0,0,0,0,0%,0,1.36,0
-Pegasian boots, Members,0,0,0,-12,12,5,5,5,5,5,0,0,0%,0,1.814,0
-Pink boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0%,0,0.34,0
-Pirate boots, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,4,0
-Primordial boots, Members,2,2,2,-4,-1,22,22,22,0,0,5,0,0%,0,1.814,0
-Prospector boots, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.907,0
-Purple boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0%,0,0.34,0
-Pyromancer boots, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,1.36,0
-Ranger boots, Members,0,0,0,-10,8,2,3,4,2,0,0,0,0%,0,0.283,0
-Red boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0%,0,0.34,0
-Rock-shell boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0%,0,3.175,0
-Rogue boots, Members,0,0,0,0,0,2,2,2,2,2,0,0,0%,0,0.453,0
-Rune boots, Members,0,0,0,-3,-1,12,13,14,0,0,2,0,0%,0,1.36,0
-Runner boots, Members,0,0,0,1,1,8,8,8,0,0,0,0,0%,0,0.34,0
-Samurai boots, Members,0,0,0,0,0,11,12,13,1,0,0,0,0%,0,0.95,0
-Santa boots, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.4,0
-Saradomin d'hide boots, Members,0,0,0,-10,7,4,4,4,4,4,0,0,0%,1,1.4,0
-Shayzien boots (1), Members,0,0,0,-2,-1,1,2,3,0,0,0,0,0%,0,1.36,0
-Shayzien boots (2), Members,0,0,0,-2,-1,2,3,4,0,0,0,0,0%,0,1.36,0
-Shayzien boots (3), Members,0,0,0,-2,-1,4,5,6,0,0,0,0,0%,0,1.36,0
-Shayzien boots (4), Members,0,0,0,-2,-1,5,6,7,0,0,0,0,0%,0,1.36,0
-Shayzien boots (5), Members,0,0,0,-2,-1,5,7,8,0,0,0,0,0%,0,1.36,0
-Shoes (Spirits of the Elid), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.226,0
-Silly jester boots, Members,0,0,0,0,0,0,0,0,5,-5,0,0,0%,0,1.36,0
-Skeletal boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0%,0,3.175,0
-Skeleton boots, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,2.267,0
-Slave boots, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.68,0
-Snakeskin boots, Members,0,0,0,-10,3,1,1,2,1,0,0,0,0%,0,0.34,0
-Snow imp costume feet, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.1,0
-Spiked boots, Members,0,0,0,0,0,0,2,2,0,0,2,0,0%,0,0.34,0
-Spiked manacles, Members,0,0,0,-3,-1,0,0,0,-4,0,4,0,0%,0,3,0
-Spined boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0%,0,3.175,0
-Splitbark boots, Members,0,0,0,2,-1,3,2,4,2,0,0,0,0%,0,0.907,0
-Spookier boots, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.1,0
-Spooky boots, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.1,0
-Steel boots, Members,0,0,0,-3,-1,5,6,7,0,0,0,0,0%,0,1.36,0
-Teal boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0%,0,0.34,0
-Turquoise boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0%,0,0.34,0
-Twisted boots (t1), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.34,0
-Twisted boots (t2), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.34,0
-Twisted boots (t3), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.34,0
-Villager sandals (blue), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.68,0
-Villager sandals (brown), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.68,0
-Villager sandals (pink), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.68,0
-Villager sandals (yellow), Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.68,0
-Vyre noble shoes, Members,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.907,0
-Vyrewatch shoes, Members,0,0,0,0,0,0,2,2,0,0,0,0,0%,0,0.907,0
-White boots, Members,0,0,0,-3,-1,7,8,9,0,0,0,0,0%,1,1.36,0
-Wizard boots, Members,0,0,0,4,0,0,0,0,4,0,0,0,0%,0,0.283,0
-Yellow boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0%,0,0.34,0
-Zamorak d'hide boots, Members,0,0,0,-10,7,4,4,4,4,4,0,0,0%,1,1.4,0
-Zombie boots, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0%,0,0.003,0
+Adamant boots, Members,0,0,0,-3,-1,10,11,12,0,0,1,0,0,0,1.36,0
+Ancient d'hide boots, Members,0,0,0,-10,7,4,4,4,4,4,0,0,0,1,1.4,0
+Angler boots, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Ankou socks, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0
+Antisanta boots, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.4,0
+Armadyl d'hide boots, Members,0,0,0,-10,7,4,4,4,4,4,0,0,0,1,1.4,0
+Bandos boots, Members,0,0,0,-5,-3,17,18,19,0,15,0,0,0,1,6,0
+Bandos d'hide boots, Members,0,0,0,-10,7,4,4,4,4,4,0,0,0,1,1.4,0
+Bear feet, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2,0
+Black boots, Members,0,0,0,-3,-1,7,8,9,0,0,0,0,0,0,1.36,0
+Blue boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0.34,0
+Boots of brimstone, Members,3,0,0,3,5,10,10,10,5,5,0,0,0,0,3.175,0
+Boots of darkness, Members,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0.453,0
+Boots of lightness, Members,0,0,0,0,0,1,1,1,0,0,0,0,0,0, ,0
+Boots of stone, Members,0,0,0,0,0,1,1,1,0,0,0,0,0,0,3.175,0
+Bronze boots, Members,0,0,0,-3,-1,1,2,3,0,0,0,0,0,0,1.36,0
+Builder's boots, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.45,0
+Bunny feet, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,0
+Chicken feet, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.25,0
+Citizen shoes, Members,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0.907,0
+Climbing boots, Members,0,0,0,0,0,0,2,2,0,0,2,0,0,0,0.34,0
+Climbing boots (g), Members,0,0,0,0,0,0,2,2,0,0,2,0,0,0,0.34,0
+Clown shoes, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,0
+Clue hunter boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0.7,0
+Cow shoes, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Cream boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0.34,0
+Dark tuxedo shoes, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0
+Demon feet, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2,0
+Desert boots, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.226,0
+Devout boots, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0.5,0
+Dragon boots, Members,0,0,0,-3,-1,16,17,18,0,0,4,0,0,0,1,0
+Dragon boots (g), Members,0,0,0,-3,-1,16,17,18,0,0,4,0,0,0,1,0
+Dragonstone boots, Members,0,0,0,-3,-1,12,13,14,0,0,2,0,0,0,1.36,0
+Elven boots, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4.535,0
+Eternal boots, Members,0,0,0,8,0,5,5,5,8,5,0,0,0,0,1.814,0
+Evil chicken feet, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.25,0
+Fancy boots, Free-to-play,0,0,0,-3,-1,1,2,3,0,0,0,0,0,0,0.01,0
+Farmer's boots#Female, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.907,0
+Farmer's boots#Male, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.907,0
+Fighting boots, Free-to-play,0,0,0,-3,-1,1,2,3,0,0,0,0,0,0,0.01,0
+Flippers, Members,-2,-2,-2,0,0,0,1,1,0,0,0,0,0,0,0.34,0
+Fremennik boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0.34,0
+Fremennik sea boots 1, Members,0,0,0,-3,-1,2,3,4,0,0,0,0,0,0,0.4,0
+Fremennik sea boots 2, Members,0,0,0,-3,-1,5,6,7,0,0,0,0,0,0,0.4,0
+Fremennik sea boots 3, Members,0,0,0,-3,-1,7,8,9,0,0,0,0,0,0,0.4,0
+Fremennik sea boots 4, Members,0,0,0,1,1,10,11,12,0,0,1,0,0,0,0.4,0
+Frog slippers, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2,0
+Frog-leather boots, Members,0,0,0,-8,2,1,1,1,0,1,0,0,0,0,1,0
+Gardening boots, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.34,0
+Ghostly boots, Members,0,0,0,2,0,0,0,0,2,0,0,0,0,0,0.001,0
+Gilded boots, Members,0,0,0,-3,-1,12,13,14,0,0,2,0,0,0,1.36,0
+Graceful boots#Agility_Arena, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0, ,0
+Graceful boots#Arceuus, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0, ,0
+Graceful boots#Hallowed_Sepulchre, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0, ,0
+Graceful boots#Hosidius, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0, ,0
+Graceful boots#Kourend, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0, ,0
+Graceful boots#Lovakengj, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0, ,0
+Graceful boots#Piscarilius, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0, ,0
+Graceful boots#Regular, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0, ,0
+Graceful boots#Shayzien, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0, ,0
+Granite boots, Members,0,0,0,-3,-1,15,16,17,0,8,3,0,0,0,2.721,0
+Gravedigger boots, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0
+Green boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0.34,0
+Grey boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0.34,0
+Guardian boots, Members,0,0,0,-3,-1,32,32,32,-3,24,3,0,0,2,7,0
+Guthix d'hide boots, Members,0,0,0,-10,7,4,4,4,4,4,0,0,0,1,1.4,0
+Ham boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0.34,0
+Holy sandals, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0.5,0
+Infinity boots, Members,0,0,0,5,0,0,0,0,5,0,0,0,0,0,0.453,0
+Insulated boots, Members,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1.36,0
+Iron boots, Members,0,0,0,-3,-1,2,3,4,0,0,0,0,0,0,1.36,0
+Leather boots, Free-to-play,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0.34,0
+Light tuxedo shoes, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0
+Lumberjack boots, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.907,0
+Lunar boots, Members,0,0,0,2,-1,1,2,2,2,0,0,0,0,0,0.907,0
+Mime boots, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.34,0
+Mithril boots, Members,0,0,0,-3,-1,8,9,10,0,0,0,0,0,0,1.36,0
+Mole slippers, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2,0
+Moonclan boots, Members,0,0,0,2,-5,2,2,2,2,-5,0,0,0,0,0.907,0
+Mourner boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1.36,0
+Mummy's feet, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0
+Mystic boots, Members,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0.453,0
+Mystic boots (dark), Members,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0.453,0
+Mystic boots (dusk), Members,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0.453,0
+Mystic boots (light), Members,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0.453,0
+Ornate boots, Free-to-play,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1.36,0
+Pegasian boots, Members,0,0,0,-12,12,5,5,5,5,5,0,0,0,0,1.814,0
+Pink boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0.34,0
+Pirate boots, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0
+Primordial boots, Members,2,2,2,-4,-1,22,22,22,0,0,5,0,0,0,1.814,0
+Prospector boots, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.907,0
+Purple boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0.34,0
+Pyromancer boots, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.36,0
+Ranger boots, Members,0,0,0,-10,8,2,3,4,2,0,0,0,0,0,0.283,0
+Red boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0.34,0
+Rock-shell boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0,0,3.175,0
+Rogue boots, Members,0,0,0,0,0,2,2,2,2,2,0,0,0,0,0.453,0
+Rune boots, Members,0,0,0,-3,-1,12,13,14,0,0,2,0,0,0,1.36,0
+Runner boots, Members,0,0,0,1,1,8,8,8,0,0,0,0,0,0,0.34,0
+Samurai boots, Members,0,0,0,0,0,11,12,13,1,0,0,0,0,0,0.95,0
+Santa boots, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.4,0
+Saradomin d'hide boots, Members,0,0,0,-10,7,4,4,4,4,4,0,0,0,1,1.4,0
+Shayzien boots (1), Members,0,0,0,-2,-1,1,2,3,0,0,0,0,0,0,1.36,0
+Shayzien boots (2), Members,0,0,0,-2,-1,2,3,4,0,0,0,0,0,0,1.36,0
+Shayzien boots (3), Members,0,0,0,-2,-1,4,5,6,0,0,0,0,0,0,1.36,0
+Shayzien boots (4), Members,0,0,0,-2,-1,5,6,7,0,0,0,0,0,0,1.36,0
+Shayzien boots (5), Members,0,0,0,-2,-1,5,7,8,0,0,0,0,0,0,1.36,0
+Shoes (Spirits of the Elid), Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.226,0
+Silly jester boots, Members,0,0,0,0,0,0,0,0,5,-5,0,0,0,0,1.36,0
+Skeletal boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0,0,3.175,0
+Skeleton boots, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.267,0
+Slave boots, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.68,0
+Snakeskin boots, Members,0,0,0,-10,3,1,1,2,1,0,0,0,0,0,0.34,0
+Snow imp costume feet, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,0
+Spiked boots, Members,0,0,0,0,0,0,2,2,0,0,2,0,0,0,0.34,0
+Spiked manacles, Members,0,0,0,-3,-1,0,0,0,-4,0,4,0,0,0,3,0
+Spined boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0,0,3.175,0
+Splitbark boots, Members,0,0,0,2,-1,3,2,4,2,0,0,0,0,0,0.907,0
+Spookier boots, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,0
+Spooky boots, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,0
+Steel boots, Members,0,0,0,-3,-1,5,6,7,0,0,0,0,0,0,1.36,0
+Teal boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0.34,0
+Turquoise boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0.34,0
+Twisted boots (t1), Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.34,0
+Twisted boots (t2), Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.34,0
+Twisted boots (t3), Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.34,0
+Villager sandals (blue), Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.68,0
+Villager sandals (brown), Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.68,0
+Villager sandals (pink), Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.68,0
+Villager sandals (yellow), Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.68,0
+Vyre noble shoes, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.907,0
+Vyrewatch shoes, Members,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0.907,0
+White boots, Members,0,0,0,-3,-1,7,8,9,0,0,0,0,0,1,1.36,0
+Wizard boots, Members,0,0,0,4,0,0,0,0,4,0,0,0,0,0,0.283,0
+Yellow boots, Members,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0.34,0
+Zamorak d'hide boots, Members,0,0,0,-10,7,4,4,4,4,4,0,0,0,1,1.4,0
+Zombie boots, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.003,0

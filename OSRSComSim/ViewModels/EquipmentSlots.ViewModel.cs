@@ -43,7 +43,8 @@ namespace OSRSComSim.ViewModels
                 {
                     string[] lines = File.ReadAllLines("../../Resources/Items/csv/Slot tables/" + _selected_slot_table + " slot table.csv");
                     lines = lines.Skip(1).ToArray();
-                    prepareTempEquipmentData(lines);
+                    prepareTempEquipmentsData(lines);
+                    
                     return lines.Select(line =>
                     {
                         string[] data = line.Split(',');
@@ -52,12 +53,9 @@ namespace OSRSComSim.ViewModels
                 }
             }
         }
-        
-        public void prepareTempEquipmentData(string[] selected_slot_table_lines)
-        {
-            _selected_slot_table_lines = selected_slot_table_lines;
-        }
-        
+
+
+    
         public EquipmentSlotsViewModel(Equiped player_equiped = null)
         {
             if (player_equiped != null)
@@ -68,7 +66,74 @@ namespace OSRSComSim.ViewModels
         }
 
 
+
+
+        public void mountEquipment(string equipment_name)
+        {
+            string eqp = getEquipmentData(equipment_name);
+
+            if (!eqp.Equals(""))
+            {
+                switch (_selected_slot_table)
+                {
+                    case "Head":
+                        PlayerEquiped.Head.setData(eqp, _selected_slot_table);
+                        break;
+                    case "Neck":
+                        PlayerEquiped.Neck.setData(eqp, _selected_slot_table);
+                        break;
+                    case "Cape":
+                        PlayerEquiped.Cape.setData(eqp, _selected_slot_table);
+                        break;
+                    case "Ammo":
+                        PlayerEquiped.Ammo.setData(eqp, _selected_slot_table);
+                        break;
+                    case "Weapon":
+                        PlayerEquiped.Weapon.setData(eqp, _selected_slot_table);
+                        break;
+                    case "Body":
+                        PlayerEquiped.Body.setData(eqp, _selected_slot_table);
+                        break;
+                    case "Shield":
+                        PlayerEquiped.Shield.setData(eqp, _selected_slot_table);
+                        break;
+                    case "Legs":
+                        PlayerEquiped.Legs.setData(eqp, _selected_slot_table);
+                        break;
+                    case "Feet":
+                        PlayerEquiped.Feet.setData(eqp, _selected_slot_table);
+                        break;
+                    case "Hands":
+                        PlayerEquiped.Hands.setData(eqp, _selected_slot_table);
+                        break;
+                    case "Ring":
+                        PlayerEquiped.Ring.setData(eqp, _selected_slot_table);
+                        break;
+                }
+            }
+        }
         
+
+
+
+
+
+
+
+        private string getEquipmentData(string equipment_name)
+        {
+            foreach (string eqp in _selected_slot_table_lines)
+            {
+                if (eqp.Contains(equipment_name))
+                    return eqp;
+            }
+            return "";
+        }
+
+        private void prepareTempEquipmentsData(string[] selected_slot_table_lines)
+        {
+            _selected_slot_table_lines = selected_slot_table_lines;
+        }
         
     }
 }

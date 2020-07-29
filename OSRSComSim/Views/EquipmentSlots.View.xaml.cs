@@ -38,7 +38,7 @@ namespace OSRSComSim.Views
 
         private void equipment_Click(object sender, RoutedEventArgs e)
         {
-
+            view_model.mountEquipment(((Label)sender).Content.ToString());
         }
     }
 }

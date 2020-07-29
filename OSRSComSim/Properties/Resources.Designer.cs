@@ -8,10 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace OSRSComSim.Properties
-{
-
-
+namespace OSRSComSim.Properties {
+    using System;
+    
+    
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -19,52 +19,223 @@ namespace OSRSComSim.Properties
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources
-    {
-
+    internal class Resources {
+        
         private static global::System.Resources.ResourceManager resourceMan;
-
+        
         private static global::System.Globalization.CultureInfo resourceCulture;
-
+        
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources()
-        {
+        internal Resources() {
         }
-
+        
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager
-        {
-            get
-            {
-                if ((resourceMan == null))
-                {
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("OSRSComSim.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
             }
         }
-
+        
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture
-        {
-            get
-            {
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
                 return resourceCulture;
             }
-            set
-            {
+            set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name,Member,StabAtk,SlashAtk,CrushAtk,MagicAtk,RangedAtk,StabDef,SlashDef,CrushDef,MagicDef,RangedDef,MeleStr,RangedStr,MagicStr,Prayer,Weigth,Speed
+        ///Adamant arrow#(p), Members,0,0,0,0,0,0,0,0,0,0,0,31,0,0,0,0
+        ///Adamant arrow#(p+), Members,0,0,0,0,0,0,0,0,0,0,0,31,0,0,0,0
+        ///Adamant arrow#(p++), Members,0,0,0,0,0,0,0,0,0,0,0,31,0,0,0,0
+        ///Adamant arrow#(unp), Free-to-play,0,0,0,0,0,0,0,0,0,0,0,31,0,0,0,0
+        ///Adamant bolts#Poison, Members,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0
+        ///Adamant bolts#Poison+, Members,0,0,0,0,0,0, [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Ammo_slot_table {
+            get {
+                return ResourceManager.GetString("Ammo_slot_table", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name,Member,StabAtk,SlashAtk,CrushAtk,MagicAtk,RangedAtk,StabDef,SlashDef,CrushDef,MagicDef,RangedDef,MeleStr,RangedStr,MagicStr,Prayer,Weigth,Speed
+        ///3rd age druidic robe top, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,8,1.5,0
+        ///3rd age platebody, Members,0,0,0,-20,0,96,108,113,-4,97,0,0,0,0,9.979,0
+        ///3rd age range top, Members,0,0,0,-15,30,55,47,60,60,55,0,0,0,0,4,0
+        ///3rd age robe top, Members,0,0,0,24,0,0,0,0,24,0,0,0,0,0,2.7,0
+        ///Adamant chainbody, Free-to-play,0,0,0,-15,0,36,50,61,-3,38,0,0,0,0,7.711,0
+        ///Adamant plate [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Body_slot_table {
+            get {
+                return ResourceManager.GetString("Body_slot_table", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name,Member,StabAtk,SlashAtk,CrushAtk,MagicAtk,RangedAtk,StabDef,SlashDef,CrushDef,MagicDef,RangedDef,MeleStr,RangedStr,MagicStr,Prayer,Weigth,Speed
+        ///3rd age cloak, Members,0,0,0,0,0,9,9,9,9,9,0,0,0,5,0.005,0
+        ///3rd age druidic cloak, Members,0,0,0,1,0,3,3,3,3,3,0,0,0,3,0.4,0
+        ///Accumulator max cape, Members,0,0,0,0,4,0,1,0,4,0,0,0,0,0,0.453,0
+        ///Achievement diary cape#Trimmed, Members,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0.453,0
+        ///Achievement diary cape#Untrimmed, Members,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0.453,0
+        ///Agility cape# [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Cape_slot_table {
+            get {
+                return ResourceManager.GetString("Cape_slot_table", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name,Member,StabAtk,SlashAtk,CrushAtk,MagicAtk,RangedAtk,StabDef,SlashDef,CrushDef,MagicDef,RangedDef,MeleStr,RangedStr,MagicStr,Prayer,Weigth,Speed
+        ///Adamant boots, Members,0,0,0,-3,-1,10,11,12,0,0,1,0,0,0,1.36,0
+        ///Ancient d&apos;hide boots, Members,0,0,0,-10,7,4,4,4,4,4,0,0,0,1,1.4,0
+        ///Angler boots, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+        ///Ankou socks, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0
+        ///Antisanta boots, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.4,0
+        ///Armadyl d&apos;hide boots, Members,0,0,0,-10,7,4,4,4,4,4,0,0 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Feet_slot_table {
+            get {
+                return ResourceManager.GetString("Feet_slot_table", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name,Member,StabAtk,SlashAtk,CrushAtk,MagicAtk,RangedAtk,StabDef,SlashDef,CrushDef,MagicDef,RangedDef,MeleStr,RangedStr,MagicStr,Prayer,Weigth,Speed
+        ///3rd age vambraces, Members,0,0,0,-10,11,6,5,7,9,0,0,0,0,0,1,0
+        ///Abyssal bracelet#(1), Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.25,0
+        ///Abyssal bracelet#(2), Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.25,0
+        ///Abyssal bracelet#(3), Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.25,0
+        ///Abyssal bracelet#(4), Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.25,0
+        ///Abyssal bracelet#(5), Members,0,0,0 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Hands_slot_table {
+            get {
+                return ResourceManager.GetString("Hands_slot_table", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name,Member,StabAtk,SlashAtk,CrushAtk,MagicAtk,RangedAtk,StabDef,SlashDef,CrushDef,MagicDef,RangedDef,MeleStr,RangedStr,MagicStr,Prayer,Weigth,Speed
+        ///3rd age full helmet, Members,0,0,0,-5,-2,47,49,43,-3,48,0,0,0,0,0.907,0
+        ///3rd age mage hat, Members,0,0,0,8,0,0,0,0,8,0,0,0,0,0,0.4,0
+        ///3rd age range coif, Members,0,0,0,-2,9,4,7,10,5,8,0,0,0,0,1,0
+        ///4th birthday hat, Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+        ///A powdered wig, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.4,0
+        ///Accumulator max hood, Members,0,0,0,0,0,0, [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Head_slot_table {
+            get {
+                return ResourceManager.GetString("Head_slot_table", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name,Member,StabAtk,SlashAtk,CrushAtk,MagicAtk,RangedAtk,StabDef,SlashDef,CrushDef,MagicDef,RangedDef,MeleStr,RangedStr,MagicStr,Prayer,Weigth,Speed
+        ///3rd age druidic robe bottoms, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,6,1.5,0
+        ///3rd age platelegs, Members,0,0,0,-25,-2,78,76,83,-5,75,0,0,0,0,2.721,0
+        ///3rd age plateskirt, Members,0,0,0,-25,-2,78,76,83,-5,75,0,0,0,0,2.721,0
+        ///3rd age range legs, Members,0,0,0,-10,17,31,25,33,30,31,0,0,0,0,3,0
+        ///3rd age robe, Members,0,0,0,19,0,0,0,0,19,0,0,0,0,0,1.8,0
+        ///Adamant plateleg [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Legs_slot_table {
+            get {
+                return ResourceManager.GetString("Legs_slot_table", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name,Member,StabAtk,SlashAtk,CrushAtk,MagicAtk,RangedAtk,StabDef,SlashDef,CrushDef,MagicDef,RangedDef,MeleStr,RangedStr,MagicStr,Prayer,Weigth,Speed
+        ///&apos;perfect&apos; necklace, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.01,0
+        ///10th squad sigil, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.085,0
+        ///3rd age amulet, Members,0,0,0,15,0,0,0,0,10,0,0,0,0,0,0.003,0
+        ///Amulet of accuracy, Free-to-play,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0.01,0
+        ///Amulet of avarice, Members,10,10,10,10,10,3,3,3,3,3,6,0,0,3,0.01,0
+        ///Amulet of blood fury, Members,10,10 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Neck_slot_table {
+            get {
+                return ResourceManager.GetString("Neck_slot_table", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name,Member,StabAtk,SlashAtk,CrushAtk,MagicAtk,RangedAtk,StabDef,SlashDef,CrushDef,MagicDef,RangedDef,MeleStr,RangedStr,MagicStr,Prayer,Weigth,Speed
+        ///&apos;perfect&apos; ring, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.007,0
+        ///Archers ring, Members,0,0,0,0,4,0,0,0,0,4,0,0,0,0,0.004,0
+        ///Archers ring (i), Members,0,0,0,0,8,0,0,0,0,8,0,0,0,0,0.004,0
+        ///Beacon ring, Members,0,0,0,2,0,0,0,0,1,0,0,0,0,0,0.006,0
+        ///Berserker ring, Members,0,0,0,0,0,0,0,4,0,0,4,0,0,0,0.004,0
+        ///Berserker ring (i), Members,0,0,0,0,0,0,0,8,0,0,8,0,0,0,0.00 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Ring_slot_table {
+            get {
+                return ResourceManager.GetString("Ring_slot_table", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name,Member,StabAtk,SlashAtk,CrushAtk,MagicAtk,RangedAtk,StabDef,SlashDef,CrushDef,MagicDef,RangedDef,MeleStr,RangedStr,MagicStr,Prayer,Weigth,Speed
+        ///3rd age kiteshield, Members,0,0,0,-10,-4,63,65,61,-3,63,0,0,0,0,2.721,0
+        ///A chair, Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.001,0
+        ///Adamant defender#Broken, Members,13,12,11,-3,-2,13,12,11,-3,-2,4,0,0,0,0.453,0
+        ///Adamant defender#Locked, Members,13,12,11,-3,-2,13,12,11,-3,-2,4,0,0,0,0.453,0
+        ///Adamant defender#Normal, Members,13,12,11,-3,-2,13,12,11,-3,-2,4,0,0,0,0.45 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Shield_slot_table {
+            get {
+                return ResourceManager.GetString("Shield_slot_table", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name,Member,StabAtk,SlashAtk,CrushAtk,MagicAtk,RangedAtk,StabDef,SlashDef,CrushDef,MagicDef,RangedDef,MeleStr,RangedStr,MagicStr,Prayer,Weigth,Speed
+        ///3rd age bow, Members,0,0,0,0,80,0,0,0,0,0,0,0,0,0,3.175,4
+        ///Abyssal bludgeon, Members,0,0,102,0,0,0,0,0,0,0,85,0,0,0,6,4
+        ///Adamant 2h sword, Free-to-play,-4,43,30,-4,0,0,0,0,0,-1,44,0,0,0,4.082,7
+        ///Adamant claws, Members,18,23,-4,0,0,6,12,3,0,0,24,0,0,0,0.907,4
+        ///Adamant halberd, Members,28,41,0,-4,0,-1,3,4,0,0,42,0,0,0,3.628,7
+        ///Adamant spear#Karambwan_poison, Mem [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Two_handed_slot_table {
+            get {
+                return ResourceManager.GetString("Two_handed_slot_table", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name,Member,StabAtk,SlashAtk,CrushAtk,MagicAtk,RangedAtk,StabDef,SlashDef,CrushDef,MagicDef,RangedDef,MeleStr,RangedStr,MagicStr,Prayer,Weigth,Speed
+        ///&apos;24-carat&apos; sword, Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,0.453,4
+        ///3rd age axe, Members,-2,38,32,0,0,0,1,0,0,0,42,0,0,0,1.36,5
+        ///3rd age druidic staff, Members,7,-1,25,10,0,2,3,1,10,0,32,0,0,6,2,5
+        ///3rd age longsword, Members,0,72,60,0,0,0,3,2,0,0,75,0,0,0,1,5
+        ///3rd age pickaxe, Members,38,-2,32,0,0,0,1,0,0,0,42,0,0,0,2.4,5
+        ///3rd age wand, Members,0,0,0 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Weapon_slot_table {
+            get {
+                return ResourceManager.GetString("Weapon_slot_table", resourceCulture);
             }
         }
     }

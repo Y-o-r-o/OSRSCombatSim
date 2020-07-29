@@ -34,6 +34,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\OSRSBone.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="CsvHelper, Version=15.0.0.0, Culture=neutral, PublicKeyToken=8c4959082be5c823, processorArchitecture=MSIL">
       <HintPath>..\packages\CsvHelper.15.0.5\lib\net47\CsvHelper.dll</HintPath>
@@ -160,7 +163,7 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <None Include="Resources\Items\csv\Slot tables\Ammunition slot table.csv" />
+    <None Include="Resources\Items\csv\Slot tables\Ammo slot table.csv" />
     <None Include="Resources\Items\csv\Slot tables\Body slot table.csv" />
     <None Include="Resources\Items\csv\Slot tables\Cape slot table.csv" />
     <None Include="Resources\Items\csv\Slot tables\Feet slot table.csv" />

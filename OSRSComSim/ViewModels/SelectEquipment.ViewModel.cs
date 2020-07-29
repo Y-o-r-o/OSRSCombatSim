@@ -46,8 +46,8 @@ namespace OSRSComSim.ViewModels
                     return null;
                 else
                 {
-                    string[] lines = File.ReadAllLines("../../Resources/Items/csv/Slot tables/" + SelectedSlotTable + " slot table.csv");
-                    lines = lines.Skip(1).ToArray();
+                    string[] lines = getCSV();//File.ReadAllLines("../../Resources/Items/csv/Slot tables/" + SelectedSlotTable + " slot table.csv");
+
                     prepareTempEquipmentsData(lines);
 
                     return lines.Select(line =>
@@ -72,7 +72,7 @@ namespace OSRSComSim.ViewModels
 
             if (!eqp.Equals(""))
             {
-                switch (_selected_slot_table)
+                switch (SelectedSlotTable)
                 {
                     case "Head":
                         PlayerEquiped.Head.setData(eqp, _selected_slot_table);
@@ -120,7 +120,49 @@ namespace OSRSComSim.ViewModels
             }
             return "";
         }
-
+        private string[] getCSV()
+        {
+            string[] lines = null;
+            switch (SelectedSlotTable)
+            {
+                case "Head":
+                    lines = Properties.Resources.Head_slot_table.Split('\n');
+                    break;
+                case "Neck":
+                    lines = Properties.Resources.Neck_slot_table.Split('\n');
+                    break;
+                case "Cape":
+                    lines = Properties.Resources.Cape_slot_table.Split('\n');
+                    break;
+                case "Ammo":
+                    lines = Properties.Resources.Ammo_slot_table.Split('\n');
+                    break;
+                case "Weapon":
+                    lines = Properties.Resources.Weapon_slot_table.Split('\n');
+                    break;
+                case "Body":
+                    lines = Properties.Resources.Body_slot_table.Split('\n');
+                    break;
+                case "Shield":
+                    lines = Properties.Resources.Shield_slot_table.Split('\n');
+                    break;
+                case "Legs":
+                    lines = Properties.Resources.Legs_slot_table.Split('\n');
+                    break;
+                case "Feet":
+                    lines = Properties.Resources.Feet_slot_table.Split('\n');
+                    break;
+                case "Hands":
+                    lines = Properties.Resources.Hands_slot_table.Split('\n');
+                    break;
+                case "Ring":
+                    lines = Properties.Resources.Ring_slot_table.Split('\n');
+                    break;
+            }
+            lines = lines.Skip(1).ToArray();
+            lines = lines.Take(lines.Count() - 1).ToArray();
+            return lines;
+        }
         private void prepareTempEquipmentsData(string[] selected_slot_table_lines)
         {
             _selected_slot_table_lines = selected_slot_table_lines;

@@ -19,8 +19,11 @@ namespace OSRSComSim.Models
             { return _hplvl; }
             set
             {
-                _hplvl = value;
-                OnPropertyChanged("Hp_lvl");
+                if (value >= 10 && value < 100)
+                {
+                    _hplvl = value;
+                    OnPropertyChanged("Hp_lvl");
+                }
             }
         }
         public int Def_lvl
@@ -29,8 +32,11 @@ namespace OSRSComSim.Models
             { return _deflvl; }
             set
             {
-                _deflvl = value;
-                OnPropertyChanged("Def_lvl");
+                if (value >= 1 && value < 100)
+                {
+                    _deflvl = value;
+                    OnPropertyChanged("Def_lvl");
+                }
             }
         }
         public int Str_lvl
@@ -39,8 +45,11 @@ namespace OSRSComSim.Models
             { return _strlvl; }
             set
             {
-                _strlvl = value;
-                OnPropertyChanged("Str_lvl");
+                if (value >= 1 && value < 100)
+                {
+                    _strlvl = value;
+                    OnPropertyChanged("Str_lvl");
+                }
             }
         }
         public int Atk_lvl
@@ -49,8 +58,11 @@ namespace OSRSComSim.Models
             { return _atklvl; }
             set
             {
-                _atklvl = value;
-                OnPropertyChanged("Atk_lvl");
+                if (value >= 1 && value < 100)
+                {
+                    _atklvl = value;
+                    OnPropertyChanged("Atk_lvl");
+                }
             }
         }
 

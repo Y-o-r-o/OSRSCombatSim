@@ -28,7 +28,7 @@ namespace OSRSComSim.ViewModels
 
         public void resetPlayerSkills()
         {
-            PlayerSkills = new Skills();
+           PlayerSkills = new Skills();
         }
         public void setRandomPlayerSkills()
         {

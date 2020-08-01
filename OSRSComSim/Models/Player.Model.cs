@@ -22,8 +22,7 @@ namespace OSRSComSim.Models
             }
         }
         public Skills PlayerSkills { get; set; }
-        public Equiped PlayerEquipment  { get; set; }
-        
+        public Equiped PlayerEquipment  { get; set; }   
         public Combat PlayerCombat 
         {
             get

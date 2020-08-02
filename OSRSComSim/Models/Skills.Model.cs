@@ -12,6 +12,9 @@ namespace OSRSComSim.Models
         private int _deflvl;
         private int _strlvl;
         private int _atklvl;
+        private int _magiclvl;
+        private int _rangedlvl;
+
 
         public int Hp_lvl
         {
@@ -65,14 +68,42 @@ namespace OSRSComSim.Models
                 }
             }
         }
+        public int Magic_lvl
+        {
+            get
+            { return _magiclvl; }
+            set
+            {
+                if (value >= 1 && value < 100)
+                {
+                    _magiclvl = value;
+                    OnPropertyChanged("Magic_lvl");
+                }
+            }
+        }
+        public int Ranged_lvl
+        {
+            get
+            { return _rangedlvl; }
+            set
+            {
+                if (value >= 1 && value < 100)
+                {
+                    _rangedlvl = value;
+                    OnPropertyChanged("Ranged_lvl");
+                }
+            }
+        }
 
-        public Skills() : this(10, 1, 1, 1) { }
-        public Skills(int hp_lvl = 10, int def_lvl = 1, int str_lvl = 1, int atk_lvl = 1)
+        public Skills() : this(10, 1, 1, 1, 1 , 1) { }
+        public Skills(int hp_lvl = 10, int def_lvl = 1, int str_lvl = 1, int atk_lvl = 1,int magic_lvl = 1, int ranged_lvl = 1)
         {
             this.Def_lvl = def_lvl;
             this.Hp_lvl = hp_lvl;
             this.Str_lvl = str_lvl;
             this.Atk_lvl = atk_lvl;
+            this.Magic_lvl = magic_lvl;
+            this.Ranged_lvl = ranged_lvl;
         }
 
 

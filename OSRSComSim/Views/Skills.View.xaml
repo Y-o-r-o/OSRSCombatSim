@@ -6,6 +6,12 @@
              xmlns:local="clr-namespace:OSRSComSim.Views"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Visibility" Value="{Binding BtnVisibility}"/>
+        </Style>
+    </UserControl.Resources>
+
     <Grid x:Name="PlayerSkills" Background="LightYellow">
         <Grid.RowDefinitions>
             <RowDefinition Height="80"/>

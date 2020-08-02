@@ -24,15 +24,28 @@ namespace OSRSComSim.ViewModels
     {
         private string                          _fighter_num;
         public object                           _viewcontent;
-        
+
+        private SkillsView                      _skillsview;
         private EquipmentSlotsView              _equipmentslotsview;
         private MainWindowViewModel             _mainwindowVM;
-        private Player                         _selected_player;
+        private Player                          _selected_player;
 
-        private ObservableCollection<Player>   _player_list;
+        private ObservableCollection<Player>    _player_list;
 
 
-        public EquipmentSlotsView              equipmentSlotsView
+        public SkillsView                       skillsView
+        {
+            get
+            {
+                return _skillsview;
+            }
+            set
+            {
+                _skillsview = value;
+                OnPropertyChanged("skillsView");
+            }
+        }
+        public EquipmentSlotsView               equipmentSlotsView
         {
             get
             {
@@ -44,7 +57,7 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("equipmentSlotsView");
             }
         }
-        public ObservableCollection<Player>    PlayerList 
+        public ObservableCollection<Player>     PlayerList 
         {
             get
             {
@@ -56,7 +69,7 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("PlayerList");
             }
         }
-        public object ViewContent
+        public object                           ViewContent
         {
             get
             {
@@ -68,7 +81,7 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("ViewContent");
             }
         }
-        public Player                          SelectedPlayer
+        public Player                           SelectedPlayer
         {
             get 
             {
@@ -77,6 +90,10 @@ namespace OSRSComSim.ViewModels
             set
             {
                 _selected_player = value;
+                
+                equipmentSlotsView = new EquipmentSlotsView(_selected_player.PlayerCombat.PlayerEquipment, false);
+                skillsView = new SkillsView(_selected_player.PlayerCombat.PlayerSkills);
+               
                 OnPropertyChanged("SelectedPlayer");
             }
         }
@@ -88,7 +105,8 @@ namespace OSRSComSim.ViewModels
             _player_list = new ObservableCollection<Player>();
             _selected_player = new Player();
             _fighter_num = fighter_num;
-            equipmentSlotsView = new EquipmentSlotsView(_selected_player.PlayerEquipment, false);
+            skillsView = new SkillsView(_selected_player.PlayerCombat.PlayerSkills);
+            equipmentSlotsView = new EquipmentSlotsView(_selected_player.PlayerCombat.PlayerEquipment, false);
             Load_players();
         }
 
@@ -140,7 +158,6 @@ namespace OSRSComSim.ViewModels
                     SelectedPlayer = player;
                 }
             }
-            equipmentSlotsView = new EquipmentSlotsView(_selected_player.PlayerEquipment, false);
         }
         public void Load_players()
         {

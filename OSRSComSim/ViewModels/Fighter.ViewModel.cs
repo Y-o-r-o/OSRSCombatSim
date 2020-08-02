@@ -13,10 +13,10 @@ namespace OSRSComSim.ViewModels
         private const int status_show_time = 1000;
 
         private int _health_taken;
+        private Player _player;
         private string _last_atk_stat_context;
         private string _last_atk_stat_color;
 
-        private Player _player;
 
         public Player Player
         {
@@ -72,14 +72,14 @@ namespace OSRSComSim.ViewModels
 
         public string getAttackRessult(FighterViewModel deffender)
         {
-            return Player.PlayerCombat.Attack(deffender.Player.PlayerCombat.def_roll);
+            return Player.PlayerCombat.Attack(deffender.Player.PlayerCombat.get_def_roll(Player.PlayerCombat));
         }
         
         public void takeDamage(string attack_res)
         {
             if (attack_res != "def")
             {
-                HealthTaken += (int)Math.Round((double.Parse(attack_res) / Player.PlayerSkills.Hp_lvl) * 100);
+                HealthTaken += (int)Math.Round((double.Parse(attack_res) / Player.PlayerCombat.PlayerSkills.Hp_lvl) * 100);
                 LastAtkStatColor = "Red";
                 LastAtkStatContext = attack_res.ToString();
             }

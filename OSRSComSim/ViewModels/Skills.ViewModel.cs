@@ -9,8 +9,21 @@ namespace OSRSComSim.ViewModels
 {
     public class SkillsViewModel: ObservableObject
     {
+        private string _btn_visibility;
         private Skills _playerskills;
 
+        public string BtnVisibility
+        {
+            get
+            {
+                return _btn_visibility;
+            }
+            set
+            {
+                _btn_visibility = value;
+                OnPropertyChanged("BtnVisibility");
+            }
+        }
         public Skills PlayerSkills
         {
             get { return _playerskills;  }
@@ -21,9 +34,14 @@ namespace OSRSComSim.ViewModels
             }
         }
 
-        public SkillsViewModel(Skills skills)
+
+        public SkillsViewModel(Skills skills, bool can_modify_skills = false)
         {
             PlayerSkills = skills;
+            if (can_modify_skills)
+                BtnVisibility = "Visible";
+            else BtnVisibility = "Hidden";
+
         }
 
         public void resetPlayerSkills()

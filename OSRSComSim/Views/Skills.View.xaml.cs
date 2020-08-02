@@ -23,10 +23,10 @@ namespace OSRSComSim.Views
     public partial class SkillsView : UserControl
     {
         private SkillsViewModel view_model;
-        public SkillsView(Skills skills)
+        public SkillsView(Skills skills, bool can_modify_skills = false)
         {
             InitializeComponent();
-            DataContext = new SkillsViewModel(skills);
+            DataContext = new SkillsViewModel(skills, can_modify_skills);
             view_model = DataContext as SkillsViewModel;
         }
 

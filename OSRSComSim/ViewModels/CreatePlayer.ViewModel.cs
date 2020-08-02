@@ -82,8 +82,8 @@ namespace OSRSComSim.ViewModels
             else _player = new Player();
 
             appearanceView = new AppearanceView(_player);
-            skillsView = new SkillsView(_player.PlayerSkills);
-            equipmentSlotsView = new EquipmentSlotsView(_player.PlayerEquipment, true);          
+            skillsView = new SkillsView(_player.PlayerCombat.PlayerSkills, true);
+            equipmentSlotsView = new EquipmentSlotsView(_player.PlayerCombat.PlayerEquipment, true);          
 
             setupCreatePlayerVM();
         }

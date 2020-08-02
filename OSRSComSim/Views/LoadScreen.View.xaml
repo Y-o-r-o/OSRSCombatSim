@@ -80,41 +80,7 @@
                 <Grid Background="#FFE5E5E5"/>
             </TabItem>
             <TabItem Header="Skills" Height="60" Width="63">
-                <Grid x:Name="PlayerSkills" Background="LightYellow">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="80"/>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="80"/>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="80"/>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="80"/>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="80"/>
-
-                    </Grid.RowDefinitions>
-
-                    <StackPanel Grid.Row="0" x:Name="HeartPointsPanel" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0">
-                        <TextBlock Text="Health level:" Width="200"/>
-                        <TextBlock TextAlignment="Center" Text="{Binding SelectedPlayer.PlayerSkills.Hp_lvl}" Width="50"/>
-                    </StackPanel>
-
-                    <StackPanel Grid.Row="2" x:Name="DeffencePanel" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0">
-                        <TextBlock Text="Deffence level:" Width="200"/>
-                        <TextBlock TextAlignment="Center" Text="{Binding SelectedPlayer.PlayerSkills.Def_lvl}" Width="50"/>
-                    </StackPanel>
-
-                    <StackPanel Grid.Row="4" x:Name="StrengthPanel" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0">
-                        <TextBlock Text="Strength level:" Width="200"/>
-                        <TextBlock TextAlignment="Center" Text="{Binding SelectedPlayer.PlayerSkills.Str_lvl}" Width="50"/>
-                    </StackPanel>
-
-                    <StackPanel Grid.Row="6" x:Name="AttackPanel" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0">
-                        <TextBlock Text="Attack level:" Width="200"/>
-                        <TextBlock TextAlignment="Center" Text="{Binding SelectedPlayer.PlayerSkills.Atk_lvl}" Width="50"/>
-                    </StackPanel>
-                    
-                </Grid>
+                <ContentControl x:Name="show_player_skills" Margin="0,0,0,5" Content="{Binding skillsView}"/>
             </TabItem>
             <TabItem Header="Inventory" Height="60" Width="63">
                 <Grid Background="#FFE5E5E5" />

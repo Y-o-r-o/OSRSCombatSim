@@ -1,8 +1,8 @@
 ﻿using System;
-
+using System.Linq.Expressions;
 
 namespace OSRSComSim.Models
-{ 
+{
     public class Combat
     {
         private string combat_type = "Mele";
@@ -14,6 +14,19 @@ namespace OSRSComSim.Models
 
         private int stanc_bonus = 1;
         private double void_bonus = 1;
+
+        private int piercing_lvl = 0;
+        private int dmage_lvl = 0;
+        private int def_lvl = 0;
+
+        private int eq_def_bonus = 0;
+        private int eq_piercing_bonus = 0;
+        private int eq_dmage_bonus = 0;
+
+        private double prayer_def_bonus = 0;
+        private double prayer_piercing_bonus = 0;
+        private double prayer_dmage_bonus = 0;
+
 
         private static Random rnd = new Random();
 
@@ -30,25 +43,62 @@ namespace OSRSComSim.Models
 
         public string Attack(int deffender_def_roll)
         {
-            if (deffender_def_roll > get_atk_roll())
+            set_stats_for_attacker();
+            
+            int piercing_roll = get_piercing_roll();
+            int maxdmg = get_dmagemax();
+
+            if (deffender_def_roll > piercing_roll)
             {
-                if (get_atk_roll() > rnd.Next(0, 2 * deffender_def_roll + 2))
+                if (piercing_roll > rnd.Next(0, 2 * deffender_def_roll + 2))
                 {
-                    return rnd.Next((int)Math.Round((double)get_atkmax() / 5), get_atkmax() + 1).ToString();
+                    return rnd.Next((int)Math.Round((double)maxdmg / 5), maxdmg + 1).ToString();
                 }
                 else return "def";
             }
             else
             {
-                if ((2 * get_atk_roll() + 2) - deffender_def_roll > rnd.Next(0, 2 * get_atk_roll() + 2))
+                if ((2 * piercing_roll + 2) - deffender_def_roll > rnd.Next(0, 2 * piercing_roll + 2))
                 {
-                    return rnd.Next((int)Math.Round((double)get_atkmax() / 5), get_atkmax() + 1).ToString();
+                    return rnd.Next((int)Math.Round((double)maxdmg / 5), maxdmg + 1).ToString();
                 }
                 else return "def";
             }
         }
 
-        public int get_atk_roll()
+        public int get_piercing_roll()
+        {
+            return (int)(effective_level_dmage() * (eq_piercing_bonus + 64));
+        }
+
+        public int get_def_roll(Combat attacker_combat)
+        {
+            set_stats_for_deffender(attacker_combat);
+            return (int)(effective_level_def() * (eq_def_bonus + 64));
+        }
+
+        public int get_dmagemax()
+        {
+            return (int)Math.Floor((0.5 + effective_level_dmage() * (eq_dmage_bonus + 64) / 640));
+        }
+
+        public double effective_level_dmage()
+        {
+            return Math.Floor((Math.Floor(dmage_lvl * prayer_dmage_bonus) + stanc_bonus + 8) * void_bonus);
+        }
+
+        public double effective_level_piercing()
+        {
+            return Math.Floor((Math.Floor(piercing_lvl * prayer_piercing_bonus) + stanc_bonus + 8) * void_bonus);
+            
+        }
+
+        public double effective_level_def()
+        {
+            return Math.Floor((Math.Floor(def_lvl * prayer_def_bonus) + stanc_bonus + 8) * void_bonus);
+        }
+
+        private void set_stats_for_attacker()
         {
             switch (combat_type)
             {
@@ -56,24 +106,45 @@ namespace OSRSComSim.Models
                     switch (mele_atk_type)
                     {
                         case "Slash":
-                            return (int)(effective_level_def() * (PlayerEquipment.getTotalSlashAtk() + 64));
+                            eq_piercing_bonus = PlayerEquipment.getTotalSlashAtk();
+                            break;
                         case "Stab":
-                            return (int)(effective_level_def() * (PlayerEquipment.getTotalStabAtk() + 64));
+                            eq_piercing_bonus = PlayerEquipment.getTotalStabAtk();
+                            break;
                         case "Crush":
-                            return (int)(effective_level_def() * (PlayerEquipment.getTotalCrushAtk() + 64));
+                            eq_piercing_bonus = PlayerEquipment.getTotalCrushAtk();
+                            break;
                         default:
-                            return 0;
+                            break;
                     }
+                    eq_dmage_bonus = PlayerEquipment.getTotalMeleStr();
+                    prayer_piercing_bonus = 1;
+                    prayer_dmage_bonus = 1;
+                    dmage_lvl = PlayerSkills.Str_lvl;
+                    piercing_lvl = PlayerSkills.Atk_lvl;
+                    break;
                 case "Magic":
-                    return (int)(effective_level_def() * (PlayerEquipment.getTotalMagicAtk() + 64));
+                    eq_piercing_bonus = PlayerEquipment.getTotalMagicAtk();
+                    eq_dmage_bonus = PlayerEquipment.getTotalMagicStr();
+                    prayer_piercing_bonus = 1;
+                    prayer_dmage_bonus = 1;
+                    dmage_lvl = PlayerSkills.Magic_lvl;
+                    piercing_lvl = PlayerSkills.Magic_lvl;
+                    break;
                 case "Ranged":
-                    return (int)(effective_level_def() * (PlayerEquipment.getTotalMagicAtk() + 64));
+                    eq_piercing_bonus = PlayerEquipment.getTotalRangedAtk();
+                    eq_dmage_bonus = PlayerEquipment.getTotalRangedStr();
+                    prayer_piercing_bonus = 1;
+                    prayer_dmage_bonus = 1;
+                    dmage_lvl = PlayerSkills.Magic_lvl;
+                    piercing_lvl = PlayerSkills.Magic_lvl;
+                    break;
                 default:
-                    return 0;
+                    break;
             }
         }
 
-        public int get_def_roll(Combat attacker_combat)
+        private void set_stats_for_deffender(Combat attacker_combat)
         {
             switch (attacker_combat.combat_type)
             {
@@ -81,81 +152,31 @@ namespace OSRSComSim.Models
                     switch (attacker_combat.mele_atk_type)
                     {
                         case "Slash":
-                            return (int)(effective_level_def() * (PlayerEquipment.getTotalSlashDef() + 64));
+                            eq_def_bonus = PlayerEquipment.getTotalSlashDef();
+                            break;
                         case "Stab":
-                            return (int)(effective_level_def() * (PlayerEquipment.getTotalStabDef() + 64));
+                            eq_def_bonus = PlayerEquipment.getTotalStabDef();
+                            break;
                         case "Crush":
-                            return (int)(effective_level_def() * (PlayerEquipment.getTotalCrushDef() + 64));
+                            eq_def_bonus = PlayerEquipment.getTotalCrushDef();
+                            break;
                         default:
-                            return 0;
+                            break;
                     }
+                    prayer_def_bonus = 1;
+                    break;
                 case "Magic":
-                    return (int)(effective_level_def() * (PlayerEquipment.getTotalMagicDef() + 64));
+                    eq_def_bonus = PlayerEquipment.getTotalMagicDef();
+                    prayer_def_bonus = 1;
+                    break;
                 case "Ranged":
-                    return (int)(effective_level_def() * (PlayerEquipment.getTotalMagicDef() + 64));
+                    eq_def_bonus = PlayerEquipment.getTotalRangedDef();
+                    prayer_def_bonus = 1;
+                    break;
                 default:
-                    return 0;
+                    break;
             }
-        }
-
-        public int get_atkmax()
-        {
-            switch (combat_type)
-            {
-                case "Mele":
-                    return (int)Math.Floor((0.5 + effective_level_str() * (PlayerEquipment.getTotalMeleStr() + 64) / 640));
-                case "Magic":
-                    return (int)Math.Floor((0.5 + effective_level_str() * (PlayerEquipment.getTotalMagicStr() + 64) / 640));
-                case "Ranged":
-                    return (int)Math.Floor((0.5 + effective_level_str() * (PlayerEquipment.getTotalRangedStr() + 64) / 640));
-                default:
-                    return 0;
-            }
-        }
-
-        public double effective_level_str()
-        {
-            switch (combat_type)
-            {
-                case "Mele":
-                    return Math.Floor((Math.Floor(PlayerSkills.Str_lvl *    1.0/*prayer_str*/) + stanc_bonus + 8) * void_bonus);
-                case "Magic":
-                    return Math.Floor((Math.Floor(PlayerSkills.Magic_lvl *  1.0/*prayer_mstr*/) + stanc_bonus + 8) * void_bonus);
-                case "Ranged":
-                    return Math.Floor((Math.Floor(PlayerSkills.Ranged_lvl * 1.0/*prayer_rstr*/) + stanc_bonus + 8) * void_bonus);
-                default:
-                    return 0;
-            }
-        }
-
-        public double effective_level_atk()
-        {
-            switch (combat_type)
-            {
-                case "Mele":
-                    return Math.Floor((Math.Floor(PlayerSkills.Atk_lvl * 1.0/*prayer_atk*/) + stanc_bonus + 8) * void_bonus);
-                case "Magic":
-                    return Math.Floor((Math.Floor(PlayerSkills.Magic_lvl * 1.0/*prayer_matk*/) + stanc_bonus + 8) * void_bonus);
-                case "Ranged":
-                    return Math.Floor((Math.Floor(PlayerSkills.Ranged_lvl * 1.0/*prayer_ratk*/) + stanc_bonus + 8) * void_bonus);
-                default:
-                    return 0;
-            }
-        }
-
-        public double effective_level_def()
-        {
-            switch (combat_type)
-            {
-                case "Mele":
-                    return Math.Floor((Math.Floor(PlayerSkills.Def_lvl * 1.0/*prayer_def*/) + stanc_bonus + 8) * void_bonus);
-                case "Magic":
-                    return Math.Floor((Math.Floor(PlayerSkills.Def_lvl * 1.0/*prayer_mdef*/) + stanc_bonus + 8) * void_bonus);
-                case "Ranged":
-                    return Math.Floor((Math.Floor(PlayerSkills.Def_lvl * 1.0/*prayer_rdef*/) + stanc_bonus + 8) * void_bonus);
-                default:
-                    return 0;
-            }
+            def_lvl = PlayerSkills.Def_lvl;
         }
 
     }

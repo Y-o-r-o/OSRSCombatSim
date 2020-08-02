@@ -32,12 +32,12 @@ namespace OSRSComSim.Views
 
         private void MinusBtn_Click(object sender, RoutedEventArgs e)
         {
-            view_model.editPlayerSkills(((Button)sender).Name, -1);
+            view_model.editPlayerSkills(((Button)sender).Tag.ToString(), -1);
         }
 
         private void PlusBtn_Click(object sender, RoutedEventArgs e)
         {
-            view_model.editPlayerSkills(((Button)sender).Name, 1);
+            view_model.editPlayerSkills(((Button)sender).Tag.ToString(), 1);
         }
 
         private void BtnReset_Click(object sender, RoutedEventArgs e)

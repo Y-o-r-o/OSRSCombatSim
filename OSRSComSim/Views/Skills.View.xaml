@@ -28,31 +28,31 @@
         </Grid.RowDefinitions>
 
         <StackPanel Grid.Row="0" x:Name="HeartPointsPanel" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0">
-            <Button x:Name="MinusHP" Content="lowericon" Margin="0,0,10,0" Click="MinusBtn_Click"/>
+            <Button Tag="HP" Content="lowericon" Margin="0,0,10,0" Click="MinusBtn_Click"/>
             <TextBlock x:Name="HealthLvl" Text="Health level:" Width="200"/>
             <TextBlock x:Name="HPLvl" TextAlignment="Center" Text="{Binding PlayerSkills.Hp_lvl}" Width="50"/>
-            <Button x:Name="PlusHP" Content="uppericon" Margin="10,0,0,0" Click="PlusBtn_Click"/>
+            <Button Tag="HP" Content="uppericon" Margin="10,0,0,0" Click="PlusBtn_Click"/>
         </StackPanel>
 
         <StackPanel Grid.Row="2" x:Name="DeffencePanel" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0">
-            <Button x:Name="MinusDef" Content="lowericon" Margin="0,0,10,0" Click="MinusBtn_Click"/>
+            <Button Tag="Def" Content="lowericon" Margin="0,0,10,0" Click="MinusBtn_Click"/>
             <TextBlock x:Name="DeffenceLvl" Text="Deffence level:" Width="200"/>
             <TextBlock x:Name="DefLvl" TextAlignment="Center" Text="{Binding PlayerSkills.Def_lvl}" Width="50"/>
-            <Button x:Name="PlusDef" Content="uppericon" Margin="10,0,0,0" Click="PlusBtn_Click"/>
+            <Button Tag="Def" Content="uppericon" Margin="10,0,0,0" Click="PlusBtn_Click"/>
         </StackPanel>
 
         <StackPanel Grid.Row="4" x:Name="StrengthPanel" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0">
-            <Button x:Name="MinusStr" Content="lowericon" Margin="0,0,10,0" Click="MinusBtn_Click"/>
+            <Button Tag="Str" Content="lowericon" Margin="0,0,10,0" Click="MinusBtn_Click"/>
             <TextBlock x:Name="StrengthLvl" Text="Strength level:" Width="200"/>
             <TextBlock x:Name="StrLvl" TextAlignment="Center" Text="{Binding PlayerSkills.Str_lvl}" Width="50"/>
-            <Button x:Name="PlusStr" Content="uppericon" Margin="10,0,0,0" Click="PlusBtn_Click"/>
+            <Button Tag="Str" Content="uppericon" Margin="10,0,0,0" Click="PlusBtn_Click"/>
         </StackPanel>
 
         <StackPanel Grid.Row="6" x:Name="AttackPanel" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0">
-            <Button x:Name="MinusAtk" Content="lowericon" Margin="0,0,10,0" Click="MinusBtn_Click"/>
+            <Button Tag="Atk" Content="lowericon" Margin="0,0,10,0" Click="MinusBtn_Click"/>
             <TextBlock x:Name="Attacklvl" Text="Attack level:" Width="200"/>
             <TextBlock x:Name="AtkLvl" TextAlignment="Center" Text="{Binding PlayerSkills.Atk_lvl}" Width="50"/>
-            <Button x:Name="PlusAtk" Content="uppericon" Margin="10,0,0,0" Click="PlusBtn_Click"/>
+            <Button Tag="Atk" Content="uppericon" Margin="10,0,0,0" Click="PlusBtn_Click"/>
         </StackPanel>
         <StackPanel Grid.Row="10" Orientation="Horizontal" HorizontalAlignment="Center">
             <Button x:Name="BtnRandom" VerticalAlignment="Center" Content="Random" FontSize="20" Height="36" Width="150" Click="BtnRandom_Click"/>

@@ -61,16 +61,16 @@ namespace OSRSComSim.ViewModels
         {
             switch (name)
             {
-                case "PlusHP":
-                    PlayerSkills.Hp_lvl+=value;
+                case "HP":
+                    PlayerSkills.Hp_lvl += value;
                     break;
-                case "PlusDef":
-                    PlayerSkills.Def_lvl+=value;
+                case "Def":
+                    PlayerSkills.Def_lvl+= value;
                     break;
-                case "PlusStr":
+                case "Str":
                     PlayerSkills.Str_lvl+= value;
                     break;
-                case "PlusAtk":
+                case "Atk":
                     PlayerSkills.Atk_lvl+= value;
                     break;
                 default:

@@ -8,9 +8,6 @@ namespace OSRSComSim.Models
         private string combat_type = "Mele";
         private string mele_atk_type = "Slash";
 
-        private int atk_max = 0;
-        private int atk_roll = 0;
-
         public Skills PlayerSkills { get; set; }
         public Equiped PlayerEquipment { get; set; }
 
@@ -33,31 +30,25 @@ namespace OSRSComSim.Models
 
         public string Attack(int deffender_def_roll)
         {
-            if (deffender_def_roll > atk_roll)
+            if (deffender_def_roll > get_atk_roll())
             {
-                if (atk_roll > rnd.Next(0, 2 * deffender_def_roll + 2))
+                if (get_atk_roll() > rnd.Next(0, 2 * deffender_def_roll + 2))
                 {
-
-                    return rnd.Next((int)Math.Round((double)atk_max / 5), atk_max + 1).ToString();
+                    return rnd.Next((int)Math.Round((double)get_atkmax() / 5), get_atkmax() + 1).ToString();
                 }
                 else return "def";
             }
             else
             {
-                if ((2 * atk_roll + 2) - deffender_def_roll > rnd.Next(0, 2 * atk_roll + 2))
+                if ((2 * get_atk_roll() + 2) - deffender_def_roll > rnd.Next(0, 2 * get_atk_roll() + 2))
                 {
-                    return rnd.Next((int)Math.Round((double)atk_max / 5), atk_max + 1).ToString();
+                    return rnd.Next((int)Math.Round((double)get_atkmax() / 5), get_atkmax() + 1).ToString();
                 }
                 else return "def";
             }
         }
 
-        public void set_combat()
-        {
-            atk_max = set_atkmax();
-            atk_roll = set_atk_roll();
-        }
-        private int set_atk_roll()
+        public int get_atk_roll()
         {
             switch (combat_type)
             {
@@ -107,32 +98,22 @@ namespace OSRSComSim.Models
             }
         }
 
-        private int set_atkmax()
+        public int get_atkmax()
         {
             switch (combat_type)
             {
                 case "Mele":
-                    switch (mele_atk_type)
-                    {
-                        case "Slash":
-                            return (int)(effective_level_def() * (PlayerEquipment.getTotalMeleStr() + 64));
-                        case "Stab":
-                            return (int)(effective_level_def() * (PlayerEquipment.getTotalMeleStr() + 64));
-                        case "Crush":
-                            return (int)(effective_level_def() * (PlayerEquipment.getTotalMeleStr() + 64));
-                        default:
-                            return 0;
-                    }
+                    return (int)Math.Floor((0.5 + effective_level_str() * (PlayerEquipment.getTotalMeleStr() + 64) / 640));
                 case "Magic":
-                    return (int)(effective_level_def() * (PlayerEquipment.getTotalMagicStr() + 64));
+                    return (int)Math.Floor((0.5 + effective_level_str() * (PlayerEquipment.getTotalMagicStr() + 64) / 640));
                 case "Ranged":
-                    return (int)(effective_level_def() * (PlayerEquipment.getTotalMagicStr() + 64));
+                    return (int)Math.Floor((0.5 + effective_level_str() * (PlayerEquipment.getTotalRangedStr() + 64) / 640));
                 default:
                     return 0;
             }
         }
 
-        private double effective_level_str()
+        public double effective_level_str()
         {
             switch (combat_type)
             {
@@ -147,7 +128,7 @@ namespace OSRSComSim.Models
             }
         }
 
-        private double effective_level_atk()
+        public double effective_level_atk()
         {
             switch (combat_type)
             {
@@ -162,7 +143,7 @@ namespace OSRSComSim.Models
             }
         }
 
-        private double effective_level_def()
+        public double effective_level_def()
         {
             switch (combat_type)
             {

@@ -72,9 +72,10 @@ namespace OSRSComSim.ViewModels
 
         public string getAttackRessult(FighterViewModel deffender)
         {
-            return Player.PlayerCombat.Attack(deffender.Player.PlayerCombat.get_def_roll(Player.PlayerCombat));
+            int deffender_def_roll = deffender.Player.PlayerCombat.get_def_roll(Player.PlayerCombat);
+            return Player.PlayerCombat.Attack(deffender_def_roll);
         }
-        
+
         public void takeDamage(string attack_res)
         {
             if (attack_res != "def")

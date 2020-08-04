@@ -10,15 +10,38 @@ using System.Threading.Tasks;
 
 namespace OSRSComSim.ViewModels
 {
-    class CreatePlayerViewModel: ObservableObject
+    class ControlPanelViewModel : ObservableObject
     {
-        private int _selected_index;
+        private string _create_mode_tabs_visibility = "Collapsed";
+        private string _interactive_mode_tabs_visibility = "Collapsed";
+
+        private int _selected_index = 0;
         private EquipmentSlotsView _equipmentslotsview;
         private SkillsView _skillsview;
         private AppearanceView _appearanceview;
 
         public Player _player { get; set; }
         private LoadScreenViewModel _loadscreenviewmodel;
+
+
+        public string CreateModeTabsVisibility
+        {
+            get { return _create_mode_tabs_visibility;  }
+            set
+            {
+                _create_mode_tabs_visibility = value;
+                OnPropertyChanged("CreateModeTabsVisibility");
+            }
+        }
+        public string InteractiveModeTabsVisibility
+        {
+            get { return _interactive_mode_tabs_visibility; }
+            set
+            {
+                _interactive_mode_tabs_visibility = value;
+                OnPropertyChanged("InteractiveModeTabsVisibility");
+            }
+        }
 
         public int SelectedIndex
         { 
@@ -35,7 +58,6 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("SelectedIndex");
             }
         }
-
         public AppearanceView appearanceView
         {
             get
@@ -72,8 +94,9 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("skillsView");
             }
         }
-
-        public CreatePlayerViewModel(LoadScreenViewModel loadscreenviewmodel, Player player = null)
+        
+        public ControlPanelViewModel() : this(null, null, null) { }
+        public ControlPanelViewModel(LoadScreenViewModel loadscreenviewmodel, Player player = null, string cp_mode = "View") // Create, View, Interactive.
         {
             _loadscreenviewmodel = loadscreenviewmodel;
 
@@ -81,17 +104,32 @@ namespace OSRSComSim.ViewModels
                 _player = player;
             else _player = new Player();
 
-            appearanceView = new AppearanceView(_player);
-            skillsView = new SkillsView(_player.PlayerCombat.PlayerSkills, true);
-            equipmentSlotsView = new EquipmentSlotsView(_player.PlayerCombat.PlayerEquipment, true);          
+            setMode(cp_mode);
 
-            setupCreatePlayerVM();
         }
         
-        private void setupCreatePlayerVM()
+        private void setMode(string cp_mode)
         {
-            _selected_index = 0;
+            bool view_mode = false;
+            switch (cp_mode)
+            {
+                case "Create":
+                    CreateModeTabsVisibility = "Visible";
+                    appearanceView = new AppearanceView(_player);
+                    break;
+                case "View":
+                    view_mode = true;
+                    break;
+                case "Interactive":
+                    InteractiveModeTabsVisibility = "Visible";
+                    break;
+            }
+            skillsView = new SkillsView(_player.PlayerCombat.PlayerSkills, view_mode);
+            equipmentSlotsView = new EquipmentSlotsView(_player.PlayerCombat.PlayerEquipment, view_mode);          
+
+
         }
+
         public void backToLoadScreen()
         {
             _loadscreenviewmodel.stopView();

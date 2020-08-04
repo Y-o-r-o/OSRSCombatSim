@@ -79,7 +79,7 @@
     <Compile Include="ObservableObject.cs" />
     <Compile Include="ViewModels\Appearance.ViewModel.cs" />
     <Compile Include="ViewModels\Battle.ViewModel.cs" />
-    <Compile Include="ViewModels\CreatePlayer.ViewModel.cs" />
+    <Compile Include="ViewModels\ControlPanel.ViewModel.cs" />
     <Compile Include="ViewModels\EquipmentSlots.ViewModel.cs" />
     <Compile Include="ViewModels\Fighter.ViewModel.cs" />
     <Compile Include="ViewModels\LoadScreen.ViewModel.cs" />
@@ -91,8 +91,8 @@
     <Compile Include="Views\Appearance.View.xaml.cs">
       <DependentUpon>Appearance.View.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\CreatePlayer.View.xaml.cs">
-      <DependentUpon>CreatePlayer.View.xaml</DependentUpon>
+    <Compile Include="Views\ControlPanel.View.xaml.cs">
+      <DependentUpon>ControlPanel.View.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\EquipmentSlots.View.xaml.cs">
       <DependentUpon>EquipmentSlots.View.xaml</DependentUpon>
@@ -123,7 +123,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\CreatePlayer.View.xaml">
+    <Page Include="Views\ControlPanel.View.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

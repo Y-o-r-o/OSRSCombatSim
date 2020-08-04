@@ -106,7 +106,7 @@ namespace OSRSComSim.ViewModels
             _selected_player = new Player();
             _fighter_num = fighter_num;
             skillsView = new SkillsView(_selected_player.PlayerCombat.PlayerSkills);
-            equipmentSlotsView = new EquipmentSlotsView(_selected_player.PlayerCombat.PlayerEquipment, false);
+            equipmentSlotsView = new EquipmentSlotsView(_selected_player.PlayerCombat.PlayerEquipment, true);
             Load_players();
         }
 
@@ -117,11 +117,11 @@ namespace OSRSComSim.ViewModels
         }
         public void viewCreatePlayer()
         {
-            ViewContent = new CreatePlayerView(this);
+            ViewContent = new ControlPanelView(this, cp_mode: "Create");
         }
         public void viewrEditPlayer()
         {
-            ViewContent = new CreatePlayerView(this, SelectedPlayer);
+            ViewContent = new ControlPanelView(this, SelectedPlayer, "Create");
         }
         public void stopView()
         {

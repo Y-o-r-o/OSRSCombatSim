@@ -18,18 +18,18 @@ using System.Windows.Shapes;
 namespace OSRSComSim.Views
 {
     
-    public partial class CreatePlayerView : UserControl
+    public partial class ControlPanelView : UserControl
     {
-        CreatePlayerViewModel view_model;
-        public CreatePlayerView(LoadScreenViewModel loadscreenVM, Player player = null)
+        ControlPanelViewModel view_model;
+        public ControlPanelView(LoadScreenViewModel loadscreenVM, Player player = null, string cp_mode = "View")
         {
             InitializeComponent();
-            DataContext = new CreatePlayerViewModel(loadscreenVM, player);
+            DataContext = new ControlPanelViewModel(loadscreenVM, player, cp_mode);
          }
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
-            view_model = (CreatePlayerViewModel)DataContext;
+            view_model = (ControlPanelViewModel)DataContext;
         }
 
 

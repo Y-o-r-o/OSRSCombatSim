@@ -45,7 +45,7 @@ namespace OSRSComSim.ViewModels
             }
         }
 
-        public EquipmentSlotsViewModel(Equiped player_equiped = null, bool show_select = false)
+        public EquipmentSlotsViewModel(Equiped player_equiped = null, bool view_mode = true)
         {
 
             if (player_equiped != null)
@@ -54,7 +54,7 @@ namespace OSRSComSim.ViewModels
             }
             else PlayerEquiped = new Equiped();
             selectEquipment = null;
-            _show_select = show_select;
+            _show_select = !view_mode;
             setEquipmentInfo();
         }
 

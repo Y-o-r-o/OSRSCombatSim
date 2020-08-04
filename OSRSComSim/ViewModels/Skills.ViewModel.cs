@@ -34,12 +34,12 @@ namespace OSRSComSim.ViewModels
             }
         }
 
-        public SkillsViewModel(Skills skills, bool can_modify_skills = false)
+        public SkillsViewModel(Skills skills, bool view_mode = false)
         {
             PlayerSkills = skills;
-            if (can_modify_skills)
-                BtnVisibility = "Visible";
-            else BtnVisibility = "Hidden";
+            if (view_mode)
+                BtnVisibility = "Hidden";
+            else BtnVisibility = "Visible";
 
         }
 

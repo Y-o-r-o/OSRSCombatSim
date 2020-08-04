@@ -13,9 +13,7 @@ D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\OSRSComSim.csproj.GenerateResource.c
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\OSRSComSim.csproj.CoreCompileInputs.cache
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\OSRSComSim.exe
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\OSRSComSim.pdb
-D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\CreatePlayer.View.g.cs
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\LoadScreen.View.g.cs
-D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\CreatePlayer.View.baml
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\LoadScreen.View.baml
 D:\Projects\OSRSComSim\OSRSComSim\bin\Debug\CsvHelper.dll
 D:\Projects\OSRSComSim\OSRSComSim\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
@@ -34,4 +32,5 @@ D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\Appearance.View.baml
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\Skills.View.baml
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\SelectEquipment.View.g.cs
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\SelectEquipment.View.baml
-D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\OSRSComSim.csprojAssemblyReference.cache
+D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\ControlPanel.View.g.cs
+D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\ControlPanel.View.baml

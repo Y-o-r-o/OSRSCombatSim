@@ -26,10 +26,10 @@ namespace OSRSComSim.Views
 
         public EquipmentSlotsViewModel view_model;
 
-        public EquipmentSlotsView(Equiped player_equiped = null, bool show_select = false)
+        public EquipmentSlotsView(Equiped player_equiped = null, bool view_mode = false)
         {
             InitializeComponent();
-            DataContext = new EquipmentSlotsViewModel(player_equiped, show_select);
+            DataContext = new EquipmentSlotsViewModel(player_equiped, view_mode);
             view_model = DataContext as EquipmentSlotsViewModel;
         }
 

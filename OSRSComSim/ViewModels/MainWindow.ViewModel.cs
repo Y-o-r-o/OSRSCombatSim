@@ -31,13 +31,8 @@ namespace OSRSComSim.ViewModels
         public MainWindowViewModel()
         {
             Battle = new BattleViewModel();
-            setupMainWindowViewModel();
         }
 
-        public void setupMainWindowViewModel()
-        {
-            
-        }
 
         public void viewLoadScreen(string fighter_num)
         {

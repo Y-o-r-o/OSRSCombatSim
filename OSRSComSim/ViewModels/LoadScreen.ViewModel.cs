@@ -98,8 +98,8 @@ namespace OSRSComSim.ViewModels
             }
         }
 
-
-        public LoadScreenViewModel(MainWindowViewModel mainWindowVM, string fighter_num)
+        public LoadScreenViewModel() : this(null, null) { }
+        public LoadScreenViewModel(MainWindowViewModel mainWindowVM = null, string fighter_num = null)
         {
             _mainwindowVM = mainWindowVM;
             _player_list = new ObservableCollection<Player>();
@@ -169,11 +169,11 @@ namespace OSRSComSim.ViewModels
         {
             if (_fighter_num == "fighter 1")
             {
-                _mainwindowVM.Battle.Fighter1.Player = SelectedPlayer;
+                _mainwindowVM.Battle.Fighter1 = new FighterViewModel(SelectedPlayer);
             }
             else if (_fighter_num == "fighter 2")
             {
-                _mainwindowVM.Battle.Fighter2.Player = SelectedPlayer;
+                _mainwindowVM.Battle.Fighter2 = new FighterViewModel(SelectedPlayer);
             }
         }
     }

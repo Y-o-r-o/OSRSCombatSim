@@ -34,7 +34,6 @@ namespace OSRSComSim.ViewModels
             }
         }
 
-
         public SkillsViewModel(Skills skills, bool can_modify_skills = false)
         {
             PlayerSkills = skills;

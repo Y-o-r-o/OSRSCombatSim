@@ -13,18 +13,29 @@ namespace OSRSComSim.ViewModels
         private const int status_show_time = 1000;
 
         private int _health_taken;
-        private Player _player;
+
+        private Combat _fcombat;
+        private string _name;
         private string _last_atk_stat_context;
         private string _last_atk_stat_color;
 
 
-        public Player Player
+        public string Name
         {
-            get { return _player; }
+            get { return _name; }
             set
             {
-                _player = value;
-                OnPropertyChanged("Player");
+                _name = value;
+                OnPropertyChanged("Name");
+            }
+        }
+        public Combat FighterCombat
+        {
+            get { return _fcombat; }
+            set
+            {
+                _fcombat = value;
+                OnPropertyChanged("FighterCombat");
             }
         }
         public string LastAtkStatColor
@@ -58,29 +69,31 @@ namespace OSRSComSim.ViewModels
             }
         }
 
-        public FighterViewModel()
+        public FighterViewModel(Player selectedplayer = null)
         {
-            Player = new Player();
+            if (selectedplayer == null) selectedplayer = new Player();
+            Name = selectedplayer.Name;
+            FighterCombat = selectedplayer.PlayerCombat;
             setupFighter();
         }
-
         private void setupFighter()
         {
             LastAtkStatColor = "Transparent";
             LastAtkStatContext = "";
         }
 
+
         public string getAttackRessult(FighterViewModel deffender)
         {
-            int deffender_def_roll = deffender.Player.PlayerCombat.get_def_roll(Player.PlayerCombat);
-            return Player.PlayerCombat.Attack(deffender_def_roll);
+            int deffender_def_roll = deffender.FighterCombat.Deffend(FighterCombat);
+            return FighterCombat.Attack(deffender_def_roll);
         }
 
         public void takeDamage(string attack_res)
         {
             if (attack_res != "def")
             {
-                HealthTaken += (int)Math.Round((double.Parse(attack_res) / Player.PlayerCombat.PlayerSkills.Hp_lvl) * 100);
+                HealthTaken += (int)Math.Round((double.Parse(attack_res) / FighterCombat.PlayerSkills.Hp_lvl) * 100);
                 LastAtkStatColor = "Red";
                 LastAtkStatContext = attack_res.ToString();
             }

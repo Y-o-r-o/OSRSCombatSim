@@ -14,12 +14,30 @@ namespace OSRSComSim.ViewModels
     {
         private bool _thread_is_started;
         private string _buttonfightcontent;
+        private FighterViewModel _fighter1;
+        private FighterViewModel _fighter2;
 
         private Thread th1;
         private Thread th2;
 
-        public FighterViewModel Fighter1 { get; set; }
-        public FighterViewModel Fighter2 { get; set; }
+        public FighterViewModel Fighter1 
+        {
+            get { return _fighter1; }
+            set
+            {
+                _fighter1 = value;
+                OnPropertyChanged("Fighter1");
+            }
+        }
+        public FighterViewModel Fighter2
+        {
+            get { return _fighter2; }
+            set
+            {
+                _fighter2 = value;
+                OnPropertyChanged("Fighter2");
+            }
+        }
         public bool ThreadIsStarted
         {
             get

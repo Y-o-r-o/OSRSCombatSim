@@ -45,10 +45,10 @@
 
 
         <Border Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="1" HorizontalAlignment="Center" Width="300" Height="35">
-            <TextBlock x:Name="Fighter1" TextWrapping="Wrap" Text="{Binding Battle.Fighter1.Player.Name}" FontSize="25" VerticalAlignment="Stretch" HorizontalAlignment="Center"/>
+            <TextBlock x:Name="Fighter1" TextWrapping="Wrap" Text="{Binding Battle.Fighter1.Name}" FontSize="25" VerticalAlignment="Stretch" HorizontalAlignment="Center"/>
         </Border>
         <Border Grid.Column="3" Grid.ColumnSpan="3" Grid.Row="1" HorizontalAlignment="Center" Width="300" Height="35">
-            <TextBlock x:Name="Fighter2" TextWrapping="Wrap" Text="{Binding Battle.Fighter2.Player.Name}" FontSize="25" VerticalAlignment="Stretch" HorizontalAlignment="Center"/>
+            <TextBlock x:Name="Fighter2" TextWrapping="Wrap" Text="{Binding Battle.Fighter2.Name}" FontSize="25" VerticalAlignment="Stretch" HorizontalAlignment="Center"/>
         </Border>
 
         <Button Grid.Column="1" Grid.ColumnSpan="3" x:Name ="Button_Load_1" Content="PLAYER SELECT" Height="40" Width="180" HorizontalAlignment="Center" FontSize="20" Click="Button_Load_1_Click"/>

@@ -66,14 +66,19 @@ namespace OSRSComSim.Models
             }
         }
 
-        public int get_piercing_roll()
-        {
-            return (int)(effective_level_dmage() * (eq_piercing_bonus + 64));
-        }
-
-        public int get_def_roll(Combat attacker_combat)
+        public int Deffend(Combat attacker_combat)
         {
             set_stats_for_deffender(attacker_combat);
+            return get_def_roll();
+        }
+
+        public int get_piercing_roll()
+        {
+            return (int)(effective_level_piercing() * (eq_piercing_bonus + 64));
+        }
+
+        public int get_def_roll()
+        {
             return (int)(effective_level_def() * (eq_def_bonus + 64));
         }
 
@@ -82,18 +87,18 @@ namespace OSRSComSim.Models
             return (int)Math.Floor((0.5 + effective_level_dmage() * (eq_dmage_bonus + 64) / 640));
         }
 
-        public double effective_level_dmage()
+        private double effective_level_dmage()
         {
             return Math.Floor((Math.Floor(dmage_lvl * prayer_dmage_bonus) + stanc_bonus + 8) * void_bonus);
         }
 
-        public double effective_level_piercing()
+        private double effective_level_piercing()
         {
             return Math.Floor((Math.Floor(piercing_lvl * prayer_piercing_bonus) + stanc_bonus + 8) * void_bonus);
             
         }
 
-        public double effective_level_def()
+        private double effective_level_def()
         {
             return Math.Floor((Math.Floor(def_lvl * prayer_def_bonus) + stanc_bonus + 8) * void_bonus);
         }

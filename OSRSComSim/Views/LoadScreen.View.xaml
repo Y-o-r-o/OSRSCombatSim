@@ -10,6 +10,10 @@
              Width="1275"           
              >
 
+    <UserControl.DataContext>
+        <viewmodels:LoadScreenViewModel/>
+    </UserControl.DataContext>
+
     <UserControl.Resources>
         <Style TargetType="Button">
             <Setter Property="VerticalContentAlignment" Value="Center"/>

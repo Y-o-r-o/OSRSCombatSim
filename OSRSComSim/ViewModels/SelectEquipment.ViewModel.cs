@@ -25,8 +25,6 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("PlayerEquiped");
             }
         }
-
-
         public string SelectedSlotTable
         {
             get { return _selected_slot_table; }
@@ -37,7 +35,6 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("ReadCSV");
             }
         }
-
         public IEnumerable<string> ReadCSV
         {
             get
@@ -58,8 +55,6 @@ namespace OSRSComSim.ViewModels
                 }
             }
         }
-
-
 
         public SelectEquipmentViewModel(Equiped player_equiped, string selected_slot_table)
         {

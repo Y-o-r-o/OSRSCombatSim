@@ -39,7 +39,13 @@ namespace OSRSComSim.Models
             Feet = new Equipment();
             Hands = new Equipment();
             Ring = new Equipment();
+            setupEquipmentDefautStats();
             setupEquipmentDefautSlotImg();
+        }
+        private void setupEquipmentDefautStats()
+        {
+            Weapon.Name = "Fists";
+            Weapon.Speed = 4;
         }
 
         private void setupEquipmentDefautSlotImg()
@@ -118,6 +124,9 @@ namespace OSRSComSim.Models
         {
             return Head.Weigth + Neck.Weigth + Cape.Weigth + Ammo.Weigth + Weapon.Weigth + Body.Weigth + Shield.Weigth + Legs.Weigth + Feet.Weigth + Hands.Weigth + Ring.Weigth;
         }
-
+        public int getTotalSpeed()
+        {
+            return Head.Speed + Neck.Speed + Cape.Speed + Ammo.Speed + Weapon.Speed + Body.Speed + Shield.Speed + Legs.Speed + Feet.Speed + Hands.Speed + Ring.Speed;
+        }
     }
 }

@@ -10,15 +10,17 @@ namespace OSRSComSim.ViewModels
 {
     public class FighterViewModel : ObservableObject
     {
+        const int gameticks = 600;
         private const int status_show_time = 1000;
 
-        private int _health_taken;
+        private Thread th_show_stats;
 
+        private int _health_taken;
         private Combat _fcombat;
         private string _name;
         private string _last_atk_stat_context;
         private string _last_atk_stat_color;
-
+        
 
         public string Name
         {
@@ -88,23 +90,36 @@ namespace OSRSComSim.ViewModels
             int deffender_def_roll = deffender.FighterCombat.Deffend(FighterCombat);
             return FighterCombat.Attack(deffender_def_roll);
         }
+        private Thread startStatusShow(string context, string color)
+        {
+            var t = new Thread(() => statusShow(context, color));
+            t.Start();
+            return t;
+        }
+        private void statusShow(string context, string color)
+        {
+            LastAtkStatColor = color;
+            LastAtkStatContext = context;
+            Thread.Sleep(status_show_time);
+            LastAtkStatColor = "Transparent";
+            LastAtkStatContext = "";
+        }
 
+        public void rest()
+        {
+            Thread.Sleep(gameticks * FighterCombat.PlayerEquipment.getTotalSpeed());
+        }
         public void takeDamage(string attack_res)
         {
             if (attack_res != "def")
             {
                 HealthTaken += (int)Math.Round((double.Parse(attack_res) / FighterCombat.PlayerSkills.Hp_lvl) * 100);
-                LastAtkStatColor = "Red";
-                LastAtkStatContext = attack_res.ToString();
+                th_show_stats = startStatusShow(attack_res.ToString(), "Red");
             }
             else
             {
-                LastAtkStatColor = "Blue";
-                LastAtkStatContext = "0";
+                th_show_stats = startStatusShow("0", "Blue");
             }
-            Thread.Sleep(status_show_time);
-            LastAtkStatColor = "Transparent";
-            LastAtkStatContext = "";
         }
 
         public bool isDead()

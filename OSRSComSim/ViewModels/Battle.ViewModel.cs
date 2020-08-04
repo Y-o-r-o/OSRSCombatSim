@@ -98,8 +98,7 @@ namespace OSRSComSim.ViewModels
             {
                 attack_res = attacker.getAttackRessult(deffender);
                 deffender.takeDamage(attack_res);
-                
-                Thread.Sleep(1400); //atk speed - 1000;
+                attacker.rest();
             }
             ThreadIsStarted = false;
         }

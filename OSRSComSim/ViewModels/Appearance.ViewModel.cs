@@ -62,7 +62,6 @@ namespace OSRSComSim.ViewModels
                 Name = Name.Remove(0);
                 Name = Name.Insert(0,boxtext);
                 SetNameQuotes = "Name set!";
-                //SelectedIndex = 1;
             }
 
         }

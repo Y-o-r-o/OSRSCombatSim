@@ -19,7 +19,7 @@
         </Style>
     </UserControl.Resources>
 
-    <Grid x:Name="LoadScreeenCanvas" Background="#FFA59175">
+    <Grid x:Name="LoadScreeenCanvas" Background="#FF726A5E">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="50"/>
             <ColumnDefinition Width="190"/>
@@ -54,11 +54,11 @@
         <Button Grid.Column="2" Grid.Row="1" x:Name="btn_import_new" Content="Import new" FontSize="30"/>
 
 
-        <ListBox Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="2"  ItemsSource="{Binding PlayerList}" x:Name="players_viewer" Background="#FF443B26">
+        <ListBox Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="2"  ItemsSource="{Binding PlayerList}" x:Name="players_viewer" Background="#FF656055">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <Border MouseLeftButtonUp="PlayerBorder_Click" Tag="{Binding Name}">
-                        <StackPanel Orientation="Horizontal" Background="#FF808000" VerticalAlignment="Center">
+                        <StackPanel Orientation="Horizontal" Background="#FF585147" VerticalAlignment="Center">
 
                             <TextBlock Text="{Binding Name}" HorizontalAlignment="Left" VerticalAlignment="Center" Width="265" FontSize="30" Foreground="#FFFFD800" Margin="10,0,0,0"/>
 

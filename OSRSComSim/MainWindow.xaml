@@ -22,7 +22,7 @@
     </Window.DataContext>
 
 
-    <Grid  x:Name ="Main" Background="#FFA59175">
+    <Grid  x:Name ="Main" Background="#FF726A5E">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="300"/>
             <ColumnDefinition Width="*"/>

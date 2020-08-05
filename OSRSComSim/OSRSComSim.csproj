@@ -463,7 +463,7 @@
     <Resource Include="Resources\App\Tab\armor.png" />
     <Resource Include="Resources\App\Tab\inventory.png" />
     <Resource Include="Resources\App\Tab\magic.png" />
-    <Resource Include="Resources\App\Tab\Prayer.png" />
+    <Resource Include="Resources\App\Tab\prayer.png" />
     <Resource Include="Resources\App\Tab\quests.png" />
     <Resource Include="Resources\App\Tab\status.png" />
     <Resource Include="Resources\Items\png\Neck\%27perfect%27_necklace.png" />
@@ -3094,6 +3094,12 @@
     <Resource Include="Resources\Items\png\Ammo\Training_arrows.png" />
     <Resource Include="Resources\Items\png\Ammo\Unholy_blessing.png" />
     <Resource Include="Resources\Items\png\Ammo\War_blessing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\App\Tab\panel_slot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\App\Tab\combat.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

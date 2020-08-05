@@ -13,17 +13,13 @@
             <Setter Property="Visibility" Value="Collapsed" />
         </Style>
     </UserControl.Resources>
-    
+
     <Grid HorizontalAlignment="Left">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="150"/>
-        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="200"/>
         </Grid.RowDefinitions>
-        <Viewbox Stretch="Uniform" StretchDirection="Both" MinHeight="200" MinWidth="200" VerticalAlignment="Top" HorizontalAlignment="Left">
+        <Viewbox Stretch="Uniform" StretchDirection="Both" VerticalAlignment="Top" HorizontalAlignment="Left">
             <Grid HorizontalAlignment="Left">
             <Grid.Resources>
                     <Style TargetType="Button">
@@ -41,6 +37,7 @@
                     <ColumnDefinition Width="10"/>
                     <ColumnDefinition Width="60"/>
                     <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="20"/>
@@ -91,9 +88,11 @@
                 <Button Grid.Column="6" Grid.ColumnSpan="2" Grid.Row="9" Tag="Ring" Click="Slot_Clicked">
                     <Image Source="{Binding PlayerEquiped.Ring.Png}"/>
                 </Button>
+                <Viewbox Stretch="Uniform" Grid.Column="8" Grid.Row="1" Grid.RowSpan="10">
+                    <TextBlock x:Name="EquipmentInfo" Text="{Binding EquipmentInfo}" TextWrapping="Wrap" Foreground="Yellow"/>
+                </Viewbox>
             </Grid>
         </Viewbox>
                 <ContentControl Grid.Row="1" Grid.Column="0" x:Name="show_equipment_select" Content="{Binding selectEquipment}" MouseLeave="show_equipment_select_mouse_leave" Margin="10,0,10,20"/>
-                <TextBlock x:Name="EquipmentInfo" Grid.Column="1" Grid.Row="0" Text="{Binding EquipmentInfo}"/>
     </Grid>
 </UserControl>

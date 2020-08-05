@@ -12,18 +12,27 @@ namespace OSRSComSim.ViewModels
 {
     class ControlPanelViewModel : ObservableObject
     {
+        private object _viewcontent;
         private string _create_mode_tabs_visibility = "Collapsed";
         private string _interactive_mode_tabs_visibility = "Collapsed";
 
-        private int _selected_index = 0;
-        private EquipmentSlotsView _equipmentslotsview;
-        private SkillsView _skillsview;
-        private AppearanceView _appearanceview;
-
-        public Player _player { get; set; }
         private LoadScreenViewModel _loadscreenviewmodel;
+        private EquipmentSlotsView equipmentslotsview;
+        private SkillsView skillsview;
+        private AppearanceView appearanceview;
+
+        public Player SelectedPlayer { get; set; }
 
 
+        public object ViewContent
+        {
+            get { return _viewcontent; }
+            set
+            {
+                _viewcontent = value;
+                OnPropertyChanged("ViewContent");
+            }
+        }
         public string CreateModeTabsVisibility
         {
             get { return _create_mode_tabs_visibility;  }
@@ -43,66 +52,16 @@ namespace OSRSComSim.ViewModels
             }
         }
 
-        public int SelectedIndex
-        { 
-         get
-            {
-                return _selected_index;
-            }
-        set
-            {
-                if(value >= 0 && value < 4)
-                {
-                    _selected_index = value;
-                }
-                OnPropertyChanged("SelectedIndex");
-            }
-        }
-        public AppearanceView appearanceView
-        {
-            get
-            {
-                return _appearanceview;
-            }
-            set
-            {
-                _appearanceview = value;
-                OnPropertyChanged("appearanceView");
-            }
-        }
-        public EquipmentSlotsView equipmentSlotsView
-        {
-            get
-            {
-                return _equipmentslotsview;
-            }
-            set
-            {
-                _equipmentslotsview = value;
-                OnPropertyChanged("equipmentSlotsView");
-            }
-        }
-        public SkillsView skillsView
-        {
-            get
-            {
-                return _skillsview;
-            }
-            set
-            {
-                _skillsview = value;
-                OnPropertyChanged("skillsView");
-            }
-        }
-        
+
+
         public ControlPanelViewModel() : this(null, null, null) { }
-        public ControlPanelViewModel(LoadScreenViewModel loadscreenviewmodel, Player player = null, string cp_mode = "View") // Create, View, Interactive.
+        public ControlPanelViewModel(LoadScreenViewModel loadscreenviewmodel, Player player, string cp_mode) // Create, View, Interactive.
         {
             _loadscreenviewmodel = loadscreenviewmodel;
-
+            
             if (player != null)
-                _player = player;
-            else _player = new Player();
+                SelectedPlayer = player;
+            else SelectedPlayer = new Player();
 
             setMode(cp_mode);
 
@@ -115,19 +74,47 @@ namespace OSRSComSim.ViewModels
             {
                 case "Create":
                     CreateModeTabsVisibility = "Visible";
-                    appearanceView = new AppearanceView(_player);
+                    appearanceview = new AppearanceView(SelectedPlayer);
                     break;
                 case "View":
                     view_mode = true;
                     break;
                 case "Interactive":
+                    view_mode = true;
                     InteractiveModeTabsVisibility = "Visible";
                     break;
             }
-            skillsView = new SkillsView(_player.PlayerCombat.PlayerSkills, view_mode);
-            equipmentSlotsView = new EquipmentSlotsView(_player.PlayerCombat.PlayerEquipment, view_mode);          
+            skillsview = new SkillsView(SelectedPlayer.PlayerCombat.PlayerSkills, view_mode);
+            equipmentslotsview = new EquipmentSlotsView(SelectedPlayer.PlayerCombat.PlayerEquipment, view_mode);
 
+            if (cp_mode != "Create")
+                ViewContent = skillsview;
+            else ViewContent = appearanceview;
+        }
 
+        public void setViewMode(string view_mode)
+        {
+            switch (view_mode)
+            {
+                case "Appearance":
+                    ViewContent = appearanceview;
+                    break;
+                case "Combat":
+                    break;
+                case "Skills":
+                    ViewContent = skillsview;
+                    break;
+                case "Inventory":
+                    break;
+                case "Armor":
+                    ViewContent = equipmentslotsview;
+                    break;
+                case "Prayer":
+                    break;
+                case "Magic":
+                    break;
+
+            }
         }
 
         public void backToLoadScreen()
@@ -137,12 +124,12 @@ namespace OSRSComSim.ViewModels
         public void Create()
         {
 
-            if (_player.Name != "Default character")
+            if (SelectedPlayer.Name != "Default character")
             {
-                Data_store.DeletePlayer(_player.Name);
-                Data_store.SavePlayer(_player);
+                Data_store.DeletePlayer(SelectedPlayer.Name);
+                Data_store.SavePlayer(SelectedPlayer);
                 _loadscreenviewmodel.Load_players();
-                _loadscreenviewmodel.SelectedPlayer = _player;
+                _loadscreenviewmodel.SelectedPlayer = SelectedPlayer;
                 _loadscreenviewmodel.stopView();
             }
         }

@@ -21,7 +21,7 @@ namespace OSRSComSim.Views
     public partial class ControlPanelView : UserControl
     {
         ControlPanelViewModel view_model;
-        public ControlPanelView(LoadScreenViewModel loadscreenVM, Player player = null, string cp_mode = "View")
+        public ControlPanelView(LoadScreenViewModel loadscreenVM = null, Player player = null, string cp_mode = "View")
         {
             InitializeComponent();
             DataContext = new ControlPanelViewModel(loadscreenVM, player, cp_mode);
@@ -34,7 +34,10 @@ namespace OSRSComSim.Views
 
 
 
-
+        private void ViewContents_Click(object sender, RoutedEventArgs e)
+        {
+            view_model.setViewMode((sender as Button).Tag.ToString());
+        }
 
         private void CreateButton_Click(object sender, RoutedEventArgs e)
         {

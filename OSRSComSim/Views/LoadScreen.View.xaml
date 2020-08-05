@@ -5,9 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:OSRSComSim.Views"
              xmlns:viewmodels ="clr-namespace:OSRSComSim.ViewModels"
-             mc:Ignorable="d" 
-             Height="690"
-             Width="1275"           
+             mc:Ignorable="d"           
              >
 
     <UserControl.DataContext>
@@ -78,30 +76,9 @@
             </ListBox.ItemTemplate>
         </ListBox>
 
+        <ContentControl Background="#FF808000" Grid.Column="7" Grid.Row="1" Grid.RowSpan="2" Margin="0,0,0,5" Content="{Binding ControlsView}"/>
 
-        <TabControl Grid.Column="7" Grid.Row="1" Grid.RowSpan="2" Background="#FF443B26">
-            <TabItem Header="Combat" Height="60" Width="63">
-                <Grid Background="#FFE5E5E5"/>
-            </TabItem>
-            <TabItem Header="Skills" Height="60" Width="63">
-                <ContentControl x:Name="show_player_skills" Margin="0,0,0,5" Content="{Binding skillsView}"/>
-            </TabItem>
-            <TabItem Header="Inventory" Height="60" Width="63">
-                <Grid Background="#FFE5E5E5" />
-            </TabItem>
-            <TabItem Header="Equipment" Height="60" Width="63" Margin="-10,-10,-10,-10">
-                <ContentControl x:Name="show_eqp_slots" Margin="0,0,0,5" Content="{Binding equipmentSlotsView}"/>
-            </TabItem>
-            <TabItem Header="Prayer" Height="60" Width="62">
-                <Grid Background="#FFE5E5E5"/>
-            </TabItem>
-            <TabItem Header="Magic" Height="60" Width="62">
-                <Grid Background="#FFE5E5E5"/>
-            </TabItem>
-        </TabControl>
-
-        
-        <ContentControl Grid.ColumnSpan="10" Grid.RowSpan="10" x:Name="show_create_player" Margin="0,0,0,5" Height="690" Width="1275" Content="{Binding ViewContent}"/>
+        <ContentControl d:IsHidden ="True" Grid.ColumnSpan="9" Grid.RowSpan="5" x:Name="show_create_player" Margin="0,0,0,5" Content="{Binding ViewContent}"/>
 
 
     </Grid>

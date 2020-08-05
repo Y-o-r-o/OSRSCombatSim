@@ -11,10 +11,9 @@ namespace OSRSComSim.ViewModels
 {
     public class MainWindowViewModel : ObservableObject
     {
-
-
         private object _viewcontent;
         public BattleViewModel Battle { get; set; }
+
         public object ViewContent
         {
             get

@@ -25,38 +25,26 @@ namespace OSRSComSim.ViewModels
         private string                          _fighter_num;
         public object                           _viewcontent;
 
-        private SkillsView                      _skillsview;
-        private EquipmentSlotsView              _equipmentslotsview;
+        private ControlPanelView                _controls_view;
         private MainWindowViewModel             _mainwindowVM;
         private Player                          _selected_player;
 
         private ObservableCollection<Player>    _player_list;
 
 
-        public SkillsView                       skillsView
+        public ControlPanelView                 ControlsView
         {
             get
             {
-                return _skillsview;
+                return _controls_view;
             }
             set
             {
-                _skillsview = value;
-                OnPropertyChanged("skillsView");
+                _controls_view = value;
+                OnPropertyChanged("ControlsView");
             }
         }
-        public EquipmentSlotsView               equipmentSlotsView
-        {
-            get
-            {
-                return _equipmentslotsview;
-            }
-            set
-            {
-                _equipmentslotsview = value;
-                OnPropertyChanged("equipmentSlotsView");
-            }
-        }
+
         public ObservableCollection<Player>     PlayerList 
         {
             get
@@ -90,10 +78,9 @@ namespace OSRSComSim.ViewModels
             set
             {
                 _selected_player = value;
-                
-                equipmentSlotsView = new EquipmentSlotsView(_selected_player.PlayerCombat.PlayerEquipment, false);
-                skillsView = new SkillsView(_selected_player.PlayerCombat.PlayerSkills);
-               
+
+                ControlsView = new ControlPanelView(this, SelectedPlayer, "View");
+
                 OnPropertyChanged("SelectedPlayer");
             }
         }
@@ -105,8 +92,7 @@ namespace OSRSComSim.ViewModels
             _player_list = new ObservableCollection<Player>();
             _selected_player = new Player();
             _fighter_num = fighter_num;
-            skillsView = new SkillsView(_selected_player.PlayerCombat.PlayerSkills);
-            equipmentSlotsView = new EquipmentSlotsView(_selected_player.PlayerCombat.PlayerEquipment, true);
+            ControlsView = new ControlPanelView(this, SelectedPlayer, "View");
             Load_players();
         }
 

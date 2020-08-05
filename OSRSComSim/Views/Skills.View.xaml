@@ -4,17 +4,20 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:OSRSComSim.Views"
-             mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             mc:Ignorable="d"
+>
 
     
     <UserControl.Resources>
         <Style TargetType="Button">
             <Setter Property="Visibility" Value="{Binding BtnVisibility}"/>
         </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="Yellow"/>
+        </Style>
     </UserControl.Resources>
 
-    <Grid x:Name="PlayerSkills" Background="LightYellow">
+    <Grid x:Name="PlayerSkills">
         <Grid.RowDefinitions>
             <RowDefinition Height="80"/>
             <RowDefinition Height="*"/>
@@ -28,7 +31,7 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
-
+        
         <StackPanel Grid.Row="0" x:Name="HeartPointsPanel" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0">
             <Button Tag="HP" Content="lowericon" Margin="0,0,10,0" Click="MinusBtn_Click"/>
             <TextBlock x:Name="HealthLvl" Text="Health level:" Width="200"/>

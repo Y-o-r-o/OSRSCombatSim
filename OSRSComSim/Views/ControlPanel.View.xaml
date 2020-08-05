@@ -8,69 +8,99 @@
     
              Loaded="UserControl_Loaded"
              mc:Ignorable="d" 
-             Height="690" Width="1275"
+             d:DesignHeight="690" d:DesignWidth="1275"
              
-             Background="LightYellow"
+             Background="#FF4F4941"
 >
     <UserControl.DataContext>
         <viewmodels:ControlPanelViewModel/>
     </UserControl.DataContext>
-    
+
     <UserControl.Resources>
         <Style TargetType="Button">
+            <Setter Property="Margin" Value="-1,-1,-2,0"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
             <Setter Property="VerticalContentAlignment" Value="Center"/>
             <Setter Property="FontFamily" Value="Consolas"/>
         </Style>
     </UserControl.Resources>
 
-    <Grid Width="1275">
+    <Grid>
 
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1125"/>
-            <ColumnDefinition Width="70"/>
-            <ColumnDefinition Width="70"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
-            <RowDefinition Height="70"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <TabControl Grid.ColumnSpan="4" Grid.RowSpan="2" x:Name="CreatePlayerTab" Background="#FFA58F75" BorderThickness="0" SelectedIndex="{Binding SelectedIndex}">
 
-            <TabControl.Resources>
-                <Style TargetType="TextBlock">
-                    <Setter Property="FontSize" Value="30"/>
-                </Style>
-                <Style TargetType="Button">
-                    <Setter Property="FontSize" Value="10"/>
-                    <Setter Property="Width" Value="50"/>
-                </Style>
-            </TabControl.Resources>
+        <Viewbox Grid.Row="0" Grid.Column="0" Stretch="Uniform" StretchDirection="Both" VerticalAlignment="Bottom" HorizontalAlignment="Left" MaxHeight="75">
+            <StackPanel Orientation="Horizontal">
+                <Button Visibility="{Binding CreateModeTabsVisibility}" Tag="Appearance" Click="ViewContents_Click">
+                    <Grid>
+                        <Image Source="../Resources/App/Tab/panel_slot.png"/>
+                        <Image Source="../Resources/App/Tab/appea.png" Width="40" Height="40"/>
+                    </Grid>
+                </Button>
+                <Button Tag="Combat" Click="ViewContents_Click">
+                    <Grid>
+                        <Image Source="../Resources/App/Tab/panel_slot.png"/>
+                        <Image Source="../Resources/App/Tab/combat.png" Width="40" Height="40"/>
+                    </Grid>
+                </Button>
+                <Button Tag="Skills" Click="ViewContents_Click">
+                    <Grid>
+                        <Image Source="../Resources/App/Tab/panel_slot.png"/>
+                        <Image Source="../Resources/App/Tab/status.png" Width="40" Height="40"/>
+                    </Grid>
+                </Button>
+                <Button Tag="Inventory" Click="ViewContents_Click">
+                    <Grid>
+                        <Image Source="../Resources/App/Tab/panel_slot.png" />
+                        <Image Source="../Resources/App/Tab/inventory.png" Width="40" Height="40"/>
+                    </Grid>
+                </Button>
+                <Button Tag="Armor" Click="ViewContents_Click">
+                    <Grid>
+                        <Image Source="../Resources/App/Tab/panel_slot.png"/>
+                        <Image Source="../Resources/App/Tab/armor.png" Width="50" Height="50"/>
+                    </Grid>
+                </Button>
+                <Button Tag="Prayer" Click="ViewContents_Click">
+                    <Grid>
+                        <Image Source="../Resources/App/Tab/panel_slot.png"/>
+                        <Image Source="../Resources/App/Tab/prayer.png" Width="40" Height="40"/>
+                    </Grid>
+                </Button>
+                <Button Tag="Magic" Click="ViewContents_Click">
+                    <Grid>
+                        <Image Source="../Resources/App/Tab/panel_slot.png"/>
+                        <Image Source="../Resources/App/Tab/Magic.png" Width="40" Height="40"/>
+                    </Grid>
+                </Button>
+            </StackPanel>
+        </Viewbox>
+        <Viewbox Grid.Row="0" Grid.Column="0" Stretch="Uniform" StretchDirection="Both" VerticalAlignment="Bottom" HorizontalAlignment="Right" MaxHeight="75" Visibility="{Binding CreateModeTabsVisibility}">
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="CreateButton" Click="CreateButton_Click">
+                    <Grid>
+                        <Image Source="../Resources/App/Tab/panel_slot.png"/>
+                        <Label Content="Accept" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGreen"  FontSize="10"/>
+                    </Grid>
+                </Button>
+                <Button x:Name="CancelButton" Click="CancelButton_Click">
+                    <Grid>
+                        <Image Source="../Resources/App/Tab/panel_slot.png"/>
+                        <Label Content="Decline" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Red" FontSize="10" />
+                    </Grid>
+                </Button>
+            </StackPanel>
+        </Viewbox>
 
-
-            <TabItem Header="Appearance" FontSize="20" Background="LightYellow" Height="70" Width="70" Visibility="{Binding CreateModeTabsVisibility}">
-                <ContentControl x:Name="show_player_appearance" Margin="0,0,0,5" Content="{Binding appearanceView}"/>
-            </TabItem>
-
-            <TabItem Header="Skills" FontSize="20" Background="LightYellow" Height="70" Width="70">
-                <ContentControl x:Name="show_player_skills" Margin="0,0,0,5" Content="{Binding skillsView}"/>
-            </TabItem>
-
-            <TabItem Header="Inventory" FontSize="20" Background="LightYellow" Height="70" Width="70">
-                <Grid Background="#FFE5E5E5"/>
-            </TabItem>
-
-            <TabItem Header="Equipment" FontSize="20" Background="LightYellow" Height="70" Width="70">
-                    <ContentControl x:Name="show_eqp_slots" Margin="0,0,0,5" Content="{Binding equipmentSlotsView}"/>
-            </TabItem>
-
-        </TabControl>
-
-
-
-        <Button x:Name="CreateButton" Grid.Column="1" Content="Create" FontSize="14" Height="60" Width="60" Click="CreateButton_Click" Visibility="{Binding CreateModeTabsVisibility}"/>
-        <Button x:Name="CancelButton" Grid.Column="2" Content="Cancel"  FontSize="14" Height="60" Width="60" Click="CancelButton_Click" Visibility="{Binding CreateModeTabsVisibility}"/>
+        <ContentControl Grid.Row="1" Grid.Column="0" Content="{Binding ViewContent}"/>
     </Grid>
 </UserControl>

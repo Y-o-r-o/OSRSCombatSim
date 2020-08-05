@@ -1,4 +1,5 @@
 ﻿using OSRSComSim.Models;
+using OSRSComSim.Views;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,13 +16,22 @@ namespace OSRSComSim.ViewModels
 
         private Thread th_show_stats;
 
+        private ControlPanelView _controlpanel;
         private int _health_taken;
         private Combat _fcombat;
         private string _name;
         private string _last_atk_stat_context;
         private string _last_atk_stat_color;
         
-
+        public ControlPanelView ControlPanel
+        {
+            get { return _controlpanel; }
+            set
+            {
+                _controlpanel = value;
+                OnPropertyChanged("ControlPanel");
+            }
+        }
         public string Name
         {
             get { return _name; }
@@ -73,6 +83,7 @@ namespace OSRSComSim.ViewModels
 
         public FighterViewModel(Player selectedplayer = null)
         {
+            ControlPanel = new ControlPanelView(player: selectedplayer, cp_mode: "Interactive");
             if (selectedplayer == null) selectedplayer = new Player();
             Name = selectedplayer.Name;
             FighterCombat = selectedplayer.PlayerCombat;

@@ -24,18 +24,19 @@
 
     <Grid  x:Name ="Main" Background="#FFA59175">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="300"/>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="100"/>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="100"/>
             <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="300"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
             <RowDefinition Height="50"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="300"/>
             <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
 
@@ -62,9 +63,12 @@
         <Rectangle Grid.Row="2" Grid.Column="2" Fill="Red" HorizontalAlignment="Right" Height="20" VerticalAlignment="Top" Width="{Binding Battle.Fighter1.HealthTaken}" Margin="0 , 40"/>
         <Rectangle Grid.Row="2" Grid.Column="4" Fill="Red" HorizontalAlignment="Right" Height="20" VerticalAlignment="Top" Width="{Binding Battle.Fighter2.HealthTaken}" Margin="0, 40"/>
 
+        <ContentControl Grid.Row="3" Grid.RowSpan="2" Grid.Column="0" Content="{Binding Battle.Fighter1.ControlPanel}"/>
+        <ContentControl Grid.Row="3" Grid.RowSpan="2" Grid.Column="7" Content="{Binding Battle.Fighter2.ControlPanel }"/>
 
 
-        <ContentControl Grid.RowSpan="4" Grid.ColumnSpan="7" x:Name="show_content" Width="1275" Height="690" Loaded="Load_Screen_loaded" Content="{Binding ViewContent}"/>
+        <ContentControl Grid.RowSpan="5" Grid.ColumnSpan="7" x:Name="show_content" Loaded="Load_Screen_loaded" Content="{Binding ViewContent}"/>
+    
     </Grid>
 
 </Window>

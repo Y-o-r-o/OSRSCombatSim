@@ -70,13 +70,13 @@
                         <Image Source="../Resources/App/Tab/armor.png" Width="50" Height="50"/>
                     </Grid>
                 </Button>
-                <Button Tag="Prayer" Click="ViewContents_Click">
+                <Button Tag="Prayer" Click="ViewContents_Click" Visibility="{Binding InteractiveModeTabsVisibility}">
                     <Grid>
                         <Image Source="../Resources/App/Tab/panel_slot.png"/>
                         <Image Source="../Resources/App/Tab/prayer.png" Width="40" Height="40"/>
                     </Grid>
                 </Button>
-                <Button Tag="Magic" Click="ViewContents_Click">
+                <Button Tag="Magic" Click="ViewContents_Click" Visibility="{Binding InteractiveModeTabsVisibility}">
                     <Grid>
                         <Image Source="../Resources/App/Tab/panel_slot.png"/>
                         <Image Source="../Resources/App/Tab/Magic.png" Width="40" Height="40"/>

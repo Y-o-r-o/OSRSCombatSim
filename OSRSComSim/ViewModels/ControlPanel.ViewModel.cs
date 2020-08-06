@@ -10,18 +10,27 @@ using System.Threading.Tasks;
 
 namespace OSRSComSim.ViewModels
 {
-    class ControlPanelViewModel : ObservableObject
+    public class ControlPanelViewModel : ObservableObject
     {
+        private string view_mode;
+        private bool cant_edit;
+
+        private Player _player;
         private object _viewcontent;
         private string _create_mode_tabs_visibility = "Collapsed";
         private string _interactive_mode_tabs_visibility = "Collapsed";
-
         private LoadScreenViewModel _loadscreenviewmodel;
-        private EquipmentSlotsView equipmentslotsview;
-        private SkillsView skillsview;
-        private AppearanceView appearanceview;
 
-        public Player SelectedPlayer { get; set; }
+        public Player SelectedPlayer 
+        {
+            get { return _player; }
+            set 
+            {
+                _player = value;
+                OnPropertyChanged("SelectedPlayer");
+                setViewMode(view_mode);
+            }
+        }
 
 
         public object ViewContent
@@ -66,48 +75,40 @@ namespace OSRSComSim.ViewModels
             setMode(cp_mode);
 
         }
-        
+
         private void setMode(string cp_mode)
         {
-            bool view_mode = false;
-            switch (cp_mode)
-            {
-                case "Create":
-                    CreateModeTabsVisibility = "Visible";
-                    appearanceview = new AppearanceView(SelectedPlayer);
-                    break;
-                case "View":
-                    view_mode = true;
-                    break;
-                case "Interactive":
-                    view_mode = true;
-                    InteractiveModeTabsVisibility = "Visible";
-                    break;
-            }
-            skillsview = new SkillsView(SelectedPlayer.PlayerCombat.PlayerSkills, view_mode);
-            equipmentslotsview = new EquipmentSlotsView(SelectedPlayer.PlayerCombat.PlayerEquipment, view_mode);
-
             if (cp_mode != "Create")
-                ViewContent = skillsview;
-            else ViewContent = appearanceview;
+            {
+                InteractiveModeTabsVisibility = "Visible";
+                cant_edit = true;
+                setViewMode("Skills");
+            }
+            else
+            {
+                CreateModeTabsVisibility = "Visible";
+                cant_edit = false;
+                setViewMode("Appearance");
+            }
         }
 
         public void setViewMode(string view_mode)
         {
+            this.view_mode = view_mode;
             switch (view_mode)
             {
                 case "Appearance":
-                    ViewContent = appearanceview;
+                    ViewContent = new AppearanceView(SelectedPlayer);
                     break;
                 case "Combat":
                     break;
                 case "Skills":
-                    ViewContent = skillsview;
+                    ViewContent = new SkillsView(SelectedPlayer.PlayerCombat.PlayerSkills, cant_edit);
                     break;
                 case "Inventory":
                     break;
                 case "Armor":
-                    ViewContent = equipmentslotsview;
+                    ViewContent = new EquipmentSlotsView(SelectedPlayer.PlayerCombat.PlayerEquipment, cant_edit);
                     break;
                 case "Prayer":
                     break;

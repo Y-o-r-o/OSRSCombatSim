@@ -79,7 +79,7 @@ namespace OSRSComSim.ViewModels
             {
                 _selected_player = value;
 
-                ControlsView = new ControlPanelView(this, SelectedPlayer, "View");
+                ControlsView.view_model.SelectedPlayer = _selected_player;
 
                 OnPropertyChanged("SelectedPlayer");
             }

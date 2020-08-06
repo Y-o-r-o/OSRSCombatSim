@@ -20,7 +20,7 @@ namespace OSRSComSim.Views
     
     public partial class ControlPanelView : UserControl
     {
-        ControlPanelViewModel view_model;
+        public ControlPanelViewModel view_model;
         public ControlPanelView(LoadScreenViewModel loadscreenVM = null, Player player = null, string cp_mode = "View")
         {
             InitializeComponent();

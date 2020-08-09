@@ -5,7 +5,16 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:OSRSComSim.Views"
              mc:Ignorable="d" 
-             d:DesignHeight="800" d:DesignWidth="550">
+             d:DesignHeight="400" d:DesignWidth="300">
+    
+    <UserControl.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="FontFamily" Value="Consolas"/>
+        </Style>
+    </UserControl.Resources>
+    
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
@@ -19,7 +28,12 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        
-        
+        <Label Grid.ColumnSpan="2" Foreground="Yellow" VerticalContentAlignment="Center" HorizontalContentAlignment="Center">weapon name: **** \n total combat lvl: ****</Label>
+        <Button Grid.Row="1">Stab</Button>
+        <Button Grid.Row="2">Slash</Button>
+        <Button Grid.Row="1" Grid.Column="1">Crush</Button>
+        <Button Grid.Row="2" Grid.Column="1">Defend</Button>
+        <Button Grid.Row="3" Grid.ColumnSpan="2">Auto Fightback: on</Button>
+        <Button Grid.Row="4" Grid.ColumnSpan="2" Background="LightGreen">special</Button>
     </Grid>
 </UserControl>

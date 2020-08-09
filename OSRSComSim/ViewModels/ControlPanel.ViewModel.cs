@@ -113,6 +113,7 @@ namespace OSRSComSim.ViewModels
                     ViewContent = new AppearanceView(SelectedPlayer);
                     break;
                 case "Combat":
+                    ViewContent = new CombatView();
                     break;
                 case "Skills":
                     ViewContent = new SkillsView(SelectedPlayer.PlayerCombat.PlayerSkills, cant_edit);

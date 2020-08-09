@@ -9,13 +9,10 @@
              Loaded="UserControl_Loaded"
              mc:Ignorable="d" 
              d:DesignHeight="690" d:DesignWidth="1275"
-             
-             Background="#FF4F4941"
->
+             >
     <UserControl.DataContext>
         <viewmodels:ControlPanelViewModel/>
     </UserControl.DataContext>
-
     <UserControl.Resources>
         <Style TargetType="Button">
             <Setter Property="Margin" Value="-1,-1,-2,0"/>
@@ -36,8 +33,11 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-
-
+        <Border Grid.RowSpan="2" Margin="{Binding TabsBackground}">
+            <Border.Background>
+                <ImageBrush ImageSource="../Resources/App/Tab/background.png" TileMode="Tile" ViewportUnits="Absolute" Viewport="0,0,132,90"/>
+            </Border.Background>
+        </Border>
         <Viewbox Grid.Row="0" Grid.Column="0" Stretch="Uniform" StretchDirection="Both" VerticalAlignment="Bottom" HorizontalAlignment="Left" MaxHeight="75">
             <StackPanel Orientation="Horizontal">
                 <Button Visibility="{Binding CreateModeTabsVisibility}" Tag="Appearance" Click="ViewContents_Click">

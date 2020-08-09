@@ -85,6 +85,9 @@
     <Compile Include="ViewModels\LoadScreen.ViewModel.cs" />
     <Compile Include="ViewModels\MainWindow.ViewModel.cs" />
     <Compile Include="ViewModels\SelectEquipment.ViewModel.cs" />
+    <Compile Include="Views\Combat.View.xaml.cs">
+      <DependentUpon>Combat.View.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\SelectEquipment.View.xaml.cs">
       <DependentUpon>SelectEquipment.View.xaml</DependentUpon>
     </Compile>
@@ -115,6 +118,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Views\Combat.View.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\SelectEquipment.View.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -3100,6 +3107,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\App\Tab\combat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\App\Tab\background.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

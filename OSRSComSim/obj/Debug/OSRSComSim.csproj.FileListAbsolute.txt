@@ -35,3 +35,5 @@ D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\SelectEquipment.View.baml
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\ControlPanel.View.g.cs
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\ControlPanel.View.baml
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\OSRSComSim.csprojAssemblyReference.cache
+D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\Combat.View.g.cs
+D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\Combat.View.baml

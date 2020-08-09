@@ -7,6 +7,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace OSRSComSim.ViewModels
 {
@@ -17,6 +18,7 @@ namespace OSRSComSim.ViewModels
 
         private Player _player;
         private object _viewcontent;
+        public object _tabs_background;
         private string _create_mode_tabs_visibility = "Collapsed";
         private string _interactive_mode_tabs_visibility = "Collapsed";
         private LoadScreenViewModel _loadscreenviewmodel;
@@ -32,7 +34,15 @@ namespace OSRSComSim.ViewModels
             }
         }
 
-
+        public object TabsBackground
+        {
+            get { return _tabs_background; }
+            set
+            {
+                _tabs_background = value;
+                OnPropertyChanged("TabsBackground");
+            }
+        }
         public object ViewContent
         {
             get { return _viewcontent; }
@@ -47,6 +57,7 @@ namespace OSRSComSim.ViewModels
             get { return _create_mode_tabs_visibility;  }
             set
             {
+                TabsBackground = new Thickness(0, 0, 0, 0);
                 _create_mode_tabs_visibility = value;
                 OnPropertyChanged("CreateModeTabsVisibility");
             }
@@ -56,6 +67,7 @@ namespace OSRSComSim.ViewModels
             get { return _interactive_mode_tabs_visibility; }
             set
             {
+                TabsBackground = new Thickness(0, 35, 0, 0);
                 _interactive_mode_tabs_visibility = value;
                 OnPropertyChanged("InteractiveModeTabsVisibility");
             }
@@ -67,7 +79,7 @@ namespace OSRSComSim.ViewModels
         public ControlPanelViewModel(LoadScreenViewModel loadscreenviewmodel, Player player, string cp_mode) // Create, View, Interactive.
         {
             _loadscreenviewmodel = loadscreenviewmodel;
-            
+
             if (player != null)
                 SelectedPlayer = player;
             else SelectedPlayer = new Player();

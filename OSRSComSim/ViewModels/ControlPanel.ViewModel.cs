@@ -90,17 +90,17 @@ namespace OSRSComSim.ViewModels
 
         private void setMode(string cp_mode)
         {
-            if (cp_mode != "Create")
-            {
-                InteractiveModeTabsVisibility = "Visible";
-                cant_edit = true;
-                setViewMode("Skills");
-            }
-            else
+            cant_edit = true;
+            if (cp_mode == "Create")
             {
                 CreateModeTabsVisibility = "Visible";
                 cant_edit = false;
                 setViewMode("Appearance");
+            }
+            else if (cp_mode == "Interactive")
+            {
+                InteractiveModeTabsVisibility = "Visible";
+                setViewMode("Skills");
             }
         }
 

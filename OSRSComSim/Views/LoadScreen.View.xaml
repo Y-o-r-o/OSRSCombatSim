@@ -62,7 +62,7 @@
 
                             <TextBlock Text="{Binding Name}" HorizontalAlignment="Left" VerticalAlignment="Center" Width="265" FontSize="30" Foreground="#FFFFD800" Margin="10,0,0,0"/>
 
-                            <Button Background="Transparent" BorderBrush="Transparent" Height="45" Width="45" Tag="{Binding Name}" Click="Edit_btn_Click">
+                            <Button Background="Transparent" BorderBrush="Transparent" Height="43" Width="43" Tag="{Binding Name}" Click="Edit_btn_Click">
                                 <Image Source="../Resources/edit_player.png"/>
                             </Button>
 

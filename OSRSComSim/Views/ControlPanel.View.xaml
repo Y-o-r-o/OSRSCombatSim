@@ -40,13 +40,13 @@
         </Border>
         <Viewbox Grid.Row="0" Grid.Column="0" Stretch="Uniform" StretchDirection="Both" VerticalAlignment="Bottom" HorizontalAlignment="Left" MaxHeight="75">
             <StackPanel Orientation="Horizontal">
-                <Button Visibility="{Binding CreateModeTabsVisibility}" Tag="Appearance" Click="ViewContents_Click">
+                <Button Tag="Appearance" Click="ViewContents_Click" Visibility="{Binding CreateModeTabsVisibility}">
                     <Grid>
                         <Image Source="../Resources/App/Tab/panel_slot.png"/>
                         <Image Source="../Resources/App/Tab/appea.png" Width="40" Height="40"/>
                     </Grid>
                 </Button>
-                <Button Tag="Combat" Click="ViewContents_Click">
+                <Button Tag="Combat" Click="ViewContents_Click" Visibility="{Binding InteractiveModeTabsVisibility}">
                     <Grid>
                         <Image Source="../Resources/App/Tab/panel_slot.png"/>
                         <Image Source="../Resources/App/Tab/combat.png" Width="40" Height="40"/>

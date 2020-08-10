@@ -88,6 +88,9 @@
     <Compile Include="Views\Combat.View.xaml.cs">
       <DependentUpon>Combat.View.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Fighter.View.xaml.cs">
+      <DependentUpon>Fighter.View.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\SelectEquipment.View.xaml.cs">
       <DependentUpon>SelectEquipment.View.xaml</DependentUpon>
     </Compile>
@@ -119,6 +122,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Views\Combat.View.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Fighter.View.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -3110,6 +3117,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\App\Tab\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\EdgeVille.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

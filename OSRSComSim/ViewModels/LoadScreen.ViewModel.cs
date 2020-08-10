@@ -155,11 +155,11 @@ namespace OSRSComSim.ViewModels
         {
             if (_fighter_num == "fighter 1")
             {
-                _mainwindowVM.Battle.Fighter1 = new FighterViewModel(SelectedPlayer);
+                _mainwindowVM.Battle.Fighter1 = new FighterView(SelectedPlayer);
             }
             else if (_fighter_num == "fighter 2")
             {
-                _mainwindowVM.Battle.Fighter2 = new FighterViewModel(SelectedPlayer);
+                _mainwindowVM.Battle.Fighter2 = new FighterView(SelectedPlayer);
             }
         }
     }

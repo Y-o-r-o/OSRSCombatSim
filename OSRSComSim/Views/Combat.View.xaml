@@ -18,22 +18,25 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="2*"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <Label Grid.ColumnSpan="2" Foreground="Yellow" VerticalContentAlignment="Center" HorizontalContentAlignment="Center">weapon name: **** \n total combat lvl: ****</Label>
-        <Button Grid.Row="1">Stab</Button>
-        <Button Grid.Row="2">Slash</Button>
-        <Button Grid.Row="1" Grid.Column="1">Crush</Button>
-        <Button Grid.Row="2" Grid.Column="1">Defend</Button>
-        <Button Grid.Row="3" Grid.ColumnSpan="2">Auto Fightback: on</Button>
-        <Button Grid.Row="4" Grid.ColumnSpan="2" Background="LightGreen">special</Button>
+        <TextBlock Grid.ColumnSpan="2" Foreground="Yellow" TextAlignment="Center">weapon name: ****</TextBlock>
+        <TextBlock Grid.Row="1" Grid.ColumnSpan="2" Foreground="Yellow" TextAlignment="Center">Total combat lvl: ****</TextBlock>
+
+        <Button Grid.Row="2">Stab</Button>
+        <Button Grid.Row="3">Slash</Button>
+        <Button Grid.Row="2" Grid.Column="1">Crush</Button>
+        <Button Grid.Row="3" Grid.Column="1">Defend</Button>
+        <Button Grid.Row="4" Grid.ColumnSpan="2">Auto Fightback: on</Button>
+        <Button Grid.Row="5" Grid.ColumnSpan="2" Background="LightGreen">special</Button>
     </Grid>
 </UserControl>

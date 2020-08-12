@@ -49,5 +49,6 @@ namespace OSRSComSim.Views
         {
             view_model.backToLoadScreen();
         }
+
     }
 }

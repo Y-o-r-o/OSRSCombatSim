@@ -25,7 +25,6 @@ namespace OSRSComSim.Models
         {
             get
             {
-                setupCombat();
                 return _player_combat;
             }
             set
@@ -43,16 +42,5 @@ namespace OSRSComSim.Models
                 PlayerCombat = player_combat;
             else PlayerCombat = new Combat();
         }
-
-        private void setupCombat()
-        { 
-            
-        }
-
-        public object Clone()
-        {
-            return this.MemberwiseClone();
-        }
-
     }
 }

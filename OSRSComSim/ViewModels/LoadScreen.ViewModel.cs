@@ -110,7 +110,7 @@ namespace OSRSComSim.ViewModels
         }
         public void viewrEditPlayer()
         {
-            ViewContent = new ControlPanelViewModel(this, SelectedPlayer.Clone() as Player, "Create").View;
+            ViewContent = new ControlPanelViewModel(this, SelectedPlayer, "Edit").View;
         }
         public void stopView()
         {

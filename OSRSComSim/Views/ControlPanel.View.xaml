@@ -99,7 +99,14 @@
                 </Button>
             </StackPanel>
         </Viewbox>
-
+        <Viewbox Grid.Row="0" Grid.Column="0" Stretch="Uniform" StretchDirection="Both" VerticalAlignment="Bottom" HorizontalAlignment="Right" MaxHeight="75" Visibility="{Binding EditModeTabsVisibility}">
+                <Button x:Name="DondeButton" Click="CreateButton_Click" >
+                    <Grid>
+                        <Image Source="../Resources/App/Tab/panel_slot.png"/>
+                        <Label Content="Accept" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGreen"  FontSize="10"/>
+                    </Grid>
+                </Button>
+        </Viewbox>
         <ContentControl Grid.Row="1" Grid.Column="0" Content="{Binding ViewContent}"/>
     </Grid>
 </UserControl>

@@ -20,14 +20,15 @@ namespace OSRSComSim.ViewModels
         private object _viewcontent;
         public object _tabs_background;
         private string _create_mode_tabs_visibility = "Collapsed";
+        private string _edit_mode_tabs_visibility = "Collapsed";
         private string _interactive_mode_tabs_visibility = "Collapsed";
         private LoadScreenViewModel _loadscreenviewmodel;
 
         public ControlPanelView View { get; set; }
-        public Player SelectedPlayer 
+        public Player SelectedPlayer
         {
             get { return _player; }
-            set 
+            set
             {
                 _player = value;
                 OnPropertyChanged("SelectedPlayer");
@@ -54,12 +55,22 @@ namespace OSRSComSim.ViewModels
         }
         public string CreateModeTabsVisibility
         {
-            get { return _create_mode_tabs_visibility;  }
+            get { return _create_mode_tabs_visibility; }
             set
             {
                 TabsBackground = new Thickness(0, 0, 0, 0);
                 _create_mode_tabs_visibility = value;
                 OnPropertyChanged("CreateModeTabsVisibility");
+            }
+        }
+        public string EditModeTabsVisibility
+        {
+            get { return _edit_mode_tabs_visibility; }
+            set
+            {
+                TabsBackground = new Thickness(0, 0, 0, 0);
+                _edit_mode_tabs_visibility = value;
+                OnPropertyChanged("EditModeTabsVisibility");
             }
         }
         public string InteractiveModeTabsVisibility
@@ -76,7 +87,7 @@ namespace OSRSComSim.ViewModels
 
 
         public ControlPanelViewModel() : this(null, null, null) { }
-        public ControlPanelViewModel(LoadScreenViewModel loadscreenviewmodel = null, Player player = null, string cp_mode = null) // Create, View, Interactive.
+        public ControlPanelViewModel(LoadScreenViewModel loadscreenviewmodel = null, Player player = null, string cp_mode = null) // Create, Edit, View, Interactive.
         {
             _loadscreenviewmodel = loadscreenviewmodel;
 
@@ -94,6 +105,13 @@ namespace OSRSComSim.ViewModels
             if (cp_mode == "Create")
             {
                 CreateModeTabsVisibility = "Visible";
+                cant_edit = false;
+                setViewMode("Appearance");
+            }
+            else if (cp_mode == "Edit")
+            {
+                Data_store.DeletePlayer(SelectedPlayer.Name);
+                EditModeTabsVisibility = "Visible";
                 cant_edit = false;
                 setViewMode("Appearance");
             }
@@ -137,16 +155,18 @@ namespace OSRSComSim.ViewModels
         }
         public void Create()
         {
-
-            if (SelectedPlayer.Name != "Default character")
+            if (SelectedPlayer.Name != "Default character" && !Data_store.CheckIfPlayerExists(SelectedPlayer.Name))
             {
-                Data_store.DeletePlayer(SelectedPlayer.Name);
                 Data_store.SavePlayer(SelectedPlayer);
                 _loadscreenviewmodel.Load_players();
                 _loadscreenviewmodel.SelectedPlayer = SelectedPlayer;
-                _loadscreenviewmodel.stopView();
+                backToLoadScreen();
             }
         }
+
+
+
+
 
 
     }

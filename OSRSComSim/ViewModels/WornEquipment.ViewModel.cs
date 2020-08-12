@@ -9,7 +9,7 @@ using System.Windows.Navigation;
 
 namespace OSRSComSim.ViewModels
 {
-    public class EquipmentSlotsViewModel : ObservableObject
+    public class WornEquipmentViewModel : ObservableObject
     {
         private bool _show_select;
         private Equiped _player_equiped;
@@ -45,7 +45,7 @@ namespace OSRSComSim.ViewModels
             }
         }
 
-        public EquipmentSlotsViewModel(Equiped player_equiped = null, bool view_mode = true)
+        public WornEquipmentViewModel(Equiped player_equiped = null, bool view_mode = true)
         {
 
             if (player_equiped != null)

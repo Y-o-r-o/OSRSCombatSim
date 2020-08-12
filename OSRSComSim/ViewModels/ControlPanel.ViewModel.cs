@@ -113,7 +113,7 @@ namespace OSRSComSim.ViewModels
                     ViewContent = new AppearanceView(SelectedPlayer);
                     break;
                 case "Combat":
-                    ViewContent = new CombatView();
+                    ViewContent = new CombatOptionsView(SelectedPlayer.PlayerCombat);
                     break;
                 case "Skills":
                     ViewContent = new SkillsView(SelectedPlayer.PlayerCombat.PlayerSkills, cant_edit);
@@ -121,7 +121,7 @@ namespace OSRSComSim.ViewModels
                 case "Inventory":
                     break;
                 case "Armor":
-                    ViewContent = new EquipmentSlotsView(SelectedPlayer.PlayerCombat.PlayerEquipment, cant_edit);
+                    ViewContent = new WornEquipmentView(SelectedPlayer.PlayerCombat.PlayerEquipment, cant_edit);
                     break;
                 case "Prayer":
                     break;

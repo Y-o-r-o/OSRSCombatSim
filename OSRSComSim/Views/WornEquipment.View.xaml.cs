@@ -21,16 +21,16 @@ namespace OSRSComSim.Views
     /// <summary>
     /// Interaction logic for EquipmentSlots.xaml
     /// </summary>
-    public partial class EquipmentSlotsView : UserControl
+    public partial class WornEquipmentView : UserControl
     {
 
-        public EquipmentSlotsViewModel view_model;
+        public WornEquipmentViewModel view_model;
 
-        public EquipmentSlotsView(Equiped player_equiped = null, bool view_mode = false)
+        public WornEquipmentView(Equiped player_equiped = null, bool view_mode = false)
         {
             InitializeComponent();
-            DataContext = new EquipmentSlotsViewModel(player_equiped, view_mode);
-            view_model = DataContext as EquipmentSlotsViewModel;
+            DataContext = new WornEquipmentViewModel(player_equiped, view_mode);
+            view_model = DataContext as WornEquipmentViewModel;
         }
 
         private void Slot_Clicked(object sender, RoutedEventArgs e)

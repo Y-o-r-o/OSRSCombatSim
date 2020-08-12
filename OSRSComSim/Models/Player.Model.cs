@@ -49,5 +49,10 @@ namespace OSRSComSim.Models
             
         }
 
+        public object Clone()
+        {
+            return this.MemberwiseClone();
+        }
+
     }
 }

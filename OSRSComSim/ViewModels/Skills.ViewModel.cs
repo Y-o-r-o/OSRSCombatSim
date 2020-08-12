@@ -54,6 +54,9 @@ namespace OSRSComSim.ViewModels
             PlayerSkills.Def_lvl = rnd.Next(1, 100);
             PlayerSkills.Str_lvl = rnd.Next(1, 100);
             PlayerSkills.Atk_lvl = rnd.Next(1, 100);
+            PlayerSkills.Magic_lvl = rnd.Next(1, 100);
+            PlayerSkills.Ranged_lvl = rnd.Next(1, 100);
+            PlayerSkills.Prayer_lvl = rnd.Next(1, 100);
         }
 
         public void editPlayerSkills(string name, int value)
@@ -70,7 +73,16 @@ namespace OSRSComSim.ViewModels
                     PlayerSkills.Str_lvl+= value;
                     break;
                 case "Atk":
-                    PlayerSkills.Atk_lvl+= value;
+                    PlayerSkills.Atk_lvl += value;
+                    break;
+                case "Magic":
+                    PlayerSkills.Magic_lvl += value;
+                    break;
+                case "Ranged":
+                    PlayerSkills.Ranged_lvl += value;
+                    break;
+                case "Prayer":
+                    PlayerSkills.Prayer_lvl += value;
                     break;
                 default:
                     //throw ex

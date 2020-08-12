@@ -16,14 +16,15 @@ namespace OSRSComSim.ViewModels
 
         private Thread th_show_stats;
 
-        private ControlPanelView _controlpanel;
+        private ControlPanelViewModel _controlpanel;
         private int _health_taken;
         private Combat _fcombat;
         private string _name;
         private string _last_atk_stat_context;
         private string _last_atk_stat_color;
         
-        public ControlPanelView ControlPanel
+        public FighterView View { get; set; }
+        public ControlPanelViewModel ControlPanel
         {
             get { return _controlpanel; }
             set
@@ -81,13 +82,16 @@ namespace OSRSComSim.ViewModels
             }
         }
 
+        public FighterViewModel(): this (null) { }
         public FighterViewModel(Player selectedplayer = null)
         {
-            ControlPanel = new ControlPanelView(player: selectedplayer, cp_mode: "Interactive");
+            ControlPanel = new ControlPanelViewModel(player: selectedplayer, cp_mode: "Interactive");
             if (selectedplayer == null) selectedplayer = new Player();
             Name = selectedplayer.Name;
             FighterCombat = selectedplayer.PlayerCombat;
             setupFighter();
+
+            View = new FighterView(this);
         }
         private void setupFighter()
         {

@@ -23,6 +23,7 @@ namespace OSRSComSim.ViewModels
         private string _interactive_mode_tabs_visibility = "Collapsed";
         private LoadScreenViewModel _loadscreenviewmodel;
 
+        public ControlPanelView View { get; set; }
         public Player SelectedPlayer 
         {
             get { return _player; }
@@ -33,7 +34,6 @@ namespace OSRSComSim.ViewModels
                 setViewMode(view_mode);
             }
         }
-
         public object TabsBackground
         {
             get { return _tabs_background; }
@@ -76,7 +76,7 @@ namespace OSRSComSim.ViewModels
 
 
         public ControlPanelViewModel() : this(null, null, null) { }
-        public ControlPanelViewModel(LoadScreenViewModel loadscreenviewmodel, Player player, string cp_mode) // Create, View, Interactive.
+        public ControlPanelViewModel(LoadScreenViewModel loadscreenviewmodel = null, Player player = null, string cp_mode = null) // Create, View, Interactive.
         {
             _loadscreenviewmodel = loadscreenviewmodel;
 
@@ -85,7 +85,7 @@ namespace OSRSComSim.ViewModels
             else SelectedPlayer = new Player();
 
             setMode(cp_mode);
-
+            View = new ControlPanelView(this);
         }
 
         private void setMode(string cp_mode)
@@ -110,18 +110,18 @@ namespace OSRSComSim.ViewModels
             switch (view_mode)
             {
                 case "Appearance":
-                    ViewContent = new AppearanceView(SelectedPlayer);
+                    ViewContent = new AppearanceViewModel(SelectedPlayer).View;
                     break;
                 case "Combat":
-                    ViewContent = new CombatOptionsView(SelectedPlayer.PlayerCombat);
+                    ViewContent = new CombatOptionsViewModel(SelectedPlayer.PlayerCombat).View;
                     break;
                 case "Skills":
-                    ViewContent = new SkillsView(SelectedPlayer.PlayerCombat.PlayerSkills, cant_edit);
+                    ViewContent = new SkillsViewModel(SelectedPlayer.PlayerCombat.PlayerSkills, cant_edit).View;
                     break;
                 case "Inventory":
                     break;
                 case "Armor":
-                    ViewContent = new WornEquipmentView(SelectedPlayer.PlayerCombat.PlayerEquipment, cant_edit);
+                    ViewContent = new WornEquipmentViewModel(SelectedPlayer.PlayerCombat.PlayerEquipment, cant_edit).View;
                     break;
                 case "Prayer":
                     break;

@@ -19,13 +19,14 @@ namespace OSRSComSim.Views
 {
     public partial class FighterView : UserControl
     {
-        public FighterViewModel view_model { get; set; }
+        public FighterViewModel view_model;
 
-        public FighterView(Player player = null)
+        public FighterView(FighterViewModel VM)
         {
+            view_model = VM;
+            DataContext = view_model;
+
             InitializeComponent();
-            DataContext = new FighterViewModel(player);
-            view_model = DataContext as FighterViewModel;
         }
 
 

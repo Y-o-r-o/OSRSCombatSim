@@ -22,11 +22,11 @@ namespace OSRSComSim.Views
 
         private CombatOptionsViewModel view_model;
 
-        public CombatOptionsView(Combat combat)
+        public CombatOptionsView(CombatOptionsViewModel VM)
         {
+            view_model = VM;
+            DataContext = view_model;
             InitializeComponent();
-            DataContext = new CombatOptionsViewModel(combat);
-            view_model = DataContext as CombatOptionsViewModel;
         }
     }
 }

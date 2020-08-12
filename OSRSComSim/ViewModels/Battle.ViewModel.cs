@@ -15,13 +15,13 @@ namespace OSRSComSim.ViewModels
     {
         private bool _thread_is_started;
         private string _buttonfightcontent;
-        private FighterView _fighter1;
-        private FighterView _fighter2;
+        private FighterViewModel _fighter1;
+        private FighterViewModel _fighter2;
 
         private Thread th1;
         private Thread th2;
 
-        public FighterView Fighter1 
+        public FighterViewModel Fighter1 
         {
             get { return _fighter1; }
             set
@@ -30,7 +30,7 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("Fighter1");
             }
         }
-        public FighterView Fighter2
+        public FighterViewModel Fighter2
         {
             get { return _fighter2; }
             set
@@ -65,8 +65,8 @@ namespace OSRSComSim.ViewModels
 
         public BattleViewModel()
         {
-            Fighter1 = new FighterView();
-            Fighter2 = new FighterView();
+            Fighter1 = new FighterViewModel();
+            Fighter2 = new FighterViewModel();
             _buttonfightcontent = "Fight";//
             ThreadIsStarted = false;
         }
@@ -77,8 +77,8 @@ namespace OSRSComSim.ViewModels
             else
             {
 
-                th1 = FighterStartFight(Fighter1.view_model, Fighter2.view_model);
-                th2 = FighterStartFight(Fighter2.view_model, Fighter1.view_model, 1000);
+                th1 = FighterStartFight(Fighter1, Fighter2);
+                th2 = FighterStartFight(Fighter2, Fighter1, 1000);
 
                 ThreadIsStarted = true;
             }
@@ -106,7 +106,7 @@ namespace OSRSComSim.ViewModels
 
         private bool playersIsNotDead()
         {
-            return !(Fighter1.view_model.isDead() || Fighter2.view_model.isDead());
+            return !(Fighter1.isDead() || Fighter2.isDead());
         }
 
         public void Reset()
@@ -117,8 +117,8 @@ namespace OSRSComSim.ViewModels
                 th2.Abort();
                 ThreadIsStarted = false;
             }
-            Fighter1.view_model.Reset();
-            Fighter2.view_model.Reset();
+            Fighter1.Reset();
+            Fighter2.Reset();
         }
     }
 }

@@ -17,17 +17,14 @@ using System.Windows.Shapes;
 
 namespace OSRSComSim.Views
 {
-    /// <summary>
-    /// Interaction logic for Skills.xaml
-    /// </summary>
     public partial class SkillsView : UserControl
     {
         private SkillsViewModel view_model;
-        public SkillsView(Skills skills, bool can_modify_skills = false)
+        public SkillsView(SkillsViewModel VM)
         {
+            view_model = VM;
+            DataContext = view_model;
             InitializeComponent();
-            DataContext = new SkillsViewModel(skills, can_modify_skills);
-            view_model = DataContext as SkillsViewModel;
         }
 
         private void MinusBtn_Click(object sender, RoutedEventArgs e)

@@ -23,11 +23,11 @@ namespace OSRSComSim.Views
     public partial class AppearanceView : UserControl
     {
         public AppearanceViewModel view_model;
-        public AppearanceView(Player player)
+        public AppearanceView(AppearanceViewModel VM)
         {
+            view_model = VM;
+            DataContext = VM;
             InitializeComponent();
-            DataContext = new AppearanceViewModel(player);
-            view_model = DataContext as AppearanceViewModel;
         }
 
         private void EnterNameBox_GotFocus(object sender, RoutedEventArgs e)

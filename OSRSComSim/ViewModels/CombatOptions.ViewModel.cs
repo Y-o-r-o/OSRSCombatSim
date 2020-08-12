@@ -12,6 +12,7 @@ namespace OSRSComSim.ViewModels
     {
         private Combat _combat;
 
+        public CombatOptionsView View { get; set; }
         public Combat FighterCombat
         {
             get { return _combat; }
@@ -26,7 +27,8 @@ namespace OSRSComSim.ViewModels
         public CombatOptionsViewModel (Combat combat = null)
         {
             FighterCombat = combat;
-
+            
+            View = new CombatOptionsView(this);
         }
 
 

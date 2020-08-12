@@ -6,11 +6,9 @@
              xmlns:local="clr-namespace:OSRSComSim.Views"
              xmlns:viewmodels ="clr-namespace:OSRSComSim.ViewModels"
              mc:Ignorable="d" 
+             d:DataContext="{d:DesignInstance Type=viewmodels:CombatOptionsViewModel, IsDesignTimeCreatable=False}" 
              d:DesignHeight="400" d:DesignWidth="300">
 
-    <UserControl.DataContext>
-        <viewmodels:CombatOptionsViewModel/>
-    </UserControl.DataContext>
 
     <UserControl.Resources>
         <Style TargetType="Button">

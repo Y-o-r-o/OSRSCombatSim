@@ -5,16 +5,13 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:OSRSComSim.Views"
              xmlns:viewmodels ="clr-namespace:OSRSComSim.ViewModels"
-    
+             mc:Ignorable="d"
+             d:DataContext="{d:DesignInstance Type=viewmodels:ControlPanelViewModel, IsDesignTimeCreatable=False}" 
              Loaded="UserControl_Loaded"
-             mc:Ignorable="d" 
+    
              d:DesignHeight="690" d:DesignWidth="1275"
              >
-    
-    <UserControl.DataContext>
-        <viewmodels:ControlPanelViewModel/>
-    </UserControl.DataContext>
-    
+
     <UserControl.Resources>
         <Style TargetType="Button">
             <Setter Property="Margin" Value="-1,-1,-2,0"/>

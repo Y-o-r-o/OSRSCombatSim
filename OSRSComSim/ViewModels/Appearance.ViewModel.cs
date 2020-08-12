@@ -1,4 +1,5 @@
 ﻿using OSRSComSim.Models;
+using OSRSComSim.Views;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,7 @@ namespace OSRSComSim.ViewModels
         private Player _player;
         private string _setnamequotes;
 
+        public AppearanceView View { get; set; }
         public string SetNameQuotes
         {
             get
@@ -36,10 +38,13 @@ namespace OSRSComSim.ViewModels
             }
         }
 
-        public AppearanceViewModel(Player player)
+        public AppearanceViewModel (): this(null) { }
+        public AppearanceViewModel(Player player = null)
         {
             _player = player;
             _setnamequotes = "Enter player name here.";
+            
+            View = new AppearanceView(this);
         }
 
         public void setPlayerName(string boxtext)

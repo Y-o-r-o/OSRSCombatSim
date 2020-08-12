@@ -1,4 +1,5 @@
 ﻿using OSRSComSim.Models;
+using OSRSComSim.Views;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -13,10 +14,11 @@ namespace OSRSComSim.ViewModels
     {
         private bool _show_select;
         private Equiped _player_equiped;
-        private SelectEquipmentView _select_equipment;
+        private SelectEquipmentViewModel _select_equipment;
         private string _equipment_info = "";
 
-        public SelectEquipmentView selectEquipment
+        public WornEquipmentView View { get; set; }
+        public SelectEquipmentViewModel selectEquipment
         {
             get { return _select_equipment; }
             set
@@ -57,12 +59,14 @@ namespace OSRSComSim.ViewModels
             selectEquipment = null;
             _show_select = !view_mode;
             setEquipmentInfo();
+
+            View = new WornEquipmentView(this);
         }
 
         public void viewSelectEquipment(string selected_slot_table)
         {
             if (_show_select)
-                selectEquipment = new SelectEquipmentView(PlayerEquiped, selected_slot_table);
+                selectEquipment = new SelectEquipmentViewModel(PlayerEquiped, selected_slot_table);
         }
         public void stopSelectEquipment()
         {

@@ -1,4 +1,5 @@
 ﻿using OSRSComSim.Models;
+using OSRSComSim.Views;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,8 @@ namespace OSRSComSim.ViewModels
         private string _btn_visibility;
         private Skills _playerskills;
 
+
+        public SkillsView View { get; set; }
         public string BtnVisibility
         {
             get
@@ -34,6 +37,7 @@ namespace OSRSComSim.ViewModels
             }
         }
 
+        public SkillsViewModel() : this(null, false) { }
         public SkillsViewModel(Skills skills, bool view_mode = false)
         {
             PlayerSkills = skills;
@@ -41,6 +45,7 @@ namespace OSRSComSim.ViewModels
                 BtnVisibility = "Hidden";
             else BtnVisibility = "Visible";
 
+            View = new SkillsView(this);
         }
 
         public void resetPlayerSkills()

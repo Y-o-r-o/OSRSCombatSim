@@ -24,13 +24,12 @@ namespace OSRSComSim.Views
     {
         private LoadScreenViewModel view_model;
 
-        public LoadScreenView(MainWindowViewModel mainWindowVM, string fighter_num)
+        public LoadScreenView(LoadScreenViewModel VM)
         {
+            view_model = VM;
+            DataContext = view_model;
+
             InitializeComponent();
-
-            DataContext = new LoadScreenViewModel(mainWindowVM, fighter_num);
-            view_model = DataContext as LoadScreenViewModel;
-
         }
 
         private void Btn_create_new_Click(object sender, RoutedEventArgs e)

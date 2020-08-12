@@ -42,28 +42,28 @@
         <Image Grid.Row="2" Grid.RowSpan="2" Grid.ColumnSpan="7" Source="./Resources/EdgeVille.png" Stretch="UniformToFill" Margin="0,0,0,-20"/>
 
 
-        <Label Grid.Row="2" Grid.Column="2" Content="{Binding Battle.Fighter1.view_model.LastAtkStatContext}" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20" Background="{Binding Battle.Fighter1.view_model.LastAtkStatColor}"  Foreground="White" Height="30" Margin="0,5,0,0" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Center" Padding="5,0,5,5"/>
-        <Label Grid.Row="2" Grid.Column="4" Content="{Binding Battle.Fighter2.view_model.LastAtkStatContext}" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20" Background="{Binding Battle.Fighter2.view_model.LastAtkStatColor}"  Foreground="White" Height="30" Margin="0,5,0,0" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Center" Padding="5,0,5,5"/>
+        <Label Grid.Row="2" Grid.Column="2" Content="{Binding Battle.Fighter1.LastAtkStatContext}" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20" Background="{Binding Battle.Fighter1.LastAtkStatColor}"  Foreground="White" Height="30" Margin="0,5,0,0" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Center" Padding="5,0,5,5"/>
+        <Label Grid.Row="2" Grid.Column="4" Content="{Binding Battle.Fighter2.LastAtkStatContext}" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20" Background="{Binding Battle.Fighter2.LastAtkStatColor}"  Foreground="White" Height="30" Margin="0,5,0,0" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Center" Padding="5,0,5,5"/>
 
         <Viewbox Grid.Row="2" Grid.Column="2" VerticalAlignment="Top" Height="20" Margin="0,50,0,0">
             <Grid>
                 <Rectangle Fill="LightGreen" HorizontalAlignment="Center" Height="20" Width="100"/>
-                <Rectangle Fill="Red" HorizontalAlignment="Right" Height="20" Width="{Binding Battle.Fighter1.view_model.HealthTaken}"/>
+                <Rectangle Fill="Red" HorizontalAlignment="Right" Height="20" Width="{Binding Battle.Fighter1.HealthTaken}"/>
             </Grid>
         </Viewbox>
         <Viewbox Grid.Row="2" Grid.Column="4" VerticalAlignment="Top" Height="20" Margin="0,50,0,0">
             <Grid>
                 <Rectangle Fill="LightGreen" HorizontalAlignment="Center" Height="20" Width="100"/>
-                <Rectangle Fill="Red" HorizontalAlignment="Right" Height="20" Width="{Binding Battle.Fighter2.view_model.HealthTaken}"/>
+                <Rectangle Fill="Red" HorizontalAlignment="Right" Height="20" Width="{Binding Battle.Fighter2.HealthTaken}"/>
             </Grid>
         </Viewbox>
 
 
         <Border Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="1" HorizontalAlignment="Center" Width="300" Height="35">
-            <TextBlock x:Name="Fighter1" TextWrapping="Wrap" Text="{Binding Battle.Fighter1.view_model.Name}" FontSize="25" VerticalAlignment="Stretch" HorizontalAlignment="Center"/>
+            <TextBlock x:Name="Fighter1" TextWrapping="Wrap" Text="{Binding Battle.Fighter1.Name}" FontSize="25" VerticalAlignment="Stretch" HorizontalAlignment="Center"/>
         </Border>
         <Border Grid.Column="3" Grid.ColumnSpan="3" Grid.Row="1" HorizontalAlignment="Center" Width="300" Height="35">
-            <TextBlock x:Name="Fighter2" TextWrapping="Wrap" Text="{Binding Battle.Fighter2.view_model.Name}" FontSize="25" VerticalAlignment="Stretch" HorizontalAlignment="Center"/>
+            <TextBlock x:Name="Fighter2" TextWrapping="Wrap" Text="{Binding Battle.Fighter2.Name}" FontSize="25" VerticalAlignment="Stretch" HorizontalAlignment="Center"/>
         </Border>
 
         <Button Grid.Column="1" Grid.ColumnSpan="3" x:Name ="Button_Load_1" Content="PLAYER SELECT" Height="40" Width="180" HorizontalAlignment="Center" FontSize="20" Click="Button_Load_1_Click"/>
@@ -73,11 +73,11 @@
 
 
 
-        <ContentControl Grid.Row="3" Grid.RowSpan="2" Grid.Column="0" Content="{Binding Battle.Fighter1.view_model.ControlPanel}"/>
-        <ContentControl Grid.Row="3" Grid.RowSpan="2" Grid.Column="7" Content="{Binding Battle.Fighter2.view_model.ControlPanel }"/>
+        <ContentControl Grid.Row="3" Grid.RowSpan="2" Grid.Column="0" Content="{Binding Battle.Fighter1.ControlPanel.View}"/>
+        <ContentControl Grid.Row="3" Grid.RowSpan="2" Grid.Column="7" Content="{Binding Battle.Fighter2.ControlPanel.View}"/>
 
-        <ContentControl Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" Content="{Binding Battle.Fighter1}" Height="20" Width="10"/>
-        <ContentControl Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" Content="{Binding Battle.Fighter2}" Height="20" Width="10" Margin="20,0,-20,0"/>
+        <ContentControl Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" Content="{Binding Battle.Fighter1.View}" Height="20" Width="10"/>
+        <ContentControl Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" Content="{Binding Battle.Fighter2.View}" Height="20" Width="10" Margin="20,0,-20,0"/>
 
 
 

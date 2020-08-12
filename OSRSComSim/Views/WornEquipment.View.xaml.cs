@@ -18,19 +18,16 @@ using System.Windows.Shapes;
 
 namespace OSRSComSim.Views
 {
-    /// <summary>
-    /// Interaction logic for EquipmentSlots.xaml
-    /// </summary>
     public partial class WornEquipmentView : UserControl
     {
 
         public WornEquipmentViewModel view_model;
 
-        public WornEquipmentView(Equiped player_equiped = null, bool view_mode = false)
+        public WornEquipmentView(WornEquipmentViewModel VM)
         {
+            view_model = VM;
+            DataContext = view_model;
             InitializeComponent();
-            DataContext = new WornEquipmentViewModel(player_equiped, view_mode);
-            view_model = DataContext as WornEquipmentViewModel;
         }
 
         private void Slot_Clicked(object sender, RoutedEventArgs e)

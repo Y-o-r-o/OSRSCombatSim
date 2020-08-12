@@ -16,6 +16,7 @@ namespace OSRSComSim.ViewModels
         private string _selected_slot_table = "";
         private string[] _selected_slot_table_lines;
 
+        public SelectEquipmentView View { get; set; }
         public Equiped PlayerEquiped
         {
             get { return _player_equiped; }
@@ -56,10 +57,13 @@ namespace OSRSComSim.ViewModels
             }
         }
 
+        public SelectEquipmentViewModel() : this(null, null) { }
         public SelectEquipmentViewModel(Equiped player_equiped, string selected_slot_table)
         {
             PlayerEquiped = player_equiped;
             SelectedSlotTable = selected_slot_table;
+
+            View = new SelectEquipmentView(this);
         }
         public void mountEquipment(string equipment_name)
         {

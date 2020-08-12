@@ -25,14 +25,15 @@ namespace OSRSComSim.ViewModels
         private string                          _fighter_num;
         public object                           _viewcontent;
 
-        private ControlPanelView                _controls_view;
+        private ControlPanelViewModel           _controls_view;
         private MainWindowViewModel             _mainwindowVM;
         private Player                          _selected_player;
 
         private ObservableCollection<Player>    _player_list;
 
 
-        public ControlPanelView                 ControlsView
+        public LoadScreenView                   View { get; set; }
+        public ControlPanelViewModel            ControlsView
         {
             get
             {
@@ -79,7 +80,7 @@ namespace OSRSComSim.ViewModels
             {
                 _selected_player = value;
 
-                ControlsView.view_model.SelectedPlayer = _selected_player;
+                ControlsView.SelectedPlayer = _selected_player;
 
                 OnPropertyChanged("SelectedPlayer");
             }
@@ -92,8 +93,10 @@ namespace OSRSComSim.ViewModels
             _player_list = new ObservableCollection<Player>();
             _selected_player = new Player();
             _fighter_num = fighter_num;
-            ControlsView = new ControlPanelView(this, SelectedPlayer, "View");
+            ControlsView = new ControlPanelViewModel(this, SelectedPlayer, "View");
             Load_players();
+
+            View = new LoadScreenView(this);
         }
 
 
@@ -103,11 +106,11 @@ namespace OSRSComSim.ViewModels
         }
         public void viewCreatePlayer()
         {
-            ViewContent = new ControlPanelView(this, cp_mode: "Create");
+            ViewContent = new ControlPanelViewModel(this, cp_mode: "Create").View;
         }
         public void viewrEditPlayer()
         {
-            ViewContent = new ControlPanelView(this, SelectedPlayer, "Create");
+            ViewContent = new ControlPanelViewModel(this, SelectedPlayer, "Create").View;
         }
         public void stopView()
         {
@@ -155,11 +158,11 @@ namespace OSRSComSim.ViewModels
         {
             if (_fighter_num == "fighter 1")
             {
-                _mainwindowVM.Battle.Fighter1 = new FighterView(SelectedPlayer);
+                _mainwindowVM.Battle.Fighter1 = new FighterViewModel(SelectedPlayer);
             }
             else if (_fighter_num == "fighter 2")
             {
-                _mainwindowVM.Battle.Fighter2 = new FighterView(SelectedPlayer);
+                _mainwindowVM.Battle.Fighter2 = new FighterViewModel(SelectedPlayer);
             }
         }
     }

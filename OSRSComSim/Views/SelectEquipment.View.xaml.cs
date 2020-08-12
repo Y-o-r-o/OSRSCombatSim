@@ -16,17 +16,14 @@ using System.Windows.Shapes;
 
 namespace OSRSComSim.ViewModels
 {
-    /// <summary>
-    /// Interaction logic for SelectEquipmentView.xaml
-    /// </summary>
     public partial class SelectEquipmentView : UserControl
     {
         public SelectEquipmentViewModel view_model;
-        public SelectEquipmentView(Equiped player_equiped, string selectedslottable)
+        public SelectEquipmentView(SelectEquipmentViewModel VM)
         {
+            view_model = VM;
+            DataContext = view_model;
             InitializeComponent();
-            DataContext = new SelectEquipmentViewModel(player_equiped, selectedslottable);
-            view_model = DataContext as SelectEquipmentViewModel;
         }
 
 

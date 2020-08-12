@@ -1,4 +1,5 @@
 ﻿using OSRSComSim.Models;
+using OSRSComSim.Views;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,7 +22,8 @@ namespace OSRSComSim.ViewModels
             }
         }
 
-        public CombatOptionsViewModel (Combat combat)
+        public CombatOptionsViewModel() : this(null) { }
+        public CombatOptionsViewModel (Combat combat = null)
         {
             FighterCombat = combat;
 

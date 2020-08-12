@@ -10,9 +10,11 @@
              mc:Ignorable="d" 
              d:DesignHeight="690" d:DesignWidth="1275"
              >
+    
     <UserControl.DataContext>
         <viewmodels:ControlPanelViewModel/>
     </UserControl.DataContext>
+    
     <UserControl.Resources>
         <Style TargetType="Button">
             <Setter Property="Margin" Value="-1,-1,-2,0"/>

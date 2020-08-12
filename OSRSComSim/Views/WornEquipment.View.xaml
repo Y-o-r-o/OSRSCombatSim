@@ -6,7 +6,11 @@
              xmlns:local="clr-namespace:OSRSComSim.Views"
              xmlns:viewmodels ="clr-namespace:OSRSComSim.ViewModels"
              mc:Ignorable="d" 
-             d:DesignHeight="500" d:DesignWidth="600">
+             d:DesignHeight="800" d:DesignWidth="500">
+    
+    <UserControl.DataContext>
+        <viewmodels:WornEquipmentViewModel/>
+    </UserControl.DataContext>
 
     <UserControl.Resources>
         <Style x:Key="myHeaderStyle" TargetType="{x:Type GridViewColumnHeader}">

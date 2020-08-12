@@ -45,6 +45,7 @@ namespace OSRSComSim.ViewModels
             }
         }
 
+        public WornEquipmentViewModel(): this (null, true) { }
         public WornEquipmentViewModel(Equiped player_equiped = null, bool view_mode = true)
         {
 

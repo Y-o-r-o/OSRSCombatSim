@@ -34,7 +34,6 @@ D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\ControlPanel.View.g.cs
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\ControlPanel.View.baml
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\Fighter.View.g.cs
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\Fighter.View.baml
-D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\OSRSComSim.csprojAssemblyReference.cache
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\CombatOtions.View.g.cs
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\CombatOtions.View.baml
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\WornEquipment.View.g.cs

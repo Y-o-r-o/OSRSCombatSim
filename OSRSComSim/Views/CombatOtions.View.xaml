@@ -4,9 +4,14 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:OSRSComSim.Views"
+             xmlns:viewmodels ="clr-namespace:OSRSComSim.ViewModels"
              mc:Ignorable="d" 
              d:DesignHeight="400" d:DesignWidth="300">
-    
+
+    <UserControl.DataContext>
+        <viewmodels:CombatOptionsViewModel/>
+    </UserControl.DataContext>
+
     <UserControl.Resources>
         <Style TargetType="Button">
             <Setter Property="Margin" Value="5"/>
@@ -29,9 +34,15 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock Grid.ColumnSpan="2" Foreground="Yellow" TextAlignment="Center">weapon name: ****</TextBlock>
-        <TextBlock Grid.Row="1" Grid.ColumnSpan="2" Foreground="Yellow" TextAlignment="Center">Total combat lvl: ****</TextBlock>
-
+        <StackPanel Grid.ColumnSpan="2" HorizontalAlignment="Center" Orientation="Horizontal">
+            <TextBlock Foreground="Yellow" TextAlignment="Center" Text="weapon name: "/>
+            <TextBlock Foreground="Yellow" TextAlignment="Center" Text="{Binding FighterCombat.PlayerEquipment.Weapon.Name}"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" Orientation="Horizontal">
+            <TextBlock Foreground="Yellow" TextAlignment="Center" Text="total combat lvl: "/>
+            <TextBlock Foreground="Yellow" TextAlignment="Center"/>
+        </StackPanel>
+            
         <Button Grid.Row="2">Stab</Button>
         <Button Grid.Row="3">Slash</Button>
         <Button Grid.Row="2" Grid.Column="1">Crush</Button>

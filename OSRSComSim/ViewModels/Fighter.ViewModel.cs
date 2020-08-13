@@ -76,8 +76,8 @@ namespace OSRSComSim.ViewModels
             get { return _health_taken; }
             set
             {
-                _health_taken = value;
-
+                if (value >= 100) _health_taken = 100;
+                else _health_taken = value;
                 OnPropertyChanged("HealthTaken");
             }
         }
@@ -139,7 +139,7 @@ namespace OSRSComSim.ViewModels
 
         public bool isDead()
         {
-            return HealthTaken >= 100;
+            return HealthTaken == 100;
         }
 
         public void Reset()

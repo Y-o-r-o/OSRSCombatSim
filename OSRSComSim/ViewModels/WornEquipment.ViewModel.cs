@@ -66,7 +66,7 @@ namespace OSRSComSim.ViewModels
         public void viewSelectEquipment(string selected_slot_table)
         {
             if (_show_select)
-                selectEquipment = new SelectEquipmentViewModel(PlayerEquiped, selected_slot_table);
+                selectEquipment = new SelectEquipmentViewModel(this, PlayerEquiped, selected_slot_table);
         }
         public void stopSelectEquipment()
         {

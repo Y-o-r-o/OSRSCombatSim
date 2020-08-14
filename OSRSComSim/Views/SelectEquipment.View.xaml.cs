@@ -26,13 +26,15 @@ namespace OSRSComSim.ViewModels
             InitializeComponent();
         }
 
-
-
         private void equipment_Click(object sender, RoutedEventArgs e)
         {
             view_model.mountEquipment(((Label)sender).Content.ToString());
-            select.Visibility = Visibility.Hidden;
+            view_model.stopView();
         }
 
+        private void Close_Click(object sender, RoutedEventArgs e)
+        {
+            view_model.stopView();
+        }
     }
 }

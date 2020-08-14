@@ -35,10 +35,5 @@ namespace OSRSComSim.Views
             view_model.viewSelectEquipment(((Button)sender).Tag.ToString());
         }
 
-
-        private void show_equipment_select_mouse_leave(object sender, object e)
-        {
-            view_model.stopSelectEquipment();
-        }
     }
 }

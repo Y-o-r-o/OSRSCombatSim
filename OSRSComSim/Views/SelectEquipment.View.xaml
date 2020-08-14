@@ -8,16 +8,18 @@
       d:DataContext="{d:DesignInstance Type=viewmodels:SelectEquipmentViewModel, IsDesignTimeCreatable=False}" 
       d:DesignHeight="450" d:DesignWidth="450"
 >
-    <Grid x:Name="select">
+    <Grid x:Name="select" Background="Beige">
         <Grid.RowDefinitions>
             <RowDefinition Height="20"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
 
-        <Label Content="" Grid.Row="0" FontSize="10" Background="Beige"/>
+        <Viewbox HorizontalAlignment="Left">
+        <Label Content=" Select equipment:" Grid.Row="0" Foreground="#FF493C1F" FontWeight="Bold" FontStyle="Italic"/>
+        </Viewbox>
 
-        <ListBox Grid.Row="1" x:Name="ListViewEquipments" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch" Background="Beige" ItemsSource="{Binding Path=ReadCSV}">
+        <ListBox Grid.Row="1" x:Name="ListViewEquipments" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch" Background="Transparent" ItemsSource="{Binding Path=ReadCSV}">
             <ListBox.ItemTemplate>
                 <DataTemplate >
                     <Label MouseLeftButtonUp="equipment_Click" VerticalAlignment="Center" FontSize="13" Content="{Binding}" Margin="0,-1,0,-1"/>
@@ -25,7 +27,9 @@
             </ListBox.ItemTemplate>
         </ListBox>
 
-        <TextBox x:Name="EnterEqpNameBox" Text="{Binding Name}" Background="Beige" TextAlignment="Left" FontSize="20"  Grid.Row="2"/>
-
+        <Button BorderThickness="1" HorizontalAlignment="Right" Height="20" Width="20" Background="Transparent" Margin="0,0,0,0" Click="Close_Click"> X </Button>
+        
+        <TextBox BorderThickness="0" Text="{Binding Name}" Background="Beige" TextAlignment="Left" Grid.Row="2"/>
+        
     </Grid>
 </UserControl>

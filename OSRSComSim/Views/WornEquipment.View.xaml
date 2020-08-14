@@ -94,6 +94,6 @@
                 </Viewbox>
             </Grid>
         </Viewbox>
-                <ContentControl Grid.Row="1" Grid.Column="0" x:Name="show_equipment_select" Content="{Binding selectEquipment.View}" MouseLeave="show_equipment_select_mouse_leave" Margin="10,0,10,20"/>
+        <ContentControl Grid.Row="1" Grid.Column="0" x:Name="show_equipment_select" Content="{Binding selectEquipment.View}" Margin="10,0,10,20"/>
     </Grid>
 </UserControl>

@@ -10,6 +10,7 @@ namespace OSRSComSim.ViewModels
 {
     public class SelectEquipmentViewModel: ObservableObject
     {
+        WornEquipmentViewModel _wornequipmentviewmodel;
 
         private Equiped _player_equiped;
 
@@ -57,9 +58,11 @@ namespace OSRSComSim.ViewModels
             }
         }
 
-        public SelectEquipmentViewModel() : this(null, null) { }
-        public SelectEquipmentViewModel(Equiped player_equiped, string selected_slot_table)
+        public SelectEquipmentViewModel() : this(null, null, null) { }
+        public SelectEquipmentViewModel(WornEquipmentViewModel wornequipmentviewmodel, Equiped player_equiped, string selected_slot_table)
         {
+            _wornequipmentviewmodel = wornequipmentviewmodel;
+
             PlayerEquiped = player_equiped;
             SelectedSlotTable = selected_slot_table;
 
@@ -167,6 +170,10 @@ namespace OSRSComSim.ViewModels
             _selected_slot_table_lines = selected_slot_table_lines;
         }
 
+        public void stopView()
+        {
+            _wornequipmentviewmodel.selectEquipment = null;
+        }
 
     }
 }

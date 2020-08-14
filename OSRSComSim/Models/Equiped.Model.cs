@@ -9,58 +9,133 @@ using System.Threading.Tasks;
 
 namespace OSRSComSim.Models
 {
-    public class Equiped
+    public class Equiped: ObservableObject
     {
-        public Equipment Head   { get; set; }
-        public Equipment Neck    { get; set; }
-        public Equipment Cape   { get; set; }
-        public Equipment Ammo   { get; set; }
-        public Equipment Weapon  { get; set; }
-        public Equipment Body   { get; set; }
-        public Equipment Shield { get; set; }
-        public Equipment Legs   { get; set; }
-        public Equipment Feet   { get; set; }
-        public Equipment Hands  { get; set; }
-        public Equipment Ring    { get; set; }
+        public Equipment _head;
+        public Equipment _neck;
+        public Equipment _cape;
+        public Equipment _ammo;
+        public Equipment _weapon;
+        public Equipment _body;
+        public Equipment _shield;
+        public Equipment _legs;
+        public Equipment _feet;
+        public Equipment _hands;
+        public Equipment _ring;
 
-
-
+        public Equipment Head 
+        {
+            get { return _head; }
+            set
+            {
+                _head = value;
+                OnPropertyChanged("Head");
+            }
+        }
+        public Equipment Neck
+        {
+            get { return _neck; }
+            set
+            {
+                _neck = value;
+                OnPropertyChanged("Neck");
+            }
+        }
+        public Equipment Cape
+        {
+            get { return _cape; }
+            set
+            {
+                _cape = value;
+                OnPropertyChanged("Cape");
+            }
+        }
+        public Equipment Ammo
+        {
+            get { return _ammo; }
+            set
+            {
+                _ammo = value;
+                OnPropertyChanged("Ammo");
+            }
+        }
+        public Equipment Weapon
+        {
+            get { return _weapon; }
+            set
+            {
+                _weapon = value;
+                OnPropertyChanged("Weapon");
+            }
+        }
+        public Equipment Body
+        {
+            get { return _body; }
+            set
+            {
+                _body = value;
+                OnPropertyChanged("Body");
+            }
+        }
+        public Equipment Shield
+        {
+            get { return _shield; }
+            set
+            {
+                _shield = value;
+                OnPropertyChanged("Shield");
+            }
+        }
+        public Equipment Legs
+        {
+            get { return _legs; }
+            set
+            {
+                _legs = value;
+                OnPropertyChanged("Legs");
+            }
+        }
+        public Equipment Feet
+        {
+            get { return _feet; }
+            set
+            {
+                _feet = value;
+                OnPropertyChanged("Feet");
+            }
+        }
+        public Equipment Hands
+        {
+            get { return _hands; }
+            set
+            {
+                _hands = value;
+                OnPropertyChanged("Hands");
+            }
+        }
+        public Equipment Ring
+        {
+            get { return _ring; }
+            set
+            {
+                _ring = value;
+                OnPropertyChanged("Ring");
+            }
+        }
 
         public Equiped()
         {
-            Head = new Equipment();
-            Neck = new Equipment();
-            Cape = new Equipment();
-            Ammo = new Equipment();
-            Weapon = new Equipment();
-            Body = new Equipment();
-            Shield = new Equipment();
-            Legs = new Equipment();
-            Feet = new Equipment();
-            Hands = new Equipment();
-            Ring = new Equipment();
-            setupEquipmentDefautStats();
-            setupEquipmentDefautSlotImg();
-        }
-        private void setupEquipmentDefautStats()
-        {
-            Weapon.Name = "Fists";
-            Weapon.Speed = 4;
-        }
-
-        private void setupEquipmentDefautSlotImg()
-        {
-            Head.Png = "../Resources/App/Equipment/Head_slot.png";
-            Neck.Png = "../Resources/App/Equipment/Neck_slot.png";
-            Cape.Png = "../Resources/App/Equipment/Cape_slot.png";
-            Ammo.Png = "../Resources/App/Equipment/Ammo_slot.png";
-            Weapon.Png = "../Resources/App/Equipment/Weapon_slot.png";
-            Body.Png = "../Resources/App/Equipment/Body_slot.png";
-            Shield.Png = "../Resources/App/Equipment/Shield_slot.png";
-            Legs.Png = "../Resources/App/Equipment/Legs_slot.png";
-            Feet.Png = "../Resources/App/Equipment/Feet_slot.png";
-            Hands.Png = "../Resources/App/Equipment/Hands_slot.png";
-            Ring.Png = "../Resources/App/Equipment/Ring_slot.png";
+            Head = new Equipment("Head");
+            Neck = new Equipment("Neck");
+            Cape = new Equipment("Cape");
+            Ammo = new Equipment("Ammo");
+            Weapon = new Equipment("Weapon");
+            Body = new Equipment("Body");
+            Shield = new Equipment("Shield");
+            Legs = new Equipment("Legs");
+            Feet = new Equipment("Feet");
+            Hands = new Equipment("Hands");
+            Ring = new Equipment("Ring");
         }
 
 
@@ -128,5 +203,7 @@ namespace OSRSComSim.Models
         {
             return Head.Speed + Neck.Speed + Cape.Speed + Ammo.Speed + Weapon.Speed + Body.Speed + Shield.Speed + Legs.Speed + Feet.Speed + Hands.Speed + Ring.Speed;
         }
+
+
     }
 }

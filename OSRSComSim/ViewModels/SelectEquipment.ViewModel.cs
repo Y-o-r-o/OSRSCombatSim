@@ -14,8 +14,7 @@ namespace OSRSComSim.ViewModels
 
         private Equiped _player_equiped;
 
-        private string _selected_slot_table = "";
-        private string[] _selected_slot_table_lines;
+        public string[] _lines;
 
         public SelectEquipmentView View { get; set; }
         public Equiped PlayerEquiped
@@ -27,105 +26,46 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("PlayerEquiped");
             }
         }
-        public string SelectedSlotTable
-        {
-            get { return _selected_slot_table; }
-            set
-            {
-                _selected_slot_table = value;
-                OnPropertyChanged("SelectedSlotTable");
-                OnPropertyChanged("ReadCSV");
-            }
-        }
         public IEnumerable<string> ReadCSV
         {
             get
             {
-                if (SelectedSlotTable == "")
-                    return null;
-                else
-                {
-                    string[] lines = getCSV();//File.ReadAllLines("../../Resources/Items/csv/Slot tables/" + SelectedSlotTable + " slot table.csv");
-
-                    prepareTempEquipmentsData(lines);
-
-                    return lines.Select(line =>
+                    return _lines.Select(line =>
                     {
                         string[] data = line.Split(',');
                         return data[0];
                     });
                 }
-            }
+            
         }
 
         public SelectEquipmentViewModel() : this(null, null, null) { }
         public SelectEquipmentViewModel(WornEquipmentViewModel wornequipmentviewmodel, Equiped player_equiped, string selected_slot_table)
         {
             _wornequipmentviewmodel = wornequipmentviewmodel;
+            _lines = getCSV(selected_slot_table);//File.ReadAllLines("../../Resources/Items/csv/Slot tables/" + SelectedSlotTable + " slot table.csv");
 
             PlayerEquiped = player_equiped;
-            SelectedSlotTable = selected_slot_table;
 
             View = new SelectEquipmentView(this);
         }
-        public void mountEquipment(string equipment_name)
-        {
-            string eqp = getEquipmentData(equipment_name);
-
-            if (!eqp.Equals(""))
-            {
-                switch (SelectedSlotTable)
-                {
-                    case "Head":
-                        PlayerEquiped.Head.setData(eqp, _selected_slot_table);
-                        break;
-                    case "Neck":
-                        PlayerEquiped.Neck.setData(eqp, _selected_slot_table);
-                        break;
-                    case "Cape":
-                        PlayerEquiped.Cape.setData(eqp, _selected_slot_table);
-                        break;
-                    case "Ammo":
-                        PlayerEquiped.Ammo.setData(eqp, _selected_slot_table);
-                        break;
-                    case "Weapon":
-                        PlayerEquiped.Weapon.setData(eqp, _selected_slot_table);
-                        break;
-                    case "Body":
-                        PlayerEquiped.Body.setData(eqp, _selected_slot_table);
-                        break;
-                    case "Shield":
-                        PlayerEquiped.Shield.setData(eqp, _selected_slot_table);
-                        break;
-                    case "Legs":
-                        PlayerEquiped.Legs.setData(eqp, _selected_slot_table);
-                        break;
-                    case "Feet":
-                        PlayerEquiped.Feet.setData(eqp, _selected_slot_table);
-                        break;
-                    case "Hands":
-                        PlayerEquiped.Hands.setData(eqp, _selected_slot_table);
-                        break;
-                    case "Ring":
-                        PlayerEquiped.Ring.setData(eqp, _selected_slot_table);
-                        break;
-                }
-            }
-        }
+        
 
         private string getEquipmentData(string equipment_name)
         {
-            foreach (string eqp in _selected_slot_table_lines)
+            foreach (string eqp in _lines)
             {
                 if (eqp.Contains(equipment_name))
                     return eqp;
             }
             return "";
         }
-        private string[] getCSV()
+
+
+        private string[] getCSV(string selected_slot_table)
         {
             string[] lines = null;
-            switch (SelectedSlotTable)
+            switch (selected_slot_table)
             {
                 case "Head":
                     lines = Properties.Resources.Head_slot_table.Split('\n');
@@ -165,11 +105,11 @@ namespace OSRSComSim.ViewModels
             lines = lines.Take(lines.Count() - 1).ToArray();
             return lines;
         }
-        private void prepareTempEquipmentsData(string[] selected_slot_table_lines)
-        {
-            _selected_slot_table_lines = selected_slot_table_lines;
-        }
 
+        public void select(string equipment_name)
+        {
+            _wornequipmentviewmodel.mountEquipment(getEquipmentData(equipment_name));
+        }
         public void stopView()
         {
             _wornequipmentviewmodel.selectEquipment = null;

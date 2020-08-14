@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Navigation;
@@ -12,6 +13,8 @@ namespace OSRSComSim.ViewModels
 {
     public class WornEquipmentViewModel : ObservableObject
     {
+        private string selected_slot_table = "";
+
         private bool _show_select;
         private Equiped _player_equiped;
         private SelectEquipmentViewModel _select_equipment;
@@ -24,7 +27,6 @@ namespace OSRSComSim.ViewModels
             set
             {
                 _select_equipment = value;
-                setEquipmentInfo();
                 OnPropertyChanged("selectEquipment");
             }
         }
@@ -47,7 +49,8 @@ namespace OSRSComSim.ViewModels
             }
         }
 
-        public WornEquipmentViewModel(): this (null, true) { }
+
+        public WornEquipmentViewModel() : this(null, true) { }
         public WornEquipmentViewModel(Equiped player_equiped = null, bool view_mode = true)
         {
 
@@ -63,15 +66,18 @@ namespace OSRSComSim.ViewModels
             View = new WornEquipmentView(this);
         }
 
-        public void viewSelectEquipment(string selected_slot_table)
+        public void manageEquipment(string selected_slot_table, bool mount = false)
         {
-            if (_show_select)
-                selectEquipment = new SelectEquipmentViewModel(this, PlayerEquiped, selected_slot_table);
-        }
-        public void stopSelectEquipment()
-        {
-            selectEquipment = null;
-            setEquipmentInfo();
+            this.selected_slot_table = selected_slot_table;
+            if (mount)
+            {
+                if (_show_select)
+                    selectEquipment = new SelectEquipmentViewModel(this, PlayerEquiped, selected_slot_table);
+            }
+            else
+            {
+                mountEquipment("");
+            }
         }
 
         public void setEquipmentInfo()
@@ -95,7 +101,91 @@ namespace OSRSComSim.ViewModels
             EquipmentInfo = Info;
         }
 
-        
-    }
+        public void mountEquipment(string eqp)
+        {
+            Equipment to_mount = set_equipment(eqp);
+            switch (selected_slot_table)
+            {
+                case "Head":
+                    PlayerEquiped.Head = to_mount;
+                    break;
+                case "Neck":
+                    PlayerEquiped.Neck = to_mount;
+                    break;
+                case "Cape":
+                    PlayerEquiped.Cape = to_mount;
+                    break;
+                case "Ammo":
+                    PlayerEquiped.Ammo = to_mount;
+                    break;
+                case "Weapon":
+                    PlayerEquiped.Weapon = to_mount;
+                    break;
+                case "Body":
+                    PlayerEquiped.Body = to_mount;
+                    break;
+                case "Shield":
+                    PlayerEquiped.Shield = to_mount;
+                    break;
+                case "Legs":
+                    PlayerEquiped.Legs = to_mount;
+                    break;
+                case "Feet":
+                    PlayerEquiped.Feet = to_mount;
+                    break;
+                case "Hands":
+                    PlayerEquiped.Hands = to_mount;
+                    break;
+                case "Ring":
+                    PlayerEquiped.Ring = to_mount;
+                    break;
+                default:
+                    break;
+            }
+            setEquipmentInfo();
+        }
 
+        public Equipment set_equipment(string eqp)
+        {
+            if (eqp != "")
+            {
+                //if (values[1].Contains("Free-to-play")) Member = false;   !!!!!!!!!!!!!!!!!!!
+                //else Member = true;                                       !!!!!!!!!!!!!!!!!!!
+                string[] values = eqp.Split(',');
+                Equipment to_mount = new Equipment(selected_slot_table)
+                {
+                    Name = values[0],
+                    StabAtk = Int32.Parse(values[2]),
+                    SlashAtk = Int32.Parse(values[3]),
+                    CrushAtk = Int32.Parse(values[4]),
+                    MagicAtk = Int32.Parse(values[5]),
+                    RangedAtk = Int32.Parse(values[6]),
+                    StabDef = Int32.Parse(values[7]),
+                    SlashDef = Int32.Parse(values[8]),
+                    CrushDef = Int32.Parse(values[9]),
+                    MagicDef = Int32.Parse(values[10]),
+                    RangedDef = Int32.Parse(values[11]),
+                    MeleStr = Int32.Parse(values[12]),
+                    RangedStr = Int32.Parse(values[13]),
+                    MagicStr = Int32.Parse(values[14]),
+                    Prayer = Int32.Parse(values[15]),
+                    Weigth = Double.Parse(values[16]),
+                    Speed = Int32.Parse(values[17]),
+                    Png = "../Resources/Items/png/" + selected_slot_table + "/" + values[0].Replace(" ", "_") + ".png"
+                };
+                return to_mount;
+            }
+            else
+            {
+                return new Equipment(selected_slot_table);
+            }
+        }
+
+
+
+
+
+
+
+    }
 }

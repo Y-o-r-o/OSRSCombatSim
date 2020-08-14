@@ -32,7 +32,7 @@ namespace OSRSComSim.Views
 
         private void Slot_Clicked(object sender, RoutedEventArgs e)
         {
-            view_model.viewSelectEquipment(((Button)sender).Tag.ToString());
+            view_model.manageEquipment(((Button)sender).Tag.ToString(), ((((Button)sender).Content) as Image).Source.ToString().Contains("slot"));
         }
 
     }

@@ -26,6 +26,5 @@ namespace OSRSComSim.ViewModels
             View = new CombatOptionsView(this);
         }
 
-
     }
 }

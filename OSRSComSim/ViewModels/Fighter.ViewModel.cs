@@ -10,6 +10,8 @@ namespace OSRSComSim.ViewModels
         const int gameticks = 600;
         private const int status_show_time = 1000;
 
+        Thread th_show_stats;
+
         private ControlPanelViewModel _controlpanel;
         private int _health_taken;
         private Combat _fcombat;

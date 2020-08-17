@@ -1,4 +1,6 @@
-﻿namespace OSRSComSim.Models
+﻿using System;
+
+namespace OSRSComSim.Models
 {
     public class Skills: ObservableObject
     {
@@ -9,6 +11,7 @@
         private int _magiclvl;
         private int _rangedlvl;
         private int _prayerlvl;
+        private int _total_combat_lvl;
 
         public int Hp_lvl
         {
@@ -19,6 +22,7 @@
                 if (value >= 10 && value < 100)
                 {
                     _hplvl = value;
+                    setTotalCombatLevel();
                     OnPropertyChanged("Hp_lvl");
                 }
             }
@@ -32,6 +36,7 @@
                 if (value >= 1 && value < 100)
                 {
                     _deflvl = value;
+                    setTotalCombatLevel();
                     OnPropertyChanged("Def_lvl");
                 }
             }
@@ -45,6 +50,7 @@
                 if (value >= 1 && value < 100)
                 {
                     _strlvl = value;
+                    setTotalCombatLevel();
                     OnPropertyChanged("Str_lvl");
                 }
             }
@@ -58,6 +64,7 @@
                 if (value >= 1 && value < 100)
                 {
                     _atklvl = value;
+                    setTotalCombatLevel();
                     OnPropertyChanged("Atk_lvl");
                 }
             }
@@ -71,6 +78,7 @@
                 if (value >= 1 && value < 100)
                 {
                     _magiclvl = value;
+                    setTotalCombatLevel();
                     OnPropertyChanged("Magic_lvl");
                 }
             }
@@ -84,6 +92,7 @@
                 if (value >= 1 && value < 100)
                 {
                     _rangedlvl = value;
+                    setTotalCombatLevel();
                     OnPropertyChanged("Ranged_lvl");
                 }
             }
@@ -97,10 +106,21 @@
                 if (value >= 1 && value < 100)
                 {
                     _prayerlvl = value;
+                    setTotalCombatLevel();
                     OnPropertyChanged("Prayer_lvl");
                 }
             }
         }
+        public int TotalCombat_lvl 
+        {
+            get { return _total_combat_lvl; }
+            set
+            {
+                _total_combat_lvl = value;
+                OnPropertyChanged("TotalCombat_lvl");
+            }
+        }
+
 
         public Skills() : this(10, 1, 1, 1, 1 , 1, 1) { }
         public Skills(int hp_lvl = 10, int def_lvl = 1, int str_lvl = 1, int atk_lvl = 1,int magic_lvl = 1, int ranged_lvl = 1, int prayer_lvl = 1)
@@ -112,8 +132,25 @@
             this.Magic_lvl = magic_lvl;
             this.Ranged_lvl = ranged_lvl;
             this.Prayer_lvl = prayer_lvl;
-
         }
 
+        private void setTotalCombatLevel()
+        {
+            double t_base = (double)1 / 4 * (Def_lvl + Hp_lvl + (Prayer_lvl * (double)1 / 2));
+
+            double t_mele  = ((double)13/40) * (Atk_lvl + Str_lvl);
+            double t_ranged = ((double)13 / 40) * (Ranged_lvl * (double)1.5);
+            double t_magic = ((double)13 / 40) * (Magic_lvl * (double)1.5);
+
+            if (t_mele >= t_ranged && t_mele >= t_magic) 
+            {
+                TotalCombat_lvl = Convert.ToInt32(Math.Floor(t_base + t_mele)); 
+            }
+            else if (t_ranged >= t_magic)
+            {
+                TotalCombat_lvl = Convert.ToInt32(Math.Floor(t_base + t_ranged));
+            }
+            else TotalCombat_lvl = Convert.ToInt32(Math.Floor(t_base + t_magic));
+        }
     }
 }

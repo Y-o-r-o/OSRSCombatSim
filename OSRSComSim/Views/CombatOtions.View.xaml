@@ -38,7 +38,7 @@
         </StackPanel>
         <StackPanel Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" Orientation="Horizontal">
             <TextBlock Foreground="Yellow" TextAlignment="Center" Text="total combat lvl: "/>
-            <TextBlock Foreground="Yellow" TextAlignment="Center"/>
+            <TextBlock Foreground="Yellow" TextAlignment="Center" Text="{Binding FighterCombat.PlayerSkills.TotalCombat_lvl}"/>
         </StackPanel>
             
         <Button Grid.Row="2">Stab</Button>

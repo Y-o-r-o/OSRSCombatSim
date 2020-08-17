@@ -7,6 +7,7 @@ using System.Xml.Serialization;
 
 using OSRSComSim.Models;
 using System.Collections.ObjectModel;
+using System.CodeDom;
 
 namespace OSRSComSim
 {
@@ -60,7 +61,6 @@ namespace OSRSComSim
                 serializer.Serialize(fs, player);
                 fs.Close();
             }
-            //Console.WriteLine("Saved!");
         }
         
         public static bool CheckIfPlayerExists(string name)
@@ -68,21 +68,11 @@ namespace OSRSComSim
             return File.Exists(path + "SavedPlayer_" + name + ".xml");
         }
 
-        /*
-        private static bool CheckIfPlayerSaveFileExists(string path)
+        public static bool CheckIfFileExists(string location)
         {
-            if (File.Exists(path)) return true;
-            else return false;
+            string temp_location = location.Replace("/", @"\");
+            return File.Exists(@temp_location);
         }
 
-        public static int FindPlayer(List<Players> players, string name)
-        {
-            for (int i = 0; i < players.Count; i++)
-            {
-
-                if (name == players[i].name) return i;
-            }
-            return -1;
-        }*/
     }
 }

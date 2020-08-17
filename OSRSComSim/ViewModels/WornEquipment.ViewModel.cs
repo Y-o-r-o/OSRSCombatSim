@@ -171,7 +171,7 @@ namespace OSRSComSim.ViewModels
                     Prayer = Int32.Parse(values[15]),
                     Weigth = Double.Parse(values[16]),
                     Speed = Int32.Parse(values[17]),
-                    Png = "../Resources/Items/png/" + selected_slot_table + "/" + values[0].Replace(" ", "_") + ".png"
+                    Png = setPng(values[0])
                 };
                 return to_mount;
             }
@@ -181,7 +181,16 @@ namespace OSRSComSim.ViewModels
             }
         }
 
+        private string setPng(string png_name)
+        {
+            string png_location = "../../Resources/Items/png/" + selected_slot_table + "/" + png_name.Replace(" ", "_") + ".png";
+            if (Data_store.CheckIfFileExists(png_location))
+            {
+                return png_location;
+            }
+            else return "../../Resources/404.png";
 
+        }
 
 
 

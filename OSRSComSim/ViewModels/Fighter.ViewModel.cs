@@ -1,11 +1,7 @@
 ﻿using OSRSComSim.Models;
 using OSRSComSim.Views;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace OSRSComSim.ViewModels
 {
@@ -13,8 +9,6 @@ namespace OSRSComSim.ViewModels
     {
         const int gameticks = 600;
         private const int status_show_time = 1000;
-
-        private Thread th_show_stats;
 
         private ControlPanelViewModel _controlpanel;
         private int _health_taken;

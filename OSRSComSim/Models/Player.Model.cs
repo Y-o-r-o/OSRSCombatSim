@@ -1,10 +1,4 @@
-﻿using System;
-using System.Dynamic;
-using System.Runtime.Serialization;
-using System.Runtime.Serialization.Formatters.Binary;
-
-
-namespace OSRSComSim.Models
+﻿namespace OSRSComSim.Models
 {
     public class Player: ObservableObject
     {

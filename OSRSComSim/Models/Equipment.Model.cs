@@ -51,7 +51,7 @@
                     break;
                 case "Weapon":
                     Png = "../Resources/App/Equipment/Weapon_slot.png";
-                    Name = "Fists";
+                    Name = "Unarmed";
                     Speed = 4;
                     break;
                 case "Body":

@@ -56,6 +56,7 @@
             set
             {
                 _weapon = value;
+                setWeaponType();
                 OnPropertyChanged("Weapon");
             }
         }
@@ -129,7 +130,10 @@
             Ring = new Equipment("Ring");
         }
 
-
+        private void setWeaponType()
+        {
+           // if (Weapon.Name)
+        }
         public int getTotalStabAtk()
         {
             return Head.StabAtk + Neck.StabAtk + Cape.StabAtk + Ammo.StabAtk + Weapon.StabAtk + Body.StabAtk + Shield.StabAtk + Legs.StabAtk + Feet.StabAtk + Hands.StabAtk + Ring.StabAtk;

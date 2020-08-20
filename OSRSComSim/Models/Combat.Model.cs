@@ -4,15 +4,12 @@ namespace OSRSComSim.Models
 {
     public class Combat
     {
-        private string combat_type = "Mele";
-        private string mele_atk_type = "Slash";
 
         public Skills PlayerSkills { get; set; }
         public Equiped PlayerEquipment { get; set; }
+        public CombatCurretOptionModel CurretOptions {get; set;}
 
-
-        private int stanc_bonus = 1;
-        private double void_bonus = 1;
+        private double void_bonus = 1.10;
 
         private int piercing_lvl = 0;
         private int dmage_lvl = 0;
@@ -38,6 +35,7 @@ namespace OSRSComSim.Models
             if (player_equipment != null)
                 PlayerEquipment = player_equipment;
             else PlayerEquipment = new Equiped();
+            CurretOptions = new CombatCurretOptionModel();
         }
 
         public string Attack(int deffender_def_roll)
@@ -88,39 +86,32 @@ namespace OSRSComSim.Models
 
         private double effective_level_dmage()
         {
-            return Math.Floor((Math.Floor(dmage_lvl * prayer_dmage_bonus) + stanc_bonus + 8) * void_bonus);
+            return Math.Floor((Math.Floor(dmage_lvl * prayer_dmage_bonus) + CurretOptions.StancBonusStr + 8) * void_bonus);
         }
 
         private double effective_level_piercing()
         {
-            return Math.Floor((Math.Floor(piercing_lvl * prayer_piercing_bonus) + stanc_bonus + 8) * void_bonus);
+            return Math.Floor((Math.Floor(piercing_lvl * prayer_piercing_bonus) + CurretOptions.StancBonusAtk + 8) * void_bonus);
             
         }
 
         private double effective_level_def()
         {
-            return Math.Floor((Math.Floor(def_lvl * prayer_def_bonus) + stanc_bonus + 8) * void_bonus);
+            return Math.Floor((Math.Floor(def_lvl * prayer_def_bonus) + CurretOptions.StancBonusDef + 8) * void_bonus);
         }
 
         private void set_stats_for_attacker()
         {
-            switch (combat_type)
+            string value = CurretOptions.CombatType;
+            switch (value)
             {
-                case "Mele":
-                    switch (mele_atk_type)
-                    {
-                        case "Slash":
-                            eq_piercing_bonus = PlayerEquipment.getTotalSlashAtk();
-                            break;
-                        case "Stab":
-                            eq_piercing_bonus = PlayerEquipment.getTotalStabAtk();
-                            break;
-                        case "Crush":
-                            eq_piercing_bonus = PlayerEquipment.getTotalCrushAtk();
-                            break;
-                        default:
-                            break;
-                    }
+
+                case "Slash":
+                case "Stab":
+                case "Crush":
+                    if(value.Equals("Slash")) eq_piercing_bonus = PlayerEquipment.getTotalSlashAtk();
+                    if(value.Equals("Stab")) eq_piercing_bonus = PlayerEquipment.getTotalStabAtk();
+                    if(value.Equals("Crush")) eq_piercing_bonus = PlayerEquipment.getTotalCrushAtk();
                     eq_dmage_bonus = PlayerEquipment.getTotalMeleStr();
                     prayer_piercing_bonus = 1;
                     prayer_dmage_bonus = 1;
@@ -140,8 +131,8 @@ namespace OSRSComSim.Models
                     eq_dmage_bonus = PlayerEquipment.getTotalRangedStr();
                     prayer_piercing_bonus = 1;
                     prayer_dmage_bonus = 1;
-                    dmage_lvl = PlayerSkills.Magic_lvl;
-                    piercing_lvl = PlayerSkills.Magic_lvl;
+                    dmage_lvl = PlayerSkills.Ranged_lvl;
+                    piercing_lvl = PlayerSkills.Ranged_lvl;
                     break;
                 default:
                     break;
@@ -150,10 +141,10 @@ namespace OSRSComSim.Models
 
         private void set_stats_for_deffender(Combat attacker_combat)
         {
-            switch (attacker_combat.combat_type)
+            switch (attacker_combat.CurretOptions.CombatType)
             {
                 case "Mele":
-                    switch (attacker_combat.mele_atk_type)
+                    switch (attacker_combat.CurretOptions.MeleAtkType)
                     {
                         case "Slash":
                             eq_def_bonus = PlayerEquipment.getTotalSlashDef();

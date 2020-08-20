@@ -76,21 +76,21 @@ namespace OSRSComSim.ViewModels
         public void setEquipmentInfo()
         {
             string Info = "";
-            Info = "SlashAtk " + PlayerEquiped.getTotalSlashAtk() + "\n";
-            Info += "StabAtk " + PlayerEquiped.getTotalStabAtk() + "\n";
-            Info += "CrushAtk " + PlayerEquiped.getTotalCrushAtk() + "\n";
-            Info += "MagicAtk " + PlayerEquiped.getTotalMagicAtk() + "\n";
-            Info += "RangedAtk " + PlayerEquiped.getTotalRangedAtk() + "\n";
-            Info += "SlashDef " + PlayerEquiped.getTotalSlashDef() + "\n";
-            Info += "StabDef " + PlayerEquiped.getTotalStabDef() + "\n";
-            Info += "CrushDef " + PlayerEquiped.getTotalCrushDef() + "\n";
-            Info += "MagicDef " + PlayerEquiped.getTotalMagicDef() + "\n";
-            Info += "RangedDef " + PlayerEquiped.getTotalRangedDef() + "\n";
-            Info += "MeleStr " + PlayerEquiped.getTotalMeleStr() + "\n";
-            Info += "MagicStr " + PlayerEquiped.getTotalMagicStr() + "\n";
-            Info += "RangedStr " + PlayerEquiped.getTotalRangedStr() + "\n";
-            Info += "Prayer " + PlayerEquiped.getTotalPrayer() + "\n";
-            Info += "Weigth " + PlayerEquiped.getTotalWeigth() + "\n";
+            Info =  "SlashAtk  " + PlayerEquiped.getTotalSlashAtk().ToString().PadRight(5) + "\n";
+            Info += "StabAtk   " + PlayerEquiped.getTotalStabAtk().ToString().PadRight(5) + "\n";
+            Info += "CrushAtk  " + PlayerEquiped.getTotalCrushAtk().ToString().PadRight(5) + "\n";
+            Info += "MagicAtk  " + PlayerEquiped.getTotalMagicAtk().ToString().PadRight(5) + "\n";
+            Info += "RangedAtk " + PlayerEquiped.getTotalRangedAtk().ToString().PadRight(5) + "\n";
+            Info += "SlashDef  " + PlayerEquiped.getTotalSlashDef().ToString().PadRight(5) + "\n";
+            Info += "StabDef   " + PlayerEquiped.getTotalStabDef().ToString().PadRight(5) + "\n";
+            Info += "CrushDef  " + PlayerEquiped.getTotalCrushDef().ToString().PadRight(5) + "\n";
+            Info += "MagicDef  " + PlayerEquiped.getTotalMagicDef().ToString().PadRight(5) + "\n";
+            Info += "RangedDef " + PlayerEquiped.getTotalRangedDef().ToString().PadRight(5) + "\n";
+            Info += "MeleStr   " + PlayerEquiped.getTotalMeleStr().ToString().PadRight(5) + "\n";
+            Info += "MagicStr  " + PlayerEquiped.getTotalMagicStr().ToString().PadRight(5) + "\n";
+            Info += "RangedStr " + PlayerEquiped.getTotalRangedStr().ToString().PadRight(5) + "\n";
+            Info += "Prayer    " + PlayerEquiped.getTotalPrayer().ToString().PadRight(5) + "\n";
+            Info += "Weigth    " + PlayerEquiped.getTotalWeigth().ToString().PadRight(5) + "\n";
             EquipmentInfo = Info;
         }
 
@@ -164,8 +164,12 @@ namespace OSRSComSim.ViewModels
                     Prayer = Int32.Parse(values[15]),
                     Weigth = Double.Parse(values[16]),
                     Speed = Int32.Parse(values[17]),
-                    Png = setPng(values[0])
+                    Png = setPng(values[0]),
                 };
+                if (selected_slot_table.Contains("Weapon"))
+                {
+                    to_mount.WeaponType = values[18];
+                }
                 return to_mount;
             }
             else

@@ -90,7 +90,7 @@
                     <Image Source="{Binding PlayerEquiped.Ring.Png}"/>
                 </Button>
                 <Viewbox Stretch="Uniform" Grid.Column="8" Grid.Row="1" Grid.RowSpan="10">
-                    <TextBlock x:Name="EquipmentInfo" Text="{Binding EquipmentInfo}" TextWrapping="Wrap" Foreground="Yellow"/>
+                    <TextBlock x:Name="EquipmentInfo" Text="{Binding EquipmentInfo}" TextWrapping="Wrap"  Foreground="Yellow" FontFamily="Consolas"/>
                 </Viewbox>
             </Grid>
         </Viewbox>

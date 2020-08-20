@@ -2,6 +2,7 @@
 {
     public class Equipment : ObservableObject
     {
+        private string _weapon_type = null;
         private string _png = "";
         //lvl ...
         public string Name { get; set; } = "";
@@ -22,6 +23,15 @@
         public int Prayer { get; set; } = 0;
         public double Weigth { get; set; } = 0;
         public int Speed { get; set; } = 0;
+        public string WeaponType
+        {
+            get { return _weapon_type; }
+            set
+            {
+                _weapon_type = value;
+                OnPropertyChanged("WeaponType");
+            }
+        }
         public string Png
         {
             get { return _png; }
@@ -31,6 +41,7 @@
                 OnPropertyChanged("Png");
             }
         }
+
 
         public Equipment (): this(null) { }
         public Equipment(string equipment_type)
@@ -50,9 +61,10 @@
                     Png = "../Resources/App/Equipment/Ammo_slot.png";
                     break;
                 case "Weapon":
-                    Png = "../Resources/App/Equipment/Weapon_slot.png";
                     Name = "Unarmed";
                     Speed = 4;
+                    WeaponType = "Unarmed";
+                    Png = "../Resources/App/Equipment/Weapon_slot.png";
                     break;
                 case "Body":
                     Png = "../Resources/App/Equipment/Body_slot.png";

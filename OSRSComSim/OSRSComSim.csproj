@@ -72,6 +72,7 @@
     </ApplicationDefinition>
     <Compile Include="Data_store.cs" />
     <Compile Include="Models\Combat.Model.cs" />
+    <Compile Include="Models\CombatCurretOption.Model.cs" />
     <Compile Include="Models\Equiped.Model.cs" />
     <Compile Include="Models\Equipment.Model.cs" />
     <Compile Include="Models\Player.Model.cs" />

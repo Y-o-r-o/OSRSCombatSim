@@ -1,4 +1,5 @@
 ﻿using OSRSComSim.ViewModels;
+using System.Windows;
 using System.Windows.Controls;
 
 namespace OSRSComSim.Views
@@ -13,6 +14,14 @@ namespace OSRSComSim.Views
             view_model = VM;
             DataContext = view_model;
             InitializeComponent();
+        }
+
+        private void CombatOption_Set(object sender, RoutedEventArgs e)
+        {
+            view_model.setCombat(
+                (((sender as RadioButton).Content as StackPanel).Children[0] as TextBlock).Text,
+                (((sender as RadioButton).Content as StackPanel).Children[1] as TextBlock).Text
+            );
         }
     }
 }

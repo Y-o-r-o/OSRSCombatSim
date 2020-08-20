@@ -18,7 +18,6 @@ namespace OSRSComSim.Models
 
 
         private string _combat_type;
-        private string _mele_atk_type;
 
         public string CombatType
         {
@@ -28,17 +27,6 @@ namespace OSRSComSim.Models
             {
                 _combat_type = value;
                 OnPropertyChanged("CombatType");
-            }
-        }
-        public string MeleAtkType
-        {
-            get
-            { return _mele_atk_type; }
-            set
-            {
-                _mele_atk_type = value;
-                OnPropertyChanged("MeleAtkType");
-
             }
         }
 
@@ -82,7 +70,7 @@ namespace OSRSComSim.Models
                 OnPropertyChanged("StancBonusSpd");
             }
         } //speed
-        public int StancBonusrRng
+        public int StancBonusRng
         {
             get
             { return _stanc_bonus_rng; }
@@ -90,6 +78,17 @@ namespace OSRSComSim.Models
             {
                 _stanc_bonus_rng = value;
                 OnPropertyChanged("StancBonusrRng");
+            }
+        }
+
+        private string _debug;
+        public string Debug
+        {
+            get { return _debug; }
+            set
+            {
+                _debug = value;
+                OnPropertyChanged("Debug");
             }
         }
 
@@ -147,6 +146,7 @@ namespace OSRSComSim.Models
                 case "Lunge":
                 case "StabJab":
                 case "StabFend":
+                case "Stab":
                 case "Spike":
                 case "Impale":
                 case "StabBlock":
@@ -162,53 +162,53 @@ namespace OSRSComSim.Models
             switch (attack_type)
             {
                 case "Accurate":
-                    _stanc_bonus_def = 0;
-                    _stanc_bonus_str = 0;
-                    _stanc_bonus_atk = 3;
-                    _stanc_bonus_spd = 0;
-                    _stanc_bonus_rng = 0;
+                    StancBonusDef = 0;
+                    StancBonusStr = 0;
+                    StancBonusAtk = 3;
+                    StancBonusSpd = 0;
+                    StancBonusRng = 0;
                     break;
-                case "Aggressive":
-                    _stanc_bonus_def = 0;
-                    _stanc_bonus_str = 3;
-                    _stanc_bonus_atk = 0;
-                    _stanc_bonus_spd = 0;
-                    _stanc_bonus_rng = 0;
+                case "Aggresive":
+                    StancBonusDef = 0;
+                    StancBonusStr = 3;
+                    StancBonusAtk = 0;
+                    StancBonusSpd = 0;
+                    StancBonusRng = 0;
                     break;
                 case "Defensive":
-                    _stanc_bonus_def = 3;
-                    _stanc_bonus_str = 0;
-                    _stanc_bonus_atk = 0;
-                    _stanc_bonus_spd = 0;
-                    _stanc_bonus_rng = 0;
+                    StancBonusDef = 3;
+                    StancBonusStr = 0;
+                    StancBonusAtk = 0;
+                    StancBonusSpd = 0;
+                    StancBonusRng = 0;
                     break;
                 case "Controlled":
-                    _stanc_bonus_def = 1;
-                    _stanc_bonus_str = 1;
-                    _stanc_bonus_atk = 1;
-                    _stanc_bonus_spd = 0;
-                    _stanc_bonus_rng = 0;
+                    StancBonusDef = 1;
+                    StancBonusStr = 1;
+                    StancBonusAtk = 1;
+                    StancBonusSpd = 0;
+                    StancBonusRng = 0;
                     break;
                 case "Rapid":
-                    _stanc_bonus_def = 0;
-                    _stanc_bonus_str = 0;
-                    _stanc_bonus_atk = 0;
-                    _stanc_bonus_spd = 1;
-                    _stanc_bonus_rng = 0;
+                    StancBonusDef = 0;
+                    StancBonusStr = 0;
+                    StancBonusAtk = 0;
+                    StancBonusSpd = 1;
+                    StancBonusRng = 0;
                     break;
                 case "Longrange":
-                    _stanc_bonus_def = 0;
-                    _stanc_bonus_str = 0;
-                    _stanc_bonus_atk = 0;
-                    _stanc_bonus_spd = 0;
-                    _stanc_bonus_rng = 2;
+                    StancBonusDef = 0;
+                    StancBonusStr = 0;
+                    StancBonusAtk = 0;
+                    StancBonusSpd = 0;
+                    StancBonusRng = 2;
                     break;
                 default:
-                    _stanc_bonus_def = 0;
-                    _stanc_bonus_str = 0;
-                    _stanc_bonus_atk = 0;
-                    _stanc_bonus_spd = 0;
-                    _stanc_bonus_rng = 0;
+                    StancBonusDef = 0;
+                    StancBonusStr = 0;
+                    StancBonusAtk = 0;
+                    StancBonusSpd = 0;
+                    StancBonusRng = 0;
                     break;
             }
         }

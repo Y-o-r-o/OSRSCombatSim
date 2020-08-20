@@ -2,12 +2,21 @@
 
 namespace OSRSComSim.Models
 {
-    public class Combat
+    public class Combat: ObservableObject
     {
+        private CombatCurretOptionModel _curretoptions;
 
         public Skills PlayerSkills { get; set; }
         public Equiped PlayerEquipment { get; set; }
-        public CombatCurretOptionModel CurretOptions {get; set;}
+        public CombatCurretOptionModel CurretOptions
+        {
+            get { return _curretoptions; }
+            set
+            {
+                _curretoptions = value;
+                OnPropertyChanged("CurretOptions");
+            }
+        }
 
         private double void_bonus = 1.10;
 
@@ -109,9 +118,9 @@ namespace OSRSComSim.Models
                 case "Slash":
                 case "Stab":
                 case "Crush":
-                    if(value.Equals("Slash")) eq_piercing_bonus = PlayerEquipment.getTotalSlashAtk();
-                    if(value.Equals("Stab")) eq_piercing_bonus = PlayerEquipment.getTotalStabAtk();
-                    if(value.Equals("Crush")) eq_piercing_bonus = PlayerEquipment.getTotalCrushAtk();
+                     eq_piercing_bonus = PlayerEquipment.getTotalSlashAtk();
+                    eq_piercing_bonus = PlayerEquipment.getTotalStabAtk();
+                     eq_piercing_bonus = PlayerEquipment.getTotalCrushAtk();
                     eq_dmage_bonus = PlayerEquipment.getTotalMeleStr();
                     prayer_piercing_bonus = 1;
                     prayer_dmage_bonus = 1;
@@ -141,23 +150,15 @@ namespace OSRSComSim.Models
 
         private void set_stats_for_deffender(Combat attacker_combat)
         {
-            switch (attacker_combat.CurretOptions.CombatType)
+            string value = attacker_combat.CurretOptions.CombatType;
+            switch (value)
             {
-                case "Mele":
-                    switch (attacker_combat.CurretOptions.MeleAtkType)
-                    {
-                        case "Slash":
-                            eq_def_bonus = PlayerEquipment.getTotalSlashDef();
-                            break;
-                        case "Stab":
-                            eq_def_bonus = PlayerEquipment.getTotalStabDef();
-                            break;
-                        case "Crush":
-                            eq_def_bonus = PlayerEquipment.getTotalCrushDef();
-                            break;
-                        default:
-                            break;
-                    }
+                case "Slash":
+                case "Stab":
+                case "Crush":
+                    if (value.Equals("Slash")) eq_def_bonus = PlayerEquipment.getTotalSlashDef();
+                    if (value.Equals("Stab")) eq_def_bonus = PlayerEquipment.getTotalStabDef();
+                    if (value.Equals("Crush")) eq_def_bonus = PlayerEquipment.getTotalCrushDef();
                     prayer_def_bonus = 1;
                     break;
                 case "Magic":

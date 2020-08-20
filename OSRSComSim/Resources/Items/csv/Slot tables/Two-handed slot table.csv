@@ -1,160 +1,160 @@
-Name,Member,StabAtk,SlashAtk,CrushAtk,MagicAtk,RangedAtk,StabDef,SlashDef,CrushDef,MagicDef,RangedDef,MeleStr,RangedStr,MagicStr,Prayer,Weigth,Speed
-3rd age bow,Members,0,0,0,0,80,0,0,0,0,0,0,0,0,0,3.175,4,Bows
-Abyssal bludgeon,Members,0,0,102,0,0,0,0,0,0,0,85,0,0,0,6,4,Blunt weapons
-Adamant 2h sword,Free-to-play,-4,43,30,-4,0,0,0,0,0,-1,44,0,0,0,4.082,7,Two-handed swords
-Adamant claws,Members,18,23,-4,0,0,6,12,3,0,0,24,0,0,0,0.907,4,Claws
-Adamant halberd,Members,28,41,0,-4,0,-1,3,4,0,0,42,0,0,0,3.628,7,Polearms
-Adamant spear Karambwan_poison,Members,24,24,24,0,0,1,1,0,0,0,28,0,0,0,2.721,5,Spears
-Adamant spear Unpoisoned,Members,24,24,24,0,0,1,1,0,0,0,28,0,0,0,2.721,5,Spears
-Anger spear,Members,2,2,2,0,0,1,1,0,0,0,0,0,0,0,0.003,5,Spears
-Armadyl godsword,Members,0,132,80,0,0,0,0,0,0,0,132,0,0,8,10,6,Two-handed swords
-Bandos godsword,Members,0,132,80,0,0,0,0,0,0,0,132,0,0,8,10,6,Two-handed swords
-Barrelchest anchor Broken,Members,-2,10,92,0,0,0,0,0,0,0,100,0,0,0,30,6,Spiked weapons
-Barrelchest anchor Fixed,Members,-2,10,92,0,0,0,0,0,0,0,100,0,0,0,30,6,Spiked weapons
-Beach boxing gloves Pink,Free-to-play,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0.453,4,Claws
-Beach boxing gloves Yellow,Free-to-play,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0.453,4,Claws
-Birthday cake,Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,0.48,4,Blunt weapons
-Black 2h sword,Free-to-play,-4,27,21,-4,0,0,0,0,0,-1,26,0,0,0,3.628,7,Two-handed swords
-Black claws,Members,10,14,-4,0,0,4,7,2,0,0,14,0,0,0,0.907,4,Claws
-Black halberd,Members,19,25,0,-4,0,-1,2,3,0,0,20,0,0,0,3.175,7,Polearms
-Black salamander,Members,0,59,0,0,69,0,0,0,0,0,71,0,0,0,4,5,Salamanders
-Black spear Karambwan_poison,Members,15,15,15,0,0,1,1,0,0,0,16,0,0,0,2.267,5,Spears
-Black spear Unpoisoned,Members,15,15,15,0,0,1,1,0,0,0,16,0,0,0,2.267,5,Spears
-Bronze 2h sword,Free-to-play,-4,9,8,-4,0,0,0,0,0,-1,10,0,0,0,3.628,7,Two-handed swords
-Bronze claws,Members,3,4,-4,0,0,1,2,1,0,0,5,0,0,0,0.907,4,Claws
-Bronze halberd,Members,7,8,0,-4,0,-1,1,2,0,0,8,0,0,0,3.175,7,Polearms
-Bronze spear Karambwan_poison,Members,5,5,5,0,0,1,1,0,0,0,6,0,0,0,2.267,5,Spears
-Bronze spear Unpoisoned,Members,5,5,5,0,0,1,1,0,0,0,6,0,0,0,2.267,5,Spears
-Comp ogre bow,Members,0,0,0,0,38,0,0,0,0,0,0,0,0,0,1.814,5,Bows
-Corrupted bow (attuned),Members,0,0,0,0,118,0,0,0,0,0,0,88,0,1,1.814,5,Bows
-Corrupted bow (basic),Members,0,0,0,0,72,0,0,0,0,0,0,42,0,1,1.814,5,Bows
-Corrupted bow (perfected),Members,0,0,0,0,172,0,0,0,0,0,0,138,0,3,1.814,5,Bows
-Corrupted halberd (attuned),Members,114,114,12,0,0,0,0,0,0,0,88,0,0,2,1.814,4,Polearms
-Corrupted halberd (basic),Members,68,68,4,0,0,0,0,0,0,0,42,0,0,1,1.814,4,Polearms
-Corrupted halberd (perfected),Members,166,166,28,0,0,0,0,0,0,0,138,0,0,3,1.814,4,Polearms
-Corrupted staff (attuned),Members,0,0,0,128,0,0,0,0,0,0,0,0,0,2,1.36,4,Powered staves
-Corrupted staff (basic),Members,0,0,0,84,0,0,0,0,0,0,0,0,0,1,1.36,4,Powered staves
-Corrupted staff (perfected),Members,0,0,0,184,0,0,0,0,0,0,0,0,0,3,1.36,4,Powered staves
-Crate with zanik,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,Unarmed
-Craw's bow Charged,Members,0,0,0,0,75,0,0,0,0,0,0,60,0,0,3.175,4,Bows
-Craw's bow Uncharged,Members,0,0,0,0,75,0,0,0,0,0,0,60,0,0,3.175,4,Bows
-Crystal bow,Members,0,0,0,0,100,0,0,0,0,0,0,70,0,0,1.814,5,Bows
-Crystal bow (attuned),Members,0,0,0,0,118,0,0,0,0,0,0,88,0,1,1.814,5,Bows
-Crystal bow (basic),Members,0,0,0,0,72,0,0,0,0,0,0,42,0,1,1.814,5,Bows
-Crystal bow (perfected),Members,0,0,0,0,172,0,0,0,0,0,0,138,0,3,1.814,5,Bows
-Crystal halberd,Members,85,110,5,-4,0,-1,4,5,0,0,118,0,0,0,1.814,7,Polearms
-Crystal halberd (attuned),Members,114,114,12,0,0,0,0,0,0,0,88,0,0,2,1.814,4,Polearms
-Crystal halberd (basic),Members,68,68,4,0,0,0,0,0,0,0,42,0,0,1,1.814,4,Polearms
-Crystal halberd (perfected),Members,166,166,28,0,0,0,0,0,0,0,138,0,0,3,1.814,4,Polearms
-Crystal staff (attuned),Members,0,0,0,128,0,0,0,0,0,0,0,0,0,2,1.36,4,Powered staves
-Crystal staff (basic),Members,0,0,0,84,0,0,0,0,0,0,0,0,0,1,1.36,4,Powered staves
-Crystal staff (perfected),Members,0,0,0,184,0,0,0,0,0,0,0,0,0,3,1.36,4,Powered staves
-Cursed goblin bow,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.814,5,Bows
-Dark bow Blue,Members,0,0,0,0,95,0,0,0,0,0,0,0,0,0,1.814,9,Bows
-Dark bow Green,Members,0,0,0,0,95,0,0,0,0,0,0,0,0,0,1.814,9,Bows
-Dark bow Regular,Members,0,0,0,0,95,0,0,0,0,0,0,0,0,0,1.814,9,Bows
-Dark bow White,Members,0,0,0,0,95,0,0,0,0,0,0,0,0,0,1.814,9,Bows
-Dark bow Yellow,Members,0,0,0,0,95,0,0,0,0,0,0,0,0,0,1.814,9,Bows
-Dharok's greataxe,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3.175,7,Axes
-Dinh's bulwark,Members,0,0,110,0,0,141,145,145,0,148,38,0,0,0,30,7,Bulwarks
-Dragon 2h sword,Members,-4,92,80,-4,0,0,0,0,0,-1,93,0,0,0,3.628,7,Two-handed swords
-Dragon claws,Members,41,57,-4,0,0,13,26,7,0,0,56,0,0,0,0.907,4,Claws
-Dragon halberd,Members,70,95,0,-4,0,-1,4,5,0,0,89,0,0,0,3.175,7,Polearms
-Dragon spear Karambwan_poison,Members,55,55,55,0,0,5,5,5,5,5,60,0,0,0,2.267,5,Spears
-Dragon spear Unpoisoned,Members,55,55,55,0,0,5,5,5,5,5,60,0,0,0,2.267,5,Spears
-Dual sai,Members,11,8,-4,-4,0,0,0,0,0,0,14,0,0,0,1.36,4,Stabbing swords
-Elder maul,Members,0,0,135,-4,0,0,0,0,0,0,147,0,0,0,5.443,6,Blunt weapons
-Event rpg,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,Unarmed
-Fixed device,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,Guns
-Gadderhammer,Members,-4,-4,35,-4,0,0,0,0,0,0,35,0,0,0,1.814,5,Blunt weapons
-Giant easter egg,Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,15,4,Blunt weapons
-Giant present,Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,15,4,Blunt weapons
-Gilded 2h sword,Free-to-play,-4,69,50,-4,0,0,0,0,0,-1,70,0,0,0,3.628,7,Two-handed swords
-Gilded spade,Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,3,4,Blunt weapons
-Gilded spear,Members,36,36,36,0,0,1,1,0,0,0,42,0,0,0,2.267,5,Spears
-Granite maul Normal,Members,0,0,81,0,0,0,0,0,0,0,79,0,0,0,4.535,7,Blunt weapons
-Granite maul Ornate_handle,Members,0,0,81,0,0,0,0,0,0,0,79,0,0,0,4.535,7,Blunt weapons
-Guthan's warspear,Members,75,75,75,0,0,7,7,7,0,0,75,0,0,0,2.267,5,Spears
-Guthix mjolnir,Members,0,0,11,0,0,0,0,0,0,0,14,0,0,0,2.267,6,Polestaves
-Heavy ballista,Members,0,0,0,0,125,0,0,0,0,0,0,15,0,0,6,7,Crossbows
-Heavy casket,Members,-4,-4,11,-4,0,0,0,0,0,0,9,0,0,0,15,6,Blunt weapons
-Hill giant club,Free-to-play,-4,50,65,-4,0,0,0,0,0,-1,70,0,0,0,3.628,7,Blunt weapons
-Iron 2h sword,Free-to-play,-4,13,10,-4,0,0,0,0,0,-1,14,0,0,0,3.628,7,Two-handed swords
-Iron claws,Members,4,6,-4,0,0,2,3,1,0,0,7,0,0,0,0.907,4,Claws
-Iron halberd,Members,9,12,0,-4,0,-1,1,2,0,0,12,0,0,0,3.175,7,Polearms
-Iron spear Karambwan_poison,Members,8,8,8,0,0,1,1,0,0,0,10,0,0,0,2.267,5,Spears
-Iron spear Unpoisoned,Members,8,8,8,0,0,1,1,0,0,0,10,0,0,0,2.267,5,Spears
-Karil's crossbow,Members,0,0,0,0,84,0,0,0,0,0,0,0,0,0,3.628,4,Crossbows
-Katana,Members,7,45,0,0,0,3,7,7,0,-3,40,0,0,0,0.453,4,Slashing swords
-Large spade,Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,3,4,Blunt weapons
-Leaf-bladed spear,Members,47,42,36,0,0,1,1,0,0,0,50,0,0,0,2.267,5,Spears
-Light ballista,Members,0,0,0,0,110,0,0,0,0,0,0,0,0,0,3,7,Crossbows
-Longbow,Free-to-play,0,0,0,0,8,0,0,0,0,0,0,0,0,0,1.814,6,Bows
-Magic comp bow,Members,0,0,0,0,71,0,0,0,0,0,0,0,0,0,1.8,5,Bows
-Magic longbow,Members,0,0,0,0,69,0,0,0,0,0,0,0,0,0,1.814,6,Bows
-Magic shortbow,Members,0,0,0,0,69,0,0,0,0,0,0,0,0,0,1.36,4,Bows
-Maple longbow,Free-to-play,0,0,0,0,29,0,0,0,0,0,0,0,0,0,1.814,6,Bows
-Maple shortbow,Free-to-play,0,0,0,0,29,0,0,0,0,0,0,0,0,0,1.36,4,Bows
-Merfolk trident,Members,8,8,8,0,0,1,1,0,0,0,4,0,0,0,0.907,5,Spears
-Mithril 2h sword,Free-to-play,-4,30,24,-4,0,0,0,0,0,-1,31,0,0,0,3.175,7,Two-handed swords
-Mithril claws,Members,11,16,-4,0,0,4,8,2,0,0,17,0,0,0,0.907,4,Claws
-Mithril halberd,Members,22,28,0,-4,0,-1,2,4,0,0,29,0,0,0,2.721,7,Polearms
-Mithril spear Karambwan_poison,Members,17,17,17,0,0,1,1,0,0,0,18,0,0,0,1.814,5,Spears
-Mithril spear Unpoisoned,Members,17,17,17,0,0,1,1,0,0,0,18,0,0,0,1.814,5,Spears
-Nunchaku,Members,-4,-4,11,-4,0,0,0,0,0,0,14,0,0,0,1.36,5,Blunt weapons
-Oak longbow,Free-to-play,0,0,0,0,14,0,0,0,0,0,0,0,0,0,2.267,6,Bows
-Oak shortbow,Free-to-play,0,0,0,0,14,0,0,0,0,0,0,0,0,0,1.814,4,Bows
-Oddskull,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.001,0,Unarmed
-Ogre bow,Members,0,0,0,0,38,0,0,0,0,0,0,0,0,0,1.814,8,Bows
-Orange salamander,Members,0,19,0,0,29,0,0,0,0,0,31,0,0,0,4,5,Salamanders
-Pharaoh's sceptre,Members,7,-1,25,10,0,2,3,1,10,0,32,0,0,0,2,4,Polestaves
-Rain bow,Members,0,0,0,0,8,0,0,0,0,0,0,0,0,0,1.36,4,Bows
-Red salamander,Members,0,37,0,0,47,0,0,0,0,0,49,0,0,0,4,5,Salamanders
-Rune 2h sword,Free-to-play,-4,69,50,-4,0,0,0,0,0,-1,70,0,0,0,3.628,7,Two-handed swords
-Rune claws,Members,26,38,-4,0,0,10,19,5,0,0,39,0,0,0,0.907,4,Claws
-Rune halberd,Members,48,67,0,-4,0,-1,4,5,0,0,68,0,0,0,3.175,7,Polearms
-Rune spear Karambwan_poison,Members,36,36,36,0,0,1,1,0,0,0,42,0,0,0,2.267,5,Spears
-Rune spear Unpoisoned,Members,36,36,36,0,0,1,1,0,0,0,42,0,0,0,2.267,5,Spears
-Saradomin godsword,Members,0,132,80,0,0,0,0,0,0,0,132,0,0,8,10,6,Two-handed swords
-Saradomin mjolnir,Members,0,0,11,0,0,0,0,0,0,0,14,0,0,0,2.267,6,Polestaves
-Saradomin sword,Members,0,82,60,0,0,0,0,0,0,0,82,0,0,2,3,4,Two-handed swords
-Saradomin's blessed sword,Members,0,100,60,0,0,0,0,0,0,0,88,0,0,2,3,4,Two-handed swords
-Scythe,Free-to-play,3,8,3,0,0,0,3,1,0,0,10,0,0,0,3.175,6,Scythes
-Scythe of vitur,Members,50,75,10,-6,0,-2,6,0,0,0,50,0,0,0,3.175,5,Scythes
-Seercull,Members,0,0,0,0,69,0,0,0,0,0,0,0,0,0,1.36,5,Bows
-Shadow sword,Members,-4,27,21,4,0,0,0,0,4,-1,26,0,0,0,3.628,6,Two-handed swords
-Shortbow,Free-to-play,0,0,0,0,8,0,0,0,0,0,0,0,0,0,1.36,4,Bows
-Signed oak bow,Members,0,0,0,0,14,0,0,0,0,0,0,0,0,0,2.267,6,Bows
-Sled Unwaxed,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.018,4,Unarmed
-Sled Waxed,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.018,4,Unarmed
-Spatula,Members,-4,27,21,-4,0,0,0,0,0,-1,26,0,0,0,3.628,7,Two-handed swords
-Spear (Last Man Standing),Free-to-play,22,18,0,-4,0,-1,2,4,0,0,20,0,0,0,3.628,7,Polearms
-Steel 2h sword,Free-to-play,-4,21,16,-4,0,0,0,0,0,-1,22,0,0,0,3.628,7,Two-handed swords
-Steel claws,Members,8,11,-4,0,0,3,6,2,0,0,12,0,0,0,0.907,4,Claws
-Steel halberd,Members,14,19,0,-4,0,-1,1,2,0,0,20,0,0,0,3.175,7,Polearms
-Steel spear Karambwan_poison,Members,12,12,12,0,0,1,1,0,0,0,12,0,0,0,2.267,5,Spears
-Steel spear Unpoisoned,Members,12,12,12,0,0,1,1,0,0,0,12,0,0,0,2.267,5,Spears
-Swamp lizard,Members,0,10,0,0,20,0,0,0,0,0,22,0,0,0,4,5,Salamanders
-Toktz-mej-tal,Members,15,-1,55,15,0,10,15,5,15,0,55,0,0,5,1.814,6,Stabbing swords
-Torag's hammers,Members,-4,-4,85,-4,0,0,0,0,0,0,72,0,0,0,3.628,5,Blunt weapons
-Toxic blowpipe,Members,0,0,0,0,60,0,0,0,0,0,0,40,0,0,0.5,3,Thrown weapons
-Training bow,Free-to-play,0,0,0,0,8,0,0,0,0,0,0,0,0,0,1.36,4,Bows
-Twisted adamant trophy,Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,15,4,Blunt weapons
-Twisted bow,Members,0,0,0,0,70,0,0,0,0,0,0,20,0,4,1.814,6,Bows
-Twisted dragon trophy,Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,15,4,Blunt weapons
-Twisted rune trophy,Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,15,4,Blunt weapons
-Tzhaar-ket-om,Members,0,0,80,-4,0,0,0,0,0,0,85,0,0,0,3.628,7,Blunt weapons
-Tzhaar-ket-om (t),Members,0,0,80,-4,0,0,0,0,0,0,85,0,0,0,3.628,7,Blunt weapons
-Verac's flail,Members,68,-2,82,0,0,0,0,0,0,0,72,0,0,6,2.267,5,Spiked weapons
-White 2h sword,Members,-4,27,21,-4,0,0,0,0,0,-1,26,0,0,1,3.628,7,Two-handed swords
-White claws,Members,10,14,-4,0,0,4,7,2,0,0,14,0,0,1,0.907,4,Claws
-White halberd,Members,19,25,0,-4,0,-1,2,3,0,0,20,0,0,1,3.175,7,Polearms
-Willow comp bow,Free-to-play,0,0,0,0,22,0,0,0,0,0,0,0,0,0,1.8,5,Bows
-Willow longbow,Free-to-play,0,0,0,0,20,0,0,0,0,0,0,0,0,0,1.814,6,Bows
-Willow shortbow,Free-to-play,0,0,0,0,20,0,0,0,0,0,0,0,0,0,1.36,4,Bows
-Yew comp bow,Members,0,0,0,0,49,0,0,0,0,0,0,0,0,0,1.8,5,Bows
-Yew longbow,Members,0,0,0,0,47,0,0,0,0,0,0,0,0,0,1.814,6,Bows
-Yew shortbow,Members,0,0,0,0,47,0,0,0,0,0,0,0,0,0,1.36,4,Bows
-Zamorak godsword,Members,0,132,80,0,0,0,0,0,0,0,132,0,0,8,10,6,Two-handed swords
-Zamorak mjolnir,Members,0,0,11,0,0,0,0,0,0,0,14,0,0,0,2.267,6,Polestaves
-Zamorakian spear,Members,85,65,65,0,0,13,13,12,0,13,75,0,0,2,3,4,Spears
+Name,Member,StabAtk,SlashAtk,CrushAtk,MagicAtk,RangedAtk,StabDef,SlashDef,CrushDef,MagicDef,RangedDef,MeleStr,RangedStr,MagicStr,Prayer,Weigth,Speed,Type, 
+3rd age bow,Members,0,0,0,0,80,0,0,0,0,0,0,0,0,0,3.175,4,Bows,
+Abyssal bludgeon,Members,0,0,102,0,0,0,0,0,0,0,85,0,0,0,6,4,Blunt weapons,
+Adamant 2h sword,Free-to-play,-4,43,30,-4,0,0,0,0,0,-1,44,0,0,0,4.082,7,Two-handed swords,
+Adamant claws,Members,18,23,-4,0,0,6,12,3,0,0,24,0,0,0,0.907,4,Claws,
+Adamant halberd,Members,28,41,0,-4,0,-1,3,4,0,0,42,0,0,0,3.628,7,Polearms,
+Adamant spear Karambwan_poison,Members,24,24,24,0,0,1,1,0,0,0,28,0,0,0,2.721,5,Spears,
+Adamant spear Unpoisoned,Members,24,24,24,0,0,1,1,0,0,0,28,0,0,0,2.721,5,Spears,
+Anger spear,Members,2,2,2,0,0,1,1,0,0,0,0,0,0,0,0.003,5,Spears,
+Armadyl godsword,Members,0,132,80,0,0,0,0,0,0,0,132,0,0,8,10,6,Two-handed swords,
+Bandos godsword,Members,0,132,80,0,0,0,0,0,0,0,132,0,0,8,10,6,Two-handed swords,
+Barrelchest anchor Broken,Members,-2,10,92,0,0,0,0,0,0,0,100,0,0,0,30,6,Spiked weapons,
+Barrelchest anchor Fixed,Members,-2,10,92,0,0,0,0,0,0,0,100,0,0,0,30,6,Spiked weapons,
+Beach boxing gloves Pink,Free-to-play,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0.453,4,Claws,
+Beach boxing gloves Yellow,Free-to-play,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0.453,4,Claws,
+Birthday cake,Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,0.48,4,Blunt weapons,
+Black 2h sword,Free-to-play,-4,27,21,-4,0,0,0,0,0,-1,26,0,0,0,3.628,7,Two-handed swords,
+Black claws,Members,10,14,-4,0,0,4,7,2,0,0,14,0,0,0,0.907,4,Claws,
+Black halberd,Members,19,25,0,-4,0,-1,2,3,0,0,20,0,0,0,3.175,7,Polearms,
+Black salamander,Members,0,59,0,0,69,0,0,0,0,0,71,0,0,0,4,5,Salamanders,
+Black spear Karambwan_poison,Members,15,15,15,0,0,1,1,0,0,0,16,0,0,0,2.267,5,Spears,
+Black spear Unpoisoned,Members,15,15,15,0,0,1,1,0,0,0,16,0,0,0,2.267,5,Spears,
+Bronze 2h sword,Free-to-play,-4,9,8,-4,0,0,0,0,0,-1,10,0,0,0,3.628,7,Two-handed swords,
+Bronze claws,Members,3,4,-4,0,0,1,2,1,0,0,5,0,0,0,0.907,4,Claws,
+Bronze halberd,Members,7,8,0,-4,0,-1,1,2,0,0,8,0,0,0,3.175,7,Polearms,
+Bronze spear Karambwan_poison,Members,5,5,5,0,0,1,1,0,0,0,6,0,0,0,2.267,5,Spears,
+Bronze spear Unpoisoned,Members,5,5,5,0,0,1,1,0,0,0,6,0,0,0,2.267,5,Spears,
+Comp ogre bow,Members,0,0,0,0,38,0,0,0,0,0,0,0,0,0,1.814,5,Bows,
+Corrupted bow (attuned),Members,0,0,0,0,118,0,0,0,0,0,0,88,0,1,1.814,5,Bows,
+Corrupted bow (basic),Members,0,0,0,0,72,0,0,0,0,0,0,42,0,1,1.814,5,Bows,
+Corrupted bow (perfected),Members,0,0,0,0,172,0,0,0,0,0,0,138,0,3,1.814,5,Bows,
+Corrupted halberd (attuned),Members,114,114,12,0,0,0,0,0,0,0,88,0,0,2,1.814,4,Polearms,
+Corrupted halberd (basic),Members,68,68,4,0,0,0,0,0,0,0,42,0,0,1,1.814,4,Polearms,
+Corrupted halberd (perfected),Members,166,166,28,0,0,0,0,0,0,0,138,0,0,3,1.814,4,Polearms,
+Corrupted staff (attuned),Members,0,0,0,128,0,0,0,0,0,0,0,0,0,2,1.36,4,Powered staves,
+Corrupted staff (basic),Members,0,0,0,84,0,0,0,0,0,0,0,0,0,1,1.36,4,Powered staves,
+Corrupted staff (perfected),Members,0,0,0,184,0,0,0,0,0,0,0,0,0,3,1.36,4,Powered staves,
+Crate with zanik,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,Unarmed,
+Craw's bow Charged,Members,0,0,0,0,75,0,0,0,0,0,0,60,0,0,3.175,4,Bows,
+Craw's bow Uncharged,Members,0,0,0,0,75,0,0,0,0,0,0,60,0,0,3.175,4,Bows,
+Crystal bow,Members,0,0,0,0,100,0,0,0,0,0,0,70,0,0,1.814,5,Bows,
+Crystal bow (attuned),Members,0,0,0,0,118,0,0,0,0,0,0,88,0,1,1.814,5,Bows,
+Crystal bow (basic),Members,0,0,0,0,72,0,0,0,0,0,0,42,0,1,1.814,5,Bows,
+Crystal bow (perfected),Members,0,0,0,0,172,0,0,0,0,0,0,138,0,3,1.814,5,Bows,
+Crystal halberd,Members,85,110,5,-4,0,-1,4,5,0,0,118,0,0,0,1.814,7,Polearms,
+Crystal halberd (attuned),Members,114,114,12,0,0,0,0,0,0,0,88,0,0,2,1.814,4,Polearms,
+Crystal halberd (basic),Members,68,68,4,0,0,0,0,0,0,0,42,0,0,1,1.814,4,Polearms,
+Crystal halberd (perfected),Members,166,166,28,0,0,0,0,0,0,0,138,0,0,3,1.814,4,Polearms,
+Crystal staff (attuned),Members,0,0,0,128,0,0,0,0,0,0,0,0,0,2,1.36,4,Powered staves,
+Crystal staff (basic),Members,0,0,0,84,0,0,0,0,0,0,0,0,0,1,1.36,4,Powered staves,
+Crystal staff (perfected),Members,0,0,0,184,0,0,0,0,0,0,0,0,0,3,1.36,4,Powered staves,
+Cursed goblin bow,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.814,5,Bows,
+Dark bow Blue,Members,0,0,0,0,95,0,0,0,0,0,0,0,0,0,1.814,9,Bows,
+Dark bow Green,Members,0,0,0,0,95,0,0,0,0,0,0,0,0,0,1.814,9,Bows,
+Dark bow Regular,Members,0,0,0,0,95,0,0,0,0,0,0,0,0,0,1.814,9,Bows,
+Dark bow White,Members,0,0,0,0,95,0,0,0,0,0,0,0,0,0,1.814,9,Bows,
+Dark bow Yellow,Members,0,0,0,0,95,0,0,0,0,0,0,0,0,0,1.814,9,Bows,
+Dharok's greataxe,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3.175,7,Axes,
+Dinh's bulwark,Members,0,0,110,0,0,141,145,145,0,148,38,0,0,0,30,7,Bulwarks,
+Dragon 2h sword,Members,-4,92,80,-4,0,0,0,0,0,-1,93,0,0,0,3.628,7,Two-handed swords,
+Dragon claws,Members,41,57,-4,0,0,13,26,7,0,0,56,0,0,0,0.907,4,Claws,
+Dragon halberd,Members,70,95,0,-4,0,-1,4,5,0,0,89,0,0,0,3.175,7,Polearms,
+Dragon spear Karambwan_poison,Members,55,55,55,0,0,5,5,5,5,5,60,0,0,0,2.267,5,Spears,
+Dragon spear Unpoisoned,Members,55,55,55,0,0,5,5,5,5,5,60,0,0,0,2.267,5,Spears,
+Dual sai,Members,11,8,-4,-4,0,0,0,0,0,0,14,0,0,0,1.36,4,Stabbing swords,
+Elder maul,Members,0,0,135,-4,0,0,0,0,0,0,147,0,0,0,5.443,6,Blunt weapons,
+Event rpg,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,Unarmed,
+Fixed device,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,Guns,
+Gadderhammer,Members,-4,-4,35,-4,0,0,0,0,0,0,35,0,0,0,1.814,5,Blunt weapons,
+Giant easter egg,Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,15,4,Blunt weapons,
+Giant present,Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,15,4,Blunt weapons,
+Gilded 2h sword,Free-to-play,-4,69,50,-4,0,0,0,0,0,-1,70,0,0,0,3.628,7,Two-handed swords,
+Gilded spade,Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,3,4,Blunt weapons,
+Gilded spear,Members,36,36,36,0,0,1,1,0,0,0,42,0,0,0,2.267,5,Spears,
+Granite maul Normal,Members,0,0,81,0,0,0,0,0,0,0,79,0,0,0,4.535,7,Blunt weapons,
+Granite maul Ornate_handle,Members,0,0,81,0,0,0,0,0,0,0,79,0,0,0,4.535,7,Blunt weapons,
+Guthan's warspear,Members,75,75,75,0,0,7,7,7,0,0,75,0,0,0,2.267,5,Spears,
+Guthix mjolnir,Members,0,0,11,0,0,0,0,0,0,0,14,0,0,0,2.267,6,Polestaves,
+Heavy ballista,Members,0,0,0,0,125,0,0,0,0,0,0,15,0,0,6,7,Crossbows,
+Heavy casket,Members,-4,-4,11,-4,0,0,0,0,0,0,9,0,0,0,15,6,Blunt weapons,
+Hill giant club,Free-to-play,-4,50,65,-4,0,0,0,0,0,-1,70,0,0,0,3.628,7,Blunt weapons,
+Iron 2h sword,Free-to-play,-4,13,10,-4,0,0,0,0,0,-1,14,0,0,0,3.628,7,Two-handed swords,
+Iron claws,Members,4,6,-4,0,0,2,3,1,0,0,7,0,0,0,0.907,4,Claws,
+Iron halberd,Members,9,12,0,-4,0,-1,1,2,0,0,12,0,0,0,3.175,7,Polearms,
+Iron spear Karambwan_poison,Members,8,8,8,0,0,1,1,0,0,0,10,0,0,0,2.267,5,Spears,
+Iron spear Unpoisoned,Members,8,8,8,0,0,1,1,0,0,0,10,0,0,0,2.267,5,Spears,
+Karil's crossbow,Members,0,0,0,0,84,0,0,0,0,0,0,0,0,0,3.628,4,Crossbows,
+Katana,Members,7,45,0,0,0,3,7,7,0,-3,40,0,0,0,0.453,4,Slashing swords,
+Large spade,Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,3,4,Blunt weapons,
+Leaf-bladed spear,Members,47,42,36,0,0,1,1,0,0,0,50,0,0,0,2.267,5,Spears,
+Light ballista,Members,0,0,0,0,110,0,0,0,0,0,0,0,0,0,3,7,Crossbows,
+Longbow,Free-to-play,0,0,0,0,8,0,0,0,0,0,0,0,0,0,1.814,6,Bows,
+Magic comp bow,Members,0,0,0,0,71,0,0,0,0,0,0,0,0,0,1.8,5,Bows,
+Magic longbow,Members,0,0,0,0,69,0,0,0,0,0,0,0,0,0,1.814,6,Bows,
+Magic shortbow,Members,0,0,0,0,69,0,0,0,0,0,0,0,0,0,1.36,4,Bows,
+Maple longbow,Free-to-play,0,0,0,0,29,0,0,0,0,0,0,0,0,0,1.814,6,Bows,
+Maple shortbow,Free-to-play,0,0,0,0,29,0,0,0,0,0,0,0,0,0,1.36,4,Bows,
+Merfolk trident,Members,8,8,8,0,0,1,1,0,0,0,4,0,0,0,0.907,5,Spears,
+Mithril 2h sword,Free-to-play,-4,30,24,-4,0,0,0,0,0,-1,31,0,0,0,3.175,7,Two-handed swords,
+Mithril claws,Members,11,16,-4,0,0,4,8,2,0,0,17,0,0,0,0.907,4,Claws,
+Mithril halberd,Members,22,28,0,-4,0,-1,2,4,0,0,29,0,0,0,2.721,7,Polearms,
+Mithril spear Karambwan_poison,Members,17,17,17,0,0,1,1,0,0,0,18,0,0,0,1.814,5,Spears,
+Mithril spear Unpoisoned,Members,17,17,17,0,0,1,1,0,0,0,18,0,0,0,1.814,5,Spears,
+Nunchaku,Members,-4,-4,11,-4,0,0,0,0,0,0,14,0,0,0,1.36,5,Blunt weapons,
+Oak longbow,Free-to-play,0,0,0,0,14,0,0,0,0,0,0,0,0,0,2.267,6,Bows,
+Oak shortbow,Free-to-play,0,0,0,0,14,0,0,0,0,0,0,0,0,0,1.814,4,Bows,
+Oddskull,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.001,0,Unarmed,
+Ogre bow,Members,0,0,0,0,38,0,0,0,0,0,0,0,0,0,1.814,8,Bows,
+Orange salamander,Members,0,19,0,0,29,0,0,0,0,0,31,0,0,0,4,5,Salamanders,
+Pharaoh's sceptre,Members,7,-1,25,10,0,2,3,1,10,0,32,0,0,0,2,4,Polestaves,
+Rain bow,Members,0,0,0,0,8,0,0,0,0,0,0,0,0,0,1.36,4,Bows,
+Red salamander,Members,0,37,0,0,47,0,0,0,0,0,49,0,0,0,4,5,Salamanders,
+Rune 2h sword,Free-to-play,-4,69,50,-4,0,0,0,0,0,-1,70,0,0,0,3.628,7,Two-handed swords,
+Rune claws,Members,26,38,-4,0,0,10,19,5,0,0,39,0,0,0,0.907,4,Claws,
+Rune halberd,Members,48,67,0,-4,0,-1,4,5,0,0,68,0,0,0,3.175,7,Polearms,
+Rune spear Karambwan_poison,Members,36,36,36,0,0,1,1,0,0,0,42,0,0,0,2.267,5,Spears,
+Rune spear Unpoisoned,Members,36,36,36,0,0,1,1,0,0,0,42,0,0,0,2.267,5,Spears,
+Saradomin godsword,Members,0,132,80,0,0,0,0,0,0,0,132,0,0,8,10,6,Two-handed swords,
+Saradomin mjolnir,Members,0,0,11,0,0,0,0,0,0,0,14,0,0,0,2.267,6,Polestaves,
+Saradomin sword,Members,0,82,60,0,0,0,0,0,0,0,82,0,0,2,3,4,Two-handed swords,
+Saradomin's blessed sword,Members,0,100,60,0,0,0,0,0,0,0,88,0,0,2,3,4,Two-handed swords,
+Scythe,Free-to-play,3,8,3,0,0,0,3,1,0,0,10,0,0,0,3.175,6,Scythes,
+Scythe of vitur,Members,50,75,10,-6,0,-2,6,0,0,0,50,0,0,0,3.175,5,Scythes,
+Seercull,Members,0,0,0,0,69,0,0,0,0,0,0,0,0,0,1.36,5,Bows,
+Shadow sword,Members,-4,27,21,4,0,0,0,0,4,-1,26,0,0,0,3.628,6,Two-handed swords,
+Shortbow,Free-to-play,0,0,0,0,8,0,0,0,0,0,0,0,0,0,1.36,4,Bows,
+Signed oak bow,Members,0,0,0,0,14,0,0,0,0,0,0,0,0,0,2.267,6,Bows,
+Sled Unwaxed,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.018,4,Unarmed,
+Sled Waxed,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.018,4,Unarmed,
+Spatula,Members,-4,27,21,-4,0,0,0,0,0,-1,26,0,0,0,3.628,7,Two-handed swords,
+Spear (Last Man Standing),Free-to-play,22,18,0,-4,0,-1,2,4,0,0,20,0,0,0,3.628,7,Polearms,
+Steel 2h sword,Free-to-play,-4,21,16,-4,0,0,0,0,0,-1,22,0,0,0,3.628,7,Two-handed swords,
+Steel claws,Members,8,11,-4,0,0,3,6,2,0,0,12,0,0,0,0.907,4,Claws,
+Steel halberd,Members,14,19,0,-4,0,-1,1,2,0,0,20,0,0,0,3.175,7,Polearms,
+Steel spear Karambwan_poison,Members,12,12,12,0,0,1,1,0,0,0,12,0,0,0,2.267,5,Spears,
+Steel spear Unpoisoned,Members,12,12,12,0,0,1,1,0,0,0,12,0,0,0,2.267,5,Spears,
+Swamp lizard,Members,0,10,0,0,20,0,0,0,0,0,22,0,0,0,4,5,Salamanders,
+Toktz-mej-tal,Members,15,-1,55,15,0,10,15,5,15,0,55,0,0,5,1.814,6,Stabbing swords,
+Torag's hammers,Members,-4,-4,85,-4,0,0,0,0,0,0,72,0,0,0,3.628,5,Blunt weapons,
+Toxic blowpipe,Members,0,0,0,0,60,0,0,0,0,0,0,40,0,0,0.5,3,Thrown weapons,
+Training bow,Free-to-play,0,0,0,0,8,0,0,0,0,0,0,0,0,0,1.36,4,Bows,
+Twisted adamant trophy,Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,15,4,Blunt weapons,
+Twisted bow,Members,0,0,0,0,70,0,0,0,0,0,0,20,0,4,1.814,6,Bows,
+Twisted dragon trophy,Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,15,4,Blunt weapons,
+Twisted rune trophy,Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,15,4,Blunt weapons,
+Tzhaar-ket-om,Members,0,0,80,-4,0,0,0,0,0,0,85,0,0,0,3.628,7,Blunt weapons,
+Tzhaar-ket-om (t),Members,0,0,80,-4,0,0,0,0,0,0,85,0,0,0,3.628,7,Blunt weapons,
+Verac's flail,Members,68,-2,82,0,0,0,0,0,0,0,72,0,0,6,2.267,5,Spiked weapons,
+White 2h sword,Members,-4,27,21,-4,0,0,0,0,0,-1,26,0,0,1,3.628,7,Two-handed swords,
+White claws,Members,10,14,-4,0,0,4,7,2,0,0,14,0,0,1,0.907,4,Claws,
+White halberd,Members,19,25,0,-4,0,-1,2,3,0,0,20,0,0,1,3.175,7,Polearms,
+Willow comp bow,Free-to-play,0,0,0,0,22,0,0,0,0,0,0,0,0,0,1.8,5,Bows,
+Willow longbow,Free-to-play,0,0,0,0,20,0,0,0,0,0,0,0,0,0,1.814,6,Bows,
+Willow shortbow,Free-to-play,0,0,0,0,20,0,0,0,0,0,0,0,0,0,1.36,4,Bows,
+Yew comp bow,Members,0,0,0,0,49,0,0,0,0,0,0,0,0,0,1.8,5,Bows,
+Yew longbow,Members,0,0,0,0,47,0,0,0,0,0,0,0,0,0,1.814,6,Bows,
+Yew shortbow,Members,0,0,0,0,47,0,0,0,0,0,0,0,0,0,1.36,4,Bows,
+Zamorak godsword,Members,0,132,80,0,0,0,0,0,0,0,132,0,0,8,10,6,Two-handed swords,
+Zamorak mjolnir,Members,0,0,11,0,0,0,0,0,0,0,14,0,0,0,2.267,6,Polestaves,
+Zamorakian spear,Members,85,65,65,0,0,13,13,12,0,13,75,0,0,2,3,4,Spears,

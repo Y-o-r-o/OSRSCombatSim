@@ -6,28 +6,24 @@ using System.Threading.Tasks;
 
 namespace OSRSComSim.Models
 {
-    public class WeaponTypeModel
+    static public class WeaponTypeModel
     {
-        public int NumberOfOptions;
+        static public int NumberOfOptions { get; set; }
 
-        public string Option1 { get; set; } = null;
-        public string Option2 { get; set; } = null;
-        public string Option3 { get; set; } = null;
-        public string Option4 { get; set; } = null;
-        public string Option5 { get; set; } = null;
+        static public string Option1 { get; set; } = null;
+        static public string Option2 { get; set; } = null;
+        static public string Option3 { get; set; } = null;
+        static public string Option4 { get; set; } = null;
+        static public string Option5 { get; set; } = null;
 
-        public string Option1Style { get; set; } = null;
-        public string Option2Style { get; set; } = null;
-        public string Option3Style { get; set; } = null;
-        public string Option4Style { get; set; } = null;
-        public string Option5Style { get; set; } = null;
+        static public string Option1Style { get; set; } = null;
+        static public string Option2Style { get; set; } = null;
+        static public string Option3Style { get; set; } = null;
+        static public string Option4Style { get; set; } = null;
+        static public string Option5Style { get; set; } = null;
 
-        public WeaponTypeModel(string weapontype = "Unarmed")
-        {
-            setOptions(weapontype);
-        }
 
-        private void setOptions(string weapontype)
+        static public void setOptions(Combat FighterCombat, string weapontype)
         {
             switch (weapontype)
             {
@@ -95,6 +91,7 @@ namespace OSRSComSim.Models
                     optionsBanners();
                     break;
                 case "Blasters":
+                    optionsBlasters();
                     break;
                 case "Guns":
                     optionsGuns();
@@ -109,8 +106,13 @@ namespace OSRSComSim.Models
                     optionsUnarmed();
                     break;
             }
+            setCombat(FighterCombat, Option1, Option1Style);
         }
-        private void optionsAxes() 
+        static public void setCombat(Combat FighterCombat, string combat_style, string attack_type)
+        {
+            FighterCombat.CurretOptions = new CombatCurretOptionModel(combat_style, attack_type);
+        }
+        static private void optionsAxes() 
         {
             Option1 = "Chop";
             Option2 = "Hack";
@@ -122,7 +124,7 @@ namespace OSRSComSim.Models
             Option4Style = "Defensive";
             NumberOfOptions = 4;
         }
-        private void optionsBluntWeapons()
+        static private void optionsBluntWeapons()
         {
             Option1 = "Pound";
             Option2 = "Pummel";
@@ -132,7 +134,7 @@ namespace OSRSComSim.Models
             Option3Style = "Defensive";
             NumberOfOptions = 3;
         }
-        private void optionsBulwarks()
+        static private void optionsBulwarks()
         {
             Option1 = "Pummel";
             Option2 = "Block";
@@ -140,7 +142,7 @@ namespace OSRSComSim.Models
             Option2Style = "None"; //!
             NumberOfOptions = 2;
         }
-        private void optionsClaws()
+        static private void optionsClaws()
         {
             Option1 = "Chop";
             Option2 = "Slash";
@@ -152,7 +154,7 @@ namespace OSRSComSim.Models
             Option4Style = "Defensive";
             NumberOfOptions = 4;
         }
-        private void optionsPolearms()
+        static private void optionsPolearms()
         {
             Option1 = "StabJab";
             Option2 = "Swipe";
@@ -162,7 +164,7 @@ namespace OSRSComSim.Models
             Option3Style = "Defensive";
             NumberOfOptions = 3;
         }
-        private void optionsPickaxes()
+        static private void optionsPickaxes()
         {
             Option1 = "Spike";
             Option2 = "Impale";
@@ -174,7 +176,7 @@ namespace OSRSComSim.Models
             Option4Style = "Defensive";
             NumberOfOptions = 4;
         }
-        private void optionsScythes()
+        static private void optionsScythes()
         {
             Option1 = "Reap";
             Option2 = "Chop";
@@ -186,7 +188,7 @@ namespace OSRSComSim.Models
             Option4Style = "Defensive";
             NumberOfOptions = 4;
         }
-        private void optionsSlashingSwords()
+        static private void optionsSlashingSwords()
         {
             Option1 = "Chop";
             Option2 = "Slash";
@@ -198,7 +200,7 @@ namespace OSRSComSim.Models
             Option4Style = "Defensive";
             NumberOfOptions = 4;
         }
-        private void optionsSpears()
+        static private void optionsSpears()
         {
             Option1 = "Lunge";
             Option2 = "Swipe";
@@ -210,7 +212,7 @@ namespace OSRSComSim.Models
             Option4Style = "Defensive";
             NumberOfOptions = 4;
         }
-        private void optionsSpikedWeapons()
+        static private void optionsSpikedWeapons()
         {
             Option1 = "Pound";
             Option2 = "Pummel";
@@ -222,7 +224,7 @@ namespace OSRSComSim.Models
             Option4Style = "Defensive";
             NumberOfOptions = 4;
         }
-        private void optionsStabbingSwords()
+        static private void optionsStabbingSwords()
         {
             Option1 = "Stab";
             Option2 = "Lunge";
@@ -234,7 +236,7 @@ namespace OSRSComSim.Models
             Option4Style = "Defensive";
             NumberOfOptions = 4;
         }
-        private void optionsTwoHandedSwords()
+        static private void optionsTwoHandedSwords()
         {
             Option1 = "Chop";
             Option2 = "Slash";
@@ -246,7 +248,7 @@ namespace OSRSComSim.Models
             Option4Style = "Defensive";
             NumberOfOptions = 4;
         }
-        private void optionsWhips()
+        static private void optionsWhips()
         {
             Option1 = "Flick";
             Option2 = "Lash";
@@ -256,7 +258,7 @@ namespace OSRSComSim.Models
             Option3Style = "Defensive";
             NumberOfOptions = 3;
         }
-        private void optionsBows()
+        static private void optionsBows()
         {
             Option1 = "RangedAccurate";
             Option2 = "Raipid";
@@ -266,7 +268,7 @@ namespace OSRSComSim.Models
             Option3Style = "Longrange";
             NumberOfOptions = 3;
         }
-        private void optionsChinchompas()
+        static private void optionsChinchompas()
         {
             Option1 = "Short fuse";
             Option2 = "Medium fuse";
@@ -276,7 +278,7 @@ namespace OSRSComSim.Models
             Option3Style = "Longrange";
             NumberOfOptions = 3;
         }
-        private void optionsCrossbows()
+        static private void optionsCrossbows()
         {
             Option1 = "RangedAccurate";
             Option2 = "Raipid";
@@ -286,7 +288,7 @@ namespace OSRSComSim.Models
             Option3Style = "Longrange";
             NumberOfOptions = 3;
         }
-        private void optionsThrownWeapons()
+        static private void optionsThrownWeapons()
         {
             Option1 = "RangedAccurate";
             Option2 = "Raipid";
@@ -296,7 +298,7 @@ namespace OSRSComSim.Models
             Option3Style = "Longrange";
             NumberOfOptions = 3;
         }
-        private void optionsStaves()
+        static private void optionsStaves()
         {
             Option1 = "Bash";
             Option2 = "Pound";
@@ -310,7 +312,7 @@ namespace OSRSComSim.Models
             Option5Style = "Magic";
             NumberOfOptions = 5;
         }
-        private void optionsBladedStaves()
+        static private void optionsBladedStaves()
         {
             Option1 = "StabJab";
             Option2 = "Swipe";
@@ -324,7 +326,7 @@ namespace OSRSComSim.Models
             Option5Style = "Magic";
             NumberOfOptions = 5;
         }
-        private void optionsPoweredStaves()
+        static private void optionsPoweredStaves()
         {
             Option1 = "MagicAccurate";
             Option2 = "MagicAccurate";
@@ -334,7 +336,7 @@ namespace OSRSComSim.Models
             Option3Style = "Longrange";
             NumberOfOptions = 3;
         }
-        private void optionsBanners()
+        static private void optionsBanners()
         {
             Option1 = "Lunge";
             Option2 = "Swipe";
@@ -346,7 +348,7 @@ namespace OSRSComSim.Models
             Option4Style = "Defensive";
             NumberOfOptions = 4;
         }
-        private void optionsBlasters()
+        static private void optionsBlasters()
         {
             Option1 = "Explosive";
             Option2 = "Flamer";
@@ -354,7 +356,7 @@ namespace OSRSComSim.Models
             Option2Style = "Gun";
             NumberOfOptions = 2;
         }
-        private void optionsGuns()
+        static private void optionsGuns()
         {
             Option1 = "Aim and Fire";
             Option2 = "Kick";
@@ -362,17 +364,17 @@ namespace OSRSComSim.Models
             Option2Style = "Aggresive";
             NumberOfOptions = 2;
         }
-        private void optionsPolestaves()
+        static private void optionsPolestaves()
         {
             Option1 = "Bash";
             Option2 = "Pound";
             Option3 = "CrushBlock";
             Option1Style = "Accurate";
             Option2Style = "Aggresive";
-            Option3Style =  "Deffensive";
+            Option3Style =  "Defensive";
             NumberOfOptions = 3;
         }
-        private void optionsSalamanders()
+        static private void optionsSalamanders()
         {
             Option1 = "Scorch";
             Option2 = "Flare";
@@ -382,14 +384,14 @@ namespace OSRSComSim.Models
             Option3Style = "Magic";
             NumberOfOptions = 3;
         }
-        private void optionsUnarmed()
+        static private void optionsUnarmed()
         {
             Option1 = "Punch";
             Option2 = "Kick";
             Option3 = "Block";
             Option1Style = "Accurate";
             Option2Style = "Aggresive";
-            Option3Style = "Deffensive";
+            Option3Style = "Defensive";
             NumberOfOptions = 3;
         }
     }

@@ -81,10 +81,11 @@ namespace OSRSComSim.ViewModels
         public FighterViewModel(): this (null) { }
         public FighterViewModel(Player selectedplayer = null)
         {
-            ControlPanel = new ControlPanelViewModel(player: selectedplayer, cp_mode: "Interactive");
             if (selectedplayer == null) selectedplayer = new Player();
+            ControlPanel = new ControlPanelViewModel(player: selectedplayer, cp_mode: "Interactive");
             Name = selectedplayer.Name;
             FighterCombat = selectedplayer.PlayerCombat;
+            WeaponTypeModel.setOptions(FighterCombat, FighterCombat.PlayerEquipment.Weapon.WeaponType);
             setupFighter();
 
             View = new FighterView(this);

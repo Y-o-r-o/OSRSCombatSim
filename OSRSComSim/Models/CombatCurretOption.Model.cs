@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Media.TextFormatting;
@@ -9,15 +10,15 @@ namespace OSRSComSim.Models
 {
     public class CombatCurretOptionModel : ObservableObject
     {
-        private int _stanc_bonus_def = 1;
-        private int _stanc_bonus_str = 1;
-        private int _stanc_bonus_atk = 1;
-        private int _stanc_bonus_spd = 0; //speed
-        private int _stanc_bonus_rng = 0; //longrange
+        private int _stanc_bonus_def;
+        private int _stanc_bonus_str;
+        private int _stanc_bonus_atk;
+        private int _stanc_bonus_spd; //speed
+        private int _stanc_bonus_rng; //longrange
 
 
-        private string _combat_type = "Mele";
-        private string _mele_atk_type = "Crush";
+        private string _combat_type;
+        private string _mele_atk_type;
 
         public string CombatType
         {
@@ -91,6 +92,8 @@ namespace OSRSComSim.Models
                 OnPropertyChanged("StancBonusrRng");
             }
         }
+
+        public CombatCurretOptionModel() : this("Punch", "Accurate") { }
         public CombatCurretOptionModel(string combat_style = "Punch", string attack_type = "Accurate")
         {
             setCombatType(combat_style, attack_type);

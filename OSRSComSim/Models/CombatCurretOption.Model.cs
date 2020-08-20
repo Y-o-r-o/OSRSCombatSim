@@ -110,12 +110,14 @@ namespace OSRSComSim.Models
                 case "Short fuse":
                 case "Medium fuse":
                 case "Long fuse":
+                case "Flare":
                     CombatType = "Ranged";
                     break;
                 case "Spell":
                 case "Spell (Defensive)":
                 case "MagicAccurate":
                 case "MagicLongRange":
+                case "Blaze":
                     CombatType = "Magic";
                     break;
                 case "Chop":
@@ -151,7 +153,7 @@ namespace OSRSComSim.Models
                     CombatType = "Stab";
                     break;
                 default:
-                    CombatType = "Crush";
+                    CombatType = "Crush"; //none
                     break;
             }
         }

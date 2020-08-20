@@ -77,6 +77,7 @@
     <Compile Include="Models\Equipment.Model.cs" />
     <Compile Include="Models\Player.Model.cs" />
     <Compile Include="Models\Skills.Model.cs" />
+    <Compile Include="Models\WeaponType.Model.cs" />
     <Compile Include="ObservableObject.cs" />
     <Compile Include="ViewModels\Appearance.ViewModel.cs" />
     <Compile Include="ViewModels\Battle.ViewModel.cs" />

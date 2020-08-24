@@ -1,4 +1,5 @@
 ﻿using OSRSComSim.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -11,6 +12,9 @@ namespace OSRSComSim.ViewModels
         private Equiped _player_equiped;
 
         public string[] _lines;
+
+        private int two_handed_idx = 0;
+        private bool is_two_handed = false;
 
         public SelectEquipmentView View { get; set; }
         public Equiped PlayerEquiped
@@ -26,13 +30,12 @@ namespace OSRSComSim.ViewModels
         {
             get
             {
-                    return _lines.Select(line =>
-                    {
-                        string[] data = line.Split(',');
-                        return data[0];
-                    });
-                }
-            
+                return _lines.Select(line =>
+                {
+                    string[] data = line.Split(',');
+                    return data[0];
+                });
+            }
         }
 
         public SelectEquipmentViewModel() : this(null, null, null) { }
@@ -46,18 +49,20 @@ namespace OSRSComSim.ViewModels
             View = new SelectEquipmentView(this);
         }
         
-
         private string getEquipmentData(string equipment_name)
         {
+            int i = 0;
             foreach (string eqp in _lines)
             {
+                i++;
                 if (eqp.Contains(equipment_name))
+                {
+                    if (two_handed_idx <= i) is_two_handed = true;
                     return eqp;
+                }
             }
             return "";
         }
-
-
         private string[] getCSV(string selected_slot_table)
         {
             string[] lines = null;
@@ -76,7 +81,14 @@ namespace OSRSComSim.ViewModels
                     lines = Properties.Resources.Ammo_slot_table.Split('\n');
                     break;
                 case "Weapon":
-                    lines = Properties.Resources.Weapon_slot_table.Split('\n');
+                    string[] lines1 = Properties.Resources.Weapon_slot_table.Split('\n');
+                    Array.Resize(ref lines1, lines1.Length - 1);
+                    string[] lines2 = Properties.Resources.Two_handed_slot_table.Split('\n');
+                    lines2 = lines2.Skip(1).ToArray();
+                    two_handed_idx = lines1.Length;
+                    lines = new string[lines1.Length + lines2.Length];
+                    Array.Copy(lines1, lines, lines1.Length);
+                    Array.Copy(lines2, 0, lines, lines1.Length, lines2.Length);
                     break;
                 case "Body":
                     lines = Properties.Resources.Body_slot_table.Split('\n');
@@ -101,10 +113,10 @@ namespace OSRSComSim.ViewModels
             lines = lines.Take(lines.Count() - 1).ToArray();
             return lines;
         }
-
+   
         public void select(string equipment_name)
         {
-            _wornequipmentviewmodel.mountEquipment(getEquipmentData(equipment_name));
+            _wornequipmentviewmodel.mountEquipment(getEquipmentData(equipment_name), is_two_handed);
         }
         public void stopView()
         {

@@ -94,9 +94,9 @@ namespace OSRSComSim.ViewModels
             EquipmentInfo = Info;
         }
 
-        public void mountEquipment(string eqp)
+        public void mountEquipment(string eqp, bool is_two_handed = false)
         {
-            Equipment to_mount = set_equipment(eqp);
+            Equipment to_mount = set_equipment(eqp, is_two_handed);
             switch (selected_slot_table)
             {
                 case "Head":
@@ -113,12 +113,14 @@ namespace OSRSComSim.ViewModels
                     break;
                 case "Weapon":
                     PlayerEquiped.Weapon = to_mount;
+                    if (is_two_handed) PlayerEquiped.Shield = new Equipment("Shield");
                     break;
                 case "Body":
                     PlayerEquiped.Body = to_mount;
                     break;
                 case "Shield":
                     PlayerEquiped.Shield = to_mount;
+                    if (PlayerEquiped.Weapon.is_two_handed) PlayerEquiped.Weapon = new Equipment("Weapon");
                     break;
                 case "Legs":
                     PlayerEquiped.Legs = to_mount;
@@ -138,7 +140,7 @@ namespace OSRSComSim.ViewModels
             setEquipmentInfo();
         }
 
-        public Equipment set_equipment(string eqp)
+        public Equipment set_equipment(string eqp, bool is_two_handed = false)
         {
             if (eqp != "")
             {
@@ -170,6 +172,7 @@ namespace OSRSComSim.ViewModels
                 {
                     to_mount.WeaponType = values[18];
                 }
+                to_mount.is_two_handed = is_two_handed;
                 return to_mount;
             }
             else
@@ -188,10 +191,5 @@ namespace OSRSComSim.ViewModels
             else return "../../Resources/404.png";
 
         }
-
-
-
-
-
     }
 }

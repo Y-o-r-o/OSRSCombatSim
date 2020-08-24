@@ -42,6 +42,7 @@
             }
         }
 
+        public bool is_two_handed = false;
 
         public Equipment (): this(null) { }
         public Equipment(string equipment_type)

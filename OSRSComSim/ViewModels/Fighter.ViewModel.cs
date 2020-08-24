@@ -119,18 +119,22 @@ namespace OSRSComSim.ViewModels
 
         public void rest()
         {
-            Thread.Sleep(gameticks * FighterCombat.PlayerEquipment.getTotalSpeed() - FighterCombat.CurretOptions.StancBonusSpd*1000);
+            Thread.Sleep((FighterCombat.PlayerEquipment.getTotalSpeed() - FighterCombat.CurretOptions.StancBonusSpd) * gameticks);
         }
         public void takeDamage(string attack_res)
         {
-            if (attack_res != "def")
+            if (attack_res == "def")
             {
-                HealthTaken += (int)Math.Round((double.Parse(attack_res) / FighterCombat.PlayerSkills.Hp_lvl) * 100);
-                th_show_stats = startStatusShow(attack_res.ToString(), "Red");
+                th_show_stats = startStatusShow("0", "Blue");
+            }
+            else if (attack_res == "Message")
+            {
+                th_show_stats = startStatusShow("Debug: you cant attack", "Transparent");
             }
             else
             {
-                th_show_stats = startStatusShow("0", "Blue");
+                HealthTaken += (int)Math.Round((double.Parse(attack_res) / FighterCombat.PlayerSkills.Hp_lvl) * 100);
+                th_show_stats = startStatusShow(attack_res.ToString(), "Red");
             }
         }
         public bool isDead()

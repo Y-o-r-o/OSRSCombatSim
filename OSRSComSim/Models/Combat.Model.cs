@@ -54,22 +54,26 @@ namespace OSRSComSim.Models
             int piercing_roll = get_piercing_roll();
             int maxdmg = get_dmagemax();
 
-            if (deffender_def_roll > piercing_roll)
+            if (canAttack())
             {
-                if (piercing_roll > rnd.Next(0, 2 * deffender_def_roll + 2))
+                if (deffender_def_roll > piercing_roll)
                 {
-                    return rnd.Next((int)Math.Round((double)maxdmg / 5), maxdmg + 1).ToString();
+                    if (piercing_roll > rnd.Next(0, 2 * deffender_def_roll + 2))
+                    {
+                        return rnd.Next((int)Math.Round((double)maxdmg / 5), maxdmg + 1).ToString();
+                    }
+                    else return "def";
                 }
-                else return "def";
-            }
-            else
-            {
-                if ((2 * piercing_roll + 2) - deffender_def_roll > rnd.Next(0, 2 * piercing_roll + 2))
+                else
                 {
-                    return rnd.Next((int)Math.Round((double)maxdmg / 5), maxdmg + 1).ToString();
+                    if ((2 * piercing_roll + 2) - deffender_def_roll > rnd.Next(0, 2 * piercing_roll + 2))
+                    {
+                        return rnd.Next((int)Math.Round((double)maxdmg / 5), maxdmg + 1).ToString();
+                    }
+                    else return "def";
                 }
-                else return "def";
             }
+            return "Message";
         }
 
         public int Deffend(Combat attacker_combat)
@@ -82,12 +86,10 @@ namespace OSRSComSim.Models
         {
             return (int)(effective_level_piercing() * (eq_piercing_bonus + 64));
         }
-
         public int get_def_roll()
         {
             return (int)(effective_level_def() * (eq_def_bonus + 64));
         }
-
         public int get_dmagemax()
         {
             return (int)Math.Floor((0.5 + effective_level_dmage() * (eq_dmage_bonus + 64) / 640));
@@ -97,13 +99,11 @@ namespace OSRSComSim.Models
         {
             return Math.Floor((Math.Floor(dmage_lvl * prayer_dmage_bonus) + CurretOptions.StancBonusStr + 8) * void_bonus);
         }
-
         private double effective_level_piercing()
         {
             return Math.Floor((Math.Floor(piercing_lvl * prayer_piercing_bonus) + CurretOptions.StancBonusAtk + 8) * void_bonus);
             
         }
-
         private double effective_level_def()
         {
             return Math.Floor((Math.Floor(def_lvl * prayer_def_bonus) + CurretOptions.StancBonusDef + 8) * void_bonus);
@@ -147,7 +147,6 @@ namespace OSRSComSim.Models
                     break;
             }
         }
-
         private void set_stats_for_deffender(Combat attacker_combat)
         {
             string value = attacker_combat.CurretOptions.CombatType;
@@ -175,5 +174,31 @@ namespace OSRSComSim.Models
             def_lvl = PlayerSkills.Def_lvl;
         }
 
+        private bool canAttack()
+        {
+            if (CurretOptions.CombatType == "Ranged")
+            {
+                return requedAmmoEquped();
+            }
+            else if (CurretOptions.CombatType == "Magic")
+            {
+                return false;
+            }
+            else return true;
+        }
+        private bool requedAmmoEquped()
+        {
+            if (PlayerEquipment.Weapon.Name.ToLower().Contains("crossbow"))
+            {
+                if (PlayerEquipment.Ammo.Name.Contains("bolt")) return true; //bolt metals ifs will come, when leveling comes.
+                else return false;
+            }
+            if(PlayerEquipment.Weapon.Name.ToLower().Contains("bow"))
+            {
+                if (PlayerEquipment.Ammo.Name.Contains("arrow")) return true;
+                else return false;
+            }
+            return true;
+        }
     }
 }

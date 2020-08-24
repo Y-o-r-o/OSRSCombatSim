@@ -119,7 +119,7 @@ namespace OSRSComSim.ViewModels
 
         public void rest()
         {
-            Thread.Sleep(gameticks * FighterCombat.PlayerEquipment.getTotalSpeed());
+            Thread.Sleep(gameticks * FighterCombat.PlayerEquipment.getTotalSpeed() - FighterCombat.CurretOptions.StancBonusSpd*1000);
         }
         public void takeDamage(string attack_res)
         {
@@ -133,18 +133,15 @@ namespace OSRSComSim.ViewModels
                 th_show_stats = startStatusShow("0", "Blue");
             }
         }
-
         public bool isDead()
         {
             return HealthTaken == 100;
         }
-
         public void Reset()
         {
             HealthTaken = 0;
             LastAtkStatColor = "Transparent";
             LastAtkStatContext = "";
-
         }
 
     }

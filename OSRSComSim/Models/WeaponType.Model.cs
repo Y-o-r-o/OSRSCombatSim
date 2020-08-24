@@ -261,10 +261,10 @@ namespace OSRSComSim.Models
         static private void optionsBows()
         {
             Option1 = "RangedAccurate";
-            Option2 = "Raipid";
+            Option2 = "Rapid";
             Option3 = "RangedLongrange";
             Option1Style = "Accurate";
-            Option2Style = "Raipid";
+            Option2Style = "Rapid";
             Option3Style = "Longrange";
             NumberOfOptions = 3;
         }
@@ -274,27 +274,27 @@ namespace OSRSComSim.Models
             Option2 = "Medium fuse";
             Option3 = "Long fuse";
             Option1Style = "Accurate";
-            Option2Style = "Raipid";
+            Option2Style = "Rapid";
             Option3Style = "Longrange";
             NumberOfOptions = 3;
         }
         static private void optionsCrossbows()
         {
             Option1 = "RangedAccurate";
-            Option2 = "Raipid";
+            Option2 = "Rapid";
             Option3 = "RangedLongrange";
             Option1Style = "Accurate";
-            Option2Style = "Raipid";
+            Option2Style = "Rapid";
             Option3Style = "Longrange";
             NumberOfOptions = 3;
         }
         static private void optionsThrownWeapons()
         {
             Option1 = "RangedAccurate";
-            Option2 = "Raipid";
+            Option2 = "Rapid";
             Option3 = "RangedLongrange";
             Option1Style = "Accurate";
-            Option2Style = "Raipid";
+            Option2Style = "Rapid";
             Option3Style = "Longrange";
             NumberOfOptions = 3;
         }

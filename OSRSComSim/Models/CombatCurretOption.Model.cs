@@ -104,7 +104,7 @@ namespace OSRSComSim.Models
             switch (combat_style)
             {
                 case "RangedAccurate":
-                case "Raipid":
+                case "Rapid":
                 case "RangedLongrange":
                 case "Short fuse":
                 case "Medium fuse":
@@ -193,7 +193,7 @@ namespace OSRSComSim.Models
                     StancBonusDef = 0;
                     StancBonusStr = 0;
                     StancBonusAtk = 0;
-                    StancBonusSpd = 1;
+                    StancBonusSpd = 1; //seconds
                     StancBonusRng = 0;
                     break;
                 case "Longrange":

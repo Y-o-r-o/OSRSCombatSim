@@ -130,6 +130,7 @@ namespace OSRSComSim.ViewModels
                     ViewContent = new SkillsViewModel(SelectedPlayer.PlayerCombat.PlayerSkills, cant_edit).View;
                     break;
                 case "Inventory":
+                    ViewContent = new InventoryViewModel().View;
                     break;
                 case "Armor":
                     ViewContent = new WornEquipmentViewModel(SelectedPlayer.PlayerCombat.PlayerEquipment, cant_edit).View;

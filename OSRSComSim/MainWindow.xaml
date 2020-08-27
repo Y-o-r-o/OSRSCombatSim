@@ -23,20 +23,20 @@
 
     <Grid  x:Name ="Main" Background="#FF726A5E">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="220"/>
             <ColumnDefinition Width="2*"/>
             <ColumnDefinition Width="2*"/>
             <ColumnDefinition Width="2*"/>
             <ColumnDefinition Width="2*"/>
             <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="220"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="6*"/>
-            <RowDefinition Height="4*"/>
-            <RowDefinition Height="2*"/>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
 
         <Image Grid.Row="2" Grid.RowSpan="2" Grid.ColumnSpan="7" Source="./Resources/EdgeVille.png" Stretch="UniformToFill" Margin="0,0,0,-20"/>

@@ -1,4 +1,7 @@
-﻿namespace OSRSComSim.Models
+﻿using OSRSComSim.Models.Items;
+using OSRSComSim.Models.Items.Equipments;
+
+namespace OSRSComSim.Models
 {
     public class Equiped: ObservableObject
     {
@@ -6,7 +9,7 @@
         public Equipment _neck;
         public Equipment _cape;
         public Equipment _ammo;
-        public Equipment _weapon;
+        public Weapon _weapon;
         public Equipment _body;
         public Equipment _shield;
         public Equipment _legs;
@@ -50,7 +53,7 @@
                 OnPropertyChanged("Ammo");
             }
         }
-        public Equipment Weapon
+        public Weapon Weapon
         {
             get { return _weapon; }
             set
@@ -120,7 +123,7 @@
             Neck = new Equipment("Neck");
             Cape = new Equipment("Cape");
             Ammo = new Equipment("Ammo");
-            Weapon = new Equipment("Weapon");
+            Weapon = new Weapon("Weapon");
             Body = new Equipment("Body");
             Shield = new Equipment("Shield");
             Legs = new Equipment("Legs");

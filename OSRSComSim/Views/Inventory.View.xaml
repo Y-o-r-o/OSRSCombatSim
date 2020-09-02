@@ -6,28 +6,30 @@
              xmlns:local="clr-namespace:OSRSComSim.Views"
              mc:Ignorable="d" 
              d:DesignHeight="275" d:DesignWidth="200">
+    <Viewbox>
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Grid.Resources>
+            <Style TargetType="Button">
+                <Setter Property="Background" Value="LightGreen"/>
+                <Setter Property="BorderBrush" Value="Transparent"/>
 
-            <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
-                <Grid.Resources>
-                    <Style TargetType="Button">
-                        <Setter Property="Background" Value="LightGreen"/>
-                        <Setter Property="BorderBrush" Value="Transparent"/>
-                        
-                    </Style>
-                </Grid.Resources>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="35"/>
-                    <ColumnDefinition Width="2"/>
-                    <ColumnDefinition Width="35"/>
-                    <ColumnDefinition Width="2"/>
-                    <ColumnDefinition Width="35"/>
-                    <ColumnDefinition Width="2"/>
-                    <ColumnDefinition Width="35"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
+            </Style>
+        </Grid.Resources>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="35"/>
+            <ColumnDefinition Width="2"/>
+            <ColumnDefinition Width="35"/>
+            <ColumnDefinition Width="2"/>
+            <ColumnDefinition Width="35"/>
+            <ColumnDefinition Width="2"/>
+            <ColumnDefinition Width="35"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="25"/>
+        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="10"/>
             <RowDefinition Height="35"/>
             <RowDefinition Height="2"/>
             <RowDefinition Height="35"/>
@@ -41,37 +43,37 @@
             <RowDefinition Height="35"/>
             <RowDefinition Height="2"/>
             <RowDefinition Height="35"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="10"/>
         </Grid.RowDefinitions>
-        <Button Grid.Column="1" Grid.Row="1"/>
-        <Button Grid.Column="1" Grid.Row="3"/>
-        <Button Grid.Column="1" Grid.Row="5"/>
-        <Button Grid.Column="1" Grid.Row="7"/>
-        <Button Grid.Column="1" Grid.Row="9"/>
-        <Button Grid.Column="1" Grid.Row="11"/>
-        <Button Grid.Column="1" Grid.Row="13"/>
-        <Button Grid.Column="3" Grid.Row="1"/>
-        <Button Grid.Column="3" Grid.Row="3"/>
-        <Button Grid.Column="3" Grid.Row="5"/>
-        <Button Grid.Column="3" Grid.Row="7"/>
-        <Button Grid.Column="3" Grid.Row="9"/>
-        <Button Grid.Column="3" Grid.Row="11"/>
-        <Button Grid.Column="3" Grid.Row="13"/>
-        <Button Grid.Column="5" Grid.Row="1"/>
-        <Button Grid.Column="5" Grid.Row="3"/>
-        <Button Grid.Column="5" Grid.Row="5"/>
-        <Button Grid.Column="5" Grid.Row="7"/>
-        <Button Grid.Column="5" Grid.Row="9"/>
-        <Button Grid.Column="5" Grid.Row="11"/>
-        <Button Grid.Column="5" Grid.Row="13"/>
-        <Button Grid.Column="7" Grid.Row="1"/>
-        <Button Grid.Column="7" Grid.Row="3"/>
-        <Button Grid.Column="7" Grid.Row="5"/>
-        <Button Grid.Column="7" Grid.Row="7"/>
-        <Button Grid.Column="7" Grid.Row="9"/>
-        <Button Grid.Column="7" Grid.Row="11"/>
-        <Button Grid.Column="7" Grid.Row="13"/>
+        <Button Grid.Column="2" Grid.Row="1"/>
+        <Button Grid.Column="2" Grid.Row="3"/>
+        <Button Grid.Column="2" Grid.Row="5"/>
+        <Button Grid.Column="2" Grid.Row="7"/>
+        <Button Grid.Column="2" Grid.Row="9"/>
+        <Button Grid.Column="2" Grid.Row="11"/>
+        <Button Grid.Column="2" Grid.Row="13"/>
+        <Button Grid.Column="4" Grid.Row="1"/>
+        <Button Grid.Column="4" Grid.Row="3"/>
+        <Button Grid.Column="4" Grid.Row="5"/>
+        <Button Grid.Column="4" Grid.Row="7"/>
+        <Button Grid.Column="4" Grid.Row="9"/>
+        <Button Grid.Column="4" Grid.Row="11"/>
+        <Button Grid.Column="4" Grid.Row="13"/>
+        <Button Grid.Column="6" Grid.Row="1"/>
+        <Button Grid.Column="6" Grid.Row="3"/>
+        <Button Grid.Column="6" Grid.Row="5"/>
+        <Button Grid.Column="6" Grid.Row="7"/>
+        <Button Grid.Column="6" Grid.Row="9"/>
+        <Button Grid.Column="6" Grid.Row="11"/>
+        <Button Grid.Column="6" Grid.Row="13"/>
+        <Button Grid.Column="8" Grid.Row="1"/>
+        <Button Grid.Column="8" Grid.Row="3"/>
+        <Button Grid.Column="8" Grid.Row="5"/>
+        <Button Grid.Column="8" Grid.Row="7"/>
+        <Button Grid.Column="8" Grid.Row="9"/>
+        <Button Grid.Column="8" Grid.Row="11"/>
+        <Button Grid.Column="8" Grid.Row="13"/>
 
     </Grid>
-
+    </Viewbox>
 </UserControl>

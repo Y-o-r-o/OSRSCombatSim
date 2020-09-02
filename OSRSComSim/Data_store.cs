@@ -23,7 +23,7 @@ namespace OSRSComSim
         }
 
 
-
+        
         private static void CreatePath()
         {
             path = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + @"\RSCombatSimulator\";

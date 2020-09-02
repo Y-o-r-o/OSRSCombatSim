@@ -1,12 +1,8 @@
-﻿namespace OSRSComSim.Models
+﻿namespace OSRSComSim.Models.Items
 {
-    public class Equipment : ObservableObject
+    public class Equipment : ItemModel
     {
-        private string _weapon_type = null;
-        private string _png = "";
         //lvl ...
-        public string Name { get; set; } = "";
-        public bool Member { get; set; } = false;
         public int StabAtk { get; set; } = 0;
         public int SlashAtk { get; set; } = 0;
         public int CrushAtk { get; set; } = 0;
@@ -20,29 +16,8 @@
         public int MeleStr { get; set; } = 0;
         public int RangedStr { get; set; } = 0;
         public int MagicStr { get; set; } = 0;
-        public int Prayer { get; set; } = 0;
-        public double Weigth { get; set; } = 0;
         public int Speed { get; set; } = 0;
-        public string WeaponType
-        {
-            get { return _weapon_type; }
-            set
-            {
-                _weapon_type = value;
-                OnPropertyChanged("WeaponType");
-            }
-        }
-        public string Png
-        {
-            get { return _png; }
-            set
-            {
-                _png = value;
-                OnPropertyChanged("Png");
-            }
-        }
-
-        public bool is_two_handed = false;
+        public int Prayer { get; set; } = 0;
 
         public Equipment (): this(null) { }
         public Equipment(string equipment_type)
@@ -60,12 +35,6 @@
                     break;
                 case "Ammo":
                     Png = "../Resources/App/Equipment/Ammo_slot.png";
-                    break;
-                case "Weapon":
-                    Name = "Unarmed";
-                    Speed = 4;
-                    WeaponType = "Unarmed";
-                    Png = "../Resources/App/Equipment/Weapon_slot.png";
                     break;
                 case "Body":
                     Png = "../Resources/App/Equipment/Body_slot.png";
@@ -89,6 +58,12 @@
                     break;
             }
         }
+
+
+
+
+
+
 
 
     }

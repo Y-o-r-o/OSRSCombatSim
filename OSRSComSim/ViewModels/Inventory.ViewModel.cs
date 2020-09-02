@@ -11,7 +11,6 @@ namespace OSRSComSim.ViewModels
         //public WornEquipmentViewModel() : this() { }
         public InventoryViewModel()
         {
-
             View = new InventoryView(this);
         }
 

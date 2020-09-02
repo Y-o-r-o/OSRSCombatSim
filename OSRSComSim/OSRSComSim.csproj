@@ -74,7 +74,9 @@
     <Compile Include="Models\Combat.Model.cs" />
     <Compile Include="Models\CombatCurretOption.Model.cs" />
     <Compile Include="Models\Equiped.Model.cs" />
-    <Compile Include="Models\Equipment.Model.cs" />
+    <Compile Include="Models\Items\Equipment.Model.cs" />
+    <Compile Include="Models\Item.Model.cs" />
+    <Compile Include="Models\Items\Equipments\Weapon.Model.cs" />
     <Compile Include="Models\Player.Model.cs" />
     <Compile Include="Models\Skills.Model.cs" />
     <Compile Include="Models\WeaponType.Model.cs" />

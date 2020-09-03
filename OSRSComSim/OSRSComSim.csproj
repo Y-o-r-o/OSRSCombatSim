@@ -190,6 +190,7 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="Resources\Items\csv\Food.csv" />
     <None Include="Resources\Items\csv\Slot tables\Ammo slot table.csv" />
     <None Include="Resources\Items\csv\Slot tables\Body slot table.csv" />
     <None Include="Resources\Items\csv\Slot tables\Cape slot table.csv" />
@@ -3345,6 +3346,59 @@
     <Resource Include="Resources\Items\png\Weapon\Zamorak_godsword.png" />
     <Resource Include="Resources\Items\png\Weapon\Zamorak_godsword_%28or%29.png" />
     <Resource Include="Resources\Items\png\Weapon\Zamorak_mjolnir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Items\png\Food\Anchovy_pizza.png" />
+    <Resource Include="Resources\Items\png\Food\Anglerfish.png" />
+    <Resource Include="Resources\Items\png\Food\Apple_pie.png" />
+    <Resource Include="Resources\Items\png\Food\Banana_stew.png" />
+    <Resource Include="Resources\Items\png\Food\Bass.png" />
+    <Resource Include="Resources\Items\png\Food\Bread.png" />
+    <Resource Include="Resources\Items\png\Food\Cake.png" />
+    <Resource Include="Resources\Items\png\Food\Choc-ice.png" />
+    <Resource Include="Resources\Items\png\Food\Chocolate_bomb.png" />
+    <Resource Include="Resources\Items\png\Food\Chocolate_cake.png" />
+    <Resource Include="Resources\Items\png\Food\Cod.png" />
+    <Resource Include="Resources\Items\png\Food\Cooked_chicken.png" />
+    <Resource Include="Resources\Items\png\Food\Cooked_karambwan.png" />
+    <Resource Include="Resources\Items\png\Food\Cooked_meat.png" />
+    <Resource Include="Resources\Items\png\Food\Curry.png" />
+    <Resource Include="Resources\Items\png\Food\Dark_crab.png" />
+    <Resource Include="Resources\Items\png\Food\Dragonfruit_pie.png" />
+    <Resource Include="Resources\Items\png\Food\Herring.png" />
+    <Resource Include="Resources\Items\png\Food\Jug_of_wine.png" />
+    <Resource Include="Resources\Items\png\Food\Lobster.png" />
+    <Resource Include="Resources\Items\png\Food\Mackerel.png" />
+    <Resource Include="Resources\Items\png\Food\Manta_ray.png" />
+    <Resource Include="Resources\Items\png\Food\Meat_pie.png" />
+    <Resource Include="Resources\Items\png\Food\Meat_pizza.png" />
+    <Resource Include="Resources\Items\png\Food\Monkfish.png" />
+    <Resource Include="Resources\Items\png\Food\Mushroom_potato.png" />
+    <Resource Include="Resources\Items\png\Food\Pike.png" />
+    <Resource Include="Resources\Items\png\Food\Pineapple_pizza.png" />
+    <Resource Include="Resources\Items\png\Food\Pineapple_punch.png" />
+    <Resource Include="Resources\Items\png\Food\Plain_pizza.png" />
+    <Resource Include="Resources\Items\png\Food\Potato_with_butter.png" />
+    <Resource Include="Resources\Items\png\Food\Potato_with_cheese.png" />
+    <Resource Include="Resources\Items\png\Food\Rainbow_fish.png" />
+    <Resource Include="Resources\Items\png\Food\Roast_beast_meat.png" />
+    <Resource Include="Resources\Items\png\Food\Salmon.png" />
+    <Resource Include="Resources\Items\png\Food\Saradomin_brew%284%29.png" />
+    <Resource Include="Resources\Items\png\Food\Sardine.png" />
+    <Resource Include="Resources\Items\png\Food\Sea_turtle.png" />
+    <Resource Include="Resources\Items\png\Food\Shark.png" />
+    <Resource Include="Resources\Items\png\Food\Shrimps.png" />
+    <Resource Include="Resources\Items\png\Food\Stew.png" />
+    <Resource Include="Resources\Items\png\Food\Strawberries%285%29.png" />
+    <Resource Include="Resources\Items\png\Food\Summer_pie.png" />
+    <Resource Include="Resources\Items\png\Food\Swordfish.png" />
+    <Resource Include="Resources\Items\png\Food\Tangled_toad%27s_legs.png" />
+    <Resource Include="Resources\Items\png\Food\Trout.png" />
+    <Resource Include="Resources\Items\png\Food\Tuna.png" />
+    <Resource Include="Resources\Items\png\Food\Tuna_potato.png" />
+    <Resource Include="Resources\Items\png\Food\Ugthanki_kebab.png" />
+    <Resource Include="Resources\Items\png\Food\Watermelon.png" />
+    <Resource Include="Resources\Items\png\Food\Wild_pie.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -191,6 +191,8 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <None Include="Resources\Items\csv\Food.csv" />
+    <None Include="Resources\Items\csv\Potions.csv" />
+    <None Include="Resources\Items\csv\Runes.csv" />
     <None Include="Resources\Items\csv\Slot tables\Ammo slot table.csv" />
     <None Include="Resources\Items\csv\Slot tables\Body slot table.csv" />
     <None Include="Resources\Items\csv\Slot tables\Cape slot table.csv" />
@@ -3399,6 +3401,84 @@
     <Resource Include="Resources\Items\png\Food\Ugthanki_kebab.png" />
     <Resource Include="Resources\Items\png\Food\Watermelon.png" />
     <Resource Include="Resources\Items\png\Food\Wild_pie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Items\png\Potions\Agility_potion%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Anti-venom%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Anti-venom+%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Antidote+%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Antidote++%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Antifire_potion%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Antipoison%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Attack_potion%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Bastion_potion%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Battlemage_potion%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Blamish_oil.png" />
+    <Resource Include="Resources\Items\png\Potions\Combat_potion%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Compost_potion%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Defence_potion%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Divine_bastion_potion%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Divine_battlemage_potion%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Divine_magic_potion%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Divine_ranging_potion%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Divine_super_attack_potion%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Divine_super_combat_potion%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Divine_super_defence_potion%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Divine_super_strength_potion%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Energy_potion%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Extended_antifire%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Extended_super_antifire%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Fishing_potion%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Guthix_balance%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Guthix_rest%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Hunter_potion%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Imp_repellent.png" />
+    <Resource Include="Resources\Items\png\Potions\Magic_essence%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Magic_potion%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Prayer_potion%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Ranging_potion%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Relicym%27s_balm%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Restore_potion%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Sanfew_serum%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Saradomin_brew%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Serum_207_%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Shrink-me-quick.png" />
+    <Resource Include="Resources\Items\png\Potions\Stamina_potion%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Strength_potion%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Superantipoison%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Super_antifire_potion%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Super_attack%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Super_combat_potion%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Super_defence%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Super_energy%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Super_restore%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Super_strength%284%29.png" />
+    <Resource Include="Resources\Items\png\Potions\Weapon_poison++.png" />
+    <Resource Include="Resources\Items\png\Potions\Weapon_poison+.png" />
+    <Resource Include="Resources\Items\png\Potions\Weapon_poison.png" />
+    <Resource Include="Resources\Items\png\Potions\Zamorak_brew%284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Items\png\Runes\Air_rune.png" />
+    <Resource Include="Resources\Items\png\Runes\Astral_rune.png" />
+    <Resource Include="Resources\Items\png\Runes\Blood_rune.png" />
+    <Resource Include="Resources\Items\png\Runes\Body_rune.png" />
+    <Resource Include="Resources\Items\png\Runes\Chaos_rune.png" />
+    <Resource Include="Resources\Items\png\Runes\Cosmic_rune.png" />
+    <Resource Include="Resources\Items\png\Runes\Death_rune.png" />
+    <Resource Include="Resources\Items\png\Runes\Dust_rune.png" />
+    <Resource Include="Resources\Items\png\Runes\Earth_rune.png" />
+    <Resource Include="Resources\Items\png\Runes\Fire_rune.png" />
+    <Resource Include="Resources\Items\png\Runes\Lava_rune.png" />
+    <Resource Include="Resources\Items\png\Runes\Law_rune.png" />
+    <Resource Include="Resources\Items\png\Runes\Mind_rune.png" />
+    <Resource Include="Resources\Items\png\Runes\Mist_rune.png" />
+    <Resource Include="Resources\Items\png\Runes\Mud_rune.png" />
+    <Resource Include="Resources\Items\png\Runes\Nature_rune.png" />
+    <Resource Include="Resources\Items\png\Runes\Smoke_rune.png" />
+    <Resource Include="Resources\Items\png\Runes\Steam_rune.png" />
+    <Resource Include="Resources\Items\png\Runes\Water_rune.png" />
+    <Resource Include="Resources\Items\png\Runes\Wrath_rune.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

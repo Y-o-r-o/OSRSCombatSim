@@ -4,76 +4,134 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:OSRSComSim.Views"
+             xmlns:viewmodels ="clr-namespace:OSRSComSim.ViewModels"
              mc:Ignorable="d" 
+             d:DataContext="{d:DesignInstance Type=viewmodels:InventoryViewModel, IsDesignTimeCreatable=False}" 
              d:DesignHeight="275" d:DesignWidth="200">
     <Viewbox>
-    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
-        <Grid.Resources>
-            <Style TargetType="Button">
-                <Setter Property="Background" Value="LightGreen"/>
-                <Setter Property="BorderBrush" Value="Transparent"/>
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Grid.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="Transparent"/>
+                    <Setter Property="BorderBrush" Value="Transparent"/>
 
-            </Style>
-        </Grid.Resources>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="25"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="35"/>
-            <ColumnDefinition Width="2"/>
-            <ColumnDefinition Width="35"/>
-            <ColumnDefinition Width="2"/>
-            <ColumnDefinition Width="35"/>
-            <ColumnDefinition Width="2"/>
-            <ColumnDefinition Width="35"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="25"/>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="10"/>
-            <RowDefinition Height="35"/>
-            <RowDefinition Height="2"/>
-            <RowDefinition Height="35"/>
-            <RowDefinition Height="2"/>
-            <RowDefinition Height="35"/>
-            <RowDefinition Height="2"/>
-            <RowDefinition Height="35"/>
-            <RowDefinition Height="2"/>
-            <RowDefinition Height="35"/>
-            <RowDefinition Height="2"/>
-            <RowDefinition Height="35"/>
-            <RowDefinition Height="2"/>
-            <RowDefinition Height="35"/>
-            <RowDefinition Height="10"/>
-        </Grid.RowDefinitions>
-        <Button Grid.Column="2" Grid.Row="1"/>
-        <Button Grid.Column="2" Grid.Row="3"/>
-        <Button Grid.Column="2" Grid.Row="5"/>
-        <Button Grid.Column="2" Grid.Row="7"/>
-        <Button Grid.Column="2" Grid.Row="9"/>
-        <Button Grid.Column="2" Grid.Row="11"/>
-        <Button Grid.Column="2" Grid.Row="13"/>
-        <Button Grid.Column="4" Grid.Row="1"/>
-        <Button Grid.Column="4" Grid.Row="3"/>
-        <Button Grid.Column="4" Grid.Row="5"/>
-        <Button Grid.Column="4" Grid.Row="7"/>
-        <Button Grid.Column="4" Grid.Row="9"/>
-        <Button Grid.Column="4" Grid.Row="11"/>
-        <Button Grid.Column="4" Grid.Row="13"/>
-        <Button Grid.Column="6" Grid.Row="1"/>
-        <Button Grid.Column="6" Grid.Row="3"/>
-        <Button Grid.Column="6" Grid.Row="5"/>
-        <Button Grid.Column="6" Grid.Row="7"/>
-        <Button Grid.Column="6" Grid.Row="9"/>
-        <Button Grid.Column="6" Grid.Row="11"/>
-        <Button Grid.Column="6" Grid.Row="13"/>
-        <Button Grid.Column="8" Grid.Row="1"/>
-        <Button Grid.Column="8" Grid.Row="3"/>
-        <Button Grid.Column="8" Grid.Row="5"/>
-        <Button Grid.Column="8" Grid.Row="7"/>
-        <Button Grid.Column="8" Grid.Row="9"/>
-        <Button Grid.Column="8" Grid.Row="11"/>
-        <Button Grid.Column="8" Grid.Row="13"/>
+                </Style>
+            </Grid.Resources>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="35"/>
+                <ColumnDefinition Width="5"/>
+                <ColumnDefinition Width="35"/>
+                <ColumnDefinition Width="5"/>
+                <ColumnDefinition Width="35"/>
+                <ColumnDefinition Width="5"/>
+                <ColumnDefinition Width="35"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="25"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="5"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="2"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="2"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="2"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="2"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="2"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="2"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="5"/>
+            </Grid.RowDefinitions>
+            <Button Grid.Column="2" Grid.Row="1">
+                <Image Source="{Binding InventoryItem[0].Png}"/>
+            </Button>
+            <Button Grid.Column="2" Grid.Row="3"   >
+                <Image Source="{Binding InventoryItem[0].Png}"/>
+            </Button>
+            <Button Grid.Column="2" Grid.Row="5"   >
+                <Image Source="{Binding InventoryItem[0].Png}"/>
+            </Button>
+            <Button Grid.Column="2" Grid.Row="7"   >
+                <Image Source="{Binding InventoryItem[0].Png}"/>
+            </Button>
+            <Button Grid.Column="2" Grid.Row="9"   >
+                <Image Source="{Binding InventoryItem[0].Png}"/>
+            </Button>
+            <Button Grid.Column="2" Grid.Row="11"  >
+                <Image Source="{Binding InventoryItem[0].Png}"/>
+            </Button>
+            <Button Grid.Column="2" Grid.Row="13"  >
+                <Image Source="{Binding InventoryItem[0].Png}"/>
+            </Button>
+            <Button Grid.Column="4" Grid.Row="1"   >
+                <Image Source="{Binding InventoryItem[0].Png}"/>
+            </Button>
+            <Button Grid.Column="4" Grid.Row="3"   >
+                <Image Source="{Binding InventoryItem[0].Png}"/>
+            </Button>
+            <Button Grid.Column="4" Grid.Row="5"   >
+                <Image Source="{Binding InventoryItem[0].Png}"/>
+            </Button>
+            <Button Grid.Column="4" Grid.Row="7"   >
+                <Image Source="{Binding InventoryItem[0].Png}"/>
+            </Button>
+            <Button Grid.Column="4" Grid.Row="9"   >
+                <Image Source="{Binding InventoryItem[0].Png}"/>
+            </Button>
+            <Button Grid.Column="4" Grid.Row="11"  >
+                <Image Source="{Binding InventoryItem[0].Png}"/>
+            </Button>
+            <Button Grid.Column="4" Grid.Row="13"  >
+                <Image Source="{Binding InventoryItem[0].Png}"/>
+            </Button>
+            <Button Grid.Column="6" Grid.Row="1"   >
+                <Image Source="{Binding InventoryItem[0].Png}"/>
+            </Button>
+            <Button Grid.Column="6" Grid.Row="3"   >
+                <Image Source="{Binding InventoryItem[0].Png}"/>
+            </Button>
+            <Button Grid.Column="6" Grid.Row="5"   >
+                <Image Source="{Binding InventoryItem[0].Png}"/>
+            </Button>
+            <Button Grid.Column="6" Grid.Row="7"   >
+                <Image Source="{Binding InventoryItem[0].Png}"/>
+            </Button>
+            <Button Grid.Column="6" Grid.Row="9"   >
+                <Image Source="{Binding InventoryItem[0].Png}"/>
+            </Button>
+            <Button Grid.Column="6" Grid.Row="11"  >
+                <Image Source="{Binding InventoryItem[0].Png}"/>
+            </Button>
+            <Button Grid.Column="6" Grid.Row="13"  >
+                <Image Source="{Binding InventoryItem[0].Png}"/>
+            </Button>
+            <Button Grid.Column="8" Grid.Row="1"   >
+                <Image Source="{Binding InventoryItem[0].Png}"/>
+            </Button>
+            <Button Grid.Column="8" Grid.Row="3"   >
+                <Image Source="{Binding InventoryItem[0].Png}"/>
+            </Button>
+            <Button Grid.Column="8" Grid.Row="5"   >
+                <Image Source="{Binding InventoryItem[0].Png}"/>
+            </Button>
+            <Button Grid.Column="8" Grid.Row="7"   >
+                <Image Source="{Binding InventoryItem[0].Png}"/>
+            </Button>
+            <Button Grid.Column="8" Grid.Row="9"   >
+                <Image Source="{Binding InventoryItem[0].Png}"/>
+            </Button>
+            <Button Grid.Column="8" Grid.Row="11"  >
+                <Image Source="{Binding InventoryItem[0].Png}"/>
+            </Button>
+            <Button Grid.Column="8" Grid.Row="13"  >
+                <Image Source="{Binding InventoryItem[0].Png}"/>
+            </Button>
 
-    </Grid>
+        </Grid>
     </Viewbox>
 </UserControl>

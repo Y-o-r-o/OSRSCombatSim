@@ -78,7 +78,6 @@ namespace OSRSComSim.ViewModels
         }
 
 
-
         public ControlPanelViewModel() : this(null, null, null) { }
         public ControlPanelViewModel(LoadScreenViewModel loadscreenviewmodel = null, PlayerModel player = null, string cp_mode = null) // Create, Edit, View, Interactive.
         {
@@ -87,6 +86,7 @@ namespace OSRSComSim.ViewModels
             if (player != null)
                 SelectedPlayer = player;
             else SelectedPlayer = new PlayerModel();
+
 
             setMode(cp_mode);
             View = new ControlPanelView(this);
@@ -130,7 +130,7 @@ namespace OSRSComSim.ViewModels
                     ViewContent = new SkillsViewModel(SelectedPlayer.PlayerCombat.PlayerSkills, cant_edit).View;
                     break;
                 case "Inventory":
-                    ViewContent = new InventoryViewModel().View;
+                    ViewContent = new InventoryViewModel(SelectedPlayer.InventoryItem).View;
                     break;
                 case "Armor":
                     ViewContent = new WornEquipmentViewModel(SelectedPlayer.PlayerCombat.PlayerEquipment, cant_edit).View;
@@ -157,11 +157,5 @@ namespace OSRSComSim.ViewModels
                 backToLoadScreen();
             }
         }
-
-
-
-
-
-
     }
 }

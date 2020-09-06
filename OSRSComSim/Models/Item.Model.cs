@@ -24,7 +24,7 @@ namespace OSRSComSim.Models
         public ItemModel() : this(null) { }
         public ItemModel(string item_type)
         {
-
+            Png = "../Resources/404.png";
         }
 
 

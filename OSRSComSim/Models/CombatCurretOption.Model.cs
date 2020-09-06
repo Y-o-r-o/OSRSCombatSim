@@ -81,17 +81,6 @@ namespace OSRSComSim.Models
             }
         }
 
-        private string _debug;
-        public string Debug
-        {
-            get { return _debug; }
-            set
-            {
-                _debug = value;
-                OnPropertyChanged("Debug");
-            }
-        }
-
         public CombatCurretOptionModel() : this("Punch", "Accurate") { }
         public CombatCurretOptionModel(string combat_style = "Punch", string attack_type = "Accurate")
         {
@@ -99,6 +88,7 @@ namespace OSRSComSim.Models
             setStancBonus(attack_type);
         }
 
+        //Class needs redesign from here
         private void setCombatType(string combat_style, string attack_style)
         {
             switch (combat_style)

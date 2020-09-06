@@ -47,6 +47,7 @@ namespace OSRSComSim.Models
             CurretOptions = new CombatCurretOptionModel();
         }
 
+        //Class needs redesign from here
         public string Attack(int deffender_def_roll)
         {
             set_stats_for_attacker();

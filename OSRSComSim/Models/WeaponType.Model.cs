@@ -22,7 +22,7 @@ namespace OSRSComSim.Models
         static public string Option4Style { get; set; } = null;
         static public string Option5Style { get; set; } = null;
 
-
+        //Class needs redesign. later save everything from here to files.
         static public void setOptions(CombatModel FighterCombat, string weapontype)
         {
             switch (weapontype)

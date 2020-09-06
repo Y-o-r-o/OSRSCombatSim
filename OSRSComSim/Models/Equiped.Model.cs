@@ -132,6 +132,7 @@ namespace OSRSComSim.Models
             Ring = new EquipmentModel("Ring");
         }
 
+        //Class needs redesign from here
         public int getTotalStabAtk()
         {
             return Head.StabAtk + Neck.StabAtk + Cape.StabAtk + Ammo.StabAtk + Weapon.StabAtk + Body.StabAtk + Shield.StabAtk + Legs.StabAtk + Feet.StabAtk + Hands.StabAtk + Ring.StabAtk;

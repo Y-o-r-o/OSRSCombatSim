@@ -9,7 +9,7 @@ namespace OSRSComSim.ViewModels
         private string view_mode;
         private bool cant_edit;
 
-        private Player _player;
+        private PlayerModel _player;
         private object _viewcontent;
         public object _tabs_background;
         private string _create_mode_tabs_visibility = "Collapsed";
@@ -18,7 +18,7 @@ namespace OSRSComSim.ViewModels
         private LoadScreenViewModel _loadscreenviewmodel;
 
         public ControlPanelView View { get; set; }
-        public Player SelectedPlayer
+        public PlayerModel SelectedPlayer
         {
             get { return _player; }
             set
@@ -80,13 +80,13 @@ namespace OSRSComSim.ViewModels
 
 
         public ControlPanelViewModel() : this(null, null, null) { }
-        public ControlPanelViewModel(LoadScreenViewModel loadscreenviewmodel = null, Player player = null, string cp_mode = null) // Create, Edit, View, Interactive.
+        public ControlPanelViewModel(LoadScreenViewModel loadscreenviewmodel = null, PlayerModel player = null, string cp_mode = null) // Create, Edit, View, Interactive.
         {
             _loadscreenviewmodel = loadscreenviewmodel;
 
             if (player != null)
                 SelectedPlayer = player;
-            else SelectedPlayer = new Player();
+            else SelectedPlayer = new PlayerModel();
 
             setMode(cp_mode);
             View = new ControlPanelView(this);

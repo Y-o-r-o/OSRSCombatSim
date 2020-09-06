@@ -13,9 +13,9 @@ namespace OSRSComSim.ViewModels
 
         private ControlPanelViewModel           _controls_view;
         private MainWindowViewModel             _mainwindowVM;
-        private Player                          _selected_player;
+        private PlayerModel _selected_player;
 
-        private ObservableCollection<Player>    _player_list;
+        private ObservableCollection<PlayerModel>    _player_list;
 
 
         public LoadScreenView                   View { get; set; }
@@ -32,7 +32,7 @@ namespace OSRSComSim.ViewModels
             }
         }
 
-        public ObservableCollection<Player>     PlayerList 
+        public ObservableCollection<PlayerModel>     PlayerList 
         {
             get
             {
@@ -56,7 +56,7 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("ViewContent");
             }
         }
-        public Player                           SelectedPlayer
+        public PlayerModel SelectedPlayer
         {
             get 
             {
@@ -76,8 +76,8 @@ namespace OSRSComSim.ViewModels
         public LoadScreenViewModel(MainWindowViewModel mainWindowVM = null, string fighter_num = null)
         {
             _mainwindowVM = mainWindowVM;
-            _player_list = new ObservableCollection<Player>();
-            _selected_player = new Player();
+            _player_list = new ObservableCollection<PlayerModel>();
+            _selected_player = new PlayerModel();
             _fighter_num = fighter_num;
             ControlsView = new ControlPanelViewModel(this, SelectedPlayer, "View");
             Load_players();
@@ -109,7 +109,7 @@ namespace OSRSComSim.ViewModels
         public void delete_player(string name) {
             Data_store.DeletePlayer(name);
             Load_players();
-            SelectedPlayer = new Player();
+            SelectedPlayer = new PlayerModel();
         }
         public void loadSelectedFighter(string fighter_num)
         {
@@ -126,7 +126,7 @@ namespace OSRSComSim.ViewModels
         }
 
         public void getPlayer(string fighter_num) {
-            foreach(Player player in PlayerList)
+            foreach(PlayerModel player in PlayerList)
             {
                 if (player.Name == fighter_num)
                 {

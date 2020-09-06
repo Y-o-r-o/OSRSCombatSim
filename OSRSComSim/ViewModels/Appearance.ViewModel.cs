@@ -7,7 +7,7 @@ namespace OSRSComSim.ViewModels
 {
     public class AppearanceViewModel: ObservableObject
     {
-        private Player _player;
+        private PlayerModel _player;
         private string _setnamequotes;
 
         public AppearanceView View { get; set; }
@@ -36,7 +36,7 @@ namespace OSRSComSim.ViewModels
         }
 
         public AppearanceViewModel (): this(null) { }
-        public AppearanceViewModel(Player player = null)
+        public AppearanceViewModel(PlayerModel player = null)
         {
             _player = player;
             _setnamequotes = "Enter player name here.";

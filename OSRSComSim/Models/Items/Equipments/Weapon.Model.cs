@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OSRSComSim.Models.Items.Equipments
 {
-    public class Weapon: Equipment
+    public class WeaponModel : EquipmentModel
     {
         private string _weapon_type = null;
 
@@ -22,8 +22,8 @@ namespace OSRSComSim.Models.Items.Equipments
             }
         }
 
-        public Weapon() : this(null) { }
-        public Weapon(string weapon_type)
+        public WeaponModel() : this(null) { }
+        public WeaponModel(string weapon_type)
         {
             Name = "Unarmed";
             Speed = 4;

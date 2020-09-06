@@ -14,7 +14,7 @@ namespace OSRSComSim.ViewModels
 
         private ControlPanelViewModel _controlpanel;
         private int _health_taken;
-        private Combat _fcombat;
+        private CombatModel _fcombat;
         private string _name;
         private string _last_atk_stat_context;
         private string _last_atk_stat_color;
@@ -38,7 +38,7 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("Name");
             }
         }
-        public Combat FighterCombat
+        public CombatModel FighterCombat
         {
             get { return _fcombat; }
             set
@@ -79,9 +79,9 @@ namespace OSRSComSim.ViewModels
         }
 
         public FighterViewModel(): this (null) { }
-        public FighterViewModel(Player selectedplayer = null)
+        public FighterViewModel(PlayerModel selectedplayer = null)
         {
-            if (selectedplayer == null) selectedplayer = new Player();
+            if (selectedplayer == null) selectedplayer = new PlayerModel();
             ControlPanel = new ControlPanelViewModel(player: selectedplayer, cp_mode: "Interactive");
             Name = selectedplayer.Name;
             FighterCombat = selectedplayer.PlayerCombat;

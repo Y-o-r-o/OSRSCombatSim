@@ -11,7 +11,7 @@ namespace OSRSComSim.ViewModels
         private string selected_slot_table = "";
 
         private bool _show_select;
-        private Equiped _player_equiped;
+        private EquipedModel _player_equiped;
         private SelectEquipmentViewModel _select_equipment;
         private string _equipment_info = "";
 
@@ -25,7 +25,7 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("selectEquipment");
             }
         }
-        public Equiped PlayerEquiped
+        public EquipedModel PlayerEquiped
         {
             get { return _player_equiped; }
             set
@@ -46,14 +46,14 @@ namespace OSRSComSim.ViewModels
 
 
         public WornEquipmentViewModel() : this(null, true) { }
-        public WornEquipmentViewModel(Equiped player_equiped = null, bool view_mode = true)
+        public WornEquipmentViewModel(EquipedModel player_equiped = null, bool view_mode = true)
         {
 
             if (player_equiped != null)
             {
                 PlayerEquiped = player_equiped;
             }
-            else PlayerEquiped = new Equiped();
+            else PlayerEquiped = new EquipedModel();
             selectEquipment = null;
             _show_select = !view_mode;
             setEquipmentInfo();
@@ -102,39 +102,39 @@ namespace OSRSComSim.ViewModels
             switch (selected_slot_table)
             {
                 case "Head":
-                    PlayerEquiped.Head = to_mount as Equipment;
+                    PlayerEquiped.Head = to_mount as EquipmentModel;
                     break;
                 case "Neck":
-                    PlayerEquiped.Neck = to_mount as Equipment;
+                    PlayerEquiped.Neck = to_mount as EquipmentModel;
                     break;
                 case "Cape":
-                    PlayerEquiped.Cape = to_mount as Equipment;
+                    PlayerEquiped.Cape = to_mount as EquipmentModel;
                     break;
                 case "Ammo":
-                    PlayerEquiped.Ammo = to_mount as Equipment;
+                    PlayerEquiped.Ammo = to_mount as EquipmentModel;
                     break;
                 case "Weapon":
-                    PlayerEquiped.Weapon = to_mount as Weapon;
-                    if (is_two_handed) PlayerEquiped.Shield = new Equipment("Shield");
+                    PlayerEquiped.Weapon = to_mount as WeaponModel;
+                    if (is_two_handed) PlayerEquiped.Shield = new EquipmentModel("Shield");
                     break;
                 case "Body":
-                    PlayerEquiped.Body = to_mount as Equipment;
+                    PlayerEquiped.Body = to_mount as EquipmentModel;
                     break;
                 case "Shield":
-                    PlayerEquiped.Shield = to_mount as Equipment;
-                    if (PlayerEquiped.Weapon.is_two_handed) PlayerEquiped.Weapon = new Weapon("Unarmed");
+                    PlayerEquiped.Shield = to_mount as EquipmentModel;
+                    if (PlayerEquiped.Weapon.is_two_handed) PlayerEquiped.Weapon = new WeaponModel("Unarmed");
                     break;
                 case "Legs":
-                    PlayerEquiped.Legs = to_mount as Equipment;
+                    PlayerEquiped.Legs = to_mount as EquipmentModel;
                     break;
                 case "Feet":
-                    PlayerEquiped.Feet = to_mount as Equipment;
+                    PlayerEquiped.Feet = to_mount as EquipmentModel;
                     break;
                 case "Hands":
-                    PlayerEquiped.Hands = to_mount as Equipment;
+                    PlayerEquiped.Hands = to_mount as EquipmentModel;
                     break;
                 case "Ring":
-                    PlayerEquiped.Ring = to_mount as Equipment;
+                    PlayerEquiped.Ring = to_mount as EquipmentModel;
                     break;
                 default:
                     break;
@@ -151,7 +151,7 @@ namespace OSRSComSim.ViewModels
                 string[] values = eqp.Split(',');
                 if (selected_slot_table.Contains("Weapon"))
                 {
-                    Weapon to_mount = new Weapon(selected_slot_table)
+                    WeaponModel to_mount = new WeaponModel(selected_slot_table)
                     {
                         Name = values[0],
                         StabAtk = Int32.Parse(values[2]),
@@ -177,7 +177,7 @@ namespace OSRSComSim.ViewModels
                     return to_mount;
                 }
                 else {
-                    Equipment to_mount = new Equipment(selected_slot_table)
+                    EquipmentModel to_mount = new EquipmentModel(selected_slot_table)
                     {
                         Name = values[0],
                         StabAtk = Int32.Parse(values[2]),
@@ -203,7 +203,7 @@ namespace OSRSComSim.ViewModels
             }
             else
             {
-                return new Equipment(selected_slot_table);
+                return new EquipmentModel(selected_slot_table);
             }
         }
 

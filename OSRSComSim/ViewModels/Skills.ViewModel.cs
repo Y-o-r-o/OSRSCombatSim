@@ -7,7 +7,7 @@ namespace OSRSComSim.ViewModels
     public class SkillsViewModel: ObservableObject
     {
         private string _btn_visibility;
-        private Skills _playerskills;
+        private SkillsModel _playerskills;
 
 
         public SkillsView View { get; set; }
@@ -23,7 +23,7 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("BtnVisibility");
             }
         }
-        public Skills PlayerSkills
+        public SkillsModel PlayerSkills
         {
             get { return _playerskills;  }
             set
@@ -34,7 +34,7 @@ namespace OSRSComSim.ViewModels
         }
 
         public SkillsViewModel() : this(null, false) { }
-        public SkillsViewModel(Skills skills, bool view_mode = false)
+        public SkillsViewModel(SkillsModel skills, bool view_mode = false)
         {
             PlayerSkills = skills;
             if (view_mode)
@@ -46,7 +46,7 @@ namespace OSRSComSim.ViewModels
 
         public void resetPlayerSkills()
         {
-           PlayerSkills = new Skills();
+           PlayerSkills = new SkillsModel();
         }
         public void setRandomPlayerSkills()
         {

@@ -1,6 +1,6 @@
 ﻿namespace OSRSComSim.Models.Items
 {
-    public class Equipment : ItemModel
+    public class EquipmentModel : ItemModel
     {
         //lvl ...
         public int StabAtk { get; set; } = 0;
@@ -19,8 +19,8 @@
         public int Speed { get; set; } = 0;
         public int Prayer { get; set; } = 0;
 
-        public Equipment (): this(null) { }
-        public Equipment(string equipment_type)
+        public EquipmentModel(): this(null) { }
+        public EquipmentModel(string equipment_type)
         {
             switch (equipment_type)
             {

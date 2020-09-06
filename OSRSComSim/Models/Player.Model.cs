@@ -1,21 +1,22 @@
 ﻿namespace OSRSComSim.Models
 {
-    public class Player: ObservableObject
+    public class PlayerModel : ObservableObject
     {
         private string _name;
-        private Combat _player_combat;
+        private CombatModel _player_combat;
+        private ItemModel _item;
 
-        public string Name 
+        public string Name
         {
-            get 
+            get
             { return _name; }
-            set 
+            set
             {
                 _name = value;
                 OnPropertyChanged("Name");
             }
         }
-       public Combat PlayerCombat 
+        public CombatModel PlayerCombat
         {
             get
             {
@@ -26,15 +27,17 @@
                 _player_combat = value;
             }
         }
+        
 
 
-        public Player() : this("Default character",null) { }
-        public Player(string name = "Default character", Combat player_combat = null)
+
+        public PlayerModel() : this("Default character", null) { }
+        public PlayerModel(string name = "Default character", CombatModel player_combat = null)
         {
             this.Name = name;
             if (player_combat != null)
                 PlayerCombat = player_combat;
-            else PlayerCombat = new Combat();
+            else PlayerCombat = new CombatModel();
         }
     }
 }

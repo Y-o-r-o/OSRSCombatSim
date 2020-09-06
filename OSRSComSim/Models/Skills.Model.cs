@@ -2,7 +2,7 @@
 
 namespace OSRSComSim.Models
 {
-    public class Skills: ObservableObject
+    public class SkillsModel : ObservableObject
     {
         private int _hplvl;
         private int _deflvl;
@@ -122,8 +122,8 @@ namespace OSRSComSim.Models
         }
 
 
-        public Skills() : this(10, 1, 1, 1, 1 , 1, 1) { }
-        public Skills(int hp_lvl = 10, int def_lvl = 1, int str_lvl = 1, int atk_lvl = 1,int magic_lvl = 1, int ranged_lvl = 1, int prayer_lvl = 1)
+        public SkillsModel() : this(10, 1, 1, 1, 1 , 1, 1) { }
+        public SkillsModel(int hp_lvl = 10, int def_lvl = 1, int str_lvl = 1, int atk_lvl = 1,int magic_lvl = 1, int ranged_lvl = 1, int prayer_lvl = 1)
         {
             this.Def_lvl = def_lvl;
             this.Hp_lvl = hp_lvl;

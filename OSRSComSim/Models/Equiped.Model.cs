@@ -3,21 +3,21 @@ using OSRSComSim.Models.Items.Equipments;
 
 namespace OSRSComSim.Models
 {
-    public class Equiped: ObservableObject
+    public class EquipedModel: ObservableObject
     {
-        public Equipment _head;
-        public Equipment _neck;
-        public Equipment _cape;
-        public Equipment _ammo;
-        public Weapon _weapon;
-        public Equipment _body;
-        public Equipment _shield;
-        public Equipment _legs;
-        public Equipment _feet;
-        public Equipment _hands;
-        public Equipment _ring;
+        public EquipmentModel _head;
+        public EquipmentModel _neck;
+        public EquipmentModel _cape;
+        public EquipmentModel _ammo;
+        public WeaponModel _weapon;
+        public EquipmentModel _body;
+        public EquipmentModel _shield;
+        public EquipmentModel _legs;
+        public EquipmentModel _feet;
+        public EquipmentModel _hands;
+        public EquipmentModel _ring;
 
-        public Equipment Head 
+        public EquipmentModel Head 
         {
             get { return _head; }
             set
@@ -26,7 +26,7 @@ namespace OSRSComSim.Models
                 OnPropertyChanged("Head");
             }
         }
-        public Equipment Neck
+        public EquipmentModel Neck
         {
             get { return _neck; }
             set
@@ -35,7 +35,7 @@ namespace OSRSComSim.Models
                 OnPropertyChanged("Neck");
             }
         }
-        public Equipment Cape
+        public EquipmentModel Cape
         {
             get { return _cape; }
             set
@@ -44,7 +44,7 @@ namespace OSRSComSim.Models
                 OnPropertyChanged("Cape");
             }
         }
-        public Equipment Ammo
+        public EquipmentModel Ammo
         {
             get { return _ammo; }
             set
@@ -53,7 +53,7 @@ namespace OSRSComSim.Models
                 OnPropertyChanged("Ammo");
             }
         }
-        public Weapon Weapon
+        public WeaponModel Weapon
         {
             get { return _weapon; }
             set
@@ -62,7 +62,7 @@ namespace OSRSComSim.Models
                 OnPropertyChanged("Weapon");
             }
         }
-        public Equipment Body
+        public EquipmentModel Body
         {
             get { return _body; }
             set
@@ -71,7 +71,7 @@ namespace OSRSComSim.Models
                 OnPropertyChanged("Body");
             }
         }
-        public Equipment Shield
+        public EquipmentModel Shield
         {
             get { return _shield; }
             set
@@ -80,7 +80,7 @@ namespace OSRSComSim.Models
                 OnPropertyChanged("Shield");
             }
         }
-        public Equipment Legs
+        public EquipmentModel Legs
         {
             get { return _legs; }
             set
@@ -89,7 +89,7 @@ namespace OSRSComSim.Models
                 OnPropertyChanged("Legs");
             }
         }
-        public Equipment Feet
+        public EquipmentModel Feet
         {
             get { return _feet; }
             set
@@ -98,7 +98,7 @@ namespace OSRSComSim.Models
                 OnPropertyChanged("Feet");
             }
         }
-        public Equipment Hands
+        public EquipmentModel Hands
         {
             get { return _hands; }
             set
@@ -107,7 +107,7 @@ namespace OSRSComSim.Models
                 OnPropertyChanged("Hands");
             }
         }
-        public Equipment Ring
+        public EquipmentModel Ring
         {
             get { return _ring; }
             set
@@ -117,19 +117,19 @@ namespace OSRSComSim.Models
             }
         }
 
-        public Equiped()
+        public EquipedModel()
         {
-            Head = new Equipment("Head");
-            Neck = new Equipment("Neck");
-            Cape = new Equipment("Cape");
-            Ammo = new Equipment("Ammo");
-            Weapon = new Weapon("Weapon");
-            Body = new Equipment("Body");
-            Shield = new Equipment("Shield");
-            Legs = new Equipment("Legs");
-            Feet = new Equipment("Feet");
-            Hands = new Equipment("Hands");
-            Ring = new Equipment("Ring");
+            Head = new EquipmentModel("Head");
+            Neck = new EquipmentModel("Neck");
+            Cape = new EquipmentModel("Cape");
+            Ammo = new EquipmentModel("Ammo");
+            Weapon = new WeaponModel("Weapon");
+            Body = new EquipmentModel("Body");
+            Shield = new EquipmentModel("Shield");
+            Legs = new EquipmentModel("Legs");
+            Feet = new EquipmentModel("Feet");
+            Hands = new EquipmentModel("Hands");
+            Ring = new EquipmentModel("Ring");
         }
 
         public int getTotalStabAtk()

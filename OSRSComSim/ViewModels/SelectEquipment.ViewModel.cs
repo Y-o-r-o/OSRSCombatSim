@@ -9,7 +9,7 @@ namespace OSRSComSim.ViewModels
     {
         WornEquipmentViewModel _wornequipmentviewmodel;
 
-        private Equiped _player_equiped;
+        private EquipedModel _player_equiped;
 
         public string[] _lines;
 
@@ -17,7 +17,7 @@ namespace OSRSComSim.ViewModels
         private bool is_two_handed = false;
 
         public SelectEquipmentView View { get; set; }
-        public Equiped PlayerEquiped
+        public EquipedModel PlayerEquiped
         {
             get { return _player_equiped; }
             set
@@ -39,7 +39,7 @@ namespace OSRSComSim.ViewModels
         }
 
         public SelectEquipmentViewModel() : this(null, null, null) { }
-        public SelectEquipmentViewModel(WornEquipmentViewModel wornequipmentviewmodel, Equiped player_equiped, string selected_slot_table)
+        public SelectEquipmentViewModel(WornEquipmentViewModel wornequipmentviewmodel, EquipedModel player_equiped, string selected_slot_table)
         {
             _wornequipmentviewmodel = wornequipmentviewmodel;
             _lines = getCSV(selected_slot_table);//File.ReadAllLines("../../Resources/Items/csv/Slot tables/" + SelectedSlotTable + " slot table.csv");

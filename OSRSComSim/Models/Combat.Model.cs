@@ -2,12 +2,12 @@
 
 namespace OSRSComSim.Models
 {
-    public class Combat: ObservableObject
+    public class CombatModel : ObservableObject
     {
         private CombatCurretOptionModel _curretoptions;
 
-        public Skills PlayerSkills { get; set; }
-        public Equiped PlayerEquipment { get; set; }
+        public SkillsModel PlayerSkills { get; set; }
+        public EquipedModel PlayerEquipment { get; set; }
         public CombatCurretOptionModel CurretOptions
         {
             get { return _curretoptions; }
@@ -35,15 +35,15 @@ namespace OSRSComSim.Models
 
         private static Random rnd = new Random();
 
-        public Combat() : this(null, null) { }
-        public Combat(Skills player_skills = null, Equiped player_equipment = null)
+        public CombatModel() : this(null, null) { }
+        public CombatModel(SkillsModel player_skills = null, EquipedModel player_equipment = null)
         {
             if (player_skills != null)
                 PlayerSkills = player_skills;
-            else PlayerSkills = new Skills();
+            else PlayerSkills = new SkillsModel();
             if (player_equipment != null)
                 PlayerEquipment = player_equipment;
-            else PlayerEquipment = new Equiped();
+            else PlayerEquipment = new EquipedModel();
             CurretOptions = new CombatCurretOptionModel();
         }
 
@@ -76,7 +76,7 @@ namespace OSRSComSim.Models
             return "Message";
         }
 
-        public int Deffend(Combat attacker_combat)
+        public int Deffend(CombatModel attacker_combat)
         {
             set_stats_for_deffender(attacker_combat);
             return get_def_roll();
@@ -147,7 +147,7 @@ namespace OSRSComSim.Models
                     break;
             }
         }
-        private void set_stats_for_deffender(Combat attacker_combat)
+        private void set_stats_for_deffender(CombatModel attacker_combat)
         {
             string value = attacker_combat.CurretOptions.CombatType;
             switch (value)

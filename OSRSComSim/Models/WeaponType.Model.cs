@@ -23,7 +23,7 @@ namespace OSRSComSim.Models
         static public string Option5Style { get; set; } = null;
 
 
-        static public void setOptions(Combat FighterCombat, string weapontype)
+        static public void setOptions(CombatModel FighterCombat, string weapontype)
         {
             switch (weapontype)
             {
@@ -108,7 +108,7 @@ namespace OSRSComSim.Models
             }
             setCombat(FighterCombat, Option1, Option1Style);
         }
-        static public void setCombat(Combat FighterCombat, string combat_style, string attack_type)
+        static public void setCombat(CombatModel FighterCombat, string combat_style, string attack_type)
         {
             FighterCombat.CurretOptions = new CombatCurretOptionModel(combat_style, attack_type);
         }

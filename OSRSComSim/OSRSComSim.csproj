@@ -3483,5 +3483,8 @@
     <Resource Include="Resources\Items\png\Runes\Water_rune.png" />
     <Resource Include="Resources\Items\png\Runes\Wrath_rune.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\add.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

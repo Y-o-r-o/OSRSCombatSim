@@ -7,7 +7,7 @@ namespace OSRSComSim.ViewModels
     public class ControlPanelViewModel : ObservableObject
     {
         private string view_mode;
-        private bool cant_edit;
+        private string cp_mode;
 
         private PlayerModel _player;
         private object _viewcontent;
@@ -82,30 +82,27 @@ namespace OSRSComSim.ViewModels
         public ControlPanelViewModel(LoadScreenViewModel loadscreenviewmodel = null, PlayerModel player = null, string cp_mode = null) // Create, Edit, View, Interactive.
         {
             _loadscreenviewmodel = loadscreenviewmodel;
+            this.cp_mode = cp_mode;
 
             if (player != null)
                 SelectedPlayer = player;
             else SelectedPlayer = new PlayerModel();
 
-
-            setMode(cp_mode);
+            setMode();
             View = new ControlPanelView(this);
         }
 
-        private void setMode(string cp_mode)
+        private void setMode()
         {
-            cant_edit = true;
             if (cp_mode == "Create")
             {
                 CreateModeTabsVisibility = "Visible";
-                cant_edit = false;
                 setViewMode("Appearance");
             }
             else if (cp_mode == "Edit")
             {
                 Data_store.DeletePlayer(SelectedPlayer.Name);
                 EditModeTabsVisibility = "Visible";
-                cant_edit = false;
                 setViewMode("Appearance");
             }
             else if (cp_mode == "Interactive")
@@ -127,13 +124,13 @@ namespace OSRSComSim.ViewModels
                     ViewContent = new CombatOptionsViewModel(SelectedPlayer.PlayerCombat).View;
                     break;
                 case "Skills":
-                    ViewContent = new SkillsViewModel(SelectedPlayer.PlayerCombat.PlayerSkills, cant_edit).View;
+                    ViewContent = new SkillsViewModel(SelectedPlayer.PlayerCombat.PlayerSkills, cp_mode).View;
                     break;
                 case "Inventory":
-                    ViewContent = new InventoryViewModel(SelectedPlayer.InventoryItem).View;
+                    ViewContent = new InventoryViewModel(SelectedPlayer.InventoryItem, cp_mode).View;
                     break;
                 case "Armor":
-                    ViewContent = new WornEquipmentViewModel(SelectedPlayer.PlayerCombat.PlayerEquipment, cant_edit).View;
+                    ViewContent = new WornEquipmentViewModel(SelectedPlayer.PlayerCombat.PlayerEquipment, cp_mode).View;
                     break;
                 case "Prayer":
                     break;

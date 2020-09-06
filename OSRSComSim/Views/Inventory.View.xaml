@@ -48,88 +48,88 @@
                 <RowDefinition Height="5"/>
             </Grid.RowDefinitions>
             <Button Grid.Column="2" Grid.Row="1">
-                <Image Source="{Binding InventoryItem[0].Png}"/>
+                <Image Source="{Binding SlotPng[0]}"/>
             </Button>
             <Button Grid.Column="2" Grid.Row="3"   >
-                <Image Source="{Binding InventoryItem[1].Png}"/>
+                <Image Source="{Binding SlotPng[1]}"/>
             </Button>
             <Button Grid.Column="2" Grid.Row="5"   >
-                <Image Source="{Binding InventoryItem[2].Png}"/>
+                <Image Source="{Binding SlotPng[2]}"/>
             </Button>
             <Button Grid.Column="2" Grid.Row="7"   >
-                <Image Source="{Binding InventoryItem[3].Png}"/>
+                <Image Source="{Binding SlotPng[3]}"/>
             </Button>
             <Button Grid.Column="2" Grid.Row="9"   >
-                <Image Source="{Binding InventoryItem[4].Png}"/>
+                <Image Source="{Binding SlotPng[4]}"/>
             </Button>
             <Button Grid.Column="2" Grid.Row="11"  >
-                <Image Source="{Binding InventoryItem[5].Png}"/>
+                <Image Source="{Binding SlotPng[5]}"/>
             </Button>
             <Button Grid.Column="2" Grid.Row="13"  >
-                <Image Source="{Binding InventoryItem[6].Png}"/>
+                <Image Source="{Binding SlotPng[6]}"/>
             </Button>
             <Button Grid.Column="4" Grid.Row="1"   >
-                <Image Source="{Binding InventoryItem[7].Png}"/>
+                <Image Source="{Binding SlotPng[7]}"/>
             </Button>
             <Button Grid.Column="4" Grid.Row="3"   >
-                <Image Source="{Binding InventoryItem[8].Png}"/>
+                <Image Source="{Binding SlotPng[8]}"/>
             </Button>
             <Button Grid.Column="4" Grid.Row="5"   >
-                <Image Source="{Binding InventoryItem[9].Png}"/>
+                <Image Source="{Binding SlotPng[9]}"/>
             </Button>
             <Button Grid.Column="4" Grid.Row="7"   >
-                <Image Source="{Binding InventoryItem[10].Png}"/>
+                <Image Source="{Binding SlotPng[10]}"/>
             </Button>
             <Button Grid.Column="4" Grid.Row="9"   >
-                <Image Source="{Binding InventoryItem[11].Png}"/>
+                <Image Source="{Binding SlotPng[11]}"/>
             </Button>
             <Button Grid.Column="4" Grid.Row="11"  >
-                <Image Source="{Binding InventoryItem[12].Png}"/>
+                <Image Source="{Binding SlotPng[12]}"/>
             </Button>
             <Button Grid.Column="4" Grid.Row="13"  >
-                <Image Source="{Binding InventoryItem[13].Png}"/>
+                <Image Source="{Binding SlotPng[13]}"/>
             </Button>
             <Button Grid.Column="6" Grid.Row="1"   >
-                <Image Source="{Binding InventoryItem[14].Png}"/>
+                <Image Source="{Binding SlotPng[14]}"/>
             </Button>
             <Button Grid.Column="6" Grid.Row="3"   >
-                <Image Source="{Binding InventoryItem[15].Png}"/>
+                <Image Source="{Binding SlotPng[15]}"/>
             </Button>
             <Button Grid.Column="6" Grid.Row="5"   >
-                <Image Source="{Binding InventoryItem[16].Png}"/>
+                <Image Source="{Binding SlotPng[16]}"/>
             </Button>
             <Button Grid.Column="6" Grid.Row="7"   >
-                <Image Source="{Binding InventoryItem[17].Png}"/>
+                <Image Source="{Binding SlotPng[17]}"/>
             </Button>
             <Button Grid.Column="6" Grid.Row="9"   >
-                <Image Source="{Binding InventoryItem[18].Png}"/>
+                <Image Source="{Binding SlotPng[18]}"/>
             </Button>
             <Button Grid.Column="6" Grid.Row="11"  >
-                <Image Source="{Binding InventoryItem[19].Png}"/>
+                <Image Source="{Binding SlotPng[19]}"/>
             </Button>
             <Button Grid.Column="6" Grid.Row="13"  >
-                <Image Source="{Binding InventoryItem[20].Png}"/>
+                <Image Source="{Binding SlotPng[20]}"/>
             </Button>
             <Button Grid.Column="8" Grid.Row="1"   >
-                <Image Source="{Binding InventoryItem[21].Png}"/>
+                <Image Source="{Binding SlotPng[21]}"/>
             </Button>
             <Button Grid.Column="8" Grid.Row="3"   >
-                <Image Source="{Binding InventoryItem[22].Png}"/>
+                <Image Source="{Binding SlotPng[22]}"/>
             </Button>
             <Button Grid.Column="8" Grid.Row="5"   >
-                <Image Source="{Binding InventoryItem[23].Png}"/>
+                <Image Source="{Binding SlotPng[23]}"/>
             </Button>
             <Button Grid.Column="8" Grid.Row="7"   >
-                <Image Source="{Binding InventoryItem[24].Png}"/>
+                <Image Source="{Binding SlotPng[24]}"/>
             </Button>
             <Button Grid.Column="8" Grid.Row="9"   >
-                <Image Source="{Binding InventoryItem[25].Png}"/>
+                <Image Source="{Binding SlotPng[25]}"/>
             </Button>
             <Button Grid.Column="8" Grid.Row="11"  >
-                <Image Source="{Binding InventoryItem[26].Png}"/>
+                <Image Source="{Binding SlotPng[26]}"/>
             </Button>
             <Button Grid.Column="8" Grid.Row="13"  >
-                <Image Source="{Binding InventoryItem[27].Png}"/>
+                <Image Source="{Binding SlotPng[27]}"/>
             </Button>
 
         </Grid>

@@ -33,13 +33,13 @@ namespace OSRSComSim.ViewModels
             }
         }
 
-        public SkillsViewModel() : this(null, false) { }
-        public SkillsViewModel(SkillsModel skills, bool view_mode = false)
+        public SkillsViewModel() : this(null, "Edit") { }
+        public SkillsViewModel(SkillsModel skills, string skills_mode)
         {
             PlayerSkills = skills;
-            if (view_mode)
-                BtnVisibility = "Hidden";
-            else BtnVisibility = "Visible";
+            if (skills_mode == "Edit" || skills_mode == "Create")
+                BtnVisibility = "Visible"; 
+            else BtnVisibility = "Hidden";
 
             View = new SkillsView(this);
         }

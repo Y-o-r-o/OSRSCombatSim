@@ -10,7 +10,7 @@ namespace OSRSComSim.ViewModels
     {
         private string selected_slot_table = "";
 
-        private bool _show_select;
+        private bool _show_select = false;
         private EquipedModel _player_equiped;
         private SelectEquipmentViewModel _select_equipment;
         private string _equipment_info = "";
@@ -45,8 +45,8 @@ namespace OSRSComSim.ViewModels
         }
 
 
-        public WornEquipmentViewModel() : this(null, true) { }
-        public WornEquipmentViewModel(EquipedModel player_equiped = null, bool view_mode = true)
+        public WornEquipmentViewModel() : this(null, "Edit") { }
+        public WornEquipmentViewModel(EquipedModel player_equiped = null, string we_mode = "Edit")
         {
 
             if (player_equiped != null)
@@ -55,7 +55,8 @@ namespace OSRSComSim.ViewModels
             }
             else PlayerEquiped = new EquipedModel();
             selectEquipment = null;
-            _show_select = !view_mode;
+            if(we_mode == "Edit" || we_mode == "Create")
+                _show_select = true;
             setEquipmentInfo();
 
             View = new WornEquipmentView(this);

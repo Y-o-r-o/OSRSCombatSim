@@ -2,6 +2,8 @@
 {
     public class PlayerModel : ObservableObject
     {
+        private const int inventory_capativity = 28;
+
         private string _name;
         private CombatModel _player_combat;
         private ItemModel[] _item;
@@ -41,8 +43,8 @@
         public PlayerModel(string name = "Default character", CombatModel player_combat = null)
         {
             this.Name = name;
-            InventoryItem = new ItemModel[28];
-            for(int i = 0; i <28; i++)
+            InventoryItem = new ItemModel[inventory_capativity];
+            for(int i = 0; i < inventory_capativity; i++)
             {
                 InventoryItem[i] = new ItemModel();
             }

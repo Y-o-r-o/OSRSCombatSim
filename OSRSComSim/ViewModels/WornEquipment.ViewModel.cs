@@ -12,11 +12,11 @@ namespace OSRSComSim.ViewModels
 
         private bool _show_select = false;
         private EquipedModel _player_equiped;
-        private SelectEquipmentViewModel _select_equipment;
+        private SelectItemViewModel _select_equipment;
         private string _equipment_info = "";
 
         public WornEquipmentView View { get; set; }
-        public SelectEquipmentViewModel selectEquipment
+        public SelectItemViewModel selectEquipment
         {
             get { return _select_equipment; }
             set
@@ -68,7 +68,7 @@ namespace OSRSComSim.ViewModels
             if (mount)
             {
                 if (_show_select)
-                    selectEquipment = new SelectEquipmentViewModel(this, PlayerEquiped, selected_slot_table);
+                    selectEquipment = new SelectItemViewModel(this, selected_slot_table);
             }
             else
             {
@@ -97,9 +97,9 @@ namespace OSRSComSim.ViewModels
             EquipmentInfo = Info;
         }
 
-        public void mountEquipment(string eqp, bool is_two_handed = false)
+        public void mountEquipment(string eqp)
         {
-            object to_mount = set_equipment(eqp, is_two_handed);
+            object to_mount = set_equipment(eqp);
             switch (selected_slot_table)
             {
                 case "Head":
@@ -116,7 +116,7 @@ namespace OSRSComSim.ViewModels
                     break;
                 case "Weapon":
                     PlayerEquiped.Weapon = to_mount as WeaponModel;
-                    if (is_two_handed) PlayerEquiped.Shield = new EquipmentModel("Shield");
+                    if (PlayerEquiped.Weapon.is_two_handed) PlayerEquiped.Shield = new EquipmentModel("Shield");
                     break;
                 case "Body":
                     PlayerEquiped.Body = to_mount as EquipmentModel;
@@ -145,12 +145,13 @@ namespace OSRSComSim.ViewModels
 
         public object set_equipment(string eqp, bool is_two_handed = false)
         {
-            if (eqp != "")
+
+            //if (values[1].Contains("Free-to-play")) Member = false;   !!!!!!!!!!!!!!!!!!!
+            //else Member = true;                                       !!!!!!!!!!!!!!!!!!!
+            string[] values = eqp.Split(',');
+            if (selected_slot_table.Contains("Weapon"))
             {
-                //if (values[1].Contains("Free-to-play")) Member = false;   !!!!!!!!!!!!!!!!!!!
-                //else Member = true;                                       !!!!!!!!!!!!!!!!!!!
-                string[] values = eqp.Split(',');
-                if (selected_slot_table.Contains("Weapon"))
+                if (eqp != "")
                 {
                     WeaponModel to_mount = new WeaponModel(selected_slot_table)
                     {
@@ -173,11 +174,19 @@ namespace OSRSComSim.ViewModels
                         Speed = Int32.Parse(values[17]),
                         Png = setPng(values[0]),
                         WeaponType = values[18],
-                        is_two_handed = is_two_handed
+                        is_two_handed = Boolean.Parse(values[19])
                     };
                     return to_mount;
                 }
-                else {
+                else
+                {
+                    return new WeaponModel(selected_slot_table);
+                }
+            }
+            else
+            {
+                if (eqp != "")
+                {
                     EquipmentModel to_mount = new EquipmentModel(selected_slot_table)
                     {
                         Name = values[0],
@@ -201,11 +210,13 @@ namespace OSRSComSim.ViewModels
                     };
                     return to_mount;
                 }
+
+                else
+                {
+                    return new EquipmentModel(selected_slot_table);
+                }
             }
-            else
-            {
-                return new EquipmentModel(selected_slot_table);
-            }
+
         }
 
         private string setPng(string png_name)

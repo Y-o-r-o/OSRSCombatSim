@@ -3,10 +3,10 @@ using System.Windows.Controls;
 
 namespace OSRSComSim.ViewModels
 {
-    public partial class SelectEquipmentView : UserControl
+    public partial class SelectItemView : UserControl
     {
-        public SelectEquipmentViewModel view_model;
-        public SelectEquipmentView(SelectEquipmentViewModel VM)
+        public SelectItemViewModel view_model;
+        public SelectItemView(SelectItemViewModel VM)
         {
             view_model = VM;
             DataContext = view_model;

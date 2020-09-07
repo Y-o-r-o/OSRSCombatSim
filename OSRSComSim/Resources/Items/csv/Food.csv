@@ -1,51 +1,52 @@
-Shrimp,3,Free-to-play
-Cooked chicken,3,Free-to-play
-Cooked meat,3,Free-to-play
-Sardine,4,Free-to-play
-Bread,5,Free-to-play
-Herring,5,Free-to-play
-Mackerel,6,Member
-Choc-ice,6,Member
-Trout,7,Free-to-play
-Cod,7,Member
-Pike,8,Free-to-play
-Roast beast meat,8,Member
-Pineapple punch,9,Member
-Salmon,9,Free-to-play
-Tuna,10,Free-to-play
-Jug of wine,11,Free-to-play
-Rainbow fish,11,Member
-Stew,11,Free-to-play
-Banana stew,11,Member
-Cake,4 * 3,Free-to-play
-Meat pie,6 * 2,Free-to-play
-Lobster,12,Free-to-play
-Bass,13,Member
-Plain pizza,7 * 2,Free-to-play
-Swordfish,14,Free-to-play
-Potato with butter,14,Member
-Apple pie,7 * 2,Free-to-play
-Chocolate cake,5 * 3,Free-to-play
-Watermelon,(1 to 5) * 3,Member
-Tangled toad's legs,15,Member
-Chocolate bomb,15,Member
-Potato with cheese,16,Member
-Meat pizza,8 * 2,Free-to-play
-Monkfish,16,Member
-Anchovy pizza,9 * 2,Free-to-play
-Cooked karambwan,18,Member
-Curry,19,Member
-Ugthanki kebab,19,Member
-Dragonfruit pie,10 * 2,Member
-Mushroom potato,20,Member
-Shark,20,Member
-Sea turtle,21,Member
-Pineapple pizza,11 * 2,Member
-Summer pie,11 * 2,Member
-Wild pie,11 * 2,Member
-Manta ray,22,Member
-Tuna potato,22,Member
-Dark crab,22,Member
-Anglerfish,3 to 22,Member
-Basket of strawberries,(1 to 6) * 5,Member
-Saradomin brew,(3 to 16) * 4,Member
+Name,Member,Weigth,HPHeals
+Shrimp,Free-to-play,0.1,3
+Cooked chicken,Free-to-play,0.1,3
+Cooked meat,Free-to-play,0.1,3
+Sardine,Free-to-play,0.1,4
+Bread,Free-to-play,0.1,5
+Herring,Free-to-play,0.1,5
+Mackerel,Member,0.1,6
+Choc-ice,Member,0.1,6
+Trout,Free-to-play,0.1,7
+Cod,Member,0.1,7
+Pike,Free-to-play,0.1,8
+Roast beast meat,Member,0.1,8
+Pineapple punch,Member,0.1,9
+Salmon,Free-to-play,0.1,9
+Tuna,Free-to-play,0.1,10
+Jug of wine,Free-to-play,0.1,11
+Rainbow fish,Member,0.1,11
+Stew,Free-to-play,0.1,11
+Banana stew,Member,0.1,11
+Cake,Free-to-play,0.1,4 * 3
+Meat pie,Free-to-play,0.1,6 * 2
+Lobster,Free-to-play,0.1,12
+Bass,Member,0.1,13
+Plain pizza,Free-to-play,0.1,7 * 2
+Swordfish,Free-to-play,0.1,14
+Potato with butter,Member,0.1,14
+Apple pie,Free-to-play,0.1,7 * 2
+Chocolate cake,Free-to-play,0.1,5 * 3
+Watermelon,Member,0.1,(1 to 5) * 3
+Tangled toad's legs,Member,0.1,15
+Chocolate bomb,Member,0.1,15
+Potato with cheese,Member,0.1,16
+Meat pizza,Free-to-play,0.1,8 * 2
+Monkfish,Member,0.1,16
+Anchovy pizza,Free-to-play,0.1,9 * 2
+Cooked karambwan,Member,0.1,18
+Curry,Member,0.1,19
+Ugthanki kebab,Member,0.1,19
+Dragonfruit pie,Member,0.1,10 * 2
+Mushroom potato,Member,0.1,20
+Shark,Member,0.1,20
+Sea turtle,Member,0.1,21
+Pineapple pizza,Member,0.1,11 * 2
+Summer pie,Member,0.1,11 * 2
+Wild pie,Member,0.1,11 * 2
+Manta ray,Member,0.1,22
+Tuna potato,Member,0.1,22
+Dark crab,Member,0.1,22
+Anglerfish,Member,0.1,3 to 22
+Basket of strawberries,Member,0.1,(1 to 6) * 5
+Saradomin brew,Member,0.1,(3 to 16) * 4

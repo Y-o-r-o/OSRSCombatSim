@@ -84,6 +84,11 @@
     <Compile Include="Models\Skills.Model.cs" />
     <Compile Include="Models\WeaponType.Model.cs" />
     <Compile Include="ObservableObject.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="ViewModels\Appearance.ViewModel.cs" />
     <Compile Include="ViewModels\Battle.ViewModel.cs" />
     <Compile Include="ViewModels\CombatOptions.ViewModel.cs" />
@@ -93,7 +98,7 @@
     <Compile Include="ViewModels\Fighter.ViewModel.cs" />
     <Compile Include="ViewModels\LoadScreen.ViewModel.cs" />
     <Compile Include="ViewModels\MainWindow.ViewModel.cs" />
-    <Compile Include="ViewModels\SelectEquipment.ViewModel.cs" />
+    <Compile Include="ViewModels\SelectItem.ViewModel.cs" />
     <Compile Include="Views\CombatOtions.View.xaml.cs">
       <DependentUpon>CombatOtions.View.xaml</DependentUpon>
     </Compile>
@@ -103,8 +108,8 @@
     <Compile Include="Views\Inventory.View.xaml.cs">
       <DependentUpon>Inventory.View.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\SelectEquipment.View.xaml.cs">
-      <DependentUpon>SelectEquipment.View.xaml</DependentUpon>
+    <Compile Include="Views\SelectItem.View.xaml.cs">
+      <DependentUpon>SelectItem.View.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Appearance.View.xaml.cs">
       <DependentUpon>Appearance.View.xaml</DependentUpon>
@@ -145,7 +150,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\SelectEquipment.View.xaml">
+    <Page Include="Views\SelectItem.View.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -174,11 +179,6 @@
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -186,6 +186,7 @@
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="packages.config" />
@@ -193,9 +194,19 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="Resources\Items\csv\Ammo slot table.csv" />
+    <None Include="Resources\Items\csv\Body slot table.csv" />
+    <None Include="Resources\Items\csv\Cape slot table.csv" />
+    <None Include="Resources\Items\csv\Feet slot table.csv" />
     <None Include="Resources\Items\csv\Food.csv" />
+    <None Include="Resources\Items\csv\Hands slot table.csv" />
+    <None Include="Resources\Items\csv\Head slot table.csv" />
+    <None Include="Resources\Items\csv\Legs slot table.csv" />
+    <None Include="Resources\Items\csv\Neck slot table.csv" />
     <None Include="Resources\Items\csv\Potions.csv" />
+    <None Include="Resources\Items\csv\Ring slot table.csv" />
     <None Include="Resources\Items\csv\Runes.csv" />
+    <None Include="Resources\Items\csv\Shield slot table.csv" />
     <None Include="Resources\Items\csv\Slot tables\Ammo slot table.csv" />
     <None Include="Resources\Items\csv\Slot tables\Body slot table.csv" />
     <None Include="Resources\Items\csv\Slot tables\Cape slot table.csv" />
@@ -208,6 +219,8 @@
     <None Include="Resources\Items\csv\Slot tables\Shield slot table.csv" />
     <None Include="Resources\Items\csv\Slot tables\Two-handed slot table.csv" />
     <None Include="Resources\Items\csv\Slot tables\Weapon slot table.csv" />
+    <None Include="Resources\Items\csv\Two-handed slot table.csv" />
+    <None Include="Resources\Items\csv\Weapon slot table.csv" />
     <None Include="Resources\Items\png\Neck\desktop.ini" />
     <None Include="Resources\Items\png\Body\desktop.ini" />
     <None Include="Resources\Items\png\Cape\desktop.ini" />

@@ -5,27 +5,20 @@ using System.Linq;
 
 namespace OSRSComSim.ViewModels
 {
-    public class SelectEquipmentViewModel: ObservableObject
+    public class SelectItemViewModel: ObservableObject
     {
         WornEquipmentViewModel _wornequipmentviewmodel;
-
-        private EquipedModel _player_equiped;
 
         public string[] _lines;
 
         private int two_handed_idx = 0;
         private bool is_two_handed = false;
 
-        public SelectEquipmentView View { get; set; }
-        public EquipedModel PlayerEquiped
-        {
-            get { return _player_equiped; }
-            set
-            {
-                _player_equiped = value;
-                OnPropertyChanged("PlayerEquiped");
-            }
-        }
+        public SelectItemView View { get; set; }
+
+
+        public string SelectType { get; set; } = "Select item:";
+
         public IEnumerable<string> ReadCSV
         {
             get
@@ -38,15 +31,13 @@ namespace OSRSComSim.ViewModels
             }
         }
 
-        public SelectEquipmentViewModel() : this(null, null, null) { }
-        public SelectEquipmentViewModel(WornEquipmentViewModel wornequipmentviewmodel, EquipedModel player_equiped, string selected_slot_table)
+        public SelectItemViewModel() : this(null, null) { }
+        public SelectItemViewModel(WornEquipmentViewModel wornequipmentviewmodel, string selected_item)
         {
             _wornequipmentviewmodel = wornequipmentviewmodel;
-            _lines = getCSV(selected_slot_table);//File.ReadAllLines("../../Resources/Items/csv/Slot tables/" + SelectedSlotTable + " slot table.csv");
+            _lines = getCSV("Food");
 
-            PlayerEquiped = player_equiped;
-
-            View = new SelectEquipmentView(this);
+            View = new SelectItemView(this);
         }
         
         private string getEquipmentData(string equipment_name)
@@ -63,10 +54,10 @@ namespace OSRSComSim.ViewModels
             }
             return "";
         }
-        private string[] getCSV(string selected_slot_table)
+        private string[] getCSV(string selected_item)
         {
             string[] lines = null;
-            switch (selected_slot_table)
+            switch (selected_item)
             {
                 case "Head":
                     lines = Properties.Resources.Head_slot_table.Split('\n');
@@ -81,14 +72,7 @@ namespace OSRSComSim.ViewModels
                     lines = Properties.Resources.Ammo_slot_table.Split('\n');
                     break;
                 case "Weapon":
-                    string[] lines1 = Properties.Resources.Weapon_slot_table.Split('\n');
-                    Array.Resize(ref lines1, lines1.Length - 1);
-                    string[] lines2 = Properties.Resources.Two_handed_slot_table.Split('\n');
-                    lines2 = lines2.Skip(1).ToArray();
-                    two_handed_idx = lines1.Length;
-                    lines = new string[lines1.Length + lines2.Length];
-                    Array.Copy(lines1, lines, lines1.Length);
-                    Array.Copy(lines2, 0, lines, lines1.Length, lines2.Length);
+                    lines = Properties.Resources.Weapon_slot_table.Split('\n');
                     break;
                 case "Body":
                     lines = Properties.Resources.Body_slot_table.Split('\n');
@@ -108,6 +92,15 @@ namespace OSRSComSim.ViewModels
                 case "Ring":
                     lines = Properties.Resources.Ring_slot_table.Split('\n');
                     break;
+                case "Food":
+                    lines = Properties.Resources.Food.Split('\n');
+                    break;
+                case "Potion":
+                    lines = Properties.Resources.Potions.Split('\n');
+                    break;
+                case "Runes":
+                    lines = Properties.Resources.Runes.Split('\n');
+                    break;
             }
             lines = lines.Skip(1).ToArray();
             lines = lines.Take(lines.Count() - 1).ToArray();
@@ -116,12 +109,11 @@ namespace OSRSComSim.ViewModels
    
         public void select(string equipment_name)
         {
-            _wornequipmentviewmodel.mountEquipment(getEquipmentData(equipment_name), is_two_handed);
+            _wornequipmentviewmodel.mountEquipment(getEquipmentData(equipment_name));
         }
         public void stopView()
         {
             _wornequipmentviewmodel.selectEquipment = null;
         }
-
     }
 }

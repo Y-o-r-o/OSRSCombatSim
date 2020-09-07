@@ -6,7 +6,6 @@ namespace OSRSComSim.ViewModels
 {
     public class InventoryViewModel : ObservableObject
     {
-        private const int inventory_capativity = 28;
         private const string add_sign_png = "../Resources/add.png";
 
         private string inv_mode;
@@ -14,6 +13,7 @@ namespace OSRSComSim.ViewModels
 
         private ItemModel[] _inventory_item;
         private string[] _slot_png;
+        private SelectItemViewModel _item_select;
 
         public ItemModel[] InventoryItem
         {
@@ -33,6 +33,15 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("SlotPng");
             }
         }
+        public SelectItemViewModel ItemSelect
+        {
+            get { return _item_select; }
+            set
+            {
+                _item_select = value;
+                OnPropertyChanged("ItemSelect");
+            }
+        }
 
         public InventoryView View { get; set; }
 
@@ -45,39 +54,30 @@ namespace OSRSComSim.ViewModels
             SlotPng = new string[InventoryItem.Length];
             setSlotPngs();
 
+
             View = new InventoryView(this);
         }
 
+
+
+
+
         private void setSlotPngs()
         {
-            for(int i = 0; i < InventoryItem.Length; i++)
+            for (int i = 0; i < InventoryItem.Length; i++)
             {
-                if(InventoryItem[i].Name == "")
-                {
+                if (InventoryItem[i].Name == "")
                     setEmptySlotPng(i);
-                }
+                else
+                    SlotPng[i] = InventoryItem[i].Png;
             }
         }
-
-        private void setEmptySlotPng (int idx)
+        private void setEmptySlotPng(int idx)
         {
-            if(inv_mode == "View" || inv_mode == "Interactive")
-            {
+            if (inv_mode == "View" || inv_mode == "Interactive")
                 SlotPng[idx] = null;
-            }
             else
-            {
                 SlotPng[idx] = add_sign_png;
-            }
         }
-
-
-
-
-
-
-
-
-
     }
 }

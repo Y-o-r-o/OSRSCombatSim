@@ -1,0 +1,631 @@
+Name,Member,StabAtk,SlashAtk,CrushAtk,MagicAtk,RangedAtk,StabDef,SlashDef,CrushDef,MagicDef,RangedDef,MeleStr,RangedStr,MagicStr,Prayer,Weigth,Speed,Type,IsTwoHanded
+'24-carat' sword,Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,0.453,4,Stabbing swords,FALSE
+3rd age axe,Members,-2,38,32,0,0,0,1,0,0,0,42,0,0,0,1.36,5,Axes,FALSE
+3rd age bow,Members,0,0,0,0,80,0,0,0,0,0,0,0,0,0,3.175,4,Bows,TRUE
+3rd age druidic staff,Members,7,-1,25,10,0,2,3,1,10,0,32,0,0,6,2,5,Staves,FALSE
+3rd age longsword,Members,0,72,60,0,0,0,3,2,0,0,75,0,0,0,1,5,Slashing swords,FALSE
+3rd age pickaxe,Members,38,-2,32,0,0,0,1,0,0,0,42,0,0,0,2.4,5,Pickaxes,FALSE
+3rd age wand,Members,0,0,0,20,0,0,0,0,20,0,0,0,0,0,3.175,4,Staves,FALSE
+Abyssal bludgeon,Members,0,0,102,0,0,0,0,0,0,0,85,0,0,0,6,4,Blunt weapons,TRUE
+Abyssal dagger,Members,75,40,-4,1,0,0,0,0,1,0,75,0,0,0,0.453,4,Stabbing swords,FALSE
+Abyssal tentacle,Members,0,90,0,0,0,0,0,0,0,0,86,0,0,0,0.453,4,Whips,FALSE
+Abyssal whip,Members,0,82,0,0,0,0,0,0,0,0,82,0,0,0,0.453,4,Whips,FALSE
+Adamant 2h sword,Free-to-play,-4,43,30,-4,0,0,0,0,0,-1,44,0,0,0,4.082,7,Two-handed swords,TRUE
+Adamant axe,Free-to-play,-2,17,15,0,0,0,1,0,0,0,19,0,0,0,1.587,5,Axes,FALSE
+Adamant battleaxe,Free-to-play,-2,31,26,0,0,0,0,0,0,-1,41,0,0,0,3.175,6,Axes,FALSE
+Adamant cane,Members,13,-2,25,0,0,0,0,0,0,0,23,0,0,3,1.814,5,Spiked weapons,FALSE
+Adamant claws,Members,18,23,-4,0,0,6,12,3,0,0,24,0,0,0,0.907,4,Claws,TRUE
+Adamant crossbow,Members,0,0,0,0,78,0,0,0,0,0,0,0,0,0,6,6,Crossbows,FALSE
+Adamant dagger,Free-to-play,15,8,-4,1,0,0,0,0,1,0,14,0,0,0,0.51,4,Stabbing swords,FALSE
+Adamant dart,Members,0,0,0,0,11,0,0,0,0,0,0,10,0,0,0,3,Thrown weapons,FALSE
+Adamant halberd,Members,28,41,0,-4,0,-1,3,4,0,0,42,0,0,0,3.628,7,Polearms,TRUE
+Adamant hasta Karambwan_poison,Members,24,24,24,0,0,-6,-7,-5,0,-6,28,0,0,0,2.721,5,Spears,FALSE
+Adamant hasta Unpoisoned,Members,24,24,24,0,0,-6,-7,-5,0,-6,28,0,0,0,2.721,5,Spears,FALSE
+Adamant knife,Members,0,0,0,0,15,0,0,0,0,0,0,14,0,0,0,3,Thrown weapons,FALSE
+Adamant longsword,Free-to-play,20,29,-2,0,0,0,3,2,0,0,31,0,0,0,2.041,5,Slashing swords,FALSE
+Adamant mace,Free-to-play,13,-2,25,0,0,0,0,0,0,0,23,0,0,3,2.041,5,Spiked weapons,FALSE
+Adamant pickaxe,Free-to-play,17,-2,15,0,0,0,1,0,0,0,19,0,0,0,2.721,5,Pickaxes,FALSE
+Adamant scimitar,Free-to-play,6,29,-2,0,0,0,1,0,0,0,28,0,0,0,2.041,4,Slashing swords,FALSE
+Adamant spear Karambwan_poison,Members,24,24,24,0,0,1,1,0,0,0,28,0,0,0,2.721,5,Spears,TRUE
+Adamant spear Unpoisoned,Members,24,24,24,0,0,1,1,0,0,0,28,0,0,0,2.721,5,Spears,TRUE
+Adamant sword,Free-to-play,23,18,-2,0,0,0,2,1,0,0,24,0,0,0,2.041,4,Stabbing swords,FALSE
+Adamant thrownaxe,Members,0,0,0,0,17,0,0,0,0,0,0,23,0,0,0,5,Thrown weapons,FALSE
+Adamant warhammer,Free-to-play,-4,-4,33,-4,0,0,0,0,0,0,31,0,0,0,2.041,6,Blunt weapons,FALSE
+Ahrim's staff,Members,12,-1,65,15,0,3,5,2,15,0,68,0,5,0,2.267,6,Staves,FALSE
+Air battlestaff,Members,7,-1,28,10,0,2,3,1,10,0,35,0,0,0,2.267,5,Staves,FALSE
+Ale of the gods,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.06,4,Unarmed,FALSE
+Ancient crozier,Members,7,-1,25,10,0,2,3,1,10,0,32,0,0,6,0.005,5,Staves,FALSE
+Ancient gorilla greegree,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.085,0,Unarmed,FALSE
+Ancient mace,Members,10,-2,16,0,0,0,0,0,0,0,14,0,0,3,1.814,5,Spiked weapons,FALSE
+Ancient staff,Members,10,-1,40,15,0,2,3,1,15,0,50,0,0,-1,2.267,4,Staves,FALSE
+Anger battleaxe,Members,2,2,2,0,0,0,0,0,0,-1,0,0,0,0,2.721,6,Axes,FALSE
+Anger mace,Members,2,2,2,0,0,0,0,0,0,0,0,0,0,1,1.814,5,Spiked weapons,FALSE
+Anger spear,Members,2,2,2,0,0,1,1,0,0,0,0,0,0,0,0.003,5,Spears,TRUE
+Anger sword,Members,2,2,2,0,0,0,2,1,0,0,0,0,0,0,1.814,4,Stabbing swords,FALSE
+Apprentice wand,Members,0,0,0,10,0,0,0,0,10,0,0,0,0,0,0.255,4,Staves,FALSE
+Arceuus banner,Members,12,12,12,0,0,1,1,0,0,0,12,0,0,0,2.267,5,Polestaves,FALSE
+Arclight,Members,10,38,0,0,0,0,3,2,2,0,8,0,0,0,1.814,4,Stabbing swords,FALSE
+Armadyl crossbow,Members,0,0,0,0,100,0,0,0,0,0,0,0,0,1,6,6,Crossbows,FALSE
+Armadyl crozier,Members,7,-1,25,10,0,2,3,1,10,0,32,0,0,6,2,5,Staves,FALSE
+Armadyl godsword,Members,0,132,80,0,0,0,0,0,0,0,132,0,0,8,10,6,Two-handed swords,TRUE
+Assorted flowers,Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,0.028,4,Blunt weapons,FALSE
+Axe handle Dragon,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,5,Axes,FALSE
+Axe handle Standard,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,5,Axes,FALSE
+Bandos crozier,Members,7,-1,25,10,0,2,3,1,10,0,32,0,0,6,2,5,Staves,FALSE
+Bandos godsword,Members,0,132,80,0,0,0,0,0,0,0,132,0,0,8,10,6,Two-handed swords,TRUE
+Banner (Arrav),Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.267,4,Banners,FALSE
+Banner (Asgarnia),Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.267,4,Banners,FALSE
+Banner (Dorgeshuun),Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.267,4,Banners,FALSE
+Banner (Dragon),Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.267,4,Banners,FALSE
+Banner (Fairy),Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.267,4,Banners,FALSE
+Banner (Guthix),Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.267,4,Banners,FALSE
+Banner (HAM),Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.267,4,Banners,FALSE
+Banner (Horse),Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.267,4,Banners,FALSE
+Banner (Jogre),Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.267,4,Banners,FALSE
+Banner (Kandarin),Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.267,4,Banners,FALSE
+Banner (Misthalin),Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.267,4,Banners,FALSE
+Banner (Money),Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.267,4,Banners,FALSE
+Banner (Saradomin),Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.267,4,Banners,FALSE
+Banner (Skull),Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.267,4,Banners,FALSE
+Banner (Varrock),Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.267,4,Banners,FALSE
+Banner (Zamorak),Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.267,4,Banners,FALSE
+Barb-tail harpoon,Members,9,4,-4,0,0,0,0,0,0,0,6,0,0,0,1.36,4,Stabbing swords,FALSE
+Barrelchest anchor Broken,Members,-2,10,92,0,0,0,0,0,0,0,100,0,0,0,30,6,Spiked weapons,TRUE
+Barrelchest anchor Fixed,Members,-2,10,92,0,0,0,0,0,0,0,100,0,0,0,30,6,Spiked weapons,TRUE
+Battlestaff,Members,7,-1,25,10,0,2,3,1,10,0,32,0,0,0,2.267,5,Staves,FALSE
+Beach boxing gloves Pink,Free-to-play,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0.453,4,Claws,TRUE
+Beach boxing gloves Yellow,Free-to-play,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0.453,4,Claws,TRUE
+Bearded gorilla greegree,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.085,0,Unarmed,FALSE
+Beginner wand,Members,0,0,0,5,0,0,0,0,5,0,0,0,0,0,0.283,4,Staves,FALSE
+Birthday balloons,Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,0,4,Blunt weapons,FALSE
+Birthday cake,Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,0.48,4,Blunt weapons,TRUE
+Black 2h sword,Free-to-play,-4,27,21,-4,0,0,0,0,0,-1,26,0,0,0,3.628,7,Two-handed swords,TRUE
+Black axe,Free-to-play,-2,10,8,0,0,0,1,0,0,0,12,0,0,0,1.36,5,Axes,FALSE
+Black battleaxe,Free-to-play,-2,20,15,0,0,0,0,0,0,-1,24,0,0,0,2.721,6,Axes,FALSE
+Black cane,Members,8,-2,16,0,0,0,0,0,0,0,13,0,0,2,1.814,5,Spiked weapons,FALSE
+Black chinchompa,Members,0,0,0,0,80,0,0,0,0,0,0,30,0,0,0,4,Chinchompas,FALSE
+Black claws,Members,10,14,-4,0,0,4,7,2,0,0,14,0,0,0,0.907,4,Claws,TRUE
+Black dagger,Free-to-play,10,5,-4,1,0,0,0,0,1,0,7,0,0,0,0.453,4,Stabbing swords,FALSE
+Black dart,Members,0,0,0,0,7,0,0,0,0,0,0,6,0,0,0,3,Thrown weapons,FALSE
+Black flowers,Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,0.028,4,Blunt weapons,FALSE
+Black halberd,Members,19,25,0,-4,0,-1,2,3,0,0,20,0,0,0,3.175,7,Polearms,TRUE
+Black knife,Members,0,0,0,0,10,0,0,0,0,0,0,8,0,0,0,3,Thrown weapons,FALSE
+Black longsword,Free-to-play,13,18,-2,0,0,0,3,2,0,0,16,0,0,0,1.814,5,Slashing swords,FALSE
+Black mace,Free-to-play,8,-2,16,0,0,0,0,0,0,0,13,0,0,2,1.814,5,Spiked weapons,FALSE
+Black pickaxe,Free-to-play,10,-2,8,0,0,0,1,0,0,0,11,0,0,0,0.01,5,Pickaxes,FALSE
+Black salamander,Members,0,59,0,0,69,0,0,0,0,0,71,0,0,0,4,5,Salamanders,TRUE
+Black scimitar,Free-to-play,4,19,-2,0,0,0,1,0,0,0,14,0,0,0,1.814,4,Slashing swords,FALSE
+Black spear Karambwan_poison,Members,15,15,15,0,0,1,1,0,0,0,16,0,0,0,2.267,5,Spears,TRUE
+Black spear Unpoisoned,Members,15,15,15,0,0,1,1,0,0,0,16,0,0,0,2.267,5,Spears,TRUE
+Black sword,Free-to-play,14,10,-2,0,0,0,2,1,0,0,12,0,0,0,1.814,4,Stabbing swords,FALSE
+Black warhammer,Free-to-play,-4,-4,22,-4,0,0,0,0,0,0,19,0,0,0,1.814,6,Blunt weapons,FALSE
+Blade of saeldor (c),Members,55,94,0,0,0,0,0,0,0,0,89,0,0,0,1.814,4,Slashing swords,FALSE
+Blade of saeldor Charged,Members,55,94,0,0,0,0,0,0,0,0,89,0,0,0,1.814,4,Slashing swords,FALSE
+Blade of saeldor Inactive,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.814,4,Slashing swords,FALSE
+Blessed axe,Members,-2,12,10,0,0,0,1,0,0,0,13,0,0,2,1.162,5,Axes,FALSE
+Blisterwood flail,Members,30,44,68,8,0,4,4,2,8,0,46,0,0,5,0.001,5,Slashing swords,FALSE
+Blisterwood sickle,Members,30,38,0,0,0,1,2,2,2,2,32,0,0,5,1.587,5,Slashing swords,FALSE
+Blue flowers,Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,0.028,4,Blunt weapons,FALSE
+Blurite crossbow,Members,0,0,0,0,30,0,0,0,0,0,0,0,0,0,4,6,Crossbows,FALSE
+Blurite sword,Free-to-play,9,14,-2,0,0,0,3,2,0,0,10,0,0,0,1.814,5,Slashing swords,FALSE
+Bone club,Members,-4,-4,16,-4,0,0,0,0,0,0,15,0,0,0,0.907,6,Blunt weapons,FALSE
+Bone dagger,Members,5,3,-4,1,0,0,0,0,1,0,4,0,0,0,0.453,4,Stabbing swords,FALSE
+Bone spear,Members,11,11,11,0,0,1,1,0,0,0,13,0,0,0,1.36,6,Spears,FALSE
+Brine sabre,Members,7,47,-2,0,0,0,0,0,0,0,46,0,0,0,1.814,4,Slashing swords,FALSE
+Bronze 2h sword,Free-to-play,-4,9,8,-4,0,0,0,0,0,-1,10,0,0,0,3.628,7,Two-handed swords,TRUE
+Bronze axe,Free-to-play,-2,4,2,0,0,0,1,0,0,0,5,0,0,0,1.36,5,Axes,FALSE
+Bronze battleaxe,Free-to-play,-2,6,3,0,0,0,0,0,0,-1,9,0,0,0,2.721,6,Axes,FALSE
+Bronze claws,Members,3,4,-4,0,0,1,2,1,0,0,5,0,0,0,0.907,4,Claws,TRUE
+Bronze crossbow,Members,0,0,0,0,18,0,0,0,0,0,0,0,0,0,4,6,Crossbows,FALSE
+Bronze dagger,Free-to-play,4,2,-4,1,0,0,0,0,1,0,3,0,0,0,0.453,4,Stabbing swords,FALSE
+Bronze dart,Members,0,0,0,0,3,0,0,0,0,0,0,1,0,0,0,3,Thrown weapons,FALSE
+Bronze fist flag,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.267,4,Banners,FALSE
+Bronze halberd,Members,7,8,0,-4,0,-1,1,2,0,0,8,0,0,0,3.175,7,Polearms,TRUE
+Bronze hasta Karambwan_poison,Members,5,5,5,0,0,-1,-1,-1,0,-1,6,0,0,0,2.267,5,Spears,FALSE
+Bronze hasta Unpoisoned,Members,5,5,5,0,0,-1,-1,-1,0,-1,6,0,0,0,2.267,5,Spears,FALSE
+Bronze knife,Members,0,0,0,0,4,0,0,0,0,0,0,3,0,0,0,3,Thrown weapons,FALSE
+Bronze longsword,Free-to-play,4,5,-2,0,0,0,3,2,0,0,7,0,0,0,1.814,5,Slashing swords,FALSE
+Bronze mace,Free-to-play,1,-2,6,0,0,0,0,0,0,0,5,0,0,1,1.814,5,Spiked weapons,FALSE
+Bronze pickaxe,Free-to-play,4,-2,2,0,0,0,1,0,0,0,5,0,0,0,2.267,5,Pickaxes,FALSE
+Bronze scimitar,Free-to-play,1,7,-2,0,0,0,1,0,0,0,6,0,0,0,1.814,4,Slashing swords,FALSE
+Bronze spear Karambwan_poison,Members,5,5,5,0,0,1,1,0,0,0,6,0,0,0,2.267,5,Spears,TRUE
+Bronze spear Unpoisoned,Members,5,5,5,0,0,1,1,0,0,0,6,0,0,0,2.267,5,Spears,TRUE
+Bronze sword,Free-to-play,4,3,-2,0,0,0,2,1,0,0,5,0,0,0,1.814,4,Stabbing swords,FALSE
+Bronze thrownaxe,Members,0,0,0,0,4,0,0,0,0,0,0,5,0,0,0,5,Thrown weapons,FALSE
+Bronze warhammer,Free-to-play,-4,-4,10,-4,0,0,0,0,0,0,8,0,0,0,1.814,6,Blunt weapons,FALSE
+Bruma torch,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.003,4,Unarmed,FALSE
+Bryophyta's staff Charged,Members,10,-1,40,15,0,2,3,1,15,0,50,0,0,0,1.5,5,Staves,FALSE
+Bryophyta's staff Uncharged,Members,10,-1,40,15,0,2,3,1,15,0,50,0,0,0,1.5,5,Staves,FALSE
+Butterfly net,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.226,4,Spears,FALSE
+Candy cane,Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,0.453,4,Spiked weapons,FALSE
+Carrot sword,Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,0.453,4,Stabbing swords,FALSE
+Cattleprod,Members,4,2,-4,1,0,0,0,0,1,0,3,0,0,0,0.453,4,Stabbing swords,FALSE
+Chaotic handegg,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.25,4,Unarmed,FALSE
+Chinchompa,Members,0,0,0,0,45,0,0,0,0,0,0,0,0,0,0,4,Chinchompas,FALSE
+Cleaver,Members,7,45,-2,0,0,0,1,0,0,0,44,0,0,0,1.814,4,Slashing swords,FALSE
+Clueless scroll,Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,1,4,Unarmed,FALSE
+Comp ogre bow,Members,0,0,0,0,38,0,0,0,0,0,0,0,0,0,1.814,5,Bows,TRUE
+Cormorant's glove Bird,Members,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1.814,4,Unarmed,FALSE
+Corrupted axe,Members,4,4,4,0,0,0,0,0,0,0,5,0,0,0,0.907,5,Axes,FALSE
+Corrupted bow (attuned),Members,0,0,0,0,118,0,0,0,0,0,0,88,0,1,1.814,5,Bows,TRUE
+Corrupted bow (basic),Members,0,0,0,0,72,0,0,0,0,0,0,42,0,1,1.814,5,Bows,TRUE
+Corrupted bow (perfected),Members,0,0,0,0,172,0,0,0,0,0,0,138,0,3,1.814,5,Bows,TRUE
+Corrupted halberd (attuned),Members,114,114,12,0,0,0,0,0,0,0,88,0,0,2,1.814,4,Polearms,TRUE
+Corrupted halberd (basic),Members,68,68,4,0,0,0,0,0,0,0,42,0,0,1,1.814,4,Polearms,TRUE
+Corrupted halberd (perfected),Members,166,166,28,0,0,0,0,0,0,0,138,0,0,3,1.814,4,Polearms,TRUE
+Corrupted harpoon,Members,4,4,4,0,0,0,0,0,0,0,5,0,0,0,0.907,5,Stabbing swords,FALSE
+Corrupted pickaxe,Members,4,4,4,0,0,0,0,0,0,0,5,0,0,0,1.36,5,Pickaxes,FALSE
+Corrupted sceptre,Members,8,10,16,0,0,0,0,0,0,0,20,0,0,0,0.003,5,Blunt weapons,FALSE
+Corrupted staff (attuned),Members,0,0,0,128,0,0,0,0,0,0,0,0,0,2,1.36,4,Powered staves,TRUE
+Corrupted staff (basic),Members,0,0,0,84,0,0,0,0,0,0,0,0,0,1,1.36,4,Powered staves,TRUE
+Corrupted staff (perfected),Members,0,0,0,184,0,0,0,0,0,0,0,0,0,3,1.36,4,Powered staves,TRUE
+Crate with zanik,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,Unarmed,TRUE
+Craw's bow Charged,Members,0,0,0,0,75,0,0,0,0,0,0,60,0,0,3.175,4,Bows,TRUE
+Craw's bow Uncharged,Members,0,0,0,0,75,0,0,0,0,0,0,60,0,0,3.175,4,Bows,TRUE
+Crier bell,Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,0.453,4,Blunt weapons,FALSE
+Crossbow,Free-to-play,0,0,0,0,6,0,0,0,0,0,0,0,0,0,8,6,Crossbows,FALSE
+Crystal axe (The Gauntlet),Members,4,4,4,0,0,0,0,0,0,0,5,0,0,0,0.907,5,Axes,FALSE
+Crystal axe Active,Members,-2,38,32,0,0,0,1,0,0,0,42,0,0,0,0.907,5,Axes,FALSE
+Crystal axe Inactive,Members,-2,38,32,0,0,0,1,0,0,0,42,0,0,0,0.907,5,Axes,FALSE
+Crystal bow,Members,0,0,0,0,100,0,0,0,0,0,0,70,0,0,1.814,5,Bows,TRUE
+Crystal bow (attuned),Members,0,0,0,0,118,0,0,0,0,0,0,88,0,1,1.814,5,Bows,TRUE
+Crystal bow (basic),Members,0,0,0,0,72,0,0,0,0,0,0,42,0,1,1.814,5,Bows,TRUE
+Crystal bow (perfected),Members,0,0,0,0,172,0,0,0,0,0,0,138,0,3,1.814,5,Bows,TRUE
+Crystal grail,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.001,4,Unarmed,FALSE
+Crystal halberd,Members,85,110,5,-4,0,-1,4,5,0,0,118,0,0,0,1.814,7,Polearms,TRUE
+Crystal halberd (attuned),Members,114,114,12,0,0,0,0,0,0,0,88,0,0,2,1.814,4,Polearms,TRUE
+Crystal halberd (basic),Members,68,68,4,0,0,0,0,0,0,0,42,0,0,1,1.814,4,Polearms,TRUE
+Crystal halberd (perfected),Members,166,166,28,0,0,0,0,0,0,0,138,0,0,3,1.814,4,Polearms,TRUE
+Crystal harpoon (The Gauntlet),Members,4,4,4,0,0,0,0,0,0,0,5,0,0,0,0.907,5,Stabbing swords,FALSE
+Crystal harpoon Active,Members,38,32,0,0,0,0,1,0,0,0,42,0,0,0,0.907,5,Stabbing swords,FALSE
+Crystal harpoon Inactive,Members,38,32,0,0,0,0,1,0,0,0,42,0,0,0,0.907,5,Stabbing swords,FALSE
+Crystal pickaxe (The Gauntlet),Members,4,4,4,0,0,0,0,0,0,0,5,0,0,0,1.36,5,Pickaxes,FALSE
+Crystal pickaxe Active,Members,38,-2,32,0,0,0,1,0,0,0,42,0,0,0,1.36,5,Pickaxes,FALSE
+Crystal pickaxe Inactive,Members,38,-2,32,0,0,0,1,0,0,0,42,0,0,0,1.36,5,Pickaxes,FALSE
+Crystal sceptre,Members,8,10,16,0,0,0,0,0,0,0,20,0,0,0,0.003,5,Blunt weapons,FALSE
+Crystal staff (attuned),Members,0,0,0,128,0,0,0,0,0,0,0,0,0,2,1.36,4,Powered staves,TRUE
+Crystal staff (basic),Members,0,0,0,84,0,0,0,0,0,0,0,0,0,1,1.36,4,Powered staves,TRUE
+Crystal staff (perfected),Members,0,0,0,184,0,0,0,0,0,0,0,0,0,3,1.36,4,Powered staves,TRUE
+Cursed goblin bow,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.814,5,Bows,TRUE
+Cursed goblin hammer,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.267,4,Blunt weapons,FALSE
+Cursed goblin staff,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.267,5,Staves,FALSE
+Cutthroat flag,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.267,4,Banners,FALSE
+Dark bow Blue,Members,0,0,0,0,95,0,0,0,0,0,0,0,0,0,1.814,9,Bows,TRUE
+Dark bow Green,Members,0,0,0,0,95,0,0,0,0,0,0,0,0,0,1.814,9,Bows,TRUE
+Dark bow Regular,Members,0,0,0,0,95,0,0,0,0,0,0,0,0,0,1.814,9,Bows,TRUE
+Dark bow White,Members,0,0,0,0,95,0,0,0,0,0,0,0,0,0,1.814,9,Bows,TRUE
+Dark bow Yellow,Members,0,0,0,0,95,0,0,0,0,0,0,0,0,0,1.814,9,Bows,TRUE
+Dark dagger,Members,5,3,-4,1,0,0,0,0,1,0,0,0,0,0,0.453,4,Stabbing swords,FALSE
+Darklight,Members,10,16,-2,0,0,0,3,2,2,0,13,0,0,0,1.814,5,Slashing swords,FALSE
+Dawnbringer,Members,0,0,0,25,0,2,3,1,15,0,0,0,0,0,1.5,4,Powered staves,FALSE
+Decorative sword (gold),Free-to-play,20,29,-2,0,0,0,3,2,0,0,31,0,0,0,1.587,5,Slashing swords,FALSE
+Decorative sword (red),Free-to-play,13,18,-2,0,0,0,3,2,0,0,16,0,0,0,1.587,5,Slashing swords,FALSE
+Decorative sword (white),Free-to-play,15,20,-2,0,0,0,3,2,0,0,22,0,0,0,1.587,5,Slashing swords,FALSE
+Dharok's greataxe,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3.175,7,Axes,TRUE
+Dinh's bulwark,Members,0,0,110,0,0,141,145,145,0,148,38,0,0,0,30,7,Bulwarks,TRUE
+Dorgeshuun crossbow,Members,0,0,0,0,42,0,0,0,0,0,0,0,0,0,2.267,5,Crossbows,FALSE
+Dragon 2h sword,Members,-4,92,80,-4,0,0,0,0,0,-1,93,0,0,0,3.628,7,Two-handed swords,TRUE
+Dragon axe,Members,-2,38,32,0,0,0,1,0,0,0,42,0,0,0,1.36,5,Axes,FALSE
+Dragon battleaxe,Members,-2,70,65,0,0,0,0,0,0,-1,85,0,0,0,2.721,6,Axes,FALSE
+Dragon cane,Members,42,-2,60,0,0,0,0,0,0,0,55,0,0,5,1.814,5,Polestaves,FALSE
+Dragon claws,Members,41,57,-4,0,0,13,26,7,0,0,56,0,0,0,0.907,4,Claws,TRUE
+Dragon crossbow,Members,0,0,0,0,94,0,0,0,0,0,0,0,0,0,6,6,Crossbows,FALSE
+Dragon dagger,Members,40,25,-4,1,0,0,0,0,1,0,40,0,0,0,0.453,4,Stabbing swords,FALSE
+Dragon dart,Members,0,0,0,0,18,0,0,0,0,0,0,20,0,0,0,3,Thrown weapons,FALSE
+Dragon halberd,Members,70,95,0,-4,0,-1,4,5,0,0,89,0,0,0,3.175,7,Polearms,TRUE
+Dragon harpoon,Members,38,32,0,0,0,0,1,0,0,0,42,0,0,0,2.267,5,Stabbing swords,FALSE
+Dragon hasta Karambwan_poison,Members,55,55,55,0,0,-15,-15,-12,0,-15,60,0,0,0,2.267,4,Spears,FALSE
+Dragon hasta Unpoisoned,Members,55,55,55,0,0,-15,-15,-12,0,-15,60,0,0,0,2.267,4,Spears,FALSE
+Dragon hunter crossbow,Members,0,0,0,0,95,0,0,0,0,0,0,0,0,0,7,6,Crossbows,FALSE
+Dragon hunter lance,Members,85,65,65,0,0,0,0,0,0,0,70,0,0,0,3,4,Spears,FALSE
+Dragon knife,Members,0,0,0,0,28,0,0,0,0,0,0,30,0,0,0,3,Thrown weapons,FALSE
+Dragon longsword,Members,58,69,-2,0,0,0,3,2,0,0,71,0,0,0,1.814,5,Slashing swords,FALSE
+Dragon mace,Members,40,-2,60,0,0,0,0,0,0,0,55,0,0,5,1.814,5,Spiked weapons,FALSE
+Dragon pickaxe,Members,38,-2,32,0,0,0,1,0,0,0,42,0,0,0,2.4,5,Pickaxes,FALSE
+Dragon pickaxe (upgraded),Members,38,-2,32,0,0,0,1,0,0,0,42,0,0,0,2.4,5,Pickaxes,FALSE
+Dragon pickaxe(or),Members,38,-2,32,0,0,0,1,0,0,0,42,0,0,0,2.4,5,Pickaxes,FALSE
+Dragon scimitar,Members,8,67,-2,0,0,0,1,0,0,0,66,0,0,0,1.814,4,Slashing swords,FALSE
+Dragon scimitar (or),Members,8,67,-2,0,0,0,1,0,0,0,66,0,0,0,1.814,4,Slashing swords,FALSE
+Dragon spear Karambwan_poison,Members,55,55,55,0,0,5,5,5,5,5,60,0,0,0,2.267,5,Spears,TRUE
+Dragon spear Unpoisoned,Members,55,55,55,0,0,5,5,5,5,5,60,0,0,0,2.267,5,Spears,TRUE
+Dragon sword,Members,65,55,-2,0,0,0,2,1,0,0,63,0,0,0,1.814,4,Stabbing swords,FALSE
+Dragon thrownaxe,Members,0,0,0,0,36,0,0,0,0,0,0,47,0,0,0,5,Thrown weapons,FALSE
+Dragon warhammer,Members,-4,-4,95,-4,0,0,0,0,0,0,85,0,0,0,2,6,Blunt weapons,FALSE
+Dramen staff,Members,-1,-1,10,10,0,2,3,1,10,0,10,0,0,0,1.814,4,Blunt weapons,FALSE
+Dual sai,Members,11,8,-4,-4,0,0,0,0,0,0,14,0,0,0,1.36,4,Stabbing swords,TRUE
+Dust battlestaff,Members,7,-1,28,10,0,2,3,1,10,0,35,0,0,0,2.267,5,Staves,FALSE
+Earth battlestaff,Members,7,-1,28,10,0,2,3,1,10,0,35,0,0,0,2.267,5,Staves,FALSE
+Easter basket,Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,0.1,4,Blunt weapons,FALSE
+Easter blaster,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,Blasters,FALSE
+Eek,Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,0.07,4,Blunt weapons,FALSE
+Egg whisk,Members,5,3,-4,1,0,0,0,0,1,0,4,0,0,0,0.453,4,Stabbing swords,FALSE
+Elder maul,Members,0,0,135,-4,0,0,0,0,0,0,147,0,0,0,5.443,6,Blunt weapons,TRUE
+Eldritch nightmare staff,Members,0,0,0,16,0,0,0,0,14,0,0,0,15,0,1.6,5,Staves,FALSE
+Emerald sickle (b),Members,0,0,0,0,0,0,1,1,1,1,2,0,0,5,1.587,5,Slashing swords,FALSE
+Empty blaster,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Blasters,FALSE
+Enchanted emerald sickle (b),Members,0,0,0,0,0,0,1,1,1,1,3,0,0,5,1.587,5,Slashing swords,FALSE
+Enchanted lyre,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.814,4,Unarmed,FALSE
+Enchanted ruby sickle (b),Members,0,0,0,0,0,0,1,1,1,1,6,0,0,5,1.587,5,Slashing swords,FALSE
+Event rpg,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,Unarmed,TRUE
+Excalibur,Members,20,29,-2,0,0,0,3,2,1,0,25,0,0,0,2.267,5,Slashing swords,FALSE
+Falconer's glove No_Falcon,Members,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0.907,4,Unarmed,FALSE
+Falconer's glove With_Falcon,Members,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1.814,4,Unarmed,FALSE
+Fine mesh net,Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,0,4,Blunt weapons,FALSE
+Fire battlestaff,Members,7,-1,28,10,0,2,3,1,10,0,35,0,0,0,2.267,5,Staves,FALSE
+Fixed device,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,Guns,TRUE
+Fox (Recruitment Drive),Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,4,Unarmed,FALSE
+Fremennik blade,Members,6,29,-2,0,0,0,1,0,0,0,28,0,0,0,1.814,4,Slashing swords,FALSE
+Frozen abyssal whip,Members,0,82,0,0,0,0,0,0,0,0,82,0,0,0,0.453,4,Whips,FALSE
+Frying pan,Members,-4,-4,25,-4,0,0,0,0,0,0,20,0,0,0,1.587,6,Blunt weapons,FALSE
+Gadderhammer,Members,-4,-4,35,-4,0,0,0,0,0,0,35,0,0,0,1.814,5,Blunt weapons,TRUE
+Ghrazi rapier,Members,94,55,0,0,0,0,0,0,0,0,89,0,0,0,1.814,4,Stabbing swords,FALSE
+Giant easter egg,Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,15,4,Blunt weapons,TRUE
+Giant present,Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,15,4,Blunt weapons,TRUE
+Gilded 2h sword,Free-to-play,-4,69,50,-4,0,0,0,0,0,-1,70,0,0,0,3.628,7,Two-handed swords,TRUE
+Gilded axe,Free-to-play,-2,26,24,0,0,0,1,0,0,0,29,0,0,0,1.36,5,Axes,FALSE
+Gilded hasta,Members,36,36,36,0,0,-10,-10,-9,0,-10,42,0,0,0,2.267,5,Spears,FALSE
+Gilded pickaxe,Free-to-play,26,-2,24,0,0,0,1,0,0,0,29,0,0,0,2.267,5,Pickaxes,FALSE
+Gilded scimitar,Free-to-play,7,45,-2,0,0,0,1,0,0,0,44,0,0,0,1.814,4,Slashing swords,FALSE
+Gilded spade,Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,3,4,Blunt weapons,TRUE
+Gilded spear,Members,36,36,36,0,0,1,1,0,0,0,42,0,0,0,2.267,5,Spears,TRUE
+Glowing dagger,Members,5,3,-4,1,0,0,0,0,1,0,0,0,0,0,0.453,4,Stabbing swords,FALSE
+Gnomeball,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,Unarmed,FALSE
+Golden tench,Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,0.028,4,Blunt weapons,FALSE
+Gorilla greegree,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.085,0,Unarmed,FALSE
+Granite hammer,Members,0,0,57,-3,-1,0,0,0,0,0,56,0,0,0,5,4,Blunt weapons,FALSE
+Granite longsword,Members,56,65,-2,0,0,0,3,2,0,0,62,0,0,0,2.721,5,Slashing swords,FALSE
+Granite maul Normal,Members,0,0,81,0,0,0,0,0,0,0,79,0,0,0,4.535,7,Blunt weapons,TRUE
+Granite maul Ornate_handle,Members,0,0,81,0,0,0,0,0,0,0,79,0,0,0,4.535,7,Blunt weapons,TRUE
+Green banner,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.267,4,Banners,FALSE
+Guilded smile flag,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.267,4,Banners,FALSE
+Guthan's warspear,Members,75,75,75,0,0,7,7,7,0,0,75,0,0,0,2.267,5,Spears,TRUE
+Guthix crozier,Members,7,-1,25,10,0,2,3,1,10,0,32,0,0,6,2,5,Staves,FALSE
+Guthix mjolnir,Members,0,0,11,0,0,0,0,0,0,0,14,0,0,0,2.267,6,Polestaves,TRUE
+Guthix staff,Members,-1,-1,6,6,0,2,3,1,6,0,2,0,0,0,2.267,5,Staves,FALSE
+Hallowed hammer,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.02,4,Blunt weapons,FALSE
+Ham joint,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,Blunt weapons,FALSE
+Hand fan,Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,0.02,4,Blunt weapons,FALSE
+Harmonised nightmare staff,Members,0,0,0,16,0,0,0,0,14,0,0,0,15,0,1.6,5,Staves,FALSE
+Harry's cutlass,Members,3,14,0,-5,0,4,4,4,0,0,22,0,0,0,1.814,4,Slashing swords,FALSE
+Heat-proof vessel,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,Unarmed,FALSE
+Heavy ballista,Members,0,0,0,0,125,0,0,0,0,0,0,15,0,0,6,7,Crossbows,TRUE
+Heavy casket,Members,-4,-4,11,-4,0,0,0,0,0,0,9,0,0,0,15,6,Blunt weapons,TRUE
+Hill giant club,Free-to-play,-4,50,65,-4,0,0,0,0,0,-1,70,0,0,0,3.628,7,Blunt weapons,TRUE
+Holy handegg,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.25,4,Unarmed,FALSE
+Holy water,Members,0,0,0,0,6,0,0,0,0,0,0,12,0,0,0,3,Thrown weapons,FALSE
+Hosidius banner,Members,12,12,12,0,0,1,1,0,0,0,12,0,0,0,2.267,5,Polestaves,FALSE
+Hunters' crossbow,Members,0,0,0,0,55,0,0,0,0,0,0,0,0,0,5,4,Crossbows,FALSE
+Hunting knife,Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,0.453,4,Blunt weapons,FALSE
+Iban's staff (u),Members,10,-1,40,10,0,2,3,1,10,0,50,0,0,0,2.267,5,Staves,FALSE
+Iban's staff Broken,Members,10,-1,40,10,0,2,3,1,10,0,50,0,0,0,1.814,5,Staves,FALSE
+Iban's staff Regular,Members,10,-1,40,10,0,2,3,1,10,0,50,0,0,0,2.267,5,Staves,FALSE
+Imbued tephra,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,Unarmed,FALSE
+Incomplete blaster,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Blasters,FALSE
+Infernal axe Charged,Members,-2,38,32,0,0,0,1,0,0,0,42,0,0,0,1.814,5,Axes,FALSE
+Infernal axe Uncharged,Members,-2,38,32,0,0,0,1,0,0,0,42,0,0,0,1.814,5,Axes,FALSE
+Infernal harpoon Charged,Members,38,32,0,0,0,0,1,0,0,0,42,0,0,0,2.267,5,Stabbing swords,FALSE
+Infernal harpoon Uncharged,Members,38,32,0,0,0,0,1,0,0,0,42,0,0,0,2.267,5,Stabbing swords,FALSE
+Infernal pickaxe Charged,Members,38,-2,32,0,0,0,1,0,0,0,42,0,0,0,2.4,5,Pickaxes,FALSE
+Infernal pickaxe Uncharged,Members,38,-2,32,0,0,0,1,0,0,0,42,0,0,0,2.4,5,Pickaxes,FALSE
+Inquisitor's mace,Members,52,-4,95,0,0,0,0,0,0,0,89,0,0,2,1.814,4,Spiked weapons,FALSE
+Iron 2h sword,Free-to-play,-4,13,10,-4,0,0,0,0,0,-1,14,0,0,0,3.628,7,Two-handed swords,TRUE
+Iron axe,Free-to-play,-2,5,3,0,0,0,1,0,0,0,7,0,0,0,1.36,5,Axes,FALSE
+Iron battleaxe,Free-to-play,-2,8,5,0,0,0,0,0,0,-1,13,0,0,0,2.721,6,Axes,FALSE
+Iron claws,Members,4,6,-4,0,0,2,3,1,0,0,7,0,0,0,0.907,4,Claws,TRUE
+Iron crossbow,Members,0,0,0,0,42,0,0,0,0,0,0,0,0,0,4,6,Crossbows,FALSE
+Iron dagger,Free-to-play,5,3,-4,1,0,0,0,0,1,0,4,0,0,0,0.453,4,Stabbing swords,FALSE
+Iron dart,Members,0,0,0,0,4,0,0,0,0,0,0,3,0,0,0,3,Thrown weapons,FALSE
+Iron halberd,Members,9,12,0,-4,0,-1,1,2,0,0,12,0,0,0,3.175,7,Polearms,TRUE
+Iron hasta Karambwan_poison,Members,8,8,8,0,0,-2,-2,-2,0,-2,10,0,0,0,2.267,5,Spears,FALSE
+Iron hasta Unpoisoned,Members,8,8,8,0,0,-2,-2,-2,0,-2,10,0,0,0,2.267,5,Spears,FALSE
+Iron knife,Members,0,0,0,0,5,0,0,0,0,0,0,4,0,0,0,3,Thrown weapons,FALSE
+Iron longsword,Free-to-play,6,8,-2,0,0,0,3,2,0,0,10,0,0,0,1.814,5,Slashing swords,FALSE
+Iron mace,Free-to-play,4,-2,9,0,0,0,0,0,0,0,7,0,0,1,1.814,5,Spiked weapons,FALSE
+Iron pickaxe Nightmare_Zone,Members,5,-2,3,0,0,0,1,0,0,0,7,0,0,0,2.267,5,Pickaxes,FALSE
+Iron pickaxe Regular,Free-to-play,5,-2,3,0,0,0,1,0,0,0,7,0,0,0,2.267,5,Pickaxes,FALSE
+Iron scimitar,Free-to-play,2,10,-2,0,0,0,1,0,0,0,9,0,0,0,1.814,4,Slashing swords,FALSE
+Iron sickle,Members,0,0,0,0,0,0,1,1,1,1,1,0,0,0,1.587,5,Slashing swords,FALSE
+Iron spear Karambwan_poison,Members,8,8,8,0,0,1,1,0,0,0,10,0,0,0,2.267,5,Spears,TRUE
+Iron spear Unpoisoned,Members,8,8,8,0,0,1,1,0,0,0,10,0,0,0,2.267,5,Spears,TRUE
+Iron sword,Free-to-play,6,4,-2,0,0,0,2,1,0,0,7,0,0,0,1.814,4,Stabbing swords,FALSE
+Iron thrownaxe,Members,0,0,0,0,5,0,0,0,0,0,0,7,0,0,0,5,Thrown weapons,FALSE
+Iron warhammer,Free-to-play,-4,-4,11,-4,0,0,0,0,0,0,9,0,0,0,1.814,6,Blunt weapons,FALSE
+Ivandis flail,Members,24,38,62,8,0,4,4,2,8,0,42,0,0,5,0.001,5,Staves,FALSE
+Jade machete,Members,0,11,-2,0,0,0,1,1,0,0,6,0,0,0,1.36,4,Slashing swords,FALSE
+Karamjan monkey greegree,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.085,0,Unarmed,FALSE
+Karil's crossbow,Members,0,0,0,0,84,0,0,0,0,0,0,0,0,0,3.628,4,Crossbows,TRUE
+Katana,Members,7,45,0,0,0,3,7,7,0,-3,40,0,0,0,0.453,4,Slashing swords,TRUE
+Keris Unpoisoned,Members,40,20,-10,2,0,0,0,0,2,0,30,0,0,2,0.453,4,Stabbing swords,FALSE
+Killer's knife,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.453,4,Stabbing swords,FALSE
+Kitchen knife,Members,25,12,-4,1,0,0,0,0,1,0,24,0,0,0,0.453,4,Stabbing swords,FALSE
+Kodai wand,Members,0,0,0,28,0,0,3,3,20,0,0,0,15,0,0.198,4,Staves,FALSE
+Kruk monkey greegree,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.085,0,Unarmed,FALSE
+Large spade,Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,3,4,Blunt weapons,TRUE
+Lava battlestaff,Members,7,-1,28,10,0,2,3,1,10,0,35,0,0,0,2.267,5,Staves,FALSE
+Lava battlestaff (or),Members,7,-1,28,10,0,2,3,1,10,0,35,0,0,0,2.267,5,Staves,FALSE
+Leaf-bladed battleaxe,Members,-2,72,72,0,0,0,0,0,0,-1,92,0,0,0,2.721,5,Axes,FALSE
+Leaf-bladed spear,Members,47,42,36,0,0,1,1,0,0,0,50,0,0,0,2.267,5,Spears,TRUE
+Leaf-bladed sword,Members,67,62,0,0,0,0,0,0,0,0,50,0,0,0,1.814,4,Stabbing swords,FALSE
+Light ballista,Members,0,0,0,0,110,0,0,0,0,0,0,0,0,0,3,7,Crossbows,TRUE
+Longbow,Free-to-play,0,0,0,0,8,0,0,0,0,0,0,0,0,0,1.814,6,Bows,TRUE
+Lovakengj banner,Members,12,12,12,0,0,1,1,0,0,0,12,0,0,0,2.267,5,Polestaves,FALSE
+Lucky cutlass,Members,5,20,0,-5,0,6,6,6,0,0,25,0,0,0,1.814,4,Slashing swords,FALSE
+Lucky shot flag,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.267,4,Banners,FALSE
+Lunar staff,Members,3,2,16,13,0,2,3,2,13,1,15,0,0,3,2.267,5,Staves,FALSE
+Lunar staff - pt1,Members,-1,-1,10,10,0,2,3,1,10,0,10,0,0,0,1.814,4,Staves,FALSE
+Lunar staff - pt2,Members,-1,-1,10,10,0,2,3,1,10,0,10,0,0,0,1.814,4,Staves,FALSE
+Lunar staff - pt3,Members,-1,-1,10,10,0,2,3,1,10,0,10,0,0,0,1.814,4,Staves,FALSE
+Lyre,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.814,4,Unarmed,FALSE
+Machete,Members,0,6,-2,0,0,0,0,0,0,0,5,0,0,0,1.36,5,Slashing swords,FALSE
+Magic butterfly net,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.226,6,Spears,FALSE
+Magic comp bow,Members,0,0,0,0,71,0,0,0,0,0,0,0,0,0,1.8,5,Bows,TRUE
+Magic longbow,Members,0,0,0,0,69,0,0,0,0,0,0,0,0,0,1.814,6,Bows,TRUE
+Magic secateurs Nightmare_Zone,Members,7,9,-5,1,0,0,1,0,1,0,1,0,0,0,0.453,5,Stabbing swords,FALSE
+Magic secateurs Regular,Members,7,9,-5,1,0,0,1,0,1,0,1,0,0,0,0.453,5,Stabbing swords,FALSE
+Magic shortbow,Members,0,0,0,0,69,0,0,0,0,0,0,0,0,0,1.36,4,Bows,TRUE
+Magic staff,Free-to-play,2,-1,10,10,0,2,3,1,10,0,7,0,0,0,2.267,5,Staves,FALSE
+Maple blackjack,Members,0,0,0,0,0,0,0,0,0,0,20,0,0,0,1.814,4,Blunt weapons,FALSE
+Maple blackjack(d),Members,0,0,0,0,0,0,0,24,0,0,20,0,0,0,1.814,4,Blunt weapons,FALSE
+Maple blackjack(o),Members,0,0,24,0,0,0,0,0,0,0,20,0,0,0,1.814,4,Blunt weapons,FALSE
+Maple longbow,Free-to-play,0,0,0,0,29,0,0,0,0,0,0,0,0,0,1.814,6,Bows,TRUE
+Maple shortbow,Free-to-play,0,0,0,0,29,0,0,0,0,0,0,0,0,0,1.36,4,Bows,TRUE
+Master wand,Members,0,0,0,20,0,0,0,0,20,0,0,0,0,0,0.198,4,Staves,FALSE
+Meat tenderiser,Members,-4,-4,53,-4,0,0,0,0,0,0,48,0,0,0,1.814,6,Blunt weapons,FALSE
+Merfolk trident,Members,8,8,8,0,0,1,1,0,0,0,4,0,0,0,0.907,5,Spears,TRUE
+Mist battlestaff,Members,7,-1,28,10,0,2,3,1,10,0,35,0,0,0,2.267,5,Staves,FALSE
+Mith crossbow,Members,0,0,0,0,66,0,0,0,0,0,0,0,0,0,5,6,Crossbows,FALSE
+Mithril 2h sword,Free-to-play,-4,30,24,-4,0,0,0,0,0,-1,31,0,0,0,3.175,7,Two-handed swords,TRUE
+Mithril axe,Free-to-play,-2,12,10,0,0,0,1,0,0,0,13,0,0,0,1.133,5,Axes,FALSE
+Mithril battleaxe,Free-to-play,-2,22,17,0,0,0,0,0,0,-1,29,0,0,0,2.267,6,Axes,FALSE
+Mithril claws,Members,11,16,-4,0,0,4,8,2,0,0,17,0,0,0,0.907,4,Claws,TRUE
+Mithril dagger,Free-to-play,11,5,-4,1,0,0,0,0,1,0,10,0,0,0,0.396,4,Stabbing swords,FALSE
+Mithril dart,Members,0,0,0,0,8,0,0,0,0,0,0,7,0,0,0,3,Thrown weapons,FALSE
+Mithril halberd,Members,22,28,0,-4,0,-1,2,4,0,0,29,0,0,0,2.721,7,Polearms,TRUE
+Mithril hasta Karambwan_poison,Members,17,17,17,0,0,-5,-5,-4,0,-5,18,0,0,0,1.814,5,Spears,FALSE
+Mithril hasta Unpoisoned,Members,17,17,17,0,0,-5,-5,-4,0,-5,18,0,0,0,1.814,5,Spears,FALSE
+Mithril knife,Members,0,0,0,0,11,0,0,0,0,0,0,10,0,0,0,3,Thrown weapons,FALSE
+Mithril longsword,Free-to-play,15,20,-2,0,0,0,3,2,0,0,22,0,0,0,1.587,5,Slashing swords,FALSE
+Mithril mace,Free-to-play,11,-2,18,0,0,0,0,0,0,0,16,0,0,3,1.587,5,Spiked weapons,FALSE
+Mithril pickaxe Nightmare_Zone,Members,12,-2,10,0,0,0,1,0,0,0,13,0,0,0,2.267,5,Pickaxes,FALSE
+Mithril pickaxe Regular,Free-to-play,12,-2,10,0,0,0,1,0,0,0,13,0,0,0,1.814,5,Pickaxes,FALSE
+Mithril scimitar,Free-to-play,5,21,-2,0,0,0,1,0,0,0,20,0,0,0,1.587,4,Slashing swords,FALSE
+Mithril spear Karambwan_poison,Members,17,17,17,0,0,1,1,0,0,0,18,0,0,0,1.814,5,Spears,TRUE
+Mithril spear Unpoisoned,Members,17,17,17,0,0,1,1,0,0,0,18,0,0,0,1.814,5,Spears,TRUE
+Mithril sword,Free-to-play,16,11,-2,0,0,0,2,1,0,0,17,0,0,0,1.587,4,Stabbing swords,FALSE
+Mithril thrownaxe,Members,0,0,0,0,12,0,0,0,0,0,0,16,0,0,0,5,Thrown weapons,FALSE
+Mithril warhammer,Free-to-play,-4,-4,25,-4,0,0,0,0,0,0,20,0,0,0,1.587,6,Blunt weapons,FALSE
+Mixed flowers,Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,0.028,4,Blunt weapons,FALSE
+Monkey talisman,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.085,4,Unarmed,FALSE
+Morrigan's javelin,Members,0,0,0,0,105,0,0,0,0,0,0,145,0,0,0,6,Thrown weapons,FALSE
+Mouse toy,Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,0.1,4,Blunt weapons,FALSE
+Mud battlestaff,Members,7,-1,28,10,0,2,3,1,10,0,35,0,0,0,2.267,5,Staves,FALSE
+Mud pie,Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,0.001,4,Thrown weapons,FALSE
+Mystic air staff,Members,10,-1,40,10,0,2,3,1,10,0,50,0,0,0,2.267,5,Staves,FALSE
+Mystic dust staff,Members,10,-1,40,10,0,2,3,1,10,0,50,0,0,0,2.267,5,Staves,FALSE
+Mystic earth staff,Members,10,-1,40,10,0,2,3,1,10,0,50,0,0,0,2.267,5,Staves,FALSE
+Mystic fire staff,Members,10,-1,40,10,0,2,3,1,10,0,50,0,0,0,2.267,5,Staves,FALSE
+Mystic lava staff,Members,10,-1,40,10,0,2,3,1,10,0,50,0,0,0,2.267,5,Staves,FALSE
+Mystic lava staff (or),Members,10,-1,40,10,0,2,3,1,10,0,50,0,0,0,2.267,5,Staves,FALSE
+Mystic mist staff,Members,10,-1,40,10,0,2,3,1,10,0,50,0,0,0,2.267,5,Staves,FALSE
+Mystic mud staff,Members,10,-1,40,10,0,2,3,1,10,0,50,0,0,0,2.267,5,Staves,FALSE
+Mystic smoke staff,Members,10,-1,40,10,0,2,3,1,10,0,50,0,0,0,2.267,5,Staves,FALSE
+Mystic steam staff,Members,7,-1,40,10,0,2,3,1,10,0,50,0,0,0,2.267,5,Staves,FALSE
+Mystic steam staff (or),Members,7,-1,40,10,0,2,3,1,10,0,50,0,0,0,2.267,5,Staves,FALSE
+Mystic water staff,Members,10,-1,40,10,0,2,3,1,10,0,50,0,0,0,2.267,5,Staves,FALSE
+Nightmare staff,Members,0,0,0,16,0,0,0,0,14,0,0,0,15,0,1.5,5,Staves,FALSE
+Ninja monkey greegree (medium),Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.085,0,Unarmed,FALSE
+Ninja monkey greegree (small),Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.085,0,Unarmed,FALSE
+Noose wand,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.814,4,Spears,FALSE
+Nunchaku,Members,-4,-4,11,-4,0,0,0,0,0,0,14,0,0,0,1.36,5,Blunt weapons,TRUE
+Oak blackjack,Members,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1.814,4,Blunt weapons,FALSE
+Oak blackjack(d),Members,0,0,0,0,0,0,0,4,0,0,4,0,0,0,1.814,4,Blunt weapons,FALSE
+Oak blackjack(o),Members,0,0,4,0,0,0,0,0,0,0,4,0,0,0,1.814,4,Blunt weapons,FALSE
+Oak longbow,Free-to-play,0,0,0,0,14,0,0,0,0,0,0,0,0,0,2.267,6,Bows,TRUE
+Oak shortbow,Free-to-play,0,0,0,0,14,0,0,0,0,0,0,0,0,0,1.814,4,Bows,TRUE
+Oddskull,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.001,0,Unarmed,TRUE
+Ogre bow,Members,0,0,0,0,38,0,0,0,0,0,0,0,0,0,1.814,8,Bows,TRUE
+Oily pearl fishing rod,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.481,5,Unarmed,FALSE
+Opal machete,Members,0,8,-2,0,0,0,1,1,0,0,4,0,0,0,1.36,5,Slashing swords,FALSE
+Orange flowers,Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,0.028,4,Blunt weapons,FALSE
+Orange salamander,Members,0,19,0,0,29,0,0,0,0,0,31,0,0,0,4,5,Salamanders,TRUE
+Peaceful handegg,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.25,4,Unarmed,FALSE
+Pearl barbarian rod,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.453,5,Unarmed,FALSE
+Pearl fishing rod,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.453,5,Unarmed,FALSE
+Pearl fly fishing rod,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.453,5,Unarmed,FALSE
+Pharaoh's sceptre,Members,7,-1,25,10,0,2,3,1,10,0,32,0,0,0,2,4,Polestaves,TRUE
+Phasmatys flag,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.267,4,Banners,FALSE
+Phoenix crossbow,Free-to-play,0,0,0,0,6,0,0,0,0,0,0,0,0,0,3.628,6,Crossbows,FALSE
+Piscarilius banner,Members,12,12,12,0,0,1,1,0,0,0,12,0,0,0,2.267,5,Banners,FALSE
+Prop sword,Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,0.453,4,Stabbing swords,FALSE
+Pugel,Members,0,0,0,0,0,0,1,2,0,0,0,0,0,0,1.36,4,Spears,FALSE
+Purple flowers,Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,0.028,4,Blunt weapons,FALSE
+Rain bow,Members,0,0,0,0,8,0,0,0,0,0,0,0,0,0,1.36,4,Bows,TRUE
+Rapier,Members,45,7,-2,0,0,0,1,0,0,0,44,0,0,0,1.814,4,Stabbing swords,FALSE
+Rat pole Empty,Members,0,-1,7,4,0,2,3,1,4,0,3,0,0,0,2.267,5,Blunt weapons,FALSE
+Rat pole Five_rats,Members,0,-1,7,4,0,2,3,1,4,0,3,0,0,0,2.267,5,Blunt weapons,FALSE
+Rat pole Four_rats,Members,0,-1,7,4,0,2,3,1,4,0,3,0,0,0,2.267,5,Blunt weapons,FALSE
+Rat pole One_rat,Members,0,-1,7,4,0,2,3,1,4,0,3,0,0,0,2.267,5,Blunt weapons,FALSE
+Rat pole Six_rats,Members,0,-1,7,4,0,2,3,1,4,0,3,0,0,0,2.267,5,Blunt weapons,FALSE
+Rat pole Three_rats,Members,0,-1,7,4,0,2,3,1,4,0,3,0,0,0,2.267,5,Blunt weapons,FALSE
+Rat pole Two_rats,Members,0,-1,7,4,0,2,3,1,4,0,3,0,0,0,2.267,5,Blunt weapons,FALSE
+Red chinchompa,Members,0,0,0,0,70,0,0,0,0,0,0,15,0,0,0,4,Chinchompas,FALSE
+Red flowers,Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,0.028,4,Blunt weapons,FALSE
+Red salamander,Members,0,37,0,0,47,0,0,0,0,0,49,0,0,0,4,5,Salamanders,TRUE
+Red topaz machete,Members,0,16,-2,0,0,0,1,1,0,1,10,0,0,0,1.36,4,Slashing swords,FALSE
+Rod of ivandis,Members,0,-1,7,4,0,2,3,1,4,0,3,0,0,0,0.001,5,Staves,FALSE
+Rolling pin,Members,20,-2,39,0,0,0,0,0,0,0,36,0,0,4,1.814,5,Blunt weapons,FALSE
+Royal sceptre,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4.535,4,Polestaves,FALSE
+Rubber chicken,Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,0.453,4,Blunt weapons,FALSE
+Ruby sickle (b),Members,0,0,0,0,0,0,1,1,1,1,4,0,0,5,1.587,5,Slashing swords,FALSE
+Rune 2h sword,Free-to-play,-4,69,50,-4,0,0,0,0,0,-1,70,0,0,0,3.628,7,Two-handed swords,TRUE
+Rune axe,Free-to-play,-2,26,24,0,0,0,1,0,0,0,29,0,0,0,1.36,5,Axes,FALSE
+Rune battleaxe,Free-to-play,-2,48,43,0,0,0,0,0,0,-1,64,0,0,0,2.721,6,Axes,FALSE
+Rune cane,Members,20,-2,39,0,0,0,0,0,0,0,36,0,0,4,1.814,5,Spiked weapons,FALSE
+Rune claws,Members,26,38,-4,0,0,10,19,5,0,0,39,0,0,0,0.907,4,Claws,TRUE
+Rune crossbow,Members,0,0,0,0,90,0,0,0,0,0,0,0,0,0,6,6,Crossbows,FALSE
+Rune dagger,Free-to-play,25,12,-4,1,0,0,0,0,1,0,24,0,0,0,0.453,4,Stabbing swords,FALSE
+Rune dart,Members,0,0,0,0,15,0,0,0,0,0,0,14,0,0,0,3,Thrown weapons,FALSE
+Rune halberd,Members,48,67,0,-4,0,-1,4,5,0,0,68,0,0,0,3.175,7,Polearms,TRUE
+Rune hasta Karambwan_poison,Members,36,36,36,0,0,-10,-10,-9,0,-10,42,0,0,0,2.267,5,Spears,FALSE
+Rune hasta Unpoisoned,Members,36,36,36,0,0,-10,-10,-9,0,-10,42,0,0,0,2.267,5,Spears,FALSE
+Rune knife,Members,0,0,0,0,25,0,0,0,0,0,0,24,0,0,0,3,Thrown weapons,FALSE
+Rune longsword,Free-to-play,38,47,-2,0,0,0,3,2,0,0,49,0,0,0,1.814,5,Slashing swords,FALSE
+Rune mace,Free-to-play,20,-2,39,0,0,0,0,0,0,0,36,0,0,4,1.814,5,Spiked weapons,FALSE
+Rune pickaxe Nightmare_Zone,Members,26,-2,24,0,0,0,1,0,0,0,29,0,0,0,2.267,5,Pickaxes,FALSE
+Rune pickaxe Regular,Free-to-play,26,-2,24,0,0,0,1,0,0,0,29,0,0,0,2.267,5,Pickaxes,FALSE
+Rune scimitar,Free-to-play,7,45,-2,0,0,0,1,0,0,0,44,0,0,0,1.814,4,Slashing swords,FALSE
+Rune scimitar (guthix),Free-to-play,7,45,-2,0,0,0,1,0,0,0,44,0,0,0,1.814,4,Slashing swords,FALSE
+Rune scimitar (saradomin),Free-to-play,7,45,-2,0,0,0,1,0,0,0,44,0,0,0,1.814,4,Slashing swords,FALSE
+Rune scimitar (zamorak),Free-to-play,7,45,-2,0,0,0,1,0,0,0,44,0,0,0,1.814,4,Slashing swords,FALSE
+Rune spear Karambwan_poison,Members,36,36,36,0,0,1,1,0,0,0,42,0,0,0,2.267,5,Spears,TRUE
+Rune spear Unpoisoned,Members,36,36,36,0,0,1,1,0,0,0,42,0,0,0,2.267,5,Spears,TRUE
+Rune sword,Free-to-play,38,26,-2,0,0,0,2,1,0,0,39,0,0,0,1.814,4,Stabbing swords,FALSE
+Rune thrownaxe,Members,0,0,0,0,26,0,0,0,0,0,0,36,0,0,0,5,Thrown weapons,FALSE
+Rune warhammer,Free-to-play,-4,-4,53,-4,0,0,0,0,0,0,48,0,0,0,1.814,6,Blunt weapons,FALSE
+Sanguinesti staff Charged,Members,0,0,0,25,-4,2,3,1,15,0,0,0,0,0,1.5,4,Powered staves,FALSE
+Sanguinesti staff Uncharged,Members,0,0,0,25,-4,2,3,1,15,0,0,0,0,0,1.5,4,Powered staves,FALSE
+Sarachnis cudgel,Members,30,0,70,0,0,0,0,0,0,0,70,0,0,0,0.453,4,Spiked weapons,FALSE
+Saradomin banner,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.267,4,Banners,FALSE
+Saradomin crozier,Members,7,-1,25,10,0,2,3,1,10,0,32,0,0,6,2,5,Staves,FALSE
+Saradomin godsword,Members,0,132,80,0,0,0,0,0,0,0,132,0,0,8,10,6,Two-handed swords,TRUE
+Saradomin mjolnir,Members,0,0,11,0,0,0,0,0,0,0,14,0,0,0,2.267,6,Polestaves,TRUE
+Saradomin staff,Members,-1,-1,6,6,0,2,3,1,6,0,2,0,0,0,2.267,5,Staves,FALSE
+Saradomin sword,Members,0,82,60,0,0,0,0,0,0,0,82,0,0,2,3,4,Two-handed swords,TRUE
+Saradomin's blessed sword,Members,0,100,60,0,0,0,0,0,0,0,88,0,0,2,3,4,Two-handed swords,TRUE
+Scythe,Free-to-play,3,8,3,0,0,0,3,1,0,0,10,0,0,0,3.175,6,Scythes,TRUE
+Scythe of vitur,Members,50,75,10,-6,0,-2,6,0,0,0,50,0,0,0,3.175,5,Scythes,TRUE
+Seercull,Members,0,0,0,0,69,0,0,0,0,0,0,0,0,0,1.36,5,Bows,TRUE
+Severed leg,Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,1.8,4,Blunt weapons,FALSE
+Shadow sword,Members,-4,27,21,4,0,0,0,0,4,-1,26,0,0,0,3.628,6,Two-handed swords,TRUE
+Shayzien banner,Members,12,12,12,0,0,1,1,0,0,0,12,0,0,0,2.267,5,Polestaves,FALSE
+Shortbow,Free-to-play,0,0,0,0,8,0,0,0,0,0,0,0,0,0,1.36,4,Bows,TRUE
+Signed oak bow,Members,0,0,0,0,14,0,0,0,0,0,0,0,0,0,2.267,6,Bows,TRUE
+Silver sickle,Members,0,0,0,0,0,0,1,1,1,1,1,0,0,0,1.587,5,Slashing swords,FALSE
+Silver sickle (b),Members,0,0,0,0,0,0,1,1,1,1,1,0,0,5,1.587,5,Slashing swords,FALSE
+Silverlight,Free-to-play,9,14,-2,0,0,0,3,2,1,0,12,0,0,0,1.814,5,Slashing swords,FALSE
+Silverlight Dyed,Members,9,14,-2,0,0,0,3,2,1,0,12,0,0,0,1.814,5,Slashing swords,FALSE
+Skewer,Members,20,29,-2,0,0,0,3,2,0,0,31,0,0,0,2.041,5,Slashing swords,FALSE
+Skull sceptre,Free-to-play,0,-1,7,4,0,2,3,1,4,0,3,0,0,0,1.814,5,Polestaves,FALSE
+Slayer's staff,Members,7,-1,25,12,0,2,3,1,10,0,35,0,0,0,1.814,4,Staves,FALSE
+Sled Unwaxed,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.018,4,Unarmed,TRUE
+Sled Waxed,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.018,4,Unarmed,TRUE
+Smoke battlestaff,Members,7,-1,28,10,0,2,3,1,10,0,35,0,0,0,2.267,5,Staves,FALSE
+Snowball,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,Unarmed,FALSE
+Spatula,Members,-4,27,21,-4,0,0,0,0,0,-1,26,0,0,0,3.628,7,Two-handed swords,TRUE
+Spear (Last Man Standing),Free-to-play,22,18,0,-4,0,-1,2,4,0,0,20,0,0,0,3.628,7,Polearms,TRUE
+Spork,Members,11,8,-2,0,0,0,2,1,0,0,12,0,0,0,1.814,4,Stabbing swords,FALSE
+Staff,Free-to-play,0,-1,7,4,0,2,3,1,4,0,3,0,0,0,1.814,5,Staves,FALSE
+Staff of air,Free-to-play,0,-1,7,10,0,2,3,1,10,0,3,0,0,0,2.267,5,Staves,FALSE
+Staff of balance,Members,55,70,0,17,0,0,3,3,17,0,72,0,15,0,1.5,4,Bladed staves,FALSE
+Staff of bob the cat,Members,2,-1,10,10,0,2,3,1,10,0,7,0,0,0,2,5,Staves,FALSE
+Staff of earth,Free-to-play,1,-1,9,10,0,2,3,1,10,0,5,0,0,0,2.267,5,Staves,FALSE
+Staff of fire,Free-to-play,3,-1,9,10,0,2,3,1,10,0,6,0,0,0,2.267,5,Staves,FALSE
+Staff of light,Members,55,70,0,17,0,0,3,3,17,0,72,0,15,0,1.5,4,Bladed staves,FALSE
+Staff of the dead,Members,55,70,0,17,0,0,3,3,17,0,72,0,15,0,1.5,4,Bladed staves,FALSE
+Staff of water,Free-to-play,0,-1,7,10,0,2,3,1,10,0,3,0,0,0,2.267,5,Staves,FALSE
+Stale baguette,Free-to-play,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,2.267,4,Blunt weapons,FALSE
+Statius's warhammer,Members,-4,-4,123,0,0,0,0,0,0,0,114,0,0,0,1.814,5,Blunt weapons,FALSE
+Steam battlestaff,Members,7,-1,28,10,0,2,3,1,10,0,35,0,0,0,2.267,5,Staves,FALSE
+Steam battlestaff (or),Members,7,-1,28,10,0,2,3,1,10,0,35,0,0,0,2.267,5,Staves,FALSE
+Steel 2h sword,Free-to-play,-4,21,16,-4,0,0,0,0,0,-1,22,0,0,0,3.628,7,Two-handed swords,TRUE
+Steel axe,Free-to-play,-2,8,6,0,0,0,1,0,0,0,9,0,0,0,1.36,5,Axes,FALSE
+Steel battleaxe,Free-to-play,-2,16,11,0,0,0,0,0,0,-1,20,0,0,0,2.721,6,Axes,FALSE
+Steel claws,Members,8,11,-4,0,0,3,6,2,0,0,12,0,0,0,0.907,4,Claws,TRUE
+Steel crossbow,Members,0,0,0,0,54,0,0,0,0,0,0,0,0,0,5,6,Crossbows,FALSE
+Steel dagger,Free-to-play,8,4,-4,1,0,0,0,0,1,0,7,0,0,0,0.453,4,Stabbing swords,FALSE
+Steel dart,Members,0,0,0,0,5,0,0,0,0,0,0,4,0,0,0,3,Thrown weapons,FALSE
+Steel halberd,Members,14,19,0,-4,0,-1,1,2,0,0,20,0,0,0,3.175,7,Polearms,TRUE
+Steel hasta Karambwan_poison,Members,12,12,12,0,0,-3,-3,-3,0,-3,12,0,0,0,2.267,5,Spears,FALSE
+Steel hasta Unpoisoned,Members,12,12,12,0,0,-3,-3,-3,0,-3,12,0,0,0,2.267,5,Spears,FALSE
+Steel knife,Members,0,0,0,0,8,0,0,0,0,0,0,7,0,0,0,3,Thrown weapons,FALSE
+Steel longsword,Free-to-play,9,14,-2,0,0,0,3,2,0,0,16,0,0,0,1.814,5,Slashing swords,FALSE
+Steel mace,Free-to-play,7,-2,13,0,0,0,0,0,0,0,11,0,0,2,1.814,5,Spiked weapons,FALSE
+Steel pickaxe,Free-to-play,8,-2,6,0,0,0,1,0,0,0,9,0,0,0,2.267,5,Pickaxes,FALSE
+Steel scimitar,Free-to-play,3,15,-2,0,0,0,1,0,0,0,14,0,0,0,1.814,4,Slashing swords,FALSE
+Steel spear Karambwan_poison,Members,12,12,12,0,0,1,1,0,0,0,12,0,0,0,2.267,5,Spears,TRUE
+Steel spear Unpoisoned,Members,12,12,12,0,0,1,1,0,0,0,12,0,0,0,2.267,5,Spears,TRUE
+Steel sword,Free-to-play,11,8,-2,0,0,0,2,1,0,0,12,0,0,0,1.814,4,Stabbing swords,FALSE
+Steel thrownaxe,Members,0,0,0,0,8,0,0,0,0,0,0,11,0,0,0,5,Thrown weapons,FALSE
+Steel warhammer,Free-to-play,-4,-4,18,-4,0,0,0,0,0,0,16,0,0,0,1.814,6,Blunt weapons,FALSE
+Swamp lizard,Members,0,10,0,0,20,0,0,0,0,0,22,0,0,0,4,5,Salamanders,TRUE
+Swift blade,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.814,3,Stabbing swords,FALSE
+Teacher wand,Members,0,0,0,15,0,0,0,0,15,0,0,0,0,0,0.226,4,Staves,FALSE
+Thammaron's sceptre,Members,0,0,0,20,0,0,0,0,20,0,0,0,0,0,0.198,4,Staves,FALSE
+Toktz-mej-tal,Members,15,-1,55,15,0,10,15,5,15,0,55,0,0,5,1.814,6,Stabbing swords,TRUE
+Toktz-xil-ak,Members,47,38,-2,0,0,2,3,0,0,0,49,0,0,0,1.814,4,Stabbing swords,FALSE
+Toktz-xil-ek,Members,16,48,0,0,0,0,0,0,0,0,39,0,0,0,0.453,4,Slashing swords,FALSE
+Toktz-xil-ul,Members,0,0,0,0,69,0,0,0,0,0,0,49,0,0,0,4,Thrown weapons,FALSE
+Torag's hammers,Members,-4,-4,85,-4,0,0,0,0,0,0,72,0,0,0,3.628,5,Blunt weapons,TRUE
+Toxic blowpipe,Members,0,0,0,0,60,0,0,0,0,0,0,40,0,0,0.5,3,Thrown weapons,TRUE
+Toxic staff of the dead Charged,Members,55,70,0,25,0,0,3,3,17,0,72,0,15,0,1.5,4,Bladed staves,FALSE
+Toxic staff of the dead Uncharged,Members,55,70,0,17,0,0,3,3,17,0,72,0,15,0,1.5,4,Bladed staves,FALSE
+Training bow,Free-to-play,0,0,0,0,8,0,0,0,0,0,0,0,0,0,1.36,4,Bows,TRUE
+Training sword,Free-to-play,4,3,-2,0,0,0,2,1,0,0,5,0,0,0,1.814,4,Stabbing swords,FALSE
+Treasure flag,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.267,4,Banners,FALSE
+Trident of the seas,Members,0,0,0,15,0,2,3,1,15,0,0,0,0,0,1.814,4,Powered staves,FALSE
+Trident of the swamp,Members,0,0,0,25,0,2,3,1,15,0,0,0,0,0,1.814,4,Powered staves,FALSE
+Trollweiss,Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,0.028,5,Blunt weapons,FALSE
+Twisted adamant trophy,Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,15,4,Blunt weapons,TRUE
+Twisted banner,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.267,4,Banners,FALSE
+Twisted bow,Members,0,0,0,0,70,0,0,0,0,0,0,20,0,4,1.814,6,Bows,TRUE
+Twisted cane,Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.814,5,Spiked weapons,FALSE
+Twisted dragon trophy,Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,15,4,Blunt weapons,TRUE
+Twisted rune trophy,Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,15,4,Blunt weapons,TRUE
+Tzhaar-ket-em,Members,-4,-4,62,0,0,0,0,0,0,0,56,0,0,0,1.814,5,Blunt weapons,FALSE
+Tzhaar-ket-om,Members,0,0,80,-4,0,0,0,0,0,0,85,0,0,0,3.628,7,Blunt weapons,TRUE
+Tzhaar-ket-om (t),Members,0,0,80,-4,0,0,0,0,0,0,85,0,0,0,3.628,7,Blunt weapons,TRUE
+Undead chicken (item),Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,0.453,4,Blunt weapons,FALSE
+Verac's flail,Members,68,-2,82,0,0,0,0,0,0,0,72,0,0,6,2.267,5,Spiked weapons,TRUE
+Vesta's blighted longsword Active,Members,106,121,-2,0,0,1,4,3,0,0,118,0,0,0,1.814,5,Slashing swords,FALSE
+Vesta's blighted longsword Inactive,Members,106,121,-2,0,0,1,4,3,0,0,118,0,0,0,1.814,5,Slashing swords,FALSE
+Vesta's longsword,Members,106,121,-2,0,0,1,4,3,0,0,118,0,0,0,1.814,5,Slashing swords,FALSE
+Viggora's chainmace Charged,Members,53,-2,67,0,0,0,1,0,0,0,66,0,0,2,2,4,Spiked weapons,FALSE
+Viggora's chainmace Uncharged,Members,53,-2,67,0,0,0,1,0,0,0,66,0,0,2,2,4,Spiked weapons,FALSE
+Void knight mace,Members,22,0,41,8,0,2,2,2,2,2,38,0,0,6,1.814,5,Staves,FALSE
+Volatile nightmare staff,Members,0,0,0,16,0,0,0,0,14,0,0,0,15,0,1.6,5,Staves,FALSE
+Volcanic abyssal whip,Members,0,82,0,0,0,0,0,0,0,0,82,0,0,0,0.453,4,Whips,FALSE
+Water battlestaff,Members,10,-1,28,10,0,2,3,1,10,0,35,0,0,0,2.267,5,Staves,FALSE
+Western banner 1,Members,12,12,12,0,0,1,1,0,0,0,12,0,0,0,2.267,5,Polestaves,FALSE
+Western banner 2,Members,15,15,15,0,0,1,1,0,0,0,16,0,0,0,2.267,5,Polestaves,FALSE
+Western banner 3,Members,17,17,17,0,0,1,1,0,0,0,18,0,0,0,2.267,5,Polestaves,FALSE
+Western banner 4,Members,24,24,24,0,0,1,1,0,0,0,28,0,0,0,2.267,5,Polestaves,FALSE
+White 2h sword,Members,-4,27,21,-4,0,0,0,0,0,-1,26,0,0,1,3.628,7,Two-handed swords,TRUE
+White battleaxe,Members,-2,20,15,0,0,0,0,0,0,-1,24,0,0,1,2.721,6,Axes,FALSE
+White claws,Members,10,14,-4,0,0,4,7,2,0,0,14,0,0,1,0.907,4,Claws,TRUE
+White dagger,Members,10,5,-4,1,0,0,0,0,1,0,7,0,0,1,0.453,4,Stabbing swords,FALSE
+White flowers,Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,0.028,4,Blunt weapons,FALSE
+White halberd,Members,19,25,0,-4,0,-1,2,3,0,0,20,0,0,1,3.175,7,Polearms,TRUE
+White longsword,Members,13,18,-2,0,0,0,3,2,0,0,16,0,0,1,1.814,5,Slashing swords,FALSE
+White mace,Members,8,-2,16,0,0,0,0,0,0,0,13,0,0,3,1.814,5,Spiked weapons,FALSE
+White magic staff,Members,2,-1,10,10,0,2,3,1,10,0,7,0,0,1,2.267,5,Staves,FALSE
+White scimitar,Members,4,19,-2,0,0,0,1,0,0,0,14,0,0,1,1.814,4,Slashing swords,FALSE
+White sword,Members,14,10,-2,0,0,0,2,1,0,0,12,0,0,1,1.814,4,Stabbing swords,FALSE
+White warhammer,Members,-4,-4,22,-4,0,0,0,0,0,0,19,0,0,1,1.814,6,Blunt weapons,FALSE
+Wilderness sword 1,Members,6,4,-2,0,0,0,2,1,0,0,7,0,0,0,1.814,4,Stabbing swords,FALSE
+Wilderness sword 2,Members,11,8,-2,0,0,0,2,1,0,0,12,0,0,0,1.814,4,Stabbing swords,FALSE
+Wilderness sword 3,Members,16,11,-2,0,0,0,2,1,0,0,17,0,0,0,1.814,4,Stabbing swords,FALSE
+Wilderness sword 4,Members,23,18,-2,0,0,0,2,1,0,0,24,0,0,0,1.814,4,Stabbing swords,FALSE
+Willow blackjack,Members,0,0,0,0,0,0,0,0,0,0,8,0,0,0,1.814,4,Blunt weapons,FALSE
+Willow blackjack(d),Members,0,0,0,0,0,0,0,8,0,0,8,0,0,0,1.814,4,Blunt weapons,FALSE
+Willow blackjack(o),Members,0,0,8,0,0,0,0,0,0,0,8,0,0,0,1.814,4,Blunt weapons,FALSE
+Willow comp bow,Free-to-play,0,0,0,0,22,0,0,0,0,0,0,0,0,0,1.8,5,Bows,TRUE
+Willow longbow,Free-to-play,0,0,0,0,20,0,0,0,0,0,0,0,0,0,1.814,6,Bows,TRUE
+Willow shortbow,Free-to-play,0,0,0,0,20,0,0,0,0,0,0,0,0,0,1.36,4,Bows,TRUE
+Wolfbane,Members,11,5,-4,1,0,0,0,0,1,0,10,0,0,5,0.453,4,Stabbing swords,FALSE
+Wooden spoon,Members,4,5,-2,0,0,0,3,2,0,0,7,0,0,0,0.453,5,Slashing swords,FALSE
+Wooden sword,Members,4,3,-2,0,0,0,2,1,0,0,5,0,0,0,1.814,4,Stabbing swords,FALSE
+Yellow flowers,Members,-100,-100,-50,0,0,0,0,0,0,0,-10,0,0,0,0.028,4,Blunt weapons,FALSE
+Yew comp bow,Members,0,0,0,0,49,0,0,0,0,0,0,0,0,0,1.8,5,Bows,TRUE
+Yew longbow,Members,0,0,0,0,47,0,0,0,0,0,0,0,0,0,1.814,6,Bows,TRUE
+Yew shortbow,Members,0,0,0,0,47,0,0,0,0,0,0,0,0,0,1.36,4,Bows,TRUE
+Zamorak banner,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.267,4,Banners,FALSE
+Zamorak crozier,Members,7,-1,25,10,0,2,3,1,10,0,32,0,0,6,2,5,Staves,FALSE
+Zamorak godsword,Members,0,132,80,0,0,0,0,0,0,0,132,0,0,8,10,6,Two-handed swords,TRUE
+Zamorak mjolnir,Members,0,0,11,0,0,0,0,0,0,0,14,0,0,0,2.267,6,Polestaves,TRUE
+Zamorak staff,Members,-1,-1,6,6,0,2,3,1,6,0,2,0,0,0,2.267,5,Staves,FALSE
+Zamorakian hasta,Members,85,65,65,0,0,13,13,12,0,13,75,0,0,2,3,4,Spears,FALSE
+Zamorakian spear,Members,85,65,65,0,0,13,13,12,0,13,75,0,0,2,3,4,Spears,TRUE
+Zombie head (Treasure Trails),Members,-4,-4,10,-4,0,0,0,0,0,0,8,0,0,0,1.814,6,Blunt weapons,FALSE
+Zombie monkey greegree (big),Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.085,0,Unarmed,FALSE
+Zombie monkey greegree (small),Members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.085,0,Unarmed,FALSE
+Zuriel's staff,Members,13,-1,65,18,0,5,7,4,18,0,72,0,10,0,2.267,5,Staves,FALSE

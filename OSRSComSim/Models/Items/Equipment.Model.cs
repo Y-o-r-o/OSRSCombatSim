@@ -22,6 +22,7 @@
         public EquipmentModel(): this(null) { }
         public EquipmentModel(string equipment_type)
         {
+            ItemType = "Equipment";
             switch (equipment_type)
             {
                 case "Head":

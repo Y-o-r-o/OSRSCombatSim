@@ -25,6 +25,7 @@ namespace OSRSComSim.Models.Items.Equipments
         public WeaponModel() : this(null) { }
         public WeaponModel(string weapon_type)
         {
+            ItemType = "Weapon";
             Name = "Unarmed";
             Speed = 4;
             WeaponType = "Unarmed";

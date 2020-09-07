@@ -16,7 +16,7 @@
 
         public FoodModel()
         {
-            
+            ItemType = "Food";
         }
 
     }

@@ -8,7 +8,7 @@
 
         public RunesModel()
         {
-            
+            ItemType = "Runes";
         }
 
     }

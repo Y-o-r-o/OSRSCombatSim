@@ -28,8 +28,6 @@ D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\Appearance.View.g.cs
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\Skills.View.g.cs
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\Appearance.View.baml
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\Skills.View.baml
-D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\SelectEquipment.View.g.cs
-D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\SelectEquipment.View.baml
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\ControlPanel.View.g.cs
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\ControlPanel.View.baml
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\Fighter.View.g.cs
@@ -40,3 +38,5 @@ D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\WornEquipment.View.g.cs
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\WornEquipment.View.baml
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\Inventory.View.g.cs
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\Inventory.View.baml
+D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\SelectItem.View.g.cs
+D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\SelectItem.View.baml

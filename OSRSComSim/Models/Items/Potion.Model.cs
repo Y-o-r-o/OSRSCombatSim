@@ -8,7 +8,7 @@
 
         public PotionModel()
         {
-            
+            ItemType = "Potion";
         }
 
     }

@@ -10,7 +10,7 @@ namespace OSRSComSim.ViewModels
         private PlayerModel _player;
         private string _setnamequotes;
 
-        public AppearanceView View { get; set; }
+        public object View { get; set; }
         public string SetNameQuotes
         {
             get

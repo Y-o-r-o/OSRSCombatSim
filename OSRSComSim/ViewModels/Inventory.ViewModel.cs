@@ -43,7 +43,7 @@ namespace OSRSComSim.ViewModels
             }
         }
 
-        public InventoryView View { get; set; }
+        public object View { get; set; }
 
         public InventoryViewModel() : this(null, "Edit") { }
         public InventoryViewModel(ItemModel[] InventoryItem, string inv_mode)

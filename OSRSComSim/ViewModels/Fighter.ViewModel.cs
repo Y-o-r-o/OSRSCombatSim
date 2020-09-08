@@ -19,7 +19,7 @@ namespace OSRSComSim.ViewModels
         private string _last_atk_stat_context;
         private string _last_atk_stat_color;
         
-        public FighterView View { get; set; }
+        public object View { get; set; }
         public ControlPanelViewModel ControlPanel
         {
             get { return _controlpanel; }

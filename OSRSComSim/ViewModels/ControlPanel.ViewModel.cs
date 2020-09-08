@@ -17,7 +17,7 @@ namespace OSRSComSim.ViewModels
         private string _interactive_mode_tabs_visibility = "Collapsed";
         private LoadScreenViewModel _loadscreenviewmodel;
 
-        public ControlPanelView View { get; set; }
+        public object View { get; set; }
         public PlayerModel SelectedPlayer
         {
             get { return _player; }

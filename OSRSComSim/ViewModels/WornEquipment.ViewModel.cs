@@ -15,7 +15,7 @@ namespace OSRSComSim.ViewModels
         private SelectItemViewModel _select_equipment;
         private string _equipment_info = "";
 
-        public WornEquipmentView View { get; set; }
+        public object View { get; set; }
         public SelectItemViewModel selectEquipment
         {
             get { return _select_equipment; }
@@ -99,43 +99,42 @@ namespace OSRSComSim.ViewModels
 
         public void mountEquipment(string eqp)
         {
-            object to_mount = set_equipment(eqp);
             switch (selected_slot_table)
             {
                 case "Head":
-                    PlayerEquiped.Head = to_mount as EquipmentModel;
+                    PlayerEquiped.Head = new EquipmentModel("Head", eqp);
                     break;
                 case "Neck":
-                    PlayerEquiped.Neck = to_mount as EquipmentModel;
+                    PlayerEquiped.Neck = new EquipmentModel("Neck", eqp);
                     break;
                 case "Cape":
-                    PlayerEquiped.Cape = to_mount as EquipmentModel;
+                    PlayerEquiped.Cape = new EquipmentModel("Cape", eqp);
                     break;
                 case "Ammo":
-                    PlayerEquiped.Ammo = to_mount as EquipmentModel;
+                    PlayerEquiped.Ammo = new EquipmentModel("Ammo", eqp);
                     break;
                 case "Weapon":
-                    PlayerEquiped.Weapon = to_mount as WeaponModel;
+                    PlayerEquiped.Weapon = new WeaponModel(eqp);
                     if (PlayerEquiped.Weapon.is_two_handed) PlayerEquiped.Shield = new EquipmentModel("Shield");
                     break;
                 case "Body":
-                    PlayerEquiped.Body = to_mount as EquipmentModel;
+                    PlayerEquiped.Body = new EquipmentModel("Body", eqp);
                     break;
                 case "Shield":
-                    PlayerEquiped.Shield = to_mount as EquipmentModel;
-                    if (PlayerEquiped.Weapon.is_two_handed) PlayerEquiped.Weapon = new WeaponModel("Unarmed");
+                    PlayerEquiped.Shield = new EquipmentModel("Shield", eqp);
+                    if (PlayerEquiped.Weapon.is_two_handed) PlayerEquiped.Weapon = new WeaponModel();
                     break;
                 case "Legs":
-                    PlayerEquiped.Legs = to_mount as EquipmentModel;
+                    PlayerEquiped.Legs = new EquipmentModel("Legs", eqp);
                     break;
                 case "Feet":
-                    PlayerEquiped.Feet = to_mount as EquipmentModel;
+                    PlayerEquiped.Feet = new EquipmentModel("Feet", eqp);
                     break;
                 case "Hands":
-                    PlayerEquiped.Hands = to_mount as EquipmentModel;
+                    PlayerEquiped.Hands = new EquipmentModel("Hands", eqp);
                     break;
                 case "Ring":
-                    PlayerEquiped.Ring = to_mount as EquipmentModel;
+                    PlayerEquiped.Ring = new EquipmentModel("Ring", eqp);
                     break;
                 default:
                     break;
@@ -143,91 +142,6 @@ namespace OSRSComSim.ViewModels
             setEquipmentInfo();
         }
 
-        public object set_equipment(string eqp, bool is_two_handed = false)
-        {
 
-            //if (values[1].Contains("Free-to-play")) Member = false;   !!!!!!!!!!!!!!!!!!!
-            //else Member = true;                                       !!!!!!!!!!!!!!!!!!!
-            string[] values = eqp.Split(',');
-            if (selected_slot_table.Contains("Weapon"))
-            {
-                if (eqp != "")
-                {
-                    WeaponModel to_mount = new WeaponModel(selected_slot_table)
-                    {
-                        Name = values[0],
-                        StabAtk = Int32.Parse(values[2]),
-                        SlashAtk = Int32.Parse(values[3]),
-                        CrushAtk = Int32.Parse(values[4]),
-                        MagicAtk = Int32.Parse(values[5]),
-                        RangedAtk = Int32.Parse(values[6]),
-                        StabDef = Int32.Parse(values[7]),
-                        SlashDef = Int32.Parse(values[8]),
-                        CrushDef = Int32.Parse(values[9]),
-                        MagicDef = Int32.Parse(values[10]),
-                        RangedDef = Int32.Parse(values[11]),
-                        MeleStr = Int32.Parse(values[12]),
-                        RangedStr = Int32.Parse(values[13]),
-                        MagicStr = Int32.Parse(values[14]),
-                        Prayer = Int32.Parse(values[15]),
-                        Weigth = Double.Parse(values[16]),
-                        Speed = Int32.Parse(values[17]),
-                        Png = setPng(values[0]),
-                        WeaponType = values[18],
-                        is_two_handed = Boolean.Parse(values[19])
-                    };
-                    return to_mount;
-                }
-                else
-                {
-                    return new WeaponModel(selected_slot_table);
-                }
-            }
-            else
-            {
-                if (eqp != "")
-                {
-                    EquipmentModel to_mount = new EquipmentModel(selected_slot_table)
-                    {
-                        Name = values[0],
-                        StabAtk = Int32.Parse(values[2]),
-                        SlashAtk = Int32.Parse(values[3]),
-                        CrushAtk = Int32.Parse(values[4]),
-                        MagicAtk = Int32.Parse(values[5]),
-                        RangedAtk = Int32.Parse(values[6]),
-                        StabDef = Int32.Parse(values[7]),
-                        SlashDef = Int32.Parse(values[8]),
-                        CrushDef = Int32.Parse(values[9]),
-                        MagicDef = Int32.Parse(values[10]),
-                        RangedDef = Int32.Parse(values[11]),
-                        MeleStr = Int32.Parse(values[12]),
-                        RangedStr = Int32.Parse(values[13]),
-                        MagicStr = Int32.Parse(values[14]),
-                        Prayer = Int32.Parse(values[15]),
-                        Weigth = Double.Parse(values[16]),
-                        Speed = Int32.Parse(values[17]),
-                        Png = setPng(values[0])
-                    };
-                    return to_mount;
-                }
-
-                else
-                {
-                    return new EquipmentModel(selected_slot_table);
-                }
-            }
-
-        }
-
-        private string setPng(string png_name)
-        {
-            string png_location = "../../Resources/Items/png/" + selected_slot_table + "/" + png_name.Replace(" ", "_") + ".png";
-            if (Data_store.CheckIfFileExists(png_location))
-            {
-                return png_location;
-            }
-            else return "../../Resources/404.png";
-
-        }
     }
 }

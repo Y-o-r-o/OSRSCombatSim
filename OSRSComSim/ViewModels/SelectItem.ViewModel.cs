@@ -11,13 +11,9 @@ namespace OSRSComSim.ViewModels
 
         public string[] _lines;
 
-        private int two_handed_idx = 0;
-        private bool is_two_handed = false;
+        public object View { get; set; }
 
-        public SelectItemView View { get; set; }
-
-
-        public string SelectType { get; set; } = "Select item:";
+        public string SelectType { get; set; } = "Select ";
 
         public IEnumerable<string> ReadCSV
         {
@@ -35,7 +31,9 @@ namespace OSRSComSim.ViewModels
         public SelectItemViewModel(WornEquipmentViewModel wornequipmentviewmodel, string selected_item)
         {
             _wornequipmentviewmodel = wornequipmentviewmodel;
-            _lines = getCSV("Food");
+            
+            _lines = getCSV(selected_item);
+            SelectType += selected_item.ToUpper() + ":";
 
             View = new SelectItemView(this);
         }
@@ -48,7 +46,6 @@ namespace OSRSComSim.ViewModels
                 i++;
                 if (eqp.Contains(equipment_name))
                 {
-                    if (two_handed_idx <= i) is_two_handed = true;
                     return eqp;
                 }
             }

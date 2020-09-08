@@ -15,7 +15,7 @@ namespace OSRSComSim.ViewModels
         private int[] _options_vertical_place = null;
         private int[] _options_heigth_by_rows = null;
 
-        public CombatOptionsView View { get; set; }
+        public object View { get; set; }
         public CombatModel FighterCombat
         {
             get { return _combat; }

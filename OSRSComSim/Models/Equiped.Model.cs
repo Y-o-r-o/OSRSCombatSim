@@ -123,7 +123,7 @@ namespace OSRSComSim.Models
             Neck = new EquipmentModel("Neck");
             Cape = new EquipmentModel("Cape");
             Ammo = new EquipmentModel("Ammo");
-            Weapon = new WeaponModel("Weapon");
+            Weapon = new WeaponModel();
             Body = new EquipmentModel("Body");
             Shield = new EquipmentModel("Shield");
             Legs = new EquipmentModel("Legs");

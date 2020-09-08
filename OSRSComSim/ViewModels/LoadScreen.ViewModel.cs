@@ -18,7 +18,7 @@ namespace OSRSComSim.ViewModels
         private ObservableCollection<PlayerModel>    _player_list;
 
 
-        public LoadScreenView                   View { get; set; }
+        public object View { get; set; }
         public ControlPanelViewModel            ControlsView
         {
             get

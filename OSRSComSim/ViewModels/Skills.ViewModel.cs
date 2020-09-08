@@ -10,7 +10,7 @@ namespace OSRSComSim.ViewModels
         private SkillsModel _playerskills;
 
 
-        public SkillsView View { get; set; }
+        public object View { get; set; }
         public string BtnVisibility
         {
             get

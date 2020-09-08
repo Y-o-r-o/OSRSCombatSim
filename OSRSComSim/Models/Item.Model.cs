@@ -29,7 +29,7 @@ namespace OSRSComSim.Models
             Png = "../Resources/404.png";
         }
 
-        public string constructPng(string item_type, string png_name)
+        protected string constructPng(string item_type, string png_name)
         {
             string png_location = "../../Resources/Items/png/" + item_type + "/" + png_name.Replace(" ", "_") + ".png";
             if (Data_store.CheckIfFileExists(png_location))

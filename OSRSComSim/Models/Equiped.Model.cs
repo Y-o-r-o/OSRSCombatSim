@@ -5,6 +5,8 @@ namespace OSRSComSim.Models
 {
     public class EquipedModel: ObservableObject
     {
+        private const int inventory_capativity = 28;
+
         public EquipmentModel _head;
         public EquipmentModel _neck;
         public EquipmentModel _cape;
@@ -16,6 +18,8 @@ namespace OSRSComSim.Models
         public EquipmentModel _feet;
         public EquipmentModel _hands;
         public EquipmentModel _ring;
+        private ItemModel[] _item;
+
 
         public EquipmentModel Head 
         {
@@ -116,6 +120,17 @@ namespace OSRSComSim.Models
                 OnPropertyChanged("Ring");
             }
         }
+        public ItemModel[] InventoryItem
+        {
+            get { return _item; }
+            set
+            {
+                _item = value;
+                OnPropertyChanged("InventoryItem");
+            }
+        }
+
+
 
         public EquipedModel()
         {
@@ -130,6 +145,11 @@ namespace OSRSComSim.Models
             Feet = new EquipmentModel("Feet");
             Hands = new EquipmentModel("Hands");
             Ring = new EquipmentModel("Ring");
+            InventoryItem = new ItemModel[inventory_capativity];
+            for (int i = 0; i < inventory_capativity; i++)
+            {
+                InventoryItem[i] = new ItemModel();
+            }
         }
 
         //Class needs redesign from here

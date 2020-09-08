@@ -16,12 +16,6 @@ namespace OSRSComSim.ViewModels
         private void equipment_Click(object sender, RoutedEventArgs e)
         {
             view_model.select(((Label)sender).Content.ToString());
-            view_model.stopView();
-        }
-
-        private void Close_Click(object sender, RoutedEventArgs e)
-        {
-            view_model.stopView();
         }
     }
 }

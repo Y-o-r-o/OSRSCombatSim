@@ -21,5 +21,9 @@ namespace OSRSComSim.Views
             view_model.manageEquipment(((Button)sender).Tag.ToString(), ((((Button)sender).Content) as Image).Source.ToString().Contains("slot"));
         }
 
+        private void show_equipment_select_MouseUp(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            view_model.setEquipmentInfo();
+        }
     }
 }

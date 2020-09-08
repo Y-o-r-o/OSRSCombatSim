@@ -16,7 +16,11 @@
         </Grid.RowDefinitions>
 
         <Viewbox HorizontalAlignment="Left">
-        <Label Content="{Binding SelectType}" Grid.Row="0" Foreground="#FF493C1F" FontWeight="Bold" FontStyle="Italic"/>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Select" Grid.Row="0" Foreground="#FF493C1F" FontWeight="Bold" FontStyle="Italic"/>
+                <Label Content="{Binding SelectedItemType}" Grid.Row="0" Foreground="#FF493C1F" FontWeight="Bold" FontStyle="Italic"/>
+                <Label Content=":" Grid.Row="0" Foreground="#FF493C1F" FontWeight="Bold" FontStyle="Italic" Margin="-5,0,0,0"/>
+            </StackPanel>
         </Viewbox>
 
         <ListBox Grid.Row="1" x:Name="ListViewEquipments" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch" Background="Transparent" ItemsSource="{Binding Path=ReadCSV}">
@@ -26,8 +30,6 @@
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
-
-        <Button BorderThickness="1" HorizontalAlignment="Right" Height="20" Width="20" Background="Transparent" Margin="0,0,0,0" Click="Close_Click"> X </Button>
         
         <TextBox BorderThickness="0" Text="{Binding Name}" Background="Beige" TextAlignment="Left" Grid.Row="2"/>
         

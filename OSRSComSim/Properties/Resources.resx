@@ -118,46 +118,46 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Ammo_slot_table" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Items\csv\Ammo slot table.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Ammo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\csv\Ammo.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="Body_slot_table" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Items\csv\Body slot table.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Body" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\csv\Body.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="Cape_slot_table" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Items\csv\Cape slot table.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Cape" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\csv\Cape.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="Feet_slot_table" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Items\csv\Feet slot table.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Feet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\csv\Feet.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="Food" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Items\csv\Food.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="Hands_slot_table" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Items\csv\Hands slot table.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Hands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\csv\Hands.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="Head_slot_table" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Items\csv\Head slot table.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Head" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\csv\Head.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="Legs_slot_table" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Items\csv\Legs slot table.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Legs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\csv\Legs.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="Neck_slot_table" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Items\csv\Neck slot table.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Neck" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\csv\Neck.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="Potions" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Items\csv\Potions.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="Ring_slot_table" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Items\csv\Ring slot table.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Ring" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\csv\Ring.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="Runes" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Items\csv\Runes.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="Shield_slot_table" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Items\csv\Shield slot table.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\csv\Shield.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="Weapon_slot_table" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Items\csv\Weapon slot table.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Weapon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\csv\Weapon.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
 </root>

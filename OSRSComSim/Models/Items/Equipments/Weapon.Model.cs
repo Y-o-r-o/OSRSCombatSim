@@ -43,26 +43,28 @@ namespace OSRSComSim.Models.Items.Equipments
         public void constructWeapon(string weapon_data)
         {
             string[] values = weapon_data.Split(',');
-            Name = values[0];
-            StabAtk = Int32.Parse(values[2]);
-            SlashAtk = Int32.Parse(values[3]);
-            CrushAtk = Int32.Parse(values[4]);
-            MagicAtk = Int32.Parse(values[5]);
-            RangedAtk = Int32.Parse(values[6]);
-            StabDef = Int32.Parse(values[7]);
-            SlashDef = Int32.Parse(values[8]);
-            CrushDef = Int32.Parse(values[9]);
-            MagicDef = Int32.Parse(values[10]);
-            RangedDef = Int32.Parse(values[11]);
-            MeleStr = Int32.Parse(values[12]);
-            RangedStr = Int32.Parse(values[13]);
-            MagicStr = Int32.Parse(values[14]);
-            Prayer = Int32.Parse(values[15]);
-            Weigth = Double.Parse(values[16]);
-            Speed = Int32.Parse(values[17]);
-            Png = constructPng("Weapon", values[0]);
-            WeaponType = values[18];
-            is_two_handed = Boolean.Parse(values[19]);
+            ItemType = values[0];
+            Name = values[1];
+            //Member = values[2];
+            Weigth = Double.Parse(values[3]);
+            StabAtk = Int32.Parse(values[4]);
+            SlashAtk = Int32.Parse(values[5]);
+            CrushAtk = Int32.Parse(values[6]);
+            MagicAtk = Int32.Parse(values[7]);
+            RangedAtk = Int32.Parse(values[8]);
+            StabDef = Int32.Parse(values[9]);
+            SlashDef = Int32.Parse(values[10]);
+            CrushDef = Int32.Parse(values[11]);
+            MagicDef = Int32.Parse(values[12]);
+            RangedDef = Int32.Parse(values[13]);
+            MeleStr = Int32.Parse(values[14]);
+            RangedStr = Int32.Parse(values[15]);
+            MagicStr = Int32.Parse(values[16]);
+            Prayer = Int32.Parse(values[17]);
+            Speed = Int32.Parse(values[18]);
+            Png = constructPng("Weapon", values[1]);
+            WeaponType = values[19];
+            is_two_handed = Boolean.Parse(values[20]);
         }
 
     

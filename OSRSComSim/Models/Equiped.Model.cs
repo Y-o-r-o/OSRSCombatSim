@@ -18,7 +18,7 @@ namespace OSRSComSim.Models
         public EquipmentModel _feet;
         public EquipmentModel _hands;
         public EquipmentModel _ring;
-        private ItemModel[] _item;
+        private object[] _item;
 
 
         public EquipmentModel Head 
@@ -120,7 +120,7 @@ namespace OSRSComSim.Models
                 OnPropertyChanged("Ring");
             }
         }
-        public ItemModel[] InventoryItem
+        public object[] InventoryItem
         {
             get { return _item; }
             set

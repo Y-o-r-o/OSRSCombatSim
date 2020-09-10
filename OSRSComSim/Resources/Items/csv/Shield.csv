@@ -1,0 +1,225 @@
+Type,Name,Member,Weigth,StabAtk,SlashAtk,CrushAtk,MagicAtk,RangedAtk,StabDef,SlashDef,CrushDef,MagicDef,RangedDef,MeleStr,RangedStr,MagicStr,Prayer,Speed
+Equipment,3rd age kiteshield,Members,2.721,0,0,0,-10,-4,63,65,61,-3,63,0,0,0,0,0
+Equipment,A chair,Members,0.001,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Adamant defender,Members,0.453,13,12,11,-3,-2,13,12,11,-3,-2,4,0,0,0,0
+Equipment,Adamant kiteshield,Free-to-play,5.896,0,0,0,-8,-2,27,31,29,-1,29,0,0,0,0,0
+Equipment,Adamant kiteshield (Arrav),Members,5.443,0,0,0,-8,-2,27,31,29,-1,29,0,0,0,0,0
+Equipment,Adamant kiteshield (Asgarnia),Members,5.443,0,0,0,-8,-2,27,31,29,-1,29,0,0,0,0,0
+Equipment,Adamant kiteshield (Dorgeshuun),Members,5.443,0,0,0,-8,-2,27,31,29,-1,29,0,0,0,0,0
+Equipment,Adamant kiteshield (Dragon),Members,5.443,0,0,0,-8,-2,27,31,29,-1,29,0,0,0,0,0
+Equipment,Adamant kiteshield (Fairy),Members,5.443,0,0,0,-8,-2,27,31,29,-1,29,0,0,0,0,0
+Equipment,Adamant kiteshield (Guthix),Members,5.443,0,0,0,-8,-2,27,31,29,-1,29,0,0,0,0,0
+Equipment,Adamant kiteshield (HAM),Members,5.443,0,0,0,-8,-2,27,31,29,-1,29,0,0,0,0,0
+Equipment,Adamant kiteshield (Horse),Members,5.443,0,0,0,-8,-2,27,31,29,-1,29,0,0,0,0,0
+Equipment,Adamant kiteshield (Jogre),Members,5.443,0,0,0,-8,-2,27,31,29,-1,29,0,0,0,0,0
+Equipment,Adamant kiteshield (Kandarin),Members,5.443,0,0,0,-8,-2,27,31,29,-1,29,0,0,0,0,0
+Equipment,Adamant kiteshield (Misthalin),Members,5.443,0,0,0,-8,-2,27,31,29,-1,29,0,0,0,0,0
+Equipment,Adamant kiteshield (Money),Members,5.443,0,0,0,-8,-2,27,31,29,-1,29,0,0,0,0,0
+Equipment,Adamant kiteshield (Saradomin),Members,5.443,0,0,0,-8,-2,27,31,29,-1,29,0,0,0,0,0
+Equipment,Adamant kiteshield (Skull),Members,5.443,0,0,0,-8,-2,27,31,29,-1,29,0,0,0,0,0
+Equipment,Adamant kiteshield (Varrock),Members,5.443,0,0,0,-8,-2,27,31,29,-1,29,0,0,0,0,0
+Equipment,Adamant kiteshield (Zamorak),Members,5.443,0,0,0,-8,-2,27,31,29,-1,29,0,0,0,0,0
+Equipment,Adamant kiteshield (g),Free-to-play,5.896,0,0,0,-8,-2,27,31,29,-1,29,0,0,0,0,0
+Equipment,Adamant kiteshield (t),Free-to-play,5.896,0,0,0,-8,-2,27,31,29,-1,29,0,0,0,0,0
+Equipment,Adamant shield (h1),Free-to-play,5.896,0,0,0,-8,-2,27,31,29,-1,29,0,0,0,0,0
+Equipment,Adamant shield (h2),Free-to-play,5.896,0,0,0,-8,-2,27,31,29,-1,29,0,0,0,0,0
+Equipment,Adamant shield (h3),Free-to-play,5.896,0,0,0,-8,-2,27,31,29,-1,29,0,0,0,0,0
+Equipment,Adamant shield (h4),Free-to-play,5.896,0,0,0,-8,-2,27,31,29,-1,29,0,0,0,0,0
+Equipment,Adamant shield (h5),Free-to-play,5.896,0,0,0,-8,-2,27,31,29,-1,29,0,0,0,0,0
+Equipment,Adamant sq shield,Free-to-play,4.082,0,0,0,-6,-2,24,26,22,0,24,0,0,0,0,0
+Equipment,Ancient d'hide shield,Members,8,-15,-15,-11,-10,7,21,18,16,15,14,0,0,0,1,0
+Equipment,Ancient kiteshield,Free-to-play,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,1,0
+Equipment,Ancient wyvern shield Charged,Members,4.535,-10,-10,-10,15,-10,72,80,75,15,-5,-2,0,0,0,0
+Equipment,Ancient wyvern shield Uncharged,Members,4.535,-10,-10,-10,15,-10,22,30,25,15,-55,-2,0,0,0,0
+Equipment,Anti-dragon shield Nightmare_Zone,Members,5.443,0,0,0,0,0,7,9,8,2,8,0,0,0,0,0
+Equipment,Anti-dragon shield Regular,Free-to-play,5.443,0,0,0,0,0,7,9,8,2,8,0,0,0,0,0
+Equipment,Arcane spirit shield,Members,2,0,0,0,20,0,53,55,73,2,52,0,0,0,3,0
+Equipment,Armadyl d'hide shield,Members,8,-15,-15,-11,-10,7,21,18,16,15,14,0,0,0,1,0
+Equipment,Armadyl kiteshield,Free-to-play,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,1,0
+Equipment,Avernic defender,Members,0.453,30,29,28,-5,-4,30,29,28,-5,-4,8,0,0,0,0
+Equipment,Bandos d'hide shield,Members,8,-15,-15,-11,-10,7,21,18,16,15,14,0,0,0,1,0
+Equipment,Bandos kiteshield,Free-to-play,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,1,0
+Equipment,Black d'hide shield,Members,8,-15,-15,-11,-10,7,21,18,16,15,14,0,0,0,0,0
+Equipment,Black defender,Members,0.453,9,8,7,-3,-2,9,8,7,-3,-2,2,0,0,0,0
+Equipment,Black kiteshield,Free-to-play,5.443,0,0,0,-8,-2,17,19,18,-1,18,0,0,0,0,0
+Equipment,Black kiteshield (g),Free-to-play,5.443,0,0,0,-8,-2,17,19,18,-1,18,0,0,0,0,0
+Equipment,Black kiteshield (t),Free-to-play,5.443,0,0,0,-8,-2,17,19,18,-1,18,0,0,0,0,0
+Equipment,Black satchel,Members,0.15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Black shield (h1),Free-to-play,5.443,0,0,0,-8,-2,17,19,18,-1,18,0,0,0,0,0
+Equipment,Black shield (h2),Free-to-play,5.443,0,0,0,-8,-2,17,19,18,-1,18,0,0,0,0,0
+Equipment,Black shield (h3),Free-to-play,5.443,0,0,0,-8,-2,17,19,18,-1,18,0,0,0,0,0
+Equipment,Black shield (h4),Free-to-play,5.443,0,0,0,-8,-2,17,19,18,-1,18,0,0,0,0,0
+Equipment,Black shield (h5),Free-to-play,5.443,0,0,0,-8,-2,17,19,18,-1,18,0,0,0,0,0
+Equipment,Black sq shield,Free-to-play,3.628,0,0,0,-6,-2,15,16,14,0,15,0,0,0,0,0
+Equipment,Blessed spirit shield,Members,2,0,0,0,0,0,53,55,73,2,52,0,0,0,3,0
+Equipment,Blue d'hide shield,Members,8,-15,-15,-11,-10,5,16,14,12,12,12,0,0,0,0,0
+Equipment,Blue gingerbread shield,Free-to-play,3.175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Book of balance,Members,1,4,4,4,4,4,4,4,4,4,4,0,0,0,5,0
+Equipment,Book of darkness,Members,1,0,0,0,10,0,0,0,0,0,0,0,0,0,5,0
+Equipment,Book of law,Members,1,0,0,0,0,10,0,0,0,0,0,0,0,0,5,0
+Equipment,Book of war,Members,1,0,0,0,0,0,0,0,0,0,0,2,0,0,5,0
+Equipment,Briefcase,Members,0.005,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Bronze defender,Members,0.453,3,2,1,-3,-2,3,2,1,-3,-2,0,0,0,0,0
+Equipment,Bronze kiteshield,Free-to-play,5.443,0,0,0,-8,-2,5,7,6,-1,6,0,0,0,0,0
+Equipment,Bronze kiteshield (g),Free-to-play,5.443,0,0,0,-8,-2,5,7,6,-1,6,0,0,0,0,0
+Equipment,Bronze kiteshield (t),Free-to-play,5.443,0,0,0,-8,-2,5,7,6,-1,6,0,0,0,0,0
+Equipment,Bronze sq shield,Free-to-play,3.628,0,0,0,-6,-2,5,6,4,0,5,0,0,0,0,0
+Equipment,Broodoo shield (blue),Members,5.443,0,0,0,3,-7,10,10,15,5,0,0,0,0,5,0
+Equipment,Broodoo shield (green),Members,5.443,0,0,0,3,-7,10,10,15,5,0,0,0,0,5,0
+Equipment,Broodoo shield (orange),Members,5.443,0,0,0,3,-7,10,10,15,5,0,0,0,0,5,0
+Equipment,Bug lantern Lit,Members,2.267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Bug lantern Unlit,Members,2.267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Cabbage round shield,Members,4.535,0,0,0,-6,-2,24,26,22,0,24,0,0,0,0,0
+Equipment,Chicken (Recruitment Drive),Members,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Chronicle,Free-to-play,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Corrupted kiteshield,Members,5.443,0,0,0,-8,-2,8,10,9,-1,9,0,0,0,0,0
+Equipment,Cruciferous codex,Free-to-play,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Crystal shield,Members,2.721,0,0,0,-10,-10,51,54,53,0,80,0,0,0,0,0
+Equipment,Crystal shield,Members,2.7,0,0,0,-10,-10,51,54,53,0,80,0,0,0,0,0
+Equipment,Damaged book (Ancient),Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0
+Equipment,Damaged book (Armadyl),Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0
+Equipment,Damaged book (Bandos),Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0
+Equipment,Damaged book (Guthix),Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0
+Equipment,Damaged book (Saradomin),Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0
+Equipment,Damaged book (Zamorak),Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0
+Equipment,Decorative shield (gold),Free-to-play,4.535,0,0,0,-8,-2,27,31,29,-1,29,0,0,0,0,0
+Equipment,Decorative shield (red),Free-to-play,4.535,0,0,0,-8,-2,13,15,14,-1,14,0,0,0,0,0
+Equipment,Decorative shield (white),Free-to-play,4.535,0,0,0,-8,-2,18,22,20,-1,20,0,0,0,0,0
+Equipment,Defensive shield,Members,3.628,0,0,0,-6,-2,8,9,7,0,7,0,0,0,0,0
+Equipment,Dragon defender (t),Members,0.453,25,24,23,-3,-2,25,24,23,-3,-2,6,0,0,0,0
+Equipment,Dragon defender,Members,0.453,25,24,23,-3,-2,25,24,23,-3,-2,6,0,0,0,0
+Equipment,Dragon kiteshield,Members,6.803,0,0,0,-8,-2,56,60,58,-1,58,0,0,0,0,0
+Equipment,Dragon kiteshield (g),Members,6.803,0,0,0,-8,-2,56,60,58,-1,58,0,0,0,0,0
+Equipment,Dragon sq shield,Members,3.175,0,0,0,-6,-2,50,52,48,0,50,0,0,0,0,0
+Equipment,Dragon sq shield (g),Members,3.175,0,0,0,-6,-2,50,52,48,0,50,0,0,0,0,0
+Equipment,Dragonfire shield Charged,Members,7.257,0,0,0,-10,-5,70,75,72,10,72,7,0,0,0,0
+Equipment,Dragonfire shield Uncharged,Members,7.257,0,0,0,-10,-5,20,25,22,10,22,7,0,0,0,0
+Equipment,Dragonfire ward Charged,Members,4.082,-10,-10,-10,-10,15,25,30,28,28,68,-2,0,0,0,0
+Equipment,Dragonfire ward Uncharged,Members,4.082,-10,-10,-10,-10,15,-25,-20,-22,28,18,-2,0,0,0,0
+Equipment,Elemental shield,Members,0.226,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0
+Equipment,Elysian spirit shield,Members,2,0,0,0,0,0,63,65,75,2,57,0,0,0,3,0
+Equipment,Falador shield 1,Members,5.443,0,0,0,-8,-2,8,10,9,-1,9,0,0,0,1,0
+Equipment,Falador shield 2,Members,5.443,0,0,0,-8,-2,13,15,14,-1,14,0,0,0,3,0
+Equipment,Falador shield 3,Members,5.443,0,0,0,-8,-2,18,22,20,-1,20,0,0,0,4,0
+Equipment,Falador shield 4,Members,5.443,0,0,0,-8,-2,27,31,29,-1,29,0,0,0,5,0
+Equipment,Fremennik shield,Members,2.267,0,0,0,-8,-2,27,31,29,-1,29,0,0,0,0,0
+Equipment,Gilded kiteshield,Free-to-play,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,0,0
+Equipment,Gilded sq shield,Free-to-play,3.628,0,0,0,-6,-2,38,40,36,0,38,0,0,0,0,0
+Equipment,Gingerbread shield,Free-to-play,3.175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Gold satchel,Members,0.15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Granite shield,Members,6.803,0,0,0,-12,-8,40,42,38,0,65,0,0,0,0,0
+Equipment,Green d'hide shield,Members,8,-15,-15,-11,-10,4,14,12,11,9,11,0,0,0,0,0
+Equipment,Green gingerbread shield,Free-to-play,3.175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Green satchel,Members,0.15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Guthix d'hide shield,Members,8,-15,-15,-11,-10,7,21,18,16,15,14,0,0,0,1,0
+Equipment,Guthix kiteshield,Free-to-play,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,1,0
+Equipment,Hallowed focus,Members,0.001,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Hard leather shield,Members,7,-15,-15,-11,-10,2,8,7,7,5,9,0,0,0,0,0
+Equipment,Holy book,Members,1,0,0,0,0,0,8,8,8,8,8,0,0,0,5,0
+Equipment,Iced gingerbread shield Blue,Free-to-play,3.175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Iced gingerbread shield Green,Free-to-play,3.175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Iced gingerbread shield Red,Free-to-play,3.175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Iron defender,Members,0.453,5,4,3,-3,-2,5,4,3,-3,-2,0,0,0,0,0
+Equipment,Iron kiteshield,Free-to-play,5.443,0,0,0,-8,-2,8,10,9,-1,9,0,0,0,0,0
+Equipment,Iron kiteshield (g),Free-to-play,5.443,0,0,0,-8,-2,8,10,9,-1,9,0,0,0,0,0
+Equipment,Iron kiteshield (t),Free-to-play,5.443,0,0,0,-8,-2,8,10,9,-1,9,0,0,0,0,0
+Equipment,Iron sq shield,Free-to-play,3.628,0,0,0,-6,-2,8,9,7,0,8,0,0,0,0,0
+Equipment,Kharedst's memoirs,Members,0.2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Equipment,Mage's book,Members,1,0,0,0,15,0,0,0,0,15,0,0,0,0,0,0
+Equipment,Magic shield,Members,3.175,0,0,0,0,0,10,13,9,3,9,0,0,0,0,0
+Equipment,Malediction ward,Members,3.628,-8,-8,-8,12,-12,50,52,48,15,0,0,0,0,0,0
+Equipment,Malediction ward (or),Members,3.628,-8,-8,-8,12,-12,50,52,48,15,0,0,0,0,0,0
+Equipment,Maple shield,Members,3.175,0,0,0,0,0,7,8,6,2,7,0,0,0,0,0
+Equipment,Mind shield,Members,0.226,0,0,0,0,0,0,0,0,9,0,0,0,0,0,0
+Equipment,Mirror shield,Members,2.267,0,0,0,0,0,10,15,5,5,10,0,0,0,0,0
+Equipment,Mithril defender,Members,0.453,10,9,8,-3,-2,10,9,8,-3,-2,3,0,0,0,0
+Equipment,Mithril kiteshield,Free-to-play,4.535,0,0,0,-8,-2,18,22,20,-1,20,0,0,0,0,0
+Equipment,Mithril kiteshield (g),Free-to-play,4.535,0,0,0,-8,-2,18,22,20,-1,20,0,0,0,0,0
+Equipment,Mithril kiteshield (t),Free-to-play,4.535,0,0,0,-8,-2,18,22,20,-1,20,0,0,0,0,0
+Equipment,Mithril sq shield,Free-to-play,3.175,0,0,0,-6,-2,17,19,15,0,17,0,0,0,0,0
+Equipment,Neitiznot shield,Members,3.628,0,0,0,-10,-10,17,17,31,-4,33,0,0,0,0,0
+Equipment,Oak shield,Members,3.175,0,0,0,0,0,5,6,4,1,5,0,0,0,0,0
+Equipment,Odium ward,Members,3.628,-12,-12,-12,-8,12,0,0,0,24,52,0,0,0,0,0
+Equipment,Odium ward (or),Members,3.628,-12,-12,-12,-8,12,0,0,0,24,52,0,0,0,0,0
+Equipment,Plain satchel,Members,0.15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Pumpkin lantern,Free-to-play,0.07,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Red d'hide shield,Members,8,-15,-15,-11,-10,6,18,16,14,13,13,0,0,0,0,0
+Equipment,Red gingerbread shield,Free-to-play,3.175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Red satchel,Members,0.15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Redwood shield,Members,3.175,0,0,0,0,0,12,15,11,4,10,0,0,0,0,0
+Equipment,Rune defender (t),Members,0.453,20,19,18,-3,-2,20,19,18,-3,-2,5,0,0,0,0
+Equipment,Rune defender,Members,0.453,20,19,18,-3,-2,20,19,18,-3,-2,5,0,0,0,0
+Equipment,Rune kiteshield,Free-to-play,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,0,0
+Equipment,Rune kiteshield (Arrav),Members,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,0,0
+Equipment,Rune kiteshield (Asgarnia),Members,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,0,0
+Equipment,Rune kiteshield (Dorgeshuun),Members,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,0,0
+Equipment,Rune kiteshield (Dragon),Members,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,0,0
+Equipment,Rune kiteshield (Fairy),Members,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,0,0
+Equipment,Rune kiteshield (Guthix),Members,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,0,0
+Equipment,Rune kiteshield (HAM),Members,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,0,0
+Equipment,Rune kiteshield (Horse),Members,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,0,0
+Equipment,Rune kiteshield (Jogre),Members,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,0,0
+Equipment,Rune kiteshield (Kandarin),Members,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,0,0
+Equipment,Rune kiteshield (Misthalin),Members,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,0,0
+Equipment,Rune kiteshield (Money),Members,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,0,0
+Equipment,Rune kiteshield (Saradomin),Members,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,0,0
+Equipment,Rune kiteshield (Skull),Members,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,0,0
+Equipment,Rune kiteshield (Varrock),Members,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,0,0
+Equipment,Rune kiteshield (Zamorak),Members,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,0,0
+Equipment,Rune kiteshield (g),Free-to-play,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,0,0
+Equipment,Rune kiteshield (t),Free-to-play,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,0,0
+Equipment,Rune satchel,Members,0.15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Rune shield (h1),Free-to-play,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,0,0
+Equipment,Rune shield (h2),Free-to-play,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,0,0
+Equipment,Rune shield (h3),Free-to-play,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,0,0
+Equipment,Rune shield (h4),Free-to-play,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,0,0
+Equipment,Rune shield (h5),Free-to-play,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,0,0
+Equipment,Rune sq shield,Free-to-play,3.628,0,0,0,-6,-2,38,40,36,0,38,0,0,0,0,0
+Equipment,Runefest shield,Free-to-play,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Saradomin d'hide shield,Members,8,-15,-15,-11,-10,7,21,18,16,15,14,0,0,0,1,0
+Equipment,Saradomin kiteshield,Free-to-play,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,1,0
+Equipment,Snakeskin shield,Members,8,-15,-15,-11,-10,3,10,9,8,7,10,0,0,0,0,0
+Equipment,Spectral spirit shield,Members,2,0,0,0,0,0,53,55,73,30,52,0,0,0,3,0
+Equipment,Spirit shield,Members,2,0,0,0,0,0,39,41,50,1,45,0,0,0,1,0
+Equipment,Steel defender,Members,0.453,7,6,5,-3,-2,7,6,5,-3,-2,1,0,0,0,0
+Equipment,Steel kiteshield,Free-to-play,5.443,0,0,0,-8,-2,13,15,14,-1,14,0,0,0,0,0
+Equipment,Steel kiteshield (Arrav),Members,5.443,0,0,0,-8,-2,13,15,14,-1,14,0,0,0,0,0
+Equipment,Steel kiteshield (Asgarnia),Members,5.443,0,0,0,-8,-2,13,15,14,-1,14,0,0,0,0,0
+Equipment,Steel kiteshield (Dorgeshuun),Members,5.443,0,0,0,-8,-2,13,15,14,-1,14,0,0,0,0,0
+Equipment,Steel kiteshield (Dragon),Members,5.443,0,0,0,-8,-2,13,15,14,-1,14,0,0,0,0,0
+Equipment,Steel kiteshield (Fairy),Members,5.443,0,0,0,-8,-2,13,15,14,-1,14,0,0,0,0,0
+Equipment,Steel kiteshield (Guthix),Members,5.443,0,0,0,-8,-2,13,15,14,-1,14,0,0,0,0,0
+Equipment,Steel kiteshield (HAM),Members,5.443,0,0,0,-8,-2,13,15,14,-1,14,0,0,0,0,0
+Equipment,Steel kiteshield (Horse),Members,5.443,0,0,0,-8,-2,13,15,14,-1,14,0,0,0,0,0
+Equipment,Steel kiteshield (Jogre),Members,5.443,0,0,0,-8,-2,13,15,14,-1,14,0,0,0,0,0
+Equipment,Steel kiteshield (Kandarin),Members,5.443,0,0,0,-8,-2,13,15,14,-1,14,0,0,0,0,0
+Equipment,Steel kiteshield (Misthalin),Members,5.443,0,0,0,-8,-2,13,15,14,-1,14,0,0,0,0,0
+Equipment,Steel kiteshield (Money),Members,5.443,0,0,0,-8,-2,13,15,14,-1,14,0,0,0,0,0
+Equipment,Steel kiteshield (Saradomin),Members,5.443,0,0,0,-8,-2,13,15,14,-1,14,0,0,0,0,0
+Equipment,Steel kiteshield (Skull),Members,5.443,0,0,0,-8,-2,13,15,14,-1,14,0,0,0,0,0
+Equipment,Steel kiteshield (Varrock),Members,5.443,0,0,0,-8,-2,13,15,14,-1,14,0,0,0,0,0
+Equipment,Steel kiteshield (Zamorak),Members,5.443,0,0,0,-8,-2,13,15,14,-1,14,0,0,0,0,0
+Equipment,Steel kiteshield (g),Free-to-play,5.443,0,0,0,-8,-2,13,15,14,-1,14,0,0,0,0,0
+Equipment,Steel kiteshield (t),Free-to-play,5.443,0,0,0,-8,-2,13,15,14,-1,14,0,0,0,0,0
+Equipment,Steel sq shield,Free-to-play,3.628,0,0,0,-6,-2,12,13,11,0,12,0,0,0,0,0
+Equipment,Toktz-ket-xil,Members,3.628,0,0,0,-12,-8,40,42,38,0,65,5,0,0,0,0
+Equipment,Tome of fire Charged,Members,1,0,0,0,8,0,0,0,0,8,0,0,0,0,0,0
+Equipment,Tome of fire Empty,Members,1,0,0,0,8,0,0,0,0,8,0,0,0,0,0,0
+Equipment,Training shield,Free-to-play,5.443,0,0,0,0,0,4,5,3,1,4,0,0,0,0,0
+Equipment,Twisted bronze trophy,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
+Equipment,Twisted buckler,Members,5.443,-7,-8,-7,-10,18,22,24,22,26,58,0,0,0,0,0
+Equipment,Twisted iron trophy,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
+Equipment,Twisted mithril trophy,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
+Equipment,Twisted steel trophy,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
+Equipment,Unholy book,Members,1,8,8,8,8,8,0,0,0,0,0,0,0,0,5,0
+Equipment,V's shield Equippable,Members,2.267,0,0,0,-8,-2,27,31,29,-1,29,0,0,0,0,0
+Equipment,V's shield The_Fremennik_Exiles,Members,2.267,0,0,0,-8,-2,27,31,29,-1,29,0,0,0,0,0
+Equipment,White kiteshield,Members,5.443,0,0,0,-8,-2,17,19,18,-1,18,0,0,0,1,0
+Equipment,White sq shield,Members,3.628,0,0,0,-6,-2,15,16,14,0,15,0,0,0,1,0
+Equipment,Willow shield,Members,3.175,0,0,0,0,0,6,7,5,2,6,0,0,0,0,0
+Equipment,Wooden shield,Free-to-play,2.267,0,0,0,0,0,4,5,3,1,4,0,0,0,0,0
+Equipment,Wooden shield (Weapons rack),Members,1.814,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Wooden shield (g),Free-to-play,2.267,0,0,0,0,0,4,5,3,1,4,0,0,0,0,0
+Equipment,Yew shield,Members,3.175,0,0,0,0,0,8,9,7,3,8,0,0,0,0,0
+Equipment,Zamorak d'hide shield,Members,8,-15,-15,-11,-10,7,21,18,16,15,14,0,0,0,1,0
+Equipment,Zamorak kiteshield,Free-to-play,5.443,0,0,0,-8,-2,44,48,46,-1,46,0,0,0,1,0

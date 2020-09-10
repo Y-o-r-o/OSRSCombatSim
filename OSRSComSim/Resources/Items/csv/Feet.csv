@@ -1,0 +1,138 @@
+Type,Name,Member,Weigth,StabAtk,SlashAtk,CrushAtk,MagicAtk,RangedAtk,StabDef,SlashDef,CrushDef,MagicDef,RangedDef,MeleStr,RangedStr,MagicStr,Prayer,Speed
+Equipment,Adamant boots,Members,1.36,0,0,0,-3,-1,10,11,12,0,0,1,0,0,0,0
+Equipment,Ancient d'hide boots,Members,1.4,0,0,0,-10,7,4,4,4,4,4,0,0,0,1,0
+Equipment,Angler boots,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ankou socks,Members,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Antisanta boots,Free-to-play,0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Armadyl d'hide boots,Members,1.4,0,0,0,-10,7,4,4,4,4,4,0,0,0,1,0
+Equipment,Bandos boots,Members,6,0,0,0,-5,-3,17,18,19,0,15,0,0,0,1,0
+Equipment,Bandos d'hide boots,Members,1.4,0,0,0,-10,7,4,4,4,4,4,0,0,0,1,0
+Equipment,Bear feet,Free-to-play,0.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Black boots,Members,1.36,0,0,0,-3,-1,7,8,9,0,0,0,0,0,0,0
+Equipment,Blue boots,Members,0.34,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Equipment,Boots of brimstone,Members,3.175,3,0,0,3,5,10,10,10,5,5,0,0,0,0,0
+Equipment,Boots of darkness,Members,0.453,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0
+Equipment,Boots of lightness,Members,,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0
+Equipment,Boots of stone,Members,3.175,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0
+Equipment,Bronze boots,Members,1.36,0,0,0,-3,-1,1,2,3,0,0,0,0,0,0,0
+Equipment,Builder's boots,Members,0.45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Bunny feet,Free-to-play,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Chicken feet,Free-to-play,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Citizen shoes,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Equipment,Climbing boots,Members,0.34,0,0,0,0,0,0,2,2,0,0,2,0,0,0,0
+Equipment,Climbing boots (g),Members,0.34,0,0,0,0,0,0,2,2,0,0,2,0,0,0,0
+Equipment,Clown shoes,Free-to-play,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Clue hunter boots,Members,0.7,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Equipment,Cow shoes,Free-to-play,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Cream boots,Members,0.34,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Equipment,Dark tuxedo shoes,Members,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Demon feet,Free-to-play,0.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Desert boots,Members,0.226,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Devout boots,Members,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0
+Equipment,Dragon boots,Members,1,0,0,0,-3,-1,16,17,18,0,0,4,0,0,0,0
+Equipment,Dragon boots (g),Members,1,0,0,0,-3,-1,16,17,18,0,0,4,0,0,0,0
+Equipment,Dragonstone boots,Members,1.36,0,0,0,-3,-1,12,13,14,0,0,2,0,0,0,0
+Equipment,Elven boots,Members,4.535,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Eternal boots,Members,1.814,0,0,0,8,0,5,5,5,8,5,0,0,0,0,0
+Equipment,Evil chicken feet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Fancy boots,Free-to-play,0.01,0,0,0,-3,-1,1,2,3,0,0,0,0,0,0,0
+Equipment,Farmer's boots Female,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Farmer's boots Male,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Fighting boots,Free-to-play,0.01,0,0,0,-3,-1,1,2,3,0,0,0,0,0,0,0
+Equipment,Flippers,Members,0.34,-2,-2,-2,0,0,0,1,1,0,0,0,0,0,0,0
+Equipment,Fremennik boots,Members,0.34,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Equipment,Fremennik sea boots 1,Members,0.4,0,0,0,-3,-1,2,3,4,0,0,0,0,0,0,0
+Equipment,Fremennik sea boots 2,Members,0.4,0,0,0,-3,-1,5,6,7,0,0,0,0,0,0,0
+Equipment,Fremennik sea boots 3,Members,0.4,0,0,0,-3,-1,7,8,9,0,0,0,0,0,0,0
+Equipment,Fremennik sea boots 4,Members,0.4,0,0,0,1,1,10,11,12,0,0,1,0,0,0,0
+Equipment,Frog slippers,Free-to-play,0.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Frog-leather boots,Members,1,0,0,0,-8,2,1,1,1,0,1,0,0,0,0,0
+Equipment,Gardening boots,Members,0.34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ghostly boots,Members,0.001,0,0,0,2,0,0,0,0,2,0,0,0,0,0,0
+Equipment,Gilded boots,Members,1.36,0,0,0,-3,-1,12,13,14,0,0,2,0,0,0,0
+Equipment,Graceful boots Agility_Arena,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Graceful boots Arceuus,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Graceful boots Hallowed_Sepulchre,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Graceful boots Hosidius,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Graceful boots Kourend,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Graceful boots Lovakengj,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Graceful boots Piscarilius,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Graceful boots Regular,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Graceful boots Shayzien,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Granite boots,Members,2.721,0,0,0,-3,-1,15,16,17,0,8,3,0,0,0,0
+Equipment,Gravedigger boots,Free-to-play,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Green boots,Members,0.34,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Equipment,Grey boots,Members,0.34,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Equipment,Guardian boots,Members,7,0,0,0,-3,-1,32,32,32,-3,24,3,0,0,2,0
+Equipment,Guthix d'hide boots,Members,1.4,0,0,0,-10,7,4,4,4,4,4,0,0,0,1,0
+Equipment,Ham boots,Members,0.34,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Equipment,Holy sandals,Members,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0
+Equipment,Infinity boots,Members,0.453,0,0,0,5,0,0,0,0,5,0,0,0,0,0,0
+Equipment,Insulated boots,Members,1.36,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0
+Equipment,Iron boots,Members,1.36,0,0,0,-3,-1,2,3,4,0,0,0,0,0,0,0
+Equipment,Leather boots,Free-to-play,0.34,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Equipment,Light tuxedo shoes,Members,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Lumberjack boots,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Lunar boots,Members,0.907,0,0,0,2,-1,1,2,2,2,0,0,0,0,0,0
+Equipment,Mime boots,Free-to-play,0.34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Mithril boots,Members,1.36,0,0,0,-3,-1,8,9,10,0,0,0,0,0,0,0
+Equipment,Mole slippers,Free-to-play,0.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Moonclan boots,Members,0.907,0,0,0,2,-5,2,2,2,2,-5,0,0,0,0,0
+Equipment,Mourner boots,Members,1.36,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Equipment,Mummy's feet,Members,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Mystic boots,Members,0.453,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0
+Equipment,Mystic boots (dark),Members,0.453,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0
+Equipment,Mystic boots (dusk),Members,0.453,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0
+Equipment,Mystic boots (light),Members,0.453,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0
+Equipment,Ornate boots,Free-to-play,1.36,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Equipment,Pegasian boots,Members,1.814,0,0,0,-12,12,5,5,5,5,5,0,0,0,0,0
+Equipment,Pink boots,Members,0.34,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Equipment,Pirate boots,Members,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Primordial boots,Members,1.814,2,2,2,-4,-1,22,22,22,0,0,5,0,0,0,0
+Equipment,Prospector boots,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Purple boots,Members,0.34,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Equipment,Pyromancer boots,Members,1.36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ranger boots,Members,0.283,0,0,0,-10,8,2,3,4,2,0,0,0,0,0,0
+Equipment,Red boots,Members,0.34,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Equipment,Rock-shell boots,Members,3.175,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Equipment,Rogue boots,Members,0.453,0,0,0,0,0,2,2,2,2,2,0,0,0,0,0
+Equipment,Rune boots,Members,1.36,0,0,0,-3,-1,12,13,14,0,0,2,0,0,0,0
+Equipment,Runner boots,Members,0.34,0,0,0,1,1,8,8,8,0,0,0,0,0,0,0
+Equipment,Samurai boots,Members,0.95,0,0,0,0,0,11,12,13,1,0,0,0,0,0,0
+Equipment,Santa boots,Free-to-play,0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Saradomin d'hide boots,Members,1.4,0,0,0,-10,7,4,4,4,4,4,0,0,0,1,0
+Equipment,Shayzien boots (1),Members,1.36,0,0,0,-2,-1,1,2,3,0,0,0,0,0,0,0
+Equipment,Shayzien boots (2),Members,1.36,0,0,0,-2,-1,2,3,4,0,0,0,0,0,0,0
+Equipment,Shayzien boots (3),Members,1.36,0,0,0,-2,-1,4,5,6,0,0,0,0,0,0,0
+Equipment,Shayzien boots (4),Members,1.36,0,0,0,-2,-1,5,6,7,0,0,0,0,0,0,0
+Equipment,Shayzien boots (5),Members,1.36,0,0,0,-2,-1,5,7,8,0,0,0,0,0,0,0
+Equipment,Shoes (Spirits of the Elid),Members,0.226,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Silly jester boots,Members,1.36,0,0,0,0,0,0,0,0,5,-5,0,0,0,0,0
+Equipment,Skeletal boots,Members,3.175,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Equipment,Skeleton boots,Free-to-play,2.267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Slave boots,Members,0.68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Snakeskin boots,Members,0.34,0,0,0,-10,3,1,1,2,1,0,0,0,0,0,0
+Equipment,Snow imp costume feet,Free-to-play,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Spiked boots,Members,0.34,0,0,0,0,0,0,2,2,0,0,2,0,0,0,0
+Equipment,Spiked manacles,Members,3,0,0,0,-3,-1,0,0,0,-4,0,4,0,0,0,0
+Equipment,Spined boots,Members,3.175,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Equipment,Splitbark boots,Members,0.907,0,0,0,2,-1,3,2,4,2,0,0,0,0,0,0
+Equipment,Spookier boots,Free-to-play,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Spooky boots,Free-to-play,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Steel boots,Members,1.36,0,0,0,-3,-1,5,6,7,0,0,0,0,0,0,0
+Equipment,Teal boots,Members,0.34,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Equipment,Turquoise boots,Members,0.34,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Equipment,Twisted boots (t1),Members,0.34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Twisted boots (t2),Members,0.34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Twisted boots (t3),Members,0.34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Villager sandals (blue),Members,0.68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Villager sandals (brown),Members,0.68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Villager sandals (pink),Members,0.68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Villager sandals (yellow),Members,0.68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Vyre noble shoes,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Vyrewatch shoes,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Equipment,White boots,Members,1.36,0,0,0,-3,-1,7,8,9,0,0,0,0,0,1,0
+Equipment,Wizard boots,Members,0.283,0,0,0,4,0,0,0,0,4,0,0,0,0,0,0
+Equipment,Yellow boots,Members,0.34,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Equipment,Zamorak d'hide boots,Members,1.4,0,0,0,-10,7,4,4,4,4,4,0,0,0,1,0
+Equipment,Zombie boots,Free-to-play,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

@@ -1,0 +1,86 @@
+Type,Name,Member,Weigth,StabAtk,SlashAtk,CrushAtk,MagicAtk,RangedAtk,StabDef,SlashDef,CrushDef,MagicDef,RangedDef,MeleStr,RangedStr,MagicStr,Prayer,Speed
+Equipment,'perfect' ring,Members,0.007,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Archers ring,Members,0.004,0,0,0,0,4,0,0,0,0,4,0,0,0,0,0
+Equipment,Archers ring (i),Members,0.004,0,0,0,0,8,0,0,0,0,8,0,0,0,0,0
+Equipment,Beacon ring,Members,0.006,0,0,0,2,0,0,0,0,1,0,0,0,0,0,0
+Equipment,Berserker ring,Members,0.004,0,0,0,0,0,0,0,4,0,0,4,0,0,0,0
+Equipment,Berserker ring (i),Members,0.004,0,0,0,0,0,0,0,8,0,0,8,0,0,0,0
+Equipment,Brimstone ring,Members,0.004,4,4,4,6,4,4,4,4,6,4,4,0,0,0,0
+Equipment,Diamond ring,Free-to-play,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Dragonstone ring,Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Efaritay's aid,Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Elven signet,Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Emerald ring,Free-to-play,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Explorer's ring 1,Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Equipment,Explorer's ring 2,Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Equipment,Explorer's ring 3,Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Equipment,Explorer's ring 4,Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Equipment,Gold ring,Free-to-play,0.004,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Granite ring,Members,3,0,0,0,0,0,2,2,2,-2,8,0,0,0,0,0
+Equipment,Granite ring (i),Members,3,0,0,0,0,0,4,4,4,-4,16,0,0,0,0,0
+Equipment,Jade ring,Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Lunar ring,Members,0.006,0,0,0,2,0,0,0,0,2,0,0,0,0,0,0
+Equipment,Onyx ring,Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Opal ring,Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of 3rd age,Free-to-play,0.005,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of charos Activated,Members,0.005,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of charos Normal,Members,0.005,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of dueling (1),Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of dueling (2),Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of dueling (3),Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of dueling (4),Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of dueling (5),Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of dueling (6),Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of dueling (7),Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of dueling (8),Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of endurance Charged,Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of endurance Uncharged,Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of forging,Free-to-play,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of life,Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of pursuit,Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of recoil,Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of returning (1),Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of returning (2),Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of returning (3),Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of returning (4),Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of returning (5),Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of suffering (i) Recoil,Members,0.006,0,0,0,0,0,20,20,20,20,20,0,0,0,4,0
+Equipment,Ring of suffering (i) Uncharged,Members,0.006,0,0,0,0,0,20,20,20,20,20,0,0,0,4,0
+Equipment,Ring of suffering Recoil,Members,0.006,0,0,0,0,0,10,10,10,10,10,0,0,0,2,0
+Equipment,Ring of suffering Uncharged,Members,0.006,0,0,0,0,0,10,10,10,10,10,0,0,0,2,0
+Equipment,Ring of the gods,Members,0.3,0,0,0,0,0,1,1,1,1,1,0,0,0,4,0
+Equipment,Ring of the gods (i),Members,0.3,0,0,0,0,0,1,1,1,1,1,0,0,0,8,0
+Equipment,Ring of visibility,Members,0.004,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of wealth (i) (i1),Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of wealth (i) (i2),Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of wealth (i) (i3),Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of wealth (i) (i4),Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of wealth (i) (i5),Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of wealth (i) Uncharged,Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of wealth (1),Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of wealth (2),Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of wealth (3),Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of wealth (4),Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of wealth (5),Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ring of wealth Uncharged,Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ruby ring,Free-to-play,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Sapphire ring,Free-to-play,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Seers ring,Members,0.004,0,0,0,6,0,0,0,0,6,0,0,0,0,0,0
+Equipment,Seers ring (i),Members,0.004,0,0,0,12,0,0,0,0,12,0,0,0,0,0,0
+Equipment,Slayer ring (eternal),Members,0.013,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Slayer ring (1),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Slayer ring (2),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Slayer ring (3),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Slayer ring (4),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Slayer ring (5),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Slayer ring (6),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Slayer ring (7),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Slayer ring (8),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Topaz ring,Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Treasonous ring,Members,0.4,4,0,0,0,0,4,0,0,0,0,0,0,0,0,0
+Equipment,Treasonous ring (i),Members,0.4,8,0,0,0,0,8,0,0,0,0,0,0,0,0,0
+Equipment,Tyrannical ring,Members,1,0,0,4,0,0,0,0,4,0,0,0,0,0,0,0
+Equipment,Tyrannical ring (i),Members,1,0,0,8,0,0,0,0,8,0,0,0,0,0,0,0
+Equipment,Warrior ring,Members,0.004,0,4,0,0,0,0,4,0,0,0,0,0,0,0,0
+Equipment,Warrior ring (i),Members,0.004,0,8,0,0,0,0,8,0,0,0,0,0,0,0,0
+Equipment,Zenyte ring,Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

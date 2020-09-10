@@ -1,0 +1,373 @@
+Type,Name,Member,Weigth,StabAtk,SlashAtk,CrushAtk,MagicAtk,RangedAtk,StabDef,SlashDef,CrushDef,MagicDef,RangedDef,MeleStr,RangedStr,MagicStr,Prayer,Speed
+Equipment,3rd age druidic robe top,Members,1.5,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0
+Equipment,3rd age platebody,Members,9.979,0,0,0,-20,0,96,108,113,-4,97,0,0,0,0,0
+Equipment,3rd age range top,Members,4,0,0,0,-15,30,55,47,60,60,55,0,0,0,0,0
+Equipment,3rd age robe top,Members,2.7,0,0,0,24,0,0,0,0,24,0,0,0,0,0,0
+Equipment,Adamant chainbody,Free-to-play,7.711,0,0,0,-15,0,36,50,61,-3,38,0,0,0,0,0
+Equipment,Adamant platebody,Free-to-play,11.339,0,0,0,-30,-10,65,63,55,-6,63,0,0,0,0,0
+Equipment,Adamant platebody (g),Free-to-play,11.339,0,0,0,-30,-10,65,63,55,-6,63,0,0,0,0,0
+Equipment,Adamant platebody (h1),Free-to-play,11.339,0,0,0,-30,-10,65,63,55,-6,63,0,0,0,0,0
+Equipment,Adamant platebody (h2),Free-to-play,11.339,0,0,0,-30,-10,65,63,55,-6,63,0,0,0,0,0
+Equipment,Adamant platebody (h3),Free-to-play,11.339,0,0,0,-30,-10,65,63,55,-6,63,0,0,0,0,0
+Equipment,Adamant platebody (h4),Free-to-play,11.339,0,0,0,-30,-10,65,63,55,-6,63,0,0,0,0,0
+Equipment,Adamant platebody (h5),Free-to-play,11.339,0,0,0,-30,-10,65,63,55,-6,63,0,0,0,0,0
+Equipment,Adamant platebody (t),Free-to-play,11.339,0,0,0,-30,-10,65,63,55,-6,63,0,0,0,0,0
+Equipment,Ahrim's robetop (broken),Members,4.535,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ahrim's robetop 100,Members,4.535,0,0,0,30,-10,52,37,63,30,0,0,0,0,0,0
+Equipment,Ahrim's robetop 25,Members,4.535,0,0,0,30,-10,52,37,63,30,0,0,0,0,0,0
+Equipment,Ahrim's robetop 50,Members,4.535,0,0,0,30,-10,52,37,63,30,0,0,0,0,0,0
+Equipment,Ahrim's robetop 75,Members,4.535,0,0,0,30,-10,52,37,63,30,0,0,0,0,0,0
+Equipment,Ahrim's robetop Undamaged,Members,4.535,0,0,0,30,-10,52,37,63,30,0,0,0,0,0,0
+Equipment,Ancestral robe top,Members,2.721,0,0,0,35,-8,42,31,51,28,0,0,0,2,0,0
+Equipment,Ancient d'hide body,Members,6,0,0,0,-15,30,55,47,60,50,55,0,0,0,1,0
+Equipment,Ancient platebody,Free-to-play,9.979,0,0,0,-30,-10,82,80,72,-6,80,0,0,0,1,0
+Equipment,Ancient robe top,Members,0.005,0,0,0,4,0,0,0,0,4,0,0,0,0,6,0
+Equipment,Angler top,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ankou top,Members,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Antisanta jacket,Free-to-play,0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ardougne knight platebody,Members,9.979,0,0,0,-30,-10,21,20,12,-6,20,0,0,0,0,0
+Equipment,Armadyl chestplate,Members,4,-7,-7,-7,-15,33,56,48,61,70,57,0,0,0,1,0
+Equipment,Armadyl d'hide body,Members,6,0,0,0,-15,30,55,47,60,50,55,0,0,0,1,0
+Equipment,Armadyl platebody,Free-to-play,9.979,0,0,0,-30,-10,82,80,72,-6,80,0,0,0,1,0
+Equipment,Armadyl robe top,Members,1.8,0,0,0,4,0,0,0,0,4,0,0,0,0,6,0
+Equipment,Bandos chestplate,Members,12,0,0,0,-15,-10,98,93,105,-6,133,4,0,0,1,0
+Equipment,Bandos d'hide body,Members,6,0,0,0,-15,30,55,47,60,50,55,0,0,0,1,0
+Equipment,Bandos platebody,Free-to-play,9.979,0,0,0,-30,-10,82,80,72,-6,80,0,0,0,1,0
+Equipment,Bandos robe top,Members,1.8,0,0,0,4,0,0,0,0,4,0,0,0,0,6,0
+Equipment,Banshee top,Free-to-play,0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Black chainbody,Free-to-play,6.803,0,0,0,-15,0,22,32,39,-3,24,0,0,0,0,0
+Equipment,Black d'hide body,Members,6.803,0,0,0,-15,30,55,47,60,50,55,0,0,0,0,0
+Equipment,Black d'hide body (g),Members,6.803,0,0,0,-15,30,55,47,60,50,55,0,0,0,0,0
+Equipment,Black d'hide body (t),Members,6.803,0,0,0,-15,30,55,47,60,50,55,0,0,0,0,0
+Equipment,Black desert shirt,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Black elegant shirt,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Black naval shirt,Members,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Black platebody,Free-to-play,9.979,0,0,0,-30,-10,41,40,30,-6,40,0,0,0,0,0
+Equipment,Black platebody (g),Free-to-play,9.979,0,0,0,-30,-10,41,40,30,-6,40,0,0,0,0,0
+Equipment,Black platebody (h1),Free-to-play,9.979,0,0,0,-30,-10,41,40,30,-6,40,0,0,0,0,0
+Equipment,Black platebody (h2),Free-to-play,9.979,0,0,0,-30,-10,41,40,30,-6,40,0,0,0,0,0
+Equipment,Black platebody (h3),Free-to-play,9.979,0,0,0,-30,-10,41,40,30,-6,40,0,0,0,0,0
+Equipment,Black platebody (h4),Free-to-play,9.979,0,0,0,-30,-10,41,40,30,-6,40,0,0,0,0,0
+Equipment,Black platebody (h5),Free-to-play,9.979,0,0,0,-30,-10,41,40,30,-6,40,0,0,0,0,0
+Equipment,Black platebody (t),Free-to-play,9.979,0,0,0,-30,-10,41,40,30,-6,40,0,0,0,0,0
+Equipment,Black robe,Free-to-play,0.907,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0
+Equipment,Black wizard robe (g),Free-to-play,0.907,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0
+Equipment,Black wizard robe (t),Free-to-play,0.907,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0
+Equipment,Blue d'hide body,Members,6.803,0,0,0,-15,20,45,37,50,30,45,0,0,0,0,0
+Equipment,Blue d'hide body (g),Members,6.803,0,0,0,-15,20,45,37,50,30,45,0,0,0,0,0
+Equipment,Blue d'hide body (t),Members,6.803,0,0,0,-15,20,45,37,50,30,45,0,0,0,0,0
+Equipment,Blue elegant blouse,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Blue elegant shirt,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Blue naval shirt,Members,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Blue robe top,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Equipment,Blue wizard robe,Free-to-play,0.907,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0
+Equipment,Blue wizard robe (g),Free-to-play,0.907,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0
+Equipment,Blue wizard robe (t),Free-to-play,0.907,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0
+Equipment,Bob's black shirt,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Bob's blue shirt,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Bob's green shirt,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Bob's purple shirt,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Bob's red shirt,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Bomber jacket,Members,0.001,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Bronze chainbody,Free-to-play,6.803,0,0,0,-15,0,7,11,13,-3,9,0,0,0,0,0
+Equipment,Bronze platebody,Free-to-play,9.979,0,0,0,-30,-10,15,14,9,-6,14,0,0,0,0,0
+Equipment,Bronze platebody (g),Free-to-play,9.979,0,0,0,-30,-10,15,14,9,-6,14,0,0,0,0,0
+Equipment,Bronze platebody (t),Free-to-play,9.979,0,0,0,-30,-10,15,14,9,-6,14,0,0,0,0,0
+Equipment,Brown apron,Free-to-play,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Brown naval shirt,Members,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Builder's shirt,Members,0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Bunny top,Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Camo top,Free-to-play,2.721,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Carnillean armour,Members,9.071,0,0,0,0,0,20,14,8,0,0,0,0,0,0,0
+Equipment,Chicken wings,Free-to-play,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Citizen top,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Equipment,Clown gown,Free-to-play,0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Clue hunter garb,Members,2,0,0,0,-2,2,8,9,10,4,9,0,0,0,0,0
+Equipment,Corrupted body (attuned),Members,9.979,12,12,4,12,12,102,102,102,102,102,0,0,0,4,0
+Equipment,Corrupted body (basic),Members,9.979,8,8,3,8,8,86,86,86,86,86,0,0,0,3,0
+Equipment,Corrupted body (perfected),Members,9.979,15,16,5,16,16,124,124,124,124,124,0,0,0,5,0
+Equipment,Corrupted platebody,Members,9.979,0,0,0,-30,-10,21,20,12,-6,20,0,0,0,0,0
+Equipment,Cow top,Free-to-play,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Cream robe top,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Equipment,Crier coat,Members,0.001,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Crystal body (attuned),Members,9.979,12,12,4,12,12,102,102,102,102,102,0,0,0,4,0
+Equipment,Crystal body (basic),Members,9.979,8,8,3,8,8,86,86,86,86,86,0,0,0,3,0
+Equipment,Crystal body (perfected),Members,9.979,15,16,5,16,16,124,124,124,124,124,0,0,0,5,0
+Equipment,Crystal body Active,Members,9.979,0,0,0,-18,30,34,24,32,44,53,0,0,0,3,0
+Equipment,Crystal body Inactive,Members,9.979,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Dagon'hai robe top,Members,2.267,0,0,0,25,0,0,0,0,21,0,0,0,0,2,0
+Equipment,Dark infinity top,Members,2.267,0,0,0,22,0,0,0,0,22,0,0,0,0,0,0
+Equipment,Dark tuxedo jacket,Members,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Deadman's chest Cosmetic,Free-to-play,0.12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Deadman's chest Deadman_mode,Members,9.979,0,0,0,-30,-10,21,20,12,-6,20,0,0,0,0,0
+Equipment,Decorative armour (gold platebody) Broken,Members,8.618,0,0,0,-30,-10,65,63,55,-6,63,0,0,0,0,0
+Equipment,Decorative armour (gold platebody) Locked,Free-to-play,8.618,0,0,0,-30,-10,65,63,55,-6,63,0,0,0,0,0
+Equipment,Decorative armour (gold platebody) Normal,Free-to-play,8.618,0,0,0,-30,-10,65,63,55,-6,63,0,0,0,0,0
+Equipment,Decorative armour (magic top) Broken,Members,6.803,0,0,0,0,0,20,20,20,20,20,0,0,0,0,0
+Equipment,Decorative armour (magic top) Locked,Members,6.803,0,0,0,0,0,20,20,20,20,20,0,0,0,0,0
+Equipment,Decorative armour (magic top) Normal,Members,6.803,0,0,0,0,0,20,20,20,20,20,0,0,0,0,0
+Equipment,Decorative armour (ranged top) Broken,Members,6.803,0,0,0,0,0,20,20,20,20,20,0,0,0,0,0
+Equipment,Decorative armour (ranged top) Locked,Members,6.803,0,0,0,0,0,20,20,20,20,20,0,0,0,0,0
+Equipment,Decorative armour (ranged top) Normal,Members,6.803,0,0,0,0,0,20,20,20,20,20,0,0,0,0,0
+Equipment,Decorative armour (red platebody),Free-to-play,8.618,0,0,0,-30,-10,32,31,24,-6,31,0,0,0,0,0
+Equipment,Decorative armour (white platebody),Free-to-play,8.618,0,0,0,-30,-10,46,44,38,-6,44,0,0,0,0,0
+Equipment,Desert camo top,Members,0.226,0,0,0,0,0,10,15,19,0,12,0,0,0,0,0
+Equipment,Desert shirt,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Desert top,Members,0.005,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Desert top (overcoat),Members,0.005,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Dharok's platebody (broken),Members,9.979,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Dharok's platebody 100,Members,9.979,0,0,0,-30,-10,122,120,107,-6,132,0,0,0,0,0
+Equipment,Dharok's platebody 25,Members,9.979,0,0,0,-30,-10,122,120,107,-6,132,0,0,0,0,0
+Equipment,Dharok's platebody 50,Members,9.979,0,0,0,-30,-10,122,120,107,-6,132,0,0,0,0,0
+Equipment,Dharok's platebody 75,Members,9.979,0,0,0,-30,-10,122,120,107,-6,132,0,0,0,0,0
+Equipment,Dharok's platebody Undamaged,Members,9.979,0,0,0,-30,-10,122,120,107,-6,132,0,0,0,0,0
+Equipment,Dragon chainbody,Members,6.803,0,0,0,-15,0,81,93,98,-3,82,0,0,0,0,0
+Equipment,Dragon chainbody (g),Members,6.803,0,0,0,-15,0,81,93,98,-3,82,0,0,0,0,0
+Equipment,Dragon platebody,Members,11.339,0,0,0,-30,-10,109,107,97,-6,106,0,0,0,0,0
+Equipment,Dragon platebody (g),Members,11.339,0,0,0,-30,-10,109,107,97,-6,106,0,0,0,0,0
+Equipment,Dragonstone platebody,Free-to-play,9.979,0,0,0,-30,-10,82,80,72,-6,80,0,0,0,0,0
+Equipment,Druid's robe top,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0
+Equipment,Eggshell platebody,Free-to-play,2.267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Elder chaos top,Members,0.2,0,0,0,10,0,0,0,0,8,0,0,0,0,0,0
+Equipment,Elite void top Broken,Members,6.803,0,0,0,0,0,45,45,45,45,45,0,0,0,3,0
+Equipment,Elite void top Locked,Members,6.803,0,0,0,0,0,45,45,45,45,45,0,0,0,3,0
+Equipment,Elite void top Normal,Members,6.803,0,0,0,0,0,45,45,45,45,45,0,0,0,3,0
+Equipment,Elven top (white vest),Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Elven top (white),Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Elven top (yellow vest),Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Elven top (yellow),Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Enchanted top,Members,2.721,0,0,0,20,0,0,0,0,20,0,0,0,0,0,0
+Equipment,Evil chicken wings,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Farmer's jacket,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Farmer's shirt,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Fighter torso Broken,Members,4,0,0,0,-40,0,62,85,62,-10,67,4,0,0,0,0
+Equipment,Fighter torso Locked,Members,4,0,0,0,-40,0,62,85,62,-10,67,4,0,0,0,0
+Equipment,Fighter torso Normal,Members,4,0,0,0,-40,0,62,85,62,-10,67,4,0,0,0,0
+Equipment,Fremennik beige shirt,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Equipment,Fremennik blue shirt,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Equipment,Fremennik brown shirt,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Equipment,Fremennik grey shirt,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Equipment,Fremennik red shirt,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Equipment,Fremennik robe,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Equipment,Frog-leather body,Members,5,0,0,0,-5,10,23,26,30,15,32,0,0,0,0,0
+Equipment,Ghostly robe (top),Members,0.001,0,0,0,5,0,0,0,0,5,0,0,0,0,0,0
+Equipment,Gilded chainbody,Free-to-play,6.803,0,0,0,-15,0,63,72,78,-3,65,0,0,0,0,0
+Equipment,Gilded d'hide body,Free-to-play,6,0,0,0,-15,15,40,32,45,20,40,0,0,0,0,0
+Equipment,Gilded platebody,Free-to-play,9.979,0,0,0,-30,-10,82,80,72,-6,80,0,0,0,0,0
+Equipment,Gold elegant blouse,Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Gold elegant shirt,Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Golden apron,Free-to-play,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Graahk top,Members,0.226,0,0,0,0,0,10,15,19,0,12,0,0,0,0,0
+Equipment,Graceful top Agility_Arena,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Graceful top Arceuus,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Graceful top Hallowed_Sepulchre,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Graceful top Hosidius,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Graceful top Kourend,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Graceful top Lovakengj,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Graceful top Piscarilius,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Graceful top Regular,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Graceful top Shayzien,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Granite body,Members,22.679,0,0,0,-22,-5,87,84,79,-6,97,0,0,0,0,0
+Equipment,Gravedigger top,Free-to-play,0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Green d'hide body,Free-to-play,6.803,0,0,0,-15,15,40,32,45,20,40,0,0,0,0,0
+Equipment,Green d'hide body (g),Free-to-play,6.803,0,0,0,-15,15,40,32,45,20,40,0,0,0,0,0
+Equipment,Green d'hide body (t),Free-to-play,6.803,0,0,0,-15,15,40,32,45,20,40,0,0,0,0,0
+Equipment,Green elegant blouse,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Green elegant shirt,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Green naval shirt,Members,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Green robe top,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Equipment,Grey naval shirt,Members,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Grey robe top,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Equipment,Guthan's platebody (broken),Members,9.979,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Guthan's platebody 100,Members,9.979,0,0,0,-30,-10,122,120,107,-6,132,0,0,0,0,0
+Equipment,Guthan's platebody 25,Members,9.979,0,0,0,-30,-10,122,120,107,-6,132,0,0,0,0,0
+Equipment,Guthan's platebody 50,Members,9.979,0,0,0,-30,-10,122,120,107,-6,132,0,0,0,0,0
+Equipment,Guthan's platebody 75,Members,9.979,0,0,0,-30,-10,122,120,107,-6,132,0,0,0,0,0
+Equipment,Guthan's platebody Undamaged,Members,9.979,0,0,0,-30,-10,122,120,107,-6,132,0,0,0,0,0
+Equipment,Guthix d'hide body,Members,6,0,0,0,-15,30,55,47,60,50,55,0,0,0,1,0
+Equipment,Guthix platebody,Free-to-play,9.979,0,0,0,-30,-10,82,80,72,-6,80,0,0,0,1,0
+Equipment,Guthix robe top,Members,1.8,0,0,0,4,0,0,0,0,4,0,0,0,0,6,0
+Equipment,Ham shirt,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Equipment,Hardcore ironman platebody,Free-to-play,4.535,0,0,0,-30,-10,21,20,12,-6,20,0,0,0,0,0
+Equipment,Hardleather body,Free-to-play,3.628,0,0,0,-4,8,12,15,18,6,15,0,0,0,0,0
+Equipment,Infinity top,Members,2.267,0,0,0,22,0,0,0,0,22,0,0,0,0,0,0
+Equipment,Initiate hauberk,Members,8.618,0,0,0,-30,-10,46,44,38,-6,44,0,0,0,6,0
+Equipment,Inquisitor's hauberk,Members,9.979,-3,-3,12,-11,-10,67,55,71,0,35,4,0,0,2,0
+Equipment,Iron chainbody,Free-to-play,6.803,0,0,0,-15,0,10,15,19,-3,12,0,0,0,0,0
+Equipment,Iron platebody,Free-to-play,9.979,0,0,0,-30,-10,21,20,12,-6,20,0,0,0,0,0
+Equipment,Iron platebody (g),Free-to-play,9.979,0,0,0,-30,-10,21,20,12,-6,20,0,0,0,0,0
+Equipment,Iron platebody (t),Free-to-play,9.979,0,0,0,-30,-10,21,20,12,-6,20,0,0,0,0,0
+Equipment,Ironman platebody,Free-to-play,4.535,0,0,0,-30,-10,21,20,12,-6,20,0,0,0,0,0
+Equipment,Jungle camo top,Members,0.226,0,0,0,0,0,10,15,19,0,12,0,0,0,0,0
+Equipment,Justiciar chestguard,Members,9.979,0,0,0,-40,-20,132,130,117,-16,142,0,0,0,4,0
+Equipment,Karil's leathertop (broken),Members,6.803,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Karil's leathertop 100,Members,6.803,0,0,0,-15,30,47,42,50,65,57,0,0,0,0,0
+Equipment,Karil's leathertop 25,Members,6.803,0,0,0,-15,30,47,42,50,65,57,0,0,0,0,0
+Equipment,Karil's leathertop 50,Members,6.803,0,0,0,-15,30,47,42,50,65,57,0,0,0,0,0
+Equipment,Karil's leathertop 75,Members,6.803,0,0,0,-15,30,47,42,50,65,57,0,0,0,0,0
+Equipment,Karil's leathertop Undamaged,Members,6.803,0,0,0,-15,30,47,42,50,65,57,0,0,0,0,0
+Equipment,Khazard armour,Members,0.566,0,0,0,0,0,9,11,10,0,0,0,0,0,0,0
+Equipment,Kyatt top,Members,0.226,0,0,0,0,0,10,15,19,0,12,0,0,0,0,0
+Equipment,Larupia top,Members,0.226,0,0,0,0,0,10,15,19,0,12,0,0,0,0,0
+Equipment,Leather body,Free-to-play,2.721,0,0,0,-2,2,8,9,10,4,9,0,0,0,0,0
+Equipment,Leather body (g),Free-to-play,5.443,0,0,0,-2,2,8,9,10,4,9,0,0,0,0,0
+Equipment,Lederhosen top,Free-to-play,2.267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Light infinity top,Members,2.267,0,0,0,22,0,0,0,0,22,0,0,0,0,0,0
+Equipment,Light tuxedo jacket,Members,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Lumberjack top,Members,1.36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Lunar torso,Members,4.535,0,0,0,10,-10,34,22,40,12,0,0,0,0,0,0
+Equipment,Medical gown,Members,1.814,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Menaphite purple top,Members,0.005,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Menaphite red top,Members,0.005,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Mime top,Free-to-play,0.001,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Mithril chainbody,Free-to-play,5.896,0,0,0,-15,0,25,35,42,-3,27,0,0,0,0,0
+Equipment,Mithril platebody,Free-to-play,8.618,0,0,0,-30,-10,46,44,38,-6,44,0,0,0,0,0
+Equipment,Mithril platebody (g),Free-to-play,9.979,0,0,0,-30,-10,46,44,38,-6,44,0,0,0,0,0
+Equipment,Mithril platebody (t),Free-to-play,8.618,0,0,0,-30,-10,46,44,38,-6,44,0,0,0,0,0
+Equipment,Monk's robe top,Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0
+Equipment,Monk's robe top (g),Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0
+Equipment,Monk's robe top (t),Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0
+Equipment,Moonclan armour,Members,4.535,0,0,0,5,-10,5,5,5,5,-10,0,0,0,0,0
+Equipment,Mourner top,Members,2.721,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Mummy's body,Members,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Musketeer tabard,Members,1.814,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Mystic robe top,Members,2.721,0,0,0,20,0,0,0,0,20,0,0,0,0,0,0
+Equipment,Mystic robe top (dark),Members,2.721,0,0,0,20,0,0,0,0,20,0,0,0,0,0,0
+Equipment,Mystic robe top (dusk),Members,2.721,0,0,0,20,0,0,0,0,20,0,0,0,0,0,0
+Equipment,Mystic robe top (light),Members,2.721,0,0,0,20,0,0,0,0,20,0,0,0,0,0,0
+Equipment,Obsidian platebody,Members,9.979,0,0,0,0,0,55,78,56,-15,60,3,0,0,0,0
+Equipment,Ornate top,Free-to-play,11.339,0,0,0,-15,0,10,15,19,-3,12,0,0,0,0,0
+Equipment,Pink elegant blouse,Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Pink elegant shirt,Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Pink robe top,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Equipment,Plague jacket,Members,2.721,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Polar camo top,Members,0.226,0,0,0,0,0,10,15,19,0,12,0,0,0,0,0
+Equipment,Priest gown (top),Free-to-play,1.814,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0
+Equipment,Prince tunic,Free-to-play,2.721,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Princess blouse,Free-to-play,2.721,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Proselyte hauberk,Members,8.618,0,0,0,-30,-10,65,63,55,-6,63,0,0,0,8,0
+Equipment,Prospector jacket,Members,1.36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Purple elegant blouse,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Purple elegant shirt,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Purple naval shirt,Members,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Purple robe top,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Equipment,Pyromancer garb,Members,0.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Rangers' tunic,Members,3,0,0,0,-15,15,6,9,12,6,6,0,0,0,0,0
+Equipment,Red d'hide body,Members,6.803,0,0,0,-15,25,50,42,55,40,50,0,0,0,0,0
+Equipment,Red d'hide body (g),Members,6.803,0,0,0,-15,25,50,42,55,40,50,0,0,0,0,0
+Equipment,Red d'hide body (t),Members,6.803,0,0,0,-15,25,50,42,55,40,50,0,0,0,0,0
+Equipment,Red elegant blouse,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Red elegant shirt,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Red naval shirt,Members,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Red robe top,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Equipment,Robe of elidinis (top),Members,0.005,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Robe top of darkness,Members,2.721,0,0,0,20,0,0,0,0,20,0,0,0,0,0,0
+Equipment,Rock-shell plate,Members,9.979,0,0,0,-30,-10,82,80,72,-6,80,0,0,0,0,0
+Equipment,Rogue top,Members,0.453,0,0,0,0,0,10,10,10,10,10,0,0,0,0,0
+Equipment,Royal gown top,Members,1.36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Rune chainbody,Free-to-play,6.803,0,0,0,-15,0,63,72,78,-3,65,0,0,0,0,0
+Equipment,Rune platebody,Free-to-play,9.979,0,0,0,-30,-10,82,80,72,-6,80,0,0,0,0,0
+Equipment,Rune platebody (g),Free-to-play,9.979,0,0,0,-30,-10,82,80,72,-6,80,0,0,0,0,0
+Equipment,Rune platebody (h1),Free-to-play,9.979,0,0,0,-30,-10,82,80,72,-6,80,0,0,0,0,0
+Equipment,Rune platebody (h2),Free-to-play,9.979,0,0,0,-30,-10,82,80,72,-6,80,0,0,0,0,0
+Equipment,Rune platebody (h3),Free-to-play,9.979,0,0,0,-30,-10,82,80,72,-6,80,0,0,0,0,0
+Equipment,Rune platebody (h4),Free-to-play,9.979,0,0,0,-30,-10,82,80,72,-6,80,0,0,0,0,0
+Equipment,Rune platebody (h5),Free-to-play,9.979,0,0,0,-30,-10,82,80,72,-6,80,0,0,0,0,0
+Equipment,Rune platebody (t),Free-to-play,9.979,0,0,0,-30,-10,82,80,72,-6,80,0,0,0,0,0
+Equipment,Samurai shirt,Members,2,0,0,0,0,0,69,67,59,10,67,0,0,0,0,0
+Equipment,Sandwich lady top,Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Santa jacket,Free-to-play,0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Saradomin d'hide body,Members,6,0,0,0,-15,30,55,47,60,50,55,0,0,0,1,0
+Equipment,Saradomin platebody,Free-to-play,9.979,0,0,0,-30,-10,82,80,72,-6,80,0,0,0,1,0
+Equipment,Saradomin robe top,Members,1.8,0,0,0,4,0,0,0,0,4,0,0,0,0,6,0
+Equipment,Shade robe top,Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0
+Equipment,Shayzien platebody (1),Members,9.979,0,0,0,-5,0,16,20,22,-2,16,0,0,0,0,0
+Equipment,Shayzien platebody (2),Members,9.979,0,0,0,-7,0,20,25,30,-3,20,0,0,0,0,0
+Equipment,Shayzien platebody (3),Members,9.979,0,0,0,-8,0,25,32,35,-3,22,0,0,0,0,0
+Equipment,Shayzien platebody (4),Members,9.979,0,0,0,-9,0,28,35,37,-4,25,0,0,0,0,0
+Equipment,Shayzien platebody (5),Members,9.979,0,0,0,-10,0,30,37,40,-4,27,0,0,0,0,0
+Equipment,Shirt (brown),Members,0.07,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Shirt (lilac),Members,0.07,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Shirt (yellow),Members,0.07,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Silly jester top,Members,6.803,0,0,0,0,0,0,0,0,5,-5,0,0,0,0,0
+Equipment,Skeletal top,Members,4.989,0,0,0,8,-10,35,25,42,15,0,0,0,0,0,0
+Equipment,Skeleton shirt,Free-to-play,2.267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Slave shirt,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Snakeskin body,Members,6.803,0,0,0,-5,12,25,28,32,15,35,0,0,0,0,0
+Equipment,Snow imp costume body,Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Spined body,Members,6.803,0,0,0,-15,15,40,32,45,20,40,0,0,0,0,0
+Equipment,Splitbark body,Members,4.535,0,0,0,10,-10,36,26,42,15,0,0,0,0,0,0
+Equipment,Spookier robe,Free-to-play,0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Spooky robe,Free-to-play,0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Steel chainbody,Free-to-play,6.803,0,0,0,-15,0,17,25,30,-3,19,0,0,0,0,0
+Equipment,Steel platebody,Free-to-play,9.979,0,0,0,-30,-10,32,31,24,-6,31,0,0,0,0,0
+Equipment,Steel platebody (g),Free-to-play,9.979,0,0,0,-30,-10,32,31,24,-6,31,0,0,0,0,0
+Equipment,Steel platebody (t),Free-to-play,9.979,0,0,0,-30,-10,32,31,24,-6,31,0,0,0,0,0
+Equipment,Stripy pirate shirt (beige),Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Stripy pirate shirt (blue),Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Stripy pirate shirt (brown),Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Stripy pirate shirt (red),Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Studded body,Free-to-play,5.443,0,0,0,-4,8,18,25,22,8,25,0,0,0,0,0
+Equipment,Studded body (g),Free-to-play,5.443,0,0,0,-4,8,18,25,22,8,25,0,0,0,0,0
+Equipment,Studded body (t),Free-to-play,5.443,0,0,0,-4,8,18,25,22,8,25,0,0,0,0,0
+Equipment,Teal robe top,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Equipment,Torag's platebody (broken),Members,9.979,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Torag's platebody 100,Members,9.979,0,0,0,-30,-10,122,120,107,-6,132,0,0,0,0,0
+Equipment,Torag's platebody 25,Members,9.979,0,0,0,-30,-10,122,120,107,-6,132,0,0,0,0,0
+Equipment,Torag's platebody 50,Members,9.979,0,0,0,-30,-10,122,120,107,-6,132,0,0,0,0,0
+Equipment,Torag's platebody 75,Members,9.979,0,0,0,-30,-10,122,120,107,-6,132,0,0,0,0,0
+Equipment,Torag's platebody Undamaged,Members,9.979,0,0,0,-30,-10,122,120,107,-6,132,0,0,0,0,0
+Equipment,Tree top,Free-to-play,0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Tribal top (blue),Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Tribal top (brown),Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Tribal top (pink),Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Tribal top (yellow),Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Turquoise robe top,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Equipment,Twisted ancestral robe top,Members,2.721,0,0,0,35,-8,42,31,51,28,0,0,0,2,0,0
+Equipment,Twisted coat (t1),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Twisted coat (t2),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Twisted coat (t3),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ultimate ironman platebody,Free-to-play,4.535,0,0,0,-30,-10,21,20,12,-6,20,0,0,0,0,0
+Equipment,Varrock armour 1,Members,1,0,0,0,-30,-10,32,31,24,-6,31,0,0,0,0,0
+Equipment,Varrock armour 2,Members,1,0,0,0,-30,-10,41,40,30,-6,40,0,0,0,0,0
+Equipment,Varrock armour 3,Members,1,0,0,0,-30,-10,46,44,38,-6,44,0,0,0,0,0
+Equipment,Varrock armour 4,Members,1,0,0,0,-30,-10,65,63,55,-6,63,0,0,0,0,0
+Equipment,Verac's brassard (broken),Members,4.989,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Verac's brassard 100,Members,4.989,0,0,0,-6,-2,81,95,85,0,81,0,0,0,5,0
+Equipment,Verac's brassard 25,Members,4.989,0,0,0,-6,-2,81,95,85,0,81,0,0,0,5,0
+Equipment,Verac's brassard 50,Members,4.989,0,0,0,-6,-2,81,95,85,0,81,0,0,0,5,0
+Equipment,Verac's brassard 75,Members,4.989,0,0,0,-6,-2,81,95,85,0,81,0,0,0,5,0
+Equipment,Verac's brassard Undamaged,Members,4.989,0,0,0,-6,-2,81,95,85,0,81,0,0,0,5,0
+Equipment,Void knight top Broken,Members,6.803,0,0,0,0,0,45,45,45,45,45,0,0,0,0,0
+Equipment,Void knight top Locked,Members,6.803,0,0,0,0,0,45,45,45,45,45,0,0,0,0,0
+Equipment,Void knight top Normal,Members,6.803,0,0,0,0,0,45,45,45,45,45,0,0,0,0,0
+Equipment,Vyre noble blazer (grey),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Vyre noble blazer (purple),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Vyre noble blazer (red),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Vyre noble corset (grey),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Vyre noble corset (purple),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Vyre noble corset (red),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Vyre noble dress top (grey),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Vyre noble dress top (purple),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Vyre noble dress top (red),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Vyre noble top,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Vyre noble vest (grey),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Vyre noble vest (purple),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Vyre noble vest (red),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Vyrewatch top,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Equipment,White apron,Free-to-play,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,White chainbody,Members,6.803,0,0,0,-15,0,22,32,39,-3,24,0,0,0,1,0
+Equipment,White elegant blouse,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,White platebody,Members,9.979,0,0,0,-30,-10,41,40,30,-6,40,0,0,0,1,0
+Equipment,Wood camo top,Members,0.226,0,0,0,0,0,10,15,19,0,12,0,0,0,0,0
+Equipment,Woven top (blue),Members,0.07,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Woven top (brown),Members,0.07,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Woven top (yellow),Members,0.07,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Xerician top,Members,0.2,0,0,0,12,0,0,0,0,10,0,0,0,0,0,0
+Equipment,Yak-hide armour (top),Members,2.721,0,0,0,-5,0,25,20,15,-2,25,0,0,0,0,0
+Equipment,Yellow robe top,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Equipment,Zamorak d'hide body,Members,6,0,0,0,-15,30,55,47,60,50,55,0,0,0,1,0
+Equipment,Zamorak monk top,Free-to-play,0.907,0,0,0,2,0,0,0,0,3,0,0,0,0,3,0
+Equipment,Zamorak platebody,Free-to-play,9.979,0,0,0,-30,-10,82,80,72,-6,80,0,0,0,1,0
+Equipment,Zamorak robe top,Members,1.8,0,0,0,4,0,0,0,0,4,0,0,0,0,6,0
+Equipment,Zombie shirt,Free-to-play,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

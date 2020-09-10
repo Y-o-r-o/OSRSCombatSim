@@ -1,0 +1,83 @@
+Type,Name,Member,Weigth,StabAtk,SlashAtk,CrushAtk,MagicAtk,RangedAtk,StabDef,SlashDef,CrushDef,MagicDef,RangedDef,MeleStr,RangedStr,MagicStr,Prayer,Speed
+Equipment,Adamant arrow,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,31,0,0,0
+Equipment,Adamant bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0
+Equipment,Adamant brutal,Members,0,0,0,0,0,0,0,0,0,0,0,0,45,0,0,0
+Equipment,Adamant javelin,Members,0,0,0,0,0,0,0,0,0,0,0,0,107,0,0,0
+Equipment,Amethyst arrow,Members,0,0,0,0,0,0,0,0,0,0,0,0,55,0,0,0
+Equipment,Amethyst broad bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,115,0,0,0
+Equipment,Amethyst javelin,Members,0,0,0,0,0,0,0,0,0,0,0,0,135,0,0,0
+Equipment,Ancient blessing,Members,0.51,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Equipment,Barbed arrow,Members,0,0,0,0,0,46,0,0,0,0,0,0,125,0,0,0
+Equipment,Barbed bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0
+Equipment,Black brutal,Members,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,0
+Equipment,Blunt arrow,Members,0,0,0,0,0,46,0,0,0,0,0,0,125,0,0,0
+Equipment,Blurite bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0
+Equipment,Bolt rack,Members,0,0,0,0,0,0,0,0,0,0,0,0,55,0,0,0
+Equipment,Bone bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,49,0,0,0
+Equipment,Broad arrows,Members,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0
+Equipment,Broad bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0
+Equipment,Bronze arrow,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0
+Equipment,Bronze bolts,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0
+Equipment,Bronze brutal,Members,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0
+Equipment,Bronze javelin,Members,0,0,0,0,0,0,0,0,0,0,0,0,25,0,0,0
+Equipment,Bullet arrow,Members,0,0,0,0,0,46,0,0,0,0,0,0,125,0,0,0
+Equipment,Diamond bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,105,0,0,0
+Equipment,Diamond dragon bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,122,0,0,0
+Equipment,Dragon arrow,Members,0,0,0,0,0,0,0,0,0,0,0,0,60,0,0,0
+Equipment,Dragon bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,122,0,0,0
+Equipment,Dragon javelin,Members,0,0,0,0,0,0,0,0,0,0,0,0,150,0,0,0
+Equipment,Dragonstone bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,117,0,0,0
+Equipment,Dragonstone dragon bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,122,0,0,0
+Equipment,Emerald bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,85,0,0,0
+Equipment,Emerald dragon bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,122,0,0,0
+Equipment,Field arrow,Members,0,0,0,0,0,46,0,0,0,0,0,0,125,0,0,0
+Equipment,Guam tar,Members,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0
+Equipment,Harralander tar,Members,0,0,0,0,0,0,0,0,0,0,0,0,49,0,0,0
+Equipment,Holy blessing,Members,0.51,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Equipment,Honourable blessing,Members,0.51,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Equipment,Ice arrows,Members,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0
+Equipment,Iron arrow,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0
+Equipment,Iron bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,46,0,0,0
+Equipment,Iron brutal,Members,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0
+Equipment,Iron javelin,Members,0,0,0,0,0,0,0,0,0,0,0,0,42,0,0,0
+Equipment,Jade bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,30,0,0,0
+Equipment,Jade dragon bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,122,0,0,0
+Equipment,Kebbit bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0
+Equipment,Long kebbit bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,38,0,0,0
+Equipment,Marrentill tar,Members,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,0
+Equipment,Mith grapple,Members,0.001,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Mithril arrow,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,0
+Equipment,Mithril bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,82,0,0,0
+Equipment,Mithril brutal,Members,0,0,0,0,0,0,0,0,0,0,0,0,34,0,0,0
+Equipment,Mithril javelin,Members,0,0,0,0,0,0,0,0,0,0,0,0,85,0,0,0
+Equipment,Ogre arrow,Members,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,0
+Equipment,Onyx bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,120,0,0,0
+Equipment,Onyx dragon bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,122,0,0,0
+Equipment,Opal bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0
+Equipment,Opal dragon bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,122,0,0,0
+Equipment,Peaceful blessing,Members,0.51,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Equipment,Pearl bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,48,0,0,0
+Equipment,Pearl dragon bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,122,0,0,0
+Equipment,Rada's blessing 1,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Rada's blessing 2,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Equipment,Rada's blessing 3,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Equipment,Rada's blessing 4,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0
+Equipment,Ruby bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,103,0,0,0
+Equipment,Ruby dragon bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,122,0,0,0
+Equipment,Rune arrow,Members,0,0,0,0,0,0,0,0,0,0,0,0,49,0,0,0
+Equipment,Rune brutal,Members,0,0,0,0,0,0,0,0,0,0,0,0,60,0,0,0
+Equipment,Rune javelin,Members,0,0,0,0,0,0,0,0,0,0,0,0,124,0,0,0
+Equipment,Runite bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,115,0,0,0
+Equipment,Sapphire bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,83,0,0,0
+Equipment,Sapphire dragon bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,122,0,0,0
+Equipment,Silver bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,36,0,0,0
+Equipment,Steel arrow,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0
+Equipment,Steel bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0
+Equipment,Steel brutal,Members,0,0,0,0,0,0,0,0,0,0,0,0,19,0,0,0
+Equipment,Steel javelin,Members,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0
+Equipment,Tarromin tar,Members,0,0,0,0,0,0,0,0,0,0,0,0,31,0,0,0
+Equipment,Topaz bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,66,0,0,0
+Equipment,Topaz dragon bolts,Members,0,0,0,0,0,0,0,0,0,0,0,0,122,0,0,0
+Equipment,Training arrows,Free-to-play,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0
+Equipment,Unholy blessing,Members,0.51,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Equipment,War blessing,Members,0.51,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0

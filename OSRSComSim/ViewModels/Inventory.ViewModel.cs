@@ -11,11 +11,11 @@ namespace OSRSComSim.ViewModels
         private string inv_mode;
 
 
-        private ItemModel[] _inventory_item;
+        private object[] _inventory_item;
         private string[] _slot_png;
         private SelectItemViewModel _item_select;
 
-        public ItemModel[] InventoryItem
+        public object[] InventoryItem
         {
             get { return _inventory_item; }
             set
@@ -46,7 +46,7 @@ namespace OSRSComSim.ViewModels
         public object View { get; set; }
 
         public InventoryViewModel() : this(null, "Edit") { }
-        public InventoryViewModel(ItemModel[] InventoryItem, string inv_mode)
+        public InventoryViewModel(object[] InventoryItem, string inv_mode)
         {
             this.InventoryItem = InventoryItem;
             this.inv_mode = inv_mode;
@@ -66,10 +66,10 @@ namespace OSRSComSim.ViewModels
         {
             for (int i = 0; i < InventoryItem.Length; i++)
             {
-                if (InventoryItem[i].Name == "")
+                if ((InventoryItem[i] as ItemModel).Name == "")
                     setEmptySlotPng(i);
                 else
-                    SlotPng[i] = InventoryItem[i].Png;
+                    SlotPng[i] = (InventoryItem[i] as ItemModel).Png;
             }
         }
         private void setEmptySlotPng(int idx)

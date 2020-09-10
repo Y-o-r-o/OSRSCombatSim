@@ -4,6 +4,7 @@ using OSRSComSim.Models.Items.Equipments;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Policy;
 using System.Text.RegularExpressions;
 
 namespace OSRSComSim.ViewModels
@@ -24,20 +25,19 @@ namespace OSRSComSim.ViewModels
                 if (SelectedItemType != null)
                     return _lines.Select(line =>
                     {
-                        string[] data = line.Split(',');
-                        return data[0];
+                        return line.Split(',').Skip(1).FirstOrDefault();
                     });
                 else return null;
             }
         }
 
         public SelectItemViewModel() : this(null, null, true) { }
-        public SelectItemViewModel(EquipedModel player_equiped = null, string selected_item_type = null, bool view = true)
+        public SelectItemViewModel(EquipedModel player_equiped = null, string selected_slot = null, bool view = true)
         {
             this.player_equiped = player_equiped;
 
-            _lines = getCSV(selected_item_type);
-            SelectedItemType = selected_item_type;
+            SelectedItemType = selected_slot;
+            _lines = getCSV(selected_slot);
 
             if(view) View = new SelectItemView(this);
         }
@@ -55,52 +55,50 @@ namespace OSRSComSim.ViewModels
             }
             return "";
         }
-        private string[] getCSV(string selected_item)
+        private string[] getCSV(string selected_slot)
         {
             string[] lines = null;
-            switch (selected_item)
+            switch (selected_slot)
             {
                 case "Head":
-                    lines = Properties.Resources.Head_slot_table.Split('\n');
+                    lines = Properties.Resources.Head.Split('\n');
                     break;
                 case "Neck":
-                    lines = Properties.Resources.Neck_slot_table.Split('\n');
+                    lines = Properties.Resources.Neck.Split('\n');
                     break;
                 case "Cape":
-                    lines = Properties.Resources.Cape_slot_table.Split('\n');
+                    lines = Properties.Resources.Cape.Split('\n');
                     break;
                 case "Ammo":
-                    lines = Properties.Resources.Ammo_slot_table.Split('\n');
+                    lines = Properties.Resources.Ammo.Split('\n');
                     break;
                 case "Weapon":
-                    lines = Properties.Resources.Weapon_slot_table.Split('\n');
+                    lines = Properties.Resources.Weapon.Split('\n');
                     break;
                 case "Body":
-                    lines = Properties.Resources.Body_slot_table.Split('\n');
+                    lines = Properties.Resources.Body.Split('\n');
                     break;
                 case "Shield":
-                    lines = Properties.Resources.Shield_slot_table.Split('\n');
+                    lines = Properties.Resources.Shield.Split('\n');
                     break;
                 case "Legs":
-                    lines = Properties.Resources.Legs_slot_table.Split('\n');
+                    lines = Properties.Resources.Legs.Split('\n');
                     break;
                 case "Feet":
-                    lines = Properties.Resources.Feet_slot_table.Split('\n');
+                    lines = Properties.Resources.Feet.Split('\n');
                     break;
                 case "Hands":
-                    lines = Properties.Resources.Hands_slot_table.Split('\n');
+                    lines = Properties.Resources.Hands.Split('\n');
                     break;
                 case "Ring":
-                    lines = Properties.Resources.Ring_slot_table.Split('\n');
+                    lines = Properties.Resources.Ring.Split('\n');
                     break;
-                case "Food":
+                default:
+                    /*All lines++
                     lines = Properties.Resources.Food.Split('\n');
-                    break;
-                case "Potion":
                     lines = Properties.Resources.Potions.Split('\n');
-                    break;
-                case "Runes":
                     lines = Properties.Resources.Runes.Split('\n');
+                    */
                     break;
             }
             if (SelectedItemType != null)
@@ -155,9 +153,14 @@ namespace OSRSComSim.ViewModels
                     player_equiped.Ring = new EquipmentModel("Ring", getEquipmentData(equipment_name));
                     break;
                 default:
-                    player_equiped.InventoryItem[getFirstNumberFromString(SelectedItemType)] = new ItemModel(); //////
+                    selectForInventory();
                     break;
             }
+        }
+
+        public void selectForInventory()
+        {
+            player_equiped.InventoryItem[getFirstNumberFromString(SelectedItemType)] = new ItemModel(); //////
         }
 
         public void deselect()

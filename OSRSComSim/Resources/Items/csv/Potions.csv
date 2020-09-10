@@ -1,55 +1,55 @@
-Name,Member,Weigth,Notes
-Imp repellent,,0.1,Used in impling hunting and to make impling jars. Many types of flowers can be used to make it.
-Attack potion,,0.1,Temporarily raises Attack level by 10% + 3.
-Antipoison,,0.1,Cures poison and provides immunity for 90 seconds.
-Relicym's balm,,0.1,Cures disease and provides immunity for a short time.
-Strength potion,,0.1,Temporarily raises Strength level by 10% + 3.
-Serum 207,,0.1,Temporarily cures Afflicted NPCs in Mort'ton
-Guthix rest tea,,0.1,"Cures poison, restores some run energy, and heals 5 Hitpoints (with the ability to overheal)."
-Compost potion,,0.1,Used to convert Compost into Supercompost.
-Restore potion,,0.1,Restores combat-related stats back to normal by 30% of level plus 10.Does not restore Hitpoints or Prayer points.
-Guthix balance,,0.1,"Used against Vampyre Juvinates and Vampyre Juveniles, particularly in the Temple Trekking minigame."
-Blamish oil,,0.1,Used to make oily fishing rods during the Heroes' Quest.
-Energy potion,,0.1,Restores 10% run energy.
-Defence potion,,0.1,Temporarily raises Defence level by 10% + 3.
-Agility potion,,0.1,Temporarily raises Agility level by 3.
-Combat potion,,0.1,Effect of both Attack potion and Strength potion.
-Prayer potion,,0.1,Restores 25% of your total Prayer points plus 7. Effect increased by Holy wrench.
-Super attack,,0.1,Temporarily increases Attack level by 15% plus 5.
-Superantipoison,,0.1,Cures poison and provides immunity for 6 minutes.
-Fishing potion,,0.1,Temporarily raises Fishing level by 3.
-Super energy,,0.1,Restores 20% run energy.
-Shrink-me-quick,,0.1,Reduces player size during the Grim Tales quest.
-Hunter potion,,0.1,Temporarily raises Hunter level by 3.
-Super strength,,0.1,Temporarily raises Strength level by 15% + 5.
-Magic essence,,0.1,Temporarily raises Magic level by 3.
-Weapon poison,,0.1,"For use on arrows, daggers, spears, hastae, javelins, darts, knives, and bolts. Poison starts at 4 damage for melee weapons and 2 damage for ranged weapons."
-Super restore,,0.1,Restores all stats (except hitpoints) by 25% + 8.
-Sanfew serum,,0.1,"Sanfew Serum combines the properties of super restore, superantipoison, and relicym's balm potions all in one."
-Super defence,,0.1,Temporarily increases Defence level by 15% + 5.
-Antidote+,,0.1,Cures and gives immunity to poison for 9 minutes.
-Antifire potion,,0.1,Provides some resistance to dragon breath. Can be used with an anti-dragonfire shield to completely prevent dragonfire damage. Each dose lasts about 6 minutes.
-Divine super attack potion,,0.1,Boosts the same as a super attack while lasting for 5 minutes with no state degradation.
-Divine super defence potion,,0.1,Boosts the same as a super defence while lasting for 5 minutes with no state degradation.
-Divine super strength potion,,0.1,Boosts the same as a super strength while lasting for 5 minutes with no state degradation.
-Ranging potion,,0.1,Temporarily increases Ranged level by 10% + 4.
-Weapon poison+,,0.1,"For use on arrows, daggers, spears, hastae, javelins, darts, knives, and bolts. Poison starts at 5 damage for melee weapons and 3 damage for ranged weapons."
-Divine ranging potion,,0.1,Boosts the same as a ranging potion while lasting for 5 minutes with no state degradation.
-Magic potion,,0.1,Temporarily raises Magic level by 4.
-Stamina potion,,0.1,Stamina potions restore 20% run energy and reduce the rate of energy depletion by 70% for 2 minutes.
-Zamorak brew,,0.1,"Boosts Strength by 12% + 2 and Attack by 20% + 2, but lowers Defence and remaining Hitpoints by 10% + 2."
-Divine magic potion,,0.1,Boosts the same as a magic potion while lasting for 5 minutes with no state degradation.
-Antidote++,,0.1,Cures poison and provides immunity for 12 minutes.
-Bastion potion,,0.1,Temporarily increases Ranged by +10% + 4 and Defence by 15% + 5.
-Battlemage potion,,0.1,Temporarily increases Magic by 4 and Defence by 15% + 5.
-Saradomin brew,,0.1,"Boosts Defence and Hitpoints but lowers Attack, Strength, Magic, and Ranged."
-Weapon poison++,,0.1,"For use on arrows, daggers, spears, hastae, javelins, darts, knives, and bolts.Poison starts at 6 damage for melee weapons and 4 damage for ranged weapons."
-Extended antifire,,0.1,Provides some resistance to dragon breath. Each dose lasts about 12 minutes.
-Divine bastion potion,,0.1,Boosts the same as a bastion potion while lasting for 5 minutes with no state degradation.
-Divine battlemage potion,,0.1,Boosts the same as a battlemage potion while lasting for 5 minutes with no state degradation.
-Anti-venom,,0.1,Instantly cures venom.
-Super combat potion,,0.1,"Combines the properties of super attack, super strength, and super defence potions."
-Super antifire potion,,0.1,Grants complete immunity to dragonfire for three minutes.
-Anti-venom+,,0.1,Instantly cures venom and provides immunity to it for three minutes.
-Divine super combat potion,,0.1,Boosts the same as a super combat potion while lasting for 5 minutes with no state degradation.
-Extended super antifire,,0.1,Grants complete immunity to dragonfire for six minutes.
+Type,Name,Member,Weigth,Notes
+Potions,Imp repellent,,0.1,Used in impling hunting and to make impling jars. Many types of flowers can be used to make it.
+Potions,Attack potion,,0.1,Temporarily raises Attack level by 10% + 3.
+Potions,Antipoison,,0.1,Cures poison and provides immunity for 90 seconds.
+Potions,Relicym's balm,,0.1,Cures disease and provides immunity for a short time.
+Potions,Strength potion,,0.1,Temporarily raises Strength level by 10% + 3.
+Potions,Serum 207,,0.1,Temporarily cures Afflicted NPCs in Mort'ton
+Potions,Guthix rest tea,,0.1,"Cures poison, restores some run energy, and heals 5 Hitpoints (with the ability to overheal)."
+Potions,Compost potion,,0.1,Used to convert Compost into Supercompost.
+Potions,Restore potion,,0.1,Restores combat-related stats back to normal by 30% of level plus 10.Does not restore Hitpoints or Prayer points.
+Potions,Guthix balance,,0.1,"Used against Vampyre Juvinates and Vampyre Juveniles, particularly in the Temple Trekking minigame."
+Potions,Blamish oil,,0.1,Used to make oily fishing rods during the Heroes' Quest.
+Potions,Energy potion,,0.1,Restores 10% run energy.
+Potions,Defence potion,,0.1,Temporarily raises Defence level by 10% + 3.
+Potions,Agility potion,,0.1,Temporarily raises Agility level by 3.
+Potions,Combat potion,,0.1,Effect of both Attack potion and Strength potion.
+Potions,Prayer potion,,0.1,Restores 25% of your total Prayer points plus 7. Effect increased by Holy wrench.
+Potions,Super attack,,0.1,Temporarily increases Attack level by 15% plus 5.
+Potions,Superantipoison,,0.1,Cures poison and provides immunity for 6 minutes.
+Potions,Fishing potion,,0.1,Temporarily raises Fishing level by 3.
+Potions,Super energy,,0.1,Restores 20% run energy.
+Potions,Shrink-me-quick,,0.1,Reduces player size during the Grim Tales quest.
+Potions,Hunter potion,,0.1,Temporarily raises Hunter level by 3.
+Potions,Super strength,,0.1,Temporarily raises Strength level by 15% + 5.
+Potions,Magic essence,,0.1,Temporarily raises Magic level by 3.
+Potions,Weapon poison,,0.1,"For use on arrows, daggers, spears, hastae, javelins, darts, knives, and bolts. Poison starts at 4 damage for melee weapons and 2 damage for ranged weapons."
+Potions,Super restore,,0.1,Restores all stats (except hitpoints) by 25% + 8.
+Potions,Sanfew serum,,0.1,"Sanfew Serum combines the properties of super restore, superantipoison, and relicym's balm potions all in one."
+Potions,Super defence,,0.1,Temporarily increases Defence level by 15% + 5.
+Potions,Antidote+,,0.1,Cures and gives immunity to poison for 9 minutes.
+Potions,Antifire potion,,0.1,Provides some resistance to dragon breath. Can be used with an anti-dragonfire shield to completely prevent dragonfire damage. Each dose lasts about 6 minutes.
+Potions,Divine super attack potion,,0.1,Boosts the same as a super attack while lasting for 5 minutes with no state degradation.
+Potions,Divine super defence potion,,0.1,Boosts the same as a super defence while lasting for 5 minutes with no state degradation.
+Potions,Divine super strength potion,,0.1,Boosts the same as a super strength while lasting for 5 minutes with no state degradation.
+Potions,Ranging potion,,0.1,Temporarily increases Ranged level by 10% + 4.
+Potions,Weapon poison+,,0.1,"For use on arrows, daggers, spears, hastae, javelins, darts, knives, and bolts. Poison starts at 5 damage for melee weapons and 3 damage for ranged weapons."
+Potions,Divine ranging potion,,0.1,Boosts the same as a ranging potion while lasting for 5 minutes with no state degradation.
+Potions,Magic potion,,0.1,Temporarily raises Magic level by 4.
+Potions,Stamina potion,,0.1,Stamina potions restore 20% run energy and reduce the rate of energy depletion by 70% for 2 minutes.
+Potions,Zamorak brew,,0.1,"Boosts Strength by 12% + 2 and Attack by 20% + 2, but lowers Defence and remaining Hitpoints by 10% + 2."
+Potions,Divine magic potion,,0.1,Boosts the same as a magic potion while lasting for 5 minutes with no state degradation.
+Potions,Antidote++,,0.1,Cures poison and provides immunity for 12 minutes.
+Potions,Bastion potion,,0.1,Temporarily increases Ranged by +10% + 4 and Defence by 15% + 5.
+Potions,Battlemage potion,,0.1,Temporarily increases Magic by 4 and Defence by 15% + 5.
+Potions,Saradomin brew,,0.1,"Boosts Defence and Hitpoints but lowers Attack, Strength, Magic, and Ranged."
+Potions,Weapon poison++,,0.1,"For use on arrows, daggers, spears, hastae, javelins, darts, knives, and bolts.Poison starts at 6 damage for melee weapons and 4 damage for ranged weapons."
+Potions,Extended antifire,,0.1,Provides some resistance to dragon breath. Each dose lasts about 12 minutes.
+Potions,Divine bastion potion,,0.1,Boosts the same as a bastion potion while lasting for 5 minutes with no state degradation.
+Potions,Divine battlemage potion,,0.1,Boosts the same as a battlemage potion while lasting for 5 minutes with no state degradation.
+Potions,Anti-venom,,0.1,Instantly cures venom.
+Potions,Super combat potion,,0.1,"Combines the properties of super attack, super strength, and super defence potions."
+Potions,Super antifire potion,,0.1,Grants complete immunity to dragonfire for three minutes.
+Potions,Anti-venom+,,0.1,Instantly cures venom and provides immunity to it for three minutes.
+Potions,Divine super combat potion,,0.1,Boosts the same as a super combat potion while lasting for 5 minutes with no state degradation.
+Potions,Extended super antifire,,0.1,Grants complete immunity to dragonfire for six minutes.

@@ -1,0 +1,174 @@
+Type,Name,Member,Weigth,StabAtk,SlashAtk,CrushAtk,MagicAtk,RangedAtk,StabDef,SlashDef,CrushDef,MagicDef,RangedDef,MeleStr,RangedStr,MagicStr,Prayer,Speed
+Equipment,'perfect' necklace,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,10th squad sigil,Members,0.085,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,3rd age amulet,Members,0.003,0,0,0,15,0,0,0,0,10,0,0,0,0,0,0
+Equipment,Amulet of accuracy,Free-to-play,0.01,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0
+Equipment,Amulet of avarice,Members,0.01,10,10,10,10,10,3,3,3,3,3,6,0,0,3,0
+Equipment,Amulet of blood fury,Members,0.02,10,10,10,10,10,15,15,15,15,15,8,0,0,5,0
+Equipment,Amulet of bounty,Members,0.007,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Amulet of chemistry,Members,0.007,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Amulet of defence,Free-to-play,0.01,0,0,0,0,0,7,7,7,7,7,0,0,0,0,0
+Equipment,Amulet of defence (t),Free-to-play,0.01,0,0,0,0,0,7,7,7,7,7,0,0,0,0,0
+Equipment,Amulet of eternal glory,Members,0.01,10,10,10,10,10,3,3,3,3,3,6,0,0,3,0
+Equipment,Amulet of fury,Members,0.01,10,10,10,10,10,15,15,15,15,15,8,0,0,5,0
+Equipment,Amulet of fury (or),Members,0.01,10,10,10,10,10,15,15,15,15,15,8,0,0,5,0
+Equipment,Amulet of glory (t) (t1),Members,0.01,10,10,10,10,10,3,3,3,3,3,6,0,0,3,0
+Equipment,Amulet of glory (t) (t2),Members,0.01,10,10,10,10,10,3,3,3,3,3,6,0,0,3,0
+Equipment,Amulet of glory (t) (t3),Members,0.01,10,10,10,10,10,3,3,3,3,3,6,0,0,3,0
+Equipment,Amulet of glory (t) (t4),Members,0.01,10,10,10,10,10,3,3,3,3,3,6,0,0,3,0
+Equipment,Amulet of glory (t) (t5),Members,0.01,10,10,10,10,10,3,3,3,3,3,6,0,0,3,0
+Equipment,Amulet of glory (t) (t6),Members,0.01,10,10,10,10,10,3,3,3,3,3,6,0,0,3,0
+Equipment,Amulet of glory (t) Uncharged,Members,0.01,10,10,10,10,10,3,3,3,3,3,6,0,0,3,0
+Equipment,Amulet of glory (1),Members,0.01,10,10,10,10,10,3,3,3,3,3,6,0,0,3,0
+Equipment,Amulet of glory (2),Members,0.01,10,10,10,10,10,3,3,3,3,3,6,0,0,3,0
+Equipment,Amulet of glory (3),Members,0.01,10,10,10,10,10,3,3,3,3,3,6,0,0,3,0
+Equipment,Amulet of glory (4),Members,0.01,10,10,10,10,10,3,3,3,3,3,6,0,0,3,0
+Equipment,Amulet of glory (5),Members,0.01,10,10,10,10,10,3,3,3,3,3,6,0,0,3,0
+Equipment,Amulet of glory (6),Members,0.01,10,10,10,10,10,3,3,3,3,3,6,0,0,3,0
+Equipment,Amulet of glory Uncharged,Members,0.01,10,10,10,10,10,3,3,3,3,3,6,0,0,3,0
+Equipment,Amulet of magic,Free-to-play,0.01,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Amulet of magic (t),Free-to-play,0.01,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Amulet of nature,Members,0.007,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Amulet of power,Free-to-play,0.01,6,6,6,6,6,6,6,6,6,6,6,0,0,1,0
+Equipment,Amulet of power (t),Free-to-play,0.01,6,6,6,6,6,6,6,6,6,6,6,0,0,1,0
+Equipment,Amulet of strength,Free-to-play,0.01,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0
+Equipment,Amulet of the damned Full,Members,0.1,10,10,10,10,10,3,3,3,3,3,6,0,0,3,0
+Equipment,Amulet of the damned Used,Members,0.1,10,10,10,10,10,3,3,3,3,3,6,0,0,3,0
+Equipment,Amulet of torture,Members,0.01,15,15,15,0,0,0,0,0,0,0,10,0,0,2,0
+Equipment,Amulet of torture (or),Members,0.01,15,15,15,0,0,0,0,0,0,0,10,0,0,2,0
+Equipment,Ancient stole,Members,0.002,0,0,0,2,0,0,0,0,2,0,0,0,0,10,0
+Equipment,Arceuus scarf,Members,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Armadyl pendant,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Armadyl stole,Members,0.01,0,0,0,2,0,0,0,0,2,0,0,0,0,10,0
+Equipment,Bandos stole,Members,0.01,0,0,0,2,0,0,0,0,2,0,0,0,0,10,0
+Equipment,Beads of the dead,Members,0.01,1,1,1,1,1,1,1,1,1,1,1,0,0,1,0
+Equipment,Berserker necklace,Members,0.01,-10,-10,-10,0,0,-20,-20,-20,-20,-20,7,0,0,3,0
+Equipment,Berserker necklace (or),Members,0.01,-10,-10,-10,0,0,-20,-20,-20,-20,-20,7,0,0,3,0
+Equipment,Binding necklace,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Bobble scarf,Free-to-play,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Bonecrusher necklace,Members,0.025,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0
+Equipment,Brass necklace,Free-to-play,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Burning amulet (1),Members,0.007,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Burning amulet (2),Members,0.007,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Burning amulet (3),Members,0.007,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Burning amulet (4),Members,0.007,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Burning amulet (5),Members,0.007,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Camulet,Members,0.007,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Cat training medal,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Catspeak amulet,Members,1.36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Catspeak amulet(e),Members,1.36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Clean necklace,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Clown bow tie,Free-to-play,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Crone-made amulet,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Crystal pendant,Members,0.005,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Dark bow tie,Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Desert amulet 1,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Desert amulet 2,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Desert amulet 3,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Desert amulet 4,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Diamond amulet,Free-to-play,0.007,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Diamond necklace,Free-to-play,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Digsite pendant (1),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Digsite pendant (2),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Digsite pendant (3),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Digsite pendant (4),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Digsite pendant (5),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Dodgy necklace,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Dragon necklace,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Dragonbone necklace,Members,0.005,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0
+Equipment,Dragonstone amulet,Members,0.007,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Drakan's medallion,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Emerald amulet,Free-to-play,0.007,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Emerald necklace,Free-to-play,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Games necklace (1),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Games necklace (2),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Games necklace (3),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Games necklace (4),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Games necklace (5),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Games necklace (6),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Games necklace (7),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Games necklace (8),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ghostspeak amulet Enchanted,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ghostspeak amulet Normal,Free-to-play,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Glarial's amulet,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Gnome amulet,Members,0.01,0,0,0,0,0,13,13,13,0,0,0,0,0,0,0
+Equipment,Gnome scarf,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Gold amulet,Free-to-play,0.007,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Gold necklace,Free-to-play,0.007,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Guthix stole,Members,0.01,0,0,0,2,0,0,0,0,2,0,0,0,0,10,0
+Equipment,Hallowed symbol,Members,0.007,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ham logo,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Hazeel's mark,Members,0.012,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Holy symbol,Free-to-play,0.007,0,0,0,0,0,2,2,2,2,2,0,0,0,8,0
+Equipment,Hosidius scarf,Members,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Jade amulet,Members,0.007,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Jade necklace,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Jester scarf,Free-to-play,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Lathas' amulet,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Light bow tie,Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Lovakengj scarf,Members,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Lunar amulet,Members,0.01,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0
+Equipment,M'speak amulet,Members,1.36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Necklace of anguish,Members,0.01,0,0,0,0,15,0,0,0,0,0,0,5,0,2,0
+Equipment,Necklace of anguish (or),Members,0.01,0,0,0,0,15,0,0,0,0,0,0,5,0,2,0
+Equipment,Necklace of faith,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Necklace of passage (1),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Necklace of passage (2),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Necklace of passage (3),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Necklace of passage (4),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Necklace of passage (5),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Occult necklace,Members,0.005,0,0,0,12,0,0,0,0,0,0,0,0,10,2,0
+Equipment,Occult necklace (or),Members,0.005,0,0,0,12,0,0,0,0,0,0,0,0,10,2,0
+Equipment,Onyx amulet,Members,0.007,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Onyx necklace,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Opal amulet,Members,0.007,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Opal necklace,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Pendant of lucien,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Phoenix necklace,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Piscarilius scarf,Members,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Pre-nature amulet,Members,0.007,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Rainbow scarf,Free-to-play,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ruby amulet,Free-to-play,0.007,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Ruby necklace,Free-to-play,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Salve amulet,Members,0.007,0,0,0,0,0,3,3,3,0,0,0,0,0,3,0
+Equipment,Salve amulet (e),Members,0.007,0,0,0,0,0,3,3,3,0,0,0,0,0,3,0
+Equipment,Salve amulet(ei),Members,0.007,0,0,0,0,0,3,3,3,0,0,0,0,0,3,0
+Equipment,Salve amulet(i),Members,0.007,0,0,0,0,0,3,3,3,0,0,0,0,0,3,0
+Equipment,Sapphire amulet,Free-to-play,0.007,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Sapphire necklace,Free-to-play,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Saradomin stole,Members,0.01,0,0,0,2,0,0,0,0,2,0,0,0,0,10,0
+Equipment,Seal of passage,Members,4.535,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Shayzien scarf,Members,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Silver necklace Dusted,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Silver necklace Normal,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Skills necklace (1),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Skills necklace (2),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Skills necklace (3),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Skills necklace (4),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Skills necklace (5),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Skills necklace (6),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Skills necklace Uncharged,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Strength amulet (t),Free-to-play,0.01,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0
+Equipment,Strung rabbit foot,Members,0.03,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Topaz amulet,Members,0.007,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Topaz necklace,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Tri-jester scarf,Free-to-play,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Unblessed symbol,Free-to-play,0.007,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Unholy symbol,Members,0.007,2,2,2,2,2,0,0,0,0,0,0,0,0,8,0
+Equipment,Unpowered symbol,Members,0.007,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Void seal (1),Members,0.005,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0
+Equipment,Void seal (2),Members,0.005,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0
+Equipment,Void seal (3),Members,0.005,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0
+Equipment,Void seal (4),Members,0.005,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0
+Equipment,Void seal (5),Members,0.005,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0
+Equipment,Void seal (6),Members,0.005,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0
+Equipment,Void seal (7),Members,0.005,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0
+Equipment,Void seal (8),Members,0.005,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0
+Equipment,Witchwood icon,Members,0.007,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+Equipment,Woolly scarf,Free-to-play,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Xeric's talisman Charged,Members,0.06,0,0,0,3,0,0,0,0,1,0,0,0,0,0,0
+Equipment,Xeric's talisman Inert,Members,0.06,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Yin yang amulet,Free-to-play,0.001,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Zamorak stole,Members,0.01,0,0,0,2,0,0,0,0,2,0,0,0,0,10,0
+Equipment,Zenyte amulet,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equipment,Zenyte necklace,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

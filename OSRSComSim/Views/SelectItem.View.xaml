@@ -18,7 +18,7 @@
         <Viewbox HorizontalAlignment="Left">
             <StackPanel Orientation="Horizontal">
                 <Label Content="Select" Grid.Row="0" Foreground="#FF493C1F" FontWeight="Bold" FontStyle="Italic"/>
-                <Label Content="{Binding SelectedItemType}" Grid.Row="0" Foreground="#FF493C1F" FontWeight="Bold" FontStyle="Italic"/>
+                <Label Content="{Binding SelectedItemSlotName}" Grid.Row="0" Foreground="#FF493C1F" FontWeight="Bold" FontStyle="Italic"/>
                 <Label Content=":" Grid.Row="0" Foreground="#FF493C1F" FontWeight="Bold" FontStyle="Italic" Margin="-5,0,0,0"/>
             </StackPanel>
         </Viewbox>

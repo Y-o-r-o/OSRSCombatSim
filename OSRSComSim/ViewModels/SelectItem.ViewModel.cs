@@ -16,13 +16,13 @@ namespace OSRSComSim.ViewModels
 
         public object View { get; set; }
 
-        public string SelectedItemType { get; set; }
+        public string SelectedItemSlotName { get; set; }
 
         public IEnumerable<string> ReadCSV
         {
             get
             {
-                if (SelectedItemType != null)
+                if (SelectedItemSlotName != "")
                     return _lines.Select(line =>
                     {
                         return line.Split(',').Skip(1).FirstOrDefault();
@@ -31,18 +31,19 @@ namespace OSRSComSim.ViewModels
             }
         }
 
-        public SelectItemViewModel() : this(null, null, true) { }
-        public SelectItemViewModel(EquipedModel player_equiped = null, string selected_slot = null, bool view = true)
+        public SelectItemViewModel() : this(null, "", true) { }
+        public SelectItemViewModel(EquipedModel player_equiped = null, string selected_slot = "", bool view = true)
         {
             this.player_equiped = player_equiped;
 
-            SelectedItemType = selected_slot;
+            SelectedItemSlotName = selected_slot;
             _lines = getCSV(selected_slot);
+
 
             if(view) View = new SelectItemView(this);
         }
         
-        private string getEquipmentData(string equipment_name)
+        private string getItemData(string equipment_name)
         {
             int i = 0;
             foreach (string eqp in _lines)
@@ -58,50 +59,36 @@ namespace OSRSComSim.ViewModels
         private string[] getCSV(string selected_slot)
         {
             string[] lines = null;
-            switch (selected_slot)
-            {
-                case "Head":
-                    lines = Properties.Resources.Head.Split('\n');
-                    break;
-                case "Neck":
-                    lines = Properties.Resources.Neck.Split('\n');
-                    break;
-                case "Cape":
-                    lines = Properties.Resources.Cape.Split('\n');
-                    break;
-                case "Ammo":
-                    lines = Properties.Resources.Ammo.Split('\n');
-                    break;
-                case "Weapon":
-                    lines = Properties.Resources.Weapon.Split('\n');
-                    break;
-                case "Body":
-                    lines = Properties.Resources.Body.Split('\n');
-                    break;
-                case "Shield":
-                    lines = Properties.Resources.Shield.Split('\n');
-                    break;
-                case "Legs":
-                    lines = Properties.Resources.Legs.Split('\n');
-                    break;
-                case "Feet":
-                    lines = Properties.Resources.Feet.Split('\n');
-                    break;
-                case "Hands":
-                    lines = Properties.Resources.Hands.Split('\n');
-                    break;
-                case "Ring":
-                    lines = Properties.Resources.Ring.Split('\n');
-                    break;
-                default:
-                    /*All lines++
-                    lines = Properties.Resources.Food.Split('\n');
-                    lines = Properties.Resources.Potions.Split('\n');
-                    lines = Properties.Resources.Runes.Split('\n');
-                    */
-                    break;
-            }
-            if (SelectedItemType != null)
+            if (selected_slot.Contains("Head"))
+                lines = Properties.Resources.Head.Split('\n');
+            if (selected_slot.Contains("Neck"))
+                lines = Properties.Resources.Neck.Split('\n');
+            if (selected_slot.Contains("Cape"))
+                lines = Properties.Resources.Cape.Split('\n');
+            if (selected_slot.Contains("Ammo"))
+                lines = Properties.Resources.Ammo.Split('\n');
+            if (selected_slot.Contains("Weapon"))
+                lines = Properties.Resources.Weapon.Split('\n');
+            if (selected_slot.Contains("Body"))
+                lines = Properties.Resources.Body.Split('\n');
+            if (selected_slot.Contains("Shield"))
+                lines = Properties.Resources.Shield.Split('\n');
+            if (selected_slot.Contains("Legs"))
+                lines = Properties.Resources.Legs.Split('\n');
+            if (selected_slot.Contains("Feet"))
+                lines = Properties.Resources.Feet.Split('\n');
+            if (selected_slot.Contains("Handds"))
+                lines = Properties.Resources.Hands.Split('\n');
+            if (selected_slot.Contains("Ring"))
+                lines = Properties.Resources.Ring.Split('\n');
+            if (selected_slot.Contains("Food"))
+                lines = Properties.Resources.Food.Split('\n');
+            if (selected_slot.Contains("Potions"))
+                lines = Properties.Resources.Potions.Split('\n');
+            if (selected_slot.Contains("Runes"))
+                lines = Properties.Resources.Runes.Split('\n');
+            
+            if (SelectedItemSlotName != "")
             {
                 lines = lines.Skip(1).ToArray();
                 lines = lines.Take(lines.Count() - 1).ToArray();
@@ -112,60 +99,80 @@ namespace OSRSComSim.ViewModels
         {
             return Int32.Parse(Regex.Match(str, @"\d+").Value);
         }
-
         public void select(string equipment_name) //exmp: inv_item_0 ... 27
         {
-            switch (SelectedItemType)
+            switch (SelectedItemSlotName)
             {
                 case "Head":
-                    player_equiped.Head = new EquipmentModel("Head", getEquipmentData(equipment_name));
+                    player_equiped.Head = new EquipmentModel("Head", getItemData(equipment_name));
                     break;
                 case "Neck":
-                    player_equiped.Neck = new EquipmentModel("Neck", getEquipmentData(equipment_name));
+                    player_equiped.Neck = new EquipmentModel("Neck", getItemData(equipment_name));
                     break;
                 case "Cape":
-                    player_equiped.Cape = new EquipmentModel("Cape", getEquipmentData(equipment_name));
+                    player_equiped.Cape = new EquipmentModel("Cape", getItemData(equipment_name));
                     break;
                 case "Ammo":
-                    player_equiped.Ammo = new EquipmentModel("Ammo", getEquipmentData(equipment_name));
+                    player_equiped.Ammo = new EquipmentModel("Ammo", getItemData(equipment_name));
                     break;
                 case "Weapon":
-                    player_equiped.Weapon = new WeaponModel(getEquipmentData(equipment_name));
+                    player_equiped.Weapon = new WeaponModel(getItemData(equipment_name));
                     if (player_equiped.Weapon.is_two_handed) player_equiped.Shield = new EquipmentModel("Shield");
                     break;
                 case "Body":
-                    player_equiped.Body = new EquipmentModel("Body", getEquipmentData(equipment_name));
+                    player_equiped.Body = new EquipmentModel("Body", getItemData(equipment_name));
                     break;
                 case "Shield":
-                    player_equiped.Shield = new EquipmentModel("Shield", getEquipmentData(equipment_name));
+                    player_equiped.Shield = new EquipmentModel("Shield", getItemData(equipment_name));
                     if (player_equiped.Weapon.is_two_handed) player_equiped.Weapon = new WeaponModel();
                     break;
                 case "Legs":
-                    player_equiped.Legs = new EquipmentModel("Legs", getEquipmentData(equipment_name));
+                    player_equiped.Legs = new EquipmentModel("Legs", getItemData(equipment_name));
                     break;
                 case "Feet":
-                    player_equiped.Feet = new EquipmentModel("Feet", getEquipmentData(equipment_name));
+                    player_equiped.Feet = new EquipmentModel("Feet", getItemData(equipment_name));
                     break;
                 case "Hands":
-                    player_equiped.Hands = new EquipmentModel("Hands", getEquipmentData(equipment_name));
+                    player_equiped.Hands = new EquipmentModel("Hands", getItemData(equipment_name));
                     break;
                 case "Ring":
-                    player_equiped.Ring = new EquipmentModel("Ring", getEquipmentData(equipment_name));
+                    player_equiped.Ring = new EquipmentModel("Ring", getItemData(equipment_name));
                     break;
                 default:
-                    selectForInventory();
+                    selectForInventory(equipment_name);
                     break;
             }
         }
-
-        public void selectForInventory()
+        public void selectForInventory(string equipment_name)
         {
-            player_equiped.InventoryItem[getFirstNumberFromString(SelectedItemType)] = new ItemModel(); //////
-        }
+            int inv_idx = getFirstNumberFromString(SelectedItemSlotName);
 
+            string item_data = getItemData(equipment_name);
+            string item_type = item_data.Split(',')[0];
+
+            switch (item_type)
+            {
+                case "Equipment":
+                    player_equiped.InventoryItem[inv_idx] = new EquipmentModel(SelectedItemSlotName, item_data);
+                    break;
+                case "Weapon":
+                    player_equiped.InventoryItem[inv_idx] = new WeaponModel(item_data);
+                    break;
+                case "Food":
+                    player_equiped.InventoryItem[inv_idx] = new FoodModel();
+                    break;
+                case "Potion":
+                    player_equiped.InventoryItem[inv_idx] = new PotionModel();
+                    break;
+                case "Runes":
+                    player_equiped.InventoryItem[inv_idx] = new RunesModel();
+                    break;
+            }
+        
+        }
         public void deselect()
         {
-            switch (SelectedItemType)
+            switch (SelectedItemSlotName)
             {
                 case "Head":
                     player_equiped.Head = new EquipmentModel("Head");
@@ -201,14 +208,16 @@ namespace OSRSComSim.ViewModels
                     player_equiped.Ring = new EquipmentModel("Ring");
                     break;
                 default:
-                    player_equiped.InventoryItem[getFirstNumberFromString(SelectedItemType)] = new ItemModel(); //////
+                    player_equiped.InventoryItem[getFirstNumberFromString(SelectedItemSlotName)] = new ItemModel(); //////
                     break;
             }
         }
 
-        public void stopView()
-        {
-            //_wornequipmentviewmodel.selectEquipmentViewModel = null;
-        }
+
+
+
+
+
+
     }
 }

@@ -16,5 +16,10 @@ namespace OSRSComSim.Views
             DataContext = view_model;
             InitializeComponent();
         }
+
+        private void Slot_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+            view_model.slotClicked((sender as Button).Tag.ToString());
+        }
     }
 }

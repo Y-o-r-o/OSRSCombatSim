@@ -102,12 +102,12 @@ namespace OSRSComSim.ViewModels
 
         public void selectEquipment()
         {
-            selectEquipmentViewModel = new SelectItemViewModel(PlayerEquiped, selected_slot_table);
+            selectEquipmentViewModel = new SelectItemViewModel(PlayerEquiped, selected_slot_table, selected_slot_table);
         }
 
         public void deselectEquipment()
         {
-            SelectItemViewModel deselecting = new SelectItemViewModel(PlayerEquiped, selected_slot_table, false);
+            SelectItemViewModel deselecting = new SelectItemViewModel(PlayerEquiped, selected_slot_table, selected_slot_table, false);
             deselecting.deselect();
         }
 

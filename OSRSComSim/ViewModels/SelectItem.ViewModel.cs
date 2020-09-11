@@ -16,6 +16,7 @@ namespace OSRSComSim.ViewModels
 
         public object View { get; set; }
 
+        public string ItemsToSelect { get; set; }
         public string SelectedItemSlotName { get; set; }
 
         public IEnumerable<string> ReadCSV
@@ -31,13 +32,15 @@ namespace OSRSComSim.ViewModels
             }
         }
 
-        public SelectItemViewModel() : this(null, "", true) { }
-        public SelectItemViewModel(EquipedModel player_equiped = null, string selected_slot = "", bool view = true)
+        public SelectItemViewModel() : this(null, "", "", true) { }
+        public SelectItemViewModel(EquipedModel player_equiped = null, string selected_slot = "", string items_to_select = "", bool view = true)
         {
             this.player_equiped = player_equiped;
 
             SelectedItemSlotName = selected_slot;
-            _lines = getCSV(selected_slot);
+            ItemsToSelect = items_to_select;
+
+            _lines = getCSV();
 
 
             if(view) View = new SelectItemView(this);
@@ -56,43 +59,57 @@ namespace OSRSComSim.ViewModels
             }
             return "";
         }
-        private string[] getCSV(string selected_slot)
+        private string[] getCSV()
         {
-            string[] lines = null;
-            if (selected_slot.Contains("Head"))
-                lines = Properties.Resources.Head.Split('\n');
-            if (selected_slot.Contains("Neck"))
-                lines = Properties.Resources.Neck.Split('\n');
-            if (selected_slot.Contains("Cape"))
-                lines = Properties.Resources.Cape.Split('\n');
-            if (selected_slot.Contains("Ammo"))
-                lines = Properties.Resources.Ammo.Split('\n');
-            if (selected_slot.Contains("Weapon"))
-                lines = Properties.Resources.Weapon.Split('\n');
-            if (selected_slot.Contains("Body"))
-                lines = Properties.Resources.Body.Split('\n');
-            if (selected_slot.Contains("Shield"))
-                lines = Properties.Resources.Shield.Split('\n');
-            if (selected_slot.Contains("Legs"))
-                lines = Properties.Resources.Legs.Split('\n');
-            if (selected_slot.Contains("Feet"))
-                lines = Properties.Resources.Feet.Split('\n');
-            if (selected_slot.Contains("Handds"))
-                lines = Properties.Resources.Hands.Split('\n');
-            if (selected_slot.Contains("Ring"))
-                lines = Properties.Resources.Ring.Split('\n');
-            if (selected_slot.Contains("Food"))
-                lines = Properties.Resources.Food.Split('\n');
-            if (selected_slot.Contains("Potions"))
-                lines = Properties.Resources.Potions.Split('\n');
-            if (selected_slot.Contains("Runes"))
-                lines = Properties.Resources.Runes.Split('\n');
-            
-            if (SelectedItemSlotName != "")
-            {
-                lines = lines.Skip(1).ToArray();
-                lines = lines.Take(lines.Count() - 1).ToArray();
+            string[] lines = new string[0];
+            if (ItemsToSelect.Contains("Head")){
+                lines = lines.Concat(skipFirstAndLastLines(Properties.Resources.Head.Split('\n'))).ToArray();
             }
+            if (ItemsToSelect.Contains("Neck")){
+                lines = lines.Concat(skipFirstAndLastLines(Properties.Resources.Neck.Split('\n'))).ToArray();
+            }
+            if (ItemsToSelect.Contains("Cape")){
+                lines = lines.Concat(skipFirstAndLastLines(Properties.Resources.Cape.Split('\n'))).ToArray();
+            }
+            if (ItemsToSelect.Contains("Ammo")){
+                lines = lines.Concat(skipFirstAndLastLines(Properties.Resources.Ammo.Split('\n'))).ToArray();
+            }
+            if (ItemsToSelect.Contains("Weapon")){
+                lines = lines.Concat(skipFirstAndLastLines(Properties.Resources.Weapon.Split('\n'))).ToArray();
+            }
+            if (ItemsToSelect.Contains("Body")){
+                lines = lines.Concat(skipFirstAndLastLines(Properties.Resources.Body.Split('\n'))).ToArray();
+            }
+            if (ItemsToSelect.Contains("Shield")){
+                lines = lines.Concat(skipFirstAndLastLines(Properties.Resources.Shield.Split('\n'))).ToArray();
+            }
+            if (ItemsToSelect.Contains("Legs")){
+                lines = lines.Concat(skipFirstAndLastLines(Properties.Resources.Legs.Split('\n'))).ToArray();
+            }
+            if (ItemsToSelect.Contains("Feet")){
+                lines = lines.Concat(skipFirstAndLastLines(Properties.Resources.Feet.Split('\n'))).ToArray();
+            }
+            if (ItemsToSelect.Contains("Hands")){
+                lines = lines.Concat(skipFirstAndLastLines(Properties.Resources.Hands.Split('\n'))).ToArray();
+            }
+            if (ItemsToSelect.Contains("Ring")){
+                lines = lines.Concat(skipFirstAndLastLines(Properties.Resources.Ring.Split('\n'))).ToArray();
+            }
+            if (ItemsToSelect.Contains("Food")){
+                lines = lines.Concat(skipFirstAndLastLines(Properties.Resources.Food.Split('\n'))).ToArray();
+            }
+            if (ItemsToSelect.Contains("Potions")){
+                lines = lines.Concat(skipFirstAndLastLines(Properties.Resources.Potions.Split('\n'))).ToArray();
+            }
+            if (ItemsToSelect.Contains("Runes")){
+                lines = lines.Concat(skipFirstAndLastLines(Properties.Resources.Runes.Split('\n'))).ToArray();
+            }
+            return lines;
+        }
+        private string[] skipFirstAndLastLines(string[] lines)
+        {
+            lines = lines.Skip(1).ToArray();
+            lines = lines.Take(lines.Count() - 1).ToArray();
             return lines;
         }
         private int getFirstNumberFromString(string str)

@@ -10,27 +10,16 @@ namespace OSRSComSim.ViewModels
 
         private string inv_mode;
 
-
-        private object[] _inventory_item;
-        private string[] _slot_png;
+        private EquipedModel _player_equiped;
         private SelectItemViewModel _item_select;
 
-        public object[] InventoryItem
+        public EquipedModel PlayerEquiped
         {
-            get { return _inventory_item; }
+            get { return _player_equiped; }
             set
             {
-                _inventory_item = value;
-                OnPropertyChanged("InventoryItem");
-            }
-        }
-        public string[] SlotPng
-        {
-            get { return _slot_png; }
-            set
-            {
-                _slot_png = value;
-                OnPropertyChanged("SlotPng");
+                _player_equiped = value;
+                OnPropertyChanged("PlayerEquiped");
             }
         }
         public SelectItemViewModel ItemSelect
@@ -46,38 +35,24 @@ namespace OSRSComSim.ViewModels
         public object View { get; set; }
 
         public InventoryViewModel() : this(null, "Edit") { }
-        public InventoryViewModel(object[] InventoryItem, string inv_mode)
+        public InventoryViewModel(EquipedModel player_equiped, string inv_mode)
         {
-            this.InventoryItem = InventoryItem;
+            this.PlayerEquiped = player_equiped;
             this.inv_mode = inv_mode;
-
-            SlotPng = new string[InventoryItem.Length];
-            setSlotPngs();
-
 
             View = new InventoryView(this);
         }
 
 
-
-
-
-        private void setSlotPngs()
+        public void slotClicked(string slot_name) 
         {
-            for (int i = 0; i < InventoryItem.Length; i++)
+            string items_to_select = "Head, Neck, Cape, Ammo, Weapon, Body, Shield, Legs, Feet, Hands, Ring, Food, Runes, Potions";
+
+            if (inv_mode == "Edit" || inv_mode == "Create")
             {
-                if ((InventoryItem[i] as ItemModel).Name == "")
-                    setEmptySlotPng(i);
-                else
-                    SlotPng[i] = (InventoryItem[i] as ItemModel).Png;
+                ItemSelect = new SelectItemViewModel(PlayerEquiped,slot_name, items_to_select);            
             }
         }
-        private void setEmptySlotPng(int idx)
-        {
-            if (inv_mode == "View" || inv_mode == "Interactive")
-                SlotPng[idx] = null;
-            else
-                SlotPng[idx] = add_sign_png;
-        }
+
     }
 }

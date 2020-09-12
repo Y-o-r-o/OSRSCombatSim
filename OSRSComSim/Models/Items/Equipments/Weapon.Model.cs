@@ -62,7 +62,7 @@ namespace OSRSComSim.Models.Items.Equipments
             MagicStr = Int32.Parse(values[16]);
             Prayer = Int32.Parse(values[17]);
             Speed = Int32.Parse(values[18]);
-            Png = constructPng("Weapon", values[1]);
+            Png = constructPng(ItemType, values[1]);
             WeaponType = values[19];
             is_two_handed = Boolean.Parse(values[20]);
         }

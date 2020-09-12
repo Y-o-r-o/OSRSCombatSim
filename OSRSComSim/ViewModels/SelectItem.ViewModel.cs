@@ -169,20 +169,20 @@ namespace OSRSComSim.ViewModels
 
             switch (item_type)
             {
-                case "Equipment":
-                    player_equiped.InventoryItem[inv_idx] = new EquipmentModel(SelectedItemSlotName, item_data);
-                    break;
                 case "Weapon":
                     player_equiped.InventoryItem[inv_idx] = new WeaponModel(item_data);
                     break;
                 case "Food":
-                    player_equiped.InventoryItem[inv_idx] = new FoodModel();
+                    player_equiped.InventoryItem[inv_idx] = new FoodModel(item_data);
                     break;
-                case "Potion":
-                    player_equiped.InventoryItem[inv_idx] = new PotionModel();
+                case "Potions":
+                    player_equiped.InventoryItem[inv_idx] = new PotionModel(item_data);
                     break;
                 case "Runes":
-                    player_equiped.InventoryItem[inv_idx] = new RunesModel();
+                    player_equiped.InventoryItem[inv_idx] = new RunesModel(item_data);
+                    break;
+                default:
+                    player_equiped.InventoryItem[inv_idx] = new EquipmentModel(item_type, item_data);
                     break;
             }
         

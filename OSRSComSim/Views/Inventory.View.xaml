@@ -57,85 +57,85 @@
                 <Button Grid.Column="2" Grid.Row="1" Tag="Inventory slot 0" Click="Slot_Click">
                     <Image Source="{Binding PlayerEquiped.InventoryItem[0].Png}"/>
                 </Button>
-                <Button Grid.Column="2" Grid.Row="3"  Tag="Inventory slot 1"   Click="Slot_Click">
+                <Button Grid.Column="2" Grid.Row="3" Tag="Inventory slot 1"   Click="Slot_Click">
                     <Image Source="{Binding PlayerEquiped.InventoryItem[1].Png}"/>
                 </Button>
-                <Button Grid.Column="2" Grid.Row="5"    Tag="Inventory slot 2" Click="Slot_Click">
+                <Button Grid.Column="2" Grid.Row="5" Tag="Inventory slot 2" Click="Slot_Click">
                     <Image Source="{Binding PlayerEquiped.InventoryItem[2].Png}"/>
                 </Button>
-                <Button Grid.Column="2" Grid.Row="7"    Tag="Inventory slot 3" Click="Slot_Click">
+                <Button Grid.Column="2" Grid.Row="7" Tag="Inventory slot 3" Click="Slot_Click">
                     <Image Source="{Binding PlayerEquiped.InventoryItem[3].Png}"/>
                 </Button>
-                <Button Grid.Column="2" Grid.Row="9"    Tag="Inventory slot 4" Click="Slot_Click">
+                <Button Grid.Column="2" Grid.Row="9" Tag="Inventory slot 4" Click="Slot_Click">
                     <Image Source="{Binding PlayerEquiped.InventoryItem[4].Png}"/>
                 </Button>
-                <Button Grid.Column="2" Grid.Row="11"   Tag="Inventory slot 5" Click="Slot_Click">
+                <Button Grid.Column="2" Grid.Row="11" Tag="Inventory slot 5" Click="Slot_Click">
                     <Image Source="{Binding PlayerEquiped.InventoryItem[5].Png}"/>
                 </Button>
-                <Button Grid.Column="2" Grid.Row="13"   Tag="Inventory slot 6" Click="Slot_Click">
+                <Button Grid.Column="2" Grid.Row="13" Tag="Inventory slot 6" Click="Slot_Click">
                     <Image Source="{Binding PlayerEquiped.InventoryItem[6].Png}"/>
                 </Button>
-                <Button Grid.Column="4" Grid.Row="1"    Tag="Inventory slot 7" Click="Slot_Click">
+                <Button Grid.Column="4" Grid.Row="1" Tag="Inventory slot 7" Click="Slot_Click">
                     <Image Source="{Binding PlayerEquiped.InventoryItem[7].Png}"/>
                 </Button>
-                <Button Grid.Column="4" Grid.Row="3"    Tag="Inventory slot 8" Click="Slot_Click">
+                <Button Grid.Column="4" Grid.Row="3" Tag="Inventory slot 8" Click="Slot_Click">
                     <Image Source="{Binding PlayerEquiped.InventoryItem[8].Png}"/>
                 </Button>
-                <Button Grid.Column="4" Grid.Row="5"    Tag="Inventory slot 9" Click="Slot_Click">
+                <Button Grid.Column="4" Grid.Row="5" Tag="Inventory slot 9" Click="Slot_Click">
                     <Image Source="{Binding PlayerEquiped.InventoryItem[9].Png}"/>
                 </Button>
-                <Button Grid.Column="4" Grid.Row="7"    Tag="Inventory slot 10" Click="Slot_Click">
+                <Button Grid.Column="4" Grid.Row="7" Tag="Inventory slot 10" Click="Slot_Click">
                     <Image Source="{Binding PlayerEquiped.InventoryItem[10].Png}"/>
                 </Button>
-                <Button Grid.Column="4" Grid.Row="9"    Tag="Inventory slot 11" Click="Slot_Click">
+                <Button Grid.Column="4" Grid.Row="9" Tag="Inventory slot 11" Click="Slot_Click">
                     <Image Source="{Binding PlayerEquiped.InventoryItem[11].Png}"/>
                 </Button>
-                <Button Grid.Column="4" Grid.Row="11"   Tag="Inventory slot 12" Click="Slot_Click">
+                <Button Grid.Column="4" Grid.Row="11" Tag="Inventory slot 12" Click="Slot_Click">
                     <Image Source="{Binding PlayerEquiped.InventoryItem[12].Png}"/>
                 </Button>
-                <Button Grid.Column="4" Grid.Row="13"   Tag="Inventory slot 13" Click="Slot_Click">
+                <Button Grid.Column="4" Grid.Row="13" Tag="Inventory slot 13" Click="Slot_Click">
                     <Image Source="{Binding PlayerEquiped.InventoryItem[13].Png}"/>
                 </Button>
-                <Button Grid.Column="6" Grid.Row="1"    Tag="Inventory slot 14" Click="Slot_Click">
+                <Button Grid.Column="6" Grid.Row="1" Tag="Inventory slot 14" Click="Slot_Click">
                     <Image Source="{Binding PlayerEquiped.InventoryItem[14].Png}"/>
                 </Button>
-                <Button Grid.Column="6" Grid.Row="3"    Tag="Inventory slot 15" Click="Slot_Click">
+                <Button Grid.Column="6" Grid.Row="3" Tag="Inventory slot 15" Click="Slot_Click">
                     <Image Source="{Binding PlayerEquiped.InventoryItem[15].Png}"/>
                 </Button>
-                <Button Grid.Column="6" Grid.Row="5"    Tag="Inventory slot 16" Click="Slot_Click">
+                <Button Grid.Column="6" Grid.Row="5" Tag="Inventory slot 16" Click="Slot_Click">
                     <Image Source="{Binding PlayerEquiped.InventoryItem[16].Png}"/>
                 </Button>
-                <Button Grid.Column="6" Grid.Row="7"    Tag="Inventory slot 17" Click="Slot_Click">
+                <Button Grid.Column="6" Grid.Row="7" Tag="Inventory slot 17" Click="Slot_Click">
                     <Image Source="{Binding PlayerEquiped.InventoryItem[17].Png}"/>
                 </Button>
-                <Button Grid.Column="6" Grid.Row="9"    Tag="Inventory slot 18" Click="Slot_Click">
+                <Button Grid.Column="6" Grid.Row="9" Tag="Inventory slot 18" Click="Slot_Click">
                     <Image Source="{Binding PlayerEquiped.InventoryItem[18].Png}"/>
                 </Button>
-                <Button Grid.Column="6" Grid.Row="11"   Tag="Inventory slot 19" Click="Slot_Click">
+                <Button Grid.Column="6" Grid.Row="11" Tag="Inventory slot 19" Click="Slot_Click">
                     <Image Source="{Binding PlayerEquiped.InventoryItem[19].Png}"/>
                 </Button>
-                <Button Grid.Column="6" Grid.Row="13"   Tag="Inventory slot 20" Click="Slot_Click">
+                <Button Grid.Column="6" Grid.Row="13" Tag="Inventory slot 20" Click="Slot_Click">
                     <Image Source="{Binding PlayerEquiped.InventoryItem[20].Png}"/>
                 </Button>
-                <Button Grid.Column="8" Grid.Row="1"    Tag="Inventory slot 21" Click="Slot_Click">
+                <Button Grid.Column="8" Grid.Row="1" Tag="Inventory slot 21" Click="Slot_Click">
                     <Image Source="{Binding PlayerEquiped.InventoryItem[21].Png}"/>
                 </Button>
-                <Button Grid.Column="8" Grid.Row="3"    Tag="Inventory slot 22" Click="Slot_Click">
+                <Button Grid.Column="8" Grid.Row="3" Tag="Inventory slot 22" Click="Slot_Click">
                     <Image Source="{Binding PlayerEquiped.InventoryItem[22].Png}"/>
                 </Button>
-                <Button Grid.Column="8" Grid.Row="5"    Tag="Inventory slot 23" Click="Slot_Click">
+                <Button Grid.Column="8" Grid.Row="5" Tag="Inventory slot 23" Click="Slot_Click">
                     <Image Source="{Binding PlayerEquiped.InventoryItem[23].Png}"/>
                 </Button>
-                <Button Grid.Column="8" Grid.Row="7"    Tag="Inventory slot 24" Click="Slot_Click">
+                <Button Grid.Column="8" Grid.Row="7" Tag="Inventory slot 24" Click="Slot_Click">
                     <Image Source="{Binding PlayerEquiped.InventoryItem[24].Png}"/>
                 </Button>
-                <Button Grid.Column="8" Grid.Row="9"    Tag="Inventory slot 25" Click="Slot_Click">
+                <Button Grid.Column="8" Grid.Row="9" Tag="Inventory slot 25" Click="Slot_Click">
                     <Image Source="{Binding PlayerEquiped.InventoryItem[25].Png}"/>
                 </Button>
-                <Button Grid.Column="8" Grid.Row="11"   Tag="Inventory slot 26" Click="Slot_Click">
+                <Button Grid.Column="8" Grid.Row="11" Tag="Inventory slot 26" Click="Slot_Click">
                     <Image Source="{Binding PlayerEquiped.InventoryItem[26].Png}"/>
                 </Button>
-                <Button Grid.Column="8" Grid.Row="13"   Tag="Inventory slot 27" Click="Slot_Click">
+                <Button Grid.Column="8" Grid.Row="13" Tag="Inventory slot 27" Click="Slot_Click">
                     <Image Source="{Binding PlayerEquiped.InventoryItem[27].Png}"/>
                 </Button>
 

@@ -1,234 +1,234 @@
 Type,Name,Member,Weigth,StabAtk,SlashAtk,CrushAtk,MagicAtk,RangedAtk,StabDef,SlashDef,CrushDef,MagicDef,RangedDef,MeleStr,RangedStr,MagicStr,Prayer,Speed
-Equipment,3rd age cloak,Members,0.005,0,0,0,0,0,9,9,9,9,9,0,0,0,5,0
-Equipment,3rd age druidic cloak,Members,0.4,0,0,0,1,0,3,3,3,3,3,0,0,0,3,0
-Equipment,Accumulator max cape,Members,0.453,0,0,0,0,4,0,1,0,4,0,0,0,0,0,0
-Equipment,Achievement diary (t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
-Equipment,Achievement diary cape ,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
-Equipment,Agility cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
-Equipment,Agility cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
-Equipment,Ancient cloak,Members,0.003,0,0,0,1,0,3,3,3,3,3,0,0,0,3,0
-Equipment,Ardougne cloak 1,Members,0.453,2,0,0,2,0,2,0,0,2,0,0,0,0,2,0
-Equipment,Ardougne cloak 2,Members,0.453,4,0,0,4,0,4,0,0,4,0,0,0,0,4,0
-Equipment,Ardougne cloak 3,Members,0.453,5,0,0,5,0,5,0,0,5,0,0,0,0,5,0
-Equipment,Ardougne cloak 4,Members,0.453,6,0,0,6,0,6,0,0,6,0,0,0,0,6,0
-Equipment,Ardougne max cape,Members,0.453,6,0,0,6,0,6,0,0,6,0,0,0,0,6,0
-Equipment,Armadyl cloak,Members,0.4,0,0,0,1,0,3,3,3,3,3,0,0,0,3,0
-Equipment,Assembler max cape,Members,0.453,0,0,0,0,8,1,1,1,8,2,0,2,0,0,0
-Equipment,Attack cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
-Equipment,Attack cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
-Equipment,Ava's accumulator,Members,4.535,0,0,0,0,4,0,1,0,4,0,0,0,0,0,0
-Equipment,Ava's assembler,Members,5.896,0,0,0,0,8,1,1,1,8,2,0,2,0,0,0
-Equipment,Ava's attractor,Members,4.535,0,0,0,0,2,0,0,0,2,0,0,0,0,0,0
-Equipment,Bandos cloak,Members,0.4,0,0,0,1,0,3,3,3,3,3,0,0,0,3,0
-Equipment,Black cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Blue cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Bonesack,Members,0.003,0,0,0,0,0,4,4,4,4,4,0,0,0,0,0
-Equipment,Bow and arrow,Members,1.36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
-Equipment,Cabbage cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Cape of legends,Members,1.814,0,0,0,0,0,7,7,7,7,7,0,0,0,0,0
-Equipment,Cape of skulls,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
-Equipment,Castlewars cloak (Saradomin),Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Castlewars cloak (Zamorak),Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Champion's cape,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Clockwork suit,Members,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Clue hunter cloak,Members,1,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Construct. cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
-Equipment,Construct. cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
-Equipment,Cooking cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
-Equipment,Cooking cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
-Equipment,Crafting cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
-Equipment,Crafting cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
-Equipment,Deadman's cape Cosmetic,Free-to-play,0.09,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Deadman's cape Deadman_mode,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Decorative armour (quiver),Members,8.164,0,0,0,0,0,4,4,4,4,4,0,0,0,0,0
-Equipment,Defence cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
-Equipment,Defence cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
-Equipment,Diving apparatus,Members,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Diving apparatus (2017 Halloween event),Free-to-play,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Eagle cape,Members,0.226,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Explorer backpack,Members,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Farming cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
-Equipment,Farming cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
-Equipment,Fire cape,Members,1.814,1,1,1,1,1,11,11,11,11,11,4,0,0,2,0
-Equipment,Fire max cape,Members,0.453,1,1,1,1,1,11,11,11,11,11,4,0,0,2,0
-Equipment,Firemaking cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
-Equipment,Firemaking cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
-Equipment,Fish sack,Members,2.267,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Fishing cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
-Equipment,Fishing cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
-Equipment,Fletching cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
-Equipment,Fletching cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
-Equipment,Fremennik black cloak,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Fremennik blue cloak,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Fremennik brown cloak,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Fremennik cyan cloak,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Fremennik green cloak,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Fremennik grey cloak,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Fremennik pink cloak,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Fremennik purple cloak,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Fremennik red cloak,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Fremennik teal cloak,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Fremennik yellow cloak,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Gauntlet cape,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Ghostly cloak,Members,0.001,0,0,0,5,0,0,0,0,5,0,0,0,0,0,0
-Equipment,Graceful cape Agility_Arena,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Graceful cape Arceuus,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Graceful cape Hallowed_Sepulchre,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Graceful cape Hosidius,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Graceful cape Kourend,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Graceful cape Lovakengj,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Graceful cape Piscarilius,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Graceful cape Regular,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Graceful cape Shayzien,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Grain (Recruitment Drive),Members,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Green cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Guthix cape,Members,0.453,0,0,0,10,0,1,1,2,10,0,0,0,0,0,0
-Equipment,Guthix cloak,Members,0.4,0,0,0,1,0,3,3,3,3,3,0,0,0,3,0
-Equipment,Guthix max cape,Members,0.453,0,0,0,10,0,1,1,2,10,0,0,0,0,0,0
-Equipment,Ham cloak,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Herblore cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
-Equipment,Herblore cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
-Equipment,Hitpoints cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
-Equipment,Hitpoints cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
-Equipment,Hooded cloak Saradomin,Members,0.001,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Hooded cloak Zamorak,Members,0.001,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Hunter cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
-Equipment,Hunter cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
-Equipment,Imbued guthix cape,Members,0.453,0,0,0,15,0,3,3,3,15,0,0,0,2,0,0
-Equipment,Imbued guthix max cape,Members,0.453,0,0,0,15,0,3,3,3,15,0,0,0,2,0,0
-Equipment,Imbued saradomin cape,Members,0.453,0,0,0,15,0,3,3,3,15,0,0,0,2,0,0
-Equipment,Imbued saradomin max cape,Members,0.453,0,0,0,15,0,3,3,3,15,0,0,0,2,0,0
-Equipment,Imbued zamorak cape,Members,0.453,0,0,0,15,0,3,3,3,15,0,0,0,2,0,0
-Equipment,Imbued zamorak max cape,Members,0.453,0,0,0,15,0,3,3,3,15,0,0,0,2,0,0
-Equipment,Infernal cape,Members,1.814,4,4,4,1,1,12,12,12,12,12,8,0,0,2,0
-Equipment,Infernal max cape,Members,0.453,4,4,4,1,1,12,12,12,12,12,8,0,0,2,0
-Equipment,Jester cape,Free-to-play,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Karamjan monkey (item),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Kruk jr,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Lunar cape,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Magic cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
-Equipment,Magic cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
-Equipment,Maniacal monkey (item),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Max cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
-Equipment,Mining cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
-Equipment,Mining cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
-Equipment,Monkey (Monkey Madness II),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Moonclan cape,Members,0.453,0,0,0,2,-2,0,1,1,2,-2,0,0,0,0,0
-Equipment,Mourner cloak,Members,2.267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Music cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
-Equipment,Music cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
-Equipment,Mythical cape,Members,1.814,0,0,6,0,0,8,8,8,8,8,1,0,0,1,0
-Equipment,Mythical max cape,Members,0.453,0,0,6,0,0,8,8,8,8,8,1,0,0,1,0
-Equipment,Obsidian cape,Members,1.814,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
-Equipment,Obsidian cape (r),Members,1.814,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
-Equipment,Orange cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Ornate cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Paintbrush,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
-Equipment,Pink cape,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Prayer cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
-Equipment,Prayer cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
-Equipment,Princely monkey,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Purple cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Quest point cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
-Equipment,Quest point cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
-Equipment,Ranging cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
-Equipment,Ranging cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
-Equipment,Red cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Runecraft cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
-Equipment,Runecraft cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
-Equipment,Sack of presents,Free-to-play,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Saradomin cape,Members,0.453,0,0,0,10,0,1,1,2,10,0,0,0,0,0,0
-Equipment,Saradomin cloak,Members,0.4,0,0,0,1,0,3,3,3,3,3,0,0,0,3,0
-Equipment,Saradomin max cape,Members,0.453,0,0,0,10,0,1,1,2,10,0,0,0,0,0,0
-Equipment,Scroll sack,Members,0.435,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Shoulder parrot,Free-to-play,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Sinhaza shroud tier 1,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Sinhaza shroud tier 2,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Sinhaza shroud tier 3,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Sinhaza shroud tier 4,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Sinhaza shroud tier 5,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Skeleton monkey (item),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Slayer cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
-Equipment,Slayer cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
-Equipment,Smithing cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
-Equipment,Smithing cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
-Equipment,Snow imp costume tail,Free-to-play,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Spotted cape,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Spottier cape,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Strength cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
-Equipment,Strength cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
-Equipment,Team cape i,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team cape x,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team cape zero,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-1 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-10 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-11 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-12 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-13 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-14 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-15 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-16 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-17 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-18 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-19 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-2 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-20 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-21 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-22 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-23 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-24 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-25 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-26 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-27 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-28 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-29 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-3 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-30 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-31 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-32 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-33 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-34 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-35 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-36 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-37 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-38 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-39 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-4 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-40 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-41 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-42 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-43 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-44 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-45 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-46 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-47 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-48 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-49 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-5 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-50 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-6 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-7 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-8 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Team-9 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Thieving bag,Members,0.435,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Thieving cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
-Equipment,Thieving cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
-Equipment,Victor's cape (1),Free-to-play,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Victor's cape (10),Free-to-play,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Victor's cape (100),Free-to-play,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Victor's cape (1000),Free-to-play,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Victor's cape (50),Free-to-play,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Victor's cape (500),Free-to-play,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Wolf cloak,Free-to-play,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Woodcutting cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
-Equipment,Woodcutting cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
-Equipment,Xeric's champion,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Xeric's general,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Xeric's guard,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Xeric's sentinel,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Xeric's warrior,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Yellow cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
-Equipment,Zamorak cape,Members,0.453,0,0,0,10,0,1,1,2,10,0,0,0,0,0,0
-Equipment,Zamorak cloak,Members,0.4,0,0,0,1,0,3,3,3,3,3,0,0,0,3,0
-Equipment,Zamorak max cape,Members,0.453,0,0,0,10,0,1,1,2,10,0,0,0,0,0,0
-Equipment,Zombie monkey (item),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,3rd age cloak,Members,0.005,0,0,0,0,0,9,9,9,9,9,0,0,0,5,0
+Cape,3rd age druidic cloak,Members,0.4,0,0,0,1,0,3,3,3,3,3,0,0,0,3,0
+Cape,Accumulator max cape,Members,0.453,0,0,0,0,4,0,1,0,4,0,0,0,0,0,0
+Cape,Achievement diary (t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
+Cape,Achievement diary cape ,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
+Cape,Agility cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
+Cape,Agility cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
+Cape,Ancient cloak,Members,0.003,0,0,0,1,0,3,3,3,3,3,0,0,0,3,0
+Cape,Ardougne cloak 1,Members,0.453,2,0,0,2,0,2,0,0,2,0,0,0,0,2,0
+Cape,Ardougne cloak 2,Members,0.453,4,0,0,4,0,4,0,0,4,0,0,0,0,4,0
+Cape,Ardougne cloak 3,Members,0.453,5,0,0,5,0,5,0,0,5,0,0,0,0,5,0
+Cape,Ardougne cloak 4,Members,0.453,6,0,0,6,0,6,0,0,6,0,0,0,0,6,0
+Cape,Ardougne max cape,Members,0.453,6,0,0,6,0,6,0,0,6,0,0,0,0,6,0
+Cape,Armadyl cloak,Members,0.4,0,0,0,1,0,3,3,3,3,3,0,0,0,3,0
+Cape,Assembler max cape,Members,0.453,0,0,0,0,8,1,1,1,8,2,0,2,0,0,0
+Cape,Attack cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
+Cape,Attack cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
+Cape,Ava's accumulator,Members,4.535,0,0,0,0,4,0,1,0,4,0,0,0,0,0,0
+Cape,Ava's assembler,Members,5.896,0,0,0,0,8,1,1,1,8,2,0,2,0,0,0
+Cape,Ava's attractor,Members,4.535,0,0,0,0,2,0,0,0,2,0,0,0,0,0,0
+Cape,Bandos cloak,Members,0.4,0,0,0,1,0,3,3,3,3,3,0,0,0,3,0
+Cape,Black cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Blue cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Bonesack,Members,0.003,0,0,0,0,0,4,4,4,4,4,0,0,0,0,0
+Cape,Bow and arrow,Members,1.36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
+Cape,Cabbage cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Cape of legends,Members,1.814,0,0,0,0,0,7,7,7,7,7,0,0,0,0,0
+Cape,Cape of skulls,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
+Cape,Castlewars cloak (Saradomin),Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Castlewars cloak (Zamorak),Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Champion's cape,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Clockwork suit,Members,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Clue hunter cloak,Members,1,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Construct. cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
+Cape,Construct. cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
+Cape,Cooking cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
+Cape,Cooking cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
+Cape,Crafting cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
+Cape,Crafting cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
+Cape,Deadman's cape Cosmetic,Free-to-play,0.09,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Deadman's cape Deadman_mode,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Decorative armour (quiver),Members,8.164,0,0,0,0,0,4,4,4,4,4,0,0,0,0,0
+Cape,Defence cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
+Cape,Defence cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
+Cape,Diving apparatus,Members,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Diving apparatus (2017 Halloween event),Free-to-play,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Eagle cape,Members,0.226,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Explorer backpack,Members,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Farming cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
+Cape,Farming cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
+Cape,Fire cape,Members,1.814,1,1,1,1,1,11,11,11,11,11,4,0,0,2,0
+Cape,Fire max cape,Members,0.453,1,1,1,1,1,11,11,11,11,11,4,0,0,2,0
+Cape,Firemaking cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
+Cape,Firemaking cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
+Cape,Fish sack,Members,2.267,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Fishing cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
+Cape,Fishing cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
+Cape,Fletching cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
+Cape,Fletching cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
+Cape,Fremennik black cloak,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Fremennik blue cloak,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Fremennik brown cloak,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Fremennik cyan cloak,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Fremennik green cloak,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Fremennik grey cloak,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Fremennik pink cloak,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Fremennik purple cloak,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Fremennik red cloak,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Fremennik teal cloak,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Fremennik yellow cloak,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Gauntlet cape,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Ghostly cloak,Members,0.001,0,0,0,5,0,0,0,0,5,0,0,0,0,0,0
+Cape,Graceful cape Agility_Arena,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Graceful cape Arceuus,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Graceful cape Hallowed_Sepulchre,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Graceful cape Hosidius,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Graceful cape Kourend,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Graceful cape Lovakengj,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Graceful cape Piscarilius,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Graceful cape Regular,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Graceful cape Shayzien,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Grain (Recruitment Drive),Members,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Green cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Guthix cape,Members,0.453,0,0,0,10,0,1,1,2,10,0,0,0,0,0,0
+Cape,Guthix cloak,Members,0.4,0,0,0,1,0,3,3,3,3,3,0,0,0,3,0
+Cape,Guthix max cape,Members,0.453,0,0,0,10,0,1,1,2,10,0,0,0,0,0,0
+Cape,Ham cloak,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Herblore cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
+Cape,Herblore cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
+Cape,Hitpoints cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
+Cape,Hitpoints cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
+Cape,Hooded cloak Saradomin,Members,0.001,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Hooded cloak Zamorak,Members,0.001,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Hunter cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
+Cape,Hunter cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
+Cape,Imbued guthix cape,Members,0.453,0,0,0,15,0,3,3,3,15,0,0,0,2,0,0
+Cape,Imbued guthix max cape,Members,0.453,0,0,0,15,0,3,3,3,15,0,0,0,2,0,0
+Cape,Imbued saradomin cape,Members,0.453,0,0,0,15,0,3,3,3,15,0,0,0,2,0,0
+Cape,Imbued saradomin max cape,Members,0.453,0,0,0,15,0,3,3,3,15,0,0,0,2,0,0
+Cape,Imbued zamorak cape,Members,0.453,0,0,0,15,0,3,3,3,15,0,0,0,2,0,0
+Cape,Imbued zamorak max cape,Members,0.453,0,0,0,15,0,3,3,3,15,0,0,0,2,0,0
+Cape,Infernal cape,Members,1.814,4,4,4,1,1,12,12,12,12,12,8,0,0,2,0
+Cape,Infernal max cape,Members,0.453,4,4,4,1,1,12,12,12,12,12,8,0,0,2,0
+Cape,Jester cape,Free-to-play,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Karamjan monkey (item),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Kruk jr,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Lunar cape,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Magic cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
+Cape,Magic cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
+Cape,Maniacal monkey (item),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Max cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
+Cape,Mining cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
+Cape,Mining cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
+Cape,Monkey (Monkey Madness II),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Moonclan cape,Members,0.453,0,0,0,2,-2,0,1,1,2,-2,0,0,0,0,0
+Cape,Mourner cloak,Members,2.267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Music cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
+Cape,Music cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
+Cape,Mythical cape,Members,1.814,0,0,6,0,0,8,8,8,8,8,1,0,0,1,0
+Cape,Mythical max cape,Members,0.453,0,0,6,0,0,8,8,8,8,8,1,0,0,1,0
+Cape,Obsidian cape,Members,1.814,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
+Cape,Obsidian cape (r),Members,1.814,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
+Cape,Orange cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Ornate cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Paintbrush,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
+Cape,Pink cape,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Prayer cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
+Cape,Prayer cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
+Cape,Princely monkey,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Purple cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Quest point cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
+Cape,Quest point cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
+Cape,Ranging cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
+Cape,Ranging cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
+Cape,Red cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Runecraft cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
+Cape,Runecraft cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
+Cape,Sack of presents,Free-to-play,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Saradomin cape,Members,0.453,0,0,0,10,0,1,1,2,10,0,0,0,0,0,0
+Cape,Saradomin cloak,Members,0.4,0,0,0,1,0,3,3,3,3,3,0,0,0,3,0
+Cape,Saradomin max cape,Members,0.453,0,0,0,10,0,1,1,2,10,0,0,0,0,0,0
+Cape,Scroll sack,Members,0.435,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Shoulder parrot,Free-to-play,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Sinhaza shroud tier 1,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Sinhaza shroud tier 2,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Sinhaza shroud tier 3,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Sinhaza shroud tier 4,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Sinhaza shroud tier 5,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Skeleton monkey (item),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Slayer cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
+Cape,Slayer cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
+Cape,Smithing cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
+Cape,Smithing cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
+Cape,Snow imp costume tail,Free-to-play,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Spotted cape,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Spottier cape,Members,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Strength cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
+Cape,Strength cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
+Cape,Team cape i,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team cape x,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team cape zero,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-1 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-10 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-11 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-12 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-13 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-14 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-15 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-16 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-17 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-18 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-19 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-2 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-20 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-21 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-22 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-23 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-24 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-25 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-26 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-27 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-28 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-29 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-3 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-30 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-31 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-32 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-33 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-34 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-35 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-36 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-37 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-38 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-39 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-4 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-40 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-41 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-42 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-43 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-44 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-45 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-46 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-47 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-48 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-49 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-5 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-50 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-6 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-7 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-8 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Team-9 cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Thieving bag,Members,0.435,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Thieving cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
+Cape,Thieving cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
+Cape,Victor's cape (1),Free-to-play,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Victor's cape (10),Free-to-play,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Victor's cape (100),Free-to-play,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Victor's cape (1000),Free-to-play,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Victor's cape (50),Free-to-play,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Victor's cape (500),Free-to-play,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Wolf cloak,Free-to-play,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Woodcutting cape(t),Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,4,0
+Cape,Woodcutting cape,Members,0.453,0,0,0,0,0,9,9,9,9,9,0,0,0,0,0
+Cape,Xeric's champion,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Xeric's general,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Xeric's guard,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Xeric's sentinel,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Xeric's warrior,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cape,Yellow cape,Free-to-play,0.453,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0
+Cape,Zamorak cape,Members,0.453,0,0,0,10,0,1,1,2,10,0,0,0,0,0,0
+Cape,Zamorak cloak,Members,0.4,0,0,0,1,0,3,3,3,3,3,0,0,0,3,0
+Cape,Zamorak max cape,Members,0.453,0,0,0,10,0,1,1,2,10,0,0,0,0,0,0
+Cape,Zombie monkey (item),Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

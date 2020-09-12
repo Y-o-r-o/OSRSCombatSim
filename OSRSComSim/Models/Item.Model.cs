@@ -24,11 +24,10 @@ namespace OSRSComSim.Models
             }
         }
         
-
         public ItemModel()
         {
-            Png = "../Resources/404.png";
         }
+
 
         protected string constructPng(string item_type, string png_name)
         {

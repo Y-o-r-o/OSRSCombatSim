@@ -1,8 +1,11 @@
 ﻿using OSRSComSim.Models.Items;
 using OSRSComSim.Models.Items.Equipments;
+using System.Collections.ObjectModel;
+using System.Xml.Serialization;
 
 namespace OSRSComSim.Models
 {
+    [XmlInclude(typeof(FoodModel)), XmlInclude(typeof(PotionModel)), XmlInclude(typeof(RunesModel))]
     public class EquipedModel: ObservableObject
     {
         private const int inventory_capativity = 28;
@@ -18,7 +21,7 @@ namespace OSRSComSim.Models
         public EquipmentModel _feet;
         public EquipmentModel _hands;
         public EquipmentModel _ring;
-        private object[] _item;
+        private ObservableCollection<object> _item;
 
 
         public EquipmentModel Head 
@@ -120,7 +123,7 @@ namespace OSRSComSim.Models
                 OnPropertyChanged("Ring");
             }
         }
-        public object[] InventoryItem
+        public ObservableCollection<object> InventoryItem
         {
             get { return _item; }
             set
@@ -145,10 +148,10 @@ namespace OSRSComSim.Models
             Feet = new EquipmentModel("Feet");
             Hands = new EquipmentModel("Hands");
             Ring = new EquipmentModel("Ring");
-            InventoryItem = new ItemModel[inventory_capativity];
+            InventoryItem = new ObservableCollection<object>();
             for (int i = 0; i < inventory_capativity; i++)
             {
-                InventoryItem[i] = new ItemModel();
+                InventoryItem.Add(new ItemModel());
             }
         }
 

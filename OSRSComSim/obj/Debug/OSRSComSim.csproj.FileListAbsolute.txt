@@ -40,4 +40,3 @@ D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\Inventory.View.g.cs
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\Inventory.View.baml
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\SelectItem.View.g.cs
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\SelectItem.View.baml
-D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\OSRSComSim.csprojAssemblyReference.cache

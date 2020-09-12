@@ -1,140 +1,140 @@
 Type,Name,Member,Weigth,StabAtk,SlashAtk,CrushAtk,MagicAtk,RangedAtk,StabDef,SlashDef,CrushDef,MagicDef,RangedDef,MeleStr,RangedStr,MagicStr,Prayer,Speed
-Equipment,3rd age vambraces,Members,1,0,0,0,-10,11,6,5,7,9,0,0,0,0,0,0
-Equipment,Abyssal bracelet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Adamant gloves,Members,0.226,7,7,7,4,7,7,7,7,4,7,7,0,0,0,0
-Equipment,Ancient bracers,Members,1,0,0,0,-10,11,6,5,7,8,0,0,0,0,1,0
-Equipment,Ankou gloves,Members,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Antisanta gloves,Free-to-play,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Armadyl bracers,Members,1,0,0,0,-10,11,6,5,7,8,0,0,0,0,1,0
-Equipment,Bandos bracers,Members,1,0,0,0,-10,11,6,5,7,8,0,0,0,0,1,0
-Equipment,Barrows gloves,Members,0.226,12,12,12,6,12,12,12,12,6,12,12,0,0,0,0
-Equipment,Black d'hide vambraces,Members,0.283,0,0,0,-10,11,6,5,7,8,0,0,0,0,0,0
-Equipment,Black gloves,Members,0.226,5,5,5,3,5,5,5,5,3,5,5,0,0,0,0
-Equipment,Black spiky vambraces,Members,0.283,0,0,0,-10,11,6,5,7,8,0,2,0,0,0,0
-Equipment,Blue d'hide vambraces,Members,0.283,0,0,0,-10,9,4,3,5,4,0,0,0,0,0,0
-Equipment,Blue spiky vambraces,Members,0.283,0,0,0,-10,9,4,3,5,4,0,2,0,0,0,0
-Equipment,Bracelet of clay,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Bracelet of ethereum Charged,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Bracelet of ethereum Uncharged,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Bracelet of slaughter,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Bronze gloves,Members,0.226,2,2,2,1,2,2,2,2,1,2,2,0,0,0,0
-Equipment,Bunny paws,Free-to-play,0.113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Castle wars bracelet,Free-to-play,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Chaos gauntlets,Members,0.226,2,2,2,0,0,8,9,7,0,0,2,0,0,0,0
-Equipment,Clue hunter gloves,Members,0.5,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0
-Equipment,Combat bracelet,Members,0.25,7,7,7,3,7,5,5,5,3,5,6,0,0,0,0
-Equipment,Combat bracelet Uncharged,Members,0.25,7,7,7,3,7,5,5,5,3,5,6,0,0,0,0
-Equipment,Cooking gauntlets,Members,0.226,2,2,2,0,0,8,9,7,0,0,2,0,0,0,0
-Equipment,Cow gloves,Free-to-play,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Crab claw,Members,0.907,0,0,0,0,0,3,4,2,0,0,1,0,0,0,0
-Equipment,Crabclaw hook,Members,1,0,0,0,0,0,3,5,3,0,0,1,0,0,0,0
-Equipment,Dark tuxedo cuffs,Members,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Diamond bracelet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Dragon gloves,Members,0.226,9,9,9,5,9,9,9,9,5,9,9,0,0,0,0
-Equipment,Dragonstone bracelet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Dragonstone gauntlets,Members,0.226,8,8,8,-4,8,8,8,8,-4,4,4,0,0,0,0
-Equipment,Elven gloves,Members,4.535,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Emerald bracelet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Expeditious bracelet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Expert mining gloves,Members,0.226,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Ferocious gloves,Members,0.226,16,16,16,-16,-16,0,0,0,0,0,14,0,0,0,0
-Equipment,Flamtaer bracelet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Fremennik gloves,Members,0.453,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0
-Equipment,Ghostly gloves,Members,0.001,0,0,0,2,0,0,0,0,2,0,0,0,0,0,0
-Equipment,Gilded d'hide vambraces,Free-to-play,1,0,0,0,-10,8,3,2,4,2,0,0,0,0,0,0
-Equipment,Gloves of darkness,Members,0.453,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0
-Equipment,Gloves of silence,Members,0.226,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0
-Equipment,Gold bracelet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Goldsmith gauntlets,Members,0.226,2,2,2,0,0,8,9,7,0,0,2,0,0,0,0
-Equipment,Graceful gloves Agility_Arena,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Graceful gloves Arceuus,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Graceful gloves Hallowed_Sepulchre,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Graceful gloves Hosidius,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Graceful gloves Kourend,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Graceful gloves Lovakengj,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Graceful gloves Piscarilius,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Graceful gloves Regular,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Graceful gloves Shayzien,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Granite gloves,Members,1,5,5,9,-3,-1,8,8,8,-3,5,7,0,0,0,0
-Equipment,Gravedigger gloves,Free-to-play,0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Green d'hide vambraces,Free-to-play,0.283,0,0,0,-10,8,3,2,4,2,0,0,0,0,0,0
-Equipment,Green spiky vambraces,Members,0.283,0,0,0,-10,8,3,2,4,2,0,2,0,0,0,0
-Equipment,Grey gloves,Free-to-play,0.453,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0
-Equipment,Guthix bracers,Members,1,0,0,0,-10,11,6,5,7,8,0,0,0,0,1,0
-Equipment,Ham gloves,Members,0.453,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0
-Equipment,Hardleather gloves,Members,0.226,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0
-Equipment,Holy wraps,Members,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0
-Equipment,Ice gloves,Members,0.226,0,0,0,0,0,0,3,4,0,2,0,0,0,0,0
-Equipment,Infinity gloves,Members,0.453,0,0,0,5,0,0,0,0,5,0,0,0,0,0,0
-Equipment,Inoculation bracelet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Iron gloves,Members,0.226,3,3,3,2,3,3,3,3,2,3,3,0,0,0,0
-Equipment,Jade bracelet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Karamja gloves 1,Members,0.226,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0
-Equipment,Karamja gloves 2,Members,0.226,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0
-Equipment,Karamja gloves 3,Members,0.226,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0
-Equipment,Karamja gloves 4,Members,0.226,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0
-Equipment,Klank's gauntlets,Members,0.226,2,2,2,0,0,8,9,7,0,0,2,0,0,0,0
-Equipment,Leather gloves,Free-to-play,0.226,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0
-Equipment,Leather vambraces,Free-to-play,0.226,0,0,0,0,4,2,2,1,0,0,0,0,0,0,0
-Equipment,Light tuxedo cuffs,Members,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Lunar gloves,Members,0.907,0,0,0,4,-1,2,1,1,2,0,0,0,0,0,0
-Equipment,Mime gloves,Free-to-play,0.001,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Mining gloves,Members,0.226,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Mithril gloves,Members,0.226,6,6,6,3,6,6,6,6,3,6,6,0,0,0,0
-Equipment,Moonclan gloves,Members,0.907,0,0,0,2,-5,2,2,2,2,-5,0,0,0,0,0
-Equipment,Mourner gloves,Members,0.226,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0
-Equipment,Mummy's hands,Members,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Mystic gloves,Members,0.453,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0
-Equipment,Mystic gloves(dark),Members,0.453,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0
-Equipment,Mystic gloves(dusk),Members,0.453,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0
-Equipment,Mystic gloves(light),Members,0.453,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0
-Equipment,Onyx bracelet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Opal bracelet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Ornate gloves,Free-to-play,0.226,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0
-Equipment,Penance gloves,Members,,0,0,0,0,0,0,3,4,0,2,0,0,0,0,0
-Equipment,Pirate's hook,Members,0.3,0,0,0,0,0,1,5,3,0,0,0,0,0,0,0
-Equipment,Purple gloves,Free-to-play,0.453,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0
-Equipment,Ranger gloves,Members,0.226,0,0,0,-10,11,1,2,1,2,0,0,0,0,0,0
-Equipment,Red d'hide vambraces,Members,0.283,0,0,0,-10,10,5,4,6,6,0,0,0,0,0,0
-Equipment,Red gloves,Free-to-play,0.453,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0
-Equipment,Red spiky vambraces,Members,0.283,0,0,0,-10,10,5,4,6,6,0,2,0,0,0,0
-Equipment,Regen bracelet,Members,0.25,8,8,8,3,7,6,6,6,3,6,7,0,0,0,0
-Equipment,Rock-shell gloves,Members,3.175,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0
-Equipment,Rogue gloves,Members,0.453,0,0,0,0,0,2,2,2,2,2,0,0,0,0,0
-Equipment,Ruby bracelet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Rune gloves,Members,0.226,8,8,8,4,8,8,8,8,4,8,8,0,0,0,0
-Equipment,Samurai gloves,Members,0.4,2,2,2,2,2,3,3,3,3,3,0,0,0,0,0
-Equipment,Santa gloves,Free-to-play,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Sapphire bracelet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Saradomin bracers,Members,1,0,0,0,-10,11,6,5,7,8,0,0,0,0,1,0
-Equipment,Shayzien gloves,Members,0.226,0,0,0,-1,0,0,0,1,-1,0,0,0,0,0,0
-Equipment,Skeletal gloves,Members,3.175,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0
-Equipment,Skeleton gloves,Free-to-play,2.267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Slayer gloves,Members,0.226,0,0,0,0,0,4,5,3,0,0,0,0,0,0,0
-Equipment,Snakeskin vambraces,Members,0.283,0,0,0,-5,6,2,2,2,1,0,0,0,0,0,0
-Equipment,Snow imp costume gloves,Free-to-play,0.113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Spiky vambraces,Members,0.226,0,0,0,0,4,2,2,1,0,0,2,0,0,0,0
-Equipment,Spined gloves,Members,3.175,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0
-Equipment,Splitbark gauntlets,Members,0.907,0,0,0,2,-1,3,2,4,2,0,0,0,0,0,0
-Equipment,Spookier gloves,Free-to-play,0.113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Spooky gloves,Free-to-play,0.113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Steel gauntlets,Members,0.226,2,2,2,0,0,8,9,7,0,0,2,0,0,0,0
-Equipment,Steel gloves,Members,0.226,4,4,4,2,4,4,4,4,2,4,4,0,0,0,0
-Equipment,Superior mining gloves,Members,0.226,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Teal gloves,Free-to-play,0.453,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0
-Equipment,Topaz bracelet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Tormented bracelet,Members,0.25,0,0,0,10,0,0,0,0,0,0,0,0,5,2,0
-Equipment,Tormented bracelet(or),Members,0.25,0,0,0,10,0,0,0,0,0,0,0,0,5,2,0
-Equipment,Villager armband(blue),Members,0.68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Villager armband(brown),Members,0.68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Villager armband(pink),Members,0.68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Villager armband(yellow),Members,0.68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Void knight gloves Broken,Members,0.453,0,0,0,0,0,6,6,6,4,6,0,0,0,0,0
-Equipment,Void knight gloves Locked,Members,0.453,0,0,0,0,0,6,6,6,4,6,0,0,0,0,0
-Equipment,Void knight gloves Normal,Members,0.453,0,0,0,0,0,6,6,6,4,6,0,0,0,0,0
-Equipment,Warm gloves,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,White gloves,Members,0.226,0,0,0,0,0,0,1,2,0,0,0,0,0,1,0
-Equipment,Yellow gloves,Free-to-play,0.453,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0
-Equipment,Zamorak bracers,Members,1,0,0,0,-10,11,6,5,7,8,0,0,0,0,1,0
-Equipment,Zenyte bracelet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Zombie gloves,Free-to-play,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,3rd age vambraces,Members,1,0,0,0,-10,11,6,5,7,9,0,0,0,0,0,0
+Hands,Abyssal bracelet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Adamant gloves,Members,0.226,7,7,7,4,7,7,7,7,4,7,7,0,0,0,0
+Hands,Ancient bracers,Members,1,0,0,0,-10,11,6,5,7,8,0,0,0,0,1,0
+Hands,Ankou gloves,Members,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Antisanta gloves,Free-to-play,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Armadyl bracers,Members,1,0,0,0,-10,11,6,5,7,8,0,0,0,0,1,0
+Hands,Bandos bracers,Members,1,0,0,0,-10,11,6,5,7,8,0,0,0,0,1,0
+Hands,Barrows gloves,Members,0.226,12,12,12,6,12,12,12,12,6,12,12,0,0,0,0
+Hands,Black d'hide vambraces,Members,0.283,0,0,0,-10,11,6,5,7,8,0,0,0,0,0,0
+Hands,Black gloves,Members,0.226,5,5,5,3,5,5,5,5,3,5,5,0,0,0,0
+Hands,Black spiky vambraces,Members,0.283,0,0,0,-10,11,6,5,7,8,0,2,0,0,0,0
+Hands,Blue d'hide vambraces,Members,0.283,0,0,0,-10,9,4,3,5,4,0,0,0,0,0,0
+Hands,Blue spiky vambraces,Members,0.283,0,0,0,-10,9,4,3,5,4,0,2,0,0,0,0
+Hands,Bracelet of clay,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Bracelet of ethereum Charged,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Bracelet of ethereum Uncharged,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Bracelet of slaughter,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Bronze gloves,Members,0.226,2,2,2,1,2,2,2,2,1,2,2,0,0,0,0
+Hands,Bunny paws,Free-to-play,0.113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Castle wars bracelet,Free-to-play,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Chaos gauntlets,Members,0.226,2,2,2,0,0,8,9,7,0,0,2,0,0,0,0
+Hands,Clue hunter gloves,Members,0.5,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0
+Hands,Combat bracelet,Members,0.25,7,7,7,3,7,5,5,5,3,5,6,0,0,0,0
+Hands,Combat bracelet Uncharged,Members,0.25,7,7,7,3,7,5,5,5,3,5,6,0,0,0,0
+Hands,Cooking gauntlets,Members,0.226,2,2,2,0,0,8,9,7,0,0,2,0,0,0,0
+Hands,Cow gloves,Free-to-play,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Crab claw,Members,0.907,0,0,0,0,0,3,4,2,0,0,1,0,0,0,0
+Hands,Crabclaw hook,Members,1,0,0,0,0,0,3,5,3,0,0,1,0,0,0,0
+Hands,Dark tuxedo cuffs,Members,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Diamond bracelet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Dragon gloves,Members,0.226,9,9,9,5,9,9,9,9,5,9,9,0,0,0,0
+Hands,Dragonstone bracelet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Dragonstone gauntlets,Members,0.226,8,8,8,-4,8,8,8,8,-4,4,4,0,0,0,0
+Hands,Elven gloves,Members,4.535,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Emerald bracelet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Expeditious bracelet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Expert mining gloves,Members,0.226,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Ferocious gloves,Members,0.226,16,16,16,-16,-16,0,0,0,0,0,14,0,0,0,0
+Hands,Flamtaer bracelet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Fremennik gloves,Members,0.453,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0
+Hands,Ghostly gloves,Members,0.001,0,0,0,2,0,0,0,0,2,0,0,0,0,0,0
+Hands,Gilded d'hide vambraces,Free-to-play,1,0,0,0,-10,8,3,2,4,2,0,0,0,0,0,0
+Hands,Gloves of darkness,Members,0.453,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0
+Hands,Gloves of silence,Members,0.226,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0
+Hands,Gold bracelet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Goldsmith gauntlets,Members,0.226,2,2,2,0,0,8,9,7,0,0,2,0,0,0,0
+Hands,Graceful gloves Agility_Arena,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Graceful gloves Arceuus,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Graceful gloves Hallowed_Sepulchre,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Graceful gloves Hosidius,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Graceful gloves Kourend,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Graceful gloves Lovakengj,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Graceful gloves Piscarilius,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Graceful gloves Regular,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Graceful gloves Shayzien,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Granite gloves,Members,1,5,5,9,-3,-1,8,8,8,-3,5,7,0,0,0,0
+Hands,Gravedigger gloves,Free-to-play,0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Green d'hide vambraces,Free-to-play,0.283,0,0,0,-10,8,3,2,4,2,0,0,0,0,0,0
+Hands,Green spiky vambraces,Members,0.283,0,0,0,-10,8,3,2,4,2,0,2,0,0,0,0
+Hands,Grey gloves,Free-to-play,0.453,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0
+Hands,Guthix bracers,Members,1,0,0,0,-10,11,6,5,7,8,0,0,0,0,1,0
+Hands,Ham gloves,Members,0.453,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0
+Hands,Hardleather gloves,Members,0.226,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0
+Hands,Holy wraps,Members,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0
+Hands,Ice gloves,Members,0.226,0,0,0,0,0,0,3,4,0,2,0,0,0,0,0
+Hands,Infinity gloves,Members,0.453,0,0,0,5,0,0,0,0,5,0,0,0,0,0,0
+Hands,Inoculation bracelet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Iron gloves,Members,0.226,3,3,3,2,3,3,3,3,2,3,3,0,0,0,0
+Hands,Jade bracelet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Karamja gloves 1,Members,0.226,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0
+Hands,Karamja gloves 2,Members,0.226,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0
+Hands,Karamja gloves 3,Members,0.226,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0
+Hands,Karamja gloves 4,Members,0.226,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0
+Hands,Klank's gauntlets,Members,0.226,2,2,2,0,0,8,9,7,0,0,2,0,0,0,0
+Hands,Leather gloves,Free-to-play,0.226,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0
+Hands,Leather vambraces,Free-to-play,0.226,0,0,0,0,4,2,2,1,0,0,0,0,0,0,0
+Hands,Light tuxedo cuffs,Members,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Lunar gloves,Members,0.907,0,0,0,4,-1,2,1,1,2,0,0,0,0,0,0
+Hands,Mime gloves,Free-to-play,0.001,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Mining gloves,Members,0.226,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Mithril gloves,Members,0.226,6,6,6,3,6,6,6,6,3,6,6,0,0,0,0
+Hands,Moonclan gloves,Members,0.907,0,0,0,2,-5,2,2,2,2,-5,0,0,0,0,0
+Hands,Mourner gloves,Members,0.226,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0
+Hands,Mummy's hands,Members,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Mystic gloves,Members,0.453,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0
+Hands,Mystic gloves(dark),Members,0.453,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0
+Hands,Mystic gloves(dusk),Members,0.453,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0
+Hands,Mystic gloves(light),Members,0.453,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0
+Hands,Onyx bracelet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Opal bracelet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Ornate gloves,Free-to-play,0.226,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0
+Hands,Penance gloves,Members,,0,0,0,0,0,0,3,4,0,2,0,0,0,0,0
+Hands,Pirate's hook,Members,0.3,0,0,0,0,0,1,5,3,0,0,0,0,0,0,0
+Hands,Purple gloves,Free-to-play,0.453,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0
+Hands,Ranger gloves,Members,0.226,0,0,0,-10,11,1,2,1,2,0,0,0,0,0,0
+Hands,Red d'hide vambraces,Members,0.283,0,0,0,-10,10,5,4,6,6,0,0,0,0,0,0
+Hands,Red gloves,Free-to-play,0.453,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0
+Hands,Red spiky vambraces,Members,0.283,0,0,0,-10,10,5,4,6,6,0,2,0,0,0,0
+Hands,Regen bracelet,Members,0.25,8,8,8,3,7,6,6,6,3,6,7,0,0,0,0
+Hands,Rock-shell gloves,Members,3.175,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0
+Hands,Rogue gloves,Members,0.453,0,0,0,0,0,2,2,2,2,2,0,0,0,0,0
+Hands,Ruby bracelet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Rune gloves,Members,0.226,8,8,8,4,8,8,8,8,4,8,8,0,0,0,0
+Hands,Samurai gloves,Members,0.4,2,2,2,2,2,3,3,3,3,3,0,0,0,0,0
+Hands,Santa gloves,Free-to-play,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Sapphire bracelet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Saradomin bracers,Members,1,0,0,0,-10,11,6,5,7,8,0,0,0,0,1,0
+Hands,Shayzien gloves,Members,0.226,0,0,0,-1,0,0,0,1,-1,0,0,0,0,0,0
+Hands,Skeletal gloves,Members,3.175,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0
+Hands,Skeleton gloves,Free-to-play,2.267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Slayer gloves,Members,0.226,0,0,0,0,0,4,5,3,0,0,0,0,0,0,0
+Hands,Snakeskin vambraces,Members,0.283,0,0,0,-5,6,2,2,2,1,0,0,0,0,0,0
+Hands,Snow imp costume gloves,Free-to-play,0.113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Spiky vambraces,Members,0.226,0,0,0,0,4,2,2,1,0,0,2,0,0,0,0
+Hands,Spined gloves,Members,3.175,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0
+Hands,Splitbark gauntlets,Members,0.907,0,0,0,2,-1,3,2,4,2,0,0,0,0,0,0
+Hands,Spookier gloves,Free-to-play,0.113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Spooky gloves,Free-to-play,0.113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Steel gauntlets,Members,0.226,2,2,2,0,0,8,9,7,0,0,2,0,0,0,0
+Hands,Steel gloves,Members,0.226,4,4,4,2,4,4,4,4,2,4,4,0,0,0,0
+Hands,Superior mining gloves,Members,0.226,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Teal gloves,Free-to-play,0.453,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0
+Hands,Topaz bracelet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Tormented bracelet,Members,0.25,0,0,0,10,0,0,0,0,0,0,0,0,5,2,0
+Hands,Tormented bracelet(or),Members,0.25,0,0,0,10,0,0,0,0,0,0,0,0,5,2,0
+Hands,Villager armband(blue),Members,0.68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Villager armband(brown),Members,0.68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Villager armband(pink),Members,0.68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Villager armband(yellow),Members,0.68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Void knight gloves Broken,Members,0.453,0,0,0,0,0,6,6,6,4,6,0,0,0,0,0
+Hands,Void knight gloves Locked,Members,0.453,0,0,0,0,0,6,6,6,4,6,0,0,0,0,0
+Hands,Void knight gloves Normal,Members,0.453,0,0,0,0,0,6,6,6,4,6,0,0,0,0,0
+Hands,Warm gloves,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,White gloves,Members,0.226,0,0,0,0,0,0,1,2,0,0,0,0,0,1,0
+Hands,Yellow gloves,Free-to-play,0.453,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0
+Hands,Zamorak bracers,Members,1,0,0,0,-10,11,6,5,7,8,0,0,0,0,1,0
+Hands,Zenyte bracelet,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hands,Zombie gloves,Free-to-play,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

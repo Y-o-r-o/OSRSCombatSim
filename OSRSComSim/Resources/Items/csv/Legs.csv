@@ -1,377 +1,377 @@
 Type,Name,Member,Weigth,StabAtk,SlashAtk,CrushAtk,MagicAtk,RangedAtk,StabDef,SlashDef,CrushDef,MagicDef,RangedDef,MeleStr,RangedStr,MagicStr,Prayer,Speed
-Equipment,3rd age druidic robe bottoms,Members,1.5,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0
-Equipment,3rd age platelegs,Members,2.721,0,0,0,-25,-2,78,76,83,-5,75,0,0,0,0,0
-Equipment,3rd age plateskirt,Members,2.721,0,0,0,-25,-2,78,76,83,-5,75,0,0,0,0,0
-Equipment,3rd age range legs,Members,3,0,0,0,-10,17,31,25,33,30,31,0,0,0,0,0
-Equipment,3rd age robe,Members,1.8,0,0,0,19,0,0,0,0,19,0,0,0,0,0,0
-Equipment,Adamant platelegs,Free-to-play,10.432,0,0,0,-21,-7,33,31,29,-4,31,0,0,0,0,0
-Equipment,Adamant platelegs (g),Free-to-play,10.432,0,0,0,-21,-7,33,31,29,-4,31,0,0,0,0,0
-Equipment,Adamant platelegs (t),Free-to-play,10.432,0,0,0,-21,-7,33,31,29,-4,31,0,0,0,0,0
-Equipment,Adamant plateskirt,Free-to-play,9.071,0,0,0,-21,-7,33,31,29,-4,31,0,0,0,0,0
-Equipment,Adamant plateskirt (g),Free-to-play,10.432,0,0,0,-21,-7,33,31,29,-4,31,0,0,0,0,0
-Equipment,Adamant plateskirt (t),Free-to-play,10.432,0,0,0,-21,-7,33,31,29,-4,31,0,0,0,0,0
-Equipment,Ahrim's robeskirt (broken),Members,11.339,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Ahrim's robeskirt 100,Members,11.339,0,0,0,22,-7,33,30,36,22,0,0,0,0,0,0
-Equipment,Ahrim's robeskirt 25,Members,11.339,0,0,0,22,-7,33,30,36,22,0,0,0,0,0,0
-Equipment,Ahrim's robeskirt 50,Members,11.339,0,0,0,22,-7,33,30,36,22,0,0,0,0,0,0
-Equipment,Ahrim's robeskirt 75,Members,11.339,0,0,0,22,-7,33,30,36,22,0,0,0,0,0,0
-Equipment,Ahrim's robeskirt Undamaged,Members,11.339,0,0,0,22,-7,33,30,36,22,0,0,0,0,0,0
-Equipment,Ancestral robe bottom,Members,1.814,0,0,0,26,-7,27,24,30,20,0,0,0,2,0,0
-Equipment,Ancient chaps,Members,5,0,0,0,-10,17,31,25,33,28,31,0,0,0,1,0
-Equipment,Ancient platelegs,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,1,0
-Equipment,Ancient plateskirt,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,1,0
-Equipment,Ancient robe legs,Members,0.005,0,0,0,4,0,0,0,0,4,0,0,0,0,5,0
-Equipment,Angler waders,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Ankou's leggings,Members,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Anti-panties,Free-to-play,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Antisanta pantaloons,Free-to-play,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Ardougne knight platelegs,Members,9.071,0,0,0,-21,-7,11,10,10,-4,10,0,0,0,0,0
-Equipment,Armadyl chainskirt,Members,1,-6,-6,-6,-10,20,32,26,34,40,33,0,0,0,1,0
-Equipment,Armadyl chaps,Members,5,0,0,0,-10,17,31,25,33,28,31,0,0,0,1,0
-Equipment,Armadyl platelegs,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,1,0
-Equipment,Armadyl plateskirt,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,1,0
-Equipment,Armadyl robe legs,Members,2.7,0,0,0,4,0,0,0,0,4,0,0,0,0,5,0
-Equipment,Bandos chaps,Members,5,0,0,0,-10,17,31,25,33,28,31,0,0,0,1,0
-Equipment,Bandos platelegs,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,1,0
-Equipment,Bandos plateskirt,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,1,0
-Equipment,Bandos robe legs,Members,2.7,0,0,0,4,0,0,0,0,4,0,0,0,0,5,0
-Equipment,Bandos tassets,Members,8,0,0,0,-21,-7,71,63,66,-4,93,2,0,0,1,0
-Equipment,Banshee robe,Free-to-play,0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Black d'hide chaps,Members,5.443,0,0,0,-10,17,31,25,33,28,31,0,0,0,0,0
-Equipment,Black d'hide chaps (g),Members,5.443,0,0,0,-10,17,31,25,33,28,31,0,0,0,0,0
-Equipment,Black d'hide chaps (t),Members,5.443,0,0,0,-10,17,31,25,33,28,31,0,0,0,0,0
-Equipment,Black desert robe,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Black elegant legs,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Black navy slacks,Members,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Black platelegs,Free-to-play,9.071,0,0,0,-21,-7,21,20,19,-4,20,0,0,0,0,0
-Equipment,Black platelegs (g),Free-to-play,9.071,0,0,0,-21,-7,21,20,19,-4,20,0,0,0,0,0
-Equipment,Black platelegs (t),Free-to-play,9.071,0,0,0,-21,-7,21,20,19,-4,20,0,0,0,0,0
-Equipment,Black plateskirt,Free-to-play,8.164,0,0,0,-21,-7,21,20,19,-4,20,0,0,0,0,0
-Equipment,Black plateskirt (g),Free-to-play,9.071,0,0,0,-21,-7,21,20,19,-4,20,0,0,0,0,0
-Equipment,Black plateskirt (t),Free-to-play,9.071,0,0,0,-21,-7,21,20,19,-4,20,0,0,0,0,0
-Equipment,Black skirt,Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Black skirt (g),Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Black skirt (t),Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Blue d'hide chaps,Members,5.443,0,0,0,-10,11,25,19,27,14,25,0,0,0,0,0
-Equipment,Blue d'hide chaps (g),Members,5.443,0,0,0,-10,11,25,19,27,14,25,0,0,0,0,0
-Equipment,Blue d'hide chaps (t),Members,5.443,0,0,0,-10,11,25,19,27,14,25,0,0,0,0,0
-Equipment,Blue elegant legs,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Blue elegant skirt,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Blue navy slacks,Members,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Blue robe bottoms,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
-Equipment,Blue skirt,Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Blue skirt (g),Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Blue skirt (t),Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Bronze platelegs,Free-to-play,9.071,0,0,0,-21,-7,8,7,6,-4,7,0,0,0,0,0
-Equipment,Bronze platelegs (g),Free-to-play,9.071,0,0,0,-21,-7,8,7,6,-4,7,0,0,0,0,0
-Equipment,Bronze platelegs (t),Free-to-play,9.071,0,0,0,-21,-7,8,7,6,-4,7,0,0,0,0,0
-Equipment,Bronze plateskirt,Free-to-play,8.164,0,0,0,-21,-7,8,7,6,-4,7,0,0,0,0,0
-Equipment,Bronze plateskirt (g),Free-to-play,8.164,0,0,0,-21,-7,8,7,6,-4,7,0,0,0,0,0
-Equipment,Bronze plateskirt (t),Free-to-play,8.164,0,0,0,-21,-7,8,7,6,-4,7,0,0,0,0,0
-Equipment,Brown navy slacks,Members,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Builder's trousers,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Bunny legs,Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Camo bottoms,Free-to-play,2.267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Chicken legs,Free-to-play,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Citizen trousers,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
-Equipment,Clown trousers,Free-to-play,0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Clue hunter trousers,Members,2,0,0,0,0,4,2,2,1,0,0,0,0,0,0,0
-Equipment,Corrupted legs (attuned),Members,9.071,10,10,3,10,10,74,74,74,74,74,0,0,0,3,0
-Equipment,Corrupted legs (basic),Members,9.071,6,6,2,6,6,52,52,52,52,52,0,0,0,2,0
-Equipment,Corrupted legs (perfected),Members,9.071,14,14,4,14,14,92,92,92,92,92,0,0,0,4,0
-Equipment,Corrupted platelegs,Members,9.071,0,0,0,-21,-7,11,10,10,-4,10,0,0,0,0,0
-Equipment,Corrupted plateskirt,Members,8.164,0,0,0,-21,-7,11,10,10,-4,10,0,0,0,0,0
-Equipment,Cow trousers,Free-to-play,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Cream robe bottoms,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
-Equipment,Crystal legs (attuned),Members,9.071,10,10,3,10,10,74,74,74,74,74,0,0,0,3,0
-Equipment,Crystal legs (basic),Members,9.071,6,6,2,6,6,52,52,52,52,52,0,0,0,2,0
-Equipment,Crystal legs (perfected),Members,9.071,14,14,4,14,14,92,92,92,92,92,0,0,0,4,0
-Equipment,Crystal legs Active,Members,9.071,0,0,0,-12,17,20,16,24,34,29,0,0,0,2,0
-Equipment,Crystal legs Inactive,Members,9.071,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Dagon'hai robe bottom,Members,1.814,0,0,0,18,0,0,0,0,14,0,0,0,0,2,0
-Equipment,Dark infinity bottoms,Members,1.814,0,0,0,17,0,0,0,0,17,0,0,0,0,0,0
-Equipment,Dark trousers,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Deadman's legs Cosmetic,Free-to-play,0.11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Deadman's legs Deadman_mode,Members,9.071,0,0,0,-21,-7,11,10,10,-4,10,0,0,0,0,0
-Equipment,Decorative armour (gold platelegs) Broken,Members,9.071,0,0,0,-21,-7,33,31,29,-4,31,0,0,0,0,0
-Equipment,Decorative armour (gold platelegs) Locked,Free-to-play,9.071,0,0,0,-21,-7,33,31,29,-4,31,0,0,0,0,0
-Equipment,Decorative armour (gold platelegs) Normal,Free-to-play,9.071,0,0,0,-21,-7,33,31,29,-4,31,0,0,0,0,0
-Equipment,Decorative armour (gold plateskirt) Broken,Members,9.071,0,0,0,-21,-7,33,31,29,-4,31,0,0,0,0,0
-Equipment,Decorative armour (gold plateskirt) Locked,Free-to-play,9.071,0,0,0,-21,-7,33,31,29,-4,31,0,0,0,0,0
-Equipment,Decorative armour (gold plateskirt) Normal,Free-to-play,9.071,0,0,0,-21,-7,33,31,29,-4,31,0,0,0,0,0
-Equipment,Decorative armour (magic legs) Broken,Members,8.164,0,0,0,0,0,15,15,15,15,15,0,0,0,0,0
-Equipment,Decorative armour (magic legs) Locked,Members,8.164,0,0,0,0,0,15,15,15,15,15,0,0,0,0,0
-Equipment,Decorative armour (magic legs) Normal,Members,8.164,0,0,0,0,0,15,15,15,15,15,0,0,0,0,0
-Equipment,Decorative armour (ranged legs) Broken,Members,8.164,0,0,0,0,0,15,15,15,15,15,0,0,0,0,0
-Equipment,Decorative armour (ranged legs) Locked,Members,8.164,0,0,0,0,0,15,15,15,15,15,0,0,0,0,0
-Equipment,Decorative armour (ranged legs) Normal,Members,8.164,0,0,0,0,0,15,15,15,15,15,0,0,0,0,0
-Equipment,Decorative armour (red platelegs),Free-to-play,9.071,0,0,0,-21,-7,17,16,15,-4,16,0,0,0,0,0
-Equipment,Decorative armour (red plateskirt),Free-to-play,9.071,0,0,0,-21,-7,17,16,15,-4,16,0,0,0,0,0
-Equipment,Decorative armour (white platelegs),Free-to-play,9.071,0,0,0,-21,-7,24,22,20,-4,22,0,0,0,0,0
-Equipment,Decorative armour (white plateskirt),Free-to-play,9.071,0,0,0,-21,-7,24,22,20,-4,22,0,0,0,0,0
-Equipment,Desert camo legs,Members,0.226,0,0,0,0,-7,11,10,10,0,10,0,0,0,0,0
-Equipment,Desert legs,Members,0.005,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Desert robe,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Desert robes,Members,0.005,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Dharok's platelegs (broken),Members,9.071,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Dharok's platelegs 100,Members,9.071,0,0,0,-21,-7,85,82,83,-4,92,0,0,0,0,0
-Equipment,Dharok's platelegs 25,Members,9.071,0,0,0,-21,-7,85,82,83,-4,92,0,0,0,0,0
-Equipment,Dharok's platelegs 50,Members,9.071,0,0,0,-21,-7,85,82,83,-4,92,0,0,0,0,0
-Equipment,Dharok's platelegs 75,Members,9.071,0,0,0,-21,-7,85,82,83,-4,92,0,0,0,0,0
-Equipment,Dharok's platelegs Undamaged,Members,9.071,0,0,0,-21,-7,85,82,83,-4,92,0,0,0,0,0
-Equipment,Dragon platelegs,Members,9.071,0,0,0,-21,-7,68,66,63,-4,65,0,0,0,0,0
-Equipment,Dragon platelegs (g),Members,9.071,0,0,0,-21,-7,68,66,63,-4,65,0,0,0,0,0
-Equipment,Dragon plateskirt,Members,9.071,0,0,0,-21,-7,68,66,63,-4,65,0,0,0,0,0
-Equipment,Dragon plateskirt (g),Members,9.071,0,0,0,-21,-7,68,66,63,-4,65,0,0,0,0,0
-Equipment,Dragonstone platelegs,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,0,0
-Equipment,Druid's robe,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0
-Equipment,Eggshell platelegs,Free-to-play,1.814,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Elder chaos robe,Members,0.18,0,0,0,6,0,0,0,0,6,0,0,0,0,0,0
-Equipment,Elite void robe Broken,Members,8.164,0,0,0,0,0,30,30,30,30,30,0,0,0,3,0
-Equipment,Elite void robe Locked,Members,8.164,0,0,0,0,0,30,30,30,30,30,0,0,0,3,0
-Equipment,Elite void robe Normal,Members,8.164,0,0,0,0,0,30,30,30,30,30,0,0,0,3,0
-Equipment,Elven legwear,Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Elven skirt (white),Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Elven skirt (yellow),Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Enchanted robe,Members,1.814,0,0,0,15,0,0,0,0,15,0,0,0,0,0,0
-Equipment,Evil chicken legs,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Farmer's boro trousers Female,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Farmer's boro trousers Male,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Flared trousers,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Fremennik kilt,Members,3,0,0,0,-21,-7,11,10,10,-4,10,1,0,0,0,0
-Equipment,Fremennik skirt,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
-Equipment,Frog-leather chaps,Members,3,0,0,0,-5,2,7,7,9,4,9,0,0,0,0,0
-Equipment,Ghostly robe (bottom),Members,0.001,0,0,0,4,0,0,0,0,4,0,0,0,0,0,0
-Equipment,Gilded d'hide chaps,Free-to-play,5,0,0,0,-10,8,22,16,24,8,22,0,0,0,0,0
-Equipment,Gilded platelegs,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,0,0
-Equipment,Gilded plateskirt,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,0,0
-Equipment,Gold elegant legs,Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Gold elegant skirt,Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Graahk legs,Members,0.226,0,0,0,0,-7,11,10,10,0,10,0,0,0,0,0
-Equipment,Graceful legs Agility_Arena,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Graceful legs Arceuus,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Graceful legs Hallowed_Sepulchre,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Graceful legs Hosidius,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Graceful legs Kourend,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Graceful legs Lovakengj,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Graceful legs Piscarilius,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Graceful legs Regular,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Graceful legs Shayzien,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Granite legs,Members,15.875,0,0,0,-31,-18,43,45,41,-4,68,0,0,0,0,0
-Equipment,Gravedigger leggings,Free-to-play,0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Green d'hide chaps,Free-to-play,5.443,0,0,0,-10,8,22,16,24,8,22,0,0,0,0,0
-Equipment,Green d'hide chaps (g),Free-to-play,5.443,0,0,0,-10,8,22,16,24,8,22,0,0,0,0,0
-Equipment,Green d'hide chaps (t),Free-to-play,5.443,0,0,0,-10,8,22,16,24,8,22,0,0,0,0,0
-Equipment,Green elegant legs,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Green elegant skirt,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Green navy slacks,Members,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Green robe bottoms,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
-Equipment,Grey navy slacks,Members,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Grey robe bottoms,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
-Equipment,Guthan's chainskirt (broken),Members,8.164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Guthan's chainskirt 100,Members,8.164,0,0,0,-14,-7,75,72,73,-4,82,0,0,0,0,0
-Equipment,Guthan's chainskirt 25,Members,8.164,0,0,0,-14,-7,75,72,73,-4,82,0,0,0,0,0
-Equipment,Guthan's chainskirt 50,Members,8.164,0,0,0,-14,-7,75,72,73,-4,82,0,0,0,0,0
-Equipment,Guthan's chainskirt 75,Members,8.164,0,0,0,-14,-7,75,72,73,-4,82,0,0,0,0,0
-Equipment,Guthan's chainskirt Undamaged,Members,8.164,0,0,0,-14,-7,75,72,73,-4,82,0,0,0,0,0
-Equipment,Guthix chaps,Members,5,0,0,0,-10,17,31,25,33,28,31,0,0,0,1,0
-Equipment,Guthix platelegs,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,1,0
-Equipment,Guthix plateskirt,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,1,0
-Equipment,Guthix robe legs,Members,2.7,0,0,0,4,0,0,0,0,4,0,0,0,0,5,0
-Equipment,Ham robe,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
-Equipment,Hardcore ironman platelegs,Free-to-play,4.535,0,0,0,-21,-7,11,10,10,-4,10,0,0,0,0,0
-Equipment,Infinity bottoms,Members,1.814,0,0,0,17,0,0,0,0,17,0,0,0,0,0,0
-Equipment,Initiate cuisse,Members,7.711,0,0,0,-21,-7,24,22,20,-4,22,0,0,0,5,0
-Equipment,Inquisitor's plateskirt,Members,9.071,-3,-3,12,-9,-5,42,30,49,0,22,2,0,0,2,0
-Equipment,Iron platelegs,Free-to-play,9.071,0,0,0,-21,-7,11,10,10,-4,10,0,0,0,0,0
-Equipment,Iron platelegs (g),Free-to-play,9.071,0,0,0,-21,-7,11,10,10,-4,10,0,0,0,0,0
-Equipment,Iron platelegs (t),Free-to-play,9.071,0,0,0,-21,-7,11,10,10,-4,10,0,0,0,0,0
-Equipment,Iron plateskirt,Free-to-play,8.164,0,0,0,-21,-7,11,10,10,-4,10,0,0,0,0,0
-Equipment,Iron plateskirt (g),Free-to-play,8.164,0,0,0,-21,-7,11,10,10,-4,10,0,0,0,0,0
-Equipment,Iron plateskirt (t),Free-to-play,8.164,0,0,0,-21,-7,11,10,10,-4,10,0,0,0,0,0
-Equipment,Ironman platelegs,Free-to-play,4.535,0,0,0,-21,-7,11,10,10,-4,10,0,0,0,0,0
-Equipment,Jungle camo legs,Members,0.226,0,0,0,0,-7,11,10,10,0,10,0,0,0,0,0
-Equipment,Justiciar legguards,Members,9.071,0,0,0,-31,-17,95,92,93,-14,102,0,0,0,4,0
-Equipment,Karil's leatherskirt (broken),Members,5.443,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Karil's leatherskirt 100,Members,5.443,0,0,0,-10,17,26,20,28,35,33,0,0,0,0,0
-Equipment,Karil's leatherskirt 25,Members,5.443,0,0,0,-10,17,26,20,28,35,33,0,0,0,0,0
-Equipment,Karil's leatherskirt 50,Members,5.443,0,0,0,-10,17,26,20,28,35,33,0,0,0,0,0
-Equipment,Karil's leatherskirt 75,Members,5.443,0,0,0,-10,17,26,20,28,35,33,0,0,0,0,0
-Equipment,Karil's leatherskirt Undamaged,Members,5.443,0,0,0,-10,17,26,20,28,35,33,0,0,0,0,0
-Equipment,Kyatt legs,Members,0.226,0,0,0,0,-7,11,10,10,0,10,0,0,0,0,0
-Equipment,Larupia legs,Members,0.226,0,0,0,0,-7,11,10,10,0,10,0,0,0,0,0
-Equipment,Leather chaps,Free-to-play,2.721,0,0,0,0,4,2,2,1,0,0,0,0,0,0,0
-Equipment,Leather chaps (g),Free-to-play,2.721,0,0,0,0,4,2,2,1,0,0,0,0,0,0,0
-Equipment,Lederhosen shorts,Free-to-play,2.267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Light infinity bottoms,Members,1.814,0,0,0,17,0,0,0,0,17,0,0,0,0,0,0
-Equipment,Light trousers,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Lumberjack legs,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Lunar legs,Members,3.628,0,0,0,7,-7,20,19,23,9,0,0,0,0,0,0
-Equipment,Menaphite purple kilt,Members,0.005,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Menaphite purple robe,Members,0.005,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Menaphite red kilt,Members,0.005,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Menaphite red robe,Members,0.005,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Mime legs,Free-to-play,0.001,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Mithril platelegs,Free-to-play,7.711,0,0,0,-21,-7,24,22,20,-4,22,0,0,0,0,0
-Equipment,Mithril platelegs (g),Free-to-play,7.711,0,0,0,-21,-7,24,22,20,-4,22,0,0,0,0,0
-Equipment,Mithril platelegs (t),Free-to-play,7.711,0,0,0,-21,-7,24,22,20,-4,22,0,0,0,0,0
-Equipment,Mithril plateskirt,Free-to-play,7.257,0,0,0,-21,-7,24,22,20,-4,22,0,0,0,0,0
-Equipment,Mithril plateskirt (g),Free-to-play,7.257,0,0,0,-21,-7,24,22,20,-4,22,0,0,0,0,0
-Equipment,Mithril plateskirt (t),Free-to-play,7.257,0,0,0,-21,-7,24,22,20,-4,22,0,0,0,0,0
-Equipment,Monk's robe,Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0
-Equipment,Monk's robe (g),Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0
-Equipment,Monk's robe (t),Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0
-Equipment,Moonclan skirt,Members,3.628,0,0,0,5,-7,5,5,5,5,-7,0,0,0,0,0
-Equipment,Morytania legs 1,Members,9.071,0,0,0,-21,-7,11,10,10,-4,10,0,0,0,0,0
-Equipment,Morytania legs 2,Members,9.071,0,0,0,-21,-7,17,16,15,-4,16,0,0,0,0,0
-Equipment,Morytania legs 3,Members,9.071,0,0,0,-21,-7,24,22,20,-4,22,0,0,0,0,0
-Equipment,Morytania legs 4,Members,9.071,0,0,0,-21,-7,33,31,29,-4,31,0,0,0,0,0
-Equipment,Mourner trousers Repaired,Members,2.267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Mourner trousers Ripped,Members,2.267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Mummy's legs,Members,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Musketeer pants,Members,1.814,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Mystic robe bottom,Members,1.814,0,0,0,15,0,0,0,0,15,0,0,0,0,0,0
-Equipment,Mystic robe bottom (dark),Members,1.814,0,0,0,15,0,0,0,0,15,0,0,0,0,0,0
-Equipment,Mystic robe bottom (dusk),Members,1.814,0,0,0,15,0,0,0,0,15,0,0,0,0,0,0
-Equipment,Mystic robe bottom (light),Members,1.814,0,0,0,15,0,0,0,0,15,0,0,0,0,0,0
-Equipment,Obsidian platelegs,Members,9.071,0,0,0,0,0,46,43,41,-10,40,1,0,0,0,0
-Equipment,Ornate legs,Free-to-play,9.071,0,0,0,-21,-7,11,10,10,-4,10,0,0,0,0,0
-Equipment,Pantaloons,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Penance skirt Broken,Members,3,0,0,0,-10,15,26,21,28,19,26,0,0,0,0,0
-Equipment,Penance skirt Locked,Members,3,0,0,0,-10,15,26,21,28,19,26,0,0,0,0,0
-Equipment,Penance skirt Normal,Members,3,0,0,0,-10,15,26,21,28,19,26,0,0,0,0,0
-Equipment,Pink elegant legs,Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Pink elegant skirt,Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Pink robe bottoms,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
-Equipment,Pink skirt,Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Pirate leggings (beige),Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Pirate leggings (blue),Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Pirate leggings (brown),Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Pirate leggings (red),Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Plague trousers,Members,2.267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Polar camo legs,Members,0.226,0,0,0,0,-7,11,10,10,0,10,0,0,0,0,0
-Equipment,Priest gown (bottom),Free-to-play,1.814,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0
-Equipment,Prince leggings,Free-to-play,2.267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Princess skirt,Free-to-play,2.267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Proselyte cuisse,Members,7.711,0,0,0,-21,-7,33,31,29,-4,31,0,0,0,6,0
-Equipment,Proselyte tasset,Members,8.164,0,0,0,-21,-7,33,31,29,-4,31,0,0,0,6,0
-Equipment,Prospector legs,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Purple elegant legs,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Purple elegant skirt,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Purple navy slacks,Members,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Purple robe bottoms,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
-Equipment,Pyromancer robe,Members,0.18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Rangers' tights,Members,5.443,0,0,0,-10,15,0,0,0,0,0,0,0,0,0,0
-Equipment,Red d'hide chaps,Members,5.443,0,0,0,-10,14,28,22,30,20,28,0,0,0,0,0
-Equipment,Red d'hide chaps (g),Members,5.443,0,0,0,-10,14,28,22,30,20,28,0,0,0,0,0
-Equipment,Red d'hide chaps (t),Members,5.443,0,0,0,-10,14,28,22,30,20,28,0,0,0,0,0
-Equipment,Red elegant legs,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Red elegant skirt,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Red navy slacks,Members,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Red robe bottoms,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
-Equipment,Robe bottom of darkness,Members,1.814,0,0,0,15,0,0,0,0,15,0,0,0,0,0,0
-Equipment,Robe of elidinis (bottom),Members,0.005,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Rock-shell legs,Members,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,0,0
-Equipment,Rogue trousers,Members,0.453,0,0,0,0,0,7,7,7,7,7,0,0,0,0,0
-Equipment,Royal gown bottom,Members,1.36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Rune platelegs,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,0,0
-Equipment,Rune platelegs (g),Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,0,0
-Equipment,Rune platelegs (t),Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,0,0
-Equipment,Rune plateskirt,Free-to-play,8.164,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,0,0
-Equipment,Rune plateskirt (g),Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,0,0
-Equipment,Rune plateskirt (t),Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,0,0
-Equipment,Samurai greaves,Members,1.5,0,0,0,0,0,42,40,38,3,40,0,0,0,0,0
-Equipment,Sandwich lady bottom,Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Santa pantaloons,Free-to-play,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Saradomin chaps,Members,5,0,0,0,-10,17,31,25,33,28,31,0,0,0,1,0
-Equipment,Saradomin platelegs,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,1,0
-Equipment,Saradomin plateskirt,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,1,0
-Equipment,Saradomin robe legs,Members,2.7,0,0,0,4,0,0,0,0,4,0,0,0,0,5,0
-Equipment,Shade robe,Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0
-Equipment,Shayzien greaves (1),Members,9.071,0,0,0,-10,-2,10,9,8,-2,10,0,0,0,0,0
-Equipment,Shayzien greaves (2),Members,9.071,0,0,0,-14,-3,14,13,12,-3,14,0,0,0,0,0
-Equipment,Shayzien greaves (3),Members,9.071,0,0,0,-17,-4,17,16,15,-3,17,0,0,0,0,0
-Equipment,Shayzien greaves (4),Members,9.071,0,0,0,-20,-5,20,19,18,-4,20,0,0,0,0,0
-Equipment,Shayzien greaves (5),Members,9.071,0,0,0,-20,-5,23,22,21,-4,23,0,0,0,0,0
-Equipment,Shorts (blue),Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Shorts (brown),Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Shorts (yellow),Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Silly jester tights,Members,0.907,0,0,0,0,0,0,0,0,5,-5,0,0,0,0,0
-Equipment,Skeletal bottoms,Members,4.082,0,0,0,6,-7,22,20,24,10,0,0,0,0,0,0
-Equipment,Skeleton leggings,Free-to-play,2.267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Skirt (blue),Members,0.08,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Skirt (brown),Members,0.08,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Skirt (lilac),Members,0.08,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Slave robe,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Snakeskin chaps,Members,3.628,0,0,0,-5,6,8,8,10,4,10,0,0,0,0,0
-Equipment,Snow imp costume legs,Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Spined chaps,Members,5.443,0,0,0,-10,8,22,16,24,8,22,0,0,0,0,0
-Equipment,Splitbark legs,Members,3.628,0,0,0,7,-7,22,20,25,10,0,0,0,0,0,0
-Equipment,Spookier skirt,Free-to-play,0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Spooky skirt,Free-to-play,0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Steel platelegs,Free-to-play,9.071,0,0,0,-21,-7,17,16,15,-4,16,0,0,0,0,0
-Equipment,Steel platelegs (g),Free-to-play,9.071,0,0,0,-21,-7,17,16,15,-4,16,0,0,0,0,0
-Equipment,Steel platelegs (t),Free-to-play,9.071,0,0,0,-21,-7,17,16,15,-4,16,0,0,0,0,0
-Equipment,Steel plateskirt,Free-to-play,8.164,0,0,0,-21,-7,17,16,15,-4,16,0,0,0,0,0
-Equipment,Steel plateskirt (g),Free-to-play,8.164,0,0,0,-21,-7,17,16,15,-4,16,0,0,0,0,0
-Equipment,Steel plateskirt (t),Free-to-play,8.164,0,0,0,-21,-7,17,16,15,-4,16,0,0,0,0,0
-Equipment,Studded chaps,Free-to-play,4.535,0,0,0,-5,6,15,16,17,6,16,0,0,0,0,0
-Equipment,Studded chaps (g),Free-to-play,4.535,0,0,0,-5,6,15,16,17,6,16,0,0,0,0,0
-Equipment,Studded chaps (t),Free-to-play,4.535,0,0,0,-5,6,15,16,17,6,16,0,0,0,0,0
-Equipment,Teal robe bottoms,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
-Equipment,Torag's platelegs (broken),Members,9.071,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Torag's platelegs 100,Members,9.071,0,0,0,-21,-7,85,82,83,-4,92,0,0,0,0,0
-Equipment,Torag's platelegs 25,Members,9.071,0,0,0,-21,-7,85,82,83,-4,92,0,0,0,0,0
-Equipment,Torag's platelegs 50,Members,9.071,0,0,0,-21,-7,85,82,83,-4,92,0,0,0,0,0
-Equipment,Torag's platelegs 75,Members,9.071,0,0,0,-21,-7,85,82,83,-4,92,0,0,0,0,0
-Equipment,Torag's platelegs Undamaged,Members,9.071,0,0,0,-21,-7,85,82,83,-4,92,0,0,0,0,0
-Equipment,Tree skirt,Free-to-play,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Trousers (blue),Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Trousers (brown),Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Trousers (lilac),Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Turquoise robe bottoms,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
-Equipment,Twisted ancestral robe bottom,Members,1.814,0,0,0,26,-7,27,24,30,20,0,0,0,2,0,0
-Equipment,Twisted trousers (t1),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Twisted trousers (t2),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Twisted trousers (t3),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Ultimate ironman platelegs,Free-to-play,4.535,0,0,0,-21,-7,11,10,10,-4,10,0,0,0,0,0
-Equipment,Verac's plateskirt (broken),Members,4.535,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Verac's plateskirt 100,Members,4.535,0,0,0,-21,-7,85,82,83,0,84,0,0,0,4,0
-Equipment,Verac's plateskirt 25,Members,4.535,0,0,0,-21,-7,85,82,83,0,84,0,0,0,4,0
-Equipment,Verac's plateskirt 50,Members,4.535,0,0,0,-21,-7,85,82,83,0,84,0,0,0,4,0
-Equipment,Verac's plateskirt 75,Members,4.535,0,0,0,-21,-7,85,82,83,0,84,0,0,0,4,0
-Equipment,Verac's plateskirt Undamaged,Members,4.535,0,0,0,-21,-7,85,82,83,0,84,0,0,0,4,0
-Equipment,Villager robe (blue),Members,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Villager robe (brown),Members,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Villager robe (pink),Members,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Villager robe (yellow),Members,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Void knight robe Broken,Members,8.164,0,0,0,0,0,30,30,30,30,30,0,0,0,0,0
-Equipment,Void knight robe Locked,Members,8.164,0,0,0,0,0,30,30,30,30,30,0,0,0,0,0
-Equipment,Void knight robe Normal,Members,8.164,0,0,0,0,0,30,30,30,30,30,0,0,0,0,0
-Equipment,Vyre noble coat tails (grey),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Vyre noble coat tails (purple),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Vyre noble coat tails (red),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Vyre noble dress bottom (grey),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Vyre noble dress bottom (purple),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Vyre noble dress bottom (red),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Vyre noble legs,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Vyre noble pants (grey),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Vyre noble pants (purple),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Vyre noble pants (red),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Vyre noble skirt (grey),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Vyre noble skirt (purple),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Vyre noble skirt (red),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,Vyrewatch legs,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
-Equipment,White elegant skirt,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Equipment,White platelegs,Members,9.071,0,0,0,-21,-7,21,20,19,-4,20,0,0,0,1,0
-Equipment,White plateskirt,Members,8.164,0,0,0,-21,-7,21,20,19,-4,20,0,0,0,1,0
-Equipment,Wood camo legs,Members,0.226,0,0,0,0,-7,11,10,10,0,10,0,0,0,0,0
-Equipment,Xerician robe,Members,0.18,0,0,0,8,0,0,0,0,7,0,0,0,0,0,0
-Equipment,Yak-hide armour (legs),Members,2.721,0,0,0,-5,10,25,20,15,-2,10,0,0,0,0,0
-Equipment,Yellow robe bottoms,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
-Equipment,Zamorak chaps,Members,5,0,0,0,-10,17,31,25,33,28,31,0,0,0,1,0
-Equipment,Zamorak monk bottom,Free-to-play,0.907,0,0,0,2,0,0,0,0,3,0,0,0,0,3,0
-Equipment,Zamorak platelegs,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,1,0
-Equipment,Zamorak plateskirt,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,1,0
-Equipment,Zamorak robe legs,Members,2.7,0,0,0,4,0,0,0,0,4,0,0,0,0,5,0
-Equipment,Zombie trousers,Free-to-play,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,3rd age druidic robe bottoms,Members,1.5,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0
+Legs,3rd age platelegs,Members,2.721,0,0,0,-25,-2,78,76,83,-5,75,0,0,0,0,0
+Legs,3rd age plateskirt,Members,2.721,0,0,0,-25,-2,78,76,83,-5,75,0,0,0,0,0
+Legs,3rd age range legs,Members,3,0,0,0,-10,17,31,25,33,30,31,0,0,0,0,0
+Legs,3rd age robe,Members,1.8,0,0,0,19,0,0,0,0,19,0,0,0,0,0,0
+Legs,Adamant platelegs,Free-to-play,10.432,0,0,0,-21,-7,33,31,29,-4,31,0,0,0,0,0
+Legs,Adamant platelegs (g),Free-to-play,10.432,0,0,0,-21,-7,33,31,29,-4,31,0,0,0,0,0
+Legs,Adamant platelegs (t),Free-to-play,10.432,0,0,0,-21,-7,33,31,29,-4,31,0,0,0,0,0
+Legs,Adamant plateskirt,Free-to-play,9.071,0,0,0,-21,-7,33,31,29,-4,31,0,0,0,0,0
+Legs,Adamant plateskirt (g),Free-to-play,10.432,0,0,0,-21,-7,33,31,29,-4,31,0,0,0,0,0
+Legs,Adamant plateskirt (t),Free-to-play,10.432,0,0,0,-21,-7,33,31,29,-4,31,0,0,0,0,0
+Legs,Ahrim's robeskirt (broken),Members,11.339,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Ahrim's robeskirt 100,Members,11.339,0,0,0,22,-7,33,30,36,22,0,0,0,0,0,0
+Legs,Ahrim's robeskirt 25,Members,11.339,0,0,0,22,-7,33,30,36,22,0,0,0,0,0,0
+Legs,Ahrim's robeskirt 50,Members,11.339,0,0,0,22,-7,33,30,36,22,0,0,0,0,0,0
+Legs,Ahrim's robeskirt 75,Members,11.339,0,0,0,22,-7,33,30,36,22,0,0,0,0,0,0
+Legs,Ahrim's robeskirt Undamaged,Members,11.339,0,0,0,22,-7,33,30,36,22,0,0,0,0,0,0
+Legs,Ancestral robe bottom,Members,1.814,0,0,0,26,-7,27,24,30,20,0,0,0,2,0,0
+Legs,Ancient chaps,Members,5,0,0,0,-10,17,31,25,33,28,31,0,0,0,1,0
+Legs,Ancient platelegs,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,1,0
+Legs,Ancient plateskirt,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,1,0
+Legs,Ancient robe legs,Members,0.005,0,0,0,4,0,0,0,0,4,0,0,0,0,5,0
+Legs,Angler waders,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Ankou's leggings,Members,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Anti-panties,Free-to-play,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Antisanta pantaloons,Free-to-play,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Ardougne knight platelegs,Members,9.071,0,0,0,-21,-7,11,10,10,-4,10,0,0,0,0,0
+Legs,Armadyl chainskirt,Members,1,-6,-6,-6,-10,20,32,26,34,40,33,0,0,0,1,0
+Legs,Armadyl chaps,Members,5,0,0,0,-10,17,31,25,33,28,31,0,0,0,1,0
+Legs,Armadyl platelegs,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,1,0
+Legs,Armadyl plateskirt,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,1,0
+Legs,Armadyl robe legs,Members,2.7,0,0,0,4,0,0,0,0,4,0,0,0,0,5,0
+Legs,Bandos chaps,Members,5,0,0,0,-10,17,31,25,33,28,31,0,0,0,1,0
+Legs,Bandos platelegs,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,1,0
+Legs,Bandos plateskirt,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,1,0
+Legs,Bandos robe legs,Members,2.7,0,0,0,4,0,0,0,0,4,0,0,0,0,5,0
+Legs,Bandos tassets,Members,8,0,0,0,-21,-7,71,63,66,-4,93,2,0,0,1,0
+Legs,Banshee robe,Free-to-play,0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Black d'hide chaps,Members,5.443,0,0,0,-10,17,31,25,33,28,31,0,0,0,0,0
+Legs,Black d'hide chaps (g),Members,5.443,0,0,0,-10,17,31,25,33,28,31,0,0,0,0,0
+Legs,Black d'hide chaps (t),Members,5.443,0,0,0,-10,17,31,25,33,28,31,0,0,0,0,0
+Legs,Black desert robe,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Black elegant legs,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Black navy slacks,Members,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Black platelegs,Free-to-play,9.071,0,0,0,-21,-7,21,20,19,-4,20,0,0,0,0,0
+Legs,Black platelegs (g),Free-to-play,9.071,0,0,0,-21,-7,21,20,19,-4,20,0,0,0,0,0
+Legs,Black platelegs (t),Free-to-play,9.071,0,0,0,-21,-7,21,20,19,-4,20,0,0,0,0,0
+Legs,Black plateskirt,Free-to-play,8.164,0,0,0,-21,-7,21,20,19,-4,20,0,0,0,0,0
+Legs,Black plateskirt (g),Free-to-play,9.071,0,0,0,-21,-7,21,20,19,-4,20,0,0,0,0,0
+Legs,Black plateskirt (t),Free-to-play,9.071,0,0,0,-21,-7,21,20,19,-4,20,0,0,0,0,0
+Legs,Black skirt,Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Black skirt (g),Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Black skirt (t),Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Blue d'hide chaps,Members,5.443,0,0,0,-10,11,25,19,27,14,25,0,0,0,0,0
+Legs,Blue d'hide chaps (g),Members,5.443,0,0,0,-10,11,25,19,27,14,25,0,0,0,0,0
+Legs,Blue d'hide chaps (t),Members,5.443,0,0,0,-10,11,25,19,27,14,25,0,0,0,0,0
+Legs,Blue elegant legs,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Blue elegant skirt,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Blue navy slacks,Members,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Blue robe bottoms,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Legs,Blue skirt,Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Blue skirt (g),Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Blue skirt (t),Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Bronze platelegs,Free-to-play,9.071,0,0,0,-21,-7,8,7,6,-4,7,0,0,0,0,0
+Legs,Bronze platelegs (g),Free-to-play,9.071,0,0,0,-21,-7,8,7,6,-4,7,0,0,0,0,0
+Legs,Bronze platelegs (t),Free-to-play,9.071,0,0,0,-21,-7,8,7,6,-4,7,0,0,0,0,0
+Legs,Bronze plateskirt,Free-to-play,8.164,0,0,0,-21,-7,8,7,6,-4,7,0,0,0,0,0
+Legs,Bronze plateskirt (g),Free-to-play,8.164,0,0,0,-21,-7,8,7,6,-4,7,0,0,0,0,0
+Legs,Bronze plateskirt (t),Free-to-play,8.164,0,0,0,-21,-7,8,7,6,-4,7,0,0,0,0,0
+Legs,Brown navy slacks,Members,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Builder's trousers,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Bunny legs,Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Camo bottoms,Free-to-play,2.267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Chicken legs,Free-to-play,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Citizen trousers,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Legs,Clown trousers,Free-to-play,0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Clue hunter trousers,Members,2,0,0,0,0,4,2,2,1,0,0,0,0,0,0,0
+Legs,Corrupted legs (attuned),Members,9.071,10,10,3,10,10,74,74,74,74,74,0,0,0,3,0
+Legs,Corrupted legs (basic),Members,9.071,6,6,2,6,6,52,52,52,52,52,0,0,0,2,0
+Legs,Corrupted legs (perfected),Members,9.071,14,14,4,14,14,92,92,92,92,92,0,0,0,4,0
+Legs,Corrupted platelegs,Members,9.071,0,0,0,-21,-7,11,10,10,-4,10,0,0,0,0,0
+Legs,Corrupted plateskirt,Members,8.164,0,0,0,-21,-7,11,10,10,-4,10,0,0,0,0,0
+Legs,Cow trousers,Free-to-play,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Cream robe bottoms,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Legs,Crystal legs (attuned),Members,9.071,10,10,3,10,10,74,74,74,74,74,0,0,0,3,0
+Legs,Crystal legs (basic),Members,9.071,6,6,2,6,6,52,52,52,52,52,0,0,0,2,0
+Legs,Crystal legs (perfected),Members,9.071,14,14,4,14,14,92,92,92,92,92,0,0,0,4,0
+Legs,Crystal legs Active,Members,9.071,0,0,0,-12,17,20,16,24,34,29,0,0,0,2,0
+Legs,Crystal legs Inactive,Members,9.071,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Dagon'hai robe bottom,Members,1.814,0,0,0,18,0,0,0,0,14,0,0,0,0,2,0
+Legs,Dark infinity bottoms,Members,1.814,0,0,0,17,0,0,0,0,17,0,0,0,0,0,0
+Legs,Dark trousers,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Deadman's legs Cosmetic,Free-to-play,0.11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Deadman's legs Deadman_mode,Members,9.071,0,0,0,-21,-7,11,10,10,-4,10,0,0,0,0,0
+Legs,Decorative armour (gold platelegs) Broken,Members,9.071,0,0,0,-21,-7,33,31,29,-4,31,0,0,0,0,0
+Legs,Decorative armour (gold platelegs) Locked,Free-to-play,9.071,0,0,0,-21,-7,33,31,29,-4,31,0,0,0,0,0
+Legs,Decorative armour (gold platelegs) Normal,Free-to-play,9.071,0,0,0,-21,-7,33,31,29,-4,31,0,0,0,0,0
+Legs,Decorative armour (gold plateskirt) Broken,Members,9.071,0,0,0,-21,-7,33,31,29,-4,31,0,0,0,0,0
+Legs,Decorative armour (gold plateskirt) Locked,Free-to-play,9.071,0,0,0,-21,-7,33,31,29,-4,31,0,0,0,0,0
+Legs,Decorative armour (gold plateskirt) Normal,Free-to-play,9.071,0,0,0,-21,-7,33,31,29,-4,31,0,0,0,0,0
+Legs,Decorative armour (magic legs) Broken,Members,8.164,0,0,0,0,0,15,15,15,15,15,0,0,0,0,0
+Legs,Decorative armour (magic legs) Locked,Members,8.164,0,0,0,0,0,15,15,15,15,15,0,0,0,0,0
+Legs,Decorative armour (magic legs) Normal,Members,8.164,0,0,0,0,0,15,15,15,15,15,0,0,0,0,0
+Legs,Decorative armour (ranged legs) Broken,Members,8.164,0,0,0,0,0,15,15,15,15,15,0,0,0,0,0
+Legs,Decorative armour (ranged legs) Locked,Members,8.164,0,0,0,0,0,15,15,15,15,15,0,0,0,0,0
+Legs,Decorative armour (ranged legs) Normal,Members,8.164,0,0,0,0,0,15,15,15,15,15,0,0,0,0,0
+Legs,Decorative armour (red platelegs),Free-to-play,9.071,0,0,0,-21,-7,17,16,15,-4,16,0,0,0,0,0
+Legs,Decorative armour (red plateskirt),Free-to-play,9.071,0,0,0,-21,-7,17,16,15,-4,16,0,0,0,0,0
+Legs,Decorative armour (white platelegs),Free-to-play,9.071,0,0,0,-21,-7,24,22,20,-4,22,0,0,0,0,0
+Legs,Decorative armour (white plateskirt),Free-to-play,9.071,0,0,0,-21,-7,24,22,20,-4,22,0,0,0,0,0
+Legs,Desert camo legs,Members,0.226,0,0,0,0,-7,11,10,10,0,10,0,0,0,0,0
+Legs,Desert legs,Members,0.005,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Desert robe,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Desert robes,Members,0.005,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Dharok's platelegs (broken),Members,9.071,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Dharok's platelegs 100,Members,9.071,0,0,0,-21,-7,85,82,83,-4,92,0,0,0,0,0
+Legs,Dharok's platelegs 25,Members,9.071,0,0,0,-21,-7,85,82,83,-4,92,0,0,0,0,0
+Legs,Dharok's platelegs 50,Members,9.071,0,0,0,-21,-7,85,82,83,-4,92,0,0,0,0,0
+Legs,Dharok's platelegs 75,Members,9.071,0,0,0,-21,-7,85,82,83,-4,92,0,0,0,0,0
+Legs,Dharok's platelegs Undamaged,Members,9.071,0,0,0,-21,-7,85,82,83,-4,92,0,0,0,0,0
+Legs,Dragon platelegs,Members,9.071,0,0,0,-21,-7,68,66,63,-4,65,0,0,0,0,0
+Legs,Dragon platelegs (g),Members,9.071,0,0,0,-21,-7,68,66,63,-4,65,0,0,0,0,0
+Legs,Dragon plateskirt,Members,9.071,0,0,0,-21,-7,68,66,63,-4,65,0,0,0,0,0
+Legs,Dragon plateskirt (g),Members,9.071,0,0,0,-21,-7,68,66,63,-4,65,0,0,0,0,0
+Legs,Dragonstone platelegs,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,0,0
+Legs,Druid's robe,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0
+Legs,Eggshell platelegs,Free-to-play,1.814,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Elder chaos robe,Members,0.18,0,0,0,6,0,0,0,0,6,0,0,0,0,0,0
+Legs,Elite void robe Broken,Members,8.164,0,0,0,0,0,30,30,30,30,30,0,0,0,3,0
+Legs,Elite void robe Locked,Members,8.164,0,0,0,0,0,30,30,30,30,30,0,0,0,3,0
+Legs,Elite void robe Normal,Members,8.164,0,0,0,0,0,30,30,30,30,30,0,0,0,3,0
+Legs,Elven legwear,Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Elven skirt (white),Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Elven skirt (yellow),Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Enchanted robe,Members,1.814,0,0,0,15,0,0,0,0,15,0,0,0,0,0,0
+Legs,Evil chicken legs,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Farmer's boro trousers Female,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Farmer's boro trousers Male,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Flared trousers,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Fremennik kilt,Members,3,0,0,0,-21,-7,11,10,10,-4,10,1,0,0,0,0
+Legs,Fremennik skirt,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Legs,Frog-leather chaps,Members,3,0,0,0,-5,2,7,7,9,4,9,0,0,0,0,0
+Legs,Ghostly robe (bottom),Members,0.001,0,0,0,4,0,0,0,0,4,0,0,0,0,0,0
+Legs,Gilded d'hide chaps,Free-to-play,5,0,0,0,-10,8,22,16,24,8,22,0,0,0,0,0
+Legs,Gilded platelegs,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,0,0
+Legs,Gilded plateskirt,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,0,0
+Legs,Gold elegant legs,Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Gold elegant skirt,Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Graahk legs,Members,0.226,0,0,0,0,-7,11,10,10,0,10,0,0,0,0,0
+Legs,Graceful legs Agility_Arena,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Graceful legs Arceuus,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Graceful legs Hallowed_Sepulchre,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Graceful legs Hosidius,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Graceful legs Kourend,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Graceful legs Lovakengj,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Graceful legs Piscarilius,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Graceful legs Regular,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Graceful legs Shayzien,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Granite legs,Members,15.875,0,0,0,-31,-18,43,45,41,-4,68,0,0,0,0,0
+Legs,Gravedigger leggings,Free-to-play,0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Green d'hide chaps,Free-to-play,5.443,0,0,0,-10,8,22,16,24,8,22,0,0,0,0,0
+Legs,Green d'hide chaps (g),Free-to-play,5.443,0,0,0,-10,8,22,16,24,8,22,0,0,0,0,0
+Legs,Green d'hide chaps (t),Free-to-play,5.443,0,0,0,-10,8,22,16,24,8,22,0,0,0,0,0
+Legs,Green elegant legs,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Green elegant skirt,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Green navy slacks,Members,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Green robe bottoms,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Legs,Grey navy slacks,Members,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Grey robe bottoms,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Legs,Guthan's chainskirt (broken),Members,8.164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Guthan's chainskirt 100,Members,8.164,0,0,0,-14,-7,75,72,73,-4,82,0,0,0,0,0
+Legs,Guthan's chainskirt 25,Members,8.164,0,0,0,-14,-7,75,72,73,-4,82,0,0,0,0,0
+Legs,Guthan's chainskirt 50,Members,8.164,0,0,0,-14,-7,75,72,73,-4,82,0,0,0,0,0
+Legs,Guthan's chainskirt 75,Members,8.164,0,0,0,-14,-7,75,72,73,-4,82,0,0,0,0,0
+Legs,Guthan's chainskirt Undamaged,Members,8.164,0,0,0,-14,-7,75,72,73,-4,82,0,0,0,0,0
+Legs,Guthix chaps,Members,5,0,0,0,-10,17,31,25,33,28,31,0,0,0,1,0
+Legs,Guthix platelegs,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,1,0
+Legs,Guthix plateskirt,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,1,0
+Legs,Guthix robe legs,Members,2.7,0,0,0,4,0,0,0,0,4,0,0,0,0,5,0
+Legs,Ham robe,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Legs,Hardcore ironman platelegs,Free-to-play,4.535,0,0,0,-21,-7,11,10,10,-4,10,0,0,0,0,0
+Legs,Infinity bottoms,Members,1.814,0,0,0,17,0,0,0,0,17,0,0,0,0,0,0
+Legs,Initiate cuisse,Members,7.711,0,0,0,-21,-7,24,22,20,-4,22,0,0,0,5,0
+Legs,Inquisitor's plateskirt,Members,9.071,-3,-3,12,-9,-5,42,30,49,0,22,2,0,0,2,0
+Legs,Iron platelegs,Free-to-play,9.071,0,0,0,-21,-7,11,10,10,-4,10,0,0,0,0,0
+Legs,Iron platelegs (g),Free-to-play,9.071,0,0,0,-21,-7,11,10,10,-4,10,0,0,0,0,0
+Legs,Iron platelegs (t),Free-to-play,9.071,0,0,0,-21,-7,11,10,10,-4,10,0,0,0,0,0
+Legs,Iron plateskirt,Free-to-play,8.164,0,0,0,-21,-7,11,10,10,-4,10,0,0,0,0,0
+Legs,Iron plateskirt (g),Free-to-play,8.164,0,0,0,-21,-7,11,10,10,-4,10,0,0,0,0,0
+Legs,Iron plateskirt (t),Free-to-play,8.164,0,0,0,-21,-7,11,10,10,-4,10,0,0,0,0,0
+Legs,Ironman platelegs,Free-to-play,4.535,0,0,0,-21,-7,11,10,10,-4,10,0,0,0,0,0
+Legs,Jungle camo legs,Members,0.226,0,0,0,0,-7,11,10,10,0,10,0,0,0,0,0
+Legs,Justiciar legguards,Members,9.071,0,0,0,-31,-17,95,92,93,-14,102,0,0,0,4,0
+Legs,Karil's leatherskirt (broken),Members,5.443,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Karil's leatherskirt 100,Members,5.443,0,0,0,-10,17,26,20,28,35,33,0,0,0,0,0
+Legs,Karil's leatherskirt 25,Members,5.443,0,0,0,-10,17,26,20,28,35,33,0,0,0,0,0
+Legs,Karil's leatherskirt 50,Members,5.443,0,0,0,-10,17,26,20,28,35,33,0,0,0,0,0
+Legs,Karil's leatherskirt 75,Members,5.443,0,0,0,-10,17,26,20,28,35,33,0,0,0,0,0
+Legs,Karil's leatherskirt Undamaged,Members,5.443,0,0,0,-10,17,26,20,28,35,33,0,0,0,0,0
+Legs,Kyatt legs,Members,0.226,0,0,0,0,-7,11,10,10,0,10,0,0,0,0,0
+Legs,Larupia legs,Members,0.226,0,0,0,0,-7,11,10,10,0,10,0,0,0,0,0
+Legs,Leather chaps,Free-to-play,2.721,0,0,0,0,4,2,2,1,0,0,0,0,0,0,0
+Legs,Leather chaps (g),Free-to-play,2.721,0,0,0,0,4,2,2,1,0,0,0,0,0,0,0
+Legs,Lederhosen shorts,Free-to-play,2.267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Light infinity bottoms,Members,1.814,0,0,0,17,0,0,0,0,17,0,0,0,0,0,0
+Legs,Light trousers,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Lumberjack legs,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Lunar legs,Members,3.628,0,0,0,7,-7,20,19,23,9,0,0,0,0,0,0
+Legs,Menaphite purple kilt,Members,0.005,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Menaphite purple robe,Members,0.005,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Menaphite red kilt,Members,0.005,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Menaphite red robe,Members,0.005,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Mime legs,Free-to-play,0.001,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Mithril platelegs,Free-to-play,7.711,0,0,0,-21,-7,24,22,20,-4,22,0,0,0,0,0
+Legs,Mithril platelegs (g),Free-to-play,7.711,0,0,0,-21,-7,24,22,20,-4,22,0,0,0,0,0
+Legs,Mithril platelegs (t),Free-to-play,7.711,0,0,0,-21,-7,24,22,20,-4,22,0,0,0,0,0
+Legs,Mithril plateskirt,Free-to-play,7.257,0,0,0,-21,-7,24,22,20,-4,22,0,0,0,0,0
+Legs,Mithril plateskirt (g),Free-to-play,7.257,0,0,0,-21,-7,24,22,20,-4,22,0,0,0,0,0
+Legs,Mithril plateskirt (t),Free-to-play,7.257,0,0,0,-21,-7,24,22,20,-4,22,0,0,0,0,0
+Legs,Monk's robe,Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0
+Legs,Monk's robe (g),Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0
+Legs,Monk's robe (t),Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0
+Legs,Moonclan skirt,Members,3.628,0,0,0,5,-7,5,5,5,5,-7,0,0,0,0,0
+Legs,Morytania legs 1,Members,9.071,0,0,0,-21,-7,11,10,10,-4,10,0,0,0,0,0
+Legs,Morytania legs 2,Members,9.071,0,0,0,-21,-7,17,16,15,-4,16,0,0,0,0,0
+Legs,Morytania legs 3,Members,9.071,0,0,0,-21,-7,24,22,20,-4,22,0,0,0,0,0
+Legs,Morytania legs 4,Members,9.071,0,0,0,-21,-7,33,31,29,-4,31,0,0,0,0,0
+Legs,Mourner trousers Repaired,Members,2.267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Mourner trousers Ripped,Members,2.267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Mummy's legs,Members,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Musketeer pants,Members,1.814,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Mystic robe bottom,Members,1.814,0,0,0,15,0,0,0,0,15,0,0,0,0,0,0
+Legs,Mystic robe bottom (dark),Members,1.814,0,0,0,15,0,0,0,0,15,0,0,0,0,0,0
+Legs,Mystic robe bottom (dusk),Members,1.814,0,0,0,15,0,0,0,0,15,0,0,0,0,0,0
+Legs,Mystic robe bottom (light),Members,1.814,0,0,0,15,0,0,0,0,15,0,0,0,0,0,0
+Legs,Obsidian platelegs,Members,9.071,0,0,0,0,0,46,43,41,-10,40,1,0,0,0,0
+Legs,Ornate legs,Free-to-play,9.071,0,0,0,-21,-7,11,10,10,-4,10,0,0,0,0,0
+Legs,Pantaloons,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Penance skirt Broken,Members,3,0,0,0,-10,15,26,21,28,19,26,0,0,0,0,0
+Legs,Penance skirt Locked,Members,3,0,0,0,-10,15,26,21,28,19,26,0,0,0,0,0
+Legs,Penance skirt Normal,Members,3,0,0,0,-10,15,26,21,28,19,26,0,0,0,0,0
+Legs,Pink elegant legs,Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Pink elegant skirt,Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Pink robe bottoms,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Legs,Pink skirt,Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Pirate leggings (beige),Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Pirate leggings (blue),Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Pirate leggings (brown),Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Pirate leggings (red),Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Plague trousers,Members,2.267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Polar camo legs,Members,0.226,0,0,0,0,-7,11,10,10,0,10,0,0,0,0,0
+Legs,Priest gown (bottom),Free-to-play,1.814,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0
+Legs,Prince leggings,Free-to-play,2.267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Princess skirt,Free-to-play,2.267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Proselyte cuisse,Members,7.711,0,0,0,-21,-7,33,31,29,-4,31,0,0,0,6,0
+Legs,Proselyte tasset,Members,8.164,0,0,0,-21,-7,33,31,29,-4,31,0,0,0,6,0
+Legs,Prospector legs,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Purple elegant legs,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Purple elegant skirt,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Purple navy slacks,Members,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Purple robe bottoms,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Legs,Pyromancer robe,Members,0.18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Rangers' tights,Members,5.443,0,0,0,-10,15,0,0,0,0,0,0,0,0,0,0
+Legs,Red d'hide chaps,Members,5.443,0,0,0,-10,14,28,22,30,20,28,0,0,0,0,0
+Legs,Red d'hide chaps (g),Members,5.443,0,0,0,-10,14,28,22,30,20,28,0,0,0,0,0
+Legs,Red d'hide chaps (t),Members,5.443,0,0,0,-10,14,28,22,30,20,28,0,0,0,0,0
+Legs,Red elegant legs,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Red elegant skirt,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Red navy slacks,Members,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Red robe bottoms,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Legs,Robe bottom of darkness,Members,1.814,0,0,0,15,0,0,0,0,15,0,0,0,0,0,0
+Legs,Robe of elidinis (bottom),Members,0.005,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Rock-shell legs,Members,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,0,0
+Legs,Rogue trousers,Members,0.453,0,0,0,0,0,7,7,7,7,7,0,0,0,0,0
+Legs,Royal gown bottom,Members,1.36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Rune platelegs,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,0,0
+Legs,Rune platelegs (g),Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,0,0
+Legs,Rune platelegs (t),Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,0,0
+Legs,Rune plateskirt,Free-to-play,8.164,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,0,0
+Legs,Rune plateskirt (g),Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,0,0
+Legs,Rune plateskirt (t),Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,0,0
+Legs,Samurai greaves,Members,1.5,0,0,0,0,0,42,40,38,3,40,0,0,0,0,0
+Legs,Sandwich lady bottom,Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Santa pantaloons,Free-to-play,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Saradomin chaps,Members,5,0,0,0,-10,17,31,25,33,28,31,0,0,0,1,0
+Legs,Saradomin platelegs,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,1,0
+Legs,Saradomin plateskirt,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,1,0
+Legs,Saradomin robe legs,Members,2.7,0,0,0,4,0,0,0,0,4,0,0,0,0,5,0
+Legs,Shade robe,Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0
+Legs,Shayzien greaves (1),Members,9.071,0,0,0,-10,-2,10,9,8,-2,10,0,0,0,0,0
+Legs,Shayzien greaves (2),Members,9.071,0,0,0,-14,-3,14,13,12,-3,14,0,0,0,0,0
+Legs,Shayzien greaves (3),Members,9.071,0,0,0,-17,-4,17,16,15,-3,17,0,0,0,0,0
+Legs,Shayzien greaves (4),Members,9.071,0,0,0,-20,-5,20,19,18,-4,20,0,0,0,0,0
+Legs,Shayzien greaves (5),Members,9.071,0,0,0,-20,-5,23,22,21,-4,23,0,0,0,0,0
+Legs,Shorts (blue),Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Shorts (brown),Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Shorts (yellow),Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Silly jester tights,Members,0.907,0,0,0,0,0,0,0,0,5,-5,0,0,0,0,0
+Legs,Skeletal bottoms,Members,4.082,0,0,0,6,-7,22,20,24,10,0,0,0,0,0,0
+Legs,Skeleton leggings,Free-to-play,2.267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Skirt (blue),Members,0.08,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Skirt (brown),Members,0.08,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Skirt (lilac),Members,0.08,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Slave robe,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Snakeskin chaps,Members,3.628,0,0,0,-5,6,8,8,10,4,10,0,0,0,0,0
+Legs,Snow imp costume legs,Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Spined chaps,Members,5.443,0,0,0,-10,8,22,16,24,8,22,0,0,0,0,0
+Legs,Splitbark legs,Members,3.628,0,0,0,7,-7,22,20,25,10,0,0,0,0,0,0
+Legs,Spookier skirt,Free-to-play,0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Spooky skirt,Free-to-play,0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Steel platelegs,Free-to-play,9.071,0,0,0,-21,-7,17,16,15,-4,16,0,0,0,0,0
+Legs,Steel platelegs (g),Free-to-play,9.071,0,0,0,-21,-7,17,16,15,-4,16,0,0,0,0,0
+Legs,Steel platelegs (t),Free-to-play,9.071,0,0,0,-21,-7,17,16,15,-4,16,0,0,0,0,0
+Legs,Steel plateskirt,Free-to-play,8.164,0,0,0,-21,-7,17,16,15,-4,16,0,0,0,0,0
+Legs,Steel plateskirt (g),Free-to-play,8.164,0,0,0,-21,-7,17,16,15,-4,16,0,0,0,0,0
+Legs,Steel plateskirt (t),Free-to-play,8.164,0,0,0,-21,-7,17,16,15,-4,16,0,0,0,0,0
+Legs,Studded chaps,Free-to-play,4.535,0,0,0,-5,6,15,16,17,6,16,0,0,0,0,0
+Legs,Studded chaps (g),Free-to-play,4.535,0,0,0,-5,6,15,16,17,6,16,0,0,0,0,0
+Legs,Studded chaps (t),Free-to-play,4.535,0,0,0,-5,6,15,16,17,6,16,0,0,0,0,0
+Legs,Teal robe bottoms,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Legs,Torag's platelegs (broken),Members,9.071,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Torag's platelegs 100,Members,9.071,0,0,0,-21,-7,85,82,83,-4,92,0,0,0,0,0
+Legs,Torag's platelegs 25,Members,9.071,0,0,0,-21,-7,85,82,83,-4,92,0,0,0,0,0
+Legs,Torag's platelegs 50,Members,9.071,0,0,0,-21,-7,85,82,83,-4,92,0,0,0,0,0
+Legs,Torag's platelegs 75,Members,9.071,0,0,0,-21,-7,85,82,83,-4,92,0,0,0,0,0
+Legs,Torag's platelegs Undamaged,Members,9.071,0,0,0,-21,-7,85,82,83,-4,92,0,0,0,0,0
+Legs,Tree skirt,Free-to-play,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Trousers (blue),Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Trousers (brown),Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Trousers (lilac),Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Turquoise robe bottoms,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Legs,Twisted ancestral robe bottom,Members,1.814,0,0,0,26,-7,27,24,30,20,0,0,0,2,0,0
+Legs,Twisted trousers (t1),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Twisted trousers (t2),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Twisted trousers (t3),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Ultimate ironman platelegs,Free-to-play,4.535,0,0,0,-21,-7,11,10,10,-4,10,0,0,0,0,0
+Legs,Verac's plateskirt (broken),Members,4.535,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Verac's plateskirt 100,Members,4.535,0,0,0,-21,-7,85,82,83,0,84,0,0,0,4,0
+Legs,Verac's plateskirt 25,Members,4.535,0,0,0,-21,-7,85,82,83,0,84,0,0,0,4,0
+Legs,Verac's plateskirt 50,Members,4.535,0,0,0,-21,-7,85,82,83,0,84,0,0,0,4,0
+Legs,Verac's plateskirt 75,Members,4.535,0,0,0,-21,-7,85,82,83,0,84,0,0,0,4,0
+Legs,Verac's plateskirt Undamaged,Members,4.535,0,0,0,-21,-7,85,82,83,0,84,0,0,0,4,0
+Legs,Villager robe (blue),Members,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Villager robe (brown),Members,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Villager robe (pink),Members,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Villager robe (yellow),Members,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Void knight robe Broken,Members,8.164,0,0,0,0,0,30,30,30,30,30,0,0,0,0,0
+Legs,Void knight robe Locked,Members,8.164,0,0,0,0,0,30,30,30,30,30,0,0,0,0,0
+Legs,Void knight robe Normal,Members,8.164,0,0,0,0,0,30,30,30,30,30,0,0,0,0,0
+Legs,Vyre noble coat tails (grey),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Vyre noble coat tails (purple),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Vyre noble coat tails (red),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Vyre noble dress bottom (grey),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Vyre noble dress bottom (purple),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Vyre noble dress bottom (red),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Vyre noble legs,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Vyre noble pants (grey),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Vyre noble pants (purple),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Vyre noble pants (red),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Vyre noble skirt (grey),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Vyre noble skirt (purple),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Vyre noble skirt (red),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,Vyrewatch legs,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Legs,White elegant skirt,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legs,White platelegs,Members,9.071,0,0,0,-21,-7,21,20,19,-4,20,0,0,0,1,0
+Legs,White plateskirt,Members,8.164,0,0,0,-21,-7,21,20,19,-4,20,0,0,0,1,0
+Legs,Wood camo legs,Members,0.226,0,0,0,0,-7,11,10,10,0,10,0,0,0,0,0
+Legs,Xerician robe,Members,0.18,0,0,0,8,0,0,0,0,7,0,0,0,0,0,0
+Legs,Yak-hide armour (legs),Members,2.721,0,0,0,-5,10,25,20,15,-2,10,0,0,0,0,0
+Legs,Yellow robe bottoms,Members,0.907,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0
+Legs,Zamorak chaps,Members,5,0,0,0,-10,17,31,25,33,28,31,0,0,0,1,0
+Legs,Zamorak monk bottom,Free-to-play,0.907,0,0,0,2,0,0,0,0,3,0,0,0,0,3,0
+Legs,Zamorak platelegs,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,1,0
+Legs,Zamorak plateskirt,Free-to-play,9.071,0,0,0,-21,-7,51,49,47,-4,49,0,0,0,1,0
+Legs,Zamorak robe legs,Members,2.7,0,0,0,4,0,0,0,0,4,0,0,0,0,5,0
+Legs,Zombie trousers,Free-to-play,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

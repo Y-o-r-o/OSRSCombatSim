@@ -27,7 +27,7 @@ namespace OSRSComSim.Models.Items
             ItemType = "Equipment";
             if (equipment_data.Length == 0)
                 constructDefaultEqp(equipment_type);
-            else constructEqp(equipment_type,equipment_data);
+            else constructEqp(equipment_data);
         }
 
         private void constructDefaultEqp(string equipment_type)
@@ -69,7 +69,7 @@ namespace OSRSComSim.Models.Items
             }
         }
 
-        public void constructEqp(string equipment_type, string equipment_data)
+        public void constructEqp(string equipment_data)
         {
             string[] values = equipment_data.Split(',');
             ItemType = values[0];
@@ -91,7 +91,7 @@ namespace OSRSComSim.Models.Items
             MagicStr = Int32.Parse(values[16]);
             Prayer = Int32.Parse(values[17]);
             Speed = Int32.Parse(values[18]);
-            Png = constructPng(equipment_type, values[1]);
+            Png = constructPng(ItemType, values[1]);
         }
 
     

@@ -21,5 +21,10 @@ namespace OSRSComSim.Views
         {
             view_model.slotClicked((sender as Button).Tag.ToString());
         }
+
+        private void show_select_MouseUp(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            view_model.setItemAddPng();
+        }
     }
 }

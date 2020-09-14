@@ -14,8 +14,9 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
+
+        <ContentControl Grid.Column="0" Content="{Binding ItemSelect.View}" MouseUp="show_select_MouseUp"/>
         
-        <ContentControl Grid.Column="0" Content="{Binding ItemSelect.View}"/>
         <Viewbox Grid.Column="1">
             <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
                 <Grid.Resources>
@@ -54,6 +55,36 @@
                     <RowDefinition Height="35"/>
                     <RowDefinition Height="5"/>
                 </Grid.RowDefinitions>
+                
+                <Image Grid.Column="2" Grid.Row="1"  Source="{Binding AddPng[0] }"/>
+                <Image Grid.Column="2" Grid.Row="3"  Source="{Binding AddPng[1] }"/>
+                <Image Grid.Column="2" Grid.Row="5"  Source="{Binding AddPng[2] }"/>
+                <Image Grid.Column="2" Grid.Row="7"  Source="{Binding AddPng[3] }"/>
+                <Image Grid.Column="2" Grid.Row="9"  Source="{Binding AddPng[4] }"/>
+                <Image Grid.Column="2" Grid.Row="11" Source="{Binding AddPng[5] }"/>
+                <Image Grid.Column="2" Grid.Row="13" Source="{Binding AddPng[6] }"/>
+                <Image Grid.Column="4" Grid.Row="1"  Source="{Binding AddPng[7] }"/>
+                <Image Grid.Column="4" Grid.Row="3"  Source="{Binding AddPng[8] }"/>
+                <Image Grid.Column="4" Grid.Row="5"  Source="{Binding AddPng[9] }"/>
+                <Image Grid.Column="4" Grid.Row="7"  Source="{Binding AddPng[10]}"/>
+                <Image Grid.Column="4" Grid.Row="9"  Source="{Binding AddPng[11]}"/>
+                <Image Grid.Column="4" Grid.Row="11" Source="{Binding AddPng[12]}"/>
+                <Image Grid.Column="4" Grid.Row="13" Source="{Binding AddPng[13]}"/>
+                <Image Grid.Column="6" Grid.Row="1"  Source="{Binding AddPng[14]}"/>
+                <Image Grid.Column="6" Grid.Row="3"  Source="{Binding AddPng[15]}"/>
+                <Image Grid.Column="6" Grid.Row="5"  Source="{Binding AddPng[16]}"/>
+                <Image Grid.Column="6" Grid.Row="7"  Source="{Binding AddPng[17]}"/>
+                <Image Grid.Column="6" Grid.Row="9"  Source="{Binding AddPng[18]}"/>
+                <Image Grid.Column="6" Grid.Row="11" Source="{Binding AddPng[19]}"/>
+                <Image Grid.Column="6" Grid.Row="13" Source="{Binding AddPng[20]}"/>
+                <Image Grid.Column="8" Grid.Row="1"  Source="{Binding AddPng[21]}"/>
+                <Image Grid.Column="8" Grid.Row="3"  Source="{Binding AddPng[22]}"/>
+                <Image Grid.Column="8" Grid.Row="5"  Source="{Binding AddPng[23]}"/>
+                <Image Grid.Column="8" Grid.Row="7"  Source="{Binding AddPng[24]}"/>
+                <Image Grid.Column="8" Grid.Row="9"  Source="{Binding AddPng[25]}"/>
+                <Image Grid.Column="8" Grid.Row="11" Source="{Binding AddPng[26]}"/>
+                <Image Grid.Column="8" Grid.Row="13" Source="{Binding AddPng[27]}"/>
+                
                 <Button Grid.Column="2" Grid.Row="1" Tag="Inventory slot 0" Click="Slot_Click">
                     <Image Source="{Binding PlayerEquiped.InventoryItem[0].Png}"/>
                 </Button>
@@ -138,6 +169,7 @@
                 <Button Grid.Column="8" Grid.Row="13" Tag="Inventory slot 27" Click="Slot_Click">
                     <Image Source="{Binding PlayerEquiped.InventoryItem[27].Png}"/>
                 </Button>
+
 
             </Grid>
         </Viewbox>

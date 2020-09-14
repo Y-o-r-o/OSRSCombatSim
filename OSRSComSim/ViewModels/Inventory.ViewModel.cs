@@ -1,6 +1,7 @@
 ﻿using OSRSComSim.Models;
 using OSRSComSim.Views;
 using System;
+using System.Runtime.Remoting.Messaging;
 
 namespace OSRSComSim.ViewModels
 {
@@ -9,6 +10,8 @@ namespace OSRSComSim.ViewModels
         private const string add_sign_png = "../Resources/add.png";
 
         private string inv_mode;
+
+        private string[] _add_png;
 
         private EquipedModel _player_equiped;
         private SelectItemViewModel _item_select;
@@ -31,6 +34,15 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("ItemSelect");
             }
         }
+        public string[] AddPng
+        {
+            get { return _add_png; }
+            set
+            {
+                _add_png = value;
+                OnPropertyChanged("AddPng");
+            }
+        }
 
         public object View { get; set; }
 
@@ -39,6 +51,9 @@ namespace OSRSComSim.ViewModels
         {
             this.PlayerEquiped = player_equiped;
             this.inv_mode = inv_mode;
+            AddPng = new string[28];
+
+            if (inv_mode == "Edit" || inv_mode == "Create") setItemAddPng();
 
             View = new InventoryView(this);
         }
@@ -46,16 +61,30 @@ namespace OSRSComSim.ViewModels
         public void slotClicked(string slot_name) 
         {
             if (inv_mode == "Edit" || inv_mode == "Create")
-                selectItem(slot_name);        
-            
+            {
+                selectItem(slot_name);
+            }
         }
-
-        public void selectItem(string slot_name)
+        public void setItemAddPng()
+        {
+            for (int i = 0; i < PlayerEquiped.InventoryItem.Count; i++)
+            {
+                if (PlayerEquiped.InventoryItem[i].GetType().ToString().Contains("ItemModel"))
+                {
+                    AddPng[i] = add_sign_png;
+                }
+                else AddPng[i] = null;
+            }
+            OnPropertyChanged("AddPng");
+        }
+        private void selectItem(string slot_name)
         {
             string items_to_select = "Head, Neck, Cape, Ammo, Weapon, Body, Shield, Legs, Feet, Hands, Ring, Food, Runes, Potions";
             
             SelectItemViewModel.deselect(PlayerEquiped, slot_name);
             ItemSelect = new SelectItemViewModel(PlayerEquiped, slot_name, items_to_select);
         }
+
+
     }
 }

@@ -75,6 +75,7 @@ namespace OSRSComSim.ViewModels
             else
             {
                 deselectEquipment();
+                setEquipmentInfo();
             }
         }
         public void setEquipmentInfo()
@@ -104,7 +105,6 @@ namespace OSRSComSim.ViewModels
         public void deselectEquipment()
         {
             SelectItemViewModel.deselect(PlayerEquiped, selected_slot_table);
-            setEquipmentInfo();
         }
     }
 }

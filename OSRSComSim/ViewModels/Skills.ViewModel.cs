@@ -59,7 +59,6 @@ namespace OSRSComSim.ViewModels
             PlayerSkills.Ranged_lvl = rnd.Next(1, 100);
             PlayerSkills.Prayer_lvl = rnd.Next(1, 100);
         }
-
         public void editPlayerSkills(string name, int value)
         {
             switch (name)

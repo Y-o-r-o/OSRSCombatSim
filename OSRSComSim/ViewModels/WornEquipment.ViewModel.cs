@@ -44,7 +44,6 @@ namespace OSRSComSim.ViewModels
             }
         }
 
-
         public WornEquipmentViewModel() : this(null, "Edit") { }
         public WornEquipmentViewModel(EquipedModel player_equiped = null, string we_mode = "Edit")
         {
@@ -78,7 +77,6 @@ namespace OSRSComSim.ViewModels
                 deselectEquipment();
             }
         }
-
         public void setEquipmentInfo()
         {
             string Info = "";
@@ -99,18 +97,14 @@ namespace OSRSComSim.ViewModels
             Info += "Weigth    " + PlayerEquiped.getTotalWeigth().ToString().PadRight(5) + "\n";
             EquipmentInfo = Info;
         } //temporary, for debuging.
-
         public void selectEquipment()
         {
             selectEquipmentViewModel = new SelectItemViewModel(PlayerEquiped, selected_slot_table, selected_slot_table);
         }
-
         public void deselectEquipment()
         {
-            SelectItemViewModel deselecting = new SelectItemViewModel(PlayerEquiped, selected_slot_table, selected_slot_table, false);
-            deselecting.deselect();
+            SelectItemViewModel.deselect(PlayerEquiped, selected_slot_table);
+            setEquipmentInfo();
         }
-
-
     }
 }

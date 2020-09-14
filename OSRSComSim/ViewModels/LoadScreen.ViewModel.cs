@@ -6,20 +6,19 @@ using System.Linq;
 using System.Windows.Controls;
 namespace OSRSComSim.ViewModels
 {
-   public class LoadScreenViewModel: ObservableObject
+    public class LoadScreenViewModel : ObservableObject
     {
-        private string                          _fighter_num;
-        public object                           _viewcontent;
+        private string _fighter_num;
+        public object _viewcontent;
 
-        private ControlPanelViewModel           _controls_view;
-        private MainWindowViewModel             _mainwindowVM;
+        private ControlPanelViewModel _controls_view;
+        private MainWindowViewModel _mainwindowVM;
         private PlayerModel _selected_player;
 
-        private ObservableCollection<PlayerModel>    _player_list;
-
+        private ObservableCollection<PlayerModel> _player_list;
 
         public object View { get; set; }
-        public ControlPanelViewModel            ControlsView
+        public ControlPanelViewModel ControlsView
         {
             get
             {
@@ -32,7 +31,7 @@ namespace OSRSComSim.ViewModels
             }
         }
 
-        public ObservableCollection<PlayerModel>     PlayerList 
+        public ObservableCollection<PlayerModel> PlayerList
         {
             get
             {
@@ -44,7 +43,7 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("PlayerList");
             }
         }
-        public object                           ViewContent
+        public object ViewContent
         {
             get
             {
@@ -58,7 +57,7 @@ namespace OSRSComSim.ViewModels
         }
         public PlayerModel SelectedPlayer
         {
-            get 
+            get
             {
                 return _selected_player;
             }
@@ -85,7 +84,6 @@ namespace OSRSComSim.ViewModels
             View = new LoadScreenView(this);
         }
 
-
         public void Back_to_main_screen()
         {
             _mainwindowVM.stopView();
@@ -102,23 +100,20 @@ namespace OSRSComSim.ViewModels
         {
             ViewContent = null;
         }
-        public void outline_button(Button btn)
+        public void delete_player(string name)
         {
-
-        }
-        public void delete_player(string name) {
             Data_store.DeletePlayer(name);
             Load_players();
             SelectedPlayer = new PlayerModel();
         }
         public void loadSelectedFighter(string fighter_num)
         {
-                loadFighter(fighter_num);
-                Back_to_main_screen();
+            loadFighter(fighter_num);
+            Back_to_main_screen();
         }
-
-        public void getPlayer(string fighter_num) {
-            foreach(PlayerModel player in PlayerList)
+        public void getPlayer(string fighter_num)
+        {
+            foreach (PlayerModel player in PlayerList)
             {
                 if (player.Name == fighter_num)
                 {
@@ -132,6 +127,7 @@ namespace OSRSComSim.ViewModels
             Data_store.LoadPlayers(PlayerList);
             PlayerList = PlayerList;
         }
+
         private void loadFighter(string fighter_num)
         {
             if (_fighter_num == "fighter 1")

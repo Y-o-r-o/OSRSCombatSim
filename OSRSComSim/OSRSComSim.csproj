@@ -90,6 +90,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="String_functions.cs" />
     <Compile Include="ViewModels\Appearance.ViewModel.cs" />
     <Compile Include="ViewModels\Battle.ViewModel.cs" />
     <Compile Include="ViewModels\CombatOptions.ViewModel.cs" />

@@ -45,13 +45,17 @@ namespace OSRSComSim.ViewModels
 
         public void slotClicked(string slot_name) 
         {
-            string items_to_select = "Head, Neck, Cape, Ammo, Weapon, Body, Shield, Legs, Feet, Hands, Ring, Food, Runes, Potions";
-
             if (inv_mode == "Edit" || inv_mode == "Create")
-            {
-                ItemSelect = new SelectItemViewModel(PlayerEquiped,slot_name, items_to_select);            
-            }
+                selectItem(slot_name);        
+            
         }
 
+        public void selectItem(string slot_name)
+        {
+            string items_to_select = "Head, Neck, Cape, Ammo, Weapon, Body, Shield, Legs, Feet, Hands, Ring, Food, Runes, Potions";
+            
+            SelectItemViewModel.deselect(PlayerEquiped, slot_name);
+            ItemSelect = new SelectItemViewModel(PlayerEquiped, slot_name, items_to_select);
+        }
     }
 }

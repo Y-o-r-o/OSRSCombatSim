@@ -29,7 +29,6 @@
             Battle.Reset();
             ViewContent = new LoadScreenViewModel(this, fighter_num).View;
         }
-
         public void stopView()
         {
             ViewContent = null;

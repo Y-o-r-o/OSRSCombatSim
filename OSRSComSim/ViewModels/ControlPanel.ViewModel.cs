@@ -77,7 +77,6 @@ namespace OSRSComSim.ViewModels
             }
         }
 
-
         public ControlPanelViewModel() : this(null, null, null) { }
         public ControlPanelViewModel(LoadScreenViewModel loadscreenviewmodel = null, PlayerModel player = null, string cp_mode = null) // Create, Edit, View, Interactive.
         {
@@ -90,26 +89,6 @@ namespace OSRSComSim.ViewModels
 
             setMode();
             View = new ControlPanelView(this);
-        }
-
-        private void setMode()
-        {
-            if (cp_mode == "Create")
-            {
-                CreateModeTabsVisibility = "Visible";
-                setViewMode("Appearance");
-            }
-            else if (cp_mode == "Edit")
-            {
-                Data_store.DeletePlayer(SelectedPlayer.Name);
-                EditModeTabsVisibility = "Visible";
-                setViewMode("Appearance");
-            }
-            else if (cp_mode == "Interactive")
-            {
-                InteractiveModeTabsVisibility = "Visible";
-                setViewMode("Skills");
-            }
         }
 
         public void setViewMode(string view_mode)
@@ -139,7 +118,6 @@ namespace OSRSComSim.ViewModels
 
             }
         }
-
         public void backToLoadScreen()
         {
             _loadscreenviewmodel.stopView();
@@ -152,6 +130,26 @@ namespace OSRSComSim.ViewModels
                 _loadscreenviewmodel.Load_players();
                 _loadscreenviewmodel.SelectedPlayer = SelectedPlayer;
                 backToLoadScreen();
+            }
+        }
+        
+        private void setMode()
+        {
+            if (cp_mode == "Create")
+            {
+                CreateModeTabsVisibility = "Visible";
+                setViewMode("Appearance");
+            }
+            else if (cp_mode == "Edit")
+            {
+                Data_store.DeletePlayer(SelectedPlayer.Name);
+                EditModeTabsVisibility = "Visible";
+                setViewMode("Appearance");
+            }
+            else if (cp_mode == "Interactive")
+            {
+                InteractiveModeTabsVisibility = "Visible";
+                setViewMode("Skills");
             }
         }
     }

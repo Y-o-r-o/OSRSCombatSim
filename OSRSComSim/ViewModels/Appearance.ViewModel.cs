@@ -47,7 +47,7 @@ namespace OSRSComSim.ViewModels
         public void setPlayerName(string boxtext)
         {
 
-            if (!HasNoSpecialChars(boxtext))
+            if (!String_functions.HasNoSpecialChars(boxtext))
             {
                 SetNameQuotes = "Dont use special chars.";
             }
@@ -68,9 +68,6 @@ namespace OSRSComSim.ViewModels
 
         }
 
-        private bool HasNoSpecialChars(string yourString)
-        {
-            return !yourString.Any(ch => !Char.IsLetterOrDigit(ch));
-        }
+
     }
 }

@@ -112,10 +112,6 @@ namespace OSRSComSim.ViewModels
             lines = lines.Take(lines.Count() - 1).ToArray();
             return lines;
         }
-        private int getFirstNumberFromString(string str)
-        {
-            return Int32.Parse(Regex.Match(str, @"\d+").Value);
-        }
         public void select(string equipment_name) //exmp: inv_item_0 ... 27
         {
             switch (SelectedItemSlotName)
@@ -162,7 +158,7 @@ namespace OSRSComSim.ViewModels
         }
         public void selectForInventory(string equipment_name)
         {
-            int inv_idx = getFirstNumberFromString(SelectedItemSlotName);
+            int inv_idx = String_functions.getFirstNumberFromString(SelectedItemSlotName);
 
             string item_data = getItemData(equipment_name);
             string item_type = item_data.Split(',')[0];
@@ -187,9 +183,9 @@ namespace OSRSComSim.ViewModels
             }
         
         }
-        public void deselect()
+        public static void deselect(EquipedModel player_equiped, string selected_slot)
         {
-            switch (SelectedItemSlotName)
+            switch (selected_slot)
             {
                 case "Head":
                     player_equiped.Head = new EquipmentModel("Head");
@@ -225,10 +221,11 @@ namespace OSRSComSim.ViewModels
                     player_equiped.Ring = new EquipmentModel("Ring");
                     break;
                 default:
-                    player_equiped.InventoryItem[getFirstNumberFromString(SelectedItemSlotName)] = new ItemModel(); //////
+                    player_equiped.InventoryItem[String_functions.getFirstNumberFromString(selected_slot)] = new ItemModel(); //////
                     break;
             }
         }
+        
 
 
 

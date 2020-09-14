@@ -224,6 +224,78 @@ namespace OSRSComSim.Models
             return Head.Speed + Neck.Speed + Cape.Speed + Ammo.Speed + Weapon.Speed + Body.Speed + Shield.Speed + Legs.Speed + Feet.Speed + Hands.Speed + Ring.Speed;
         }
 
+        //equipment functions
+
+        public static void mountEquipment(EquipedModel equiped, object equipment)
+        {
+            switch ((equipment as EquipmentModel).ItemType)
+            {
+                case "Head":
+                    equiped.Head = equipment as EquipmentModel;
+                    break;
+                case "Neck":
+                    equiped.Neck = equipment as EquipmentModel;
+                    break;
+                case "Cape":
+                    equiped.Cape = equipment as EquipmentModel;
+                    break;
+                case "Ammo":
+                    equiped.Ammo = equipment as EquipmentModel;
+                    break;
+                case "Body":
+                    equiped.Body = equipment as EquipmentModel;
+                    break;
+                case "Shield":
+                    equiped.Shield = equipment as EquipmentModel;
+                    break;
+                case "Legs":
+                    equiped.Legs = equipment as EquipmentModel;
+                    break;
+                case "Feet":
+                    equiped.Feet = equipment as EquipmentModel;
+                    break;
+                case "Hands":
+                    equiped.Hands = equipment as EquipmentModel;
+                    break;
+                case "Ring":
+                    equiped.Ring = equipment as EquipmentModel;
+                    break;
+                case "Weapon":
+                    equiped.Weapon = equipment as WeaponModel;
+                    break;
+            }
+        }
+
+        public static EquipmentModel GetEquipment(EquipedModel equiped, string equipment_type)
+        {
+            switch (equipment_type)
+            {
+                case "Head":
+                    return equiped.Head;
+                case "Neck":
+                    return equiped.Neck;
+                case "Cape":
+                    return equiped.Cape;
+                case "Ammo":
+                    return equiped.Ammo;
+                case "Body":
+                    return equiped.Body;
+                case "Shield":
+                    return equiped.Shield;
+                case "Legs":
+                    return equiped.Legs;
+                case "Feet":
+                    return equiped.Feet;
+                case "Hands":
+                    return equiped.Hands;
+                case "Ring":
+                    return equiped.Ring;
+                case "Weapon":
+                    return equiped.Weapon;
+                default:
+                    return null;
+            }
+        }
 
     }
 }

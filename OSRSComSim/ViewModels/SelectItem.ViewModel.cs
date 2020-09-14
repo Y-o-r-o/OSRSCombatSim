@@ -158,6 +158,7 @@ namespace OSRSComSim.ViewModels
         }
         public void selectForInventory(string equipment_name)
         {
+            object equipment;
             int inv_idx = String_functions.getFirstNumberFromString(SelectedItemSlotName);
 
             string item_data = getItemData(equipment_name);
@@ -166,23 +167,24 @@ namespace OSRSComSim.ViewModels
             switch (item_type)
             {
                 case "Weapon":
-                    player_equiped.InventoryItem[inv_idx] = new WeaponModel(item_data);
+                    equipment = new WeaponModel(item_data);
                     break;
                 case "Food":
-                    player_equiped.InventoryItem[inv_idx] = new FoodModel(item_data);
+                    equipment = new FoodModel(item_data);
                     break;
                 case "Potions":
-                    player_equiped.InventoryItem[inv_idx] = new PotionModel(item_data);
+                    equipment = new PotionModel(item_data);
                     break;
                 case "Runes":
-                    player_equiped.InventoryItem[inv_idx] = new RunesModel(item_data);
+                    equipment = new RunesModel(item_data);
                     break;
                 default:
-                    player_equiped.InventoryItem[inv_idx] = new EquipmentModel(item_type, item_data);
+                    equipment = new EquipmentModel(item_type, item_data);
                     break;
             }
-        
+            player_equiped.InventoryItem[inv_idx] = equipment;
         }
+
         public static void deselect(EquipedModel player_equiped, string selected_slot)
         {
             switch (selected_slot)
@@ -225,12 +227,6 @@ namespace OSRSComSim.ViewModels
                     break;
             }
         }
-        
-
-
-
-
-
 
 
     }

@@ -1,4 +1,6 @@
 ﻿using OSRSComSim.Models;
+using OSRSComSim.Models.Items;
+using OSRSComSim.Models.Items.Equipments;
 using OSRSComSim.Views;
 using System;
 using System.Runtime.Remoting.Messaging;
@@ -53,7 +55,7 @@ namespace OSRSComSim.ViewModels
             this.inv_mode = inv_mode;
             AddPng = new string[28];
 
-            if (inv_mode == "Edit" || inv_mode == "Create") setItemAddPng();
+            setItemAddPng();
 
             View = new InventoryView(this);
         }
@@ -64,27 +66,58 @@ namespace OSRSComSim.ViewModels
             {
                 selectItem(slot_name);
             }
+            else if (inv_mode == "Interactive")
+            {
+                useItem(slot_name);    
+            }
         }
         public void setItemAddPng()
         {
-            for (int i = 0; i < PlayerEquiped.InventoryItem.Count; i++)
+            if (inv_mode == "Edit" || inv_mode == "Create")
             {
-                if (PlayerEquiped.InventoryItem[i].GetType().ToString().Contains("ItemModel"))
+                for (int i = 0; i < PlayerEquiped.InventoryItem.Count; i++)
                 {
-                    AddPng[i] = add_sign_png;
+                    if (PlayerEquiped.InventoryItem[i].GetType().ToString().Contains("ItemModel"))
+                    {
+                        AddPng[i] = add_sign_png;
+                    }
+                    else AddPng[i] = null;
                 }
-                else AddPng[i] = null;
+                OnPropertyChanged("AddPng");
             }
-            OnPropertyChanged("AddPng");
         }
         private void selectItem(string slot_name)
         {
             string items_to_select = "Head, Neck, Cape, Ammo, Weapon, Body, Shield, Legs, Feet, Hands, Ring, Food, Runes, Potions";
-            
-            SelectItemViewModel.deselect(PlayerEquiped, slot_name);
+            deselectItem(slot_name);
             ItemSelect = new SelectItemViewModel(PlayerEquiped, slot_name, items_to_select);
         }
+        private void deselectItem(string slot_name)
+        {
+            SelectItemViewModel.deselect(PlayerEquiped, slot_name);
+            setItemAddPng();
+        }
+        private void useItem(string slot_name)
+        {
+            int slot_idx = String_functions.getFirstNumberFromString(slot_name);
+            object item = PlayerEquiped.InventoryItem[slot_idx];
+            string item_type = ItemModel.getItemType(item as ItemModel);
 
+            switch (item_type)
+            {
+                case "Equipment":
+                    mountEquipment(item, slot_idx);
+                    break;
+                default: 
+                    break;
+            }
+        }
 
+        private void mountEquipment(object item, int slot_idx)
+        {
+                string equipment_type = (item as EquipmentModel).ItemType;
+                PlayerEquiped.InventoryItem[slot_idx] = EquipedModel.GetEquipment(PlayerEquiped, equipment_type);
+                EquipedModel.mountEquipment(PlayerEquiped, item);
+        }
     }
 }

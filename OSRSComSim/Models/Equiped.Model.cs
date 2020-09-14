@@ -1,10 +1,13 @@
 ﻿using OSRSComSim.Models.Items;
 using OSRSComSim.Models.Items.Equipments;
 using System.Collections.ObjectModel;
+using System.Runtime.CompilerServices;
+using System.Runtime.Serialization;
 using System.Xml.Serialization;
 
 namespace OSRSComSim.Models
 {
+    [CollectionDataContract(ItemName = "Item")]
     [XmlInclude(typeof(FoodModel)), XmlInclude(typeof(PotionModel)), XmlInclude(typeof(RunesModel))]
     public class EquipedModel: ObservableObject
     {
@@ -134,8 +137,8 @@ namespace OSRSComSim.Models
         }
 
 
-
-        public EquipedModel()
+        private EquipedModel() { } 
+        public EquipedModel(bool unused_value = false) //this unnuse value is for serializer, to not use this constructor. because if it uses, it always adds to InventoryItem new childrens. 
         {
             Head = new EquipmentModel("Head");
             Neck = new EquipmentModel("Neck");
@@ -151,7 +154,7 @@ namespace OSRSComSim.Models
             InventoryItem = new ObservableCollection<object>();
             for (int i = 0; i < inventory_capativity; i++)
             {
-                InventoryItem.Add(new ItemModel());
+                if(InventoryItem.Count <= 28) InventoryItem.Add(new ItemModel());
             }
         }
 

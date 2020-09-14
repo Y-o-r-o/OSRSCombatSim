@@ -94,7 +94,7 @@ namespace OSRSComSim.ViewModels
         {
             ViewContent = new ControlPanelViewModel(this, cp_mode: "Create").View;
         }
-        public void viewrEditPlayer()
+        public void viewEditPlayer()
         {
             ViewContent = new ControlPanelViewModel(this, SelectedPlayer, "Edit").View;
         }
@@ -113,16 +113,8 @@ namespace OSRSComSim.ViewModels
         }
         public void loadSelectedFighter(string fighter_num)
         {
-            if (HasNoSpecialChars(SelectedPlayer.Name))
-            {
                 loadFighter(fighter_num);
                 Back_to_main_screen();
-            }
-        }
-
-        public bool HasNoSpecialChars(string yourString)
-        {
-            return !yourString.Any(ch => !Char.IsLetterOrDigit(ch));
         }
 
         public void getPlayer(string fighter_num) {

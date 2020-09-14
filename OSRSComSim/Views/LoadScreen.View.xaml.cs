@@ -28,7 +28,7 @@ namespace OSRSComSim.Views
         private void Edit_btn_Click(object sender, RoutedEventArgs e)
         {
             view_model.getPlayer(((Button)sender).Tag.ToString());
-            view_model.viewrEditPlayer();
+            view_model.viewEditPlayer();
         }
         private void Delete_btn_Click(object sender, RoutedEventArgs e)
         {

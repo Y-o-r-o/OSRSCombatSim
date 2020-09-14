@@ -43,7 +43,6 @@ namespace OSRSComSim.ViewModels
             View = new InventoryView(this);
         }
 
-
         public void slotClicked(string slot_name) 
         {
             string items_to_select = "Head, Neck, Cape, Ammo, Weapon, Body, Shield, Legs, Feet, Hands, Ring, Food, Runes, Potions";

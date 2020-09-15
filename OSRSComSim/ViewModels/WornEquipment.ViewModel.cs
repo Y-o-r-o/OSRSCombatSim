@@ -78,7 +78,7 @@ namespace OSRSComSim.ViewModels
             {
                 if (we_mode == "Interactive")
                 {
-                    if(EquipedModel.throwSuccesfulyEquipmentToInventory(PlayerEquiped,EquipedModel.getEquipmentBySlotName(PlayerEquiped, selected_slot_table)))
+                    if(EquipedModel.throwSuccesfulyEqpToInv(PlayerEquiped,EquipedModel.getEqp(PlayerEquiped, selected_slot_table)))
                     {
                         deselectEquipment();
                     }
@@ -113,7 +113,7 @@ namespace OSRSComSim.ViewModels
         }
         public void deselectEquipment()
         {
-            SelectItemViewModel.deselect(PlayerEquiped, selected_slot_table);
+            EquipedModel.demountEqp(PlayerEquiped, selected_slot_table);
         }
     }
 }

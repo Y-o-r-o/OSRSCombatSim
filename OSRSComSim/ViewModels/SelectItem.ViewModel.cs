@@ -1,11 +1,7 @@
 ﻿using OSRSComSim.Models;
-using OSRSComSim.Models.Items;
-using OSRSComSim.Models.Items.Equipments;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Policy;
-using System.Text.RegularExpressions;
+
 
 namespace OSRSComSim.ViewModels
 {
@@ -114,120 +110,8 @@ namespace OSRSComSim.ViewModels
         }
         public void select(string equipment_name) //exmp: inv_item_0 ... 27
         {
-            switch (SelectedItemSlotName)
-            {
-                case "Head":
-                    player_equiped.Head = new EquipmentModel("Head", getItemData(equipment_name));
-                    break;
-                case "Neck":
-                    player_equiped.Neck = new EquipmentModel("Neck", getItemData(equipment_name));
-                    break;
-                case "Cape":
-                    player_equiped.Cape = new EquipmentModel("Cape", getItemData(equipment_name));
-                    break;
-                case "Ammo":
-                    player_equiped.Ammo = new EquipmentModel("Ammo", getItemData(equipment_name));
-                    break;
-                case "Weapon":
-                    player_equiped.Weapon = new WeaponModel(getItemData(equipment_name));
-                    if (player_equiped.Weapon.is_two_handed) player_equiped.Shield = new EquipmentModel("Shield");
-                    break;
-                case "Body":
-                    player_equiped.Body = new EquipmentModel("Body", getItemData(equipment_name));
-                    break;
-                case "Shield":
-                    player_equiped.Shield = new EquipmentModel("Shield", getItemData(equipment_name));
-                    if (player_equiped.Weapon.is_two_handed) player_equiped.Weapon = new WeaponModel();
-                    break;
-                case "Legs":
-                    player_equiped.Legs = new EquipmentModel("Legs", getItemData(equipment_name));
-                    break;
-                case "Feet":
-                    player_equiped.Feet = new EquipmentModel("Feet", getItemData(equipment_name));
-                    break;
-                case "Hands":
-                    player_equiped.Hands = new EquipmentModel("Hands", getItemData(equipment_name));
-                    break;
-                case "Ring":
-                    player_equiped.Ring = new EquipmentModel("Ring", getItemData(equipment_name));
-                    break;
-                default:
-                    selectForInventory(equipment_name);
-                    break;
-            }
-        }
-        public void selectForInventory(string equipment_name)
-        {
-            object equipment;
-            int inv_idx = String_functions.getFirstNumberFromString(SelectedItemSlotName);
-
             string item_data = getItemData(equipment_name);
-            string item_type = item_data.Split(',')[0];
-
-            switch (item_type)
-            {
-                case "Weapon":
-                    equipment = new WeaponModel(item_data);
-                    break;
-                case "Food":
-                    equipment = new FoodModel(item_data);
-                    break;
-                case "Potions":
-                    equipment = new PotionModel(item_data);
-                    break;
-                case "Runes":
-                    equipment = new RunesModel(item_data);
-                    break;
-                default:
-                    equipment = new EquipmentModel(item_type, item_data);
-                    break;
-            }
-            player_equiped.InventoryItem[inv_idx] = equipment;
+            EquipedModel.mountItem(player_equiped, SelectedItemSlotName,item_data);
         }
-
-        public static void deselect(EquipedModel player_equiped, string selected_slot)
-        {
-            switch (selected_slot)
-            {
-                case "Head":
-                    player_equiped.Head = new EquipmentModel("Head");
-                    break;
-                case "Neck":
-                    player_equiped.Neck = new EquipmentModel("Neck");
-                    break;
-                case "Cape":
-                    player_equiped.Cape = new EquipmentModel("Cape");
-                    break;
-                case "Ammo":
-                    player_equiped.Ammo = new EquipmentModel("Ammo");
-                    break;
-                case "Weapon":
-                    player_equiped.Weapon = new WeaponModel();
-                    break;
-                case "Body":
-                    player_equiped.Body = new EquipmentModel("Body");
-                    break;
-                case "Shield":
-                    player_equiped.Shield = new EquipmentModel("Shield");
-                    break;
-                case "Legs":
-                    player_equiped.Legs = new EquipmentModel("Legs");
-                    break;
-                case "Feet":
-                    player_equiped.Feet = new EquipmentModel("Feet");
-                    break;
-                case "Hands":
-                    player_equiped.Hands = new EquipmentModel("Hands");
-                    break;
-                case "Ring":
-                    player_equiped.Ring = new EquipmentModel("Ring");
-                    break;
-                default:
-                    player_equiped.InventoryItem[String_functions.getFirstNumberFromString(selected_slot)] = new ItemModel(); //////
-                    break;
-            }
-        }
-
-
     }
 }

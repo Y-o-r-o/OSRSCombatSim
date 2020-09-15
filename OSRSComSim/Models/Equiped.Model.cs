@@ -1,7 +1,6 @@
 ﻿using OSRSComSim.Models.Items;
 using OSRSComSim.Models.Items.Equipments;
 using System.Collections.ObjectModel;
-using System.Runtime.CompilerServices;
 using System.Runtime.Serialization;
 using System.Xml.Serialization;
 
@@ -13,17 +12,17 @@ namespace OSRSComSim.Models
     {
         private const int inventory_capativity = 28;
 
-        public EquipmentModel _head;
-        public EquipmentModel _neck;
-        public EquipmentModel _cape;
-        public EquipmentModel _ammo;
-        public WeaponModel _weapon;
-        public EquipmentModel _body;
-        public EquipmentModel _shield;
-        public EquipmentModel _legs;
-        public EquipmentModel _feet;
-        public EquipmentModel _hands;
-        public EquipmentModel _ring;
+        private EquipmentModel _head;
+        private EquipmentModel _neck;
+        private EquipmentModel _cape;
+        private EquipmentModel _ammo;
+        private WeaponModel _weapon;
+        private EquipmentModel _body;
+        private EquipmentModel _shield;
+        private EquipmentModel _legs;
+        private EquipmentModel _feet;
+        private EquipmentModel _hands;
+        private EquipmentModel _ring;
         private ObservableCollection<object> _item;
 
 
@@ -225,37 +224,7 @@ namespace OSRSComSim.Models
         }
 
         //equiped functions
-        public static object getEquipmentBySlotName(EquipedModel equiped, string slot_name)
-        {
-            switch (slot_name)
-            {
-                case "Head":
-                    return equiped.Head;
-                case "Neck":
-                    return equiped.Neck;
-                case "Cape":
-                    return equiped.Cape;
-                case "Ammo":
-                    return equiped.Ammo;
-                case "Weapon":
-                    return equiped.Weapon;
-                case "Body":
-                    return equiped.Body;
-                case "Shield":
-                    return equiped.Shield;
-                case "Legs":
-                    return equiped.Legs;
-                case "Feet":
-                    return equiped.Feet;
-                case "Hands":
-                    return equiped.Hands;
-                case "Ring":
-                    return equiped.Ring;
-                default:
-                    return null;
-            }
-        }
-        public static void mountEquipment(EquipedModel equiped, object equipment)
+        public static void mountEqp(EquipedModel equiped, object equipment)
         {
             switch ((equipment as EquipmentModel).ItemType)
             {
@@ -294,12 +263,124 @@ namespace OSRSComSim.Models
                     break;
             }
         }
-        public static EquipmentModel getEquipment(EquipedModel equiped, string equipment_type)
+        public static void mountItem(EquipedModel equiped, string slot_name, string item_data)
+        {
+            switch (slot_name)
+            {
+                case "Head":
+                    equiped.Head = new EquipmentModel("Head", item_data);
+                    break;
+                case "Neck":
+                    equiped.Neck = new EquipmentModel("Neck", item_data);
+                    break;
+                case "Cape":
+                    equiped.Cape = new EquipmentModel("Cape", item_data);
+                    break;
+                case "Ammo":
+                    equiped.Ammo = new EquipmentModel("Ammo", item_data);
+                    break;
+                case "Weapon":
+                    equiped.Weapon = new WeaponModel(item_data);
+                    if (equiped.Weapon.is_two_handed) equiped.Shield = new EquipmentModel("Shield");
+                    break;
+                case "Body":
+                    equiped.Body = new EquipmentModel("Body", item_data);
+                    break;
+                case "Shield":
+                    equiped.Shield = new EquipmentModel("Shield", item_data);
+                    if (equiped.Weapon.is_two_handed) equiped.Weapon = new WeaponModel();
+                    break;
+                case "Legs":
+                    equiped.Legs = new EquipmentModel("Legs", item_data);
+                    break;
+                case "Feet":
+                    equiped.Feet = new EquipmentModel("Feet", item_data);
+                    break;
+                case "Hands":
+                    equiped.Hands = new EquipmentModel("Hands", item_data);
+                    break;
+                case "Ring":
+                    equiped.Ring = new EquipmentModel("Ring", item_data);
+                    break;
+                default:
+                    mountItemForInventory(equiped, slot_name, item_data);
+                    break;
+            }
+        }
+        public static void mountItemForInventory(EquipedModel equiped, string slot_name, string item_data)
+        {
+            object equipment;
+            int inv_idx = String_functions.getFirstNumberFromString(slot_name);
+
+            string item_type = item_data.Split(',')[0];
+
+            switch (item_type)
+            {
+                case "Weapon":
+                    equipment = new WeaponModel(item_data);
+                    break;
+                case "Food":
+                    equipment = new FoodModel(item_data);
+                    break;
+                case "Potions":
+                    equipment = new PotionModel(item_data);
+                    break;
+                case "Runes":
+                    equipment = new RunesModel(item_data);
+                    break;
+                default:
+                    equipment = new EquipmentModel(item_type, item_data);
+                    break;
+            }
+            equiped.InventoryItem[inv_idx] = equipment;
+        }
+        public static void demountEqp(EquipedModel equiped, string equipment_type)
         {
             switch (equipment_type)
             {
                 case "Head":
-                    //if (equiped.Head.Name.Equals("")) return new ItemModel() as EquipmentModel;
+                    equiped.Head = new EquipmentModel("Head");
+                    break;
+                case "Neck":
+                    equiped.Neck = new EquipmentModel("Neck");
+                    break;
+                case "Cape":
+                    equiped.Cape = new EquipmentModel("Cape");
+                    break;
+                case "Ammo":
+                    equiped.Ammo = new EquipmentModel("Ammo");
+                    break;
+                case "Body":
+                    equiped.Body = new EquipmentModel("Body");
+                    break;
+                case "Shield":
+                    equiped.Shield = new EquipmentModel("Shield");
+                    break;
+                case "Legs":
+                    equiped.Legs = new EquipmentModel("Legs");
+                    break;
+                case "Feet":
+                    equiped.Feet = new EquipmentModel("Feet");
+                    break;
+                case "Hands":
+                    equiped.Hands = new EquipmentModel("Hands");
+                    break;
+                case "Ring":
+                    equiped.Ring = new EquipmentModel("Ring");
+                    break;
+                case "Weapon":
+                    equiped.Weapon = new WeaponModel();
+                    break;
+                default:
+                    equiped.InventoryItem[String_functions.getFirstNumberFromString(equipment_type)] = new ItemModel(); //////
+                    break;
+            }
+        }
+        public static object getEqp(EquipedModel equiped, string equipment_type)
+        {
+            switch (equipment_type)
+            {
+                case "Head":
                     return equiped.Head;
                 case "Neck":
                     return equiped.Neck;
@@ -325,7 +406,7 @@ namespace OSRSComSim.Models
                     return null;
             }
         }
-        public static bool throwSuccesfulyEquipmentToInventory(EquipedModel equiped, object equipment)
+        public static bool throwSuccesfulyEqpToInv(EquipedModel equiped, object equipment)
         {
             for(int i = 0; i< equiped.InventoryItem.Count; i++)
             {

@@ -94,7 +94,7 @@ namespace OSRSComSim.ViewModels
         }
         private void deselectItem(string slot_name)
         {
-            SelectItemViewModel.deselect(PlayerEquiped, slot_name);
+            EquipedModel.demountEqp(PlayerEquiped, slot_name);
             setItemAddPng();
         }
         private void useItem(string slot_name)
@@ -116,11 +116,11 @@ namespace OSRSComSim.ViewModels
         private void mountEquipment(object item, int slot_idx)
         {
             string equipment_type = (item as EquipmentModel).ItemType;
-            object already_mounted_equipment = EquipedModel.getEquipment(PlayerEquiped, equipment_type);
-            if (!(already_mounted_equipment as EquipmentModel).Name.Equals(""))
+            object already_mounted_equipment = EquipedModel.getEqp(PlayerEquiped, equipment_type);
+            if (!(already_mounted_equipment as ItemModel).Name.Equals("") && !(already_mounted_equipment as ItemModel).Name.Equals("Unarmed"))
                 PlayerEquiped.InventoryItem[slot_idx] = already_mounted_equipment;
             else deselectItem(slot_idx.ToString());
-            EquipedModel.mountEquipment(PlayerEquiped, item);
+            EquipedModel.mountEqp(PlayerEquiped, item);
         }
     }
 }

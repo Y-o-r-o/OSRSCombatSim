@@ -224,8 +224,37 @@ namespace OSRSComSim.Models
             return Head.Speed + Neck.Speed + Cape.Speed + Ammo.Speed + Weapon.Speed + Body.Speed + Shield.Speed + Legs.Speed + Feet.Speed + Hands.Speed + Ring.Speed;
         }
 
-        //equipment functions
-
+        //equiped functions
+        public static object getEquipmentBySlotName(EquipedModel equiped, string slot_name)
+        {
+            switch (slot_name)
+            {
+                case "Head":
+                    return equiped.Head;
+                case "Neck":
+                    return equiped.Neck;
+                case "Cape":
+                    return equiped.Cape;
+                case "Ammo":
+                    return equiped.Ammo;
+                case "Weapon":
+                    return equiped.Weapon;
+                case "Body":
+                    return equiped.Body;
+                case "Shield":
+                    return equiped.Shield;
+                case "Legs":
+                    return equiped.Legs;
+                case "Feet":
+                    return equiped.Feet;
+                case "Hands":
+                    return equiped.Hands;
+                case "Ring":
+                    return equiped.Ring;
+                default:
+                    return null;
+            }
+        }
         public static void mountEquipment(EquipedModel equiped, object equipment)
         {
             switch ((equipment as EquipmentModel).ItemType)
@@ -265,12 +294,12 @@ namespace OSRSComSim.Models
                     break;
             }
         }
-
-        public static EquipmentModel GetEquipment(EquipedModel equiped, string equipment_type)
+        public static EquipmentModel getEquipment(EquipedModel equiped, string equipment_type)
         {
             switch (equipment_type)
             {
                 case "Head":
+                    //if (equiped.Head.Name.Equals("")) return new ItemModel() as EquipmentModel;
                     return equiped.Head;
                 case "Neck":
                     return equiped.Neck;
@@ -295,6 +324,18 @@ namespace OSRSComSim.Models
                 default:
                     return null;
             }
+        }
+        public static bool throwSuccesfulyEquipmentToInventory(EquipedModel equiped, object equipment)
+        {
+            for(int i = 0; i< equiped.InventoryItem.Count; i++)
+            {
+                if ((equiped.InventoryItem[i] as ItemModel).Name.Equals(""))
+                {
+                    equiped.InventoryItem[i] = equipment;
+                    return true;
+                }
+            }
+            return false;
         }
 
     }

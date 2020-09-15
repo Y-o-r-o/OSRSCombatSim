@@ -115,9 +115,12 @@ namespace OSRSComSim.ViewModels
 
         private void mountEquipment(object item, int slot_idx)
         {
-                string equipment_type = (item as EquipmentModel).ItemType;
-                PlayerEquiped.InventoryItem[slot_idx] = EquipedModel.GetEquipment(PlayerEquiped, equipment_type);
-                EquipedModel.mountEquipment(PlayerEquiped, item);
+            string equipment_type = (item as EquipmentModel).ItemType;
+            object already_mounted_equipment = EquipedModel.getEquipment(PlayerEquiped, equipment_type);
+            if (!(already_mounted_equipment as EquipmentModel).Name.Equals(""))
+                PlayerEquiped.InventoryItem[slot_idx] = already_mounted_equipment;
+            else deselectItem(slot_idx.ToString());
+            EquipedModel.mountEquipment(PlayerEquiped, item);
         }
     }
 }

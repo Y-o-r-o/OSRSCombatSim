@@ -9,8 +9,8 @@ namespace OSRSComSim.ViewModels
     public class WornEquipmentViewModel : ObservableObject
     {
         private string selected_slot_table = "";
+        private string we_mode = "";
 
-        private bool _show_select = false;
         private EquipedModel _player_equiped;
         private SelectItemViewModel _select_equipment;
         private string _equipment_info = "";
@@ -47,16 +47,18 @@ namespace OSRSComSim.ViewModels
         public WornEquipmentViewModel() : this(null, "Edit") { }
         public WornEquipmentViewModel(EquipedModel player_equiped = null, string we_mode = "Edit")
         {
+            this.we_mode = we_mode;
 
             if (player_equiped != null)
             {
                 PlayerEquiped = player_equiped;
             }
             else PlayerEquiped = new EquipedModel();
+            
             selectEquipmentViewModel = null;
+            
             if (we_mode == "Edit" || we_mode == "Create")
             {
-                _show_select = true;
                 selectEquipmentViewModel = new SelectItemViewModel();
             }
             setEquipmentInfo();
@@ -69,12 +71,19 @@ namespace OSRSComSim.ViewModels
             this.selected_slot_table = selected_slot_table;
             if (mount)
             {
-                if (_show_select)
+                if (we_mode == "Edit" || we_mode == "Create")
                     selectEquipment();
             }
             else
             {
-                deselectEquipment();
+                if (we_mode == "Interactive")
+                {
+                    if(EquipedModel.throwSuccesfulyEquipmentToInventory(PlayerEquiped,EquipedModel.getEquipmentBySlotName(PlayerEquiped, selected_slot_table)))
+                    {
+                        deselectEquipment();
+                    }
+                }
+                if (we_mode == "Edit" || we_mode == "Create") deselectEquipment();
                 setEquipmentInfo();
             }
         }

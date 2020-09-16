@@ -4,7 +4,6 @@
     {
 
         private string _name;
-        private CombatModel _player_combat;
 
         public string Name
         {
@@ -16,25 +15,24 @@
                 OnPropertyChanged("Name");
             }
         }
-        public CombatModel PlayerCombat
-        {
-            get
-            {
-                return _player_combat;
-            }
-            set
-            {
-                _player_combat = value;
-            }
-        }
+        public CombatModel Combat { get; set; }
+        public SkillsModel Skills { get; set; }
+        public EquipedModel Equiped { get; set; }
 
-        public PlayerModel() : this("Default character", null) { }
-        public PlayerModel(string name = "Default character", CombatModel player_combat = null)
+
+        public PlayerModel() : this("Default character", null, null, null) { }
+        public PlayerModel(string name = "Default character", CombatModel combat = null, SkillsModel skills = null, EquipedModel equiped = null)
         {
             this.Name = name;
-            if (player_combat != null)
-                PlayerCombat = player_combat;
-            else PlayerCombat = new CombatModel();
+            if (combat != null)
+                Combat = combat;
+            else Combat = new CombatModel();
+            if (skills != null)
+                Skills = skills;
+            else Skills = new SkillsModel();
+            if (equiped != null)
+                Equiped = Equiped;
+            else Equiped = new EquipedModel();
         }
     }
 }

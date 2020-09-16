@@ -6,8 +6,6 @@ namespace OSRSComSim.Models
     {
         private CombatCurretOptionModel _curretoptions;
 
-        public SkillsModel PlayerSkills { get; set; }
-        public EquipedModel PlayerEquipment { get; set; }
         public CombatCurretOptionModel CurretOptions
         {
             get { return _curretoptions; }
@@ -38,24 +36,19 @@ namespace OSRSComSim.Models
         public CombatModel() : this(null, null) { }
         public CombatModel(SkillsModel player_skills = null, EquipedModel player_equipment = null)
         {
-            if (player_skills != null)
-                PlayerSkills = player_skills;
-            else PlayerSkills = new SkillsModel();
-            if (player_equipment != null)
-                PlayerEquipment = player_equipment;
-            else PlayerEquipment = new EquipedModel();
             CurretOptions = new CombatCurretOptionModel();
         }
 
-        //Class needs redesign from here
-        public string Attack(int deffender_def_roll)
+        //Combat functions
+        public static string Attack(PlayerModel attacker, int deffender_def_roll)
         {
-            set_stats_for_attacker();
+            CombatModel combat = attacker.Combat;
+            CombatModel.set_stats_for_attacker(attacker);
             
-            int piercing_roll = get_piercing_roll();
-            int maxdmg = get_dmagemax();
+            int piercing_roll = get_piercing_roll(combat);
+            int maxdmg = get_dmagemax(combat);
 
-            if (canAttack())
+            if (canAttack(attacker))
             {
                 if (deffender_def_roll > piercing_roll)
                 {
@@ -77,129 +70,125 @@ namespace OSRSComSim.Models
             return "Message";
         }
 
-        public int Deffend(CombatModel attacker_combat)
+        public static int Deffend(PlayerModel deffender, CombatModel attacker_combat)
         {
-            set_stats_for_deffender(attacker_combat);
-            return get_def_roll();
+            set_stats_for_deffender(deffender,attacker_combat);
+            return get_def_roll(deffender.Combat);
         }
 
-        public int get_piercing_roll()
+        public static int get_piercing_roll(CombatModel combat)
         {
-            return (int)(effective_level_piercing() * (eq_piercing_bonus + 64));
+            return (int)(effective_level_piercing(combat) * (combat.eq_piercing_bonus + 64));
         }
-        public int get_def_roll()
+        public static int get_def_roll(CombatModel combat)
         {
-            return (int)(effective_level_def() * (eq_def_bonus + 64));
+            return (int)(effective_level_def(combat) * (combat.eq_def_bonus + 64));
         }
-        public int get_dmagemax()
+        public static int get_dmagemax(CombatModel combat)
         {
-            return (int)Math.Floor((0.5 + effective_level_dmage() * (eq_dmage_bonus + 64) / 640));
-        }
-
-        private double effective_level_dmage()
-        {
-            return Math.Floor((Math.Floor(dmage_lvl * prayer_dmage_bonus) + CurretOptions.StancBonusStr + 8) * void_bonus);
-        }
-        private double effective_level_piercing()
-        {
-            return Math.Floor((Math.Floor(piercing_lvl * prayer_piercing_bonus) + CurretOptions.StancBonusAtk + 8) * void_bonus);
-            
-        }
-        private double effective_level_def()
-        {
-            return Math.Floor((Math.Floor(def_lvl * prayer_def_bonus) + CurretOptions.StancBonusDef + 8) * void_bonus);
+            return (int)Math.Floor((0.5 + effective_level_dmage(combat) * (combat.eq_dmage_bonus + 64) / 640));
         }
 
-        private void set_stats_for_attacker()
+        private static double effective_level_dmage(CombatModel combat)
         {
-            string value = CurretOptions.CombatType;
+            return Math.Floor((Math.Floor(combat.dmage_lvl * combat.prayer_dmage_bonus) + combat.CurretOptions.StancBonusStr + 8) * combat.void_bonus);
+        }
+        private static double effective_level_piercing(CombatModel combat)
+        {
+            return Math.Floor((Math.Floor(combat.piercing_lvl * combat.prayer_piercing_bonus) + combat.CurretOptions.StancBonusAtk + 8) * combat.void_bonus);   
+        }
+        private static double effective_level_def(CombatModel combat)
+        {
+            return Math.Floor((Math.Floor(combat.def_lvl * combat.prayer_def_bonus) + combat.CurretOptions.StancBonusDef + 8) * combat.void_bonus);
+        }
+
+        private static void set_stats_for_attacker(PlayerModel attacker)
+        {
+            CombatModel combat = attacker.Combat;
+            SkillsModel skills = attacker.Skills;
+            EquipedModel eqp = attacker.Equiped;
+
+            string value = combat.CurretOptions.CombatType;
             switch (value)
             {
 
                 case "Slash":
                 case "Stab":
                 case "Crush":
-                     eq_piercing_bonus = PlayerEquipment.getTotalSlashAtk();
-                    eq_piercing_bonus = PlayerEquipment.getTotalStabAtk();
-                     eq_piercing_bonus = PlayerEquipment.getTotalCrushAtk();
-                    eq_dmage_bonus = PlayerEquipment.getTotalMeleStr();
-                    prayer_piercing_bonus = 1;
-                    prayer_dmage_bonus = 1;
-                    dmage_lvl = PlayerSkills.Str_lvl;
-                    piercing_lvl = PlayerSkills.Atk_lvl;
+                    combat.eq_piercing_bonus = eqp.getTotalSlashAtk();
+                    combat.eq_piercing_bonus = eqp.getTotalStabAtk();
+                    combat.eq_piercing_bonus = eqp.getTotalCrushAtk();
+                    combat.eq_dmage_bonus = eqp.getTotalMeleStr();
+                    combat.prayer_piercing_bonus = 1;
+                    combat.prayer_dmage_bonus = 1;
+                    combat.dmage_lvl = skills.Str_lvl;
+                    combat.piercing_lvl = skills.Atk_lvl;
                     break;
                 case "Magic":
-                    eq_piercing_bonus = PlayerEquipment.getTotalMagicAtk();
-                    eq_dmage_bonus = PlayerEquipment.getTotalMagicStr();
-                    prayer_piercing_bonus = 1;
-                    prayer_dmage_bonus = 1;
-                    dmage_lvl = PlayerSkills.Magic_lvl;
-                    piercing_lvl = PlayerSkills.Magic_lvl;
+                    combat.eq_piercing_bonus = eqp.getTotalMagicAtk();
+                    combat.eq_dmage_bonus = eqp.getTotalMagicStr();
+                    combat.prayer_piercing_bonus = 1;
+                    combat.prayer_dmage_bonus = 1;
+                    combat.dmage_lvl = skills.Magic_lvl;
+                    combat.piercing_lvl = skills.Magic_lvl;
                     break;
                 case "Ranged":
-                    eq_piercing_bonus = PlayerEquipment.getTotalRangedAtk();
-                    eq_dmage_bonus = PlayerEquipment.getTotalRangedStr();
-                    prayer_piercing_bonus = 1;
-                    prayer_dmage_bonus = 1;
-                    dmage_lvl = PlayerSkills.Ranged_lvl;
-                    piercing_lvl = PlayerSkills.Ranged_lvl;
+                    combat.eq_piercing_bonus = eqp.getTotalRangedAtk();
+                    combat.eq_dmage_bonus = eqp.getTotalRangedStr();
+                    combat.prayer_piercing_bonus = 1;
+                    combat.prayer_dmage_bonus = 1;
+                    combat.dmage_lvl = skills.Ranged_lvl;
+                    combat.piercing_lvl = skills.Ranged_lvl;
                     break;
                 default:
                     break;
             }
         }
-        private void set_stats_for_deffender(CombatModel attacker_combat)
+        private static void set_stats_for_deffender(PlayerModel deffender, CombatModel attacker_combat)
         {
+            CombatModel deffender_combat = deffender.Combat;
+            EquipedModel deffender_eqp = deffender.Equiped;
+            SkillsModel deffender_skills = deffender.Skills;
+            
             string value = attacker_combat.CurretOptions.CombatType;
             switch (value)
             {
                 case "Slash":
                 case "Stab":
                 case "Crush":
-                    if (value.Equals("Slash")) eq_def_bonus = PlayerEquipment.getTotalSlashDef();
-                    if (value.Equals("Stab")) eq_def_bonus = PlayerEquipment.getTotalStabDef();
-                    if (value.Equals("Crush")) eq_def_bonus = PlayerEquipment.getTotalCrushDef();
-                    prayer_def_bonus = 1;
+                    if (value.Equals("Slash")) deffender_combat.eq_def_bonus = deffender_eqp.getTotalSlashDef();
+                    if (value.Equals("Stab")) deffender_combat.eq_def_bonus = deffender_eqp.getTotalStabDef();
+                    if (value.Equals("Crush")) deffender_combat.eq_def_bonus = deffender_eqp.getTotalCrushDef();
+                    deffender_combat.prayer_def_bonus = 1;
                     break;
                 case "Magic":
-                    eq_def_bonus = PlayerEquipment.getTotalMagicDef();
-                    prayer_def_bonus = 1;
+                    deffender_combat.eq_def_bonus = deffender_eqp.getTotalMagicDef();
+                    deffender_combat.prayer_def_bonus = 1;
                     break;
                 case "Ranged":
-                    eq_def_bonus = PlayerEquipment.getTotalRangedDef();
-                    prayer_def_bonus = 1;
+                    deffender_combat.eq_def_bonus = deffender_eqp.getTotalRangedDef();
+                    deffender_combat.prayer_def_bonus = 1;
                     break;
                 default:
                     break;
             }
-            def_lvl = PlayerSkills.Def_lvl;
+            deffender_combat.def_lvl = deffender_skills.Def_lvl;
         }
 
-        private bool canAttack()
+        private static bool canAttack(PlayerModel attacker)
         {
-            if (CurretOptions.CombatType == "Ranged")
+            CombatModel combat = attacker.Combat;
+            EquipedModel eqp = attacker.Equiped;
+            if (combat.CurretOptions.CombatType == "Ranged")
             {
-                return requedAmmoEquped();
+                return EquipedModel.requedAmmoEquped(eqp);
             }
-            else if (CurretOptions.CombatType == "Magic")
+            else if (combat.CurretOptions.CombatType == "Magic")
             {
                 return false;
             }
             else return true;
         }
-        private bool requedAmmoEquped()
-        {
-            if (PlayerEquipment.Weapon.Name.ToLower().Contains("crossbow"))
-            {
-                if (PlayerEquipment.Ammo.Name.Contains("bolt")) return true; //bolt metals ifs will come, when leveling comes.
-                else return false;
-            }
-            if(PlayerEquipment.Weapon.Name.ToLower().Contains("bow"))
-            {
-                if (PlayerEquipment.Ammo.Name.Contains("arrow")) return true;
-                else return false;
-            }
-            return true;
-        }
+
     }
 }

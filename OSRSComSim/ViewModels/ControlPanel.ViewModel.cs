@@ -100,16 +100,16 @@ namespace OSRSComSim.ViewModels
                     ViewContent = new AppearanceViewModel(SelectedPlayer).View;
                     break;
                 case "Combat":
-                    ViewContent = new CombatOptionsViewModel(SelectedPlayer.PlayerCombat).View;
+                    ViewContent = new CombatOptionsViewModel(SelectedPlayer).View;
                     break;
                 case "Skills":
-                    ViewContent = new SkillsViewModel(SelectedPlayer.PlayerCombat.PlayerSkills, cp_mode).View;
+                    ViewContent = new SkillsViewModel(SelectedPlayer.Skills, cp_mode).View;
                     break;
                 case "Inventory":
-                    ViewContent = new InventoryViewModel(SelectedPlayer.PlayerCombat.PlayerEquipment, cp_mode).View;
+                    ViewContent = new InventoryViewModel(SelectedPlayer.Equiped, cp_mode).View;
                     break;
                 case "Armor":
-                    ViewContent = new WornEquipmentViewModel(SelectedPlayer.PlayerCombat.PlayerEquipment, cp_mode).View;
+                    ViewContent = new WornEquipmentViewModel(SelectedPlayer.Equiped, cp_mode).View;
                     break;
                 case "Prayer":
                     break;

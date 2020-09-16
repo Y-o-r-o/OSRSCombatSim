@@ -90,7 +90,7 @@ namespace OSRSComSim.ViewModels
             string attack_res = "";
             while (playersIsNotDead())
             {
-                attack_res = attacker.getAttackRessult(deffender);
+                attack_res = attacker.getAttackRessult(deffender.Fighter);
                 deffender.takeDamage(attack_res);
                 attacker.rest();
             }

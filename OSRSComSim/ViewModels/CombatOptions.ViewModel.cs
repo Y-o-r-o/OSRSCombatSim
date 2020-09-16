@@ -101,10 +101,10 @@ namespace OSRSComSim.ViewModels
 
 
         public CombatOptionsViewModel() : this(null) { }
-        public CombatOptionsViewModel(CombatModel combat = null)
+        public CombatOptionsViewModel(PlayerModel player)
         {
-            FighterCombat = combat;
-            WeaponTypeModel.setOptions(combat,combat.PlayerEquipment.Weapon.WeaponType);
+            FighterCombat = player.Combat;
+            WeaponTypeModel.setOptions(FighterCombat,player.Equiped.Weapon.WeaponType);
             setupOptions();
             setCombat(WeaponTypeModel.Option1, WeaponTypeModel.Option1Style);
 

@@ -418,6 +418,19 @@ namespace OSRSComSim.Models
             }
             return false;
         }
-
+        public static bool requedAmmoEquped(EquipedModel eqp)
+        {
+            if (eqp.Weapon.Name.ToLower().Contains("crossbow"))
+            {
+                if (eqp.Ammo.Name.Contains("bolt")) return true; //bolt metals ifs will come, when leveling comes.
+                else return false;
+            }
+            if (eqp.Weapon.Name.ToLower().Contains("bow"))
+            {
+                if (eqp.Ammo.Name.Contains("arrow")) return true;
+                else return false;
+            }
+            return true;
+        }
     }
 }

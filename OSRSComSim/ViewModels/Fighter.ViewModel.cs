@@ -14,7 +14,8 @@ namespace OSRSComSim.ViewModels
 
         private ControlPanelViewModel _controlpanel;
         private int _health_taken;
-        private CombatModel _fcombat;
+        private PlayerModel _fighter;
+        private CombatModel _fighter_combat;
         private string _name;
         private string _last_atk_stat_context;
         private string _last_atk_stat_color;
@@ -38,15 +39,25 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("Name");
             }
         }
-        public CombatModel FighterCombat
+        public PlayerModel Fighter
         {
-            get { return _fcombat; }
+            get { return _fighter; }
             set
             {
-                _fcombat = value;
+                _fighter = value;
+                OnPropertyChanged("Fighter");
+            }
+        }
+        public CombatModel FighterCombat
+        {
+            get { return _fighter_combat; }
+            set
+            {
+                _fighter_combat = value;
                 OnPropertyChanged("FighterCombat");
             }
         }
+
         public string LastAtkStatColor
         {
             get { return _last_atk_stat_color; }
@@ -84,8 +95,9 @@ namespace OSRSComSim.ViewModels
             if (selectedplayer == null) selectedplayer = new PlayerModel();
             ControlPanel = new ControlPanelViewModel(player: selectedplayer, cp_mode: "Interactive");
             Name = selectedplayer.Name;
-            FighterCombat = selectedplayer.PlayerCombat;
-            WeaponTypeModel.setOptions(FighterCombat, FighterCombat.PlayerEquipment.Weapon.WeaponType);
+            Fighter = selectedplayer;
+            FighterCombat = selectedplayer.Combat;
+            WeaponTypeModel.setOptions(selectedplayer.Combat, selectedplayer.Equiped.Weapon.WeaponType);
             setupFighter();
 
             View = new FighterView(this);
@@ -97,10 +109,10 @@ namespace OSRSComSim.ViewModels
         }
 
 
-        public string getAttackRessult(FighterViewModel deffender)
+        public string getAttackRessult(PlayerModel deffender)
         {
-            int deffender_def_roll = deffender.FighterCombat.Deffend(FighterCombat);
-            return FighterCombat.Attack(deffender_def_roll);
+            int deffender_def_roll = CombatModel.Deffend(deffender, FighterCombat);
+            return CombatModel.Attack(Fighter, deffender_def_roll);
         }
         private Thread startStatusShow(string context, string color)
         {
@@ -119,7 +131,7 @@ namespace OSRSComSim.ViewModels
 
         public void rest()
         {
-            Thread.Sleep((FighterCombat.PlayerEquipment.getTotalSpeed() - FighterCombat.CurretOptions.StancBonusSpd) * gameticks);
+            Thread.Sleep((Fighter.Equiped.getTotalSpeed() - FighterCombat.CurretOptions.StancBonusSpd) * gameticks);
         }
         public void takeDamage(string attack_res)
         {
@@ -133,7 +145,7 @@ namespace OSRSComSim.ViewModels
             }
             else
             {
-                HealthTaken += (int)Math.Round((double.Parse(attack_res) / FighterCombat.PlayerSkills.Hp_lvl) * 100);
+                HealthTaken += (int)Math.Round((double.Parse(attack_res) / Fighter.Skills.Hp_lvl) * 100);
                 th_show_stats = startStatusShow(attack_res.ToString(), "Red");
             }
         }

@@ -83,6 +83,7 @@
     <Compile Include="Models\Items\Equipments\Weapon.Model.cs" />
     <Compile Include="Models\Player.Model.cs" />
     <Compile Include="Models\Skills.Model.cs" />
+    <Compile Include="Models\Status.Model.cs" />
     <Compile Include="Models\WeaponType.Model.cs" />
     <Compile Include="ObservableObject.cs" />
     <Compile Include="Properties\Resources.Designer.cs">

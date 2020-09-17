@@ -11,22 +11,16 @@ namespace OSRSComSim.ViewModels
     {
         private const string add_sign_png = "../Resources/add.png";
 
-        private string inv_mode;
-
-        private string[] _add_png;
-
-        private EquipedModel _player_equiped;
         private SelectItemViewModel _item_select;
 
-        public EquipedModel PlayerEquiped
-        {
-            get { return _player_equiped; }
-            set
-            {
-                _player_equiped = value;
-                OnPropertyChanged("PlayerEquiped");
-            }
-        }
+        private string inv_mode;
+
+        public object View { get; set; }
+        
+        public PlayerModel Player { get; set; }
+        public EquipedModel PlayerEquiped { get; set; }
+        public string[] AddPng { get; set; }
+       
         public SelectItemViewModel ItemSelect
         {
             get { return _item_select; }
@@ -36,22 +30,13 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("ItemSelect");
             }
         }
-        public string[] AddPng
-        {
-            get { return _add_png; }
-            set
-            {
-                _add_png = value;
-                OnPropertyChanged("AddPng");
-            }
-        }
 
-        public object View { get; set; }
 
         public InventoryViewModel() : this(null, "Edit") { }
-        public InventoryViewModel(EquipedModel player_equiped, string inv_mode)
+        public InventoryViewModel(PlayerModel player, string inv_mode)
         {
-            this.PlayerEquiped = player_equiped;
+            this.Player = player;
+            this.PlayerEquiped = player.Equiped;
             this.inv_mode = inv_mode;
             AddPng = new string[28];
 
@@ -108,11 +93,13 @@ namespace OSRSComSim.ViewModels
                 case "Equipment":
                     mountEquipment(item, slot_idx);
                     break;
+                case "Food":
+                    eatFood((item as FoodModel), slot_idx);
+                    break;
                 default: 
                     break;
             }
         }
-
         private void mountEquipment(object item, int slot_idx)
         {
             string equipment_type = (item as EquipmentModel).ItemType;
@@ -121,6 +108,11 @@ namespace OSRSComSim.ViewModels
                 PlayerEquiped.InventoryItem[slot_idx] = already_mounted_equipment;
             else deselectItem(slot_idx.ToString());
             EquipedModel.mountEqp(PlayerEquiped, item);
+        }
+        private void eatFood(FoodModel item, int slot_idx)
+        {
+            StatusModel.heal(Player.Status, item.HPHeals);
+            deselectItem(slot_idx.ToString());
         }
     }
 }

@@ -69,7 +69,6 @@ namespace OSRSComSim.Models
             }
             return "Message";
         }
-
         public static int Deffend(PlayerModel deffender, CombatModel attacker_combat)
         {
             set_stats_for_deffender(deffender,attacker_combat);

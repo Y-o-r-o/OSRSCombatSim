@@ -11,11 +11,11 @@ namespace OSRSComSim.ViewModels
         private string selected_slot_table = "";
         private string we_mode = "";
 
-        private EquipedModel _player_equiped;
         private SelectItemViewModel _select_equipment;
         private string _equipment_info = "";
 
         public object View { get; set; }
+        public EquipedModel PlayerEquiped { get; set; }
         public SelectItemViewModel selectEquipmentViewModel
         {
             get { return _select_equipment; }
@@ -23,15 +23,6 @@ namespace OSRSComSim.ViewModels
             {
                 _select_equipment = value;
                 OnPropertyChanged("selectEquipmentViewModel");
-            }
-        }
-        public EquipedModel PlayerEquiped
-        {
-            get { return _player_equiped; }
-            set
-            {
-                _player_equiped = value;
-                OnPropertyChanged("PlayerEquiped");
             }
         }
         public string EquipmentInfo

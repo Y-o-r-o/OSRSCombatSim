@@ -16,9 +16,9 @@
             }
         }
         public CombatModel Combat { get; set; }
+        public StatusModel Status { get; set; }
         public SkillsModel Skills { get; set; }
         public EquipedModel Equiped { get; set; }
-
 
         public PlayerModel() : this("Default character", null, null, null) { }
         public PlayerModel(string name = "Default character", CombatModel combat = null, SkillsModel skills = null, EquipedModel equiped = null)
@@ -33,6 +33,7 @@
             if (equiped != null)
                 Equiped = Equiped;
             else Equiped = new EquipedModel();
+            Status = new StatusModel(Skills.Hp_lvl);
         }
     }
 }

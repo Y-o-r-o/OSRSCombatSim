@@ -35,7 +35,7 @@
 
         <Viewbox Grid.Row="1" Grid.ColumnSpan="3">
             <Grid Width="100" Height="13">
-                <Rectangle Fill="Red" HorizontalAlignment="Right" Width="{Binding HealthTaken}"/>
+                <Rectangle Fill="Red" HorizontalAlignment="Right" Width="{Binding Fighter.Status.HealthTaken}"/>
             </Grid>
         </Viewbox>
             

@@ -13,9 +13,6 @@ namespace OSRSComSim.ViewModels
         Thread th_show_stats;
 
         private ControlPanelViewModel _controlpanel;
-        private int _health_taken;
-        private PlayerModel _fighter;
-        private CombatModel _fighter_combat;
         private string _name;
         private string _last_atk_stat_context;
         private string _last_atk_stat_color;
@@ -39,24 +36,8 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("Name");
             }
         }
-        public PlayerModel Fighter
-        {
-            get { return _fighter; }
-            set
-            {
-                _fighter = value;
-                OnPropertyChanged("Fighter");
-            }
-        }
-        public CombatModel FighterCombat
-        {
-            get { return _fighter_combat; }
-            set
-            {
-                _fighter_combat = value;
-                OnPropertyChanged("FighterCombat");
-            }
-        }
+        public PlayerModel Fighter { get; set; }
+        public CombatModel FighterCombat { get; set; }
 
         public string LastAtkStatColor
         {
@@ -78,16 +59,7 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("LastAtkStatContext");
             }
         }
-        public int HealthTaken
-        {
-            get { return _health_taken; }
-            set
-            {
-                if (value >= 100) _health_taken = 100;
-                else _health_taken = value;
-                OnPropertyChanged("HealthTaken");
-            }
-        }
+
 
         public FighterViewModel(): this (null) { }
         public FighterViewModel(PlayerModel selectedplayer = null)
@@ -145,17 +117,17 @@ namespace OSRSComSim.ViewModels
             }
             else
             {
-                HealthTaken += (int)Math.Round((double.Parse(attack_res) / Fighter.Skills.Hp_lvl) * 100);
+                StatusModel.takeDmage(Fighter.Status, int.Parse(attack_res));
                 th_show_stats = startStatusShow(attack_res.ToString(), "Red");
             }
         }
         public bool isDead()
         {
-            return HealthTaken == 100;
+            return Fighter.Status.HealthTaken == 100;
         }
         public void Reset()
         {
-            HealthTaken = 0;
+            StatusModel.reset_status(Fighter.Status);
             LastAtkStatColor = "Transparent";
             LastAtkStatContext = "";
         }

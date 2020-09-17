@@ -10,14 +10,22 @@ namespace OSRSComSim.ViewModels
     {
         private string _fighter_num;
         public object _viewcontent;
-
+        private PlayerModel _selected_player;
         private ControlPanelViewModel _controls_view;
         private MainWindowViewModel _mainwindowVM;
-        private PlayerModel _selected_player;
-
         private ObservableCollection<PlayerModel> _player_list;
 
         public object View { get; set; }
+        public PlayerModel SelectedPlayer
+        {
+            get { return _selected_player; }
+            set 
+            {
+                _selected_player = value;
+                OnPropertyChanged("SelectedPlayer");
+            }
+        }
+
         public ControlPanelViewModel ControlsView
         {
             get
@@ -30,7 +38,6 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("ControlsView");
             }
         }
-
         public ObservableCollection<PlayerModel> PlayerList
         {
             get
@@ -55,28 +62,13 @@ namespace OSRSComSim.ViewModels
                 OnPropertyChanged("ViewContent");
             }
         }
-        public PlayerModel SelectedPlayer
-        {
-            get
-            {
-                return _selected_player;
-            }
-            set
-            {
-                _selected_player = value;
-
-                ControlsView.SelectedPlayer = _selected_player;
-
-                OnPropertyChanged("SelectedPlayer");
-            }
-        }
 
         public LoadScreenViewModel() : this(null, null) { }
         public LoadScreenViewModel(MainWindowViewModel mainWindowVM = null, string fighter_num = null)
         {
             _mainwindowVM = mainWindowVM;
             _player_list = new ObservableCollection<PlayerModel>();
-            _selected_player = new PlayerModel();
+            SelectedPlayer = new PlayerModel();
             _fighter_num = fighter_num;
             ControlsView = new ControlPanelViewModel(this, SelectedPlayer, "View");
             Load_players();
@@ -118,6 +110,7 @@ namespace OSRSComSim.ViewModels
                 if (player.Name == fighter_num)
                 {
                     SelectedPlayer = player;
+                    ControlsView.SelectedPlayer = SelectedPlayer;
                 }
             }
         }

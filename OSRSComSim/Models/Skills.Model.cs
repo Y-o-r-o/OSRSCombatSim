@@ -133,7 +133,6 @@ namespace OSRSComSim.Models
             this.Ranged_lvl = ranged_lvl;
             this.Prayer_lvl = prayer_lvl;
         }
-        //Class needs redesign from here
         private void setTotalCombatLevel()
         {
             double t_base = (double)1 / 4 * (Def_lvl + Hp_lvl + (Prayer_lvl * (double)1 / 2));

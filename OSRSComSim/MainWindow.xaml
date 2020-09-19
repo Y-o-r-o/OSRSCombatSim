@@ -48,13 +48,13 @@
         <Viewbox Grid.Row="2" Grid.Column="2" VerticalAlignment="Top" Height="20" Margin="0,50,0,0">
             <Grid>
                 <Rectangle Fill="LightGreen" HorizontalAlignment="Center" Height="20" Width="100"/>
-                <Rectangle Fill="Red" HorizontalAlignment="Right" Height="20" Width="{Binding Battle.Fighter1.Fighter.Status.HealthTaken}"/>
+                <Rectangle Fill="Red" HorizontalAlignment="Right" Height="20" Width="{Binding Battle.Fighter1.Fighter.Skills.Status.HealthTaken}"/>
             </Grid>
         </Viewbox>
         <Viewbox Grid.Row="2" Grid.Column="4" VerticalAlignment="Top" Height="20" Margin="0,50,0,0">
             <Grid>
                 <Rectangle Fill="LightGreen" HorizontalAlignment="Center" Height="20" Width="100"/>
-                <Rectangle Fill="Red" HorizontalAlignment="Right" Height="20" Width="{Binding Battle.Fighter2.Fighter.Status.HealthTaken}"/>
+                <Rectangle Fill="Red" HorizontalAlignment="Right" Height="20" Width="{Binding Battle.Fighter2.Fighter.Skills.Status.HealthTaken}"/>
             </Grid>
         </Viewbox>
 

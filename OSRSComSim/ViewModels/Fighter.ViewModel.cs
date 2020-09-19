@@ -117,17 +117,17 @@ namespace OSRSComSim.ViewModels
             }
             else
             {
-                StatusModel.takeDmage(Fighter.Status, int.Parse(attack_res));
+                StatusModel.takeDmage(Fighter.Skills.Status, int.Parse(attack_res));
                 th_show_stats = startStatusShow(attack_res.ToString(), "Red");
             }
         }
         public bool isDead()
         {
-            return Fighter.Status.HealthTaken == 100;
+            return Fighter.Skills.Status.HealthTaken == 100;
         }
         public void Reset()
         {
-            StatusModel.reset_status(Fighter.Status);
+            StatusModel.reset_status(Fighter.Skills.Status);
             LastAtkStatColor = "Transparent";
             LastAtkStatContext = "";
         }

@@ -74,10 +74,10 @@ namespace OSRSComSim.ViewModels
         private void selectItem(string slot_name)
         {
             string items_to_select = "Head, Neck, Cape, Ammo, Weapon, Body, Shield, Legs, Feet, Hands, Ring, Food, Runes, Potions";
-            deselectItem(slot_name);
+            unmountItem(slot_name);
             ItemSelect = new SelectItemViewModel(PlayerEquiped, slot_name, items_to_select);
         }
-        private void deselectItem(string slot_name)
+        private void unmountItem(string slot_name)
         {
             EquipedModel.demountEqp(PlayerEquiped, slot_name);
             setItemAddPng();
@@ -106,13 +106,13 @@ namespace OSRSComSim.ViewModels
             object already_mounted_equipment = EquipedModel.getEqp(PlayerEquiped, equipment_type);
             if (!(already_mounted_equipment as ItemModel).Name.Equals("") && !(already_mounted_equipment as ItemModel).Name.Equals("Unarmed"))
                 PlayerEquiped.InventoryItem[slot_idx] = already_mounted_equipment;
-            else deselectItem(slot_idx.ToString());
+            else unmountItem(slot_idx.ToString());
             EquipedModel.mountEqp(PlayerEquiped, item);
         }
         private void eatFood(FoodModel item, int slot_idx)
         {
-            StatusModel.heal(Player.Status, item.HPHeals);
-            deselectItem(slot_idx.ToString());
+            StatusModel.heal(Player.Skills.Status, item.HPHeals);
+            unmountItem(slot_idx.ToString());
         }
     }
 }

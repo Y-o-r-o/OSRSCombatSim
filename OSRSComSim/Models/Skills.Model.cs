@@ -13,6 +13,7 @@ namespace OSRSComSim.Models
         private int _prayerlvl;
         private int _total_combat_lvl;
 
+        public StatusModel Status { get; set; }
         public int Hp_lvl
         {
             get
@@ -22,6 +23,7 @@ namespace OSRSComSim.Models
                 if (value >= 10 && value < 100)
                 {
                     _hplvl = value;
+                    Status = new StatusModel(_hplvl);
                     setTotalCombatLevel();
                     OnPropertyChanged("Hp_lvl");
                 }
@@ -125,6 +127,7 @@ namespace OSRSComSim.Models
         public SkillsModel() : this(10, 1, 1, 1, 1 , 1, 1) { }
         public SkillsModel(int hp_lvl = 10, int def_lvl = 1, int str_lvl = 1, int atk_lvl = 1,int magic_lvl = 1, int ranged_lvl = 1, int prayer_lvl = 1)
         {
+            Status = new StatusModel(hp_lvl);
             this.Def_lvl = def_lvl;
             this.Hp_lvl = hp_lvl;
             this.Str_lvl = str_lvl;

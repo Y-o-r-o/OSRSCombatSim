@@ -16,7 +16,6 @@
             }
         }
         public CombatModel Combat { get; set; }
-        public StatusModel Status { get; set; }
         public SkillsModel Skills { get; set; }
         public EquipedModel Equiped { get; set; }
 
@@ -33,7 +32,6 @@
             if (equiped != null)
                 Equiped = Equiped;
             else Equiped = new EquipedModel();
-            Status = new StatusModel(Skills.Hp_lvl);
         }
     }
 }

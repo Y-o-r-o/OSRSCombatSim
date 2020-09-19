@@ -11,7 +11,14 @@ namespace OSRSComSim
     {
         public static int getFirstNumberFromString(string str)
         {
-            return Int32.Parse(Regex.Match(str, @"\d+").Value);
+            int multiply = 1;
+            if (str.Contains("-")) multiply = -1; //I know this is wrong way... 
+            return multiply * Int32.Parse(Regex.Match(str, @"\d+").Value);
+        }
+
+        public static string getOnlyLetters(string str)
+        {
+            return Regex.Replace(str, "[^a-zA-Z]", "");
         }
 
         public static bool HasNoSpecialChars(string yourString)

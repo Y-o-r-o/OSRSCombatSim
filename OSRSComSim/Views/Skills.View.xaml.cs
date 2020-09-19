@@ -14,14 +14,11 @@ namespace OSRSComSim.Views
             InitializeComponent();
         }
 
-        private void MinusBtn_Click(object sender, RoutedEventArgs e)
-        {
-            view_model.editPlayerSkills(((Button)sender).Tag.ToString(), -1);
-        }
 
-        private void PlusBtn_Click(object sender, RoutedEventArgs e)
+        private void EditBtn_Click(object sender, RoutedEventArgs e)
         {
-            view_model.editPlayerSkills(((Button)sender).Tag.ToString(), 1);
+            string tag = ((Button)sender).Tag.ToString();
+            view_model.editPlayerSkills(tag, String_functions.getFirstNumberFromString(tag));
         }
 
         private void BtnReset_Click(object sender, RoutedEventArgs e)

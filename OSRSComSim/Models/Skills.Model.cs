@@ -20,13 +20,15 @@ namespace OSRSComSim.Models
             { return _hplvl; }
             set
             {
-                if (value >= 10 && value < 100)
+                if (value >= 99) _hplvl = 99;
+                else if (value < 10) _hplvl = 10;
+                else
                 {
                     _hplvl = value;
-                    Status = new StatusModel(_hplvl);
-                    setTotalCombatLevel();
-                    OnPropertyChanged("Hp_lvl");
                 }
+                Status = new StatusModel(_hplvl);
+                setTotalCombatLevel();
+                OnPropertyChanged("Hp_lvl");
             }
         }
         public int Def_lvl
@@ -35,12 +37,14 @@ namespace OSRSComSim.Models
             { return _deflvl; }
             set
             {
-                if (value >= 1 && value < 100)
+                if (value >= 99) _deflvl = 99;
+                else if (value < 1) _deflvl = 1;
+                else
                 {
                     _deflvl = value;
-                    setTotalCombatLevel();
-                    OnPropertyChanged("Def_lvl");
                 }
+                setTotalCombatLevel();
+                OnPropertyChanged("Def_lvl");
             }
         }
         public int Str_lvl
@@ -49,12 +53,14 @@ namespace OSRSComSim.Models
             { return _strlvl; }
             set
             {
-                if (value >= 1 && value < 100)
+                if (value >= 99) _strlvl = 99;
+                else if (value < 1) _strlvl = 1;
+                else
                 {
                     _strlvl = value;
-                    setTotalCombatLevel();
-                    OnPropertyChanged("Str_lvl");
                 }
+                setTotalCombatLevel();
+                OnPropertyChanged("Str_lvl");
             }
         }
         public int Atk_lvl
@@ -63,12 +69,14 @@ namespace OSRSComSim.Models
             { return _atklvl; }
             set
             {
-                if (value >= 1 && value < 100)
+                if (value >= 99) _atklvl = 99;
+                else if (value < 1) _atklvl = 1;
+                else
                 {
                     _atklvl = value;
-                    setTotalCombatLevel();
-                    OnPropertyChanged("Atk_lvl");
                 }
+                setTotalCombatLevel();
+                OnPropertyChanged("Atk_lvl");
             }
         }
         public int Magic_lvl
@@ -77,12 +85,14 @@ namespace OSRSComSim.Models
             { return _magiclvl; }
             set
             {
-                if (value >= 1 && value < 100)
+                if (value >= 99) _magiclvl = 99;
+                else if (value < 1) _magiclvl = 1;
+                else
                 {
                     _magiclvl = value;
-                    setTotalCombatLevel();
-                    OnPropertyChanged("Magic_lvl");
                 }
+                setTotalCombatLevel();
+                OnPropertyChanged("Magic_lvl");
             }
         }
         public int Ranged_lvl
@@ -91,12 +101,14 @@ namespace OSRSComSim.Models
             { return _rangedlvl; }
             set
             {
-                if (value >= 1 && value < 100)
+                if (value >= 99) _rangedlvl = 99;
+                else if (value < 1) _rangedlvl = 1;
+                else
                 {
                     _rangedlvl = value;
-                    setTotalCombatLevel();
-                    OnPropertyChanged("Ranged_lvl");
                 }
+                setTotalCombatLevel();
+                OnPropertyChanged("Ranged_lvl");
             }
         }
         public int Prayer_lvl
@@ -105,12 +117,14 @@ namespace OSRSComSim.Models
             { return _prayerlvl; }
             set
             {
-                if (value >= 1 && value < 100)
+                if (value >= 99) _prayerlvl = 99;
+                else if (value < 1) _prayerlvl = 1;
+                else
                 {
                     _prayerlvl = value;
-                    setTotalCombatLevel();
-                    OnPropertyChanged("Prayer_lvl");
                 }
+                setTotalCombatLevel();
+                OnPropertyChanged("Prayer_lvl");
             }
         }
         public int TotalCombat_lvl 

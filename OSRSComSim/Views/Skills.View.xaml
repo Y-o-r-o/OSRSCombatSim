@@ -15,7 +15,7 @@
     <UserControl.Resources>
         <Style TargetType="Button">
             <Setter Property="Visibility" Value="{Binding BtnVisibility}"/>
-            <Setter Property="Margin" Value="100,0,100,0"/>
+            <Setter Property="Width" Value="35"/>
         </Style>
         <Style TargetType="TextBlock">
             <Setter Property="Foreground" Value="Yellow"/>
@@ -46,78 +46,128 @@
             <ColumnDefinition Width="2*"/>
         </Grid.ColumnDefinitions>
 
-        <Button Grid.Column="0" Grid.Row="1" Tag="HP" Content="lowericon" Click="MinusBtn_Click"/>
-        <Viewbox Grid.Column="1" Grid.Row="1">
+        
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Column="0" Grid.Row="1">
+            <Button Tag="HP-99" Content="Min" Click="EditBtn_Click"/>
+            <Button Tag="HP-10" Content="-10" Click="EditBtn_Click"/>
+            <Button Tag="HP-1" Content="-1" Click="EditBtn_Click"/>
+        </StackPanel>
+            <Viewbox Grid.Column="1" Grid.Row="1">
             <TextBlock Text=" HP       level:"/>
         </Viewbox>
         <Viewbox Grid.Column="2" Grid.Row="1">
             <TextBlock TextAlignment="Center" Text="{Binding PlayerSkills.Hp_lvl}"/>
         </Viewbox>
-        <Button Grid.Column="3" Grid.Row="1" Tag="HP" Content="uppericon" Click="PlusBtn_Click"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Column="4" Grid.Row="1">
+            <Button Tag="HP1" Content="1" Click="EditBtn_Click"/>
+            <Button Tag="HP10" Content="10" Click="EditBtn_Click"/>
+            <Button Tag="HP99" Content="Max" Click="EditBtn_Click"/>
+        </StackPanel>
 
-        
-        <Button Grid.Column="0" Grid.Row="2" Tag="Def" Content="lowericon" Click="MinusBtn_Click"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Column="0" Grid.Row="2">
+            <Button Tag="Def-99" Content="Min" Click="EditBtn_Click"/>
+            <Button Tag="Def-10" Content="-10" Click="EditBtn_Click"/>
+            <Button Tag="Def-1" Content="-1" Click="EditBtn_Click"/>
+        </StackPanel>
         <Viewbox Grid.Column="1" Grid.Row="2">
             <TextBlock Text=" Deffence level:"/>
         </Viewbox>
         <Viewbox Grid.Column="2" Grid.Row="2">
             <TextBlock TextAlignment="Center" Text="{Binding PlayerSkills.Def_lvl}"/>
         </Viewbox>
-        <Button Grid.Column="3" Grid.Row="2" Tag="Def" Content="uppericon" Click="PlusBtn_Click"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Column="4" Grid.Row="2">
+            <Button Tag="Def1" Content="1" Click="EditBtn_Click"/>
+            <Button Tag="Def10" Content="10" Click="EditBtn_Click"/>
+            <Button Tag="Def99" Content="Max" Click="EditBtn_Click"/>
+        </StackPanel>
 
-        
-        <Button Grid.Column="0" Grid.Row="3" Tag="Str" Content="lowericon" Click="MinusBtn_Click"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Column="0" Grid.Row="3">
+            <Button Tag="Str-99" Content="Min" Click="EditBtn_Click"/>
+            <Button Tag="Str-10" Content="-10" Click="EditBtn_Click"/>
+            <Button Tag="Str-1" Content="-1" Click="EditBtn_Click"/>
+        </StackPanel>
         <Viewbox Grid.Column="1" Grid.Row="3">
             <TextBlock Text=" Strength level:"/>
         </Viewbox>
         <Viewbox Grid.Column="2" Grid.Row="3">
             <TextBlock TextAlignment="Center" Text="{Binding PlayerSkills.Str_lvl}"/>
         </Viewbox>
-        <Button Grid.Column="3" Grid.Row="3" Tag="Str" Content="uppericon" Click="PlusBtn_Click"/>
-        
-        
-        <Button Grid.Column="0" Grid.Row="4" Tag="Atk" Content="lowericon" Click="MinusBtn_Click"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Column="4" Grid.Row="3">
+            <Button Tag="Str1" Content="1" Click="EditBtn_Click"/>
+            <Button Tag="Str10" Content="10" Click="EditBtn_Click"/>
+            <Button Tag="Str99" Content="Max" Click="EditBtn_Click"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Column="0" Grid.Row="4">
+            <Button Tag="Atk-99" Content="Min" Click="EditBtn_Click"/>
+            <Button Tag="Atk-10" Content="-10" Click="EditBtn_Click"/>
+            <Button Tag="Atk-1" Content="-1" Click="EditBtn_Click"/>
+        </StackPanel>
         <Viewbox Grid.Column="1" Grid.Row="4">
             <TextBlock Text=" Attack   level:"/>
         </Viewbox>
         <Viewbox Grid.Column="2" Grid.Row="4">
             <TextBlock HorizontalAlignment="Center" Text="{Binding PlayerSkills.Atk_lvl}"/>
         </Viewbox>
-        <Button Grid.Column="3" Grid.Row="4" Tag="Atk" Content="uppericon" Click="PlusBtn_Click"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Column="4" Grid.Row="4">
+            <Button Tag="Atk1" Content="1" Click="EditBtn_Click"/>
+            <Button Tag="Atk10" Content="10" Click="EditBtn_Click"/>
+            <Button Tag="Atk99" Content="Max" Click="EditBtn_Click"/>
+        </StackPanel>
 
-
-        <Button Grid.Column="0" Grid.Row="5" Tag="Ranged" Content="lowericon" Click="MinusBtn_Click"/>
-        <Viewbox Grid.Column="1" Grid.Row="5">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Column="0" Grid.Row="5">
+            <Button Tag="Ranged-99" Content="Min" Click="EditBtn_Click"/>
+            <Button Tag="Ranged-10" Content="-10" Click="EditBtn_Click"/>
+            <Button Tag="Ranged-1" Content="-1" Click="EditBtn_Click"/>
+        </StackPanel>        <Viewbox Grid.Column="1" Grid.Row="5">
             <TextBlock Text=" Ranged   level:"/>
         </Viewbox>
         <Viewbox Grid.Column="2" Grid.Row="5">
             <TextBlock HorizontalAlignment="Center" Text="{Binding PlayerSkills.Ranged_lvl}"/>
         </Viewbox>
-        <Button Grid.Column="3" Grid.Row="5" Tag="Ranged" Content="uppericon" Click="PlusBtn_Click"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Column="4" Grid.Row="5">
+            <Button Tag="Ranged1" Content="1" Click="EditBtn_Click"/>
+            <Button Tag="Ranged10" Content="10" Click="EditBtn_Click"/>
+            <Button Tag="Ranged99" Content="Max" Click="EditBtn_Click"/>
+        </StackPanel>
 
-
-        <Button Grid.Column="0" Grid.Row="6" Tag="Magic" Content="lowericon" Click="MinusBtn_Click"/>
-        <Viewbox Grid.Column="1" Grid.Row="6">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Column="0" Grid.Row="6">
+            <Button Tag="Magic-99" Content="Min" Click="EditBtn_Click"/>
+            <Button Tag="Magic-10" Content="-10" Click="EditBtn_Click"/>
+            <Button Tag="Magic-1" Content="-1" Click="EditBtn_Click"/>
+        </StackPanel>        <Viewbox Grid.Column="1" Grid.Row="6">
             <TextBlock Text=" Magic    level:"/>
         </Viewbox>
         <Viewbox Grid.Column="2" Grid.Row="6">
             <TextBlock HorizontalAlignment="Center" Text="{Binding PlayerSkills.Magic_lvl}"/>
         </Viewbox>
-        <Button Grid.Column="3" Grid.Row="6" Tag="Magic" Content="uppericon" Click="PlusBtn_Click"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Column="4" Grid.Row="6">
+            <Button Tag="Magic1" Content="1" Click="EditBtn_Click"/>
+            <Button Tag="Magic10" Content="10" Click="EditBtn_Click"/>
+            <Button Tag="Magic99" Content="Max" Click="EditBtn_Click"/>
+        </StackPanel>
 
-
-        <Button Grid.Column="0" Grid.Row="7" Tag="Prayer" Content="lowericon" Click="MinusBtn_Click"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Column="0" Grid.Row="7">
+            <Button Tag="Prayer-99" Content="Min" Click="EditBtn_Click"/>
+            <Button Tag="Prayer-10" Content="-10" Click="EditBtn_Click"/>
+            <Button Tag="Prayer-1" Content="-1" Click="EditBtn_Click"/>
+        </StackPanel>        
         <Viewbox Grid.Column="1" Grid.Row="7">
             <TextBlock Text=" Prayer   level:"/>
         </Viewbox>
         <Viewbox Grid.Column="2" Grid.Row="7">
             <TextBlock HorizontalAlignment="Center" Text="{Binding PlayerSkills.Prayer_lvl}"/>
         </Viewbox>
-        <Button Grid.Column="3" Grid.Row="7" Tag="Prayer" Content="uppericon" Click="PlusBtn_Click"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Column="4" Grid.Row="7">
+            <Button Tag="Prayer1" Content="1" Click="EditBtn_Click"/>
+            <Button Tag="Prayer10" Content="10" Click="EditBtn_Click"/>
+            <Button Tag="Prayer99" Content="Max" Click="EditBtn_Click"/>
+        </StackPanel>
 
-        
-        <Button Grid.Column="1" Grid.Row="9" x:Name="BtnRandom" Content="Random" Click="BtnRandom_Click" Margin="0,-25,0,25"/>
-        <Button Grid.Column="2" Grid.Row="9" x:Name="BtnReset"  Content="Reset" Click="BtnReset_Click" Margin="0,-25,0,25"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.ColumnSpan="4" Grid.Row="9">
+            <Button x:Name="BtnRandom" Width="100" Content="Random" Click="BtnRandom_Click" Margin="0,-25,0,25"/>
+            <Button x:Name="BtnReset" Width="100" Content="Reset" Click="BtnReset_Click" Margin="0,-25,0,25"/>
+        </StackPanel>
 
     </Grid>
 </UserControl>

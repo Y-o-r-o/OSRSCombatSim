@@ -28,6 +28,7 @@ namespace OSRSComSim.ViewModels
         public SkillsViewModel(SkillsModel skills, string skills_mode)
         {
             PlayerSkills = skills;
+            
             if (skills_mode == "Edit" || skills_mode == "Create")
                 BtnVisibility = "Visible"; 
             else BtnVisibility = "Hidden";
@@ -52,6 +53,7 @@ namespace OSRSComSim.ViewModels
         }
         public void editPlayerSkills(string name, int value)
         {
+            name = String_functions.getOnlyLetters(name);
             switch (name)
             {
                 case "HP":

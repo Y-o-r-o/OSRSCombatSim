@@ -8,6 +8,7 @@ namespace OSRSComSim.ViewModels
     public class CombatOptionsViewModel : ObservableObject
     {
         private CombatModel _combat;
+
         private string[] _options_content = null;
         private string[] _options_style_content = null;
         private string[] _options_visibility = null;
@@ -16,6 +17,7 @@ namespace OSRSComSim.ViewModels
         private int[] _options_heigth_by_rows = null;
 
         public object View { get; set; }
+        public PlayerModel Fighter { get; set; }
         public CombatModel FighterCombat
         {
             get { return _combat; }
@@ -103,6 +105,7 @@ namespace OSRSComSim.ViewModels
         public CombatOptionsViewModel() : this(null) { }
         public CombatOptionsViewModel(PlayerModel player)
         {
+            Fighter = player;
             FighterCombat = player.Combat;
             WeaponTypeModel.setOptions(FighterCombat,player.Equiped.Weapon.WeaponType);
             setupOptions();

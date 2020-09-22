@@ -34,19 +34,12 @@ Head,Adamant heraldic helm (Zamorak),Members,2.721,0,0,0,-6,-2,19,21,16,-1,19,0,
 Head,Adamant med helm,Free-to-play,2.267,0,0,0,-3,-1,14,15,13,-1,14,0,0,0,0,0
 Head,Afro,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Agility hood,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Ahrim's hood (broken),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Ahrim's hood 100,Members,0.907,0,0,0,6,-2,15,13,16,6,0,0,0,0,0,0
-Head,Ahrim's hood 25,Members,0.907,0,0,0,6,-2,15,13,16,6,0,0,0,0,0,0
-Head,Ahrim's hood 50,Members,0.907,0,0,0,6,-2,15,13,16,6,0,0,0,0,0,0
-Head,Ahrim's hood 75,Members,0.907,0,0,0,6,-2,15,13,16,6,0,0,0,0,0,0
-Head,Ahrim's hood Undamaged,Members,0.907,0,0,0,6,-2,15,13,16,6,0,0,0,0,0,0
+Head,Ahrim's hood,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Air tiara,Free-to-play,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Ancestral hat,Members,0.453,0,0,0,8,-2,12,11,13,5,0,0,0,2,0,0
 Head,Ancient coif,Members,0.9,0,0,0,-1,7,4,7,10,4,8,0,0,0,1,0
 Head,Ancient full helm,Free-to-play,2.721,0,0,0,-6,-2,30,32,27,-1,30,0,0,0,1,0
-Head,Ancient halo Broken,Members,0.3,0,0,0,0,0,11,12,10,11,-1,0,0,0,3,0
-Head,Ancient halo Locked,Members,0.3,0,0,0,0,0,11,12,10,11,-1,0,0,0,3,0
-Head,Ancient halo Normal,Members,0.3,0,0,0,0,0,11,12,10,11,-1,0,0,0,3,0
+Head,Ancient halo,Members,0.3,0,0,0,0,0,11,12,10,11,-1,0,0,0,3,0
 Head,Ancient mitre,Members,0.3,0,0,0,4,0,0,0,0,4,0,0,0,0,5,0
 Head,Angler hat,Members,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Ankou mask,Members,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -57,9 +50,7 @@ Head,Ardougne knight helm,Members,2.721,0,0,0,-6,-2,6,7,5,-1,6,0,0,0,0,0
 Head,Ardougne max hood,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Armadyl coif,Members,0.9,0,0,0,-1,7,4,7,10,4,8,0,0,0,1,0
 Head,Armadyl full helm,Free-to-play,2.721,0,0,0,-6,-2,30,32,27,-1,30,0,0,0,1,0
-Head,Armadyl halo Broken,Members,0.3,0,0,0,0,0,11,12,10,11,-1,0,0,0,3,0
-Head,Armadyl halo Locked,Members,0.3,0,0,0,0,0,11,12,10,11,-1,0,0,0,3,0
-Head,Armadyl halo Normal,Members,0.3,0,0,0,0,0,11,12,10,11,-1,0,0,0,3,0
+Head,Armadyl halo,Members,0.3,0,0,0,0,0,11,12,10,11,-1,0,0,0,3,0
 Head,Armadyl helmet,Members,0.5,-5,-5,-5,-5,10,6,8,10,10,8,0,0,0,1,0
 Head,Armadyl mitre,Members,0.3,0,0,0,4,0,0,0,0,4,0,0,0,0,5,0
 Head,Assembler max hood,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -71,15 +62,13 @@ Head,Bandana eyepatch (red),Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Bandana eyepatch (white),Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Bandos coif,Members,0.9,0,0,0,-1,7,4,7,10,4,8,0,0,0,1,0
 Head,Bandos full helm,Free-to-play,2.721,0,0,0,-6,-2,30,32,27,-1,30,0,0,0,1,0
-Head,Bandos halo Broken,Members,0.3,0,0,0,0,0,11,12,10,11,-1,0,0,0,3,0
-Head,Bandos halo Locked,Members,0.3,0,0,0,0,0,11,12,10,11,-1,0,0,0,3,0
-Head,Bandos halo Normal,Members,0.3,0,0,0,0,0,11,12,10,11,-1,0,0,0,3,0
+Head,Bandos halo,Members,0.3,0,0,0,0,0,11,12,10,11,-1,0,0,0,3,0
 Head,Bandos mitre,Members,0.3,0,0,0,4,0,0,0,0,4,0,0,0,0,5,0
 Head,Banshee mask,Free-to-play,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Beanie,Members,0.002,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Bearhead,Members,0.453,0,0,0,-3,-3,12,14,10,7,9,0,0,0,0,0
-Head,Bedsheet Ectoplasm,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Bedsheet Regular,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Head,Bedsheet ectoplasm,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Head,Bedsheet regular,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Beret mask,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Berserker helm,Members,2.721,0,0,0,-5,-5,31,29,33,0,30,3,0,0,0,0
 Head,Big pirate hat,Members,0.001,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -99,28 +88,8 @@ Head,Black helm (h3),Free-to-play,2.721,0,0,0,-6,-2,12,13,10,-1,12,0,0,0,0,0
 Head,Black helm (h4),Free-to-play,2.721,0,0,0,-6,-2,12,13,10,-1,12,0,0,0,0,0
 Head,Black helm (h5),Free-to-play,2.721,0,0,0,-6,-2,12,13,10,-1,12,0,0,0,0,0
 Head,Black leprechaun hat,Members,2.267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Black mask (i) (1),Members,10,0,0,0,0,0,9,10,8,-1,9,0,0,0,0,0
-Head,Black mask (i) (10),Members,10,0,0,0,0,0,9,10,8,-1,9,0,0,0,0,0
-Head,Black mask (i) (2),Members,10,0,0,0,0,0,9,10,8,-1,9,0,0,0,0,0
-Head,Black mask (i) (3),Members,10,0,0,0,0,0,9,10,8,-1,9,0,0,0,0,0
-Head,Black mask (i) (4),Members,10,0,0,0,0,0,9,10,8,-1,9,0,0,0,0,0
-Head,Black mask (i) (5),Members,10,0,0,0,0,0,9,10,8,-1,9,0,0,0,0,0
-Head,Black mask (i) (6),Members,10,0,0,0,0,0,9,10,8,-1,9,0,0,0,0,0
-Head,Black mask (i) (7),Members,10,0,0,0,0,0,9,10,8,-1,9,0,0,0,0,0
-Head,Black mask (i) (8),Members,10,0,0,0,0,0,9,10,8,-1,9,0,0,0,0,0
-Head,Black mask (i) (9),Members,10,0,0,0,0,0,9,10,8,-1,9,0,0,0,0,0
-Head,Black mask (i) Uncharged,Members,10,0,0,0,0,0,9,10,8,-1,9,0,0,0,0,0
-Head,Black mask (1),Members,10,0,0,0,-3,-1,9,10,8,-1,9,0,0,0,0,0
-Head,Black mask (10),Members,10,0,0,0,-3,-1,9,10,8,-1,9,0,0,0,0,0
-Head,Black mask (2),Members,10,0,0,0,-3,-1,9,10,8,-1,9,0,0,0,0,0
-Head,Black mask (3),Members,10,0,0,0,-3,-1,9,10,8,-1,9,0,0,0,0,0
-Head,Black mask (4),Members,10,0,0,0,-3,-1,9,10,8,-1,9,0,0,0,0,0
-Head,Black mask (5),Members,10,0,0,0,-3,-1,9,10,8,-1,9,0,0,0,0,0
-Head,Black mask (6),Members,10,0,0,0,-3,-1,9,10,8,-1,9,0,0,0,0,0
-Head,Black mask (7),Members,10,0,0,0,-3,-1,9,10,8,-1,9,0,0,0,0,0
-Head,Black mask (8),Members,10,0,0,0,-3,-1,9,10,8,-1,9,0,0,0,0,0
-Head,Black mask (9),Members,10,0,0,0,-3,-1,9,10,8,-1,9,0,0,0,0,0
-Head,Black mask Uncharged,Members,10,0,0,0,-3,-1,9,10,8,-1,9,0,0,0,0,0
+Head,Black mask (i),Members,10,0,0,0,0,0,9,10,8,-1,9,0,0,0,0,0
+Head,Black mask,Members,10,0,0,0,-3,-1,9,10,8,-1,9,0,0,0,0,0
 Head,Black med helm,Free-to-play,1.814,0,0,0,-3,-1,9,10,8,-1,9,0,0,0,0,0
 Head,Black partyhat,Free-to-play,0.056,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Black santa hat,Free-to-play,0.113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -155,9 +124,7 @@ Head,Bounty hunter hat (tier 4),Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Bounty hunter hat (tier 5),Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Bounty hunter hat (tier 6),Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Bowl wig,Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Brassica halo Broken,Members,0.3,0,0,0,0,0,11,12,10,11,-1,0,0,0,3,0
-Head,Brassica halo Locked,Members,0.3,0,0,0,0,0,11,12,10,11,-1,0,0,0,3,0
-Head,Brassica halo Normal,Members,0.3,0,0,0,0,0,11,12,10,11,-1,0,0,0,3,0
+Head,Brassica halo,Members,0.3,0,0,0,0,0,11,12,10,11,-1,0,0,0,3,0
 Head,Broken bark snelm,Members,2,0,0,0,-3,-1,7,8,6,-1,7,0,0,0,0,0
 Head,Bronze dragon mask,Members,2.267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Bronze full helm,Free-to-play,2.721,0,0,0,-6,-2,4,5,3,-1,4,0,0,0,0,0
@@ -215,42 +182,32 @@ Head,Crab helmet,Members,0.907,0,0,0,-3,-1,5,4,3,-1,4,0,0,0,0,0
 Head,Crafting hood,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Cream hat,Members,0.453,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0
 Head,Crier hat,Members,0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Crystal crown Amlodd,Members,0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Crystal crown Cadarn,Members,0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Crystal crown Crwys,Members,0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Crystal crown Hefin,Members,0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Crystal crown Iorwerth,Members,0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Crystal crown Ithell,Members,0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Crystal crown Meilyr,Members,0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Crystal crown Trahaearn,Members,0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Head,Crystal crown (Amlodd),Members,0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Head,Crystal crown (Cadarn),Members,0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Head,Crystal crown (Crwys),Members,0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Head,Crystal crown (Hefin),Members,0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Head,Crystal crown (Iorwerth),Members,0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Head,Crystal crown (Ithell),Members,0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Head,Crystal crown (Meilyr),Members,0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Head,Crystal crown (Trahaearn),Members,0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Crystal helm (attuned),Members,2.721,6,6,2,6,6,48,48,48,48,48,0,0,0,2,0
 Head,Crystal helm (basic),Members,2.721,2,2,1,2,2,28,28,28,28,28,0,0,0,1,0
 Head,Crystal helm (perfected),Members,2.721,10,10,3,10,10,68,68,68,68,68,0,0,0,3,0
-Head,Crystal helm Active,Members,2.721,0,0,0,-10,8,12,8,14,26,18,0,0,0,2,0
-Head,Crystal helm Inactive,Members,2.721,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Head,Crystal helm,Members,2.721,0,0,0,-10,8,12,8,14,26,18,0,0,0,2,0
+Head,Crystal helm (inactive),Members,2.721,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Cyclops head,Members,0.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Dagon'hai hat,Members,0.453,0,0,0,5,0,0,0,0,5,0,0,0,0,2,0
 Head,Dark cavalier,Members,0.001,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Dark infinity hat,Members,0.453,0,0,0,6,0,0,0,0,6,0,0,0,0,0,0
 Head,Death tiara,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Decorative armour (magic hat) Broken,Members,8.164,0,0,0,0,0,4,4,4,4,4,0,0,0,0,0
-Head,Decorative armour (magic hat) Locked,Members,8.164,0,0,0,0,0,4,4,4,4,4,0,0,0,0,0
-Head,Decorative armour (magic hat) Normal,Members,8.164,0,0,0,0,0,4,4,4,4,4,0,0,0,0,0
-Head,Decorative helm (gold) Broken,Members,1.36,0,0,0,-3,-1,14,15,13,-1,14,0,0,0,0,0
-Head,Decorative helm (gold) Locked,Free-to-play,1.36,0,0,0,-3,-1,14,15,13,-1,14,0,0,0,0,0
-Head,Decorative helm (gold) Normal,Free-to-play,1.36,0,0,0,-3,-1,14,15,13,-1,14,0,0,0,0,0
+Head,Decorative armour (magic hat),Members,8.164,0,0,0,0,0,4,4,4,4,4,0,0,0,0,0
+Head,Decorative helm (gold),Free-to-play,1.36,0,0,0,-3,-1,14,15,13,-1,14,0,0,0,0,0
 Head,Decorative helm (red),Free-to-play,1.36,0,0,0,-3,-1,7,8,6,-1,7,0,0,0,0,0
 Head,Decorative helm (white),Free-to-play,1.36,0,0,0,-3,-1,10,11,9,-1,10,0,0,0,0,0
 Head,Deerstalker,Members,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Defence hood,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Desert disguise,Members,0.04,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Dharok's helm (broken),Members,1.814,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Dharok's helm 100,Members,1.814,0,0,0,-3,-1,45,48,44,-1,51,0,0,0,0,0
-Head,Dharok's helm 25,Members,1.814,0,0,0,-3,-1,45,48,44,-1,51,0,0,0,0,0
-Head,Dharok's helm 50,Members,1.814,0,0,0,-3,-1,45,48,44,-1,51,0,0,0,0,0
-Head,Dharok's helm 75,Members,1.814,0,0,0,-3,-1,45,48,44,-1,51,0,0,0,0,0
-Head,Dharok's helm Undamaged,Members,1.814,0,0,0,-3,-1,45,48,44,-1,51,0,0,0,0,0
-Head,Diving helmet,Free-to-play,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Head,Dharok's helm,Members,1.814,0,0,0,-3,-1,45,48,44,-1,51,0,0,0,0,0
 Head,Doctor's hat,Members,0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Double eye patch,Members,0.006,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Dragon full helm,Members,2,0,0,0,-6,-2,45,48,41,-1,46,0,0,0,0,0
@@ -269,15 +226,13 @@ Head,Evil chicken head,Members,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Facemask,Members,0.113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Fake beak,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Fancy tiara,Members,0.05,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Farmer's strawhat Female,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Farmer's strawhat Male,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Head,Farmer's strawhat (female),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Head,Farmer's strawhat,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Farming hood,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Farseer helm,Members,2.721,-5,-5,-5,6,-5,8,10,12,6,0,0,0,0,0,0
 Head,Fedora,Members,0.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Fez,Members,0.005,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Fighter hat Broken,Members,2,5,5,5,-7,-7,27,29,26,-3,28,0,0,0,0,0
-Head,Fighter hat Locked,Members,2,5,5,5,-7,-7,27,29,26,-3,28,0,0,0,0,0
-Head,Fighter hat Normal,Members,2,5,5,5,-7,-7,27,29,26,-3,28,0,0,0,0,0
+Head,Fighter hat,Members,2,5,5,5,-7,-7,27,29,26,-3,28,0,0,0,0,0
 Head,Fire max hood,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Fire tiara,Free-to-play,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Firemaking hood,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -302,15 +257,15 @@ Head,Gold headband,Members,0.04,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Gold helmet,Members,31.751,0,0,0,0,0,0,10,20,0,10,0,0,0,0,0
 Head,Golden chef's hat,Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Graahk headdress,Members,0.226,0,0,0,0,-1,4,5,3,0,4,0,0,0,0,0
-Head,Graceful hood Agility_Arena,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Graceful hood Arceuus,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Graceful hood Hallowed_Sepulchre,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Graceful hood Hosidius,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Graceful hood Kourend,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Graceful hood Lovakengj,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Graceful hood Piscarilius,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Graceful hood Regular,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Graceful hood Shayzien,Members,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Head,Graceful hood (Agility_Arena),Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Head,Graceful hood (Arceuus),Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Head,Graceful hood (Hallowed_Sepulchre),Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Head,Graceful hood (Hosidius),Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Head,Graceful hood (Kourend),Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Head,Graceful hood (Lovakengj),Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Head,Graceful hood (Piscarilius),Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Head,Graceful hood (Regular),Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Head,Graceful hood (Shayzien),Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Granite helm,Members,4.535,0,0,0,-9,-7,31,33,29,-1,39,0,0,0,0,0
 Head,Gravedigger mask,Free-to-play,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Greater demon mask,Members,0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -326,17 +281,10 @@ Head,Green tricorn hat,Members,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Grey hat,Members,0.453,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0
 Head,Grey tricorn hat,Members,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Grim reaper hood,Free-to-play,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Guthan's helm (broken),Members,2.721,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Guthan's helm 100,Members,2.721,0,0,0,-6,-2,55,58,54,-1,62,0,0,0,0,0
-Head,Guthan's helm 25,Members,2.721,0,0,0,-6,-2,55,58,54,-1,62,0,0,0,0,0
-Head,Guthan's helm 50,Members,2.721,0,0,0,-6,-2,55,58,54,-1,62,0,0,0,0,0
-Head,Guthan's helm 75,Members,2.721,0,0,0,-6,-2,55,58,54,-1,62,0,0,0,0,0
-Head,Guthan's helm Undamaged,Members,2.721,0,0,0,-6,-2,55,58,54,-1,62,0,0,0,0,0
+Head,Guthan's helm,Members,2.721,0,0,0,-6,-2,55,58,54,-1,62,0,0,0,0,0
 Head,Guthix coif,Members,0.9,0,0,0,-1,7,4,7,10,4,8,0,0,0,1,0
 Head,Guthix full helm,Free-to-play,2.721,0,0,0,-6,-2,30,32,27,-1,30,0,0,0,1,0
-Head,Guthix halo Broken,Members,0.3,0,0,0,0,0,11,12,10,11,-1,0,0,0,3,0
-Head,Guthix halo Locked,Members,0.3,0,0,0,0,0,11,12,10,11,-1,0,0,0,3,0
-Head,Guthix halo Normal,Members,0.3,0,0,0,0,0,11,12,10,11,-1,0,0,0,3,0
+Head,Guthix halo,Members,0.3,0,0,0,0,0,11,12,10,11,-1,0,0,0,3,0
 Head,Guthix max hood,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Guthix mitre,Members,0.3,0,0,0,4,0,0,0,0,4,0,0,0,0,5,0
 Head,Half moon spectacles,Members,0.05,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -344,9 +292,7 @@ Head,Ham hood,Members,0.453,0,0,0,0,0,0,1,2,0,1,0,0,0,0,0
 Head,Hard hat,Members,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Hardcore ironman helm,Free-to-play,0.907,0,0,0,-6,-2,6,7,5,-1,6,0,0,0,0,0
 Head,Hat eyepatch,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Healer hat Broken,Members,2,-5,-5,-5,6,-5,6,8,10,7,0,0,0,0,0,0
-Head,Healer hat Locked,Members,2,-5,-5,-5,6,-5,6,8,10,7,0,0,0,0,0,0
-Head,Healer hat Normal,Members,2,-5,-5,-5,6,-5,6,8,10,7,0,0,0,0,0,0
+Head,Healer hat,Members,2,-5,-5,-5,6,-5,6,8,10,7,0,0,0,0,0,0
 Head,Hell cat ears,Free-to-play,0.09,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Helm of neitiznot,Members,2.267,0,0,0,0,0,31,29,34,3,30,3,0,0,3,0
 Head,Helm of raedwald,Members,1,0,0,0,-6,-2,6,7,5,-1,6,0,0,0,0,0
@@ -384,12 +330,7 @@ Head,Kandarin headgear 1,Members,0.01,0,0,0,-3,-1,4,5,3,-1,4,0,0,0,0,0
 Head,Kandarin headgear 2,Members,0.01,0,0,0,-3,-1,7,8,6,-1,7,0,0,0,0,0
 Head,Kandarin headgear 3,Members,0.01,0,0,0,-3,-1,9,10,8,-1,9,0,0,0,0,0
 Head,Kandarin headgear 4,Members,0.01,0,0,0,-3,-1,10,11,9,-1,10,0,0,0,0,0
-Head,Karil's coif (broken),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Karil's coif 100,Members,0.907,0,0,0,-1,7,6,9,12,6,10,0,0,0,0,0
-Head,Karil's coif 25,Members,0.907,0,0,0,-1,7,6,9,12,6,10,0,0,0,0,0
-Head,Karil's coif 50,Members,0.907,0,0,0,-1,7,6,9,12,6,10,0,0,0,0,0
-Head,Karil's coif 75,Members,0.907,0,0,0,-1,7,6,9,12,6,10,0,0,0,0,0
-Head,Karil's coif Undamaged,Members,0.907,0,0,0,-1,7,6,9,12,6,10,0,0,0,0,0
+Head,Karil's coif,Members,0.907,0,0,0,-1,7,6,9,12,6,10,0,0,0,0,0
 Head,Khazard helmet,Members,2.721,0,0,0,0,0,4,5,3,0,0,0,0,0,0,0
 Head,Kyatt hat,Members,0.226,0,0,0,0,-1,4,5,3,0,4,0,0,0,0,0
 Head,Larupia hat,Members,0.226,0,0,0,0,-1,4,5,3,0,1,0,0,0,0,0
@@ -405,8 +346,8 @@ Head,Lovakengj hood,Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Lumberjack hat,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Lunar helm,Members,0.907,0,0,0,3,-2,8,7,10,2,0,0,0,0,0,0
 Head,Magic hood,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Magma helm Charged,Members,0.9,0,0,0,-5,-5,52,55,58,0,50,5,0,0,0,0
-Head,Magma helm Uncharged,Members,0.9,0,0,0,-5,-5,0,0,0,0,0,0,0,0,0,0
+Head,Magma helm,Members,0.9,0,0,0,-5,-5,52,55,58,0,50,5,0,0,0,0
+Head,Magma helm (uncharged),Members,0.9,0,0,0,-5,-5,0,0,0,0,0,0,0,0,0,0
 Head,Mask of balance,Free-to-play,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Mask of ranul,Members,0.35,0,0,0,2,0,0,0,0,2,0,0,0,0,0,0
 Head,Max hood,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -415,8 +356,7 @@ Head,Menaphite red hat,Members,0.005,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Mime mask,Free-to-play,0.001,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Mind helmet,Members,0.113,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0
 Head,Mind tiara,Free-to-play,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Mining helmet Lit,Members,0.907,0,0,0,-3,-1,4,5,3,-1,4,0,0,0,0,0
-Head,Mining helmet Unlit,Members,0.907,0,0,0,-3,-1,4,5,3,-1,4,0,0,0,0,0
+Head,Mining helmet (lit),Members,0.907,0,0,0,-3,-1,4,5,3,-1,4,0,0,0,0,0
 Head,Mining hood,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Mithril dragon mask,Members,2.267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Mithril full helm,Free-to-play,2.267,0,0,0,-6,-2,13,14,11,-1,13,0,0,0,0,0
@@ -465,9 +405,9 @@ Head,Pirate's hat,Members,0.001,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Piscarilius hood,Members,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Pith helmet,Members,0.06,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Prayer hood,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Progress hat Dull,Members,0.001,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Progress hat Energised,Members,0.001,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Progress hat Full,Members,0.001,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Head,Progress hat (dull),Members,0.001,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Head,Progress hat (energised),Members,0.001,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Head,Progress hat (full),Members,0.001,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Proselyte sallet,Members,2.267,0,0,0,-6,-2,19,21,16,-1,19,0,0,0,4,0
 Head,Prospector helmet,Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Purple boater,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -480,9 +420,7 @@ Head,Pyromancer hood,Members,0.18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Quest point hood,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Rainbow partyhat,Free-to-play,0.056,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Ram skull helm,Members,3.175,0,0,0,0,-2,19,21,16,0,19,0,0,0,0,0
-Head,Ranger hat Broken,Members,2,-5,-5,-5,-5,6,7,10,11,5,8,0,0,0,0,0
-Head,Ranger hat Locked,Members,2,-5,-5,-5,-5,6,7,10,11,5,8,0,0,0,0,0
-Head,Ranger hat Normal,Members,2,-5,-5,-5,-5,6,7,10,11,5,8,0,0,0,0,0
+Head,Ranger hat,Members,2,-5,-5,-5,-5,6,7,10,11,5,8,0,0,0,0,0
 Head,Ranging hood,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Red beret,Members,0.04,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Red boater,Members,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -529,9 +467,7 @@ Head,Rune heraldic helm (Varrock),Members,2.721,0,0,0,-6,-2,30,32,27,-1,30,0,0,0
 Head,Rune heraldic helm (Zamorak),Members,2.721,0,0,0,-6,-2,30,32,27,-1,30,0,0,0,0,0
 Head,Rune med helm,Free-to-play,1.814,0,0,0,-3,-1,22,23,21,-1,22,0,0,0,0,0
 Head,Runecraft hood,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Runner hat Broken,Members,1,0,0,0,0,0,30,32,27,1,30,0,0,0,0,0
-Head,Runner hat Locked,Members,1,0,0,0,0,0,30,32,27,1,30,0,0,0,0,0
-Head,Runner hat Normal,Members,1,0,0,0,0,0,30,32,27,1,30,0,0,0,0,0
+Head,Runner hat,Members,1,0,0,0,0,0,30,32,27,1,30,0,0,0,0,0
 Head,Sagacious spectacles,Members,0.001,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Samurai kasa,Members,0.6,0,0,0,0,0,16,17,15,4,16,0,0,0,0,0
 Head,Sandwich lady hat,Free-to-play,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -544,11 +480,9 @@ Head,Saradomin halo Locked,Members,0.3,0,0,0,0,0,11,12,10,11,-1,0,0,0,3,0
 Head,Saradomin halo Normal,Members,0.3,0,0,0,0,0,11,12,10,11,-1,0,0,0,3,0
 Head,Saradomin max hood,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Saradomin mitre,Members,0.3,0,0,0,4,0,0,0,0,4,0,0,0,0,5,0
-Head,Seren halo Broken,Members,0.3,0,0,0,0,0,11,12,10,11,-1,0,0,0,3,0
-Head,Seren halo Locked,Members,0.3,0,0,0,0,0,11,12,10,11,-1,0,0,0,3,0
-Head,Seren halo Normal,Members,0.3,0,0,0,0,0,11,12,10,11,-1,0,0,0,3,0
-Head,Serpentine helm Charged,Members,0.9,0,0,0,-5,-5,52,55,58,0,50,5,0,0,0,0
-Head,Serpentine helm Uncharged,Members,0.9,0,0,0,-5,-5,0,0,0,0,0,0,0,0,0,0
+Head,Seren halo,Members,0.3,0,0,0,0,0,11,12,10,11,-1,0,0,0,3,0
+Head,Serpentine helm,Members,0.9,0,0,0,-5,-5,52,55,58,0,50,5,0,0,0,0
+Head,Serpentine helm (uncharged),Members,0.9,0,0,0,-5,-5,0,0,0,0,0,0,0,0,0,0
 Head,Shaman mask,Free-to-play,2.721,0,0,0,-6,-2,6,7,5,-1,6,0,0,0,0,0
 Head,Shayzien helm (1),Members,2.721,0,0,0,-5,-2,3,5,4,-1,5,0,0,0,0,0
 Head,Shayzien helm (2),Members,2.721,0,0,0,-5,-2,5,8,6,-1,7,0,0,0,0,0
@@ -566,7 +500,6 @@ Head,Sleeping cap,Members,0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Smithing hood,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Snakeskin bandana,Members,0.907,0,0,0,-5,4,2,4,4,2,2,0,0,0,0,0
 Head,Snow imp costume head,Free-to-play,0.226,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Soul tiara,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Spined helm,Members,2.721,-6,-6,-6,-6,6,6,6,6,6,0,0,0,0,0,0
 Head,Spiny helmet,Members,2.267,0,0,0,-6,-2,9,10,7,-1,9,0,0,0,0,0
 Head,Splitbark helm,Members,0.907,0,0,0,3,-2,10,9,11,3,0,0,0,0,0,0
@@ -596,20 +529,15 @@ Head,Steel heraldic helm (Zamorak),Members,2.721,0,0,0,-6,-2,9,10,7,-1,9,0,0,0,0
 Head,Steel med helm,Free-to-play,1.814,0,0,0,-3,-1,7,8,6,-1,7,0,0,0,0,0
 Head,Strength hood,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Tan cavalier,Members,0.08,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Tanzanite helm Charged,Members,0.9,0,0,0,-5,-5,52,55,58,0,50,5,0,0,0,0
-Head,Tanzanite helm Uncharged,Members,0.9,0,0,0,-5,-5,0,0,0,0,0,0,0,0,0,0
+Head,Tanzanite helm,Members,0.9,0,0,0,-5,-5,52,55,58,0,50,5,0,0,0,0
+Head,Tanzanite helm (uncharged),Members,0.9,0,0,0,-5,-5,0,0,0,0,0,0,0,0,0,0
 Head,Teal hat,Members,0.453,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0
 Head,Thieving hood,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Three barrels,Members,13.607,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Tiara,Free-to-play,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Top hat,Members,1.36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Top hat & monocle,Members,1.36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Torag's helm (broken),Members,2.721,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Torag's helm 100,Members,2.721,0,0,0,-6,-2,55,58,54,-1,62,0,0,0,0,0
-Head,Torag's helm 25,Members,2.721,0,0,0,-6,-2,55,58,54,-1,62,0,0,0,0,0
-Head,Torag's helm 50,Members,2.721,0,0,0,-6,-2,55,58,54,-1,62,0,0,0,0,0
-Head,Torag's helm 75,Members,2.721,0,0,0,-6,-2,55,58,54,-1,62,0,0,0,0,0
-Head,Torag's helm Undamaged,Members,2.721,0,0,0,-6,-2,55,58,54,-1,62,0,0,0,0,0
+Head,Torag's helm,Members,2.721,0,0,0,-6,-2,55,58,54,-1,62,0,0,0,0,0
 Head,Tri-jester hat,Free-to-play,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Tribal mask (blue),Members,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Tribal mask (green),Members,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -627,25 +555,14 @@ Head,Two barrels,Members,9.071,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Tyras helm,Members,0.907,0,0,0,-6,-2,9,10,7,-1,9,0,0,0,0,0
 Head,Ultimate ironman helm,Free-to-play,0.907,0,0,0,-6,-2,6,7,5,-1,6,0,0,0,0,0
 Head,Uri's hat,Members,2.267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Verac's helm (broken),Members,1.36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Verac's helm 100,Members,1.36,0,0,0,-6,-2,55,58,54,0,56,0,0,0,3,0
-Head,Verac's helm 25,Members,1.36,0,0,0,-6,-2,55,58,54,0,56,0,0,0,3,0
-Head,Verac's helm 50,Members,1.36,0,0,0,-6,-2,55,58,54,0,56,0,0,0,3,0
-Head,Verac's helm 75,Members,1.36,0,0,0,-6,-2,55,58,54,0,56,0,0,0,3,0
-Head,Verac's helm Undamaged,Members,1.36,0,0,0,-6,-2,55,58,54,0,56,0,0,0,3,0
+Head,Verac's helm,Members,1.36,0,0,0,-6,-2,55,58,54,0,56,0,0,0,3,0
 Head,Villager hat (blue),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Villager hat (brown),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Villager hat (pink),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Villager hat (yellow),Members,0.907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Head,Void mage helm Broken,Members,0.453,0,0,0,0,0,6,6,6,6,6,0,0,0,0,0
-Head,Void mage helm Locked,Members,0.453,0,0,0,0,0,6,6,6,6,6,0,0,0,0,0
-Head,Void mage helm Normal,Members,0.453,0,0,0,0,0,6,6,6,6,6,0,0,0,0,0
-Head,Void melee helm Broken,Members,0.453,0,0,0,0,0,6,6,6,6,6,0,0,0,0,0
-Head,Void melee helm Locked,Members,0.453,0,0,0,0,0,6,6,6,6,6,0,0,0,0,0
-Head,Void melee helm Normal,Members,0.453,0,0,0,0,0,6,6,6,6,6,0,0,0,0,0
-Head,Void ranger helm Broken,Members,0.453,0,0,0,0,0,6,6,6,6,6,0,0,0,0,0
-Head,Void ranger helm Locked,Members,0.453,0,0,0,0,0,6,6,6,6,6,0,0,0,0,0
-Head,Void ranger helm Normal,Members,0.453,0,0,0,0,0,6,6,6,6,6,0,0,0,0,0
+Head,Void mage helm,Members,0.453,0,0,0,0,0,6,6,6,6,6,0,0,0,0,0
+Head,Void melee helm,Members,0.453,0,0,0,0,0,6,6,6,6,6,0,0,0,0,0
+Head,Void ranger helm,Members,0.453,0,0,0,0,0,6,6,6,6,6,0,0,0,0,0
 Head,Warrior helm,Members,2.721,0,5,0,-5,-5,31,33,29,0,30,0,0,0,0,0
 Head,Water tiara,Free-to-play,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,White beret,Members,0.04,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -664,12 +581,9 @@ Head,Woolly hat,Free-to-play,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Wrath tiara,Members,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Xerician hat,Members,0.2,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0
 Head,Yellow hat,Members,0.453,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0
-Head,Yellow partyhat,Free-to-play,0.056,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Zamorak coif,Members,0.9,0,0,0,-1,7,4,7,10,4,8,0,0,0,1,0
 Head,Zamorak full helm,Free-to-play,2.721,0,0,0,-6,-2,30,32,27,-1,30,0,0,0,1,0
-Head,Zamorak halo Broken,Members,0.3,0,0,0,0,0,11,12,10,11,-1,0,0,0,3,0
-Head,Zamorak halo Locked,Members,0.3,0,0,0,0,0,11,12,10,11,-1,0,0,0,3,0
-Head,Zamorak halo Normal,Members,0.3,0,0,0,0,0,11,12,10,11,-1,0,0,0,3,0
+Head,Zamorak halo,Members,0.3,0,0,0,0,0,11,12,10,11,-1,0,0,0,3,0
 Head,Zamorak max hood,Members,0.453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Head,Zamorak mitre,Members,0.3,0,0,0,4,0,0,0,0,4,0,0,0,0,5,0
 Head,Zombie mask,Free-to-play,0.003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

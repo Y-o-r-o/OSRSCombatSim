@@ -47,10 +47,10 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <TextBlock Grid.ColumnSpan="2"  Foreground="Yellow" TextAlignment="Center" Text="{Binding FighterCombat.PlayerEquipment.Weapon.Name}"/>
+        <TextBlock Grid.ColumnSpan="2"  Foreground="Yellow" TextAlignment="Center" Text="{Binding Fighter.Equiped.Weapon.Name}"/>
         <StackPanel Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" Orientation="Horizontal">
             <TextBlock Foreground="Yellow" TextAlignment="Center" Text="Combat Lvl: "/>
-            <TextBlock Foreground="Yellow" TextAlignment="Center" Text="{Binding FighterCombat.PlayerSkills.TotalCombat_lvl}"/>
+            <TextBlock Foreground="Yellow" TextAlignment="Center" Text="{Binding Fighter.Skills.TotalCombat_lvl}"/>
         </StackPanel>
 
         <RadioButton Grid.Row="{Binding OptionsVerticalPlace[0]}" Grid.RowSpan="{Binding OptionsHeigthByRows[0]}" Grid.Column="{Binding OptionsHorizontalPlace[0]}" Visibility="{Binding OptionsVisibility[0]}" IsChecked="True" Click="CombatOption_Set">

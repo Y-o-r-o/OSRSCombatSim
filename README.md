@@ -53,9 +53,9 @@ Download all repo and run [OSRSComSim/OSRSComSim.sln](https://github.com/D3j4-Vu
  - Add prayer.
 
 # Create player
-![Alt Text](https://github.com/D3j4-Vu/OSRSCombatSim/blob/master/Gifs/ezgif-6-a66e25f48a2b.gif?raw=true)
+![Alt Text](https://github.com/D3j4-Vu/OSRSCombatSim/blob/master/Gifs/create_player.gif?raw=true)
 # Set skills and equip
-![Alt Text](https://github.com/D3j4-Vu/OSRSCombatSim/blob/master/Gifs/ezgif-6-c2859b4d27dd.gif?raw=true)
+![Alt Text](https://github.com/D3j4-Vu/OSRSCombatSim/blob/master/Gifs/setup_player.gif?raw=true)
 # Fight
-![Alt Text](https://github.com/D3j4-Vu/OSRSCombatSim/blob/master/Gifs/ezgif-6-637448c7a78f.gif?raw=true)
+![Alt Text](https://github.com/D3j4-Vu/OSRSCombatSim/blob/master/Gifs/fight.gif?raw=true)
 

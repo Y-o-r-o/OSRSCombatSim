@@ -24,10 +24,22 @@ namespace OSRSComSim.Models
             }
         }
         
-        public ItemModel()
+        public ItemModel(): this("") { }
+        public ItemModel(string item_data = "")
         {
+            if (item_data.Length != 0)
+                constructItem(item_data);
         }
 
+        public void constructItem(string item_data)
+        {
+            string[] values = item_data.Split(',');
+            ItemType = values[0];
+            Name = values[1];
+            //Member = values[2];
+            Weigth = Double.Parse(values[3]);
+            Png = constructPng(ItemType, values[1]);
+        }
 
         protected string constructPng(string item_type, string png_name)
         {

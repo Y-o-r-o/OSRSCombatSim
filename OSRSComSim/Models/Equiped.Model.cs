@@ -7,7 +7,7 @@ using System.Xml.Serialization;
 namespace OSRSComSim.Models
 {
     [CollectionDataContract(ItemName = "Item")]
-    [XmlInclude(typeof(FoodModel)), XmlInclude(typeof(PotionModel)), XmlInclude(typeof(RunesModel))]
+    [XmlInclude(typeof(FoodModel)), XmlInclude(typeof(PotionModel)), XmlInclude(typeof(ItemModel))]
     public class EquipedModel: ObservableObject
     {
         private const int inventory_capativity = 28;
@@ -326,7 +326,7 @@ namespace OSRSComSim.Models
                     equipment = new PotionModel(item_data);
                     break;
                 case "Runes":
-                    equipment = new RunesModel(item_data);
+                    equipment = new ItemModel(item_data);
                     break;
                 default:
                     equipment = new EquipmentModel(item_type, item_data);

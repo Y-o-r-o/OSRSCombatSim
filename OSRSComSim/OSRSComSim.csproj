@@ -75,7 +75,6 @@
     <Compile Include="Models\Combat.Model.cs" />
     <Compile Include="Models\CombatCurretOption.Model.cs" />
     <Compile Include="Models\Equiped.Model.cs" />
-    <Compile Include="Models\Items\Runes.Model.cs" />
     <Compile Include="Models\Items\Potion.Model.cs" />
     <Compile Include="Models\Items\Food.Model.cs" />
     <Compile Include="Models\Items\Equipment.Model.cs" />

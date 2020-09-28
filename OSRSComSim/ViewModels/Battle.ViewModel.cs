@@ -41,8 +41,6 @@ namespace OSRSComSim.ViewModels
             set 
             {
                 _thread_is_started = value;
-                if (value == false) ButtonFightContent = "Fight";
-                else ButtonFightContent = "Reset";
             }
         }
         public string ButtonFightContent
@@ -66,9 +64,14 @@ namespace OSRSComSim.ViewModels
 
         public void start_stopFight()
         {
-            if (ThreadIsStarted || !playersIsNotDead()) Reset();
+            if (ThreadIsStarted || !playersIsNotDead())
+            {
+                ButtonFightContent = "Fight";
+                Reset();
+            }
             else
             {
+                ButtonFightContent = "Reset";
 
                 th1 = FighterStartFight(Fighter1, Fighter2);
                 th2 = FighterStartFight(Fighter2, Fighter1, 1000);
@@ -104,11 +107,14 @@ namespace OSRSComSim.ViewModels
 
         public void Reset()
         {
-            if (ThreadIsStarted)
+            if (th1 != null || th2 != null)
             {
-                th1.Abort();
-                th2.Abort();
-                ThreadIsStarted = false;
+                if (th1.IsAlive || th2.IsAlive)
+                {
+                    th1.Abort();
+                    th2.Abort();
+                    ThreadIsStarted = false;
+                }
             }
             Fighter1.Reset();
             Fighter2.Reset();

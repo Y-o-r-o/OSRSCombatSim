@@ -4,17 +4,7 @@ namespace OSRSComSim.Models
 {
     public class CombatModel : ObservableObject
     {
-        private CombatCurretOptionModel _curretoptions;
-
-        public CombatCurretOptionModel CurretOptions
-        {
-            get { return _curretoptions; }
-            set
-            {
-                _curretoptions = value;
-                OnPropertyChanged("CurretOptions");
-            }
-        }
+        public CombatCurretOptionModel CurretOptions { get; set; }
 
         private double void_bonus = 1.10;
 

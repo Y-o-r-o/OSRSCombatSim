@@ -12,53 +12,15 @@ namespace OSRSComSim.ViewModels
 
         Thread th_show_stats;
 
-        private ControlPanelViewModel _controlpanel;
-        private string _name;
-        private string _last_atk_stat_context;
-        private string _last_atk_stat_color;
         
         public object View { get; set; }
-        public ControlPanelViewModel ControlPanel
-        {
-            get { return _controlpanel; }
-            set
-            {
-                _controlpanel = value;
-                OnPropertyChanged("ControlPanel");
-            }
-        }
-        public string Name
-        {
-            get { return _name; }
-            set
-            {
-                _name = value;
-                OnPropertyChanged("Name");
-            }
-        }
+        public ControlPanelViewModel ControlPanel { get; set; }
+        public string Name { get; set; }
         public PlayerModel Fighter { get; set; }
         public CombatModel FighterCombat { get; set; }
 
-        public string LastAtkStatColor
-        {
-            get { return _last_atk_stat_color; }
-            set
-            {
-                _last_atk_stat_color = value;
-
-                OnPropertyChanged("LastAtkStatColor");
-            }
-        }
-        public string LastAtkStatContext
-        {
-            get { return _last_atk_stat_context; }
-            set
-            {
-                _last_atk_stat_context = value;
-
-                OnPropertyChanged("LastAtkStatContext");
-            }
-        }
+        public string LastAtkStatColor { get; set; }
+        public string LastAtkStatContext { get; set; }
 
 
         public FighterViewModel(): this (null) { }

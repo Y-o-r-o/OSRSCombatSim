@@ -8,68 +8,24 @@ namespace OSRSComSim.ViewModels
 {
     public class LoadScreenViewModel : ObservableObject
     {
-        private string _fighter_num;
+        private string fighter_num;
         public object _viewcontent;
-        private PlayerModel _selected_player;
-        private ControlPanelViewModel _controls_view;
         private MainWindowViewModel _mainwindowVM;
-        private ObservableCollection<PlayerModel> _player_list;
 
         public object View { get; set; }
-        public PlayerModel SelectedPlayer
-        {
-            get { return _selected_player; }
-            set 
-            {
-                _selected_player = value;
-                OnPropertyChanged("SelectedPlayer");
-            }
-        }
+        public PlayerModel SelectedPlayer { get; set; }
 
-        public ControlPanelViewModel ControlsView
-        {
-            get
-            {
-                return _controls_view;
-            }
-            set
-            {
-                _controls_view = value;
-                OnPropertyChanged("ControlsView");
-            }
-        }
-        public ObservableCollection<PlayerModel> PlayerList
-        {
-            get
-            {
-                return _player_list;
-            }
-            private set
-            {
-                _player_list = value;
-                OnPropertyChanged("PlayerList");
-            }
-        }
-        public object ViewContent
-        {
-            get
-            {
-                return _viewcontent;
-            }
-            private set
-            {
-                _viewcontent = value;
-                OnPropertyChanged("ViewContent");
-            }
-        }
+        public ControlPanelViewModel ControlsView { get; set; }
+        public ObservableCollection<PlayerModel> PlayerList { get; set; }
+        public object ViewContent { get; set; }
 
         public LoadScreenViewModel() : this(null, null) { }
         public LoadScreenViewModel(MainWindowViewModel mainWindowVM = null, string fighter_num = null)
         {
             _mainwindowVM = mainWindowVM;
-            _player_list = new ObservableCollection<PlayerModel>();
+            PlayerList = new ObservableCollection<PlayerModel>();
             SelectedPlayer = new PlayerModel();
-            _fighter_num = fighter_num;
+            this.fighter_num = fighter_num;
             ControlsView = new ControlPanelViewModel(this, SelectedPlayer, "View");
             Load_players();
 
@@ -98,9 +54,9 @@ namespace OSRSComSim.ViewModels
             Load_players();
             SelectedPlayer = new PlayerModel();
         }
-        public void loadSelectedFighter(string fighter_num)
+        public void loadSelectedFighter()
         {
-            loadFighter(fighter_num);
+            loadFighter();
             Back_to_main_screen();
         }
         public void getPlayer(string fighter_num)
@@ -121,13 +77,13 @@ namespace OSRSComSim.ViewModels
             PlayerList = PlayerList;
         }
 
-        private void loadFighter(string fighter_num)
+        private void loadFighter()
         {
-            if (_fighter_num == "fighter 1")
+            if (fighter_num == "fighter 1")
             {
                 _mainwindowVM.Battle.Fighter1 = new FighterViewModel(SelectedPlayer);
             }
-            else if (_fighter_num == "fighter 2")
+            else if (fighter_num == "fighter 2")
             {
                 _mainwindowVM.Battle.Fighter2 = new FighterViewModel(SelectedPlayer);
             }

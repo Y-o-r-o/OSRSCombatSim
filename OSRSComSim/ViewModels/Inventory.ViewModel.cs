@@ -11,8 +11,6 @@ namespace OSRSComSim.ViewModels
     {
         private const string add_sign_png = "../Resources/add.png";
 
-        private SelectItemViewModel _item_select;
-
         private string inv_mode;
 
         public object View { get; set; }
@@ -21,15 +19,7 @@ namespace OSRSComSim.ViewModels
         public EquipedModel PlayerEquiped { get; set; }
         public string[] AddPng { get; set; }
        
-        public SelectItemViewModel ItemSelect
-        {
-            get { return _item_select; }
-            set
-            {
-                _item_select = value;
-                OnPropertyChanged("ItemSelect");
-            }
-        }
+        public SelectItemViewModel ItemSelect { get; set; }
 
 
         public InventoryViewModel() : this(null, "Edit") { }
@@ -68,7 +58,6 @@ namespace OSRSComSim.ViewModels
                     }
                     else AddPng[i] = null;
                 }
-                OnPropertyChanged("AddPng");
             }
         }
         private void selectItem(string slot_name)

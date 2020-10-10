@@ -12,128 +12,19 @@ namespace OSRSComSim.Models
     {
         private const int inventory_capativity = 28;
 
-        private EquipmentModel _head;
-        private EquipmentModel _neck;
-        private EquipmentModel _cape;
-        private EquipmentModel _ammo;
-        private WeaponModel _weapon;
-        private EquipmentModel _body;
-        private EquipmentModel _shield;
-        private EquipmentModel _legs;
-        private EquipmentModel _feet;
-        private EquipmentModel _hands;
-        private EquipmentModel _ring;
-        private ObservableCollection<object> _item;
 
-
-        public EquipmentModel Head 
-        {
-            get { return _head; }
-            set
-            {
-                _head = value;
-                OnPropertyChanged("Head");
-            }
-        }
-        public EquipmentModel Neck
-        {
-            get { return _neck; }
-            set
-            {
-                _neck = value;
-                OnPropertyChanged("Neck");
-            }
-        }
-        public EquipmentModel Cape
-        {
-            get { return _cape; }
-            set
-            {
-                _cape = value;
-                OnPropertyChanged("Cape");
-            }
-        }
-        public EquipmentModel Ammo
-        {
-            get { return _ammo; }
-            set
-            {
-                _ammo = value;
-                OnPropertyChanged("Ammo");
-            }
-        }
-        public WeaponModel Weapon
-        {
-            get { return _weapon; }
-            set
-            {
-                _weapon = value;
-                OnPropertyChanged("Weapon");
-            }
-        }
-        public EquipmentModel Body
-        {
-            get { return _body; }
-            set
-            {
-                _body = value;
-                OnPropertyChanged("Body");
-            }
-        }
-        public EquipmentModel Shield
-        {
-            get { return _shield; }
-            set
-            {
-                _shield = value;
-                OnPropertyChanged("Shield");
-            }
-        }
-        public EquipmentModel Legs
-        {
-            get { return _legs; }
-            set
-            {
-                _legs = value;
-                OnPropertyChanged("Legs");
-            }
-        }
-        public EquipmentModel Feet
-        {
-            get { return _feet; }
-            set
-            {
-                _feet = value;
-                OnPropertyChanged("Feet");
-            }
-        }
-        public EquipmentModel Hands
-        {
-            get { return _hands; }
-            set
-            {
-                _hands = value;
-                OnPropertyChanged("Hands");
-            }
-        }
-        public EquipmentModel Ring
-        {
-            get { return _ring; }
-            set
-            {
-                _ring = value;
-                OnPropertyChanged("Ring");
-            }
-        }
-        public ObservableCollection<object> InventoryItem
-        {
-            get { return _item; }
-            set
-            {
-                _item = value;
-                OnPropertyChanged("InventoryItem");
-            }
-        }
+        public EquipmentModel Head { get; set; }
+        public EquipmentModel Neck { get; set; }
+        public EquipmentModel Cape { get; set; }
+        public EquipmentModel Ammo { get; set; }
+        public WeaponModel Weapon { get; set; }
+        public EquipmentModel Body { get; set; }
+        public EquipmentModel Shield { get; set; }
+        public EquipmentModel Legs { get; set; }
+        public EquipmentModel Feet { get; set; }
+        public EquipmentModel Hands { get; set; }
+        public EquipmentModel Ring { get; set; }
+        public ObservableCollection<object> InventoryItem { get; set; }
 
 
         private EquipedModel() { } 

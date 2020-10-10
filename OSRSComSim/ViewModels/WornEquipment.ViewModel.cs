@@ -11,29 +11,12 @@ namespace OSRSComSim.ViewModels
         private string selected_slot_table = "";
         private string we_mode = "";
 
-        private SelectItemViewModel _select_equipment;
-        private string _equipment_info = "";
+
 
         public object View { get; set; }
         public EquipedModel PlayerEquiped { get; set; }
-        public SelectItemViewModel selectEquipmentViewModel
-        {
-            get { return _select_equipment; }
-            set
-            {
-                _select_equipment = value;
-                OnPropertyChanged("selectEquipmentViewModel");
-            }
-        }
-        public string EquipmentInfo
-        {
-            get { return _equipment_info; }
-            set
-            {
-                _equipment_info = value;
-                OnPropertyChanged("EquipmentInfo");
-            }
-        }
+        public SelectItemViewModel selectEquipmentViewModel { get; set; }
+        public string EquipmentInfo { get; set; } = "";
 
         public WornEquipmentViewModel() : this(null, "Edit") { }
         public WornEquipmentViewModel(EquipedModel player_equiped = null, string we_mode = "Edit")

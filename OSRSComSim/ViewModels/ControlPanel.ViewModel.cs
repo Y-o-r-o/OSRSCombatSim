@@ -10,7 +10,6 @@ namespace OSRSComSim.ViewModels
         private string cp_mode;
 
         private PlayerModel _player;
-        private object _viewcontent;
         public object _tabs_background;
         private string _create_mode_tabs_visibility = "Collapsed";
         private string _edit_mode_tabs_visibility = "Collapsed";
@@ -24,28 +23,11 @@ namespace OSRSComSim.ViewModels
             set
             {
                 _player = value;
-                OnPropertyChanged("SelectedPlayer");
                 setViewMode(view_mode);
             }
         }
-        public object TabsBackground
-        {
-            get { return _tabs_background; }
-            set
-            {
-                _tabs_background = value;
-                OnPropertyChanged("TabsBackground");
-            }
-        }
-        public object ViewContent
-        {
-            get { return _viewcontent; }
-            set
-            {
-                _viewcontent = value;
-                OnPropertyChanged("ViewContent");
-            }
-        }
+        public object TabsBackground { get; set; }
+        public object ViewContent { get; set; }
         public string CreateModeTabsVisibility
         {
             get { return _create_mode_tabs_visibility; }
@@ -53,7 +35,6 @@ namespace OSRSComSim.ViewModels
             {
                 TabsBackground = new Thickness(0, 0, 0, 0);
                 _create_mode_tabs_visibility = value;
-                OnPropertyChanged("CreateModeTabsVisibility");
             }
         }
         public string EditModeTabsVisibility
@@ -63,7 +44,6 @@ namespace OSRSComSim.ViewModels
             {
                 TabsBackground = new Thickness(0, 0, 0, 0);
                 _edit_mode_tabs_visibility = value;
-                OnPropertyChanged("EditModeTabsVisibility");
             }
         }
         public string InteractiveModeTabsVisibility
@@ -73,7 +53,6 @@ namespace OSRSComSim.ViewModels
             {
                 TabsBackground = new Thickness(0, 35, 0, 0);
                 _interactive_mode_tabs_visibility = value;
-                OnPropertyChanged("InteractiveModeTabsVisibility");
             }
         }
 

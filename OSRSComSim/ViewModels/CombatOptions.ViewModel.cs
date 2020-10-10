@@ -7,99 +7,16 @@ namespace OSRSComSim.ViewModels
 {
     public class CombatOptionsViewModel : ObservableObject
     {
-        private CombatModel _combat;
-
-        private string[] _options_content = null;
-        private string[] _options_style_content = null;
-        private string[] _options_visibility = null;
-        private int[] _options_horizontal_place = null;
-        private int[] _options_vertical_place = null;
-        private int[] _options_heigth_by_rows = null;
-
         public object View { get; set; }
         public PlayerModel Fighter { get; set; }
-        public CombatModel FighterCombat
-        {
-            get { return _combat; }
-            set
-            {
-                _combat = value;
-                OnPropertyChanged("FighterCombat");
-            }
-        }
+        public CombatModel FighterCombat { get; set; }
 
-        public string[] OptionsContent
-        {
-            get
-            {
-                return _options_content;
-            }
-            set
-            {
-                _options_content = value;
-                OnPropertyChanged("OptionsContent");
-            }
-        }
-        public string[] OptionsStyleContent
-        {
-            get
-            {
-                return _options_style_content;
-            }
-            set
-            {
-                _options_style_content = value;
-                OnPropertyChanged("OptionsStyleContent");
-            }
-        }
-        public string[] OptionsVisibility
-        {
-            get
-            {
-                return _options_visibility;
-            }
-            set
-            {
-                _options_visibility = value;
-                OnPropertyChanged("OptionsVisibility");
-            }
-        }
-        public int[] OptionsHorizontalPlace
-        {
-            get
-            {
-                return _options_horizontal_place;
-            }
-            set
-            {
-                _options_horizontal_place = value;
-                OnPropertyChanged("OptionsHorizontalPlace");
-            }
-        }
-        public int[] OptionsVerticalPlace
-        {
-            get
-            {
-                return _options_vertical_place;
-            }
-            set
-            {
-                _options_vertical_place = value;
-                OnPropertyChanged("OptionsVerticalPlace");
-            }
-        }
-        public int[] OptionsHeigthByRows
-        {
-            get
-            {
-                return _options_heigth_by_rows;
-            }
-            set
-            {
-                _options_heigth_by_rows = value;
-                OnPropertyChanged("OptionsHeigthByRows");
-            }
-        }
+        public string[] OptionsContent { get; set; }
+        public string[] OptionsStyleContent { get; set; }
+        public string[] OptionsVisibility { get; set; }
+        public int[] OptionsHorizontalPlace { get; set; }
+        public int[] OptionsVerticalPlace { get; set; }
+        public int[] OptionsHeigthByRows { get; set; }
 
 
         public CombatOptionsViewModel() : this(null) { }

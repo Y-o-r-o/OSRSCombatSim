@@ -1,20 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
+﻿using PropertyChanged;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Runtime.Remoting.Channels;
 
 namespace OSRSComSim
 {
+    /// <summary>
+    /// Class that casts "PropertyChanged" event when needed.
+    /// </summary>
+    [AddINotifyPropertyChangedInterface]
     public class ObservableObject : INotifyPropertyChanged
     {
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        protected void OnPropertyChanged(string name)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
-        }
+        /// <summary>
+        /// The event that is casted when any child property changes.
+        /// </summary>
+        public event PropertyChangedEventHandler PropertyChanged = (IChannelSender, e) => { };
     }
 }

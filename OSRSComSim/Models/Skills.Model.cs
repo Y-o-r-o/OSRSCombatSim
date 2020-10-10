@@ -28,7 +28,6 @@ namespace OSRSComSim.Models
                 }
                 Status = new StatusModel(_hplvl);
                 setTotalCombatLevel();
-                OnPropertyChanged("Hp_lvl");
             }
         }
         public int Def_lvl
@@ -44,7 +43,6 @@ namespace OSRSComSim.Models
                     _deflvl = value;
                 }
                 setTotalCombatLevel();
-                OnPropertyChanged("Def_lvl");
             }
         }
         public int Str_lvl
@@ -60,7 +58,6 @@ namespace OSRSComSim.Models
                     _strlvl = value;
                 }
                 setTotalCombatLevel();
-                OnPropertyChanged("Str_lvl");
             }
         }
         public int Atk_lvl
@@ -76,7 +73,6 @@ namespace OSRSComSim.Models
                     _atklvl = value;
                 }
                 setTotalCombatLevel();
-                OnPropertyChanged("Atk_lvl");
             }
         }
         public int Magic_lvl
@@ -92,7 +88,6 @@ namespace OSRSComSim.Models
                     _magiclvl = value;
                 }
                 setTotalCombatLevel();
-                OnPropertyChanged("Magic_lvl");
             }
         }
         public int Ranged_lvl
@@ -108,7 +103,6 @@ namespace OSRSComSim.Models
                     _rangedlvl = value;
                 }
                 setTotalCombatLevel();
-                OnPropertyChanged("Ranged_lvl");
             }
         }
         public int Prayer_lvl
@@ -124,7 +118,6 @@ namespace OSRSComSim.Models
                     _prayerlvl = value;
                 }
                 setTotalCombatLevel();
-                OnPropertyChanged("Prayer_lvl");
             }
         }
         public int TotalCombat_lvl 
@@ -133,7 +126,6 @@ namespace OSRSComSim.Models
             set
             {
                 _total_combat_lvl = value;
-                OnPropertyChanged("TotalCombat_lvl");
             }
         }
 

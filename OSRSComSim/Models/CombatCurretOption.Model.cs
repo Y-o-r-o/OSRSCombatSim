@@ -10,76 +10,12 @@ namespace OSRSComSim.Models
 {
     public class CombatCurretOptionModel : ObservableObject
     {
-        private int _stanc_bonus_def;
-        private int _stanc_bonus_str;
-        private int _stanc_bonus_atk;
-        private int _stanc_bonus_spd; //speed
-        private int _stanc_bonus_rng; //longrange
-
-
-        private string _combat_type;
-
-        public string CombatType
-        {
-            get
-            { return _combat_type; }
-            set
-            {
-                _combat_type = value;
-                OnPropertyChanged("CombatType");
-            }
-        }
-
-        public int StancBonusDef
-        {
-            get
-            { return _stanc_bonus_def; }
-            set
-            {
-                _stanc_bonus_def = value;
-                OnPropertyChanged("StancBonusDef");
-            }
-        }
-        public int StancBonusStr
-        {
-            get
-            { return _stanc_bonus_str; }
-            set
-            {
-                _stanc_bonus_str = value;
-                OnPropertyChanged("StancBonusStr");
-            }
-        }
-        public int StancBonusAtk
-        {
-            get
-            { return _stanc_bonus_atk; }
-            set
-            {
-                _stanc_bonus_atk = value;
-                OnPropertyChanged("StancBonusAtk");
-            }
-        }
-        public int StancBonusSpd
-        {
-            get
-            { return _stanc_bonus_spd; }
-            set
-            {
-                _stanc_bonus_spd = value;
-                OnPropertyChanged("StancBonusSpd");
-            }
-        } //speed
-        public int StancBonusRng
-        {
-            get
-            { return _stanc_bonus_rng; }
-            set
-            {
-                _stanc_bonus_rng = value;
-                OnPropertyChanged("StancBonusrRng");
-            }
-        }
+        public string CombatType { get; set; }
+        public int StancBonusDef { get; set; }
+        public int StancBonusStr { get; set; }
+        public int StancBonusAtk { get; set; }
+        public int StancBonusSpd { get; set; }
+        public int StancBonusRng { get; set; }
 
         public CombatCurretOptionModel() : this("Punch", "Accurate") { }
         public CombatCurretOptionModel(string combat_style = "Punch", string attack_type = "Accurate")

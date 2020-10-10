@@ -21,9 +21,6 @@ namespace OSRSComSim.Models
             {
                 _health_left = value;
                 if (_health_left < 0) _health_left = 0;
-
-                OnPropertyChanged("HealthLeft");
-                OnPropertyChanged("HealthTaken");
             }
         }
         public int HealthTaken
@@ -38,7 +35,6 @@ namespace OSRSComSim.Models
                 _hit_points_left = value;
                 if (_hit_points_left < 0) _hit_points_left = 0;
                 else if (_hit_points_left > TotalHitPoints) _hit_points_left = TotalHitPoints;
-                OnPropertyChanged("HitPointsLeft");
             }
         }
 

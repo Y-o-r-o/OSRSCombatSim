@@ -9,19 +9,9 @@ namespace OSRSComSim.Models.Items.Equipments
 {
     public class WeaponModel : EquipmentModel
     {
-        private string _weapon_type = null;
-
         public bool is_two_handed = false;
 
-        public string WeaponType
-        {
-            get { return _weapon_type; }
-            set
-            {
-                _weapon_type = value;
-                OnPropertyChanged("WeaponType");
-            }
-        }
+        public string WeaponType { get; set; } = null;
 
         public WeaponModel() : this("") { }
         public WeaponModel(string weapon_data = "")

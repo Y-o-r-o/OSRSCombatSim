@@ -7,23 +7,14 @@ namespace OSRSComSim.Models
 {
     public class ItemModel : ObservableObject
     {
-        private string _png = "";
         
         public string ItemType { get; set; } = "";
         public string Name { get; set; } = "";
         public bool Member { get; set; } = false;
         public double Weigth { get; set; } = 0;
-        
-        public string Png
-        {
-            get { return _png; }
-            set
-            {
-                _png = value;
-                OnPropertyChanged("Png");
-            }
-        }
-        
+
+        public string Png { get; set; } = "";
+
         public ItemModel(): this("") { }
         public ItemModel(string item_data = "")
         {

@@ -8,22 +8,9 @@ namespace OSRSComSim.ViewModels
     public class AppearanceViewModel: ObservableObject
     {
         private PlayerModel _player;
-        private string _setnamequotes;
 
         public object View { get; set; }
-        public string SetNameQuotes
-        {
-            get
-            {
-                return _setnamequotes;
-            }
-            set
-            {
-                _setnamequotes = value;
-                OnPropertyChanged("SetNameQuotes");
-            }
-
-        }
+        public string SetNameQuotes { get; set; }
         public string Name
         {
             get
@@ -31,7 +18,6 @@ namespace OSRSComSim.ViewModels
             set
             {
                 _player.Name = value;
-                OnPropertyChanged("Name");
             }
         }
 
@@ -39,7 +25,7 @@ namespace OSRSComSim.ViewModels
         public AppearanceViewModel(PlayerModel player = null)
         {
             _player = player;
-            _setnamequotes = "Enter player name here.";
+            SetNameQuotes = "Enter player name here.";
             
             View = new AppearanceView(this);
         }

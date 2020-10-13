@@ -1,110 +1,86 @@
 ﻿using OSRSComSim.Models;
 using OSRSComSim.Views;
-using System.Windows;
+using System.Collections.ObjectModel;
 
 namespace OSRSComSim.ViewModels
 {
     public class ControlPanelViewModel : ObservableObject
     {
-        private string view_mode;
         private string cp_mode;
 
-        private PlayerModel _player;
-        public object _tabs_background;
-        private string _create_mode_tabs_visibility = "Collapsed";
-        private string _edit_mode_tabs_visibility = "Collapsed";
-        private string _interactive_mode_tabs_visibility = "Collapsed";
         private LoadScreenViewModel _loadscreenviewmodel;
 
         public object View { get; set; }
-        public PlayerModel SelectedPlayer
-        {
-            get { return _player; }
-            set
-            {
-                _player = value;
-                setViewMode(view_mode);
-            }
-        }
-        public object TabsBackground { get; set; }
+        public ObservableCollection<Tab> TabsLeft { get; set;}
+        public ObservableCollection<Tab> TabsRight { get; set; }
+        public PlayerModel SelectedPlayer { get; set; }
         public object ViewContent { get; set; }
-        public string CreateModeTabsVisibility
-        {
-            get { return _create_mode_tabs_visibility; }
-            set
-            {
-                TabsBackground = new Thickness(0, 0, 0, 0);
-                _create_mode_tabs_visibility = value;
-            }
-        }
-        public string EditModeTabsVisibility
-        {
-            get { return _edit_mode_tabs_visibility; }
-            set
-            {
-                TabsBackground = new Thickness(0, 0, 0, 0);
-                _edit_mode_tabs_visibility = value;
-            }
-        }
-        public string InteractiveModeTabsVisibility
-        {
-            get { return _interactive_mode_tabs_visibility; }
-            set
-            {
-                TabsBackground = new Thickness(0, 35, 0, 0);
-                _interactive_mode_tabs_visibility = value;
-            }
-        }
+
 
         public ControlPanelViewModel() : this(null, null, null) { }
         public ControlPanelViewModel(LoadScreenViewModel loadscreenviewmodel = null, PlayerModel player = null, string cp_mode = null) // Create, Edit, View, Interactive.
         {
             _loadscreenviewmodel = loadscreenviewmodel;
+            TabsLeft = new ObservableCollection<Tab>();
+            TabsRight = new ObservableCollection<Tab>();
+
             this.cp_mode = cp_mode;
 
             if (player != null)
                 SelectedPlayer = player;
             else SelectedPlayer = new PlayerModel();
 
-            setMode();
+            setTabs();
+
             View = new ControlPanelView(this);
         }
 
-        public void setViewMode(string view_mode)
+
+        public void run(string action)
         {
-            this.view_mode = view_mode;
-            switch (view_mode)
+            switch (action)
             {
-                case "Appearance":
-                    ViewContent = new AppearanceViewModel(SelectedPlayer).View;
+                case "appearance":
+                    ViewContent = new AppearanceViewModel(SelectedPlayer, cp_mode).View;
                     break;
-                case "Combat":
+                case "combat":
                     ViewContent = new CombatOptionsViewModel(SelectedPlayer).View;
                     break;
-                case "Skills":
+                case "skills":
                     ViewContent = new SkillsViewModel(SelectedPlayer.Skills, cp_mode).View;
                     break;
-                case "Inventory":
+                case "inventory":
                     ViewContent = new InventoryViewModel(SelectedPlayer, cp_mode).View;
                     break;
-                case "Armor":
+                case "equipment":
                     ViewContent = new WornEquipmentViewModel(SelectedPlayer.Equiped, cp_mode).View;
                     break;
-                case "Prayer":
+                case "prayer":
                     break;
-                case "Magic":
+                case "magic":
                     break;
-
+                case "accept":
+                    Create();
+                    break;
+                case "decline":
+                    backToLoadScreen();
+                    break;
             }
         }
+
         public void backToLoadScreen()
         {
             _loadscreenviewmodel.stopView();
         }
+
         public void Create()
         {
-            if (SelectedPlayer.Name != "Default character" && !Data_store.CheckIfPlayerExists(SelectedPlayer.Name))
+            if (SelectedPlayer.Name != "Default character")
             {
+                if(Data_store.CheckIfPlayerExists(SelectedPlayer.Name))
+                {
+                    Data_store.DeletePlayer(SelectedPlayer.Name);
+                }
                 Data_store.SavePlayer(SelectedPlayer);
                 _loadscreenviewmodel.Load_players();
                 _loadscreenviewmodel.SelectedPlayer = SelectedPlayer;
@@ -112,23 +88,25 @@ namespace OSRSComSim.ViewModels
             }
         }
         
-        private void setMode()
+        private void setTabs()
         {
-            if (cp_mode == "Create")
+            if (cp_mode == "Create" || cp_mode == "Edit")
             {
-                CreateModeTabsVisibility = "Visible";
-                setViewMode("Appearance");
+                TabsLeft.Add(new Tab(TabTypeModel.appearance));
+                TabsRight.Add(new Tab(TabTypeModel.accept));
+                TabsRight.Add(new Tab(TabTypeModel.decline));
             }
-            else if (cp_mode == "Edit")
+            if (cp_mode == "View" || cp_mode == "Edit" || cp_mode == "Create" || cp_mode == "Interactive")
             {
-                Data_store.DeletePlayer(SelectedPlayer.Name);
-                EditModeTabsVisibility = "Visible";
-                setViewMode("Appearance");
+                TabsLeft.Add(new Tab(TabTypeModel.skills));
+                TabsLeft.Add(new Tab(TabTypeModel.inventory));
+                TabsLeft.Add(new Tab(TabTypeModel.equipment));
             }
-            else if (cp_mode == "Interactive")
+            if(cp_mode == "Interactive")
             {
-                InteractiveModeTabsVisibility = "Visible";
-                setViewMode("Skills");
+                TabsLeft.Insert(0, new Tab(TabTypeModel.combat));
+                TabsLeft.Add(new Tab(TabTypeModel.prayer));
+                TabsLeft.Add(new Tab(TabTypeModel.magic));
             }
         }
     }

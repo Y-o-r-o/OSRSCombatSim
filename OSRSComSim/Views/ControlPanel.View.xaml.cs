@@ -13,28 +13,16 @@ namespace OSRSComSim.Views
             view_model = VM;
             DataContext = view_model;
             InitializeComponent();
-         }
+        }
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
             view_model = (ControlPanelViewModel)DataContext;
         }
 
-
-
-        private void ViewContents_Click(object sender, RoutedEventArgs e)
+        private void Tab_Click(object sender, RoutedEventArgs e)
         {
-            view_model.setViewMode((sender as Button).Tag.ToString());
-        }
-
-        private void CreateButton_Click(object sender, RoutedEventArgs e)
-        {
-            view_model.Create();
-        }
-
-        private void CancelButton_Click(object sender, RoutedEventArgs e)
-        {
-            view_model.backToLoadScreen();
+            view_model.run((sender as Button).Tag.ToString());
         }
 
     }

@@ -32,58 +32,65 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
+
         <Border Grid.RowSpan="2" Margin="{Binding TabsBackground}" BorderThickness="0">
             <Border.Background>
-                <ImageBrush ImageSource="../Resources/App/Tab/background.png" TileMode="Tile" ViewportUnits="Absolute" Viewport="0,0,132,90"/>
+                <ImageBrush 
+                    ImageSource="../Resources/App/Tab/background.png" 
+                    TileMode="Tile" 
+                    ViewportUnits="Absolute" 
+                    Viewport="0,0,132,90"
+                    />
             </Border.Background>
         </Border>
-        <Viewbox Grid.Row="0" Grid.Column="0" Stretch="Uniform" StretchDirection="Both" VerticalAlignment="Bottom" HorizontalAlignment="Left" MaxHeight="75">
-            <StackPanel Orientation="Horizontal">
-                <Button Tag="Appearance" Click="ViewContents_Click" Visibility="{Binding CreateModeTabsVisibility}">
-                    <Grid>
-                        <Image Source="../Resources/App/Tab/panel_slot.png"/>
-                        <Image Source="../Resources/App/Tab/appea.png" Width="40" Height="40"/>
-                    </Grid>
-                </Button>
-                <Button Tag="Combat" Click="ViewContents_Click" Visibility="{Binding InteractiveModeTabsVisibility}">
-                    <Grid>
-                        <Image Source="../Resources/App/Tab/panel_slot.png"/>
-                        <Image Source="../Resources/App/Tab/combat.png" Width="40" Height="40"/>
-                    </Grid>
-                </Button>
-                <Button Tag="Skills" Click="ViewContents_Click">
-                    <Grid>
-                        <Image Source="../Resources/App/Tab/panel_slot.png"/>
-                        <Image Source="../Resources/App/Tab/status.png" Width="40" Height="40"/>
-                    </Grid>
-                </Button>
-                <Button Tag="Inventory" Click="ViewContents_Click">
-                    <Grid>
-                        <Image Source="../Resources/App/Tab/panel_slot.png" />
-                        <Image Source="../Resources/App/Tab/inventory.png" Width="40" Height="40"/>
-                    </Grid>
-                </Button>
-                <Button Tag="Armor" Click="ViewContents_Click">
-                    <Grid>
-                        <Image Source="../Resources/App/Tab/panel_slot.png"/>
-                        <Image Source="../Resources/App/Tab/armor.png" Width="50" Height="50"/>
-                    </Grid>
-                </Button>
-                <Button Tag="Prayer" Click="ViewContents_Click" Visibility="{Binding InteractiveModeTabsVisibility}">
-                    <Grid>
-                        <Image Source="../Resources/App/Tab/panel_slot.png"/>
-                        <Image Source="../Resources/App/Tab/prayer.png" Width="40" Height="40"/>
-                    </Grid>
-                </Button>
-                <Button Tag="Magic" Click="ViewContents_Click" Visibility="{Binding InteractiveModeTabsVisibility}">
-                    <Grid>
-                        <Image Source="../Resources/App/Tab/panel_slot.png"/>
-                        <Image Source="../Resources/App/Tab/Magic.png" Width="40" Height="40"/>
-                    </Grid>
-                </Button>
-            </StackPanel>
+
+        <Viewbox MaxHeight="60" HorizontalAlignment="Left">
+            <ItemsControl ItemsSource="{Binding TabsLeft}">
+
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Horizontal"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+
+                <ItemsControl.ItemTemplate>
+                    <HierarchicalDataTemplate>
+                        <Button Tag="{Binding Type}" Click="Tab_Click" >
+                            <Grid>
+                                <Image Source="../Resources/App/Tab/panel_slot.png"/>
+                                <Image Source="{Binding Png}" Width="40" Height="40"/>
+                            </Grid>
+                        </Button>
+                    </HierarchicalDataTemplate>
+                </ItemsControl.ItemTemplate>
+
+            </ItemsControl>
         </Viewbox>
-        <Viewbox Grid.Row="0" Grid.Column="0" Stretch="Uniform" StretchDirection="Both" VerticalAlignment="Bottom" HorizontalAlignment="Right" MaxHeight="75" Visibility="{Binding CreateModeTabsVisibility}">
+
+        <Viewbox MaxHeight="60" HorizontalAlignment="Right">
+            <ItemsControl ItemsSource="{Binding TabsRight}">
+
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Horizontal"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+
+                <ItemsControl.ItemTemplate>
+                    <HierarchicalDataTemplate>
+                        <Button Tag="{Binding Type}" Click="Tab_Click" >
+                            <Grid>
+                                <Image Source="../Resources/App/Tab/panel_slot.png"/>
+                                <Label Content="{Binding Type}" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Yellow"  FontSize="10"/>
+                            </Grid>
+                        </Button>
+                    </HierarchicalDataTemplate>
+                </ItemsControl.ItemTemplate>
+
+            </ItemsControl>
+        </Viewbox>
+        <!--
+        <Viewbox MaxHeight="60" HorizontalAlignment="Right">
             <StackPanel Orientation="Horizontal">
                 <Button x:Name="CreateButton" Click="CreateButton_Click">
                     <Grid>
@@ -99,14 +106,7 @@
                 </Button>
             </StackPanel>
         </Viewbox>
-        <Viewbox Grid.Row="0" Grid.Column="0" Stretch="Uniform" StretchDirection="Both" VerticalAlignment="Bottom" HorizontalAlignment="Right" MaxHeight="75" Visibility="{Binding EditModeTabsVisibility}">
-                <Button x:Name="DondeButton" Click="CreateButton_Click" >
-                    <Grid>
-                        <Image Source="../Resources/App/Tab/panel_slot.png"/>
-                        <Label Content="Accept" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGreen"  FontSize="10"/>
-                    </Grid>
-                </Button>
-        </Viewbox>
+        -->
         <ContentControl Grid.Row="1" Grid.Column="0" Content="{Binding ViewContent}"/>
-    </Grid>
+        </Grid>
 </UserControl>

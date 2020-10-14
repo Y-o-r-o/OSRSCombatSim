@@ -12,7 +12,6 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="50"/>
-            <RowDefinition Height="50"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
@@ -22,10 +21,10 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <TextBox x:Name="EnterNameBox" Text="{Binding Name}" TextAlignment="Center" FontSize="30"  Margin="75,0,0.333,0" Grid.Row="2" Grid.ColumnSpan="2" GotFocus="EnterNameBox_GotFocus"/>
+        <TextBox x:Name="EnterNameBox" Text="{Binding Name}" TextAlignment="Center" FontSize="30"  Margin="75,0,0.333,0" Grid.Row="1" Grid.ColumnSpan="2" GotFocus="EnterNameBox_GotFocus"/>
 
-        <Button Margin="299.667,0,0.333,0" Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="1" Content="OK" Click="CaptureName_Btn_Click"/>
+        <Button Margin="299.667,0,0.333,0" Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="1" Content="OK" Click="CaptureName_Btn_Click"/>
 
-        <TextBlock Grid.Row="3" Grid.Column="1" FontSize="12" Text="{Binding SetNameQuotes}"/>
+        <TextBlock Grid.Row="2" Grid.Column="1" FontSize="12" Text="{Binding SetNameQuotes}"/>
     </Grid>
 </UserControl>

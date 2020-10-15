@@ -92,7 +92,7 @@
     <Compile Include="Models\Tab.Model.cs" />
     <Compile Include="Models\TabTypeModel.cs" />
     <Compile Include="Models\WeaponType.Model.cs" />
-    <Compile Include="ObservableObject.cs" />
+    <Compile Include="ViewModels\Base\ObservableObject.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -100,14 +100,16 @@
     </Compile>
     <Compile Include="String_functions.cs" />
     <Compile Include="ViewModels\Appearance.ViewModel.cs" />
+    <Compile Include="ViewModels\Base\RelayCommand.cs" />
     <Compile Include="ViewModels\Battle.ViewModel.cs" />
     <Compile Include="ViewModels\CombatOptions.ViewModel.cs" />
     <Compile Include="ViewModels\ControlPanel.ViewModel.cs" />
     <Compile Include="ViewModels\Inventory.ViewModel.cs" />
+    <Compile Include="ViewModels\MainWindow.ViewModel.cs" />
     <Compile Include="ViewModels\WornEquipment.ViewModel.cs" />
     <Compile Include="ViewModels\Fighter.ViewModel.cs" />
     <Compile Include="ViewModels\LoadScreen.ViewModel.cs" />
-    <Compile Include="ViewModels\MainWindow.ViewModel.cs" />
+    <Compile Include="ViewModels\StartApp.ViewModel.cs" />
     <Compile Include="ViewModels\SelectItem.ViewModel.cs" />
     <Compile Include="Views\CombatOtions.View.xaml.cs">
       <DependentUpon>CombatOtions.View.xaml</DependentUpon>
@@ -126,6 +128,9 @@
     </Compile>
     <Compile Include="Views\ControlPanel.View.xaml.cs">
       <DependentUpon>ControlPanel.View.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\StartApp.View.xaml.cs">
+      <DependentUpon>StartApp.View.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\WornEquipment.View.xaml.cs">
       <DependentUpon>WornEquipment.View.xaml</DependentUpon>
@@ -169,6 +174,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\ControlPanel.View.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\StartApp.View.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -21,14 +21,17 @@ namespace OSRSComSim.ViewModels
         public ControlPanelViewModel(LoadScreenViewModel loadscreenviewmodel = null, PlayerModel player = null, string cp_mode = null) // Create, Edit, View, Interactive.
         {
             _loadscreenviewmodel = loadscreenviewmodel;
+            this.cp_mode = cp_mode;
+
             TabsLeft = new ObservableCollection<Tab>();
             TabsRight = new ObservableCollection<Tab>();
-
-            this.cp_mode = cp_mode;
 
             if (player != null)
                 SelectedPlayer = player;
             else SelectedPlayer = new PlayerModel();
+
+            if (cp_mode == "Create") run("appearance");
+            else run("inventory");
 
             setTabs();
 
@@ -87,7 +90,7 @@ namespace OSRSComSim.ViewModels
                 backToLoadScreen();
             }
         }
-        
+
         private void setTabs()
         {
             if (cp_mode == "Create" || cp_mode == "Edit")
@@ -96,13 +99,10 @@ namespace OSRSComSim.ViewModels
                 TabsRight.Add(new Tab(TabTypeModel.accept));
                 TabsRight.Add(new Tab(TabTypeModel.decline));
             }
-            if (cp_mode == "View" || cp_mode == "Edit" || cp_mode == "Create" || cp_mode == "Interactive")
-            {
-                TabsLeft.Add(new Tab(TabTypeModel.skills));
-                TabsLeft.Add(new Tab(TabTypeModel.inventory));
-                TabsLeft.Add(new Tab(TabTypeModel.equipment));
-            }
-            if(cp_mode == "Interactive")
+            TabsLeft.Add(new Tab(TabTypeModel.skills));
+            TabsLeft.Add(new Tab(TabTypeModel.inventory));
+            TabsLeft.Add(new Tab(TabTypeModel.equipment));
+            if (cp_mode == "Interactive")
             {
                 TabsLeft.Insert(0, new Tab(TabTypeModel.combat));
                 TabsLeft.Add(new Tab(TabTypeModel.prayer));

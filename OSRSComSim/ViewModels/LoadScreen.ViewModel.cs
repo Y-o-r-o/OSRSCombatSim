@@ -10,7 +10,7 @@ namespace OSRSComSim.ViewModels
     {
         private string fighter_num;
         public object _viewcontent;
-        private MainWindowViewModel _mainwindowVM;
+        private StartAppViewModel _mainwindowVM;
 
         public object View { get; set; }
         public PlayerModel SelectedPlayer { get; set; }
@@ -20,7 +20,7 @@ namespace OSRSComSim.ViewModels
         public object ViewContent { get; set; }
 
         public LoadScreenViewModel() : this(null, null) { }
-        public LoadScreenViewModel(MainWindowViewModel mainWindowVM = null, string fighter_num = null)
+        public LoadScreenViewModel(StartAppViewModel mainWindowVM = null, string fighter_num = null)
         {
             _mainwindowVM = mainWindowVM;
             PlayerList = new ObservableCollection<PlayerModel>();
@@ -67,6 +67,7 @@ namespace OSRSComSim.ViewModels
                 {
                     SelectedPlayer = player;
                     ControlsView.SelectedPlayer = SelectedPlayer;
+                    ControlsView.run("inventory");
                 }
             }
         }

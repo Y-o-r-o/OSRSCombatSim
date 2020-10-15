@@ -1,26 +1,65 @@
-﻿namespace OSRSComSim.ViewModels
+﻿
+
+
+
+using OSRSComSim.ViewModels.Base;
+using OSRSComSim.Views;
+using System.Windows;
+using System.Windows.Input;
+
+namespace OSRSComSim.ViewModels
 {
     public class MainWindowViewModel : ObservableObject
     {
-        public BattleViewModel Battle { get; set; }
+        #region Private members
 
-        public object ViewContent { get; set; }
+        /// <summary>
+        /// The window this view model controls
+        /// </summary>
+        private Window mWindow;
 
-        public MainWindowViewModel()
+        #endregion
+        #region Public properties
+
+        /// <summary>
+        /// View aplication
+        /// </summary>
+        public StartAppView appView { get; set; }
+        
+        #endregion
+        #region Commands
+
+        /// <summary>
+        /// The command to minimize the window
+        /// </summary>
+        public ICommand MinimizeCommand { get; set; }
+
+        /// <summary>
+        /// The command to maximize the window
+        /// </summary>
+        public ICommand MaximizeCommand { get; set; }
+
+        /// <summary>
+        /// The command to close the window
+        /// </summary>
+        public ICommand CloseCommand { get; set; }
+
+        #endregion
+
+        #region Constructor
+        
+        public MainWindowViewModel(Window window)
         {
-            Battle = new BattleViewModel();
+            mWindow = window;
+
+            appView = new StartAppView();
+
+            MinimizeCommand = new RelayCommand(() => mWindow.WindowState = WindowState.Minimized);
+            MaximizeCommand = new RelayCommand(() => mWindow.WindowState ^= WindowState.Maximized);
+            CloseCommand = new RelayCommand(() => mWindow.Close());
         }
 
-
-        public void viewLoadScreen(string fighter_num)
-        {
-            Battle.Reset();
-            ViewContent = new LoadScreenViewModel(this, fighter_num).View;
-        }
-        public void stopView()
-        {
-            ViewContent = null;
-        }
+        #endregion
 
     }
 }

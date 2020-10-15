@@ -7,82 +7,79 @@
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
         xmlns:viewmodels ="clr-namespace:OSRSComSim.ViewModels"
         xmlns:views ="clr-namespace:OSRSComSim.Views"
-        
+        WindowStyle="None"
+        AllowsTransparency="True"
+        WindowStartupLocation="CenterScreen"
         mc:Ignorable="d"
         Title="Bones OSRS" Height="720" Width="1280"
-        WindowStartupLocation="CenterScreen"
         ResizeMode="NoResize"
         Icon="./Resources/OSRSBone.ico"
         >
 
+    <Window.Resources>
+        <Style TargetType="{x:Type local:MainWindow}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Window}">
+                        <Border Padding="10">
+                            <Grid>
+                                <Border>
+                                    <Border.Effect>
+                                        <DropShadowEffect ShadowDepth="0" Opacity="0.2" Color="Brown" />
+                                    </Border.Effect>
+                                    
+                                    <Grid Background="White">
 
-    <Window.DataContext>
-        <viewmodels:MainWindowViewModel/>
-    </Window.DataContext>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="20"/>
+                                            <RowDefinition Height="*"/>
+                                        </Grid.RowDefinitions>
 
+                                        <Grid Grid.Row="0" Panel.ZIndex="1">
 
-    <Grid  x:Name ="Main" Background="#FF726A5E">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="220"/>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="220"/>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="6*"/>
-            <RowDefinition Height="200"/>
-            <RowDefinition Height="100"/>
-        </Grid.RowDefinitions>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="Auto"/>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="Auto"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Image Grid.Column="0" Grid.Row="0" Source="./Resources/OSRSBone.ico" Margin="2, 2, 2, 2"/>
 
-        <Image Grid.Row="2" Grid.RowSpan="2" Grid.ColumnSpan="7" Source="./Resources/EdgeVille.png" Stretch="UniformToFill" Margin="0,0,0,-20"/>
+                                            <Viewbox Grid.Column="1">
+                                                <TextBlock Text="OSRS Bones"/>
+                                            </Viewbox>
 
+                                            <StackPanel Grid.Column="2" Orientation="Horizontal">
+                                                <Button Command="{Binding MinimizeCommand}" Content="_" />
+                                                <Button Command="{Binding MaximizeCommand}" Content="[ ]" />
+                                                <Button Command="{Binding CloseCommand}" Content="X"/>
+                                            </StackPanel>
 
-        <Label Grid.Row="2" Grid.Column="2" Content="{Binding Battle.Fighter1.LastAtkStatContext}" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20" Background="{Binding Battle.Fighter1.LastAtkStatColor}"  Foreground="White" Height="30" Margin="0,5,0,0" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Center" Padding="5,0,5,5"/>
-        <Label Grid.Row="2" Grid.Column="4" Content="{Binding Battle.Fighter2.LastAtkStatContext}" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20" Background="{Binding Battle.Fighter2.LastAtkStatColor}"  Foreground="White" Height="30" Margin="0,5,0,0" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Center" Padding="5,0,5,5"/>
+                                        </Grid>
 
-        <Viewbox Grid.Row="2" Grid.Column="2" VerticalAlignment="Top" Height="20" Margin="0,50,0,0">
-            <Grid>
-                <Rectangle Fill="LightGreen" HorizontalAlignment="Center" Height="20" Width="100"/>
-                <Rectangle Fill="Red" HorizontalAlignment="Right" Height="20" Width="{Binding Battle.Fighter1.Fighter.Skills.Status.HealthTaken}"/>
-            </Grid>
-        </Viewbox>
-        <Viewbox Grid.Row="2" Grid.Column="4" VerticalAlignment="Top" Height="20" Margin="0,50,0,0">
-            <Grid>
-                <Rectangle Fill="LightGreen" HorizontalAlignment="Center" Height="20" Width="100"/>
-                <Rectangle Fill="Red" HorizontalAlignment="Right" Height="20" Width="{Binding Battle.Fighter2.Fighter.Skills.Status.HealthTaken}"/>
-            </Grid>
-        </Viewbox>
+                                        <ContentPresenter Grid.Row="1" Content="{TemplateBinding Content}"/>
 
+                                    </Grid>
 
-        <Border Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="1" HorizontalAlignment="Center" Width="300" Height="35">
-            <TextBlock x:Name="Fighter1" TextWrapping="Wrap" Text="{Binding Battle.Fighter1.Name}" FontSize="25" VerticalAlignment="Stretch" HorizontalAlignment="Center"/>
-        </Border>
-        <Border Grid.Column="3" Grid.ColumnSpan="3" Grid.Row="1" HorizontalAlignment="Center" Width="300" Height="35">
-            <TextBlock x:Name="Fighter2" TextWrapping="Wrap" Text="{Binding Battle.Fighter2.Name}" FontSize="25" VerticalAlignment="Stretch" HorizontalAlignment="Center"/>
-        </Border>
-
-        <Button Grid.Column="1" Grid.ColumnSpan="3" x:Name ="Button_Load_1" Content="PLAYER SELECT" Height="40" Width="180" HorizontalAlignment="Center" FontSize="20" Click="Button_Load_1_Click"/>
-        <Button Grid.Column="3" Grid.ColumnSpan="3" x:Name ="Button_Load_2" Content="PLAYER SELECT" Height="40" Width="180" HorizontalAlignment="Center" FontSize="20" Click="Button_Load_2_Click"/>
-        <Button Grid.Column="3" Grid.Row="4" x:Name ="Button_Fight" Content="{Binding Battle.ButtonFightContent}" Height="40" Width="90" HorizontalAlignment="Center" FontSize="20" Click="Button_Fight_Click"/>
-
-
-
-
-        <ContentControl Grid.Row="3" Grid.RowSpan="2" Grid.Column="0" Content="{Binding Battle.Fighter1.ControlPanel.View}"/>
-        <ContentControl Grid.Row="3" Grid.RowSpan="2" Grid.Column="7" Content="{Binding Battle.Fighter2.ControlPanel.View}"/>
-
-        <ContentControl Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" Content="{Binding Battle.Fighter1.View}" Height="20" Width="10"/>
-        <ContentControl Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" Content="{Binding Battle.Fighter2.View}" Height="20" Width="10" Margin="20,0,-20,0"/>
-
-
-
-        <ContentControl Grid.RowSpan="5" Grid.ColumnSpan="7" x:Name="show_content" Loaded="Load_Screen_loaded" Content="{Binding ViewContent}"/>
+                                </Border>
+                            </Grid>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
     
-    </Grid>
+    <WindowChrome.WindowChrome>
+        <WindowChrome 
+            ResizeBorderThickness="0"
+            CaptionHeight="0"
+            CornerRadius="0"
+            GlassFrameThickness="0"
+            />
+    </WindowChrome.WindowChrome>
 
+
+    <ContentControl Grid.RowSpan="5" Grid.ColumnSpan="7" x:Name="show_content" Content="{Binding appView}"/>
+    
+    
 </Window>

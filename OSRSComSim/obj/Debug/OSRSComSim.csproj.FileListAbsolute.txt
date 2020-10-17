@@ -39,8 +39,10 @@ D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\Inventory.View.g.cs
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\Inventory.View.baml
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\SelectItem.View.g.cs
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\SelectItem.View.baml
-D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\OSRSComSim.csprojAssemblyReference.cache
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\OSRSComSim.csproj.Fody.CopyLocal.cache
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\StartApp.View.g.cs
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Views\StartApp.View.baml
 D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\Styles\Buttons.baml
+D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\OSRSComSim.csprojAssemblyReference.cache
+D:\Projects\OSRSComSim\OSRSComSim\obj\Debug\App.baml

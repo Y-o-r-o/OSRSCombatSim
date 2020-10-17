@@ -49,9 +49,9 @@
                                             </Viewbox>
 
                                             <StackPanel Grid.Column="2" Orientation="Horizontal">
-                                                <Button Command="{Binding MinimizeCommand}" Content="_" />
-                                                <Button Command="{Binding MaximizeCommand}" Content="[ ]" />
-                                                <Button Command="{Binding CloseCommand}" Content="X"/>
+                                                <Button Command="{Binding MinimizeCommand}" Style="{StaticResource WindowControlButton}" Content="_" />
+                                                <Button Command="{Binding MaximizeCommand}" Style="{StaticResource WindowControlButton}" Content="[ ]" />
+                                                <Button Command="{Binding CloseCommand}" Style="{StaticResource WindowCloseButton}" Content="X"/>
                                             </StackPanel>
 
                                         </Grid>
